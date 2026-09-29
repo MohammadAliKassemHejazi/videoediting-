@@ -8,6 +8,7 @@ and makes contact sheets so Claude can review its own work and fix it.
 > The prompt is 10% of the video. The other 90% is the harness.
 
 - Full background and theory: [`docs/Opus_Motion_Studio_Documentation.md`](docs/Opus_Motion_Studio_Documentation.md)
+- **New here? Start with the step-by-step [`GUIDE.md`](GUIDE.md).**
 - Rules Claude follows in this repo: [`CLAUDE.md`](CLAUDE.md)
 
 ---
@@ -316,7 +317,7 @@ render.mjs                     Chromium → H.264 (GPU subframe blend, parallel 
 sfx.mjs  cues.json             procedural sound effects → WAV
 beats.py  requirements.txt     beat grid from a music track (librosa)
 scripts/                       tiktok, mux, critique, determinism, formats, bench (Node, cross-platform)
-prompts/                       director prompts A–D, TikTok overlay prompt E, evaluation prompt
+prompts/                       A showreel (+A2 variants), B launch, C style transfer, D UI morph, E TikTok, F director brief, evaluation
 .claude/skills/motion-reel/    the /motion-reel skill
 test/                          unit tests (node --test)
 Dockerfile  docker-compose.yml container toolchain

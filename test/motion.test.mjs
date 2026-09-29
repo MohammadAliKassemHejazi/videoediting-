@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 await import('../lib/motion.js');
-const { spring, track, rng, indicator, beatIndex } = globalThis.Motion;
+const { spring, track, rng, indicator, beatIndex, swapAlpha, loopT } = globalThis.Motion;
 
 test('spring starts at 0 and settles at 1 for all damping regimes', () => {
   for (const [k, d] of [[170, 26], [240, 14], [100, 20], [100, 40]]) {
@@ -29,4 +29,15 @@ test('indicator edges stay ordered', () => {
 test('beatIndex finds the last beat at or before t', () => {
   assert.equal(beatIndex(1.2, [0, 0.5, 1, 1.5]), 2);
   assert.equal(beatIndex(-1, [0, 0.5]), -1);
+});
+
+test('swapAlpha is 0 outside and 1 inside the window', () => {
+  assert.equal(swapAlpha(0, 1, 3), 0);
+  assert.equal(swapAlpha(2, 1, 3), 1);
+  assert.equal(swapAlpha(3.5, 1, 3), 0);
+});
+
+test('loopT wraps negative and overflow time', () => {
+  assert.equal(loopT(16, 15), 1);
+  assert.equal(loopT(-1, 15), 14);
 });
