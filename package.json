@@ -1,0 +1,20 @@
+{
+  "name": "motion-studio",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Code-rendered motion graphics pipeline: window.seek(t) + Playwright + FFmpeg.",
+  "scripts": {
+    "render": "node render.mjs",
+    "render:preview": "node render.mjs --fps 30 --sub 1",
+    "sfx": "node sfx.mjs cues.json out/sfx.wav",
+    "mux": "bash scripts/mux.sh",
+    "critique": "bash scripts/critique.sh",
+    "determinism": "bash scripts/determinism.sh",
+    "build": "npm run render && npm run sfx && npm run mux && npm run critique",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "playwright": "^1.56.0"
+  }
+}

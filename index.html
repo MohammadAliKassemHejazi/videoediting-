@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Motion Studio</title>
+  <style>
+    html, body { margin: 0; padding: 0; background: #141413; overflow: hidden; }
+    canvas { display: block; }
+  </style>
+  <script src="lib/motion.js"></script>
+</head>
+<body>
+<canvas id="c"></canvas>
+<script>
+// Film: a pure function of time. Size comes from ?w=&h= so one timeline renders 9:16, 1:1, 16:9.
+const q = new URLSearchParams(location.search);
+const W = +q.get('w') || 1080, H = +q.get('h') || 1920, DUR = 15;
+const canvas = document.getElementById('c');
+canvas.width = W; canvas.height = H;
+const g = canvas.getContext('2d');
+const { clamp, lerp, spring, track, rng, PRESETS: P } = Motion;
+
+const BG = '#141413', FG = '#F0EEE6', ACCENT = '#D97757';
+const DISPLAY = '"Source Serif 4", Georgia, serif';
+const UI = 'Inter, "Helvetica Neue", Arial, sans-serif';
+const U = Math.min(W, H) / 1080;   // layout unit: 1 at 1080 short side
+const BPM = 120, BEAT = 60 / BPM;   // default grid; replace with beats.json when a track is supplied
+
+const sp = (t, p) => spring(t, p.k, p.d);
+
+const SCENES = [
+  { // 0–3s — hook: kinetic type slams in off-centre, underline races
+    from: 0, to: 3,
+    draw(t) {
+      const words = ['CODE', 'IS', 'THE', 'CAMERA'];
+      g.textBaseline = 'alphabetic'; g.textAlign = 'left';
+      words.forEach((w, i) => {
+        const s = sp(t - i * BEAT / 2, P.snappy);
+        const size = (i === 3 ? 185 : 170) * U;
+        g.font = `700 ${size}px ${DISPLAY}`;
+        const y = H * 0.30 + i * 200 * U;
+        const x = 80 * U + (1 - s) * -W * 0.6;
+        g.fillStyle = i === 3 ? ACCENT : FG;
+        g.fillText(w, x, y);
+      });
+      const u = sp(t - 2 * BEAT, P.snappy);
+      g.fillStyle = ACCENT;
+      g.fillRect(80 * U, H * 0.30 + 640 * U, (W - 160 * U) * u, 14 * U);
+      // exit: whole block wipes up
+      const out = sp(t - 2.6, P.snappy);
+      if (out > 0) { g.fillStyle = BG; g.fillRect(0, H * (1 - out), W, H * out); }
+    }
+  },
+  { // 3–6s — grid assembles on the beat, staggered by seeded noise
+    from: 3, to: 6,
+    draw(t) {
+      const r = rng(42), cols = 6, rows = 8, cell = Math.min(W / (cols + 1), H / (rows + 2));
+      const ox = (W - cols * cell) / 2 + cell / 2, oy = (H - rows * cell) / 2 + cell / 2;
+      for (let i = 0; i < cols * rows; i++) {
+        const x = ox + (i % cols) * cell, y = oy + Math.floor(i / cols) * cell;
+        const s = sp(t - i * 0.02 - r() * 0.08, { k: 260, d: 20 });
+        const rot = (1 - s) * Math.PI / 2;
+        g.save(); g.translate(x, y); g.rotate(rot);
+        g.fillStyle = i % 7 === 0 ? ACCENT : FG;
+        const half = cell * 0.32 * s;
+        g.fillRect(-half, -half, half * 2, half * 2);
+        g.restore();
+      }
+    }
+  },
+  { // 6–9s — single container morphs: pill → card → circle (never cuts)
+    from: 6, to: 9,
+    draw(t) {
+      const keys = (a, b, c) => [[0, a], [0.9, b], [1.9, c]];
+      const w = track(t, keys(520 * U, 820 * U, 360 * U), P.canvas.k, P.canvas.d);
+      const h = track(t, keys(140 * U, 520 * U, 360 * U), P.canvas.k, P.canvas.d);
+      const r = track(t, keys(70 * U, 40 * U, 180 * U), P.canvas.k, P.canvas.d);
+      const e = sp(t, P.snappy);
+      g.save(); g.translate(W / 2, H / 2 - (1 - e) * 200 * U);
+      g.fillStyle = t < 1.9 ? FG : ACCENT;
+      g.beginPath(); g.roundRect(-w / 2, -h / 2, w, h, r); g.fill();
+      // content swaps: enters after morph starts, leaves before the next one
+      const label = t < 0.9 ? 'Render' : t < 1.9 ? 'seek(t)' : '✓';
+      const local = t < 0.9 ? t : t < 1.9 ? t - 0.9 : t - 1.9;
+      g.globalAlpha = clamp((local - 0.12) * 8) * clamp((0.95 - local) * 10 + (t >= 1.9 ? 99 : 0));
+      g.fillStyle = BG; g.textAlign = 'center'; g.textBaseline = 'middle';
+      g.font = `600 ${(t >= 1.9 ? 160 : 72) * U}px ${t >= 0.9 && t < 1.9 ? 'ui-monospace, Menlo, monospace' : UI}`;
+      g.fillText(label, 0, 0);
+      g.restore();
+    }
+  },
+  { // 9–12s — one number, counting on a spring, with a bar chart drawing itself
+    from: 9, to: 12,
+    draw(t) {
+      const n = Math.round(60 * sp(t - 0.1, P.heavy));
+      g.fillStyle = FG; g.textAlign = 'left'; g.textBaseline = 'alphabetic';
+      g.font = `700 ${320 * U}px ${DISPLAY}`;
+      g.fillText(String(n), 80 * U, H * 0.42);
+      g.font = `500 ${54 * U}px ${UI}`; g.fillStyle = ACCENT;
+      g.globalAlpha = clamp((t - 0.4) * 5);
+      g.fillText('frames per second, deterministic', 80 * U, H * 0.42 + 90 * U);
+      g.globalAlpha = 1;
+      const bars = 8, bw = (W - 160 * U) / bars;
+      for (let i = 0; i < bars; i++) {
+        const s = sp(t - 0.6 - i * 0.06, P.snappy);
+        const bh = (120 + ((i * 97) % 260)) * U * s;
+        g.fillStyle = i === bars - 1 ? ACCENT : FG;
+        g.fillRect(80 * U + i * bw + 8 * U, H * 0.82 - bh, bw - 16 * U, bh);
+      }
+    }
+  },
+  { // 12–15s — logo lockup + CTA; last frame settles back to BG to loop cleanly
+    from: 12, to: 15,
+    draw(t) {
+      const s = sp(t, P.heavy), c = sp(t - 0.5, P.playful);
+      g.save(); g.translate(W / 2, H / 2);
+      g.fillStyle = ACCENT;
+      g.beginPath(); g.arc(0, -160 * U, 90 * U * s, 0, Math.PI * 2); g.fill();
+      g.fillStyle = FG; g.textAlign = 'center'; g.textBaseline = 'middle';
+      g.font = `700 ${120 * U}px ${DISPLAY}`;
+      g.fillText('Motion Studio', 0, 20 * U + (1 - s) * 80 * U);
+      g.scale(c, c);
+      g.strokeStyle = FG; g.lineWidth = 4 * U;
+      g.beginPath(); g.roundRect(-230 * U, 130 * U, 460 * U, 100 * U, 50 * U); g.stroke();
+      g.font = `600 ${44 * U}px ${UI}`;
+      g.fillText('npm run build', 0, 180 * U);
+      g.restore();
+      const out = sp(t - 2.5, P.snappy);
+      if (out > 0) { g.fillStyle = BG; g.fillRect(0, 0, W, H * out); }
+    }
+  }
+];
+
+function draw(t) {
+  g.globalAlpha = 1;
+  g.fillStyle = BG;
+  g.fillRect(0, 0, W, H);
+  for (const s of SCENES) if (t >= s.from && t < s.to) s.draw(t - s.from);
+}
+
+window.DURATION = DUR;
+window.seek = (t) => { draw(t); return true; };
+
+// Browser preview loop (disabled during automated headless runs)
+if (!navigator.webdriver) {
+  const t0 = performance.now();
+  (function loop() {
+    draw(((performance.now() - t0) / 1000) % DUR);
+    requestAnimationFrame(loop);
+  })();
+}
+</script>
+</body>
+</html>
