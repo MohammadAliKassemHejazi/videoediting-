@@ -45,3 +45,12 @@ the harness renders it frame-by-frame to video. Full reference: `docs/Opus_Motio
 3. Fix the 3 lowest-scoring criteria.
 4. Loop until every score is 8 or higher.
 5. Only then trigger the full subframe render.
+
+## TikTok overlays (personal videos edited in CapCut)
+- `overlay.html` + `lib/overlay-kit.js` draw transparent overlays from a timeline file in `overlays/`.
+  Components: hook, caption, title, sticker, circle, arrow, counter, cta, progress, flash.
+- `npm run tiktok -- clips/x.mp4 --timeline overlays/x.js` renders at the clip's size/fps/length,
+  adds SFX from the timeline, and burns in → `out/x_motion.mp4`. `--capcut` also writes a
+  transparent ProRes 4444 `out/x_overlay.mov`.
+- Keep overlay content inside `OverlayKit.SAFE` and away from the speaker's face.
+- Add new components to `lib/overlay-kit.js` (pure functions of local time) and a default SFX in `DEFAULT_SFX`.

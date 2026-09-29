@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Overlay Preview</title>
+  <link rel="stylesheet" href="node_modules/@fontsource/inter/600.css">
+  <link rel="stylesheet" href="node_modules/@fontsource/inter/700.css">
+  <link rel="stylesheet" href="node_modules/@fontsource/inter/800.css">
+  <link rel="stylesheet" href="node_modules/@fontsource/inter/900.css">
+  <style>
+    html, body { margin: 0; background: transparent; overflow: hidden; }
+    canvas, video { display: block; }
+    body.preview { background: #222; height: 100vh; display: grid; place-items: center; font: 14px Inter, sans-serif; color: #ccc; }
+    body.preview .stage { position: relative; height: calc(100vh - 56px); }
+    body.preview .stage > * { position: absolute; inset: 0; height: 100%; width: 100%; object-fit: cover; }
+    body.preview .stage canvas { position: relative; width: auto; }
+    .bar { display: flex; gap: 12px; align-items: center; height: 40px; }
+    .bar input[type=range] { width: 50vw; }
+  </style>
+  <script src="lib/motion.js"></script>
+  <script src="lib/overlay-kit.js"></script>
+  <script>
+    // Timeline file: ?timeline=overlays/my_video.js (sets window.OVERLAY). Loaded synchronously.
+    const Q = new URLSearchParams(location.search);
+    document.write('<script src="' + (Q.get('timeline') || 'overlays/example.js') + '"><\/script>');
+  </script>
+</head>
+<body>
+<canvas id="c"></canvas>
+<script>
+const W = +Q.get('w') || 1080, H = +Q.get('h') || 1920;
+const RENDER = Q.has('render');
+const canvas = document.getElementById('c');
+canvas.width = W; canvas.height = H;
+const g = canvas.getContext('2d');
+const TL = window.OVERLAY;
+if (Q.get('dur')) TL.duration = +Q.get('dur'); // set by `npm run tiktok` to the clip length
+
+window.DURATION = OverlayKit.durationOf(TL);
+window.FONTS = ['600 100px Inter', '700 100px Inter', '800 100px Inter', '900 100px Inter'];
+window.seek = (t) => { OverlayKit.drawTimeline(g, TL, t, W, H); return true; };
+
+// ---------- browser preview (ignored when rendering) ----------
+// overlay.html?timeline=overlays/example.js&bg=path/to/clip.mp4&safe=1
+if (!RENDER && !navigator.webdriver) {
+  document.body.className = 'preview';
+  const stage = document.createElement('div');
+  stage.className = 'stage';
+  stage.style.aspectRatio = `${W} / ${H}`;
+  document.body.prepend(stage);
+  let video = null;
+  if (Q.get('bg')) {
+    video = document.createElement('video');
+    video.src = Q.get('bg'); video.muted = false; video.loop = true; video.playsInline = true;
+    video.controls = false;
+    stage.appendChild(video);
+  } else {
+    stage.style.background = 'repeating-conic-gradient(#555 0 25%, #444 0 50%) 0 0 / 40px 40px';
+  }
+  stage.appendChild(canvas);
+  if (Q.get('safe')) {
+    const S = OverlayKit.SAFE, guide = document.createElement('div');
+    guide.style.cssText = `position:absolute;left:${S.left*100}%;right:${S.right*100}%;top:${S.top*100}%;bottom:${S.bottom*100}%;outline:2px dashed #0f0;pointer-events:none`;
+    stage.appendChild(guide);
+  }
+  const bar = document.createElement('div');
+  bar.className = 'bar';
+  bar.innerHTML = '<button id=pp>Pause</button><input id=sc type=range min=0 step=0.01><span id=tt></span>' +
+    (video ? '' : '<small>add &bg=your_clip.mp4 to preview over footage · &safe=1 shows TikTok safe zone</small>');
+  document.body.appendChild(bar);
+  const sc = bar.querySelector('#sc'), tt = bar.querySelector('#tt'), pp = bar.querySelector('#pp');
+  const dur = () => (video && video.duration) || window.DURATION;
+  let playing = true, t0 = performance.now(), tPaused = 0;
+  const now = () => video ? video.currentTime : playing ? ((performance.now() - t0) / 1000) % dur() : tPaused;
+  pp.onclick = () => {
+    playing = !playing; pp.textContent = playing ? 'Pause' : 'Play';
+    if (video) playing ? video.play() : video.pause();
+    else if (playing) t0 = performance.now() - tPaused * 1000; else tPaused = now();
+  };
+  sc.oninput = () => {
+    const t = +sc.value;
+    if (video) video.currentTime = t; else { tPaused = t; t0 = performance.now() - t * 1000; }
+  };
+  if (video) video.play().catch(() => { playing = false; pp.textContent = 'Play'; });
+  (function loop() {
+    const t = now();
+    sc.max = dur(); if (document.activeElement !== sc) sc.value = t;
+    tt.textContent = t.toFixed(2) + 's';
+    window.seek(t);
+    requestAnimationFrame(loop);
+  })();
+}
+</script>
+</body>
+</html>

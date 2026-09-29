@@ -4,3 +4,5 @@ __pycache__/
 *.pyc
 .venv/
 studio.config.json
+clips/*
+!clips/.gitkeep

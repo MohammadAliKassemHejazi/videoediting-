@@ -1,0 +1,18 @@
+I have a TikTok clip I edited in CapCut: clips/[FILE].mp4 ([LENGTH] seconds).
+
+What happens in it (with rough timestamps):
+- 0:00 [what I say / show]
+- 0:05 [...]
+- ...
+
+Write overlays/[NAME].js (copy the format of overlays/example.js) that adds:
+1. A hook in the first 0.1–3 s: max 7 words, the most curiosity-driving phrasing of my topic,
+   1–2 accent words.
+2. A caption or sticker every 2–4 s that reinforces what I'm saying (no dead stretches).
+3. A title (name tag) when I first appear, circles/arrows when I point at something,
+   a counter if I mention a number, a flash on hard cuts.
+4. A progress bar, and a CTA in the last 3–4 s.
+Keep everything inside the TikTok safe zone, and don't cover my face (tell me which parts of the frame you avoided).
+
+Then run: npm run tiktok -- clips/[FILE].mp4 --timeline overlays/[NAME].js
+and check a few frames of out/[FILE]_motion.mp4 with ffmpeg before telling me it's done.

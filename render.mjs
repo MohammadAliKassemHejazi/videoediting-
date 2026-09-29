@@ -1,6 +1,9 @@
 // Headless Chromium → H.264.
 //   node render.mjs [--fps 60] [--dur <film>] [--from 0] [--sub 4] [--w 1080] [--h 1920]
 //                   [--workers auto] [--encoder x264|nvenc|qsv|auto] [--gpu] [--out out/silent.mp4]
+//                   [--page index.html] [--query "k=v&k2=v2"] [--alpha]
+// --alpha renders a transparent overlay .mov for CapCut/Premiere/compositing:
+//   --alpha-codec prores (ProRes 4444, widest support) | qtrle (lossless, smallest for sparse overlays)
 // Any option can also be set per machine in studio.config.json (see `npm run bench`).
 //
 // Speed-ups over a naive "screenshot every subframe" loop:
@@ -13,7 +16,7 @@
 import { chromium } from 'playwright';
 import { mkdirSync, rmSync, writeFileSync } from 'node:fs';
 import { cpus, freemem, platform } from 'node:os';
-import { dirname, join, resolve } from 'node:path';
+import { dirname, extname, join, resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { assertFfmpeg, ffmpeg, ffmpegPipe } from './lib/ffmpeg.mjs';
 import { ENCODERS, pickEncoder } from './lib/encoders.mjs';
@@ -27,9 +30,14 @@ const H = Number(opt('h', 1920));
 const OUT = opt('out', 'out/silent.mp4');
 const WORKERS_ARG = opt('workers', 'auto');
 const GPU = [true, 'true', '1'].includes(opt('gpu', false));
+const ALPHA = [true, 'true', '1'].includes(opt('alpha', false));
+const PAGE = opt('page', 'index.html');
+const QUERY = opt('query', '');
 
 assertFfmpeg();
-const ENCODER = pickEncoder(opt('encoder', 'x264'));
+// Transparent output needs an alpha-capable codec; ProRes 4444 imports into CapCut, Premiere, Resolve.
+const ENCODER = ALPHA ? (opt('alpha-codec', 'prores') === 'qtrle' ? 'qtrle' : 'prores4444') : pickEncoder(opt('encoder', 'x264'));
+if (ALPHA && !/\.mov$/i.test(OUT)) console.warn('--alpha writes ProRes 4444; use a .mov output name');
 mkdirSync(dirname(OUT), { recursive: true });
 
 // --gpu: hardware-accelerated canvas in Chromium (full headless build, D3D11 on Windows).
@@ -42,34 +50,47 @@ if (GPU) {
     ...(platform() === 'win32' ? ['--use-angle=d3d11'] : [])];
 }
 const browser = await chromium.launch(launch);
-const url = pathToFileURL(resolve('index.html'));
-url.search = `?w=${W}&h=${H}`;
+const url = pathToFileURL(resolve(PAGE));
+url.search = `?w=${W}&h=${H}&render=1${QUERY ? '&' + QUERY : ''}`;
 
 async function openPage() {
   const ctx = await browser.newContext({ viewport: { width: W, height: H }, deviceScaleFactor: 1 });
   const page = await ctx.newPage();
   page.on('pageerror', (e) => { console.error('Page error:', e.message); process.exitCode = 1; });
+  const cdp = await ctx.newCDPSession(page);
+  if (ALPHA) await cdp.send('Emulation.setDefaultBackgroundColorOverride', { color: { r: 0, g: 0, b: 0, a: 0 } });
   await page.goto(url.href);
   // Canvas text loads fonts lazily; load every declared face up front so frame 0 isn't a fallback font.
-  await page.evaluate(async () => {
+  await page.evaluate(async (alpha) => {
     await Promise.all((window.FONTS || []).map((f) => document.fonts.load(f)));
     await document.fonts.ready;
     const film = document.getElementById('c');
+    film.style.visibility = 'hidden'; // only the accumulation canvas is captured
     const acc = document.createElement('canvas');
     acc.width = film.width; acc.height = film.height;
     acc.style.cssText = 'position:fixed;left:0;top:0';
     document.body.appendChild(acc);
     const g = acc.getContext('2d');
-    // Paint output frame at time t: running average of `sub` subframes spaced 1/rate apart.
-    window.__frame = (t, sub, rate) => {
-      for (let s = 0; s < sub; s++) {
-        window.seek(t + s / rate);
-        g.globalAlpha = 1 / (s + 1);
-        g.drawImage(film, 0, 0);
-      }
-    };
-  });
-  const cdp = await ctx.newCDPSession(page);
+    // Paint output frame at time t as the average of `sub` subframes spaced 1/rate apart.
+    window.__frame = alpha
+      // Transparent: sum premultiplied subframes at 1/sub weight ('lighter' = additive),
+      // which averages colour AND alpha correctly.
+      ? (t, sub, rate) => {
+          g.globalCompositeOperation = 'source-over';
+          g.clearRect(0, 0, acc.width, acc.height);
+          g.globalCompositeOperation = 'lighter';
+          g.globalAlpha = 1 / sub;
+          for (let s = 0; s < sub; s++) { window.seek(t + s / rate); g.drawImage(film, 0, 0); }
+        }
+      // Opaque: running average.
+      : (t, sub, rate) => {
+          for (let s = 0; s < sub; s++) {
+            window.seek(t + s / rate);
+            g.globalAlpha = 1 / (s + 1);
+            g.drawImage(film, 0, 0);
+          }
+        };
+  }, ALPHA);
   return { ctx, page, cdp };
 }
 
@@ -86,7 +107,7 @@ const workers = Math.max(1, Math.min(
   ENCODERS[ENCODER].maxWorkers,
   Math.ceil(frames / (FPS / 4)) // at least a quarter second of footage per worker
 ));
-console.log(`Rendering ${W}×${H} @ ${FPS} fps, ${SUB} subframe(s), ${workers} worker(s), encoder ${ENCODER}${GPU ? ', GPU canvas' : ''}`);
+console.log(`Rendering ${PAGE} ${W}×${H} @ ${FPS} fps, ${DUR}s, ${SUB} subframe(s), ${workers} worker(s), encoder ${ENCODER}${GPU ? ', GPU canvas' : ''}${ALPHA ? ', transparent' : ''}`);
 
 const chunkDir = join(dirname(OUT), '.chunks');
 rmSync(chunkDir, { recursive: true, force: true });
@@ -101,7 +122,7 @@ const progress = setInterval(() => {
 
 async function renderChunk(idx, startFrame, endFrame, handle) {
   const { ctx, page, cdp } = handle || (await openPage());
-  const file = join(chunkDir, `chunk_${String(idx).padStart(3, '0')}.mp4`);
+  const file = join(chunkDir, `chunk_${String(idx).padStart(3, '0')}${extname(OUT) || '.mp4'}`);
   const enc = ffmpegPipe([
     '-f', 'image2pipe', '-framerate', String(FPS), '-i', '-',
     ...ENCODERS[ENCODER].args,

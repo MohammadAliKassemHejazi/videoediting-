@@ -12,6 +12,65 @@ and makes contact sheets so Claude can review its own work and fix it.
 
 ---
 
+## TikTok workflow: add motion graphics to your CapCut videos
+
+For personal 1–2 minute videos: cut in CapCut as usual, then let this tool add the hooks,
+captions, stickers and sound effects.
+
+**1. Export from CapCut** at 1080×1920 and put the file in `clips/` (e.g. `clips/gym_day.mp4`).
+
+**2. Make a timeline**: copy `overlays/example.js` to `overlays/gym_day.js` and edit the times and text:
+```js
+{ type: 'hook',    t: 0.1, dur: 2.6, text: 'I tried this for 30 days and', accent: ['30', 'DAYS'] },
+{ type: 'caption', t: 6.5, dur: 2.5, text: 'Nobody told me THIS part', style: 'box', pos: 'top' },
+{ type: 'sticker', t: 7,   dur: 2,   text: '😳', x: 0.78, y: 0.28 },
+{ type: 'cta',     t: 56,  dur: 4,   text: 'Follow for part 2' },
+```
+Or ask Claude Code to write it for you: fill in `prompts/E_tiktok_overlay.txt` with what you say
+at which second, and paste it.
+
+**3. Preview over your clip** (live, with a TikTok safe-zone guide): open in Chrome/Edge
+```
+overlay.html?timeline=overlays/gym_day.js&bg=clips/gym_day.mp4&safe=1
+```
+
+**4. Render**
+```powershell
+npm run tiktok -- clips/gym_day.mp4 --timeline overlays/gym_day.js
+```
+→ `out/gym_day_motion.mp4`, ready to upload. It keeps your original audio, mixes in
+pop/whoosh/click SFX timed to each graphic, and normalises loudness to −14 LUFS.
+
+| Flag | Effect |
+| --- | --- |
+| `--capcut` | also save `out/<name>_overlay.mov`, the graphics alone as **transparent ProRes 4444**: drag it onto a track above your clip in CapCut (desktop) to keep editing there |
+| `--no-sfx` | no sound effects |
+| `--sfx-volume 0.4` | quieter SFX (default 0.6) |
+| `--sub 1` | no motion blur (faster) |
+
+**Components** (all take `t` = start seconds and `dur` = seconds on screen):
+
+| type | What it is | Main options |
+| --- | --- | --- |
+| `hook` | big words slamming in one by one | `text`, `accent: [words]`, `pos`, `size`, `stagger` |
+| `caption` | text pop | `text`, `style: 'box' \| 'outline' \| 'accent'`, `pos` or `x`/`y` |
+| `title` | name tag / lower third | `text`, `sub`, `y` |
+| `sticker` | emoji pop with wobble | `text: '🔥'`, `x`, `y`, `size`, `rotate` |
+| `circle` | circle that draws itself around something | `x`, `y`, `r`, `color` |
+| `arrow` | arrow that draws itself | `from: [x, y]`, `to: [x, y]` |
+| `counter` | rolling number | `from`, `to`, `prefix`, `suffix`, `label` |
+| `cta` | pulsing "follow" pill | `text`, `pos` |
+| `progress` | bar across the top for the whole video | `color` |
+| `flash` | white flash on a cut | `strength` |
+
+- **Positions:** `pos: 'top' | 'center' | 'bottom'`, or `x`/`y` from 0 to 1 (0.5 = middle).
+- **Sound:** every element can set `sfx: 'pop' | 'click' | 'whoosh' | 'thump' | false`.
+- **Theme:** colours and font are set in `theme` at the top of the file.
+- **Speed:** a 20 s clip takes ~1 min on a 4-core VM; a 1–2 min video on an i9 laptop should
+  take a few minutes. Run `npm run bench` once first.
+
+---
+
 ## Contents
 1. [Quick start (Windows)](#1-quick-start-windows)
 2. [Install options](#2-install-options)
@@ -123,6 +182,7 @@ Put reference media in `refs/` and scraped logos, screenshots and fonts in `asse
 
 | Command | What it does | Output |
 | --- | --- | --- |
+| `npm run tiktok -- clips/x.mp4 --timeline overlays/x.js` | **add overlays + SFX to your clip** | `out/x_motion.mp4` |
 | `npm run setup` | install packages + Chromium | |
 | `npm run bench` | find the fastest settings for this machine | `studio.config.json` |
 | `npm run draft` | **fast iteration**: 540×960, 30 fps, no blur, then contact sheets (~10 s) | `out/silent.mp4`, `out/contact.png`… |
@@ -235,6 +295,10 @@ A modern i9 laptop should be considerably faster; `npm run bench` shows the real
 ```
 CLAUDE.md                      rules Claude follows (render contract, look, audio, review loop)
 index.html                     the film: canvas + window.seek(t)
+overlay.html                   TikTok overlay player/previewer (transparent)
+lib/overlay-kit.js             hook, caption, title, sticker, circle, arrow, counter, cta, progress, flash
+overlays/                      one timeline file per video
+clips/                         your CapCut exports (git-ignored)
 lib/motion.js                  springs, track(), indicator(), mulberry32 rng, presets
 lib/ffmpeg.mjs                 finds and runs ffmpeg ($FFMPEG → ffmpeg-static → PATH)
 lib/encoders.mjs               x264 / NVENC / Quick Sync settings + availability probe
@@ -242,8 +306,8 @@ lib/options.mjs                option lookup: CLI → studio.config.json → def
 render.mjs                     Chromium → H.264 (GPU subframe blend, parallel chunks, CDP capture)
 sfx.mjs  cues.json             procedural sound effects → WAV
 beats.py  requirements.txt     beat grid from a music track (librosa)
-scripts/                       mux, critique, determinism, formats, bench (Node, cross-platform)
-prompts/                       director prompts A–D + evaluation prompt
+scripts/                       tiktok, mux, critique, determinism, formats, bench (Node, cross-platform)
+prompts/                       director prompts A–D, TikTok overlay prompt E, evaluation prompt
 .claude/skills/motion-reel/    the /motion-reel skill
 test/                          unit tests (node --test)
 Dockerfile  docker-compose.yml container toolchain
@@ -260,6 +324,8 @@ out/                           renders (git-ignored)
 | `Executable doesn't exist … chrome-headless-shell` | `npx playwright install chromium` |
 | `ffmpeg not found` | `npm install` again, or set `FFMPEG` to an ffmpeg.exe |
 | `Encoder "nvenc" is not available` | update the NVIDIA driver; it falls back to x264 automatically |
+| Emoji show as boxes | Windows has Segoe UI Emoji built in; on Linux/Docker install `fonts-noto-color-emoji` |
+| Overlay covers my face | move it with `pos` or `x`/`y`; preview with `&safe=1` |
 | Wrong/fallback font in the video | the face is missing from `window.FONTS` or its `<link>` |
 | Text looks blurry when scaled | remove `will-change`; draw text at final size instead of scaling up |
 | Render is slow | `npm run bench`, plug in the laptop, close other apps, use `npm run draft` while iterating |
