@@ -1,6 +1,7 @@
 // Headless Chromium → H.264.
 //   node render.mjs [--fps 60] [--dur <film>] [--from 0] [--sub 4] [--w 1080] [--h 1920]
-//                   [--workers auto] [--out out/silent.mp4]
+//                   [--workers auto] [--encoder x264|nvenc|qsv|auto] [--gpu] [--out out/silent.mp4]
+// Any option can also be set per machine in studio.config.json (see `npm run bench`).
 //
 // Speed-ups over a naive "screenshot every subframe" loop:
 //  * Motion blur is blended on the GPU inside the page (running average of SUB subframes
@@ -10,24 +11,36 @@
 //  * page.screenshot (clipped) instead of locator.screenshot — ~1.7× faster per capture.
 import { chromium } from 'playwright';
 import { mkdirSync, rmSync, writeFileSync } from 'node:fs';
-import { cpus } from 'node:os';
+import { cpus, freemem, platform } from 'node:os';
 import { dirname, join, resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
-import { arg, assertFfmpeg, ffmpeg, ffmpegPipe } from './lib/ffmpeg.mjs';
+import { assertFfmpeg, ffmpeg, ffmpegPipe } from './lib/ffmpeg.mjs';
+import { ENCODERS, pickEncoder } from './lib/encoders.mjs';
+import { opt } from './lib/options.mjs';
 
-const FPS = Number(arg('fps', 60));
-const SUB = Math.max(1, Number(arg('sub', 4)));
-const FROM = Number(arg('from', 0));
-const W = Number(arg('w', 1080));
-const H = Number(arg('h', 1920));
-const OUT = arg('out', 'out/silent.mp4');
-const WORKERS_ARG = arg('workers', 'auto');
+const FPS = Number(opt('fps', 60));
+const SUB = Math.max(1, Number(opt('sub', 4)));
+const FROM = Number(opt('from', 0));
+const W = Number(opt('w', 1080));
+const H = Number(opt('h', 1920));
+const OUT = opt('out', 'out/silent.mp4');
+const WORKERS_ARG = opt('workers', 'auto');
+const GPU = [true, 'true', '1'].includes(opt('gpu', false));
 
 assertFfmpeg();
+const ENCODER = pickEncoder(opt('encoder', 'x264'));
 mkdirSync(dirname(OUT), { recursive: true });
 
-// CHROMIUM_PATH lets you reuse a preinstalled Chromium when the Playwright version differs.
-const browser = await chromium.launch(process.env.CHROMIUM_PATH ? { executablePath: process.env.CHROMIUM_PATH } : {});
+// --gpu: hardware-accelerated canvas in Chromium (full headless build, D3D11 on Windows).
+// Default is the software rasteriser, which is identical on every machine.
+const launch = {};
+if (process.env.CHROMIUM_PATH) launch.executablePath = process.env.CHROMIUM_PATH;
+if (GPU) {
+  launch.channel = 'chromium';
+  launch.args = ['--ignore-gpu-blocklist', '--enable-gpu-rasterization', '--enable-accelerated-2d-canvas',
+    ...(platform() === 'win32' ? ['--use-angle=d3d11'] : [])];
+}
+const browser = await chromium.launch(launch);
 const url = pathToFileURL(resolve('index.html'));
 url.search = `?w=${W}&h=${H}`;
 
@@ -59,12 +72,19 @@ async function openPage() {
 }
 
 const first = await openPage();
-const DUR = Number(arg('dur', await first.page.evaluate(() => window.DURATION || 15)));
+const DUR = Number(opt('dur', await first.page.evaluate(() => window.DURATION || 15)));
 const frames = Math.round(DUR * FPS);
+// auto: ~0.6 workers per logical core (hyper-threads help Chromium less than real cores),
+// capped by free memory (~500 MB per worker at 1080×1920) and the encoder's session limit.
+const autoWorkers = Math.min(12,
+  Math.floor(cpus().length * 0.6),
+  Math.floor(freemem() / (500 * 1024 * 1024) * Math.min(1, (1080 * 1920) / (W * H))));
 const workers = Math.max(1, Math.min(
-  WORKERS_ARG === 'auto' ? Math.max(1, Math.min(4, cpus().length - 1)) : Number(WORKERS_ARG),
-  Math.ceil(frames / FPS) // at least a second of footage per worker
+  WORKERS_ARG === 'auto' ? autoWorkers : Number(WORKERS_ARG),
+  ENCODERS[ENCODER].maxWorkers,
+  Math.ceil(frames / (FPS / 4)) // at least a quarter second of footage per worker
 ));
+console.log(`Rendering ${W}×${H} @ ${FPS} fps, ${SUB} subframe(s), ${workers} worker(s), encoder ${ENCODER}${GPU ? ', GPU canvas' : ''}`);
 
 const chunkDir = join(dirname(OUT), '.chunks');
 rmSync(chunkDir, { recursive: true, force: true });
@@ -82,9 +102,7 @@ async function renderChunk(idx, startFrame, endFrame, handle) {
   const file = join(chunkDir, `chunk_${String(idx).padStart(3, '0')}.mp4`);
   const enc = ffmpegPipe([
     '-f', 'image2pipe', '-framerate', String(FPS), '-i', '-',
-    '-c:v', 'libx264', '-crf', '16', '-pix_fmt', 'yuv420p',
-    // single-threaded + bitexact keeps output byte-identical between runs
-    '-threads', '1', '-fflags', '+bitexact', '-flags:v', '+bitexact', '-map_metadata', '-1',
+    ...ENCODERS[ENCODER].args,
     file
   ]);
   const rate = FPS * SUB;

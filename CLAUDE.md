@@ -6,7 +6,7 @@ the harness renders it frame-by-frame to video. Full reference: `docs/Opus_Motio
 ## Layout
 - `index.html` — the film. Canvas + `window.seek(t)`.
 - `lib/motion.js` — closed-form springs, `track()`, `indicator()`, seeded `rng()`, presets.
-- `render.mjs` — headless Chromium → H.264. In-page subframe blending + parallel chunk workers. `--fps --dur --sub --from --w --h --workers --out`.
+- `render.mjs` — headless Chromium → H.264. In-page subframe blending + parallel chunk workers. `--fps --dur --sub --from --w --h --workers --encoder --gpu --out`; per-machine defaults in `studio.config.json` (`npm run bench`).
 - `sfx.mjs` — procedural SFX from `cues.json` → `out/sfx.wav`.
 - `beats.py` — beat grid from an audio track → `beats.json`.
 - `scripts/*.mjs` — `mux`, `critique` (contact sheets), `determinism`, `formats`. All Node, so they run on Windows, macOS, Linux and in Docker.

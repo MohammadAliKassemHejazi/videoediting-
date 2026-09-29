@@ -32,6 +32,32 @@ npm run build          # render → sfx → mux → critique
 Python is only needed for `beats.py`: `pip install -r requirements.txt`.
 Overrides: `FFMPEG=path\to\ffmpeg.exe`, `CHROMIUM_PATH=path\to\chrome.exe`.
 
+## Tuning for your machine
+```powershell
+npm run bench     # ~2–4 min: tries worker counts, NVENC / Quick Sync, GPU canvas
+```
+It saves the fastest settings to `studio.config.json` (git-ignored, per machine), which
+`render.mjs` then uses automatically. Flags on the command line still override it:
+
+| Option | Values | What it does |
+| --- | --- | --- |
+| `--workers` | `auto` or a number | parallel browser renderers (~370–500 MB RAM each) |
+| `--encoder` | `x264` (default), `nvenc`, `qsv`, `auto` | `nvenc` = NVIDIA RTX encoder, `qsv` = Intel Iris Xe Quick Sync. Frees CPU for Chromium. Falls back to x264 if unavailable |
+| `--gpu` | flag | hardware-accelerated canvas in Chromium (D3D11 on Windows) |
+
+x264 + software canvas is byte-deterministic; the hardware options are visually identical
+(≈48 dB PSNR) but can differ by a few bits between runs.
+
+### Laptop tips (e.g. i9 + 16 GB + RTX 3050 + Iris Xe)
+- **Render natively on Windows for the fastest results.** NVENC and Quick Sync are not visible inside Docker Desktop.
+  Keep Docker for when you want the exact same output as another machine.
+- Plug in and use the *Best performance* power mode. Laptop i9s drop clocks a lot on battery or when hot.
+- In the NVIDIA Control Panel (*Manage 3D settings → Program settings*), set `node.exe` and
+  Playwright's `chrome.exe` to *High-performance NVIDIA processor* so `--gpu` uses the RTX, not the iGPU.
+- 16 GB comfortably fits 8–10 workers at 1080×1920. Close browsers and other large apps during final renders.
+- For Docker, WSL2 gets half your RAM by default (8 GB), which is enough. To change it, create
+  `%UserProfile%\.wslconfig` with `[wsl2]` / `memory=10GB` and run `wsl --shutdown`.
+
 ## Commands
 | Step | Command | Output |
 | --- | --- | --- |
@@ -45,10 +71,11 @@ Overrides: `FFMPEG=path\to\ffmpeg.exe`, `CHROMIUM_PATH=path\to\chrome.exe`.
 | Critique images | `npm run critique` | `out/contact.png`, `strip.png`, `phone.png`, `loop_check.mp4` |
 | Determinism check | `npm run determinism` | hash comparison |
 | Everything | `npm run build` | |
+| Find fastest settings | `npm run bench` | `studio.config.json` |
 | Unit tests | `npm test` | |
 
 Re-render a slice: `node render.mjs --from 6 --dur 3 --out out/patch.mp4`.
-Control parallelism: `--workers 2` (default: CPU cores − 1, max 4).
+Control parallelism: `--workers 8` (default `auto`: ~0.6 × logical cores, limited by free RAM, max 12).
 
 ## Performance
 The renderer is a pure function of time, so it can:
@@ -73,10 +100,12 @@ CLAUDE.md                      studio rules (render contract, look, audio, criti
 index.html                     the film: canvas + window.seek(t)
 lib/motion.js                  closed-form springs, track(), indicator(), mulberry32, presets
 lib/ffmpeg.mjs                 cross-platform ffmpeg lookup/runner
+lib/encoders.mjs               x264 / NVENC / Quick Sync presets + availability probe
+lib/options.mjs                CLI → studio.config.json → default
 render.mjs                     Chromium → H.264 (GPU subframe blend, parallel chunks)
 sfx.mjs  cues.json             procedural click/pop/thump/whoosh → WAV
 beats.py                       librosa beat grid + onset hits
-scripts/                       mux, critique, determinism, formats (Node, cross-platform)
+scripts/                       mux, critique, determinism, formats, bench (Node, cross-platform)
 prompts/                       director patterns A–D + evaluation prompt
 .claude/skills/motion-reel/    /motion-reel skill: the whole pipeline in one command
 Dockerfile  docker-compose.yml container toolchain
