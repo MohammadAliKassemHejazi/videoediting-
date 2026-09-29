@@ -10,7 +10,7 @@ rmSync('studio.config.json', { force: true }); // measure without a previous con
 
 function run(opts) {
   const args = ['render.mjs', '--dur', DUR, '--fps', FPS, '--sub', SUB, '--out', 'out/bench.mp4',
-    '--workers', opts.workers, '--encoder', opts.encoder, ...(opts.gpu ? ['--gpu'] : [])].map(String);
+    '--workers', opts.workers, '--encoder', opts.encoder, '--browsers', opts.browsers || 'per-worker', ...(opts.gpu ? ['--gpu'] : [])].map(String);
   const t = Date.now();
   try { execFileSync(process.execPath, args, { stdio: 'ignore' }); }
   catch { return 0; }
@@ -21,7 +21,7 @@ const results = [];
 const test = (o) => {
   const fps = run(o);
   results.push({ ...o, fps });
-  console.log(`  workers=${String(o.workers).padEnd(2)} encoder=${o.encoder.padEnd(5)} gpu=${o.gpu ? 'on ' : 'off'}  ${fps ? fps.toFixed(1) + ' fps' : 'failed'}`);
+  console.log(`  browsers=${(o.browsers || 'per-worker').padEnd(10)} workers=${String(o.workers).padEnd(2)} encoder=${o.encoder.padEnd(5)} gpu=${o.gpu ? 'on ' : 'off'}  ${fps ? fps.toFixed(1) + ' fps' : 'failed'}`);
   return fps;
 };
 
@@ -30,7 +30,7 @@ console.log(`${n} logical cores. Final-quality frames (60 fps × 4 subframes) pe
 
 console.log('1) Worker count (CPU encoder)');
 const counts = [...new Set([2, 4, 6, 8, 10, 12, 16].filter((w) => w <= n))];
-let best = { workers: 1, encoder: 'x264', gpu: false, fps: 0 };
+let best = { workers: 1, encoder: 'x264', gpu: false, browsers: 'per-worker', fps: 0 };
 for (const w of counts) {
   const fps = test({ workers: w, encoder: 'x264', gpu: false });
   if (fps > best.fps) best = { workers: w, encoder: 'x264', gpu: false, fps };
@@ -46,14 +46,20 @@ for (const enc of ['nvenc', 'qsv']) {
   }
 }
 
-console.log('\n3) GPU canvas in Chromium');
+console.log('\n3) One shared browser vs one per worker');
+for (const w of [...new Set([4, 6, best.workers])].filter((w) => w <= n)) {
+  const fps = test({ ...best, workers: w, browsers: 'shared' });
+  if (fps > best.fps * 1.03) best = { ...best, workers: w, browsers: 'shared', fps };
+}
+
+console.log('\n4) GPU canvas in Chromium');
 {
   const fps = test({ ...best, gpu: true });
   if (fps > best.fps * 1.05) best = { ...best, gpu: true, fps };
 }
 
 rmSync('out/bench.mp4', { force: true });
-const cfg = { workers: best.workers, encoder: best.encoder, gpu: best.gpu };
+const cfg = { workers: best.workers, encoder: best.encoder, gpu: best.gpu, browsers: best.browsers || 'per-worker' };
 writeFileSync('studio.config.json', JSON.stringify(cfg, null, 2) + '\n');
 const secs = (15 * 60) / best.fps;
 console.log(`\nFastest: ${JSON.stringify(cfg)} → ${best.fps.toFixed(1)} fps (a 15 s film ≈ ${Math.round(secs)} s)`);
