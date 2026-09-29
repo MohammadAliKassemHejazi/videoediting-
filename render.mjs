@@ -49,11 +49,16 @@ if (GPU) {
   launch.args = ['--ignore-gpu-blocklist', '--enable-gpu-rasterization', '--enable-accelerated-2d-canvas',
     ...(platform() === 'win32' ? ['--use-angle=d3d11'] : [])];
 }
-const browser = await chromium.launch(launch);
+// One Chromium *process* per worker (--browsers per-worker, default): every capture goes through
+// its browser's main + GPU process, so sharing one browser caps throughput at ~4–6 workers.
+const PER_WORKER = opt('browsers', 'per-worker') !== 'shared';
+const browsers = [];
+const newBrowser = async () => { const b = await chromium.launch(launch); browsers.push(b); return b; };
+const shared = await newBrowser();
 const url = pathToFileURL(resolve(PAGE));
 url.search = `?w=${W}&h=${H}&render=1${QUERY ? '&' + QUERY : ''}`;
 
-async function openPage() {
+async function openPage(browser = shared) {
   const ctx = await browser.newContext({ viewport: { width: W, height: H }, deviceScaleFactor: 1 });
   const page = await ctx.newPage();
   page.on('pageerror', (e) => { console.error('Page error:', e.message); process.exitCode = 1; });
@@ -121,7 +126,7 @@ const progress = setInterval(() => {
 }, 1000);
 
 async function renderChunk(idx, startFrame, endFrame, handle) {
-  const { ctx, page, cdp } = handle || (await openPage());
+  const { ctx, page, cdp } = handle || (await openPage(PER_WORKER ? await newBrowser() : shared));
   const file = join(chunkDir, `chunk_${String(idx).padStart(3, '0')}${extname(OUT) || '.mp4'}`);
   const enc = ffmpegPipe([
     '-f', 'image2pipe', '-framerate', String(FPS), '-i', '-',
@@ -148,7 +153,7 @@ const files = await Promise.all(
     renderChunk(i, i * per, Math.min(frames, (i + 1) * per), i === 0 ? first : null))
 );
 clearInterval(progress);
-await browser.close();
+await Promise.all(browsers.map((b) => b.close()));
 
 if (files.length === 1) {
   rmSync(OUT, { force: true });

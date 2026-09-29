@@ -141,6 +141,14 @@ This tries different worker counts, NVIDIA NVENC, Intel Quick Sync and GPU canva
 writes the fastest combination to `studio.config.json` (per-machine, git-ignored).
 Every render uses that file automatically, and command-line flags still override it.
 
+**Windows speed checklist** (biggest wins first):
+1. **Plugged in + Best performance** power mode (Settings → System → Power). On battery an i9-12900H drops to about half speed.
+2. **Exclude the project folder from Microsoft Defender** (Windows Security → Virus & threat protection →
+   Manage settings → Exclusions → add the repo folder). Otherwise Defender scans every chunk file and Chromium temp file.
+3. **Laptop vendor app** (Armoury Crate / Omen Hub / Legion Vantage / MSI Center): set *Performance/Turbo* fan mode so the CPU doesn't thermally throttle.
+4. Close Chrome, Discord, games and other heavy apps while rendering.
+5. Re-run `npm run bench` after changing any of these.
+
 **Laptop checklist** (e.g. i9 · 16 GB · RTX 3050 · Iris Xe):
 - Plug in, and set Windows to **Best performance** power mode. Laptop CPUs throttle hard on battery.
 - In **NVIDIA Control Panel → Manage 3D settings → Program settings**, set `node.exe` and
@@ -217,6 +225,7 @@ Scripts take optional paths, e.g. `node scripts/critique.mjs out/final_1x1.mp4 2
 | `--workers` | `auto` | parallel renderers (≈0.6 × logical cores, limited by free RAM, max 12) |
 | `--encoder` | `x264` | `x264` (CPU, deterministic), `nvenc` (NVIDIA), `qsv` (Intel iGPU), `auto` |
 | `--gpu` | off | hardware-accelerated canvas in Chromium |
+| `--browsers` | `per-worker` | one Chromium process per worker; `shared` uses one (less RAM, slower above ~4 workers) |
 | `--out` | `out/silent.mp4` | output file |
 
 Re-render one slice after a fix: `node render.mjs --from 6 --dur 3 --out out/patch.mp4`.
@@ -274,7 +283,7 @@ beatIndex(t, beats.beats)             // index of the current beat
 
 Because the film is a pure function of time, the renderer can:
 - **blend motion-blur subframes on the GPU inside the page**, taking one capture per output frame instead of four;
-- **render chunks of the timeline in parallel**, each with its own encoder, and join them losslessly;
+- **render chunks of the timeline in parallel**, each worker in its own Chromium process with its own encoder, and join them losslessly;
 - **capture over CDP with `optimizeForSpeed`**, which is lossless PNG and ~3× faster than a locator screenshot;
 - **optionally offload encoding to NVENC or Quick Sync**, freeing the CPU for drawing.
 
