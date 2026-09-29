@@ -7,3 +7,7 @@ studio.config.json
 clips/*
 !clips/.gitkeep
 .env
+assets/inbox/*
+!assets/inbox/.gitkeep
+assets/ready/*
+!assets/ready/.gitkeep

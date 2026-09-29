@@ -63,6 +63,9 @@ pop/whoosh/click SFX timed to each graphic, and normalises loudness to −14 LUF
 | `cta` | pulsing "follow" pill | `text`, `pos` |
 | `progress` | bar across the top for the whole video | `color` |
 | `flash` | white flash on a cut | `strength` |
+| `image` | a picture from `assets/ready/` (sticker, background) | `src`, `x`, `y`, `w`, `anim: 'pop' \| 'slide' \| 'kenburns'` |
+| `broll` | a video clip cut in full-screen or picture-in-picture | `src`, `mode: 'full' \| 'pip'`, `x`, `y`, `w`, `from` |
+| `voice` | a voice-over line | `src`, `volume` |
 
 - **Positions:** `pos: 'top' | 'center' | 'bottom'`, or `x`/`y` from 0 to 1 (0.5 = middle).
 - **Sound:** every element can set `sfx: 'pop' | 'click' | 'whoosh' | 'thump' | false`.
@@ -192,6 +195,8 @@ Put reference media in `refs/` and scraped logos, screenshots and fonts in `asse
 | Command | What it does | Output |
 | --- | --- | --- |
 | `npm run tiktok -- clips/x.mp4 --timeline overlays/x.js` | **add overlays + SFX to your clip** | `out/x_motion.mp4` |
+| `npm run assets` | Gemini prompt checklist (`docs/asset_requests.md`) + prepare downloads from `assets/inbox/` | `assets/ready/` |
+| `npm run assets:generate` | *(paid, optional)* auto-generate missing media with fal / ElevenLabs keys in `.env` | `assets/ready/` |
 | `npm run setup` | install packages + Chromium | |
 | `npm run bench` | find the fastest settings for this machine | `studio.config.json` |
 | `npm run draft` | **fast iteration**: 540×960, 30 fps, no blur, then contact sheets (~10 s) | `out/silent.mp4`, `out/contact.png`… |
@@ -321,7 +326,8 @@ prompts/                       A showreel (+A2 variants), B launch, C style tran
 .claude/skills/motion-reel/    the /motion-reel skill
 test/                          unit tests (node --test)
 Dockerfile  docker-compose.yml container toolchain
-assets/  refs/  docs/          your assets, reference media, style guides & shot lists
+assets/                        manifest.json, inbox/ (Gemini downloads), ready/ (processed), brand/
+refs/  docs/                   reference media, style guides, shot lists, asset_requests.md
 out/                           renders (git-ignored)
 ```
 

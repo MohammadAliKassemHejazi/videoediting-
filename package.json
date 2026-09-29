@@ -21,7 +21,9 @@
     "docker:build": "docker compose build",
     "docker:render": "docker compose run --rm studio npm run build",
     "tiktok": "node scripts/tiktok.mjs",
-    "overlay:preview": "node -e \"console.log(\\\"Open overlay.html?timeline=overlays/example.js&bg=clips/YOUR_CLIP.mp4&safe=1 in Chrome/Edge\\\")\""
+    "overlay:preview": "node -e \"console.log(\\\"Open overlay.html?timeline=overlays/example.js&bg=clips/YOUR_CLIP.mp4&safe=1 in Chrome/Edge\\\")\"",
+    "assets": "node scripts/assets.mjs",
+    "assets:generate": "node scripts/assets.mjs --generate"
   },
   "devDependencies": {
     "ffmpeg-static": "5.3.0",

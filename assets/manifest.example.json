@@ -1,0 +1,46 @@
+{
+  "project": "gym_day",
+  "style": "bold flat 3D sticker, glossy, vibrant, clean edges",
+  "items": [
+    {
+      "file": "gym_fire_sticker",
+      "type": "image",
+      "aspect": "1:1",
+      "background": "green",
+      "prompt": "A cartoon flame with a determined face flexing a bicep",
+      "use": "sticker at 0:07 next to my shoulder"
+    },
+    {
+      "file": "gym_protein_icon",
+      "type": "image",
+      "aspect": "1:1",
+      "background": "green",
+      "prompt": "A shaker bottle of protein with sparkles",
+      "use": "pops in at 0:12 when I mention protein"
+    },
+    {
+      "file": "gym_bg_sunrise",
+      "type": "image",
+      "aspect": "9:16",
+      "background": "keep",
+      "style": "cinematic photo, soft morning light",
+      "prompt": "An empty gym at sunrise, golden light through large windows, shallow depth of field",
+      "use": "full-screen background behind the hook (kenburns)"
+    },
+    {
+      "file": "gym_broll_city",
+      "type": "video",
+      "aspect": "9:16",
+      "seconds": 8,
+      "style": "cinematic, handheld, natural colors",
+      "prompt": "Slow drone shot over a city at 5 AM, streets empty, lights turning off",
+      "use": "b-roll cut-in 0:03-0:06 while I say 'everyone else is asleep'"
+    },
+    {
+      "file": "gym_intro_voice",
+      "type": "voice",
+      "text": "Day one. Six A M. Let's see if I survive.",
+      "use": "voice-over under the hook (paid ElevenLabs, or record it yourself)"
+    }
+  ]
+}

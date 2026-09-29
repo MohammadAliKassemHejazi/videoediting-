@@ -41,10 +41,13 @@ npm run build
 ```
 Open `out\final.mp4`. You should see the 15-second sample film with sound.
 
-### Step 6 (optional): API keys
-Copy `.env.example` to `.env` and fill in keys (ElevenLabs for voices, fal for image/video
-models). In prompts, **refer to them by name**, e.g. "the ElevenLabs key is ELEVENLABS_API_KEY in .env".
-Never paste a real key into a prompt.
+### Step 6: Images, video and voice: free now, paid later
+You **don't need any API key**. Generate images and videos by hand in the free **Gemini app**
+and the tool does the rest (Part 5 below).
+
+*Later, if you ever pay for fal.ai or ElevenLabs:* copy `.env.example` to `.env`, fill in the keys,
+and run `npm run assets:generate` to create everything automatically. In prompts, refer to keys
+by name ("the key is FAL_KEY in .env"), never paste a real key.
 
 ---
 
@@ -90,6 +93,7 @@ Every recipe is: **put inputs in the right folder → paste a prompt → review 
 The prompts live in `prompts/`. Replace the `[BRACKETS]`.
 
 ### Recipe 1: TikTok: add hooks and graphics to your own clip ⭐ *(your main use)*
+*Want generated stickers, backgrounds or B-roll too? Do Part 5 first.*
 1. Edit in CapCut, export 1080×1920, and save to `clips/my_video.mp4`.
 2. In Claude Code, paste `prompts/E_tiktok_overlay.txt` filled in with what you say at which second.
    *(Or copy `overlays/example.js` → `overlays/my_video.js` and edit it yourself.)*
@@ -149,7 +153,108 @@ and `out/loop_check.mp4`.
 
 ---
 
-## Part 5: Reviewing and fixing (the part that makes it good)
+## Part 5: Images, video and voice with free Gemini (no API)
+
+Code draws text, shapes, arrows, counters and UI perfectly, so **don't generate those**.
+Generate only what code can't draw well: **stickers/characters/objects, realistic backgrounds
+and short B-roll clips.** Voice lines you can record yourself.
+
+### The folders
+```
+assets/
+  manifest.json      the list of what's needed + prompts   (Claude writes it, or you)
+  inbox/             YOUR Gemini downloads go here           (you)
+  ready/             processed files the videos use          (automatic)
+  brand/             logo, screenshots, brand fonts          (you)
+docs/asset_requests.md   copy-paste prompts + exact file names (automatic)
+```
+
+### Naming rule
+`<project>_<what>`, lowercase with underscores, and **no extension needed** (png/jpg/webp/mp4 all work):
+`gym_fire_sticker`, `gym_bg_sunrise`, `gym_broll_city`, `gym_intro_voice`.
+
+### Step by step
+1. **Plan.** In Claude Code, paste `prompts/G_asset_requests.txt`, filled in with your idea.
+   Claude writes `assets/manifest.json` and runs `npm run assets`, which creates
+   **`docs/asset_requests.md`**: a checklist with each Gemini prompt ready to copy and the exact file name.
+   *(Without Claude: copy `assets/manifest.example.json` to `assets/manifest.json`, edit it, run `npm run assets`.)*
+2. **Generate in Gemini** (gemini.google.com, free):
+   - **Images:** paste the prompt → download the image.
+   - **Video:** use Gemini's video (Veo) option if your plan includes it → download the MP4.
+     If you don't have video, skip those items or use your own phone footage with the same name.
+   - **Voice:** record it on your phone, or use any free text-to-speech tool.
+3. **Save** each file into `assets/inbox/` with **exactly** the name from the checklist.
+4. **Prepare.** Run `npm run assets`. For every file it:
+   - **green-screen images:** removes the green background, making a transparent PNG, and erases Gemini's corner sparkle watermark;
+   - **backgrounds:** converts them to PNG;
+   - **videos:** converts them to a clean MP4 (sound removed unless `"keep_audio": true`);
+   - **voice:** converts it to WAV.
+
+   It shows ✅/⬜ for each item, and ticks them off in `docs/asset_requests.md`.
+5. **Use them** in a timeline (Claude does this in step 4 of prompt G), e.g. `overlays/example_with_assets.js`:
+   ```js
+   { type: 'image', src: 'assets/ready/gym_bg_sunrise.png', t: 0, dur: 3, w: 1, anim: 'kenburns' }, // full-screen background
+   { type: 'image', src: 'assets/ready/gym_fire_sticker.png', t: 7.5, dur: 2.5, x: 0.72, y: 0.6, w: 0.35 }, // sticker
+   { type: 'broll', src: 'assets/ready/gym_broll_city.mp4', t: 3, dur: 3, mode: 'full' },             // cut-in clip
+   { type: 'broll', src: 'assets/ready/gym_broll_city.mp4', t: 7, dur: 3, mode: 'pip', y: 0.3, w: 0.6 }, // picture-in-picture
+   { type: 'voice', src: 'assets/ready/gym_intro_voice.wav', t: 0.5 },                                  // voice-over
+   ```
+6. **Render** as usual: `npm run tiktok -- clips/gym_day.mp4 --timeline overlays/gym_day.js`.
+
+### Manifest fields
+| Field | Values | Notes |
+| --- | --- | --- |
+| `file` | `gym_fire_sticker` | the name you save it as |
+| `type` | `image` · `video` · `voice` | |
+| `aspect` | `1:1` · `9:16` · `16:9` | stickers 1:1, backgrounds and B-roll 9:16 |
+| `background` | `green` · `keep` | `green` = sticker/object you want transparent |
+| `prompt` | text | what to generate; style and green-screen instructions are added automatically |
+| `style` | text | per item; a top-level `style` applies to all items |
+| `seconds` | 4–8 | videos |
+| `text` | text | voice lines |
+| `use` | text | where it goes (a note for you and Claude) |
+| `keep_audio` | `true` | keep a video's own sound |
+| `key_similarity` | 0.2–0.45 (default 0.3) | raise it if green edges remain; lower it if the subject gets holes |
+| `clean_corner` | `false` | turn off the watermark-corner erase for an item |
+
+### Tips for Gemini
+- Always keep the **green-screen sentence** the checklist adds. Gemini can't make transparent images.
+- If the subject has green in it, change its colour in the prompt ("red shaker bottle").
+- Keep one `style` for every item so they look like one set.
+- For B-roll, ask for one simple camera move and no text. Keep clips 8 s or shorter.
+- Not happy with a result? Generate again, save with the same name, and run `npm run assets`. It re-processes newer files automatically.
+
+### Paid mode (for later)
+| Service | What it adds | `.env` |
+| --- | --- | --- |
+| fal.ai | automatic images (Flux) and videos (Kling) from the same manifest | `FAL_KEY`, optional `FAL_IMAGE_MODEL`, `FAL_VIDEO_MODEL` |
+| ElevenLabs | automatic voice lines | `ELEVENLABS_API_KEY`, optional `ELEVENLABS_VOICE_ID` |
+
+Then `npm run assets:generate` creates only the **missing** items and prepares them.
+Items you already made in Gemini are kept. Nothing is paid unless you run this command with keys in `.env`.
+
+---
+
+## Part 6: What each tool is for
+
+| You want… | Use | Command / file |
+| --- | --- | --- |
+| Hooks, captions, stickers on **your own clip** | TikTok overlays | `npm run tiktok -- clips/x.mp4 --timeline overlays/x.js` |
+| To keep editing in CapCut | transparent overlay | add `--capcut` → `out/x_overlay.mov` |
+| A full animated video from nothing (reel, ad, explainer) | the film engine | Claude writes `index.html` → `npm run build` |
+| A product/launch video | film engine + real screenshots | `prompts/B_product_launch.txt` |
+| Pictures, characters, backgrounds, B-roll | Gemini + assets tool | `npm run assets` (Part 5) |
+| Sound effects | procedural SFX | automatic in `tiktok`; `cues.json` + `npm run sfx` for films |
+| Sync to a song | beat grid | `python beats.py song.wav > beats.json` |
+| Voice-over | your recording / TTS / ElevenLabs | `voice` element |
+| Vertical + square + wide versions | formats | `npm run render:formats` |
+| Check quality before the final render | critique images | `npm run draft`, `npm run critique` |
+| Make renders faster | benchmark | `npm run bench` |
+| Everything in one go | skill | `/motion-reel` in Claude Code |
+
+---
+
+## Part 7: Reviewing and fixing (the part that makes it good)
 
 After any render:
 ```powershell
@@ -172,7 +277,7 @@ Fast iteration: `npm run draft` renders at half size in seconds. Only run `npm r
 
 ---
 
-## Part 6: Which effort, which route
+## Part 8: Which effort, which route
 
 | Situation | Effort |
 | --- | --- |
@@ -190,7 +295,7 @@ Use Remotion for series and data-driven templates, and HyperFrames if you think 
 
 ---
 
-## Part 7: Turning it into a service
+## Part 9: Turning it into a service
 - **Package:** `/motion-reel` is already a skill. Copy `.claude/skills/motion-reel` to share it.
 - **Offer:** music + mascot/character + product features + offer at the end, any language, up to 3 revisions.
 - **Pricing anchor:** a year ago, videos like this cost clients around $1,000; with this pipeline you deliver in an afternoon.
@@ -205,6 +310,8 @@ npm run tiktok -- clips\x.mp4 --timeline overlays\x.js  # graphics on your own c
 npm run render:formats                                # 9:16, 1:1, 16:9
 npm run critique                                      # contact sheets for review
 npm run bench                                         # re-tune speed
+npm run assets                                        # Gemini checklist + prepare downloads
+npm run assets:generate                               # (paid, later) auto-generate missing media
 python beats.py refs\track.wav > beats.json           # beat grid from music
 ```
 

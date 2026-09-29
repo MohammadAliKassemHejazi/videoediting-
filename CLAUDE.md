@@ -54,3 +54,13 @@ the harness renders it frame-by-frame to video. Full reference: `docs/Opus_Motio
   transparent ProRes 4444 `out/x_overlay.mov`.
 - Keep overlay content inside `OverlayKit.SAFE` and away from the speaker's face.
 - Add new components to `lib/overlay-kit.js` (pure functions of local time) and a default SFX in `DEFAULT_SFX`.
+
+## Generated media (images / video / voice)
+- The user generates media manually in the free Gemini app (no API). Plan it in `assets/manifest.json`
+  (format: `assets/manifest.example.json`), run `npm run assets` to produce `docs/asset_requests.md`
+  (copy-paste prompts + exact file names), then wait for the user to drop files in `assets/inbox/`.
+- `npm run assets` prepares `assets/ready/` (green screen → transparent PNG, video → H.264, voice → WAV).
+  Only reference files in `assets/ready/`.
+- Timeline elements: `image` (src, x, y, w, anim pop|slide|kenburns), `broll` (src, t, dur, mode full|pip),
+  `voice` (src, t, volume). Never request text/shapes as images — draw them in code.
+- Paid APIs (fal, ElevenLabs) are optional: only use `npm run assets:generate` if the user asks and `.env` has keys.

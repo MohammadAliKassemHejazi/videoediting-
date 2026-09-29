@@ -69,6 +69,7 @@ async function openPage(browser = shared) {
   await page.evaluate(async (alpha) => {
     await Promise.all((window.FONTS || []).map((f) => document.fonts.load(f)));
     await document.fonts.ready;
+    await window.ASSETS_READY; // films/overlays that load images expose this promise
     const film = document.getElementById('c');
     film.style.visibility = 'hidden'; // only the accumulation canvas is captured
     const acc = document.createElement('canvas');

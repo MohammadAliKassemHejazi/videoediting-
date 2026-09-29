@@ -38,6 +38,7 @@ if (Q.get('dur')) TL.duration = +Q.get('dur'); // set by `npm run tiktok` to the
 
 window.DURATION = OverlayKit.durationOf(TL);
 window.FONTS = ['600 100px Inter', '700 100px Inter', '800 100px Inter', '900 100px Inter'];
+window.ASSETS_READY = OverlayKit.preload(TL); // images; broll video is composited by `npm run tiktok`
 window.seek = (t) => { OverlayKit.drawTimeline(g, TL, t, W, H); return true; };
 
 // ---------- browser preview (ignored when rendering) ----------

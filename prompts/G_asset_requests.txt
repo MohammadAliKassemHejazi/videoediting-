@@ -1,0 +1,20 @@
+I'm making [a TikTok about ... / a launch video for ... / a film about ...].
+Clip (if any): clips/[FILE].mp4, [LENGTH] s. What happens when:
+- 0:00 [...]
+- 0:05 [...]
+
+I generate images and videos myself in the free Gemini app (no API). Plan the media for me:
+
+1. Write assets/manifest.json (same format as assets/manifest.example.json), project "[NAME]":
+   - 3–8 items max. Only things code can't draw well: stickers/characters/objects,
+     realistic backgrounds, short b-roll clips. Text, shapes, arrows, counters are drawn in code — don't request them.
+   - File names: [NAME]_<what>, lowercase_underscores.
+   - Stickers/objects: "background": "green". Full-frame backgrounds: "background": "keep", aspect 9:16.
+   - Videos: aspect 9:16, "seconds" ≤ 8, one simple camera move, no text.
+   - One shared "style" so everything looks like one set.
+   - Clear visual prompts (subject, pose, lighting, style), and a "use" line saying where it goes.
+2. Run `npm run assets` and show me docs/asset_requests.md.
+3. STOP and wait while I generate them in Gemini and save them into assets/inbox/.
+4. When I say "done", run `npm run assets` again, check every file in assets/ready/ looks right
+   (open the PNGs), then write overlays/[NAME].js using them (image, broll, voice elements +
+   hooks/captions) and run: npm run tiktok -- clips/[FILE].mp4 --timeline overlays/[NAME].js
