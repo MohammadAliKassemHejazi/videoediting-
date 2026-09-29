@@ -1,125 +1,274 @@
 # Motion Studio
 
-Code-rendered motion graphics: Claude writes `index.html` (a pure function of time,
-`window.seek(t)`), and this harness renders it with headless Chromium + FFmpeg, adds
-procedural sound, and produces contact sheets so the model can critique its own output.
+Make motion-graphics videos **from code**. Claude writes `index.html`, a film that is a
+pure function of time (`window.seek(t)` draws frame *t*). This harness renders it
+frame by frame with headless Chromium, encodes it with FFmpeg, adds procedural sound,
+and makes contact sheets so Claude can review its own work and fix it.
 
 > The prompt is 10% of the video. The other 90% is the harness.
 
-Full reference: [`docs/Opus_Motion_Studio_Documentation.md`](docs/Opus_Motion_Studio_Documentation.md).
-Studio rules Claude follows: [`CLAUDE.md`](CLAUDE.md).
+- Full background and theory: [`docs/Opus_Motion_Studio_Documentation.md`](docs/Opus_Motion_Studio_Documentation.md)
+- Rules Claude follows in this repo: [`CLAUDE.md`](CLAUDE.md)
 
-## Option 1 — Docker (recommended on Windows)
-Needs [Docker Desktop](https://www.docker.com/products/docker-desktop/). Everything
-(Node, Chromium, ffmpeg, Python + librosa) is inside the image.
+---
+
+## Contents
+1. [Quick start (Windows)](#1-quick-start-windows)
+2. [Install options](#2-install-options)
+3. [Tune for your machine](#3-tune-for-your-machine)
+4. [Making a video with Claude Code](#4-making-a-video-with-claude-code)
+5. [Command reference](#5-command-reference)
+6. [Render options](#6-render-options)
+7. [Writing a film by hand](#7-writing-a-film-by-hand)
+8. [Sound and music](#8-sound-and-music)
+9. [Performance](#9-performance)
+10. [Project layout](#10-project-layout)
+11. [Troubleshooting](#11-troubleshooting)
+
+---
+
+## 1. Quick start (Windows)
+
+Install [Node.js 22 LTS](https://nodejs.org/) and [Git](https://git-scm.com/), then in PowerShell:
 
 ```powershell
-docker compose build                                   # once (and after package.json changes)
+git clone https://github.com/MohammadAliKassemHejazi/videoediting-.git
+cd videoediting-
+npm run setup      # installs packages, Chromium and ffmpeg (all local to the project)
+npm run bench      # optional, ~3 min: finds the fastest settings for this PC
+npm run build      # renders the sample film → out\final.mp4
+```
+
+Open `out\final.mp4`. To see the film live while editing, open `index.html` in Chrome or Edge.
+
+---
+
+## 2. Install options
+
+### Option A: native (fastest; recommended for your own laptop)
+| Need | How |
+| --- | --- |
+| Node.js 22+ | nodejs.org |
+| Chromium | installed by `npm run setup` |
+| ffmpeg (with libx264, NVENC, Quick Sync) | installed by `npm install` via `ffmpeg-static`; no manual install |
+| Python 3.10+ *(only for `beats.py`)* | `pip install -r requirements.txt` |
+
+Works on Windows, macOS and Linux. Every script is Node, so no bash is needed.
+
+### Option B: Docker (identical output on any machine)
+Install [Docker Desktop](https://www.docker.com/products/docker-desktop/), then:
+
+```powershell
+docker compose build                                   # once, and after package.json changes
 docker compose run --rm studio                         # full pipeline → out\final.mp4
-docker compose run --rm studio npm run render:preview  # quick draft
+docker compose run --rm studio npm run draft           # quick draft + contact sheets
 docker compose run --rm studio python beats.py refs/track.wav > beats.json
 ```
-The repo is mounted into the container, so edit `index.html` on Windows and re-run.
-After changing dependencies: `docker compose down -v; docker compose build`.
-Smaller image without librosa: `docker compose build --build-arg WITH_AUDIO_ANALYSIS=false`.
 
-## Option 2 — Native (Windows, macOS, Linux)
-Needs Node 22+. ffmpeg (with libx264) comes from npm, so there's nothing else to install.
+- The repo is mounted into the container: edit files on Windows, render in Docker.
+- After changing dependencies: `docker compose down -v; docker compose build`.
+- For a smaller image without librosa: `docker compose build --build-arg WITH_AUDIO_ANALYSIS=false`.
+- The GPU encoders (NVENC, Quick Sync) are **not** available inside Docker Desktop. Use native for maximum speed.
+
+---
+
+## 3. Tune for your machine
+
 ```powershell
-npm run setup          # npm install + Playwright Chromium
-npm run build          # render → sfx → mux → critique
+npm run bench
 ```
-Python is only needed for `beats.py`: `pip install -r requirements.txt`.
-Overrides: `FFMPEG=path\to\ffmpeg.exe`, `CHROMIUM_PATH=path\to\chrome.exe`.
 
-## Tuning for your machine
-```powershell
-npm run bench     # ~2–4 min: tries worker counts, NVENC / Quick Sync, GPU canvas
-```
-It saves the fastest settings to `studio.config.json` (git-ignored, per machine), which
-`render.mjs` then uses automatically. Flags on the command line still override it:
+This tries different worker counts, NVIDIA NVENC, Intel Quick Sync and GPU canvas, then
+writes the fastest combination to `studio.config.json` (per-machine, git-ignored).
+Every render uses that file automatically, and command-line flags still override it.
 
-| Option | Values | What it does |
+**Laptop checklist** (e.g. i9 · 16 GB · RTX 3050 · Iris Xe):
+- Plug in, and set Windows to **Best performance** power mode. Laptop CPUs throttle hard on battery.
+- In **NVIDIA Control Panel → Manage 3D settings → Program settings**, set `node.exe` and
+  Playwright's `chrome.exe` to *High-performance NVIDIA processor* so `--gpu` uses the RTX.
+- 16 GB fits 8–10 workers at 1080×1920 (~370–500 MB each). Close browsers during final renders.
+- Docker/WSL2 gets half your RAM by default. To change it, create `%UserProfile%\.wslconfig`:
+  ```ini
+  [wsl2]
+  memory=10GB
+  ```
+  then run `wsl --shutdown`.
+
+---
+
+## 4. Making a video with Claude Code
+
+1. Start Claude Code in the repo (`claude`), open `/model`, and set effort to **xhigh**.
+2. Either run the skill **`/motion-reel`**, which asks for URL, duration, formats, palette,
+   reference and music, and then runs the whole pipeline,
+   **or** paste a director prompt from `prompts/`:
+
+   | File | Use it for |
+   | --- | --- |
+   | `prompts/A_showreel.txt` | stress test: "show off" 15 s showreel |
+   | `prompts/B_product_launch.txt` | product/brand launch built from a real website |
+   | `prompts/C_style_transfer.txt` | copy the *style* of a reference video in `refs/` |
+   | `prompts/D_state_machine.xml` | one morphing UI container, cursor-driven, on a 120 BPM grid |
+
+3. Claude follows `CLAUDE.md`: it writes `index.html`, runs `npm run draft`, and reviews
+   `out/contact.png`, `out/strip.png` and `out/phone.png` using `prompts/evaluation.md`.
+   It keeps fixing and re-rendering until every score is ≥ 8, then runs `npm run build`.
+4. Your deliverables: `out/final.mp4`, `out/contact.png`, `out/loop_check.mp4`.
+
+Put reference media in `refs/` and scraped logos, screenshots and fonts in `assets/`.
+
+---
+
+## 5. Command reference
+
+| Command | What it does | Output |
 | --- | --- | --- |
-| `--workers` | `auto` or a number | parallel browser renderers (~370–500 MB RAM each) |
-| `--encoder` | `x264` (default), `nvenc`, `qsv`, `auto` | `nvenc` = NVIDIA RTX encoder, `qsv` = Intel Iris Xe Quick Sync. Frees CPU for Chromium. Falls back to x264 if unavailable |
-| `--gpu` | flag | hardware-accelerated canvas in Chromium (D3D11 on Windows) |
+| `npm run setup` | install packages + Chromium | |
+| `npm run bench` | find the fastest settings for this machine | `studio.config.json` |
+| `npm run draft` | **fast iteration**: 540×960, 30 fps, no blur, then contact sheets (~10 s) | `out/silent.mp4`, `out/contact.png`… |
+| `npm run render:preview` | full size, 30 fps, no blur | `out/silent.mp4` |
+| `npm run render` | **final**: 1080×1920, 60 fps, 4-subframe motion blur | `out/silent.mp4` |
+| `npm run render:formats` | same timeline in 9:16, 1:1 and 16:9 | `out/final_*_silent.mp4` |
+| `npm run sfx` | synthesize SFX from `cues.json` | `out/sfx.wav` |
+| `npm run mux` | add audio at −14 LUFS, matched to video length | `out/final.mp4` |
+| `npm run critique` | contact sheet, frame strip, phone view, loop check | `out/*.png`, `out/loop_check.mp4` |
+| `npm run build` | sfx → render → mux → critique | everything |
+| `npm run determinism` | render 3 s twice, compare hashes | pass/fail |
+| `npm test` | unit tests for the motion library | |
+| `python beats.py track.wav > beats.json` | beat grid + transient hits from music | `beats.json` |
 
-x264 + software canvas is byte-deterministic; the hardware options are visually identical
-(≈48 dB PSNR) but can differ by a few bits between runs.
+Pass extra flags after `--`, e.g. `npm run render -- --workers 6 --encoder nvenc`.
+Scripts take optional paths, e.g. `node scripts/critique.mjs out/final_1x1.mp4 2.5`
+(the second argument is the strip start time in seconds).
 
-### Laptop tips (e.g. i9 + 16 GB + RTX 3050 + Iris Xe)
-- **Render natively on Windows for the fastest results.** NVENC and Quick Sync are not visible inside Docker Desktop.
-  Keep Docker for when you want the exact same output as another machine.
-- Plug in and use the *Best performance* power mode. Laptop i9s drop clocks a lot on battery or when hot.
-- In the NVIDIA Control Panel (*Manage 3D settings → Program settings*), set `node.exe` and
-  Playwright's `chrome.exe` to *High-performance NVIDIA processor* so `--gpu` uses the RTX, not the iGPU.
-- 16 GB comfortably fits 8–10 workers at 1080×1920. Close browsers and other large apps during final renders.
-- For Docker, WSL2 gets half your RAM by default (8 GB), which is enough. To change it, create
-  `%UserProfile%\.wslconfig` with `[wsl2]` / `memory=10GB` and run `wsl --shutdown`.
+---
 
-## Commands
-| Step | Command | Output |
+## 6. Render options
+
+`node render.mjs [options]`. Any option can also go in `studio.config.json`.
+
+| Option | Default | Meaning |
 | --- | --- | --- |
-| Preview | open `index.html` in a browser (after `npm install`, for fonts) | live loop |
-| Draft render (30 fps, no blur) | `npm run render:preview` | `out/silent.mp4` |
-| Full render (60 fps, 4-subframe motion blur) | `npm run render` | `out/silent.mp4` |
-| All formats | `npm run render:formats` | 9:16, 1:1, 16:9 |
-| Beat grid from a track | `python beats.py track.wav > beats.json` | `beats.json` |
-| Procedural SFX | `npm run sfx` | `out/sfx.wav` |
-| Mux + −14 LUFS | `npm run mux` | `out/final.mp4` |
-| Critique images | `npm run critique` | `out/contact.png`, `strip.png`, `phone.png`, `loop_check.mp4` |
-| Determinism check | `npm run determinism` | hash comparison |
-| Everything | `npm run build` | |
-| Find fastest settings | `npm run bench` | `studio.config.json` |
-| Unit tests | `npm test` | |
+| `--w` / `--h` | 1080 / 1920 | output size (the film reads it from `?w=&h=`) |
+| `--fps` | 60 | output frame rate |
+| `--sub` | 4 | subframes blended per frame (motion blur); `1` = off |
+| `--dur` | film's `window.DURATION` | seconds to render |
+| `--from` | 0 | start time: re-render just a slice |
+| `--workers` | `auto` | parallel renderers (≈0.6 × logical cores, limited by free RAM, max 12) |
+| `--encoder` | `x264` | `x264` (CPU, deterministic), `nvenc` (NVIDIA), `qsv` (Intel iGPU), `auto` |
+| `--gpu` | off | hardware-accelerated canvas in Chromium |
+| `--out` | `out/silent.mp4` | output file |
 
-Re-render a slice: `node render.mjs --from 6 --dur 3 --out out/patch.mp4`.
-Control parallelism: `--workers 8` (default `auto`: ~0.6 × logical cores, limited by free RAM, max 12).
+Re-render one slice after a fix: `node render.mjs --from 6 --dur 3 --out out/patch.mp4`.
 
-## Performance
-The renderer is a pure function of time, so it can:
-- **Blend motion-blur subframes on the GPU inside the page**: one screenshot per output
-  frame instead of one per subframe.
-- **Render chunks of the timeline in parallel** browser contexts, each with its own encoder,
-  then join them losslessly.
-- Use clipped `page.screenshot` instead of `locator.screenshot` (~1.7× faster per capture).
+Environment overrides: `FFMPEG=C:\path\ffmpeg.exe`, `CHROMIUM_PATH=C:\path\chrome.exe`.
 
-Measured on a 4-core Linux box, 15 s film at 1080×1920:
+`x264` with the software canvas is **byte-identical run to run**. The hardware options look
+identical (≈48 dB PSNR) but can differ by a few bits between runs.
 
-| Setting | Before | Now |
-| --- | --- | --- |
-| 30 fps, 2 subframes | 1 m 41 s | 35 s |
-| 60 fps, 4 subframes (final) | ~13 min (est.) | ~75 s (Docker) |
+---
 
-Output is still byte-identical between runs (`npm run determinism`).
+## 7. Writing a film by hand
 
-## Layout
-```
-CLAUDE.md                      studio rules (render contract, look, audio, critique loop)
-index.html                     the film: canvas + window.seek(t)
-lib/motion.js                  closed-form springs, track(), indicator(), mulberry32, presets
-lib/ffmpeg.mjs                 cross-platform ffmpeg lookup/runner
-lib/encoders.mjs               x264 / NVENC / Quick Sync presets + availability probe
-lib/options.mjs                CLI → studio.config.json → default
-render.mjs                     Chromium → H.264 (GPU subframe blend, parallel chunks)
-sfx.mjs  cues.json             procedural click/pop/thump/whoosh → WAV
-beats.py                       librosa beat grid + onset hits
-scripts/                       mux, critique, determinism, formats, bench (Node, cross-platform)
-prompts/                       director patterns A–D + evaluation prompt
-.claude/skills/motion-reel/    /motion-reel skill: the whole pipeline in one command
-Dockerfile  docker-compose.yml container toolchain
-assets/  refs/  docs/          scraped assets, style references, style guides & shot lists
+`index.html` is the whole film. The contract (enforced in `CLAUDE.md`):
+
+- `window.seek(t)` paints frame *t*. There's no state between frames, no timers, no CSS
+  transitions and no `Math.random` (use `Motion.rng(seed)`).
+- Set `window.DURATION` (seconds) and list every font face in `window.FONTS`.
+- Read the size from `?w=&h=` so one timeline renders every aspect ratio.
+
+The motion library `lib/motion.js` exposes `window.Motion`:
+
+```js
+const { spring, track, indicator, rng, PRESETS, beatIndex, clamp, lerp } = Motion;
+spring(t, k, d)                       // 0 → 1 closed-form damped spring
+track(t, [[0, 0], [1, 400], [2, 100]]) // value that springs to each key at its time
+indicator(t, stops)                   // tab indicator with stretchy leading/trailing edges
+rng(42)()                             // seeded random in [0, 1)
+beatIndex(t, beats.beats)             // index of the current beat
 ```
 
-## Using it with Claude Code
-Start `claude` in this repo, set effort to `xhigh` via `/model`, then either paste a prompt
-from `prompts/` or run `/motion-reel`.
-
-## Motion presets (`Motion.PRESETS`)
 | Preset | k | d | Use |
 | --- | --- | --- | --- |
-| snappy | 320 | 30 | buttons, toggles, leading edges |
-| canvas | 170 | 26 | cards, containers, camera pans |
-| heavy | 90 | 19 | large headlines |
-| playful | 240 | 14 | badges, stickers |
+| `PRESETS.snappy` | 320 | 30 | buttons, toggles, leading edges |
+| `PRESETS.canvas` | 170 | 26 | cards, containers, camera pans |
+| `PRESETS.heavy` | 90 | 19 | large headlines |
+| `PRESETS.playful` | 240 | 14 | badges, stickers |
+
+**Fonts**: install from npm (`npm i @fontsource/<family>`), add a `<link>` to its CSS in
+`index.html`, and add the face to `window.FONTS`. Bundled fonts render the same on every OS.
+
+---
+
+## 8. Sound and music
+
+- **Procedural SFX**: edit `cues.json` (`{ "t": seconds, "type": "click|pop|thump|whoosh", "gain": 1 }`),
+  then `npm run sfx`. Add new voices in `sfx.mjs`.
+- **Your own track**: `python beats.py refs/track.wav > beats.json`, snap visual hits to
+  `beats` / `downbeats` / `hits`, then `node scripts/mux.mjs out/silent.mp4 refs/track.wav`.
+- `mux` normalises to −14 LUFS and pads or trims audio to exactly the video length.
+
+---
+
+## 9. Performance
+
+Because the film is a pure function of time, the renderer can:
+- **blend motion-blur subframes on the GPU inside the page**, taking one capture per output frame instead of four;
+- **render chunks of the timeline in parallel**, each with its own encoder, and join them losslessly;
+- **capture over CDP with `optimizeForSpeed`**, which is lossless PNG and ~3× faster than a locator screenshot;
+- **optionally offload encoding to NVENC or Quick Sync**, freeing the CPU for drawing.
+
+Measured on a 4-core Linux VM (no GPU), 15 s film:
+
+| Job | Original | Now |
+| --- | --- | --- |
+| 1080×1920, 30 fps, 2 subframes | 1 m 41 s | 22 s |
+| 1080×1920, 60 fps, 4 subframes (final), whole build | ~13 min (est.) | 68 s |
+| Draft (`npm run draft`, 540×960, 30 fps) | — | ~9 s |
+
+A modern i9 laptop should be considerably faster; `npm run bench` shows the real numbers.
+
+---
+
+## 10. Project layout
+
+```
+CLAUDE.md                      rules Claude follows (render contract, look, audio, review loop)
+index.html                     the film: canvas + window.seek(t)
+lib/motion.js                  springs, track(), indicator(), mulberry32 rng, presets
+lib/ffmpeg.mjs                 finds and runs ffmpeg ($FFMPEG → ffmpeg-static → PATH)
+lib/encoders.mjs               x264 / NVENC / Quick Sync settings + availability probe
+lib/options.mjs                option lookup: CLI → studio.config.json → default
+render.mjs                     Chromium → H.264 (GPU subframe blend, parallel chunks, CDP capture)
+sfx.mjs  cues.json             procedural sound effects → WAV
+beats.py  requirements.txt     beat grid from a music track (librosa)
+scripts/                       mux, critique, determinism, formats, bench (Node, cross-platform)
+prompts/                       director prompts A–D + evaluation prompt
+.claude/skills/motion-reel/    the /motion-reel skill
+test/                          unit tests (node --test)
+Dockerfile  docker-compose.yml container toolchain
+assets/  refs/  docs/          your assets, reference media, style guides & shot lists
+out/                           renders (git-ignored)
+```
+
+---
+
+## 11. Troubleshooting
+
+| Problem | Fix |
+| --- | --- |
+| `Executable doesn't exist … chrome-headless-shell` | `npx playwright install chromium` |
+| `ffmpeg not found` | `npm install` again, or set `FFMPEG` to an ffmpeg.exe |
+| `Encoder "nvenc" is not available` | update the NVIDIA driver; it falls back to x264 automatically |
+| Wrong/fallback font in the video | the face is missing from `window.FONTS` or its `<link>` |
+| Text looks blurry when scaled | remove `will-change`; draw text at final size instead of scaling up |
+| Render is slow | `npm run bench`, plug in the laptop, close other apps, use `npm run draft` while iterating |
+| Out of memory | lower `--workers` |
+| `NON-DETERMINISTIC` | something uses `Math.random`, `Date`, timers, or state between frames |
+| Docker: Chromium crashes | keep `shm_size: 2gb` in `docker-compose.yml` |
+| Docker: old packages after an update | `docker compose down -v; docker compose build` |
+| Windows: script errors about line endings | re-clone; `.gitattributes` forces LF |
+
+## Credits
+Based on the community work listed in the documentation, including
+JohnHeibel/ClaudeAnimationBase, remotion-dev/skills, heygen-com/hyperframes and guanmo-ai/awesome-ai-motion.

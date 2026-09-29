@@ -8,7 +8,8 @@
 //    drawn into an accumulation canvas), so each output frame costs one screenshot, not SUB.
 //  * The film is a pure function of time, so the timeline is split into chunks rendered by
 //    parallel browser contexts, each feeding its own encoder; chunks are joined losslessly.
-//  * page.screenshot (clipped) instead of locator.screenshot — ~1.7× faster per capture.
+//  * Frames are captured over CDP with optimizeForSpeed (fast lossless PNG): ~3× faster per
+//    capture than locator.screenshot.
 import { chromium } from 'playwright';
 import { mkdirSync, rmSync, writeFileSync } from 'node:fs';
 import { cpus, freemem, platform } from 'node:os';
@@ -68,7 +69,8 @@ async function openPage() {
       }
     };
   });
-  return { ctx, page };
+  const cdp = await ctx.newCDPSession(page);
+  return { ctx, page, cdp };
 }
 
 const first = await openPage();
@@ -98,7 +100,7 @@ const progress = setInterval(() => {
 }, 1000);
 
 async function renderChunk(idx, startFrame, endFrame, handle) {
-  const { ctx, page } = handle || (await openPage());
+  const { ctx, page, cdp } = handle || (await openPage());
   const file = join(chunkDir, `chunk_${String(idx).padStart(3, '0')}.mp4`);
   const enc = ffmpegPipe([
     '-f', 'image2pipe', '-framerate', String(FPS), '-i', '-',
@@ -108,7 +110,8 @@ async function renderChunk(idx, startFrame, endFrame, handle) {
   const rate = FPS * SUB;
   for (let f = startFrame; f < endFrame; f++) {
     await page.evaluate(([t, sub, r]) => window.__frame(t, sub, r), [FROM + f / FPS, SUB, rate]);
-    const png = await page.screenshot({ type: 'png', clip: { x: 0, y: 0, width: W, height: H } });
+    const { data } = await cdp.send('Page.captureScreenshot', { format: 'png', optimizeForSpeed: true });
+    const png = Buffer.from(data, 'base64');
     if (!enc.proc.stdin.write(png)) await new Promise((r) => enc.proc.stdin.once('drain', r));
     done++;
   }

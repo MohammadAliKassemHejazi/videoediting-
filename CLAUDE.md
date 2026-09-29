@@ -35,7 +35,7 @@ the harness renders it frame-by-frame to video. Full reference: `docs/Opus_Motio
 - Mix master audio to -14 LUFS standard (`npm run mux` does this with loudnorm).
 
 ## Vision Verification Loop (Mandatory before final export)
-1. Render one frame per beat as a contact sheet (`out/contact.png`) — `npm run critique`.
+1. Render a draft and contact sheets (`out/contact.png`) — `npm run draft`.
 2. Self-score from 1-10 on:
    - Hook strength (first 2 seconds)
    - Readability at mobile scale (360px viewport width)
