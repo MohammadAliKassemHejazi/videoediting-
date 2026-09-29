@@ -21,6 +21,6 @@ Ask for any missing parameters before starting.
 3. Analyze or generate audio: run `python beats.py <track> > beats.json`; otherwise write `cues.json` on a 120 BPM grid.
 4. Outline scenes and camera timings in `docs/shotlist.md`.
 5. Write `index.html` using the deterministic `window.seek(t)` harness and `lib/motion.js` springs. Follow `CLAUDE.md`.
-6. Test render (`node render.mjs --fps 30 --sub 1`), then `bash scripts/critique.sh out/silent.mp4`; run the vision evaluation in `prompts/evaluation.md` (minimum 3 iterations, every score ≥ 8).
-7. Final subframe render: `node render.mjs`, `node sfx.mjs`, `bash scripts/mux.sh`; extra formats via `bash scripts/formats.sh`.
+6. Test render (`node render.mjs --fps 30 --sub 1`), then `node scripts/critique.mjs out/silent.mp4`; run the vision evaluation in `prompts/evaluation.md` (minimum 3 iterations, every score ≥ 8).
+7. Final subframe render: `node render.mjs`, `node sfx.mjs`, `npm run mux`; extra formats via `npm run render:formats`.
 8. Deliver `out/final.mp4`, `out/contact.png`, and `out/loop_check.mp4`.

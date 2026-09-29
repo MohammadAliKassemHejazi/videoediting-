@@ -1,0 +1,7 @@
+# Keep LF endings on Windows checkouts so files mounted into Docker behave the same.
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.mp4 binary
+*.wav binary
+*.woff2 binary

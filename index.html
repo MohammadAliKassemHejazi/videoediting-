@@ -7,6 +7,10 @@
     html, body { margin: 0; padding: 0; background: #141413; overflow: hidden; }
     canvas { display: block; }
   </style>
+  <!-- Fonts are bundled locally (npm @fontsource) so renders match on Windows, macOS, Linux and Docker. -->
+  <link rel="stylesheet" href="node_modules/@fontsource/source-serif-4/700.css">
+  <link rel="stylesheet" href="node_modules/@fontsource/inter/500.css">
+  <link rel="stylesheet" href="node_modules/@fontsource/inter/600.css">
   <script src="lib/motion.js"></script>
 </head>
 <body>
@@ -139,6 +143,8 @@ function draw(t) {
 }
 
 window.DURATION = DUR;
+// Every face the film draws with. The renderer loads these before frame 0 (canvas loads fonts lazily).
+window.FONTS = ['700 100px "Source Serif 4"', '500 100px Inter', '600 100px Inter'];
 window.seek = (t) => { draw(t); return true; };
 
 // Browser preview loop (disabled during automated headless runs)

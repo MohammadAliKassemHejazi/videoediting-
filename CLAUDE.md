@@ -6,10 +6,12 @@ the harness renders it frame-by-frame to video. Full reference: `docs/Opus_Motio
 ## Layout
 - `index.html` — the film. Canvas + `window.seek(t)`.
 - `lib/motion.js` — closed-form springs, `track()`, `indicator()`, seeded `rng()`, presets.
-- `render.mjs` — headless Chromium → FFmpeg (subframe motion blur). `--fps --dur --sub --from --out`.
+- `render.mjs` — headless Chromium → H.264. In-page subframe blending + parallel chunk workers. `--fps --dur --sub --from --w --h --workers --out`.
 - `sfx.mjs` — procedural SFX from `cues.json` → `out/sfx.wav`.
 - `beats.py` — beat grid from an audio track → `beats.json`.
-- `scripts/` — `mux.sh`, `critique.sh` (contact sheets), `determinism.sh`, `formats.sh`.
+- `scripts/*.mjs` — `mux`, `critique` (contact sheets), `determinism`, `formats`. All Node, so they run on Windows, macOS, Linux and in Docker.
+- `lib/ffmpeg.mjs` — finds ffmpeg ($FFMPEG → bundled ffmpeg-static → PATH).
+- Fonts: bundled via npm `@fontsource/*`, linked in `index.html`, listed in `window.FONTS`. Add any new face to both.
 - `prompts/` — director prompt patterns A–D and the evaluation prompt.
 
 ## Render Contract
@@ -30,7 +32,7 @@ the harness renders it frame-by-frame to video. Full reference: `docs/Opus_Motio
 ## Audio & Rhythm
 - Score and SFX must be synthesized in code unless an external audio track is supplied.
 - Snap visual hits directly to the measured beat grid (`beats.json`).
-- Mix master audio to -14 LUFS standard (`scripts/mux.sh` does this with loudnorm).
+- Mix master audio to -14 LUFS standard (`npm run mux` does this with loudnorm).
 
 ## Vision Verification Loop (Mandatory before final export)
 1. Render one frame per beat as a contact sheet (`out/contact.png`) — `npm run critique`.

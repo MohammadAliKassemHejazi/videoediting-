@@ -5,16 +5,28 @@
   "type": "module",
   "description": "Code-rendered motion graphics pipeline: window.seek(t) + Playwright + FFmpeg.",
   "scripts": {
+    "setup": "npm install && npx playwright install chromium",
     "render": "node render.mjs",
     "render:preview": "node render.mjs --fps 30 --sub 1",
-    "sfx": "node sfx.mjs cues.json out/sfx.wav",
-    "mux": "bash scripts/mux.sh",
-    "critique": "bash scripts/critique.sh",
-    "determinism": "bash scripts/determinism.sh",
+    "render:formats": "node scripts/formats.mjs",
+    "sfx": "node sfx.mjs cues.json out/sfx.wav --dur 15",
+    "mux": "node scripts/mux.mjs",
+    "critique": "node scripts/critique.mjs",
+    "determinism": "node scripts/determinism.mjs",
     "build": "npm run render && npm run sfx && npm run mux && npm run critique",
-    "test": "node --test"
+    "test": "node --test",
+    "docker:build": "docker compose build",
+    "docker:render": "docker compose run --rm studio npm run build"
   },
   "devDependencies": {
-    "playwright": "^1.56.0"
+    "ffmpeg-static": "5.3.0",
+    "playwright": "1.56.1"
+  },
+  "dependencies": {
+    "@fontsource/inter": "5.3.0",
+    "@fontsource/source-serif-4": "5.3.0"
+  },
+  "engines": {
+    "node": ">=22"
   }
 }

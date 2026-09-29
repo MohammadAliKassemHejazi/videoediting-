@@ -1,0 +1,14 @@
+services:
+  studio:
+    build: .
+    image: motion-studio
+    working_dir: /app
+    volumes:
+      - .:/app                 # live-edit index.html on the host, render in the container
+      - node_modules:/app/node_modules   # keep the Linux node_modules from the image
+    shm_size: 2gb              # Chromium needs more than Docker's 64 MB default /dev/shm
+    init: true
+    command: npm run build
+
+volumes:
+  node_modules:
