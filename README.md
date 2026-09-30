@@ -1,5 +1,17 @@
 # Motion Studio
 
+**Using Codex:** open this repository in Codex and describe your task. Project
+instructions are in [`AGENTS.md`](AGENTS.md); setup, architecture and example
+requests are in [`docs/CODEX.md`](docs/CODEX.md). The existing Claude workflow
+remains available.
+
+The current `index.html` is the artifact-based developer TikTok: animated code
+editors, terminal workflows, routing comparisons and verified native CSS previews.
+Run `npm run video:draft`, inspect `out/contact.png`, then run `npm run video:check`.
+The reviewed production export is `npm run video:final` → `out/final.mp4`.
+See [the reusable TikTok architecture](docs/TIKTOK_ARCHITECTURE.md) for the review
+gate and future-film workflow. The original sample is in `index-standalone.html`.
+
 Make motion-graphics videos **from code**. Claude writes `index.html`, a film that is a
 pure function of time (`window.seek(t)` draws frame *t*). This harness renders it
 frame by frame with headless Chromium, encodes it with FFmpeg, adds procedural sound,

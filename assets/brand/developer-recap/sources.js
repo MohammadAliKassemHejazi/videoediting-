@@ -1,0 +1,93 @@
+window.RECAP_SOURCES = [
+  {
+    "id": "typescript",
+    "url": "https://www.typescriptlang.org/",
+    "title": "TypeScript: JavaScript With Syntax For Types.",
+    "focus": {
+      "x": 116,
+      "y": 224,
+      "width": 508,
+      "height": 89.59375
+    },
+    "file": "assets/brand/developer-recap/typescript.png",
+    "capturedAt": "2026-09-30T14:24:14.119Z"
+  },
+  {
+    "id": "next",
+    "url": "https://nextjs.org/",
+    "title": "Next.js by Vercel - The React Framework",
+    "focus": {
+      "x": 145.671875,
+      "y": 208,
+      "width": 988.640625,
+      "height": 112
+    },
+    "file": "assets/brand/developer-recap/next.png",
+    "capturedAt": "2026-09-30T14:24:14.248Z"
+  },
+  {
+    "id": "react",
+    "url": "https://react.dev/",
+    "title": "React",
+    "focus": {
+      "x": 567.625,
+      "y": 288.796875,
+      "width": 144.75,
+      "height": 71.5
+    },
+    "file": "assets/brand/developer-recap/react.png",
+    "capturedAt": "2026-09-30T14:24:14.379Z"
+  },
+  {
+    "id": "tailwind",
+    "url": "https://tailwindcss.com/",
+    "title": "Tailwind CSS - Rapidly build modern websites without ever leaving your HTML.",
+    "focus": {
+      "x": 40,
+      "y": 153,
+      "width": 1200,
+      "height": 288
+    },
+    "file": "assets/brand/developer-recap/tailwind.png",
+    "capturedAt": "2026-09-30T14:24:17.116Z"
+  },
+  {
+    "id": "router",
+    "url": "https://reactrouter.com/",
+    "title": "React Router Official Documentation",
+    "focus": {
+      "x": 320,
+      "y": 160,
+      "width": 640,
+      "height": 100
+    },
+    "file": "assets/brand/developer-recap/router.png",
+    "capturedAt": "2026-09-30T14:24:16.497Z"
+  },
+  {
+    "id": "tanstack",
+    "url": "https://tanstack.com/router/latest",
+    "title": "TanStack Router",
+    "focus": {
+      "x": 288,
+      "y": 186,
+      "width": 265.703125,
+      "height": 76
+    },
+    "file": "assets/brand/developer-recap/tanstack.png",
+    "capturedAt": "2026-09-30T14:24:18.199Z"
+  },
+  {
+    "id": "css",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+    "title": "CSS: Cascading Style Sheets | MDN",
+    "focus": {
+      "x": 288,
+      "y": 205,
+      "width": 689,
+      "height": 50
+    },
+    "file": "assets/brand/developer-recap/css.png",
+    "capturedAt": "2026-09-30T14:24:20.457Z"
+  }
+];

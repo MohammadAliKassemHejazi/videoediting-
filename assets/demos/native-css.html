@@ -1,0 +1,15 @@
+<!doctype html><meta charset="utf-8"><title>Native CSS live demo</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#fff;font-family:Arial,sans-serif;color:#0f172a}
+#demo{width:860px;height:242px;padding:20px;container-type:inline-size;background:#f1f5f9}
+.cards{display:grid;grid-template-columns:1fr;gap:16px;height:202px;grid-template-rows:56px 76px 38px}
+.card{display:grid;grid-row:span 3;grid-template-rows:subgrid;padding:14px;border-radius:16px;background:white;border:2px solid #cbd5e1;gap:6px}
+.card:has(input:checked){border-color:#ef4444;background:#fff1f2}
+@container (min-width:600px){.cards{grid-template-columns:repeat(3,1fr)}}
+h3{font-size:24px;line-height:26px;margin:0}p{font-size:18px;line-height:22px;margin:0;color:#64748b}label{font-size:16px;font-weight:bold}input{accent-color:#ef4444;width:18px;height:18px;vertical-align:middle}
+</style>
+<div id="demo"><div class="cards">
+<article class="card"><h3>Ship your first project</h3><p>Build a small, useful app.</p><label><input type="checkbox"> Ready to ship</label></article>
+<article class="card"><h3>Learn the platform</h3><p>CSS, accessibility and browser APIs.</p><label><input type="checkbox"> In progress</label></article>
+<article class="card"><h3>Explore alternatives</h3><p>Keep your toolkit open.</p><label><input type="checkbox"> Next up</label></article>
+</div></div>
