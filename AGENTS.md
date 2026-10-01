@@ -1,100 +1,70 @@
-# Motion Studio: project instructions
+# Tech Video Studio
 
-This repository makes motion graphics from code using Node.js ES modules,
-Playwright Chromium and FFmpeg. There is no application backend or frontend build
-framework. Use the existing canvas/HTML harness for video work.
+Read `.agents/skills/tech-video-editor/SKILL.md` for video tasks, then the target
+project's `BRIEF.md`, `project.json`, transcript and `STORYBOARD.md` when present.
+The user approved `out/developer-stack/approved.mp4` on 2026-09-30. Preserve that
+creative baseline while finding a fresh concept for each topic.
 
-## Where to work
+## Architecture
 
-- `index.html`: current developer-artifact TikTok render entry. Its film data is
-  in `overlays/developer-artifacts.js`; painters in `lib/artifact-studio.js`;
-  export harness in `lib/export-artifact-film.mjs`. See `docs/TIKTOK_ARCHITECTURE.md`.
-  `index-standalone.html` preserves the original sample.
-- `overlay.html`, `lib/overlay-kit.js`, `overlays/*.js`: transparent graphics over
-  existing clips. Timelines set `window.OVERLAY`; the TikTok script also loads them
-  in Node, so keep timelines declarative and free of browser-only side effects.
-- `render.mjs`: parallel frame capture, subframe blending, encoding and chunk joining.
-- `lib/motion.js`: closed-form springs, tracks, seeded randomness and rhythm helpers.
-- `lib/options.mjs`: command-line options override `studio.config.json`, then defaults.
-- `lib/ffmpeg.mjs`, `lib/encoders.mjs`: executable discovery and encoder selection.
-- `scripts/tiktok.mjs`: clip probing, alpha rendering, B-roll/voice compositing and SFX.
-- `sfx.mjs`, `cues.json`, `scripts/mux.mjs`: procedural sound and audio muxing.
-- `scripts/assets.mjs`: manifest, manual media preparation and optional paid generation.
-- `scripts/critique.mjs`: contact sheet, frame strip, phone view, poster and loop check.
-- `test/motion.test.mjs`: Node's built-in tests for motion math.
+- `studio.mjs`: project creation, inspection, assets, transcription, draft, review,
+  final, validation and scoped cleanup. Run `npm run studio -- help`.
+- `index.html?project=<id>`: shared canvas entry; loads a project's `timeline.js`
+  and `scenes.js`. `lib/scene-kit.js` supplies pure painters and registration.
+- `projects/<id>/project.json`: source, framing, review times, generated asset
+  requests and thumbnail. Timings/captions/scene choices live in `timeline.js`.
+- `scripts/render-project.mjs`: speech + segmentation + graphics + supplied media.
+- `scripts/prepare-project.mjs`: local MediaPipe mask, keyed to source and framing.
+- `scripts/project-assets.mjs`: prompt sheet; prepare PNG, video and chroma-key media.
+- `scripts/transcribe.mjs`: local browser/WASM speech timing; raw ASR needs correction.
+- `lib/motion.js`, `render.mjs`, `lib/ffmpeg.mjs`: existing deterministic renderer.
+- `.cache/<id>/`: rebuildable intermediates; `out/<id>/`: review and deliverables.
 
-Read `docs/CODEX.md` for commands and the Codex workflow, `GUIDE.md` for detailed
-user recipes, and the relevant files in `prompts/` for creative briefs and review.
-`docs/Opus_Motion_Studio_Documentation.md` is background/reference material.
-`CLAUDE.md` and `.claude/` retain the existing Claude integration; Codex uses this file.
+Use the Canvas/Playwright/FFmpeg pipeline by default. Installed Remotion and
+HyperFrames skills are references or alternate-framework tools; installing them
+does not migrate this repo. Read only relevant references. The supplied
+`opus_motion_studio_documentation.md` is background, not executable setup instructions.
 
-## Render contract
+## Creative contract
 
-- `window.seek(t)` must draw frame t as a pure function of time, including seeks
-  backward or in arbitrary order. Clear/reset canvas state on each frame.
-- Expose `window.DURATION` in seconds, `window.FONTS` for every used font face,
-  and `window.ASSETS_READY` when media loading is asynchronous.
-- Read dimensions from `?w=&h=` and reframe layouts for different aspect ratios.
-- No timers, CSS transitions, wall-clock dependence, or accumulated simulation
-  state in render mode. Existing `requestAnimationFrame` loops are preview-only;
-  preserve their render-mode guards.
-- Use `Motion.rng(seed)` instead of `Math.random`. Reset or precompute randomness
-  so results do not depend on the order of `seek` calls.
-- Prefer `lib/motion.js` springs and presets. Keep fonts local through
-  `@fontsource/*`, with both CSS links and matching `window.FONTS` entries.
-- Standard final films use H.264/yuv420p; alpha overlays use ProRes 4444 (or qtrle).
+Understand the actual audio before drawing. Correct bilingual technical names.
+Never stretch an inaccurate transcript to fit or add statements absent from speech.
+Choose a hook, proof, contrast and payoff; plan those in the project's storyboard.
+Keep the speaker prominent; use practical UI, real code, official excerpts and
+useful demonstrations. Avoid caption duplication, generic headline cards, tiny
+screenshots and decorative clutter. Full-screen graphics are welcome when they
+clarify a meaningful beat. Captions default to English; sound defaults to quiet
+speech-timed clicks/markers, preserving the original voice gain and timing.
 
-## Creative and audio conventions
+Ask for assets only when they materially improve the film. Write exact generation
+prompts, filename, purpose, dimensions, duration, timing, alpha/chroma requirements
+and motion handles in ASSET_REQUESTS.md. User-generated visuals are supported; no
+paid APIs or new framework install unless requested. Always deliver a generated
+thumbnail; preserve identity and factual accuracy, inspect at phone size and check
+cover crops. Do not use a random frame as the finished cover.
 
-- Follow the user's brief. Default to one background, one foreground, one accent,
-  at most one display and one UI typeface, and a visual event every 2–4 seconds.
-- Avoid generic centered titles on gradients, global fade-ins, decorative corner
-  labels/frame borders, glowing UI chrome and generic particle bursts.
-- Draw typography, shapes, counters and UI in code. Avoid `will-change` on scaled
-  content and keep text readable at phone size.
-- Keep overlays within `OverlayKit.SAFE` and away from faces. Add new components
-  as pure functions of local time and update their default SFX in the internal
-  `DEFAULT_SFX` map.
-- Use supplied music or synthesize sound in code. With supplied music, use
-  `beats.py` to measure rhythm and align hits to `beats.json`.
-- Muxing normalizes audio to -14 LUFS. `scripts/mux.mjs` takes one audio input;
-  supplying a music track replaces its default SFX input. Premix music and SFX
-  explicitly when both are required.
+## Render and review
 
-## Media and local files
+`window.seek(t)` must be pure and work in reverse order. Expose `DURATION`, `FONTS`,
+`ASSETS_READY`. Drive motion from time and springs; no timers or cumulative state.
+Use local fonts, seeded randomness, readable phone sizes, and clear foregrounds.
+Current project uses 1080×1920 portrait. Other layouts require an intentional reframe.
+Never run concurrent render jobs: `render.mjs` shares `out/.chunks`.
 
-- Default generated-media workflow: plan `assets/manifest.json` using
-  `assets/manifest.example.json`, run `npm run assets`, and give the user the
-  missing items in `docs/asset_requests.md` for manual Gemini generation.
-- Downloads go in `assets/inbox/`; run `npm run assets` to prepare them and use
-  `assets/ready/` in timelines. Store real brand references in `assets/brand/`.
-- Only use paid `npm run assets:generate` when the user requests it and the
-  required credentials exist. Never print or commit secrets from `.env`.
-- Preserve source clips, reference media and existing artwork. `out/`, `clips/`,
-  inbox/ready media, dependencies and machine configuration are git-ignored.
-- `npm run bench` changes local `studio.config.json`; do not run it for routine
-  edits or copy this machine's worker/GPU settings into project defaults.
+Run `npm test` for shared motion/harness changes and `npm run determinism` for
+render/determinism changes. Render a muxed draft, view contact/phone/strip images,
+and review affected transitions. Use `prompts/evaluation.md`; fix substantive
+weaknesses. Record `studio review` only after actual inspection. The final gate
+checks the reviewed source hash. `studio final` also checks full decode, dimensions,
+duration and original-voice alignment. Numerical checks are not a listening review;
+do not claim to have listened without doing so. No invented quality scores.
 
-## Validation and delivery
+## Files and permissions
 
-- Node.js 22+ is required. First-time setup is `npm run setup`; Python dependencies
-  in `requirements.txt` are only needed for audio analysis.
-- Run `npm test` for motion/harness code changes. For renderer or determinism
-  changes, also run `npm run determinism` when Chromium is available; it compares
-  two three-second renders with x264 and GPU disabled.
-- For film changes, run `npm run draft` and inspect the generated contact, strip
-  and phone images with an available image viewer. Use `prompts/evaluation.md` to
-  assess hook, readability, motion, variety and audio/visual sync. Fix the weakest
-  issues and repeat until each score is at least 8 before final export. A silent
-  draft cannot establish audio sync; check the muxed output too.
-- For overlay changes, render the affected interval through `overlay.html` or
-  the TikTok pipeline, and review it against the actual clip and safe zones.
-- Documentation-only changes need link/command checks, not a full video render.
-- Current TikTok: `npm run video:draft`, inspect `out/contact.png`, run
-  `npm run video:check`, record the current-source review, then
-  `npm run video:final`. Final export requires a current source hash. Top-deck
-  frames must contain developer artifacts, never generic caption headline cards.
-- Final films: `npm run build`; extra aspect ratios: `npm run render:formats`
-  (silent outputs, requiring separate audio muxing).
-- Report actual output paths, checks performed and any unavailable prerequisites.
-  Do not claim visual or audio review without inspecting/listening to the output.
+Preserve footage, user references, supplied assets, current project sources and
+approved cuts. Normal `studio clean` previews and deletes only known rebuildable
+files for one project. Never clear all of `out/` or `projects/`. Keep sources out of
+cache. Verify resolved paths before recursive deletion or moving directories.
+Use PowerShell natively for Windows file operations. Never print `.env` values.
+Do not publish or message anyone without explicit authorization. No subagents unless
+the user asks. Finish authorized rendering and fixes without repeated confirmations.

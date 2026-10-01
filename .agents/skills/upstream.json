@@ -1,0 +1,42 @@
+[
+  {
+    "name": "remotion-best-practices",
+    "repository": "https://github.com/remotion-dev/skills",
+    "path": "skills/remotion-best-practices",
+    "inspectedHead": "a9b199e165505267eda1ed3e0ef3dd3567c43411",
+    "entryMatchesCommit": true,
+    "licenseBundled": false
+  },
+  {
+    "name": "remotion-captions",
+    "repository": "https://github.com/remotion-dev/skills",
+    "path": "skills/remotion-captions",
+    "inspectedHead": "a9b199e165505267eda1ed3e0ef3dd3567c43411",
+    "entryMatchesCommit": true,
+    "licenseBundled": false
+  },
+  {
+    "name": "hyperframes-creative",
+    "repository": "https://github.com/heygen-com/hyperframes",
+    "path": "skills/hyperframes-creative",
+    "inspectedHead": "7b0ec697040083a9b92c0b4fb87abdb5f6774bc7",
+    "entryMatchesCommit": true,
+    "licenseBundled": true
+  },
+  {
+    "name": "talking-head-recut",
+    "repository": "https://github.com/heygen-com/hyperframes",
+    "path": "skills/talking-head-recut",
+    "inspectedHead": "7b0ec697040083a9b92c0b4fb87abdb5f6774bc7",
+    "entryMatchesCommit": true,
+    "licenseBundled": true
+  },
+  {
+    "name": "motion-doctrine",
+    "repository": "https://github.com/heygen-com/hyperframes",
+    "path": ".agents/skills/motion-doctrine",
+    "inspectedHead": "7b0ec697040083a9b92c0b4fb87abdb5f6774bc7",
+    "entryMatchesCommit": true,
+    "licenseBundled": true
+  }
+]

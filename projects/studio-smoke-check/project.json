@@ -1,0 +1,56 @@
+{
+  "title": "studio smoke check",
+  "source": ".cache/smoke-fixtures/source.mp4",
+  "language": "Arabic",
+  "captions": "English",
+  "style": "approved-tech-editorial",
+  "framing": {
+    "focusX": 0.5,
+    "focusY": 0.5,
+    "cardTop": 1120,
+    "sourceY": 400
+  },
+  "reviewTimes": [
+    0.2,
+    1,
+    1.8
+  ],
+  "thumbnail": {
+    "file": "assets/thumbnail.png",
+    "headline": "Choose a truthful hook from the video"
+  },
+  "assets": [
+    {
+      "id": "video",
+      "file": "assets/inbox/sticker.mp4",
+      "type": "video",
+      "background": "green",
+      "useInTimeline": true,
+      "required": true,
+      "at": 0.3,
+      "duration": 0.8,
+      "x": 80,
+      "y": 200,
+      "width": 200,
+      "height": 200,
+      "purpose": "Test alpha video",
+      "prompt": "Fixture"
+    },
+    {
+      "id": "image",
+      "file": "assets/inbox/sticker.png",
+      "type": "image",
+      "background": "green",
+      "useInTimeline": true,
+      "required": true,
+      "at": 1.2,
+      "duration": 0.6,
+      "x": 80,
+      "y": 200,
+      "width": 200,
+      "height": 200,
+      "purpose": "Test alpha image",
+      "prompt": "Fixture"
+    }
+  ]
+}

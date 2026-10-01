@@ -1,8 +1,11 @@
 window.REFERENCE_EDIT={
- id:'developer_reference_edit',duration:65.04,
+ id:'developer-stack',duration:65.04,accents:'developer',punches:[[3.56,6.54],[24.06,26.3],[58.16,60.06]],
+ anchorChecks:[['TypeScript',16],['Next',17],['Tailwind',18],['React',20],['React',30],['TenStack',32]],
+ scenes:[{a:9.68,b:16.46,kind:'terminal'},{a:16.46,b:21,kind:'stack'},{a:28.56,b:33.68,kind:'route'},{a:33.68,b:36.04,kind:'utility'},{a:37.54,b:44.72,kind:'css'},{a:46.26,b:52.28,kind:'hood'},{a:52.28,b:55.26,kind:'raw'}],
+ fullscreen:[{a:16.46,b:21,kind:'stack-wall'},{a:48.8,b:51.16,kind:'css-engine'}],
  split:[[9.68,21],[28.56,36.04],[37.54,44.72],[46.26,55.26]],
  // Editorial events follow the actual Arabic/English word onsets.
- cues:[9.68,12.2,13.02,14.44,16.46,17.52,18.88,20.1,28.56,29.9,30.86,32.48,33.68,35.08,37.54,38.06,38.32,39.48,39.75,40.66,43.92,46.26,48.8,50.44,52.28,52.78,54.24,62.54,63.32,63.9],
+ cues:[9.68,12.2,13.02,14.44,16.46,17.52,18.88,20.1,28.56,29.9,30.86,32.48,33.68,35.08,37.54,38.06,38.32,39.48,39.75,40.66,43.92,46.26,48.8,49.1,50.44,52.28,52.78,54.24,62.54,63.32,63.9],
  captions:[
  [0,1.2,'On your developer journey'],[1.48,3.44,'Let a software engineer'],[3.56,5.24,'help you choose right'],[5.24,6.54,'without wasting time.'],
  [6.54,8.82,'A web developer'],[8.82,9.68,'in 2026?'],[9.68,12.2,'The obvious choice'],[12.2,13.42,'is this stack.'],[13.42,15.28,'The winning default.'],[15.28,16.46,'Here it is:'],

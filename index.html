@@ -1,11 +1,15 @@
-<!doctype html><html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Artifact Studio / Developer TikTok</title>
-<link rel="stylesheet" href="node_modules/@fontsource/inter/500.css">
-<link rel="stylesheet" href="node_modules/@fontsource/inter/600.css">
-<link rel="stylesheet" href="node_modules/@fontsource/inter/700.css">
-<link rel="stylesheet" href="node_modules/@fontsource/inter/900.css">
-<style>html,body{margin:0;background:transparent;overflow:hidden}canvas{display:block}</style>
-<script src="lib/motion.js"></script><script src="overlays/developer-aligned.js"></script>
-<script src="overlays/developer-artifacts.js"></script>
-</head><body><canvas id="c"></canvas><script src="lib/artifact-studio.js"></script></body></html>
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:Inter;src:url('node_modules/@fontsource/inter/files/inter-latin-700-normal.woff2');font-weight:700}
+@font-face{font-family:Inter;src:url('node_modules/@fontsource/inter/files/inter-latin-900-normal.woff2');font-weight:900}
+@font-face{font-family:Inter;src:url('node_modules/@fontsource/inter/files/inter-latin-500-normal.woff2');font-weight:500}
+html,body{margin:0;background:transparent;overflow:hidden}canvas{display:block}
+</style></head><body><canvas id="c"></canvas><script src="lib/motion.js"></script><script>
+const params=new URLSearchParams(location.search),id=params.get('project')||'developer-stack';
+if(!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(id))throw Error('Invalid project');
+window.PROJECT_ID=id;
+window.ASSETS_READY=(async()=>{
+ const script=src=>new Promise((resolve,reject)=>{const s=document.createElement('script');s.src=src;s.onload=resolve;s.onerror=()=>reject(Error('Missing '+src));document.body.append(s);});
+ await script(`projects/${id}/timeline.js`);await script('lib/scene-kit.js');await window.MEDIA_READY;await script(`projects/${id}/scenes.js`);await window.PROJECT_ASSETS_READY;
+ await Promise.all(window.FONTS.map(f=>document.fonts.load(f)));window.seek(0);
+})();
+</script></body></html>

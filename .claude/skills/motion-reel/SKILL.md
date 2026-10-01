@@ -13,14 +13,14 @@ description: Generates a product or showreel motion graphic video rendered direc
 - Style reference (video, image set, or frame)
 - Music (audio file path or "synthesize")
 
-Ask for any missing parameters before starting.
+Use known project preferences; ask only when missing information materially changes the edit.
 
 ## Execution Order
 1. Extract DOM elements, SVGs, and screenshots from the URL into `./assets/` using Playwright.
 2. If an external visual reference is supplied, generate `docs/style_guide.md` (see `prompts/C_style_transfer.txt`).
-3. Analyze or generate audio: run `python beats.py <track> > beats.json`; otherwise write `cues.json` on a 120 BPM grid.
+3. For talking-head films, use the actual speech clock and quiet cue events. Use music analysis only when music is supplied/requested.
 4. Outline scenes and camera timings in `docs/shotlist.md`.
 5. Write `index.html` using the deterministic `window.seek(t)` harness and `lib/motion.js` springs. Follow `CLAUDE.md`.
-6. Draft render + contact sheets with `npm run draft` (540×960, 30 fps, ~10 s); run the vision evaluation in `prompts/evaluation.md` (minimum 3 iterations, every score ≥ 8).
-7. Final subframe render: `node render.mjs`, `node sfx.mjs`, `npm run mux`; extra formats via `npm run render:formats`.
-8. Deliver `out/final.mp4`, `out/contact.png`, and `out/loop_check.mp4`.
+6. For tech talking-head edits, follow `AGENTS.md` and `.agents/skills/tech-video-editor/SKILL.md`. Render a full muxed project draft, inspect contact/phone/strip images and fix substantive issues.
+7. Record the current review with `studio review`, then `studio final`. Read README.md for maintained commands.
+8. Deliver `out/<project>/final.mp4`, generated `thumbnail.png`, and captions. Preserve approved versions.

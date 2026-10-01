@@ -11,3 +11,8 @@ assets/inbox/*
 !assets/inbox/.gitkeep
 assets/ready/*
 !assets/ready/.gitkeep
+
+.cache/
+projects/*/assets/inbox/*
+!projects/*/assets/inbox/.gitkeep
+*.mp4
