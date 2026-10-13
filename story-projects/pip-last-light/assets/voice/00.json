@@ -1,0 +1,164 @@
+{
+  "input": {
+    "voice": "en-US-AriaNeural",
+    "rate": "+12%",
+    "text": "One light capsule. One damaged bridge. And a whole valley waiting for sunrise. Pip found the capsule cooling in an empty workshop. If it went dark, every route home would disappear."
+  },
+  "words": [
+    {
+      "start": 0.094625,
+      "duration": 0.290166,
+      "text": "One"
+    },
+    {
+      "start": 0.396,
+      "duration": 0.212041,
+      "text": "light"
+    },
+    {
+      "start": 0.619208,
+      "duration": 0.558041,
+      "text": "capsule"
+    },
+    {
+      "start": 1.953125,
+      "duration": 0.279,
+      "text": "One"
+    },
+    {
+      "start": 2.243291,
+      "duration": 0.412958,
+      "text": "damaged"
+    },
+    {
+      "start": 2.667416,
+      "duration": 0.46875,
+      "text": "bridge"
+    },
+    {
+      "start": 3.90625,
+      "duration": 0.167416,
+      "text": "And"
+    },
+    {
+      "start": 4.084833,
+      "duration": 0.0335,
+      "text": "a"
+    },
+    {
+      "start": 4.129458,
+      "duration": 0.212041,
+      "text": "whole"
+    },
+    {
+      "start": 4.352666,
+      "duration": 0.334833,
+      "text": "valley"
+    },
+    {
+      "start": 4.698666,
+      "duration": 0.301333,
+      "text": "waiting"
+    },
+    {
+      "start": 5.011166,
+      "duration": 0.133916,
+      "text": "for"
+    },
+    {
+      "start": 5.15625,
+      "duration": 0.6585,
+      "text": "sunrise"
+    },
+    {
+      "start": 6.584833,
+      "duration": 0.245541,
+      "text": "Pip"
+    },
+    {
+      "start": 6.8415,
+      "duration": 0.267875,
+      "text": "found"
+    },
+    {
+      "start": 7.120541,
+      "duration": 0.055791,
+      "text": "the"
+    },
+    {
+      "start": 7.1875,
+      "duration": 0.390625,
+      "text": "capsule"
+    },
+    {
+      "start": 7.589291,
+      "duration": 0.346,
+      "text": "cooling"
+    },
+    {
+      "start": 7.946416,
+      "duration": 0.089291,
+      "text": "in"
+    },
+    {
+      "start": 8.046875,
+      "duration": 0.133916,
+      "text": "an"
+    },
+    {
+      "start": 8.191958,
+      "duration": 0.256708,
+      "text": "empty"
+    },
+    {
+      "start": 8.459833,
+      "duration": 0.613833,
+      "text": "workshop"
+    },
+    {
+      "start": 9.84375,
+      "duration": 0.178583,
+      "text": "If"
+    },
+    {
+      "start": 10.0335,
+      "duration": 0.111625,
+      "text": "it"
+    },
+    {
+      "start": 10.15625,
+      "duration": 0.200875,
+      "text": "went"
+    },
+    {
+      "start": 10.368291,
+      "duration": 0.279,
+      "text": "dark"
+    },
+    {
+      "start": 10.81475,
+      "duration": 0.212041,
+      "text": "every"
+    },
+    {
+      "start": 11.037958,
+      "duration": 0.212041,
+      "text": "route"
+    },
+    {
+      "start": 11.261166,
+      "duration": 0.223208,
+      "text": "home"
+    },
+    {
+      "start": 11.495541,
+      "duration": 0.111625,
+      "text": "would"
+    },
+    {
+      "start": 11.618291,
+      "duration": 0.602666,
+      "text": "disappear"
+    }
+  ]
+}

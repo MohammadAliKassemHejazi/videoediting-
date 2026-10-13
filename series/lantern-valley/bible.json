@@ -1,0 +1,38 @@
+{
+  "id": "lantern-valley",
+  "version": 1,
+  "title": "Lantern Valley",
+  "world": "A miniature valley where a lighthouse keeps a footbridge visible at night.",
+  "characters": [
+    {
+      "id": "pip",
+      "name": "Pip",
+      "role": "A curious courier who learns to test before rushing",
+      "body": "#e8aa52",
+      "face": "#1c333b",
+      "eyes": "#9fffe2",
+      "height": 1.3,
+      "headShape": "rounded square",
+      "signature": "One short antenna and teal messenger satchel"
+    },
+    {
+      "id": "ada",
+      "name": "Ada",
+      "role": "Patient engineer and mentor",
+      "body": "#6eaaa1",
+      "face": "#243047",
+      "eyes": "#fff4d8",
+      "height": 1.65,
+      "headShape": "rounded square",
+      "signature": "Two antenna tips and copper tool belt"
+    }
+  ],
+  "continuity": [
+    "Pip and Ada live in Lantern Valley.",
+    "The lighthouse is powered by a small amber light capsule."
+  ],
+  "voice": {
+    "en": "en-US-AriaNeural",
+    "ar": "ar-SA-ZariyahNeural"
+  }
+}

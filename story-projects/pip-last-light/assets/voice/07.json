@@ -1,0 +1,174 @@
+{
+  "input": {
+    "voice": "en-US-AriaNeural",
+    "rate": "+12%",
+    "text": "Pip looked back at Ada. The bridge was still the same bridge. He was the part that had changed. Tomorrow, someone else would need that crossing. This time, the light would stay on."
+  },
+  "words": [
+    {
+      "start": 0.094625,
+      "duration": 0.267875,
+      "text": "Pip"
+    },
+    {
+      "start": 0.373666,
+      "duration": 0.223208,
+      "text": "looked"
+    },
+    {
+      "start": 0.608041,
+      "duration": 0.234375,
+      "text": "back"
+    },
+    {
+      "start": 0.853583,
+      "duration": 0.089291,
+      "text": "at"
+    },
+    {
+      "start": 0.954,
+      "duration": 0.368291,
+      "text": "Ada"
+    },
+    {
+      "start": 2.087041,
+      "duration": 0.15625,
+      "text": "The"
+    },
+    {
+      "start": 2.254458,
+      "duration": 0.279,
+      "text": "bridge"
+    },
+    {
+      "start": 2.544625,
+      "duration": 0.145083,
+      "text": "was"
+    },
+    {
+      "start": 2.700875,
+      "duration": 0.234375,
+      "text": "still"
+    },
+    {
+      "start": 2.946416,
+      "duration": 0.089291,
+      "text": "the"
+    },
+    {
+      "start": 3.046875,
+      "duration": 0.245541,
+      "text": "same"
+    },
+    {
+      "start": 3.303583,
+      "duration": 0.479916,
+      "text": "bridge"
+    },
+    {
+      "start": 4.553583,
+      "duration": 0.15625,
+      "text": "He"
+    },
+    {
+      "start": 4.721,
+      "duration": 0.133916,
+      "text": "was"
+    },
+    {
+      "start": 4.866083,
+      "duration": 0.089291,
+      "text": "the"
+    },
+    {
+      "start": 4.9665,
+      "duration": 0.267875,
+      "text": "part"
+    },
+    {
+      "start": 5.245541,
+      "duration": 0.089291,
+      "text": "that"
+    },
+    {
+      "start": 5.346,
+      "duration": 0.145083,
+      "text": "had"
+    },
+    {
+      "start": 5.50225,
+      "duration": 0.558041,
+      "text": "changed"
+    },
+    {
+      "start": 6.830375,
+      "duration": 0.513375,
+      "text": "Tomorrow"
+    },
+    {
+      "start": 7.544625,
+      "duration": 0.290166,
+      "text": "someone"
+    },
+    {
+      "start": 7.846,
+      "duration": 0.223208,
+      "text": "else"
+    },
+    {
+      "start": 8.080375,
+      "duration": 0.133916,
+      "text": "would"
+    },
+    {
+      "start": 8.225458,
+      "duration": 0.178583,
+      "text": "need"
+    },
+    {
+      "start": 8.415166,
+      "duration": 0.15625,
+      "text": "that"
+    },
+    {
+      "start": 8.582583,
+      "duration": 0.524541,
+      "text": "crossing"
+    },
+    {
+      "start": 9.888375,
+      "duration": 0.267875,
+      "text": "This"
+    },
+    {
+      "start": 10.167416,
+      "duration": 0.334833,
+      "text": "time"
+    },
+    {
+      "start": 10.647333,
+      "duration": 0.089291,
+      "text": "the"
+    },
+    {
+      "start": 10.74775,
+      "duration": 0.223208,
+      "text": "light"
+    },
+    {
+      "start": 10.982125,
+      "duration": 0.133916,
+      "text": "would"
+    },
+    {
+      "start": 11.12725,
+      "duration": 0.234375,
+      "text": "stay"
+    },
+    {
+      "start": 11.37275,
+      "duration": 0.301333,
+      "text": "on"
+    }
+  ]
+}

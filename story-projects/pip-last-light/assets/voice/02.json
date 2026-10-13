@@ -1,0 +1,169 @@
+{
+  "input": {
+    "voice": "en-US-AriaNeural",
+    "rate": "+12%",
+    "text": "Ada arrived as Pip backed away. He wanted a shortcut. She wanted an answer. What, exactly, had failed? They looked past the painted rails and found the missing connection in the middle."
+  },
+  "words": [
+    {
+      "start": 0.094625,
+      "duration": 0.334833,
+      "text": "Ada"
+    },
+    {
+      "start": 0.440625,
+      "duration": 0.368291,
+      "text": "arrived"
+    },
+    {
+      "start": 0.820083,
+      "duration": 0.100458,
+      "text": "as"
+    },
+    {
+      "start": 0.931708,
+      "duration": 0.256708,
+      "text": "Pip"
+    },
+    {
+      "start": 1.199541,
+      "duration": 0.245541,
+      "text": "backed"
+    },
+    {
+      "start": 1.45625,
+      "duration": 0.412958,
+      "text": "away"
+    },
+    {
+      "start": 2.645083,
+      "duration": 0.145083,
+      "text": "He"
+    },
+    {
+      "start": 2.801333,
+      "duration": 0.290166,
+      "text": "wanted"
+    },
+    {
+      "start": 3.102666,
+      "duration": 0.044625,
+      "text": "a"
+    },
+    {
+      "start": 3.1585,
+      "duration": 0.647333,
+      "text": "shortcut"
+    },
+    {
+      "start": 4.575875,
+      "duration": 0.200875,
+      "text": "She"
+    },
+    {
+      "start": 4.787958,
+      "duration": 0.3125,
+      "text": "wanted"
+    },
+    {
+      "start": 5.111625,
+      "duration": 0.100458,
+      "text": "an"
+    },
+    {
+      "start": 5.223208,
+      "duration": 0.457583,
+      "text": "answer"
+    },
+    {
+      "start": 6.450875,
+      "duration": 0.346,
+      "text": "What"
+    },
+    {
+      "start": 6.930791,
+      "duration": 0.546875,
+      "text": "exactly"
+    },
+    {
+      "start": 7.611625,
+      "duration": 0.133916,
+      "text": "had"
+    },
+    {
+      "start": 7.756708,
+      "duration": 0.446416,
+      "text": "failed"
+    },
+    {
+      "start": 8.973208,
+      "duration": 0.178583,
+      "text": "They"
+    },
+    {
+      "start": 9.162958,
+      "duration": 0.245541,
+      "text": "looked"
+    },
+    {
+      "start": 9.419625,
+      "duration": 0.334833,
+      "text": "past"
+    },
+    {
+      "start": 9.765625,
+      "duration": 0.078125,
+      "text": "the"
+    },
+    {
+      "start": 9.854916,
+      "duration": 0.323666,
+      "text": "painted"
+    },
+    {
+      "start": 10.18975,
+      "duration": 0.412958,
+      "text": "rails"
+    },
+    {
+      "start": 10.613833,
+      "duration": 0.167416,
+      "text": "and"
+    },
+    {
+      "start": 10.792416,
+      "duration": 0.301333,
+      "text": "found"
+    },
+    {
+      "start": 11.104916,
+      "duration": 0.066958,
+      "text": "the"
+    },
+    {
+      "start": 11.183041,
+      "duration": 0.301333,
+      "text": "missing"
+    },
+    {
+      "start": 11.495541,
+      "duration": 0.43525,
+      "text": "connection"
+    },
+    {
+      "start": 11.941958,
+      "duration": 0.066958,
+      "text": "in"
+    },
+    {
+      "start": 12.020083,
+      "duration": 0.055791,
+      "text": "the"
+    },
+    {
+      "start": 12.087041,
+      "duration": 0.334833,
+      "text": "middle"
+    }
+  ]
+}

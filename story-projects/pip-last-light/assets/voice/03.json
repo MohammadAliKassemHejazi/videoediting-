@@ -1,0 +1,179 @@
+{
+  "input": {
+    "voice": "en-US-AriaNeural",
+    "rate": "+12%",
+    "text": "Pip traced the route: entrance, span, exit. Two parts were sound. One was not. Suddenly the problem was smaller than his fear. They did not need a new bridge. They needed the right repair."
+  },
+  "words": [
+    {
+      "start": 0.094625,
+      "duration": 0.256708,
+      "text": "Pip"
+    },
+    {
+      "start": 0.3625,
+      "duration": 0.323666,
+      "text": "traced"
+    },
+    {
+      "start": 0.697333,
+      "duration": 0.089291,
+      "text": "the"
+    },
+    {
+      "start": 0.79775,
+      "duration": 0.323666,
+      "text": "route"
+    },
+    {
+      "start": 1.255375,
+      "duration": 0.412958,
+      "text": "entrance"
+    },
+    {
+      "start": 1.80225,
+      "duration": 0.379458,
+      "text": "span"
+    },
+    {
+      "start": 2.337958,
+      "duration": 0.46875,
+      "text": "exit"
+    },
+    {
+      "start": 3.582583,
+      "duration": 0.200875,
+      "text": "Two"
+    },
+    {
+      "start": 3.794625,
+      "duration": 0.323666,
+      "text": "parts"
+    },
+    {
+      "start": 4.129458,
+      "duration": 0.111625,
+      "text": "were"
+    },
+    {
+      "start": 4.25225,
+      "duration": 0.491083,
+      "text": "sound"
+    },
+    {
+      "start": 5.524541,
+      "duration": 0.267875,
+      "text": "One"
+    },
+    {
+      "start": 5.803583,
+      "duration": 0.133916,
+      "text": "was"
+    },
+    {
+      "start": 5.948666,
+      "duration": 0.424125,
+      "text": "not"
+    },
+    {
+      "start": 7.142875,
+      "duration": 0.491083,
+      "text": "Suddenly"
+    },
+    {
+      "start": 7.645083,
+      "duration": 0.100458,
+      "text": "the"
+    },
+    {
+      "start": 7.756708,
+      "duration": 0.357125,
+      "text": "problem"
+    },
+    {
+      "start": 8.125,
+      "duration": 0.12275,
+      "text": "was"
+    },
+    {
+      "start": 8.258916,
+      "duration": 0.368291,
+      "text": "smaller"
+    },
+    {
+      "start": 8.638375,
+      "duration": 0.089291,
+      "text": "than"
+    },
+    {
+      "start": 8.738833,
+      "duration": 0.15625,
+      "text": "his"
+    },
+    {
+      "start": 8.90625,
+      "duration": 0.357125,
+      "text": "fear"
+    },
+    {
+      "start": 10.0335,
+      "duration": 0.167416,
+      "text": "They"
+    },
+    {
+      "start": 10.212041,
+      "duration": 0.12275,
+      "text": "did"
+    },
+    {
+      "start": 10.346,
+      "duration": 0.200875,
+      "text": "not"
+    },
+    {
+      "start": 10.558041,
+      "duration": 0.178583,
+      "text": "need"
+    },
+    {
+      "start": 10.74775,
+      "duration": 0.0335,
+      "text": "a"
+    },
+    {
+      "start": 10.792416,
+      "duration": 0.200875,
+      "text": "new"
+    },
+    {
+      "start": 11.004458,
+      "duration": 0.491083,
+      "text": "bridge"
+    },
+    {
+      "start": 12.265625,
+      "duration": 0.178583,
+      "text": "They"
+    },
+    {
+      "start": 12.455375,
+      "duration": 0.3125,
+      "text": "needed"
+    },
+    {
+      "start": 12.779,
+      "duration": 0.089291,
+      "text": "the"
+    },
+    {
+      "start": 12.879458,
+      "duration": 0.212041,
+      "text": "right"
+    },
+    {
+      "start": 13.102666,
+      "duration": 0.479916,
+      "text": "repair"
+    }
+  ]
+}

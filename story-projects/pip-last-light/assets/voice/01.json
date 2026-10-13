@@ -1,0 +1,179 @@
+{
+  "input": {
+    "voice": "en-US-AriaNeural",
+    "rate": "+12%",
+    "text": "He clipped it into his teal satchel and ran. The bridge looked safe. Then a plank rolled under his foot. Pip stopped inches from the gap. Confidence had almost become a very expensive mistake."
+  },
+  "words": [
+    {
+      "start": 0.094625,
+      "duration": 0.145083,
+      "text": "He"
+    },
+    {
+      "start": 0.250875,
+      "duration": 0.290166,
+      "text": "clipped"
+    },
+    {
+      "start": 0.55225,
+      "duration": 0.066958,
+      "text": "it"
+    },
+    {
+      "start": 0.630375,
+      "duration": 0.200875,
+      "text": "into"
+    },
+    {
+      "start": 0.842416,
+      "duration": 0.145083,
+      "text": "his"
+    },
+    {
+      "start": 0.998666,
+      "duration": 0.267875,
+      "text": "teal"
+    },
+    {
+      "start": 1.277666,
+      "duration": 0.379458,
+      "text": "satchel"
+    },
+    {
+      "start": 1.668291,
+      "duration": 0.111625,
+      "text": "and"
+    },
+    {
+      "start": 1.791083,
+      "duration": 0.401791,
+      "text": "ran"
+    },
+    {
+      "start": 2.957583,
+      "duration": 0.15625,
+      "text": "The"
+    },
+    {
+      "start": 3.125,
+      "duration": 0.267875,
+      "text": "bridge"
+    },
+    {
+      "start": 3.404,
+      "duration": 0.223208,
+      "text": "looked"
+    },
+    {
+      "start": 3.638375,
+      "duration": 0.479916,
+      "text": "safe"
+    },
+    {
+      "start": 4.888375,
+      "duration": 0.234375,
+      "text": "Then"
+    },
+    {
+      "start": 5.133916,
+      "duration": 0.055791,
+      "text": "a"
+    },
+    {
+      "start": 5.200875,
+      "duration": 0.334833,
+      "text": "plank"
+    },
+    {
+      "start": 5.546875,
+      "duration": 0.256708,
+      "text": "rolled"
+    },
+    {
+      "start": 5.81475,
+      "duration": 0.178583,
+      "text": "under"
+    },
+    {
+      "start": 6.004458,
+      "duration": 0.15625,
+      "text": "his"
+    },
+    {
+      "start": 6.171875,
+      "duration": 0.379458,
+      "text": "foot"
+    },
+    {
+      "start": 7.321416,
+      "duration": 0.290166,
+      "text": "Pip"
+    },
+    {
+      "start": 7.62275,
+      "duration": 0.357125,
+      "text": "stopped"
+    },
+    {
+      "start": 7.991083,
+      "duration": 0.334833,
+      "text": "inches"
+    },
+    {
+      "start": 8.337041,
+      "duration": 0.12275,
+      "text": "from"
+    },
+    {
+      "start": 8.471,
+      "duration": 0.066958,
+      "text": "the"
+    },
+    {
+      "start": 8.549125,
+      "duration": 0.401791,
+      "text": "gap"
+    },
+    {
+      "start": 9.721,
+      "duration": 0.558041,
+      "text": "Confidence"
+    },
+    {
+      "start": 10.290166,
+      "duration": 0.111625,
+      "text": "had"
+    },
+    {
+      "start": 10.412958,
+      "duration": 0.334833,
+      "text": "almost"
+    },
+    {
+      "start": 10.758916,
+      "duration": 0.290166,
+      "text": "become"
+    },
+    {
+      "start": 11.06025,
+      "duration": 0.055791,
+      "text": "a"
+    },
+    {
+      "start": 11.12725,
+      "duration": 0.279,
+      "text": "very"
+    },
+    {
+      "start": 11.417416,
+      "duration": 0.491083,
+      "text": "expensive"
+    },
+    {
+      "start": 11.919625,
+      "duration": 0.546875,
+      "text": "mistake"
+    }
+  ]
+}

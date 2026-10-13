@@ -1,0 +1,319 @@
+{
+  "project": "backend-checklist",
+  "title": "AI Backend: Three Checks Before You Ship",
+  "start": 0,
+  "duration": 15,
+  "media": "backend-checklist/speech.mp4",
+  "styles": [
+    "tech-ui",
+    "continuous-world",
+    "paper-collage",
+    "brush-story",
+    "cinematic-blueprint"
+  ],
+  "beats": [
+    {
+      "at": 0,
+      "phase": 0,
+      "eyebrow": "GENERATED CODE / INSPECTION",
+      "title": "backend.ts",
+      "items": [
+        "Request → handler → response",
+        "Who defined the contract?"
+      ]
+    },
+    {
+      "at": 3.14,
+      "phase": 1,
+      "eyebrow": "BEFORE YOU SHIP",
+      "title": "Three inspection gates",
+      "items": [
+        "Requirements",
+        "Boundaries",
+        "Test + human review"
+      ]
+    },
+    {
+      "at": 7,
+      "phase": 2,
+      "eyebrow": "ILLUSTRATIVE API CONTRACT",
+      "title": "Define the contract",
+      "items": [
+        "User: authenticated member",
+        "Input: item + quantity",
+        "Response: receipt",
+        "Errors: invalid / forbidden"
+      ],
+      "itemTimes": [
+        9.18,
+        10.24,
+        11,
+        11.9
+      ]
+    },
+    {
+      "at": 13.18,
+      "phase": 3,
+      "eyebrow": "REQUEST / TRUST BOUNDARY",
+      "title": "Inspect the boundary",
+      "items": [
+        "Validate input",
+        "Authenticate the session",
+        "Authorize the owner"
+      ],
+      "itemTimes": [
+        16.46,
+        17.3,
+        18.54
+      ]
+    },
+    {
+      "at": 20.62,
+      "phase": 4,
+      "eyebrow": "ILLUSTRATIVE CONTRAST",
+      "title": "A response is not proof",
+      "items": [
+        "200 OK: request completed",
+        "Access rules: still need review"
+      ]
+    },
+    {
+      "at": 23,
+      "phase": 5,
+      "eyebrow": "ILLUSTRATIVE TEST CASES",
+      "title": "Exercise the edges",
+      "items": [
+        "Invalid quantity",
+        "Missing session",
+        "Wrong owner",
+        "Human inspection"
+      ],
+      "itemTimes": [
+        25.64,
+        26.28,
+        26.92,
+        28.98
+      ]
+    },
+    {
+      "at": 31.86,
+      "phase": 6,
+      "eyebrow": "HUMAN RESPONSIBILITY",
+      "title": "Assistant + reviewer",
+      "items": [
+        "Code generation",
+        "Experienced judgment"
+      ]
+    },
+    {
+      "at": 37.06,
+      "phase": 7,
+      "eyebrow": "BEFORE DEPLOYMENT",
+      "title": "Own the result",
+      "items": [
+        "Secure",
+        "Review",
+        "Understand"
+      ],
+      "itemTimes": [
+        39.94,
+        40.64,
+        41.9
+      ]
+    },
+    {
+      "at": 42.3,
+      "phase": 8,
+      "eyebrow": "CHECKLIST / NEXT STEP",
+      "title": "Your review checklist",
+      "items": [
+        "Requirements → boundaries → tests",
+        "Backend prompt template"
+      ]
+    }
+  ],
+  "captions": [
+    [
+      0,
+      0.58,
+      "STOP."
+    ],
+    [
+      0.58,
+      1.68,
+      "If an AI agent"
+    ],
+    [
+      1.68,
+      3.14,
+      "wrote your backend,"
+    ],
+    [
+      3.14,
+      4.64,
+      "ask these 3 questions."
+    ],
+    [
+      4.64,
+      5.75,
+      "Or hackers will"
+    ],
+    [
+      5.75,
+      7,
+      "talk to you personally."
+    ],
+    [
+      7,
+      7.88,
+      "First question:"
+    ],
+    [
+      7.88,
+      9.18,
+      "What are the requirements?"
+    ],
+    [
+      9.18,
+      10.24,
+      "Who are the users?"
+    ],
+    [
+      10.24,
+      11,
+      "What are the inputs?"
+    ],
+    [
+      11,
+      11.9,
+      "What is the response?"
+    ],
+    [
+      11.9,
+      13.18,
+      "And the error cases."
+    ],
+    [
+      13.18,
+      14.2,
+      "Second question:"
+    ],
+    [
+      14.2,
+      16.46,
+      "Security boundaries."
+    ],
+    [
+      16.46,
+      17.3,
+      "Validation."
+    ],
+    [
+      17.3,
+      18.54,
+      "Authentication."
+    ],
+    [
+      18.54,
+      20.62,
+      "Authorization."
+    ],
+    [
+      20.62,
+      21.4,
+      "Working code"
+    ],
+    [
+      21.4,
+      23,
+      "does not mean secure code."
+    ],
+    [
+      23,
+      23.76,
+      "Third question:"
+    ],
+    [
+      23.76,
+      25.64,
+      "How do we test and review?"
+    ],
+    [
+      25.64,
+      26.92,
+      "Write tests."
+    ],
+    [
+      26.92,
+      28.02,
+      "Cover the edge cases."
+    ],
+    [
+      28.02,
+      30.18,
+      "And do a human review"
+    ],
+    [
+      30.18,
+      31.86,
+      "after the AI agent."
+    ],
+    [
+      31.86,
+      33.82,
+      "AI is a great assistant."
+    ],
+    [
+      33.82,
+      34.82,
+      "But trust me:"
+    ],
+    [
+      34.82,
+      37.06,
+      "I have coded for 5 years."
+    ],
+    [
+      37.06,
+      38.34,
+      "AI writes fast."
+    ],
+    [
+      38.34,
+      39.94,
+      "Your job is to"
+    ],
+    [
+      39.94,
+      40.64,
+      "secure,"
+    ],
+    [
+      40.64,
+      41.9,
+      "review,"
+    ],
+    [
+      41.9,
+      42.3,
+      "and understand."
+    ],
+    [
+      42.3,
+      43.22,
+      "Comment"
+    ],
+    [
+      44.56,
+      45.56,
+      "and I will send you"
+    ],
+    [
+      45.56,
+      46.79,
+      "a backend prompt template."
+    ]
+  ],
+  "sourceHash": "9f5ec97929d4c259442f347a869d8a9a29257e8de9ad602f643d9273af2d04b1",
+  "note": "Illustrative code-drawn style auditions, original speech. Not a final reviewed film."
+}

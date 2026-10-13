@@ -1,8 +1,19 @@
 # Your tech video studio
 
-Edit TikToks and Instagram Reels with Codex. The approved look is a large speaker,
+Edit TikToks, Instagram Reels and narrated stories with Codex or Claude. The approved look is a large speaker,
 dark grid, clean UI demonstrations, speech-timed highlights, quiet clicks, and
 occasional full-screen graphics. Each video gets its own visual concept and thumbnail.
+
+Open `npm run preview` to watch live edits in Remotion. Use `npm run gallery` for
+the browser comparison page at http://localhost:3001. It plays drafts and saves
+your style choice for both agents. [Style auditions](docs/STYLE_LAB.md) offer
+5–10 different 15-second edits. [Story Studio](docs/STORY_STUDIO.md) creates
+one-minute-plus educational 3D, illustrated stories, cinematic animation and sketch stories
+from your script, with English/Arabic neural voiceover and persistent series characters.
+All five requested upstream motion skill families are installed for both clients;
+run `npm run skills:check` to verify. The studio includes 43 downloaded Lemo style
+guides for agents to adapt into fresh treatments. Full-screen storytelling is the
+default; split-screen is optional. [Free asset sources](docs/FREE_ASSETS.md).
 
 ## The easiest way
 
@@ -50,7 +61,7 @@ Final delivery requires a current draft review and a saved thumbnail.
 - `.cache/`: rebuildable render and segmentation files.
 - `.agents/skills/tech-video-editor/`: the editing workflow Codex follows.
 
-Video exports are portrait **1080×1920, 60 fps, H.264/AAC**. Upload the PNG as the
+New video exports are portrait **1440×2560, 60 fps, H.264/AAC**. Upload the PNG as the
 cover separately and check its crop in the app. Originals and approved cuts are
 protected by the normal cleanup command. No paid generation is required.
 

@@ -1,0 +1,59 @@
+{
+  "title": "AI Backend: Three Checks Before You Ship",
+  "source": "clips/1012 (1).mp4",
+  "language": "Arabic",
+  "captions": "English",
+  "style": "approved-tech-editorial",
+  "approvedReference": "out/developer-stack/approved.mp4",
+  "export": {
+    "width": 1440,
+    "height": 2560,
+    "fps": 60
+  },
+  "framing": {
+    "focusX": 0.5,
+    "focusY": 0.5,
+    "cardTop": 1120,
+    "sourceY": 480,
+    "speakerZoom": 1.48,
+    "fullZoom": 1.48
+  },
+  "reviewTimes": [
+    0.2,
+    1.1,
+    4.3,
+    6.6,
+    7.2,
+    9.6,
+    12.6,
+    13.5,
+    16.7,
+    17.7,
+    19.1,
+    20.75,
+    21.9,
+    22.8,
+    23.2,
+    26.5,
+    27.5,
+    29.6,
+    30.8,
+    32.4,
+    35.9,
+    38.1,
+    40.3,
+    41.1,
+    42.5,
+    43.8,
+    45.6,
+    46.55
+  ],
+  "thumbnail": {
+    "file": "assets/thumbnail.png",
+    "headline": "AI BACKEND / 3 CHECKS",
+    "method": "built-in imagegen",
+    "identityReference": "reference/portrait.png",
+    "provenance": "THUMBNAIL_PROMPT.md"
+  },
+  "assets": []
+}

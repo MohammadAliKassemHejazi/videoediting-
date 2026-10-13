@@ -1,0 +1,7 @@
+# Internal generated cover
+
+Built-in imagegen. Identity reference: reference/portrait.png. Selected output copied to assets/thumbnail.png. The user requested delivery of only the video; cover stays internal.
+
+Prompt: Generate an original portrait 9:16 social media video thumbnail, ideally 1440x2560. Use the supplied portrait ONLY as identity reference: preserve the man's exact facial identity, natural expression, curly black hair, beard, black shirt and gold chain. Professional tech editorial cover matching charcoal dark grid background, red #F3445E accent, white bold typography. Waist-up man on lower half with face around 55% height, natural confident expression, softly cut out with subtle red rim light. Central crop safe design: put big readable headline in center upper-middle around 30%-42% height: exact text 'AI BACKEND' on one line and '3 CHECKS' on next, '3 CHECKS' in red. One simple useful supporting visual behind/alongside: three small outlined gateway tiles numbered 01 02 03 with minimalist request, lock and check symbols; no extra tiny text. All face and headline within middle 75% vertical range so 4:5 and square center crops work. Premium contrast, accurate anatomy, subtle lighting, restrained design. No exaggerated shocked face, no hacker hoodies, no invented security claims, no extra words or watermarks. This is a designed original cover, not a raw video frame. Save result for this project.
+
+Result: C:/Users/USER/.codex/generated_images/01a1309c-10d5-7971-a76e-0a8f0b693336/exec-3571f66f-b0db-4a01-96b2-8a681712b3e1.png

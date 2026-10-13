@@ -1,0 +1,16 @@
+import {readFileSync,writeFileSync} from 'node:fs';
+import {join} from 'node:path';
+import {ROOT} from '../lib/project.mjs';
+import {probe,ffmpeg} from '../lib/ffmpeg.mjs';
+import {storyDigest} from '../lib/story-digest.mjs';
+const file=join(ROOT,'out/pip-last-light/illustrated-story-draft.mp4');
+const specFile=join(ROOT,'story-projects/pip-last-light/timed.json');
+const spec=JSON.parse(readFileSync(specFile,'utf8')),meta=probe(file);
+if(meta.width!==1440||meta.height!==2560||meta.fps!==60||!meta.audio||Math.abs(meta.duration-spec.duration)>.15)throw Error('Recovered export metadata failed.');
+await ffmpeg(['-i',file,'-f','null','-']);
+const manifestFile=join(ROOT,'out/pip-last-light/story-drafts.json');
+const manifest=JSON.parse(readFileSync(manifestFile,'utf8'));
+if(manifest.sourceDigest!==storyDigest(ROOT,specFile))throw Error('Other source changes need their own review.');
+if(!manifest.styles.includes('illustrated-story'))manifest.styles.push('illustrated-story');
+writeFileSync(manifestFile,JSON.stringify(manifest,null,2)+'\n');
+console.log('Recovered illustrated export passed metadata and full decode checks.');

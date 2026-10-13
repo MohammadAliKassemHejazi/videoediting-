@@ -5,7 +5,7 @@ import {FFMPEG,probe} from '../lib/ffmpeg.mjs';
 import {project,projectHash} from '../lib/project.mjs';
 import {join} from 'node:path';
 const P=project(process.argv[2]),file=join(P.out,'final.mp4'),p=probe(file);
-assert.ok(p.audio);assert.ok(Math.abs(p.duration-P.film.duration)<.08);assert.equal(p.width,1080);assert.equal(p.height,1920);assert.equal(p.fps,60);
+assert.ok(p.audio);assert.ok(Math.abs(p.duration-P.film.duration)<.08);assert.equal(p.width,P.config.export?.width||1440);assert.equal(p.height,P.config.export?.height||2560);assert.equal(p.fps,60);
 assert.equal(JSON.parse(readFileSync(join(P.out,'final.json'),'utf8')).sourceHash,projectHash(P),'Export is stale');
 const decoded=spawnSync(FFMPEG,['-hide_banner','-loglevel','error','-i',file,'-map','0:v:0','-f','null','-','-progress','pipe:1','-nostats'],{encoding:'utf8'});assert.equal(decoded.status,0,decoded.stderr);
 // Permit one frame of endpoint rounding when the audio sets container duration.

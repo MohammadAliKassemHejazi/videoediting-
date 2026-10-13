@@ -14,6 +14,9 @@ unrelated subjects. Full-screen artifact moments are now welcome.
 Read [the production workflow](../../../docs/WORKFLOW.md) and the chosen project's
 brief/transcript/storyboard. Create a project with `studio new` when needed. Inspect
 the footage and reference before choosing composition or generating assets.
+For renderer details, consult the supplied
+[Opus Motion Studio documentation](../../../opus_motion_studio_documentation.md);
+this project already implements its Canvas/Playwright/FFmpeg workflow.
 
 Write a semantic shot list: spoken phrase/time → useful proof or demonstration →
 viewer focus → motion cause → sound. Verify claims from official sources when

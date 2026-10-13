@@ -1,0 +1,467 @@
+{
+  "id": "pip-last-light",
+  "series": "lantern-valley",
+  "title": "Pip and the Last Light",
+  "language": "en",
+  "voice": "en-US-AriaNeural",
+  "rate": "+12%",
+  "minimumDuration": 60,
+  "export": {
+    "width": 1440,
+    "height": 2560,
+    "fps": 60
+  },
+  "styles": [
+    "educational-3d",
+    "illustrated-story",
+    "cinematic-story",
+    "sketch-story"
+  ],
+  "scriptProvenance": "Original fictional sample authored for the studio demonstration, not supplied by the user.",
+  "scenes": [
+    {
+      "action": "discover",
+      "title": "The last light",
+      "narration": "One light capsule. One damaged bridge. And a whole valley waiting for sunrise. Pip found the capsule cooling in an empty workshop. If it went dark, every route home would disappear.",
+      "at": 0,
+      "duration": 13.459999999999999
+    },
+    {
+      "action": "approach",
+      "title": "A bridge in the dark",
+      "narration": "He clipped it into his teal satchel and ran. The bridge looked safe. Then a plank rolled under his foot. Pip stopped inches from the gap. Confidence had almost become a very expensive mistake.",
+      "at": 13.459999999999999,
+      "duration": 13.7
+    },
+    {
+      "action": "fail",
+      "title": "The warning",
+      "narration": "Ada arrived as Pip backed away. He wanted a shortcut. She wanted an answer. What, exactly, had failed? They looked past the painted rails and found the missing connection in the middle.",
+      "at": 27.159999999999997,
+      "duration": 13.649999999999999
+    },
+    {
+      "action": "inspect",
+      "title": "Look before you leap",
+      "narration": "Pip traced the route: entrance, span, exit. Two parts were sound. One was not. Suddenly the problem was smaller than his fear. They did not need a new bridge. They needed the right repair.",
+      "at": 40.809999999999995,
+      "duration": 14.83
+    },
+    {
+      "action": "build",
+      "title": "One piece at a time",
+      "narration": "They brought three beams from the workshop. Ada fixed the anchors. Pip placed the beams, one after another. The path was connected again. But looking repaired was still different from being ready.",
+      "at": 55.63999999999999,
+      "duration": 13.549999999999999
+    },
+    {
+      "action": "test",
+      "title": "A small test first",
+      "narration": "First came a small test weight. Then a heavier one. The repaired span held both. Pip watched the joints instead of the finish line, and finally stepped onto a path he could explain.",
+      "at": 69.19,
+      "duration": 12.639999999999999
+    },
+    {
+      "action": "cross",
+      "title": "Carry the light",
+      "narration": "Across the river, the lighthouse waited. Pip raised the capsule. Nothing. One long second. Then amber light reached across the water, and the dark valley began finding its way home.",
+      "at": 81.83,
+      "duration": 13.79
+    },
+    {
+      "action": "resolve",
+      "title": "A path worth trusting",
+      "narration": "Pip looked back at Ada. The bridge was still the same bridge. He was the part that had changed. Tomorrow, someone else would need that crossing. This time, the light would stay on.",
+      "at": 95.62,
+      "duration": 12.91
+    }
+  ],
+  "audience": "13–17; curious adventure, earned problem-solving, no preschool tone",
+  "assets": {
+    "environment": "assets/story-library/studio_small_09.hdr",
+    "wood": "assets/story-library/wood.jpg"
+  },
+  "bible": {
+    "id": "lantern-valley",
+    "version": 1,
+    "title": "Lantern Valley",
+    "world": "A miniature valley where a lighthouse keeps a footbridge visible at night.",
+    "characters": [
+      {
+        "id": "pip",
+        "name": "Pip",
+        "role": "A curious courier who learns to test before rushing",
+        "body": "#e8aa52",
+        "face": "#1c333b",
+        "eyes": "#9fffe2",
+        "height": 1.3,
+        "headShape": "rounded square",
+        "signature": "One short antenna and teal messenger satchel"
+      },
+      {
+        "id": "ada",
+        "name": "Ada",
+        "role": "Patient engineer and mentor",
+        "body": "#6eaaa1",
+        "face": "#243047",
+        "eyes": "#fff4d8",
+        "height": 1.65,
+        "headShape": "rounded square",
+        "signature": "Two antenna tips and copper tool belt"
+      }
+    ],
+    "continuity": [
+      "Pip and Ada live in Lantern Valley.",
+      "The lighthouse is powered by a small amber light capsule."
+    ],
+    "voice": {
+      "en": "en-US-AriaNeural",
+      "ar": "ar-SA-ZariyahNeural"
+    }
+  },
+  "duration": 108.53,
+  "audio": "pip-last-light/narration.wav",
+  "captions": [
+    {
+      "start": 0.094625,
+      "end": 1.177249,
+      "text": "One light capsule."
+    },
+    {
+      "start": 1.953125,
+      "end": 3.136166,
+      "text": "One damaged bridge."
+    },
+    {
+      "start": 3.90625,
+      "end": 5.145082,
+      "text": "And a whole valley waiting for"
+    },
+    {
+      "start": 5.15625,
+      "end": 5.81475,
+      "text": "sunrise."
+    },
+    {
+      "start": 6.584833,
+      "end": 8.035707,
+      "text": "Pip found the capsule cooling in"
+    },
+    {
+      "start": 8.046875,
+      "end": 9.073666,
+      "text": "an empty workshop."
+    },
+    {
+      "start": 9.84375,
+      "end": 10.647291,
+      "text": "If it went dark,"
+    },
+    {
+      "start": 10.81475,
+      "end": 12.220956999999999,
+      "text": "every route home would disappear."
+    },
+    {
+      "start": 13.554625,
+      "end": 14.726541,
+      "text": "He clipped it into his teal"
+    },
+    {
+      "start": 14.737665999999999,
+      "end": 15.652873999999999,
+      "text": "satchel and ran."
+    },
+    {
+      "start": 16.417583,
+      "end": 17.578290999999997,
+      "text": "The bridge looked safe."
+    },
+    {
+      "start": 18.348374999999997,
+      "end": 19.620708,
+      "text": "Then a plank rolled under his"
+    },
+    {
+      "start": 19.631875,
+      "end": 20.011333,
+      "text": "foot."
+    },
+    {
+      "start": 20.781416,
+      "end": 22.410915999999997,
+      "text": "Pip stopped inches from the gap."
+    },
+    {
+      "start": 23.180999999999997,
+      "end": 24.866249999999997,
+      "text": "Confidence had almost become a very"
+    },
+    {
+      "start": 24.877415999999997,
+      "end": 25.926499999999997,
+      "text": "expensive mistake."
+    },
+    {
+      "start": 27.254624999999997,
+      "end": 29.029207999999997,
+      "text": "Ada arrived as Pip backed away."
+    },
+    {
+      "start": 29.805082999999996,
+      "end": 30.965832999999996,
+      "text": "He wanted a shortcut."
+    },
+    {
+      "start": 31.735874999999997,
+      "end": 32.840790999999996,
+      "text": "She wanted an answer."
+    },
+    {
+      "start": 33.61087499999999,
+      "end": 33.95687499999999,
+      "text": "What,"
+    },
+    {
+      "start": 34.090790999999996,
+      "end": 34.637665999999996,
+      "text": "exactly,"
+    },
+    {
+      "start": 34.771625,
+      "end": 35.363124,
+      "text": "had failed?"
+    },
+    {
+      "start": 36.133207999999996,
+      "end": 37.762708,
+      "text": "They looked past the painted rails"
+    },
+    {
+      "start": 37.773832999999996,
+      "end": 39.168915999999996,
+      "text": "and found the missing connection in"
+    },
+    {
+      "start": 39.180082999999996,
+      "end": 39.581874,
+      "text": "the middle."
+    },
+    {
+      "start": 40.904624999999996,
+      "end": 42.478333,
+      "text": "Pip traced the route: entrance,"
+    },
+    {
+      "start": 42.612249999999996,
+      "end": 42.991707999999996,
+      "text": "span,"
+    },
+    {
+      "start": 43.147957999999996,
+      "end": 43.616707999999996,
+      "text": "exit."
+    },
+    {
+      "start": 44.392582999999995,
+      "end": 45.553332999999995,
+      "text": "Two parts were sound."
+    },
+    {
+      "start": 46.334540999999994,
+      "end": 47.182790999999995,
+      "text": "One was not."
+    },
+    {
+      "start": 47.95287499999999,
+      "end": 49.537666,
+      "text": "Suddenly the problem was smaller than"
+    },
+    {
+      "start": 49.548832999999995,
+      "end": 50.073375,
+      "text": "his fear."
+    },
+    {
+      "start": 50.84349999999999,
+      "end": 51.803290999999994,
+      "text": "They did not need a new"
+    },
+    {
+      "start": 51.814457999999995,
+      "end": 52.305541,
+      "text": "bridge."
+    },
+    {
+      "start": 53.075624999999995,
+      "end": 54.392582,
+      "text": "They needed the right repair."
+    },
+    {
+      "start": 55.734624999999994,
+      "end": 57.00695799999999,
+      "text": "They brought three beams from the"
+    },
+    {
+      "start": 57.01812499999999,
+      "end": 57.63195799999999,
+      "text": "workshop."
+    },
+    {
+      "start": 58.396708,
+      "end": 59.702498999999996,
+      "text": "Ada fixed the anchors."
+    },
+    {
+      "start": 60.47258299999999,
+      "end": 61.53287399999999,
+      "text": "Pip placed the beams,"
+    },
+    {
+      "start": 61.666790999999996,
+      "end": 62.581958,
+      "text": "one after another."
+    },
+    {
+      "start": 63.35204099999999,
+      "end": 64.76945799999999,
+      "text": "The path was connected again."
+    },
+    {
+      "start": 65.55070799999999,
+      "end": 67.20249899999999,
+      "text": "But looking repaired was still different"
+    },
+    {
+      "start": 67.21366599999999,
+      "end": 67.961458,
+      "text": "from being ready."
+    },
+    {
+      "start": 69.28462499999999,
+      "end": 70.869458,
+      "text": "First came a small test weight."
+    },
+    {
+      "start": 71.645375,
+      "end": 72.683291,
+      "text": "Then a heavier one."
+    },
+    {
+      "start": 73.453375,
+      "end": 75.060541,
+      "text": "The repaired span held both."
+    },
+    {
+      "start": 75.841791,
+      "end": 77.359624,
+      "text": "Pip watched the joints instead of"
+    },
+    {
+      "start": 77.370791,
+      "end": 78.040416,
+      "text": "the finish line,"
+    },
+    {
+      "start": 78.308291,
+      "end": 79.770375,
+      "text": "and finally stepped onto a path"
+    },
+    {
+      "start": 79.7815,
+      "end": 80.596249,
+      "text": "he could explain."
+    },
+    {
+      "start": 81.92462499999999,
+      "end": 82.772875,
+      "text": "Across the river,"
+    },
+    {
+      "start": 82.929125,
+      "end": 83.888958,
+      "text": "the lighthouse waited."
+    },
+    {
+      "start": 84.653666,
+      "end": 85.881333,
+      "text": "Pip raised the capsule."
+    },
+    {
+      "start": 86.662583,
+      "end": 87.254083,
+      "text": "Nothing."
+    },
+    {
+      "start": 88.024208,
+      "end": 89.095625,
+      "text": "One long second."
+    },
+    {
+      "start": 89.865708,
+      "end": 91.450541,
+      "text": "Then amber light reached across the"
+    },
+    {
+      "start": 91.461708,
+      "end": 91.796541,
+      "text": "water,"
+    },
+    {
+      "start": 92.153666,
+      "end": 93.63799999999999,
+      "text": "and the dark valley began finding"
+    },
+    {
+      "start": 93.649208,
+      "end": 94.385791,
+      "text": "its way home."
+    },
+    {
+      "start": 95.714625,
+      "end": 96.942291,
+      "text": "Pip looked back at Ada."
+    },
+    {
+      "start": 97.707041,
+      "end": 98.91241600000001,
+      "text": "The bridge was still the same"
+    },
+    {
+      "start": 98.92358300000001,
+      "end": 99.40349900000001,
+      "text": "bridge."
+    },
+    {
+      "start": 100.17358300000001,
+      "end": 101.11108300000001,
+      "text": "He was the part that had"
+    },
+    {
+      "start": 101.12225000000001,
+      "end": 101.68029100000001,
+      "text": "changed."
+    },
+    {
+      "start": 102.45037500000001,
+      "end": 102.96375,
+      "text": "Tomorrow,"
+    },
+    {
+      "start": 103.164625,
+      "end": 104.727124,
+      "text": "someone else would need that crossing."
+    },
+    {
+      "start": 105.508375,
+      "end": 106.12224900000001,
+      "text": "This time,"
+    },
+    {
+      "start": 106.26733300000001,
+      "end": 107.294083,
+      "text": "the light would stay on."
+    }
+  ],
+  "bibleHash": "753cfb8a60ead7c14068cefdc79a2b3d5e3bbff402c0acff2d0eee00cfe31a8f"
+}

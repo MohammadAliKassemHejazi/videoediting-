@@ -1,0 +1,159 @@
+{
+  "input": {
+    "voice": "en-US-AriaNeural",
+    "rate": "+12%",
+    "text": "Across the river, the lighthouse waited. Pip raised the capsule. Nothing. One long second. Then amber light reached across the water, and the dark valley began finding its way home."
+  },
+  "words": [
+    {
+      "start": 0.094625,
+      "duration": 0.412958,
+      "text": "Across"
+    },
+    {
+      "start": 0.51875,
+      "duration": 0.100458,
+      "text": "the"
+    },
+    {
+      "start": 0.630375,
+      "duration": 0.3125,
+      "text": "river"
+    },
+    {
+      "start": 1.099125,
+      "duration": 0.089291,
+      "text": "the"
+    },
+    {
+      "start": 1.199541,
+      "duration": 0.424125,
+      "text": "lighthouse"
+    },
+    {
+      "start": 1.634833,
+      "duration": 0.424125,
+      "text": "waited"
+    },
+    {
+      "start": 2.823666,
+      "duration": 0.267875,
+      "text": "Pip"
+    },
+    {
+      "start": 3.102666,
+      "duration": 0.301333,
+      "text": "raised"
+    },
+    {
+      "start": 3.415166,
+      "duration": 0.078125,
+      "text": "the"
+    },
+    {
+      "start": 3.504458,
+      "duration": 0.546875,
+      "text": "capsule"
+    },
+    {
+      "start": 4.832583,
+      "duration": 0.5915,
+      "text": "Nothing"
+    },
+    {
+      "start": 6.194208,
+      "duration": 0.290166,
+      "text": "One"
+    },
+    {
+      "start": 6.495541,
+      "duration": 0.256708,
+      "text": "long"
+    },
+    {
+      "start": 6.763375,
+      "duration": 0.50225,
+      "text": "second"
+    },
+    {
+      "start": 8.035708,
+      "duration": 0.279,
+      "text": "Then"
+    },
+    {
+      "start": 8.325875,
+      "duration": 0.245541,
+      "text": "amber"
+    },
+    {
+      "start": 8.582583,
+      "duration": 0.290166,
+      "text": "light"
+    },
+    {
+      "start": 8.883916,
+      "duration": 0.290166,
+      "text": "reached"
+    },
+    {
+      "start": 9.18525,
+      "duration": 0.334833,
+      "text": "across"
+    },
+    {
+      "start": 9.53125,
+      "duration": 0.089291,
+      "text": "the"
+    },
+    {
+      "start": 9.631708,
+      "duration": 0.334833,
+      "text": "water"
+    },
+    {
+      "start": 10.323666,
+      "duration": 0.089291,
+      "text": "and"
+    },
+    {
+      "start": 10.424125,
+      "duration": 0.089291,
+      "text": "the"
+    },
+    {
+      "start": 10.524541,
+      "duration": 0.245541,
+      "text": "dark"
+    },
+    {
+      "start": 10.78125,
+      "duration": 0.301333,
+      "text": "valley"
+    },
+    {
+      "start": 11.09375,
+      "duration": 0.346,
+      "text": "began"
+    },
+    {
+      "start": 11.450875,
+      "duration": 0.357125,
+      "text": "finding"
+    },
+    {
+      "start": 11.819208,
+      "duration": 0.133916,
+      "text": "its"
+    },
+    {
+      "start": 11.964291,
+      "duration": 0.178583,
+      "text": "way"
+    },
+    {
+      "start": 12.154,
+      "duration": 0.401791,
+      "text": "home"
+    }
+  ]
+}

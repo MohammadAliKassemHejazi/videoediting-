@@ -7,7 +7,8 @@ import {project,projectHash,sourceHash} from '../lib/project.mjs';
 import {chromium} from 'playwright';
 import {ffmpeg,probe} from '../lib/ffmpeg.mjs';
 const P=project(process.argv.find(x=>x.startsWith('--project='))?.split('=')[1]),F=P.film;
-const final=process.argv.includes('--final'),review=process.argv.includes('--review'),w=final?1080:540,h=final?1920:960,fps=final?60:30,k=w/1080;
+const final=process.argv.includes('--final'),review=process.argv.includes('--review'),w=P.config.export?.width||1440,h=P.config.export?.height||2560,fps=60,k=w/1080;
+if(!Number.isInteger(w)||!Number.isInteger(h)||w%2||h%2||w/h!==9/16||![30,60].includes(fps))throw Error('Export requires even portrait 9:16 dimensions and 30 or 60 fps.');
 const prefix=join(P.out,final?'final':'draft');mkdirSync(P.out,{recursive:true});mkdirSync(P.cache,{recursive:true});
 const hash=projectHash(P),meta=probe(P.source);if(Math.abs(meta.duration-F.duration)>.1)throw Error('Source and timeline durations differ; align the transcript first.');
 if(final&&!review){const r=JSON.parse(readFileSync(join(P.out,'review.json'),'utf8'));if(r.sourceHash!==hash)throw Error('Render a draft, inspect contact/phone/strip, then record the current review.');if(!existsSync(join(P.dir,P.config.thumbnail.file)))throw Error('Generate the project thumbnail before final delivery.');}
@@ -30,7 +31,7 @@ if(!review){
  for(const at of F.cues){let smooth=0;for(let j=0;j<rate*.036;j++){seed=(1664525*seed+1013904223)>>>0;const noise=(seed/4294967296)*2-1;smooth=.76*smooth+.24*noise;const tt=j/rate,env=Math.sin(Math.PI*tt/.036)**2*Math.exp(-tt*130),v=.035*env*(smooth+.25*Math.sin(tt*2*Math.PI*310));const off=Math.round(at*rate)+j;if(off<n)pcm.writeInt16LE(Math.round(v*32767),off*2);}}
  const head=Buffer.alloc(44);head.write('RIFF');head.writeUInt32LE(pcm.length+36,4);head.write('WAVEfmt ',8);head.writeUInt32LE(16,16);head.writeUInt16LE(1,20);head.writeUInt16LE(1,22);head.writeUInt32LE(rate,24);head.writeUInt32LE(rate*2,28);head.writeUInt16LE(2,32);head.writeUInt16LE(16,34);head.write('data',36);head.writeUInt32LE(pcm.length,40);writeFileSync(join(P.cache,'quiet-cues.wav'),Buffer.concat([head,pcm]));
  execFileSync(process.execPath,['render.mjs','--page','index.html','--query',`project=${P.id}`,'--w',String(w),'--h',String(h),'--fps',String(fps),'--sub',final?'2':'1','--workers',final?'6':'4','--gpu','false','--dur',String(F.duration),'--alpha','--alpha-codec','qtrle','--out',join(P.cache,final?'final_graphics.mov':'draft_graphics.mov')],{stdio:'inherit'});
- const enable=F.split.map(([a,b])=>`gte(t,${a})*lt(t,${b})`).join('+')||'0',sw=1080*k,sh=1922*k,offset=P.config.framing.sourceY*k,fx=P.config.framing.focusX,fy=P.config.framing.focusY;
+ const enable=F.split.map(([a,b])=>`gte(t,${a})*lt(t,${b})`).join('+')||'0',even=v=>Math.round(v/2)*2,zoom=P.config.framing.speakerZoom||1,sw=even(1080*k*zoom),sh=even(1922*k*zoom),offset=even(P.config.framing.sourceY*k),fx=P.config.framing.focusX,fy=P.config.framing.focusY,fullZoom=P.config.framing.fullZoom||1;
  const cover=(ww,hh)=>`scale=${ww}:${hh}:force_original_aspect_ratio=increase:flags=lanczos,crop=${ww}:${hh}:(iw-ow)*${fx}:(ih-oh)*${fy}`;
  const mediaArgs=[],mediaFilters=[];let mediaIndex=0;
  for(const [i,a]of (P.config.assets||[]).entries()){
@@ -43,12 +44,12 @@ if(!review){
   mediaFilters.push(`[${6+mediaIndex}:v]trim=duration=${dur},setpts=PTS-STARTPTS+${at}/TB,scale=${ww}:${hh}:force_original_aspect_ratio=decrease,format=rgba,pad=${ww}:${hh}:(ow-iw)/2:(oh-ih)/2:color=0x00000000[media${mediaIndex}];[base${mediaIndex}][media${mediaIndex}]overlay=${x}:${y}:enable='gte(t,${at})*lt(t,${at+dur})':eof_action=pass:format=auto[base${mediaIndex+1}];`);mediaIndex++;
  }
  const filter=`[0:v]fps=${fps},split=3[s][f][punch];`+
-  `[s]${cover(sw,sh)},pad=${w}:${Math.round(sh+offset)}:0:${offset},crop=${w}:${h}:0:0,setsar=1[speaker];`+
-  `[1:v]fps=${fps},erosion,erosion,gblur=sigma=0.5,scale=${sw}:${sh}:flags=bilinear,pad=${w}:${Math.round(sh+offset)}:0:${offset},crop=${w}:${h}:0:0,format=gray[seg];`+
+  `[s]${cover(sw,sh)},crop=${w}:${sh}:(iw-ow)*${fx}:0,pad=${w}:${sh+offset}:0:${offset},crop=${w}:${h}:0:0,setsar=1[speaker];`+
+  `[1:v]fps=${fps},erosion,erosion,gblur=sigma=0.5,scale=${sw}:${sh}:flags=bilinear,crop=${w}:${sh}:(iw-ow)*${fx}:0,pad=${w}:${sh+offset}:0:${offset},crop=${w}:${h}:0:0,format=gray[seg];`+
   `[2:v]scale=${w}:${h},format=gray[card];[seg][card]blend=all_mode=lighten[mask];[speaker][mask]alphamerge[cutout];`+
   `[3:v]scale=${w}:${h},format=rgba[grid];[grid][cutout]overlay=0:0:format=auto[split];`+
-  `[f]${cover(1188*k,2114*k)},crop=${w}:${h}:${54*k}:${160*k},setsar=1[wide];`+
-  `[punch]${cover(1296*k,2306*k)},crop=${w}:${h}:${108*k}:${250*k},setsar=1[tight];`+
+  `[f]${cover(even(1188*k*fullZoom),even(2114*k*fullZoom))},crop=${w}:${h}:(iw-ow)*${fx}:${even(160*k)},setsar=1[wide];`+
+  `[punch]${cover(even(1296*k*fullZoom),even(2306*k*fullZoom))},crop=${w}:${h}:(iw-ow)*${fx}:${even(250*k)},setsar=1[tight];`+
   `[wide][tight]overlay=0:0:enable='${(F.punches||[]).map(([a,b])=>`gte(t,${a})*lt(t,${b})`).join('+')||'0'}'[full];`+
   `[full][split]overlay=0:0:enable='${enable}':format=auto[base0];${mediaFilters.join('')}[base${mediaIndex}][4:v]overlay=0:0:format=auto,tpad=stop_mode=clone:stop_duration=0.1,format=yuv420p[v];`+
   `[0:a]aresample=48000[voice];[voice][5:a]amix=inputs=2:duration=first:normalize=0[a]`;

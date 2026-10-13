@@ -1,0 +1,18 @@
+[
+  {
+    "id": "studio_small_09",
+    "file": "assets/story-library/studio_small_09.hdr",
+    "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/studio_small_09_1k.hdr",
+    "license": "CC0",
+    "licenseUrl": "https://polyhaven.com/license",
+    "source": "Poly Haven official API"
+  },
+  {
+    "id": "wood_planks",
+    "file": "assets/story-library/wood.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/wood_planks/wood_planks_diff_1k.jpg",
+    "license": "CC0",
+    "licenseUrl": "https://polyhaven.com/license",
+    "source": "Poly Haven official API"
+  }
+]

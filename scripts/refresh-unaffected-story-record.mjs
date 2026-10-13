@@ -1,0 +1,12 @@
+import {readFileSync,writeFileSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+import {createStoryWorld,storyState} from '../lib/story-painters.js';
+import {ROOT} from '../lib/project.mjs';
+import {storyDigest} from '../lib/story-digest.mjs';
+const hash=createHash('sha256').update(createStoryWorld.toString()).update(storyState.toString()).digest('hex');
+if(hash!==readFileSync('.cache/story-3d-function-hash.txt','utf8'))throw Error('3D behavior changed; render those styles again.');
+const recordFile='out/pip-last-light/story-drafts.json',record=JSON.parse(readFileSync(recordFile,'utf8'));
+record.styles=record.styles.filter(s=>['educational-3d','cinematic-story'].includes(s));
+record.sourceDigest=storyDigest(ROOT,ROOT+'/story-projects/pip-last-light/timed.json');
+record.unaffectedVerification='3D world and story-state function hashes unchanged by the 2D filter/caption fix.';
+writeFileSync(recordFile,JSON.stringify(record,null,2)+'\n');console.log('Preserved the two unaffected 3D exports; rerender the two revised 2D styles.');

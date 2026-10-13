@@ -1,0 +1,68 @@
+{
+  "id": "pip-last-light",
+  "series": "lantern-valley",
+  "title": "Pip and the Last Light",
+  "language": "en",
+  "voice": "en-US-AriaNeural",
+  "rate": "+12%",
+  "minimumDuration": 60,
+  "export": {
+    "width": 1440,
+    "height": 2560,
+    "fps": 60
+  },
+  "styles": [
+    "educational-3d",
+    "illustrated-story",
+    "cinematic-story",
+    "sketch-story"
+  ],
+  "scriptProvenance": "Original fictional sample authored for the studio demonstration, not supplied by the user.",
+  "scenes": [
+    {
+      "action": "discover",
+      "title": "The last light",
+      "narration": "One light capsule. One damaged bridge. And a whole valley waiting for sunrise. Pip found the capsule cooling in an empty workshop. If it went dark, every route home would disappear."
+    },
+    {
+      "action": "approach",
+      "title": "A bridge in the dark",
+      "narration": "He clipped it into his teal satchel and ran. The bridge looked safe. Then a plank rolled under his foot. Pip stopped inches from the gap. Confidence had almost become a very expensive mistake."
+    },
+    {
+      "action": "fail",
+      "title": "The warning",
+      "narration": "Ada arrived as Pip backed away. He wanted a shortcut. She wanted an answer. What, exactly, had failed? They looked past the painted rails and found the missing connection in the middle."
+    },
+    {
+      "action": "inspect",
+      "title": "Look before you leap",
+      "narration": "Pip traced the route: entrance, span, exit. Two parts were sound. One was not. Suddenly the problem was smaller than his fear. They did not need a new bridge. They needed the right repair."
+    },
+    {
+      "action": "build",
+      "title": "One piece at a time",
+      "narration": "They brought three beams from the workshop. Ada fixed the anchors. Pip placed the beams, one after another. The path was connected again. But looking repaired was still different from being ready."
+    },
+    {
+      "action": "test",
+      "title": "A small test first",
+      "narration": "First came a small test weight. Then a heavier one. The repaired span held both. Pip watched the joints instead of the finish line, and finally stepped onto a path he could explain."
+    },
+    {
+      "action": "cross",
+      "title": "Carry the light",
+      "narration": "Across the river, the lighthouse waited. Pip raised the capsule. Nothing. One long second. Then amber light reached across the water, and the dark valley began finding its way home."
+    },
+    {
+      "action": "resolve",
+      "title": "A path worth trusting",
+      "narration": "Pip looked back at Ada. The bridge was still the same bridge. He was the part that had changed. Tomorrow, someone else would need that crossing. This time, the light would stay on."
+    }
+  ],
+  "audience": "13–17; curious adventure, earned problem-solving, no preschool tone",
+  "assets": {
+    "environment": "assets/story-library/studio_small_09.hdr",
+    "wood": "assets/story-library/wood.jpg"
+  }
+}

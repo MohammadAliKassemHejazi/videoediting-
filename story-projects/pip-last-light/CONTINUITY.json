@@ -1,0 +1,11 @@
+{
+  "episode": "pip-last-light",
+  "series": "lantern-valley",
+  "status": "fictional sample episode",
+  "characterIds": ["pip", "ada"],
+  "start": "The village is dark. Pip finds the last light capsule in the workshop.",
+  "outcome": "Pip and Ada repair and test the damaged bridge. Pip delivers the light capsule and restores the lighthouse and village lanterns.",
+  "learned": "Pip learns to inspect connections, repair weak points, and test before trusting.",
+  "persistentProps": ["Pip's teal satchel", "Ada's copper tool pouch", "the repaired bridge", "the restored lighthouse"],
+  "sequelGuidance": "Preserve identities and this outcome when a user says the next story is related; direct new locations and actions rather than repeating the bridge plot."
+}

@@ -1,0 +1,14 @@
+{
+  "provenance": "Corrected existing timeline.js and STORYBOARD.md. Illustrative API examples, no measured results.",
+  "beats": [
+    {"at":0,"phase":0,"eyebrow":"GENERATED CODE / INSPECTION","title":"backend.ts","items":["Request → handler → response","Who defined the contract?"]},
+    {"at":3.14,"phase":1,"eyebrow":"BEFORE YOU SHIP","title":"Three inspection gates","items":["Requirements","Boundaries","Test + human review"]},
+    {"at":7,"phase":2,"eyebrow":"ILLUSTRATIVE API CONTRACT","title":"Define the contract","items":["User: authenticated member","Input: item + quantity","Response: receipt","Errors: invalid / forbidden"],"itemTimes":[9.18,10.24,11,11.9]},
+    {"at":13.18,"phase":3,"eyebrow":"REQUEST / TRUST BOUNDARY","title":"Inspect the boundary","items":["Validate input","Authenticate the session","Authorize the owner"],"itemTimes":[16.46,17.3,18.54]},
+    {"at":20.62,"phase":4,"eyebrow":"ILLUSTRATIVE CONTRAST","title":"A response is not proof","items":["200 OK: request completed","Access rules: still need review"]},
+    {"at":23,"phase":5,"eyebrow":"ILLUSTRATIVE TEST CASES","title":"Exercise the edges","items":["Invalid quantity","Missing session","Wrong owner","Human inspection"],"itemTimes":[25.64,26.28,26.92,28.98]},
+    {"at":31.86,"phase":6,"eyebrow":"HUMAN RESPONSIBILITY","title":"Assistant + reviewer","items":["Code generation","Experienced judgment"]},
+    {"at":37.06,"phase":7,"eyebrow":"BEFORE DEPLOYMENT","title":"Own the result","items":["Secure","Review","Understand"],"itemTimes":[39.94,40.64,41.9]},
+    {"at":42.3,"phase":8,"eyebrow":"CHECKLIST / NEXT STEP","title":"Your review checklist","items":["Requirements → boundaries → tests","Backend prompt template"]}
+  ]
+}

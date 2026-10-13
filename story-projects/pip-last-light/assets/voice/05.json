@@ -1,0 +1,174 @@
+{
+  "input": {
+    "voice": "en-US-AriaNeural",
+    "rate": "+12%",
+    "text": "First came a small test weight. Then a heavier one. The repaired span held both. Pip watched the joints instead of the finish line, and finally stepped onto a path he could explain."
+  },
+  "words": [
+    {
+      "start": 0.094625,
+      "duration": 0.357125,
+      "text": "First"
+    },
+    {
+      "start": 0.462958,
+      "duration": 0.18975,
+      "text": "came"
+    },
+    {
+      "start": 0.663833,
+      "duration": 0.055791,
+      "text": "a"
+    },
+    {
+      "start": 0.730791,
+      "duration": 0.301333,
+      "text": "small"
+    },
+    {
+      "start": 1.043291,
+      "duration": 0.267875,
+      "text": "test"
+    },
+    {
+      "start": 1.322333,
+      "duration": 0.357125,
+      "text": "weight"
+    },
+    {
+      "start": 2.455375,
+      "duration": 0.245541,
+      "text": "Then"
+    },
+    {
+      "start": 2.712041,
+      "duration": 0.044625,
+      "text": "a"
+    },
+    {
+      "start": 2.767875,
+      "duration": 0.390625,
+      "text": "heavier"
+    },
+    {
+      "start": 3.169625,
+      "duration": 0.323666,
+      "text": "one"
+    },
+    {
+      "start": 4.263375,
+      "duration": 0.145083,
+      "text": "The"
+    },
+    {
+      "start": 4.419625,
+      "duration": 0.401791,
+      "text": "repaired"
+    },
+    {
+      "start": 4.832583,
+      "duration": 0.334833,
+      "text": "span"
+    },
+    {
+      "start": 5.178583,
+      "duration": 0.267875,
+      "text": "held"
+    },
+    {
+      "start": 5.457583,
+      "duration": 0.412958,
+      "text": "both"
+    },
+    {
+      "start": 6.651791,
+      "duration": 0.256708,
+      "text": "Pip"
+    },
+    {
+      "start": 6.919625,
+      "duration": 0.346,
+      "text": "watched"
+    },
+    {
+      "start": 7.276791,
+      "duration": 0.078125,
+      "text": "the"
+    },
+    {
+      "start": 7.366083,
+      "duration": 0.346,
+      "text": "joints"
+    },
+    {
+      "start": 7.723208,
+      "duration": 0.368291,
+      "text": "instead"
+    },
+    {
+      "start": 8.102666,
+      "duration": 0.066958,
+      "text": "of"
+    },
+    {
+      "start": 8.180791,
+      "duration": 0.078125,
+      "text": "the"
+    },
+    {
+      "start": 8.270083,
+      "duration": 0.290166,
+      "text": "finish"
+    },
+    {
+      "start": 8.571416,
+      "duration": 0.279,
+      "text": "line"
+    },
+    {
+      "start": 9.118291,
+      "duration": 0.111625,
+      "text": "and"
+    },
+    {
+      "start": 9.241083,
+      "duration": 0.390625,
+      "text": "finally"
+    },
+    {
+      "start": 9.642875,
+      "duration": 0.3125,
+      "text": "stepped"
+    },
+    {
+      "start": 9.9665,
+      "duration": 0.212041,
+      "text": "onto"
+    },
+    {
+      "start": 10.18975,
+      "duration": 0.066958,
+      "text": "a"
+    },
+    {
+      "start": 10.267875,
+      "duration": 0.3125,
+      "text": "path"
+    },
+    {
+      "start": 10.5915,
+      "duration": 0.100458,
+      "text": "he"
+    },
+    {
+      "start": 10.703125,
+      "duration": 0.133916,
+      "text": "could"
+    },
+    {
+      "start": 10.848208,
+      "duration": 0.558041,
+      "text": "explain"
+    }
+  ]
+}

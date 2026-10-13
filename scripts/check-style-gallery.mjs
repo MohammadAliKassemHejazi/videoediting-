@@ -1,0 +1,28 @@
+import {chromium} from 'playwright';
+
+const browser=await chromium.launch({headless:true,channel:'msedge'});
+try{
+  const page=await browser.newPage(),errors=[];
+  page.on('pageerror',error=>errors.push(error.message));
+  await page.goto('http://localhost:3001',{waitUntil:'domcontentloaded'});
+  const items=await page.evaluate(async()=>await(await fetch('/api/styles')).json());
+  console.log(`${items.filter(item=>item.ready).length}/${items.length} drafts available.`);
+  for(const item of items.filter(item=>item.ready)){
+    const result=await page.evaluate(async(id)=>{
+      const video=document.createElement('video');video.muted=true;video.src='/media/'+id;
+      document.body.append(video);
+      try{
+        await new Promise((resolve,reject)=>{
+          const timer=setTimeout(()=>reject(Error('Video metadata timed out')),20000);
+          video.onloadeddata=()=>{clearTimeout(timer);resolve()};
+          video.onerror=()=>{clearTimeout(timer);reject(Error(video.error?.message||'Video failed'))};
+        });
+        await video.play();video.pause();
+        return {width:video.videoWidth,height:video.videoHeight,duration:video.duration,error:video.error?.code||null};
+      }finally{video.remove()}
+    },item.id);
+    if(result.width!==1440||result.height!==2560||result.error)throw Error('Invalid browser playback: '+item.id);
+    console.log(item.id,JSON.stringify(result));
+  }
+  if(errors.length)throw Error(errors.join('\n'));
+}finally{await browser.close()}

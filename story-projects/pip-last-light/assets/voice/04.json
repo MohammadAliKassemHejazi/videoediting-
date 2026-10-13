@@ -1,0 +1,169 @@
+{
+  "input": {
+    "voice": "en-US-AriaNeural",
+    "rate": "+12%",
+    "text": "They brought three beams from the workshop. Ada fixed the anchors. Pip placed the beams, one after another. The path was connected again. But looking repaired was still different from being ready."
+  },
+  "words": [
+    {
+      "start": 0.094625,
+      "duration": 0.178583,
+      "text": "They"
+    },
+    {
+      "start": 0.284375,
+      "duration": 0.279,
+      "text": "brought"
+    },
+    {
+      "start": 0.574541,
+      "duration": 0.234375,
+      "text": "three"
+    },
+    {
+      "start": 0.820083,
+      "duration": 0.323666,
+      "text": "beams"
+    },
+    {
+      "start": 1.154916,
+      "duration": 0.12275,
+      "text": "from"
+    },
+    {
+      "start": 1.288833,
+      "duration": 0.078125,
+      "text": "the"
+    },
+    {
+      "start": 1.378125,
+      "duration": 0.613833,
+      "text": "workshop"
+    },
+    {
+      "start": 2.756708,
+      "duration": 0.334833,
+      "text": "Ada"
+    },
+    {
+      "start": 3.102666,
+      "duration": 0.3125,
+      "text": "fixed"
+    },
+    {
+      "start": 3.426333,
+      "duration": 0.089291,
+      "text": "the"
+    },
+    {
+      "start": 3.526791,
+      "duration": 0.535708,
+      "text": "anchors"
+    },
+    {
+      "start": 4.832583,
+      "duration": 0.234375,
+      "text": "Pip"
+    },
+    {
+      "start": 5.078125,
+      "duration": 0.3125,
+      "text": "placed"
+    },
+    {
+      "start": 5.401791,
+      "duration": 0.078125,
+      "text": "the"
+    },
+    {
+      "start": 5.491083,
+      "duration": 0.401791,
+      "text": "beams"
+    },
+    {
+      "start": 6.026791,
+      "duration": 0.18975,
+      "text": "one"
+    },
+    {
+      "start": 6.227666,
+      "duration": 0.290166,
+      "text": "after"
+    },
+    {
+      "start": 6.529,
+      "duration": 0.412958,
+      "text": "another"
+    },
+    {
+      "start": 7.712041,
+      "duration": 0.15625,
+      "text": "The"
+    },
+    {
+      "start": 7.879458,
+      "duration": 0.290166,
+      "text": "path"
+    },
+    {
+      "start": 8.180791,
+      "duration": 0.133916,
+      "text": "was"
+    },
+    {
+      "start": 8.325875,
+      "duration": 0.412958,
+      "text": "connected"
+    },
+    {
+      "start": 8.75,
+      "duration": 0.379458,
+      "text": "again"
+    },
+    {
+      "start": 9.910708,
+      "duration": 0.18975,
+      "text": "But"
+    },
+    {
+      "start": 10.111625,
+      "duration": 0.290166,
+      "text": "looking"
+    },
+    {
+      "start": 10.412958,
+      "duration": 0.424125,
+      "text": "repaired"
+    },
+    {
+      "start": 10.848208,
+      "duration": 0.12275,
+      "text": "was"
+    },
+    {
+      "start": 10.982125,
+      "duration": 0.234375,
+      "text": "still"
+    },
+    {
+      "start": 11.227666,
+      "duration": 0.334833,
+      "text": "different"
+    },
+    {
+      "start": 11.573666,
+      "duration": 0.133916,
+      "text": "from"
+    },
+    {
+      "start": 11.71875,
+      "duration": 0.245541,
+      "text": "being"
+    },
+    {
+      "start": 11.975458,
+      "duration": 0.346,
+      "text": "ready"
+    }
+  ]
+}

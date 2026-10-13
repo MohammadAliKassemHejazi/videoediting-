@@ -5,6 +5,47 @@ project's `BRIEF.md`, `project.json`, transcript and `STORYBOARD.md` when presen
 The user approved `out/developer-stack/approved.mp4` on 2026-09-30. Preserve that
 creative baseline while finding a fresh concept for each topic.
 
+## Live preview, auditions and scripted stories
+
+For video work, open `npm run preview` and keep Remotion visible while editing.
+Verify the actual composition and media load; fix preview errors immediately.
+Use `.agents/skills/style-auditions/SKILL.md` for 5–10 distinct 15-second style
+drafts and `.agents/skills/story-studio/SKILL.md` for script-to-story work.
+Read docs/STYLE_LAB.md and docs/STORY_STUDIO.md for commands and project formats.
+The five requested upstream families are installed in `.agents/skills` and mirrored
+to `.claude/skills`: HyperFrames, onetake, Collage B-roll, Clawd Animation, Lemo Opuscar.
+Clawd's full original kit is under clawd-animation/upstream. Lemo's 43 style guides
+are local under vendor/motion-guides/lemo-opuscar/styles. Run `npm run skills:check`.
+
+User preferences override upstream skills' default runtimes, automatic setup,
+approval pauses, paid generators, durations and delivery sizes. Never run external
+setup scripts merely to read a downloaded guide. Keep free/code assets by default.
+The upstream onetake package is noncommercial; preserve its license and do not
+assume it covers commercial reuse. The studio's independently authored continuous
+camera preview does not import its motion library.
+
+All newly exported videos, including drafts, target 2K/60fps: 1440×2560 portrait
+or intentionally reframed 2560×1440 landscape. Story/education demos are at least
+one minute and include generated voiceover, selectable English or Arabic.
+Related stories reuse series/<id>/bible.json, character assets and episode continuity.
+Keep stable identity IDs and designs. Ask only for missing consequential story input.
+
+Each video needs its own researched creative concept and meaningful narrative.
+Story audience defaults to ages 13–17. Include sketch stories. Use original
+recurring characters, strong curiosity and visible consequences. Professional
+finish means deliberate acting, camera coverage, lighting, materials, sound and
+clean causal seams; camera drift or decoration alone is insufficient. Keep scenes
+developing with useful action while preserving reading time and dramatic pauses.
+Research recent examples, record sources/date and choose trends that serve the
+script; do not invent popularity rankings. Default to full-screen acting, useful
+demonstrations and deliberate speaker shots. Split-screen is optional, not a template.
+Extend the user's chosen style through the full film with fresh staging. Inspect
+actual frames and transitions, fix substantive issues, and finish authorized renders.
+
+The existing Canvas pipeline remains the talking-head production path; Remotion
+is now installed for live auditions and narrative compositions. This is an explicit
+addition requested by the user, not an automatic migration of approved projects.
+
 ## Architecture
 
 - `studio.mjs`: project creation, inspection, assets, transcription, draft, review,
@@ -48,7 +89,8 @@ cover crops. Do not use a random frame as the finished cover.
 `window.seek(t)` must be pure and work in reverse order. Expose `DURATION`, `FONTS`,
 `ASSETS_READY`. Drive motion from time and springs; no timers or cumulative state.
 Use local fonts, seeded randomness, readable phone sizes, and clear foregrounds.
-Current project uses 1080×1920 portrait. Other layouts require an intentional reframe.
+Painters use logical 1080×1920 portrait coordinates; new exports are 1440×2560 at
+60fps. Other layouts require an intentional reframe.
 Never run concurrent render jobs: `render.mjs` shares `out/.chunks`.
 
 Run `npm test` for shared motion/harness changes and `npm run determinism` for

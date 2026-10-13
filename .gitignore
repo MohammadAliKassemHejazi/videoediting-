@@ -13,6 +13,21 @@ assets/ready/*
 !assets/ready/.gitkeep
 
 .cache/
+remotion/public/*/speech.mp4
+remotion/public/*/speech.sha256
+remotion/public/fonts/
 projects/*/assets/inbox/*
 !projects/*/assets/inbox/.gitkeep
 *.mp4
+
+# Rebuildable exports, logs and mirrored public assets
+*.log
+*.mov
+*.webm
+remotion/public/
+story-projects/*/assets/voice/*.mp3
+story-projects/*/assets/narration.wav
+story-projects/*/assets/foley.wav
+# Keep voice timing/provenance, authored visuals, fonts references and licenses.
+**/.DS_Store
+**/Thumbs.db
