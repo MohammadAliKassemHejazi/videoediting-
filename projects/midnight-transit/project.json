@@ -1,0 +1,58 @@
+{
+    "id":  "midnight-transit",
+    "title":  "MIDNIGHT TRANSIT",
+    "style":  "Noir clockwork cinema",
+    "palette":  [
+                    "#090d12",
+                    "#a40c22",
+                    "#ffc66b"
+                ],
+    "skills":  [
+                   "lemo-opuscar / glass-product",
+                   "onetake / continuous camera",
+                   "motion-doctrine / causal seams",
+                   "media-use / material sound"
+               ],
+    "hook":  "A mechanical moth carries the last second through a monumental clock.",
+    "shots":  [
+                  [
+                      "0â€“3",
+                      "Macro clock mechanism; one amber second wakes the moth.",
+                      "Dry ticks; tiny metal latch; descending air."
+                  ],
+                  [
+                      "3â€“6",
+                      "Camera follows the moth down a red-lit industrial corridor.",
+                      "Panned wing-metal flutter; room rumble."
+                  ],
+                  [
+                      "6â€“9",
+                      "Clock blades close; moth folds its wings and dives through.",
+                      "Mechanical slam; impact and short ringing tail."
+                  ],
+                  [
+                      "9â€“12",
+                      "Time capsule strikes the clock core; rings burst outward.",
+                      "Brief hold, then glass burst and sub impact."
+                  ],
+                  [
+                      "12â€“15",
+                      "Released amber light travels through the city; moth flies toward the sunrise.",
+                      "Warm resolving chord; distant metal tail."
+                  ]
+              ],
+    "kind":  "directed-film",
+    "duration":  15,
+    "fps":  60,
+    "width":  1440,
+    "height":  2560,
+    "composition":  "midnight-transit",
+    "entry":  "projects/midnight-transit/scenes.jsx",
+    "audio":  "showcase/midnight-transit/score.wav",
+    "thumbnail":  {
+                      "file":  "assets/thumbnail.png"
+                  },
+    "reviewStatus":  "completed direction draft; visual review in DRAFT_REVIEW.md",
+    "audience":  "13â€“17",
+    "reusable":  "Preserve this visual grammar; author fresh actions and scenes per script."
+}

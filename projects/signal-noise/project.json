@@ -1,0 +1,60 @@
+{
+    "id":  "signal-noise",
+    "title":  "SIGNAL / NOISE",
+    "style":  "Kinetic brutalist print lab",
+    "palette":  [
+                    "#d9ff43",
+                    "#17191a",
+                    "#f1eee6",
+                    "#7643ed"
+                ],
+    "skills":  [
+                   "hyperframes-animation / kinetic typography",
+                   "hyperframes-creative / video composition",
+                   "onetake / contact and carrier",
+                   "lemo-opuscar / swiss-motion",
+                   "oversized-cursor / causation"
+               ],
+    "hook":  "A field of noise is physically crushed into one idea, then printed into an explosive poster.",
+    "shots":  [
+                  [
+                      "0â€“3",
+                      "Oversized NOISE slices collide in an optical tunnel.",
+                      "Clipped percussion, narrow-band static and panned clicks."
+                  ],
+                  [
+                      "3â€“6",
+                      "A large pointer pins one dot; the chaos gets pulled into its orbit.",
+                      "Click causes the suction; dry air acceleration."
+                  ],
+                  [
+                      "6â€“9",
+                      "Compression lands as one giant IDEA. A black stripe carries the scene.",
+                      "Heavy print impact; clean beat gap."
+                  ],
+                  [
+                      "9â€“12",
+                      "The word unfolds into a radial typographic machine.",
+                      "Rhythmic ratchet, four rising mechanical taps."
+                  ],
+                  [
+                      "12â€“15",
+                      "A final MAKE IT MOVE poster locks into place with a visible print smear.",
+                      "Bass hit with a short room; restrained closing rhythm."
+                  ]
+              ],
+    "kind":  "directed-film",
+    "duration":  15,
+    "fps":  60,
+    "width":  1440,
+    "height":  2560,
+    "composition":  "signal-noise",
+    "entry":  "projects/signal-noise/scenes.jsx",
+    "audio":  "showcase/signal-noise/score.wav",
+    "thumbnail":  {
+                      "file":  "assets/thumbnail.png"
+                  },
+    "reviewStatus":  "completed direction draft; visual review in DRAFT_REVIEW.md",
+    "audience":  "13â€“17",
+    "reusable":  "Preserve this visual grammar; author fresh actions and scenes per script."
+}

@@ -1,0 +1,767 @@
+{
+  "duration": 15,
+  "rate": 48000,
+  "composition": "Original material score; no licensed onetake source imports.",
+  "events": [
+    {
+      "time": 0.1,
+      "length": 0.16,
+      "kind": "sub",
+      "gain": 0.6,
+      "pan": 0,
+      "frequency": 70
+    },
+    {
+      "time": 0.30000000000000004,
+      "length": 0.065,
+      "kind": "click",
+      "gain": 0.15,
+      "pan": 0.05990004998809689,
+      "frequency": 220
+    },
+    {
+      "time": 0.5,
+      "length": 0.16,
+      "kind": "sub",
+      "gain": 0.24,
+      "pan": 0,
+      "frequency": 70
+    },
+    {
+      "time": 0.7,
+      "length": 0.065,
+      "kind": "click",
+      "gain": 0.15,
+      "pan": 0.2876553231625218,
+      "frequency": 220
+    },
+    {
+      "time": 0.9,
+      "length": 0.16,
+      "kind": "sub",
+      "gain": 0.24,
+      "pan": 0,
+      "frequency": 70
+    },
+    {
+      "time": 1.1,
+      "length": 0.065,
+      "kind": "click",
+      "gain": 0.15,
+      "pan": 0.46999614577649,
+      "frequency": 220
+    },
+    {
+      "time": 1.3,
+      "length": 0.16,
+      "kind": "sub",
+      "gain": 0.24,
+      "pan": 0,
+      "frequency": 70
+    },
+    {
+      "time": 1.5,
+      "length": 0.065,
+      "kind": "click",
+      "gain": 0.15,
+      "pan": 0.5781349112503158,
+      "frequency": 220
+    },
+    {
+      "time": 1.7000000000000002,
+      "length": 0.16,
+      "kind": "sub",
+      "gain": 0.6,
+      "pan": 0,
+      "frequency": 70
+    },
+    {
+      "time": 1.9000000000000001,
+      "length": 0.065,
+      "kind": "click",
+      "gain": 0.15,
+      "pan": 0.5949988862714811,
+      "frequency": 220
+    },
+    {
+      "time": 2.1,
+      "length": 0.16,
+      "kind": "sub",
+      "gain": 0.24,
+      "pan": 0,
+      "frequency": 70
+    },
+    {
+      "time": 2.3000000000000003,
+      "length": 0.065,
+      "kind": "click",
+      "gain": 0.15,
+      "pan": 0.5179256199893242,
+      "frequency": 220
+    },
+    {
+      "time": 2.5,
+      "length": 0.16,
+      "kind": "sub",
+      "gain": 0.24,
+      "pan": 0,
+      "frequency": 70
+    },
+    {
+      "time": 2.7,
+      "length": 0.065,
+      "kind": "click",
+      "gain": 0.15,
+      "pan": 0.35908328646237386,
+      "frequency": 220
+    },
+    {
+      "time": 2.9,
+      "length": 0.16,
+      "kind": "sub",
+      "gain": 0.24,
+      "pan": 0,
+      "frequency": 70
+    },
+    {
+      "time": 3.1,
+      "length": 0.065,
+      "kind": "click",
+      "gain": 0.15,
+      "pan": 0.14354959752838944,
+      "frequency": 220
+    },
+    {
+      "time": 3.3,
+      "length": 0.16,
+      "kind": "sub",
+      "gain": 0.6,
+      "pan": 0,
+      "frequency": 70
+    },
+    {
+      "time": 3.5,
+      "length": 0.065,
+      "kind": "click",
+      "gain": 0.15,
+      "pan": -0.09464741648594892,
+      "frequency": 220
+    },
+    {
+      "time": 3.6999999999999997,
+      "length": 0.16,
+      "kind": "sub",
+      "gain": 0.24,
+      "pan": 0,
+      "frequency": 70
+    },
+    {
+      "time": 3.9,
+      "length": 0.065,
+      "kind": "click",
+      "gain": 0.15,
+      "pan": -0.31790168454509576,
+      "frequency": 220
+    },
+    {
+      "time": 4.1,
+      "length": 0.16,
+      "kind": "sub",
+      "gain": 0.24,
+      "pan": 0,
+      "frequency": 70
+    },
+    {
+      "time": 4.3,
+      "length": 0.065,
+      "kind": "click",
+      "gain": 0.15,
+      "pan": -0.4909662666386461,
+      "frequency": 220
+    },
+    {
+      "time": 4.5,
+      "length": 0.16,
+      "kind": "sub",
+      "gain": 0.24,
+      "pan": 0,
+      "frequency": 70
+    },
+    {
+      "time": 4.7,
+      "length": 0.065,
+      "kind": "click",
+      "gain": 0.15,
+      "pan": -0.5865180705990581,
+      "frequency": 220
+    },
+    {
+      "time": 4.9,
+      "length": 0.16,
+      "kind": "sub",
+      "gain": 0.6,
+      "pan": 0,
+      "frequency": 70
+    },
+    {
+      "time": 5.1000000000000005,
+      "length": 0.065,
+      "kind": "click",
+      "gain": 0.15,
+      "pan": -0.5894715675745995,
+      "frequency": 220
+    },
+    {
+      "time": 5.300000000000001,
+      "length": 0.16,
+      "kind": "sub",
+      "gain": 0.24,
+      "pan": 0,
+      "frequency": 70
+    },
+    {
+      "time": 5.500000000000001,
+      "length": 0.065,
+      "kind": "click",
+      "gain": 0.15,
+      "pan": -0.4993604653343405,
+      "frequency": 220
+    },
+    {
+      "time": 5.700000000000001,
+      "length": 0.16,
+      "kind": "sub",
+      "gain": 0.24,
+      "pan": 0,
+      "frequency": 70
+    },
+    {
+      "time": 5.900000000000001,
+      "length": 0.065,
+      "kind": "click",
+      "gain": 0.15,
+      "pan": -0.33041132555858216,
+      "frequency": 220
+    },
+    {
+      "time": 6.500000000000002,
+      "length": 0.16,
+      "kind": "sub",
+      "gain": 0.6,
+      "pan": 0,
+      "frequency": 70
+    },
+    {
+      "time": 6.700000000000002,
+      "length": 0.065,
+      "kind": "click",
+      "gain": 0.15,
+      "pan": 0.12907199285269036,
+      "frequency": 220
+    },
+    {
+      "time": 6.900000000000002,
+      "length": 0.16,
+      "kind": "sub",
+      "gain": 0.24,
+      "pan": 0,
+      "frequency": 70
+    },
+    {
+      "time": 7.100000000000002,
+      "length": 0.065,
+      "kind": "click",
+      "gain": 0.15,
+      "pan": 0.347063858632921,
+      "frequency": 220
+    },
+    {
+      "time": 7.3000000000000025,
+      "length": 0.16,
+      "kind": "sub",
+      "gain": 0.24,
+      "pan": 0,
+      "frequency": 70
+    },
+    {
+      "time": 7.500000000000003,
+      "length": 0.065,
+      "kind": "click",
+      "gain": 0.15,
+      "pan": 0.5102619723771394,
+      "frequency": 220
+    },
+    {
+      "time": 7.700000000000003,
+      "length": 0.16,
+      "kind": "sub",
+      "gain": 0.24,
+      "pan": 0,
+      "frequency": 70
+    },
+    {
+      "time": 7.900000000000003,
+      "length": 0.065,
+      "kind": "click",
+      "gain": 0.15,
+      "pan": 0.5929009403262004,
+      "frequency": 220
+    },
+    {
+      "time": 8.100000000000003,
+      "length": 0.16,
+      "kind": "sub",
+      "gain": 0.6,
+      "pan": 0,
+      "frequency": 70
+    },
+    {
+      "time": 8.300000000000002,
+      "length": 0.065,
+      "kind": "click",
+      "gain": 0.15,
+      "pan": 0.5819338865070512,
+      "frequency": 220
+    },
+    {
+      "time": 8.500000000000004,
+      "length": 0.16,
+      "kind": "sub",
+      "gain": 0.24,
+      "pan": 0,
+      "frequency": 70
+    },
+    {
+      "time": 8.700000000000003,
+      "length": 0.065,
+      "kind": "click",
+      "gain": 0.15,
+      "pan": 0.47909226757409284,
+      "frequency": 220
+    },
+    {
+      "time": 9.300000000000004,
+      "length": 0.16,
+      "kind": "sub",
+      "gain": 0.24,
+      "pan": 0,
+      "frequency": 70
+    },
+    {
+      "time": 9.500000000000004,
+      "length": 0.065,
+      "kind": "click",
+      "gain": 0.15,
+      "pan": 0.0746726541042349,
+      "frequency": 220
+    },
+    {
+      "time": 9.700000000000005,
+      "length": 0.16,
+      "kind": "sub",
+      "gain": 0.6,
+      "pan": 0,
+      "frequency": 70
+    },
+    {
+      "time": 9.900000000000004,
+      "length": 0.065,
+      "kind": "click",
+      "gain": 0.15,
+      "pan": -0.16305637584656854,
+      "frequency": 220
+    },
+    {
+      "time": 10.100000000000005,
+      "length": 0.16,
+      "kind": "sub",
+      "gain": 0.24,
+      "pan": 0,
+      "frequency": 70
+    },
+    {
+      "time": 10.300000000000004,
+      "length": 0.065,
+      "kind": "click",
+      "gain": 0.15,
+      "pan": -0.3750423893357317,
+      "frequency": 220
+    },
+    {
+      "time": 10.500000000000005,
+      "length": 0.16,
+      "kind": "sub",
+      "gain": 0.24,
+      "pan": 0,
+      "frequency": 70
+    },
+    {
+      "time": 10.700000000000005,
+      "length": 0.065,
+      "kind": "click",
+      "gain": 0.15,
+      "pan": -0.5278174559830036,
+      "frequency": 220
+    },
+    {
+      "time": 10.900000000000006,
+      "length": 0.16,
+      "kind": "sub",
+      "gain": 0.24,
+      "pan": 0,
+      "frequency": 70
+    },
+    {
+      "time": 11.100000000000005,
+      "length": 0.065,
+      "kind": "click",
+      "gain": 0.15,
+      "pan": -0.5972617519838267,
+      "frequency": 220
+    },
+    {
+      "time": 11.300000000000006,
+      "length": 0.16,
+      "kind": "sub",
+      "gain": 0.6,
+      "pan": 0,
+      "frequency": 70
+    },
+    {
+      "time": 11.500000000000005,
+      "length": 0.065,
+      "kind": "click",
+      "gain": 0.15,
+      "pan": -0.5724115499412524,
+      "frequency": 220
+    },
+    {
+      "time": 11.700000000000006,
+      "length": 0.16,
+      "kind": "sub",
+      "gain": 0.24,
+      "pan": 0,
+      "frequency": 70
+    },
+    {
+      "time": 11.900000000000006,
+      "length": 0.065,
+      "kind": "click",
+      "gain": 0.15,
+      "pan": -0.4571901503514172,
+      "frequency": 220
+    },
+    {
+      "time": 12.100000000000007,
+      "length": 0.16,
+      "kind": "sub",
+      "gain": 0.24,
+      "pan": 0,
+      "frequency": 70
+    },
+    {
+      "time": 12.300000000000006,
+      "length": 0.065,
+      "kind": "click",
+      "gain": 0.15,
+      "pan": -0.26978847872075706,
+      "frequency": 220
+    },
+    {
+      "time": 12.500000000000007,
+      "length": 0.16,
+      "kind": "sub",
+      "gain": 0.24,
+      "pan": 0,
+      "frequency": 70
+    },
+    {
+      "time": 12.700000000000006,
+      "length": 0.065,
+      "kind": "click",
+      "gain": 0.15,
+      "pan": -0.039793138410716154,
+      "frequency": 220
+    },
+    {
+      "time": 12.900000000000007,
+      "length": 0.16,
+      "kind": "sub",
+      "gain": 0.6,
+      "pan": 0,
+      "frequency": 70
+    },
+    {
+      "time": 13.100000000000007,
+      "length": 0.065,
+      "kind": "click",
+      "gain": 0.15,
+      "pan": 0.19648466348261984,
+      "frequency": 220
+    },
+    {
+      "time": 13.300000000000008,
+      "length": 0.16,
+      "kind": "sub",
+      "gain": 0.24,
+      "pan": 0,
+      "frequency": 70
+    },
+    {
+      "time": 13.500000000000007,
+      "length": 0.065,
+      "kind": "click",
+      "gain": 0.15,
+      "pan": 0.4017418573179645,
+      "frequency": 220
+    },
+    {
+      "time": 13.700000000000008,
+      "length": 0.16,
+      "kind": "sub",
+      "gain": 0.24,
+      "pan": 0,
+      "frequency": 70
+    },
+    {
+      "time": 13.900000000000007,
+      "length": 0.065,
+      "kind": "click",
+      "gain": 0.15,
+      "pan": 0.5435728453850793,
+      "frequency": 220
+    },
+    {
+      "time": 14.100000000000009,
+      "length": 0.16,
+      "kind": "sub",
+      "gain": 0.24,
+      "pan": 0,
+      "frequency": 70
+    },
+    {
+      "time": 14.300000000000008,
+      "length": 0.065,
+      "kind": "click",
+      "gain": 0.15,
+      "pan": 0.5995856332487508,
+      "frequency": 220
+    },
+    {
+      "time": 14.500000000000009,
+      "length": 0.16,
+      "kind": "sub",
+      "gain": 0.6,
+      "pan": 0,
+      "frequency": 70
+    },
+    {
+      "time": 14.700000000000008,
+      "length": 0.065,
+      "kind": "click",
+      "gain": 0.15,
+      "pan": 0.5609370333148079,
+      "frequency": 220
+    },
+    {
+      "time": 0,
+      "length": 0.65,
+      "kind": "air",
+      "gain": 0.3,
+      "pan": -0.5,
+      "frequency": 220
+    },
+    {
+      "time": 0.25,
+      "length": 0.045,
+      "kind": "click",
+      "gain": 0.18,
+      "pan": 0.09878400564190705,
+      "frequency": 220
+    },
+    {
+      "time": 0.44,
+      "length": 0.045,
+      "kind": "click",
+      "gain": 0.18,
+      "pan": -0.5902314192994916,
+      "frequency": 220
+    },
+    {
+      "time": 0.63,
+      "length": 0.045,
+      "kind": "click",
+      "gain": 0.18,
+      "pan": 0.669968408004292,
+      "frequency": 220
+    },
+    {
+      "time": 0.8200000000000001,
+      "length": 0.045,
+      "kind": "click",
+      "gain": 0.18,
+      "pan": -0.2823751785181387,
+      "frequency": 220
+    },
+    {
+      "time": 1.01,
+      "length": 0.045,
+      "kind": "click",
+      "gain": 0.18,
+      "pan": -0.302186224708746,
+      "frequency": 220
+    },
+    {
+      "time": 1.2,
+      "length": 0.045,
+      "kind": "click",
+      "gain": 0.18,
+      "pan": 0.6759604435844946,
+      "frequency": 220
+    },
+    {
+      "time": 1.39,
+      "length": 0.045,
+      "kind": "click",
+      "gain": 0.18,
+      "pan": -0.578224755702412,
+      "frequency": 220
+    },
+    {
+      "time": 1.5799999999999998,
+      "length": 0.045,
+      "kind": "click",
+      "gain": 0.18,
+      "pan": 0.07715377914491366,
+      "frequency": 220
+    },
+    {
+      "time": 1.7699999999999998,
+      "length": 0.045,
+      "kind": "click",
+      "gain": 0.18,
+      "pan": 0.47773509690049176,
+      "frequency": 220
+    },
+    {
+      "time": 1.9599999999999997,
+      "length": 0.045,
+      "kind": "click",
+      "gain": 0.18,
+      "pan": -0.6993843090981172,
+      "frequency": 220
+    },
+    {
+      "time": 2.15,
+      "length": 0.045,
+      "kind": "click",
+      "gain": 0.18,
+      "pan": 0.43318451548402553,
+      "frequency": 220
+    },
+    {
+      "time": 2.34,
+      "length": 0.045,
+      "kind": "click",
+      "gain": 0.18,
+      "pan": 0.13517909916921386,
+      "frequency": 220
+    },
+    {
+      "time": 2.53,
+      "length": 0.045,
+      "kind": "click",
+      "gain": 0.18,
+      "pan": -0.6092497932087989,
+      "frequency": 220
+    },
+    {
+      "time": 2.7199999999999998,
+      "length": 0.045,
+      "kind": "click",
+      "gain": 0.18,
+      "pan": 0.6583439728464742,
+      "frequency": 220
+    },
+    {
+      "time": 3.43,
+      "length": 0.09,
+      "kind": "wood",
+      "gain": 0.7,
+      "pan": 0,
+      "frequency": 260
+    },
+    {
+      "time": 4.05,
+      "length": 1.75,
+      "kind": "air",
+      "gain": 0.5,
+      "pan": 0,
+      "frequency": 220
+    },
+    {
+      "time": 6.04,
+      "length": 0.45,
+      "kind": "sub",
+      "gain": 0.9,
+      "pan": 0,
+      "frequency": 68
+    },
+    {
+      "time": 9.15,
+      "length": 0.18,
+      "kind": "metal",
+      "gain": 0.16,
+      "pan": -0.5,
+      "frequency": 440
+    },
+    {
+      "time": 9.47,
+      "length": 0.18,
+      "kind": "metal",
+      "gain": 0.16,
+      "pan": -0.25,
+      "frequency": 485.7993860164774
+    },
+    {
+      "time": 9.790000000000001,
+      "length": 0.18,
+      "kind": "metal",
+      "gain": 0.16,
+      "pan": 0,
+      "frequency": 536.3660078499692
+    },
+    {
+      "time": 10.11,
+      "length": 0.18,
+      "kind": "metal",
+      "gain": 0.16,
+      "pan": 0.25,
+      "frequency": 592.1960847582367
+    },
+    {
+      "time": 11.3,
+      "length": 0.65,
+      "kind": "air",
+      "gain": 0.42,
+      "pan": 0,
+      "frequency": 220
+    },
+    {
+      "time": 12.06,
+      "length": 0.65,
+      "kind": "sub",
+      "gain": 0.85,
+      "pan": 0,
+      "frequency": 62
+    },
+    {
+      "time": 12.08,
+      "length": 0.14,
+      "kind": "paper",
+      "gain": 0.4,
+      "pan": 0,
+      "frequency": 220
+    }
+  ]
+}

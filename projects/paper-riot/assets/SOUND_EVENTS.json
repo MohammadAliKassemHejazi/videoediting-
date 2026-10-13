@@ -1,0 +1,247 @@
+{
+  "duration": 15,
+  "rate": 48000,
+  "composition": "Original material score; no licensed onetake source imports.",
+  "events": [
+    {
+      "time": 0.15,
+      "length": 2.2,
+      "kind": "pencil",
+      "gain": 0.38,
+      "pan": 0.35,
+      "frequency": 220
+    },
+    {
+      "time": 0.58,
+      "length": 0.12,
+      "kind": "wood",
+      "gain": 0.26,
+      "pan": -0.4,
+      "frequency": 160
+    },
+    {
+      "time": 1.35,
+      "length": 0.12,
+      "kind": "wood",
+      "gain": 0.2,
+      "pan": -0.5,
+      "frequency": 200
+    },
+    {
+      "time": 3.05,
+      "length": 1.3,
+      "kind": "pencil",
+      "gain": 0.35,
+      "pan": 0.45,
+      "frequency": 220
+    },
+    {
+      "time": 3.2,
+      "length": 0.08,
+      "kind": "wood",
+      "gain": 0.2,
+      "pan": -0.4,
+      "frequency": 160
+    },
+    {
+      "time": 3.4400000000000004,
+      "length": 0.08,
+      "kind": "wood",
+      "gain": 0.2,
+      "pan": -0.4,
+      "frequency": 160
+    },
+    {
+      "time": 3.6800000000000006,
+      "length": 0.08,
+      "kind": "wood",
+      "gain": 0.2,
+      "pan": -0.4,
+      "frequency": 160
+    },
+    {
+      "time": 3.920000000000001,
+      "length": 0.08,
+      "kind": "wood",
+      "gain": 0.2,
+      "pan": -0.4,
+      "frequency": 160
+    },
+    {
+      "time": 4.160000000000001,
+      "length": 0.08,
+      "kind": "wood",
+      "gain": 0.2,
+      "pan": -0.4,
+      "frequency": 160
+    },
+    {
+      "time": 4.400000000000001,
+      "length": 0.08,
+      "kind": "wood",
+      "gain": 0.2,
+      "pan": -0.4,
+      "frequency": 160
+    },
+    {
+      "time": 4.6400000000000015,
+      "length": 0.08,
+      "kind": "wood",
+      "gain": 0.2,
+      "pan": -0.4,
+      "frequency": 160
+    },
+    {
+      "time": 5.06,
+      "length": 0.22,
+      "kind": "wood",
+      "gain": 0.8,
+      "pan": 0.45,
+      "frequency": 130
+    },
+    {
+      "time": 5.28,
+      "length": 0.5,
+      "kind": "metal",
+      "gain": 0.14,
+      "pan": 0,
+      "frequency": 640
+    },
+    {
+      "time": 6.47,
+      "length": 1.85,
+      "kind": "paper",
+      "gain": 0.64,
+      "pan": -0.3,
+      "frequency": 220
+    },
+    {
+      "time": 8.55,
+      "length": 0.25,
+      "kind": "air",
+      "gain": 0.2,
+      "pan": 0,
+      "frequency": 220
+    },
+    {
+      "time": 9.18,
+      "length": 0.14,
+      "kind": "paper",
+      "gain": 0.8,
+      "pan": -0.3,
+      "frequency": 220
+    },
+    {
+      "time": 9.72,
+      "length": 0.14,
+      "kind": "paper",
+      "gain": 0.8,
+      "pan": 0.3,
+      "frequency": 220
+    },
+    {
+      "time": 10.12,
+      "length": 1.1,
+      "kind": "air",
+      "gain": 0.7,
+      "pan": 0,
+      "frequency": 220
+    },
+    {
+      "time": 10.4,
+      "length": 0.14,
+      "kind": "paper",
+      "gain": 0.15,
+      "pan": -0.41391323454282686,
+      "frequency": 220
+    },
+    {
+      "time": 10.96,
+      "length": 0.14,
+      "kind": "paper",
+      "gain": 0.15,
+      "pan": -0.4996836508806248,
+      "frequency": 220
+    },
+    {
+      "time": 11.520000000000001,
+      "length": 0.14,
+      "kind": "paper",
+      "gain": 0.15,
+      "pan": -0.43280581965407855,
+      "frequency": 220
+    },
+    {
+      "time": 12.080000000000002,
+      "length": 0.14,
+      "kind": "paper",
+      "gain": 0.15,
+      "pan": -0.23371023467591273,
+      "frequency": 220
+    },
+    {
+      "time": 12.640000000000002,
+      "length": 0.14,
+      "kind": "paper",
+      "gain": 0.15,
+      "pan": 0.03678143800345472,
+      "frequency": 220
+    },
+    {
+      "time": 13.200000000000003,
+      "length": 0.14,
+      "kind": "paper",
+      "gain": 0.15,
+      "pan": 0.2960367573536129,
+      "frequency": 220
+    },
+    {
+      "time": 13.760000000000003,
+      "length": 0.14,
+      "kind": "paper",
+      "gain": 0.15,
+      "pan": 0.46485587342791923,
+      "frequency": 220
+    },
+    {
+      "time": 14.320000000000004,
+      "length": 0.14,
+      "kind": "paper",
+      "gain": 0.15,
+      "pan": 0.49166627193920726,
+      "frequency": 220
+    },
+    {
+      "time": 12.05,
+      "length": 0.3,
+      "kind": "wood",
+      "gain": 0.18,
+      "pan": 0,
+      "frequency": 523.25
+    },
+    {
+      "time": 12.33,
+      "length": 0.3,
+      "kind": "wood",
+      "gain": 0.18,
+      "pan": 0,
+      "frequency": 659.25
+    },
+    {
+      "time": 12.61,
+      "length": 0.3,
+      "kind": "wood",
+      "gain": 0.18,
+      "pan": 0,
+      "frequency": 783.99
+    },
+    {
+      "time": 13.25,
+      "length": 0.3,
+      "kind": "wood",
+      "gain": 0.18,
+      "pan": 0,
+      "frequency": 1046.5
+    }
+  ]
+}

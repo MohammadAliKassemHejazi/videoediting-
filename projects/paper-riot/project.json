@@ -1,0 +1,58 @@
+{
+    "id":  "paper-riot",
+    "title":  "PAPER RIOT",
+    "style":  "Ink cartoon Ã— editorial collage",
+    "palette":  [
+                    "#f3ebd5",
+                    "#2433a8",
+                    "#ef542f"
+                ],
+    "skills":  [
+                   "clawd-animation / acting and line boil",
+                   "gbro-collage-broll / tactile cutouts",
+                   "lemo-opuscar / paper-popup",
+                   "cut-the-curve / carrier transitions"
+               ],
+    "hook":  "A giant pencil draws a trap. An ink creature turns the trap into wings.",
+    "shots":  [
+                  [
+                      "0â€“3",
+                      "Pencil drops; Nib dodges the drawing stroke with a huge facial take.",
+                      "Graphite scrape; paper slap; comic knock."
+                  ],
+                  [
+                      "3â€“6",
+                      "The pencil draws a door; Nib runs for it. The door grows teeth.",
+                      "Drawing rasp; rushing footsteps; wood bite."
+                  ],
+                  [
+                      "6â€“9",
+                      "Nib yanks the edge of the page and rips a huge diagonal tear.",
+                      "Long paper rip, then breath of quiet."
+                  ],
+                  [
+                      "9â€“12",
+                      "The torn page folds into two wings. Nib springs up.",
+                      "Two fold snaps; lift whoosh."
+                  ],
+                  [
+                      "12â€“15",
+                      "The creature escapes its own page; paper confetti settles around a triumph pose.",
+                      "Flutter, bright percussion and a soft final flap."
+                  ]
+              ],
+    "kind":  "directed-film",
+    "duration":  15,
+    "fps":  60,
+    "width":  1440,
+    "height":  2560,
+    "composition":  "paper-riot",
+    "entry":  "projects/paper-riot/scenes.jsx",
+    "audio":  "showcase/paper-riot/score.wav",
+    "thumbnail":  {
+                      "file":  "assets/thumbnail.png"
+                  },
+    "reviewStatus":  "completed direction draft; visual review in DRAFT_REVIEW.md",
+    "audience":  "13â€“17",
+    "reusable":  "Preserve this visual grammar; author fresh actions and scenes per script."
+}

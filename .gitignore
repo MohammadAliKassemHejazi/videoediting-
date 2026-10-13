@@ -7,6 +7,11 @@ studio.config.json
 clips/*
 !clips/.gitkeep
 .env
+.env.*
+!.env.example
+.aws/
+.codex/
+.claude/settings.local.json
 assets/inbox/*
 !assets/inbox/.gitkeep
 assets/ready/*
@@ -28,6 +33,7 @@ remotion/public/
 story-projects/*/assets/voice/*.mp3
 story-projects/*/assets/narration.wav
 story-projects/*/assets/foley.wav
+projects/*/assets/score.wav
 # Keep voice timing/provenance, authored visuals, fonts references and licenses.
 **/.DS_Store
 **/Thumbs.db

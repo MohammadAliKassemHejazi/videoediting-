@@ -1,6 +1,11 @@
 ﻿# Tech Video Studio
 
 Read [AGENTS.md](AGENTS.md) for the maintained architecture and creative contract.
+
+For original footage-free style films, read `docs/ORIGINAL_STYLE_FILMS.md`.
+The three independent examples live under `projects/` and have separate live
+Remotion folders and material sound scores. Reuse their chosen feeling through
+fresh scenes. Avoid routing new scripts through the same demo plot or card layout.
 Use [README.md](README.md) for commands and [docs/WORKFLOW.md](docs/WORKFLOW.md)
 for production. The same project workflow applies to Claude and Codex.
 

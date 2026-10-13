@@ -1,0 +1,32 @@
+[
+  {
+    "id": "midnight-transit",
+    "title": "MIDNIGHT TRANSIT",
+    "style": "Noir clockwork cinema",
+    "composition": "midnight-transit",
+    "duration": 15,
+    "width": 1440,
+    "height": 2560,
+    "fps": 60
+  },
+  {
+    "id": "paper-riot",
+    "title": "PAPER RIOT",
+    "style": "Ink cartoon × editorial collage",
+    "composition": "paper-riot",
+    "duration": 15,
+    "width": 1440,
+    "height": 2560,
+    "fps": 60
+  },
+  {
+    "id": "signal-noise",
+    "title": "SIGNAL / NOISE",
+    "style": "Kinetic brutalist print lab",
+    "composition": "signal-noise",
+    "duration": 15,
+    "width": 1440,
+    "height": 2560,
+    "fps": 60
+  }
+]

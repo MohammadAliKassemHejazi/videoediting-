@@ -1,0 +1,8 @@
+{
+  "id": "midnight-couriers",
+  "characters": [{"id":"chrome-moth-01","name":"The Courier","design":"Satin chrome capsule body, black spherical head, two amber eyes, two angular folded metal wings with dark ribs, no human face or costume.","carriedObject":"One warm amber time capsule within a silver equatorial ring."}],
+  "worldRule":"A glowing second can be carried and returned to monumental mechanical clocks.",
+  "palette":{"world":"#090d12","metal":"#b6c0ca","warning":"#a40c22","energy":"#ffc66b"},
+  "modelSource":"projects/midnight-transit/scenes.jsx",
+  "continuity":"The courier returns the captured second and liberates the clock. Future episodes need their own situation and staging."
+}

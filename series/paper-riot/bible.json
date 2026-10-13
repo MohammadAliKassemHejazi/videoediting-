@@ -1,0 +1,8 @@
+{
+  "id": "paper-riot",
+  "characters": [{"id":"nib-ink-01","name":"Nib","design":"Irregular indigo ink silhouette, round body, two large ivory oval eyes and black pupils, tiny ivory mouth, dark blue bent arms and legs. No rectangular robot head.","ink":"#293ab0","proportions":"Body radius 130; eye centers at +/-42, eye radius 29×39; eyes and limbs keep these relative proportions across scenes."}],
+  "worldRule":"Drawings can act. The notebook itself can be torn and folded into useful objects.",
+  "modelSource":"projects/paper-riot/scenes.jsx",
+  "identityAsset":"projects/paper-riot/assets/thumbnail.png",
+  "continuity":"Nib escapes a drawn trap by tearing the page and making wings. Related episodes retain its design, not the same escape plot."
+}

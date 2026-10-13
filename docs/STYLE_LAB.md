@@ -1,5 +1,10 @@
 # Style auditions
 
+The three new original films, without supplied footage, are described in
+[ORIGINAL_STYLE_FILMS.md](ORIGINAL_STYLE_FILMS.md). They live in `projects/` and
+have their own live Remotion folders, storyboards, assets, scores and export commands.
+The gallery defaults to these films; earlier auditions are under Older drafts.
+
 `npm run preview` opens Remotion Studio at http://localhost:3000. Leave it visible
 while Codex or Claude edits. Studio refreshes React, painter and content changes.
 `npm run gallery` opens the companion server at http://localhost:3001 for playing

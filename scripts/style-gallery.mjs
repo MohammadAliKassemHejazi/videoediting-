@@ -7,11 +7,17 @@ import {STYLES} from '../lib/style-auditions.js';
 import {STORY_STYLES} from '../lib/story-painters.js';
 import {galleryCatalog} from '../lib/style-catalog.mjs';
 import {storyDigest} from '../lib/story-digest.mjs';
+import {showcaseGalleryHtml} from '../lib/showcase-gallery.mjs';
 const token=randomBytes(24).toString('hex'),port=3001;
 const auditionFile=join(ROOT,'projects/backend-checklist/style-lab/audition.json'),storyFile=join(ROOT,'story-projects/pip-last-light/timed.json');
 const catalog=()=>galleryCatalog(ROOT);
 function ready(item){
  if(!existsSync(item.file))return false;
+ if(item.group==='Original style films'){
+   if(!existsSync(item.manifest))return false;
+   const digest=createHash('sha256').update(readFileSync(join(ROOT,'projects',item.project,'scenes.jsx'))).update(readFileSync(join(ROOT,'projects',item.project,'assets/score.wav'))).digest('hex');
+   return JSON.parse(readFileSync(item.manifest,'utf8')).sourceDigest===digest;
+ }
  if(item.group==='Full character stories'){
    if(!existsSync(item.manifest))return false;
    const manifest=JSON.parse(readFileSync(item.manifest,'utf8'));return manifest.styles.includes(item.styleId)&&manifest.sourceDigest===storyDigest(ROOT,item.recordFile);
@@ -20,12 +26,16 @@ function ready(item){
  const digest=createHash('sha256').update(readFileSync(join(ROOT,'remotion/Audition.jsx'))).update(readFileSync(join(ROOT,'lib/style-auditions.js'))).digest('hex');
  return Boolean(JSON.parse(readFileSync(manifest,'utf8')).sourceDigest);
 }
-const send=(res,status,body,type='application/json')=>{res.writeHead(status,{'Content-Type':type,'Cache-Control':'no-store'});res.end(typeof body==='string'?body:JSON.stringify(body));};
+const send=(res,status,body,type='application/json')=>{res.writeHead(status,{'Content-Type':type,'Cache-Control':'no-store'});res.end(Buffer.isBuffer(body)||typeof body==='string'?body:JSON.stringify(body));};
 const server=createServer(async(req,res)=>{
  try{
    const url=new URL(req.url,'http://localhost:'+port);
-   if(req.method==='GET'&&url.pathname==='/')return send(res,200,html(),'text/html; charset=utf-8');
-   if(req.method==='GET'&&url.pathname==='/api/styles')return send(res,200,catalog().map(item=>{const {file,choice,recordFile,manifest,...s}=item;return {...s,ready:ready(item),selected:existsSync(choice)&&JSON.parse(readFileSync(choice,'utf8')).style===s.styleId};}));
+   if(req.method==='GET'&&url.pathname==='/')return send(res,200,showcaseGalleryHtml(token),'text/html; charset=utf-8');
+   if(req.method==='GET'&&url.pathname==='/api/styles')return send(res,200,catalog().map(item=>{const {file,choice,recordFile,manifest,...s}=item;return {...s,ready:ready(item),version:existsSync(file)?statSync(file).mtimeMs:0,selected:existsSync(choice)&&JSON.parse(readFileSync(choice,'utf8')).style===s.styleId};}));
+   if(req.method==='GET'&&url.pathname.startsWith('/cover/')){
+     const item=catalog().find(s=>s.id===decodeURIComponent(url.pathname.slice(7)));if(!item)return send(res,404,'Unknown project','text/plain');
+     const primaryCover=join(ROOT,'projects',item.project,'assets/thumbnail.png'),cover=existsSync(primaryCover)?primaryCover:join(ROOT,'story-projects',item.project,'assets/thumbnail.png');if(!existsSync(cover))return send(res,404,'Cover pending','text/plain');return send(res,200,readFileSync(cover),'image/png');
+   }
    if(req.method==='POST'&&url.pathname==='/api/choice'){
      if(!['http://localhost:3001','http://127.0.0.1:3001'].includes(req.headers.origin)||req.headers['x-studio-token']!==token)return send(res,403,{error:'Open this local studio page to choose a style.'});
      let body='';for await(const chunk of req){body+=chunk;if(body.length>2048)return send(res,413,{error:'Request too large'});}
@@ -44,8 +54,4 @@ const server=createServer(async(req,res)=>{
    send(res,404,{error:'Not found'});
  }catch(error){send(res,500,{error:error.message});}
 });
-server.listen(port,'127.0.0.1',()=>console.log('Style comparison: http://localhost:3001 — playback and saved choices.'));
-function html(){return `<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Choose your film direction</title><style>
-*{box-sizing:border-box}body{margin:0;background:#101619;color:#efe9da;font:16px system-ui}main{max-width:1550px;margin:auto;padding:45px 30px}h1{font-size:44px;margin:0 0 12px}p{color:#bac6c6;line-height:1.5}header{margin-bottom:38px}a{color:#cbff5e}#cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(245px,1fr));gap:24px}article{background:#1c262b;border:1px solid #34434a;border-radius:20px;overflow:hidden}video{width:100%;aspect-ratio:9/16;background:#080f13;display:block}section{padding:20px}h2{font-size:21px;margin:0 0 12px}.meta{font-size:13px;color:#a6b8b8}button{width:100%;padding:14px;border:0;border-radius:10px;background:#cbff5e;color:#172316;font-size:16px;cursor:pointer}.selected{outline:3px solid #cbff5e}#notice{position:sticky;top:0;background:#101619;padding:14px 0;color:#cbff5e}.waiting{aspect-ratio:9/16;display:grid;place-items:center;background:#152129;color:#9cadad}</style>
-<main><header><div class="meta">TECH VIDEO STUDIO / CREATIVE AUDITIONS</div><h1>Choose the way your story moves.</h1><p>Compare 15-second edits and full character stories, including sketch adventures. Every video export is 2K at 60 fps.<br>Play a draft with sound, compare its clarity and pacing, then choose the direction to develop.</p><a href="http://localhost:3000" target="_blank">Open the live Remotion editor ↗</a></header><div id="notice" role="status"></div><div id="cards"></div></main>
-<script>const token=${JSON.stringify(token)};let items=[];const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));async function load(){items=await(await fetch('/api/styles')).json();document.querySelector('#cards').innerHTML=items.map(s=>'<article class="'+(s.selected?'selected':'')+'">'+(s.ready?'<video controls preload="metadata" playsinline src="/media/'+s.id+'"></video>':'<div class="waiting">Draft is rendering</div>')+'<section><div class="meta">'+esc(s.group)+' · '+Math.round(s.duration)+'s</div><h2>'+esc(s.name)+'</h2><p>'+esc(s.bestFor)+'</p><button data-id="'+s.id+'">'+(s.selected?'Selected direction':'Choose this style')+'</button></section></article>').join('');document.querySelectorAll('video').forEach(v=>v.addEventListener('play',()=>document.querySelectorAll('video').forEach(other=>{if(other!==v)other.pause()})));document.querySelectorAll('button').forEach(b=>b.onclick=async()=>{const r=await fetch('/api/choice',{method:'POST',headers:{'Content-Type':'application/json','X-Studio-Token':token},body:JSON.stringify({id:b.dataset.id})});const result=await r.json();document.querySelector('#notice').textContent=result.saved?'Saved: '+result.style+'. Codex and Claude will read this choice for your next edit.':result.error;await load()});}load();</script></html>`;}
+server.listen(port,'127.0.0.1',()=>console.log('Style comparison: http://localhost:3001 â€” playback and saved choices.'));

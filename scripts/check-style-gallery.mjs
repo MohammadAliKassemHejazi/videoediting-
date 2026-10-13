@@ -6,6 +6,12 @@ try{
   page.on('pageerror',error=>errors.push(error.message));
   await page.goto('http://localhost:3001',{waitUntil:'domcontentloaded'});
   const items=await page.evaluate(async()=>await(await fetch('/api/styles')).json());
+  if(items.some(item=>item.group==='Original style films')){
+    await page.waitForFunction(()=>document.querySelectorAll('article').length===3);
+    const titles=await page.locator('article h2').allTextContents();
+    if(titles.join('|')!=='MIDNIGHT TRANSIT|PAPER RIOT|SIGNAL / NOISE')throw Error('New projects must lead the gallery.');
+    console.log('Three distinct project cards:',titles.join(', '));
+  }
   console.log(`${items.filter(item=>item.ready).length}/${items.length} drafts available.`);
   for(const item of items.filter(item=>item.ready)){
     const result=await page.evaluate(async(id)=>{

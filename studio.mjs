@@ -1,4 +1,4 @@
-import {existsSync,mkdirSync,readFileSync,writeFileSync,copyFileSync,unlinkSync,openSync,closeSync} from 'node:fs';
+import {existsSync,mkdirSync,readFileSync,writeFileSync,copyFileSync,unlinkSync,openSync,closeSync,readdirSync} from 'node:fs';
 import {resolve,relative,join} from 'node:path';
 import {execFileSync} from 'node:child_process';
 import {project,projectHash,filesIn,safeRemove,ROOT} from './lib/project.mjs';
@@ -7,6 +7,9 @@ const [cmd='help',name='developer-stack',...args]=process.argv.slice(2),opt=(key
 const run=(script,argv=[])=>execFileSync(process.execPath,[script,...argv],{stdio:'inherit',cwd:ROOT});
 if(cmd==='help')console.log('Live tools: npm run preview | npm run gallery | npm run styles | npm run story\n');
 if(cmd==='styles'||cmd==='story'){run(cmd==='styles'?'scripts/style-lab.mjs':'scripts/story-studio.mjs',[name,...args]);process.exit(0);}
+if(cmd==='projects'){
+ const rows=readdirSync(join(ROOT,'projects'),{withFileTypes:true}).filter(e=>e.isDirectory()).flatMap(e=>{const file=join(ROOT,'projects',e.name,'project.json');if(!existsSync(file))return [];const c=JSON.parse(readFileSync(file,'utf8'));return [{project:e.name,title:c.title,type:c.kind||'talking-head',style:c.style}]});console.table(rows);process.exit(0);
+}
 if(cmd==='help'){console.log(`Tech Video Studio\n\nnew <name> --source <clip> [--language Arabic]\ninspect <name>       footage metadata\ntranscribe <name>    local word timings\nassets <name>        prompts + prepare supplied assets\nprepare <name>       cached person mask\ndraft <name>         draft, contact, phone, strip\nreview <name> --notes "What you inspected and corrected"\nfinal <name>         reviewed MP4, captions, thumbnail + checks\ncheck <name>         validate export\nclean <name> [--apply]  preview/remove rebuildable intermediates\n\nDefault project: developer-stack. Codex designs each timeline; this CLI renders it.`);process.exit(0);}
 if(cmd==='new'){
  if(!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(name))throw Error('Use a lowercase project name with hyphens.');
@@ -19,6 +22,18 @@ if(cmd==='new'){
  writeFileSync(join(dir,'scenes.js'),'// Register original scene painters using SceneKit.register(name, (time, scene) => {...}).\n');
  writeFileSync(join(dir,'BRIEF.md'),`# ${config.title}\n\nSource: ${sourcePath}\nSpeech: ${config.language}; captions: English.\n\nBefore designing: inspect the footage and reference, correct the transcript, identify the hook, claims and payoff. Write a shot list linking each visual to a spoken phrase and a useful proof/demo. Use the approved style as a starting point; choose a fresh visual concept for this topic.\n\nAsk only for missing preferences or assets that materially affect the edit. Request generated media through ASSET_REQUESTS.md. Thumbnail is a required deliverable.\n`);
  console.log(`Created projects/${name}. Ask Codex to transcribe, storyboard and edit this project.`);process.exit(0);
+}
+if(/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(name)){
+ const configFile=join(ROOT,'projects',name,'project.json');
+ if(existsSync(configFile)){
+  const config=JSON.parse(readFileSync(configFile,'utf8'));
+  if(config.kind==='directed-film'){
+   if(cmd==='inspect')console.log(JSON.stringify({...config,live:'http://localhost:3000/'+config.composition,exportReady:existsSync(join(ROOT,'out',name,'draft.mp4'))},null,2));
+   else if(cmd==='draft')run('scripts/showcase.mjs',['render',name]);
+   else throw Error('Directed film commands: inspect, draft. Review the film before a production approval; source lives in projects/'+name+'.');
+   process.exit(0);
+  }
+ }
 }
 const P=project(name);mkdirSync(P.out,{recursive:true});mkdirSync(P.cache,{recursive:true});
 if(cmd==='inspect'){console.log(JSON.stringify({project:name,...probe(P.source),captions:P.config.captions,scenes:P.film.scenes.length,thumbnailReady:existsSync(join(P.dir,P.config.thumbnail.file))},null,2));}

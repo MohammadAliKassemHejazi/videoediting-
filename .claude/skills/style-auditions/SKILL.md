@@ -27,3 +27,15 @@ the auditions serially at 1440×2560/60fps and inspect phone frames and transiti
 Selection is saved by `styles select`; user selection is creative approval, not
 quality review. Extend the selected direction through the full transcript using
 original staging, then complete the normal reviewed export and generated cover.
+
+For original films without supplied footage, read `docs/ORIGINAL_STYLE_FILMS.md`.
+Use independent project folders, not color variants of one painter. The current
+examples are `projects/midnight-transit`, `projects/paper-riot` and
+`projects/signal-noise`. Their native scenes, materials, plots and sound scores
+are deliberately different. Follow the user's requested count and duration;
+three 15-second original films override the usual five speech auditions.
+
+For ALL video tasks, storyboard a subject-specific visual cause and payoff.
+Reject repeated headline cards, identical framing and generic drifting as a
+professional finish. Inspect actual phone frames before full rendering, expose
+the real project in live Remotion, and fix substantive framing/material/type issues.

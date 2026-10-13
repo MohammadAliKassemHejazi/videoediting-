@@ -46,6 +46,12 @@ The existing Canvas pipeline remains the talking-head production path; Remotion
 is now installed for live auditions and narrative compositions. This is an explicit
 addition requested by the user, not an automatic migration of approved projects.
 
+Original 15-second style films now live in `projects/midnight-transit`,
+`projects/paper-riot` and `projects/signal-noise`; read `docs/ORIGINAL_STYLE_FILMS.md`.
+They are independent renderers, scripts and sound scores. Reuse a chosen feeling
+through fresh staging, never the same plot or repeated generic card layouts.
+The gallery leads with these projects; older drafts stay in the archive view.
+
 ## Architecture
 
 - `studio.mjs`: project creation, inspection, assets, transcription, draft, review,
