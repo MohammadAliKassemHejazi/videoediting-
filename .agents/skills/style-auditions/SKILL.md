@@ -47,3 +47,10 @@ The five current clip studies live in `projects/clip-*`; their gallery selection
 is saved in `projects/backend-checklist/pro-edits/choice.json`. Original voice
 stays at gain 1; quiet SFX do not normalize or duck it. Extend the chosen grammar
 with fresh topic-specific content rather than carrying its backend words to a new clip.
+
+When the user asks for more editing variety, read `docs/VARIETY_CLIP_EDITS.md`.
+Change the actual structure: simultaneous speaker/proof, moving close performance,
+pointer-led demonstration, a narrated animated system, or a sketch interruption.
+The second set has independent `projects/clip-*/scenes.js` implementations and
+explicit footage shots, not recolored background headlines. Keep earlier selections
+and drafts available; preview the actual shots, inspect exports and finish rendering.

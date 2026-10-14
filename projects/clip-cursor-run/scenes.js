@@ -1,0 +1,13 @@
+import {V,VFIELDS} from '../../lib/variety-draw.js';
+export function cursorBack(c,t){c.fillStyle='#ede9ff';c.fillRect(0,0,1080,1920);V.label(c,'ILLUSTRATIVE WORKFLOW',50,85,'#655884');V.box(c,635,95,410,570,'#c9bafa',26);}
+export function cursorFront(c,t){
+ if(t<.58){V.box(c,50,1190,980,240,'#ede9ff',24);V.text(c,'HOLD THAT',90,1350,146,'#322440','Anton');return}
+ V.text(c,'FROM CODE',45,280,96,'#292032','Anton',undefined,550);V.text(c,'TO CONTRACT.',45,395,93,'#292032','Anton',undefined,560);V.label(c,'REAL SPEAKER →',355,580,'#655884');
+ const phase=t<3.14?0:t<4.64?1:t<7?2:t<13.18?3:4,yy=755;
+ V.box(c,40,yy,1000,780,'#1d1929',28);V.box(c,40,yy,1000,80,'#302740',24);V.text(c,'backend.ts',80,yy+53,35,'#c6b8ee');for(let i=0;i<3;i++){c.fillStyle=['#ff7775','#ffd177','#7de0ad'][i];c.beginPath();c.arc(918+i*35,yy+40,8,0,7);c.fill()}
+ if(phase===0){const lines=['export function createOrder(input) {','  // AI-generated scaffold','  return save(input);','}'];for(let i=0;i<4;i++)V.text(c,lines[i],80,910+i*83,34,i===1?'#9a899c':i===2?'#c5afff':'#e4dff1','Inter',undefined,900);V.box(c,650,1330,310,115,'#9375ff',18);V.text(c,'DEPLOY',805,1407,54,'#fff','Anton','center');const p=V.ease((t-.9)/1.3);V.cursor(c,320+480*p,1150+220*p)}
+ if(phase===1){V.text(c,'PAUSE DEPLOYMENT.',80,965,84,'#fff','Anton');const labels=['1  REQUIREMENTS','2  BOUNDARIES','3  TEST + REVIEW'];for(let i=0;i<3;i++)V.text(c,labels[i],80,1090+i*115,55,i===0?'#b79aff':'#d6d0e2','Anton');const p=V.ease((t-3.14)/.45);V.cursor(c,800+40*p,1370-350*p,Math.max(0,1-(t-3.14)/.18))}
+ if(phase===2){V.text(c,'UNCHECKED INPUT',80,965,78,'#ff948f','Anton');V.text(c,'save(input)',80,1115,75,'#fff','Anton');V.line(c,[[80,1145],[670,1145]],'#ff948f',8,V.ease((t-4.64)/.5));V.box(c,75,1255,920,175,'#472d39',18);V.text(c,'DEFINE BEFORE DEPLOY',110,1370,62,'#ffe2da','Anton');V.cursor(c,760,1110)}
+ if(phase===3){V.text(c,'BUILD THE CONTRACT',80,940,80,'#e6dfff','Anton');V.label(c,'ILLUSTRATIVE EXAMPLE',80,1000,'#9889ad');const k=V.field(t);for(let i=0;i<4;i++){const y=1100+i*105;V.line(c,[[80,y+26],[980,y+26]],'#463a5a',2);V.text(c,VFIELDS[i][0].toLowerCase(),80,y,43,i===k?'#bba2ff':'#b3a6bf');V.text(c,i<=k?VFIELDS[i][1]:'…',420,y,42,'#f7efff')}const j=Math.max(0,k),start=[9.18,10.24,11,11.9][j],p=V.ease((t-start)/.25);V.cursor(c,955,1050+j*105,Math.max(0,1-p))}
+ if(phase===4){V.text(c,'ACCESS IS A RULE.',80,970,78,'#e6dfff','Anton');V.text(c,'member → own order',80,1150,54,'#fff');V.box(c,80,1260,895,160,'#403455',18);V.text(c,'SET THE BOUNDARY',115,1367,66,'#d9caff','Anton');V.cursor(c,865,1310,V.clamp(1-(t-13.18)/.18))}
+}

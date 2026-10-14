@@ -1,0 +1,45 @@
+{
+  "id": "clip-request-runner",
+  "name": "REQUEST RUNNER",
+  "style": "Full-screen isometric request journey; gate impacts; camera travels; compact speaker inset",
+  "accent": "#41defa",
+  "sound": "orbital",
+  "shots": [
+    {
+      "a": 0,
+      "b": 15,
+      "rect": [
+        40,
+        120,
+        410,
+        550
+      ],
+      "zoom": [
+        [
+          0,
+          1.35
+        ],
+        [
+          15,
+          1.35
+        ]
+      ]
+    }
+  ],
+  "kind": "clip-variety",
+  "title": "REQUEST RUNNER",
+  "sourceProject": "backend-checklist",
+  "source": "clips/1012 (1).mp4",
+  "sourceHash": "7c537a61e98771730a9c732c51673bad5832e5d507d30a8f77522c92dc3ef8e6",
+  "start": 0,
+  "duration": 15,
+  "export": {
+    "width": 1440,
+    "height": 2560,
+    "fps": 60
+  },
+  "composition": "clip-request-runner",
+  "thumbnail": {
+    "file": "assets/thumbnail.png"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "originalVoiceGain": 1,
+  "normalization": false,
+  "events": [
+    {
+      "at": 0,
+      "duration": 0.31,
+      "gain": 0.065,
+      "pan": -0.25,
+      "kind": "orbital"
+    },
+    {
+      "at": 0.58,
+      "duration": 0.31,
+      "gain": 0.065,
+      "pan": 0.25,
+      "kind": "orbital"
+    },
+    {
+      "at": 3.14,
+      "duration": 0.31,
+      "gain": 0.065,
+      "pan": -0.25,
+      "kind": "orbital"
+    },
+    {
+      "at": 3.32,
+      "duration": 0.31,
+      "gain": 0.065,
+      "pan": 0.25,
+      "kind": "orbital"
+    },
+    {
+      "at": 3.5,
+      "duration": 0.31,
+      "gain": 0.065,
+      "pan": -0.25,
+      "kind": "orbital"
+    },
+    {
+      "at": 4.64,
+      "duration": 0.31,
+      "gain": 0.065,
+      "pan": 0.25,
+      "kind": "orbital"
+    },
+    {
+      "at": 7,
+      "duration": 0.31,
+      "gain": 0.065,
+      "pan": -0.25,
+      "kind": "orbital"
+    },
+    {
+      "at": 7.88,
+      "duration": 0.31,
+      "gain": 0.038,
+      "pan": 0.25,
+      "kind": "orbital"
+    },
+    {
+      "at": 9.18,
+      "duration": 0.31,
+      "gain": 0.038,
+      "pan": -0.25,
+      "kind": "orbital"
+    },
+    {
+      "at": 10.24,
+      "duration": 0.31,
+      "gain": 0.038,
+      "pan": 0.25,
+      "kind": "orbital"
+    },
+    {
+      "at": 11,
+      "duration": 0.31,
+      "gain": 0.038,
+      "pan": -0.25,
+      "kind": "orbital"
+    },
+    {
+      "at": 11.9,
+      "duration": 0.31,
+      "gain": 0.038,
+      "pan": 0.25,
+      "kind": "orbital"
+    },
+    {
+      "at": 13.18,
+      "duration": 0.31,
+      "gain": 0.038,
+      "pan": -0.25,
+      "kind": "orbital"
+    }
+  ]
+}

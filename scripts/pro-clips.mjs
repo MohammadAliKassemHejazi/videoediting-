@@ -19,6 +19,7 @@ function compileGraphics(){
 compileGraphics();
 if(cmd==='activate'){
  writeFileSync(join(ROOT,'remotion/index.jsx'),`import React from 'react';\nimport {registerRoot,Composition,Folder} from 'remotion';\nimport {ProClip} from './ProClip.jsx';\nimport spec from './pro-clips.json';\nimport {MidnightTransit} from '../projects/midnight-transit/scenes.jsx';\nimport {PaperRiot} from '../projects/paper-riot/scenes.jsx';\nimport {SignalNoise} from '../projects/signal-noise/scenes.jsx';\nregisterRoot(()=> <>\n${PRO_CLIP_STYLES.map(s=>`<Folder name="${s.id.slice(5).toUpperCase()}"><Composition id="${s.id}" component={ProClip} width={1440} height={2560} fps={60} durationInFrames={900} defaultProps={{spec,styleId:'${s.id}'}}/></Folder>`).join('\n')}\n<Folder name="Original-style-films"><Composition id="midnight-transit" component={MidnightTransit} width={1440} height={2560} fps={60} durationInFrames={900}/><Composition id="paper-riot" component={PaperRiot} width={1440} height={2560} fps={60} durationInFrames={900}/><Composition id="signal-noise" component={SignalNoise} width={1440} height={2560} fps={60} durationInFrames={900}/></Folder>\n</>);\n`);
+ if(existsSync(join(ROOT,'remotion/variety-clips.json')))execFileSync(process.execPath,['scripts/variety-clips.mjs','activate'],{cwd:ROOT,stdio:'inherit'});
  console.log('Five masked talking-head projects are live.');process.exit(0);
 }
 if(!['stills','render'].includes(cmd))throw Error('pro-clips activate | stills [style] | render [style]');

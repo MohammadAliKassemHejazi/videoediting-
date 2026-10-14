@@ -1,0 +1,105 @@
+{
+  "id": "clip-sketch-interrupt",
+  "name": "SKETCH INTERRUPT",
+  "style": "Blue-marker drawings; monochrome performance; real freeze-frame annotation; comic cutaways",
+  "accent": "#245cff",
+  "sound": "pencil",
+  "shots": [
+    {
+      "a": 0,
+      "b": 3.14,
+      "rect": [
+        65,
+        275,
+        950,
+        1250
+      ],
+      "zoom": [
+        [
+          0,
+          1.04
+        ],
+        [
+          3.14,
+          1.04
+        ]
+      ]
+    },
+    {
+      "a": 3.62,
+      "b": 4.64,
+      "rect": [
+        65,
+        275,
+        950,
+        1250
+      ],
+      "zoom": [
+        [
+          3.62,
+          1.04
+        ],
+        [
+          4.64,
+          1.04
+        ]
+      ]
+    },
+    {
+      "a": 5.75,
+      "b": 7,
+      "rect": [
+        65,
+        275,
+        950,
+        1250
+      ],
+      "zoom": [
+        [
+          5.75,
+          1.16
+        ],
+        [
+          7,
+          1.16
+        ]
+      ]
+    },
+    {
+      "a": 7,
+      "b": 15,
+      "rect": [
+        65,
+        165,
+        950,
+        790
+      ],
+      "zoom": [
+        [
+          7,
+          1.02
+        ],
+        [
+          15,
+          1.02
+        ]
+      ]
+    }
+  ],
+  "kind": "clip-variety",
+  "title": "SKETCH INTERRUPT",
+  "sourceProject": "backend-checklist",
+  "source": "clips/1012 (1).mp4",
+  "sourceHash": "7c537a61e98771730a9c732c51673bad5832e5d507d30a8f77522c92dc3ef8e6",
+  "start": 0,
+  "duration": 15,
+  "export": {
+    "width": 1440,
+    "height": 2560,
+    "fps": 60
+  },
+  "composition": "clip-sketch-interrupt",
+  "thumbnail": {
+    "file": "assets/thumbnail.png"
+  }
+}

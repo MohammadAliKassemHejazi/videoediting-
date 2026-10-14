@@ -1,0 +1,90 @@
+{
+  "originalVoiceGain": 1,
+  "normalization": false,
+  "events": [
+    {
+      "at": 0,
+      "duration": 0.26,
+      "gain": 0.065,
+      "pan": -0.25,
+      "kind": "swoosh"
+    },
+    {
+      "at": 0.3,
+      "duration": 0.26,
+      "gain": 0.065,
+      "pan": 0.25,
+      "kind": "swoosh"
+    },
+    {
+      "at": 1.68,
+      "duration": 0.26,
+      "gain": 0.065,
+      "pan": -0.25,
+      "kind": "swoosh"
+    },
+    {
+      "at": 3.14,
+      "duration": 0.26,
+      "gain": 0.065,
+      "pan": 0.25,
+      "kind": "swoosh"
+    },
+    {
+      "at": 4.64,
+      "duration": 0.26,
+      "gain": 0.065,
+      "pan": -0.25,
+      "kind": "swoosh"
+    },
+    {
+      "at": 5.75,
+      "duration": 0.26,
+      "gain": 0.065,
+      "pan": 0.25,
+      "kind": "swoosh"
+    },
+    {
+      "at": 7,
+      "duration": 0.26,
+      "gain": 0.065,
+      "pan": -0.25,
+      "kind": "swoosh"
+    },
+    {
+      "at": 9.18,
+      "duration": 0.26,
+      "gain": 0.038,
+      "pan": 0.25,
+      "kind": "swoosh"
+    },
+    {
+      "at": 10.24,
+      "duration": 0.26,
+      "gain": 0.038,
+      "pan": -0.25,
+      "kind": "swoosh"
+    },
+    {
+      "at": 11,
+      "duration": 0.26,
+      "gain": 0.038,
+      "pan": 0.25,
+      "kind": "swoosh"
+    },
+    {
+      "at": 11.9,
+      "duration": 0.26,
+      "gain": 0.038,
+      "pan": -0.25,
+      "kind": "swoosh"
+    },
+    {
+      "at": 13.18,
+      "duration": 0.26,
+      "gain": 0.038,
+      "pan": 0.25,
+      "kind": "swoosh"
+    }
+  ]
+}

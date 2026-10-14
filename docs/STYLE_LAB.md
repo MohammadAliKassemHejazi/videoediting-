@@ -3,7 +3,10 @@
 The three new original films, without supplied footage, are described in
 [ORIGINAL_STYLE_FILMS.md](ORIGINAL_STYLE_FILMS.md). They live in `projects/` and
 have their own live Remotion folders, storyboards, assets, scores and export commands.
-The gallery defaults to these films; earlier auditions are under Older drafts.
+The gallery currently defaults to the five new clip editing structures in
+[VARIETY_CLIP_EDITS.md](VARIETY_CLIP_EDITS.md). The original films have their own
+tab; the earlier five behind-the-person edits are under Behind-the-person styles.
+Starter auditions remain under Older drafts.
 
 `npm run preview` opens Remotion Studio at http://localhost:3000. Leave it visible
 while Codex or Claude edits. Studio refreshes React, painter and content changes.

@@ -27,9 +27,9 @@ if(/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(name)){
  const configFile=join(ROOT,'projects',name,'project.json');
  if(existsSync(configFile)){
   const config=JSON.parse(readFileSync(configFile,'utf8'));
-  if(config.kind==='directed-film'||config.kind==='clip-audition'){
+  if(config.kind==='directed-film'||config.kind==='clip-audition'||config.kind==='clip-variety'){
    if(cmd==='inspect')console.log(JSON.stringify({...config,live:'http://localhost:3000/'+config.composition,exportReady:existsSync(join(ROOT,'out',name,'draft.mp4'))},null,2));
-   else if(cmd==='draft')run(config.kind==='clip-audition'?'scripts/pro-clips.mjs':'scripts/showcase.mjs',['render',name]);
+   else if(cmd==='draft')run(config.kind==='clip-variety'?'scripts/variety-clips.mjs':config.kind==='clip-audition'?'scripts/pro-clips.mjs':'scripts/showcase.mjs',['render',name]);
    else throw Error('Directed film commands: inspect, draft. Review the film before a production approval; source lives in projects/'+name+'.');
    process.exit(0);
   }

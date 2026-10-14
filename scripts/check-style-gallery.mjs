@@ -6,7 +6,13 @@ try{
   page.on('pageerror',error=>errors.push(error.message));
   await page.goto('http://localhost:3001',{waitUntil:'domcontentloaded'});
   const items=await page.evaluate(async()=>await(await fetch('/api/styles')).json());
-  if(items.some(item=>item.group==='Your clip / five edits')){
+  if(items.some(item=>item.group==='Your clip / new edit ideas')){
+    await page.waitForFunction(()=>document.querySelectorAll('article').length===5);
+    const titles=await page.locator('article h2').allTextContents();
+    if(!['SPLIT LAB','WHIP ZOOM','CURSOR RUN','REQUEST RUNNER','SKETCH INTERRUPT'].every(t=>titles.includes(t)))throw Error('Five new editing structures must lead the gallery.');
+    console.log('Five new editing ideas:',titles.join(', '));
+    if(process.argv.includes('--require-new')&&items.filter(s=>s.group==='Your clip / new edit ideas'&&s.ready).length!==5)throw Error('All five new exports must be current and playable.');
+  }else if(items.some(item=>item.group==='Your clip / five edits')){
     await page.waitForFunction(()=>document.querySelectorAll('article').length===5);
     const titles=await page.locator('article h2').allTextContents();
     if(!titles.some(t=>t.includes('MONUMENT'))||!titles.some(t=>t.includes('REDLINE'))||!titles.some(t=>t.includes('CHROME')))throw Error('Five clip styles must lead the gallery.');

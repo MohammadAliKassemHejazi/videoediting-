@@ -36,7 +36,9 @@ movie, then FFmpeg places the real moving speaker between them. This avoids
 re-decoding the source inside every browser frame. Render jobs stay serial.
 Graphics are checked in forward and reverse order before export.
 
-Select one in the gallery; it is saved in
+These five treatments remain in the gallery's Behind-the-person styles tab
+(`http://localhost:3001/?depth=1`). The next set uses different editing structures;
+see [VARIETY_CLIP_EDITS.md](VARIETY_CLIP_EDITS.md). Select one in the gallery; it is saved in
 `projects/backend-checklist/pro-edits/choice.json`. The agent then extends its
 direction through the full corrected transcript. These painters are authored
 for this topic; a different clip needs fresh wording, proof, action and timing.

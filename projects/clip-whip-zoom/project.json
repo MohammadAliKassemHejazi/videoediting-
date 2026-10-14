@@ -1,0 +1,133 @@
+{
+  "id": "clip-whip-zoom",
+  "name": "WHIP ZOOM",
+  "style": "Close performance; actual punch/pull camera moves; tracked annotations; impact seams",
+  "accent": "#ff672d",
+  "sound": "swoosh",
+  "shots": [
+    {
+      "a": 0,
+      "b": 15,
+      "rect": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "zoom": [
+        [
+          0,
+          1.6
+        ],
+        [
+          0.3,
+          1.32
+        ],
+        [
+          0.58,
+          1.22
+        ],
+        [
+          1.68,
+          1.22
+        ],
+        [
+          1.9,
+          1.52
+        ],
+        [
+          3,
+          1.52
+        ],
+        [
+          3.14,
+          1.12
+        ],
+        [
+          4.5,
+          1.12
+        ],
+        [
+          4.75,
+          1.65
+        ],
+        [
+          5.5,
+          1.65
+        ],
+        [
+          5.8,
+          1.4
+        ],
+        [
+          7,
+          1.4
+        ],
+        [
+          7.3,
+          1.13
+        ],
+        [
+          9.1,
+          1.13
+        ],
+        [
+          9.3,
+          1.42
+        ],
+        [
+          10.24,
+          1.42
+        ],
+        [
+          10.5,
+          1.24
+        ],
+        [
+          11,
+          1.24
+        ],
+        [
+          11.3,
+          1.48
+        ],
+        [
+          11.9,
+          1.48
+        ],
+        [
+          12.2,
+          1.26
+        ],
+        [
+          13.18,
+          1.26
+        ],
+        [
+          13.45,
+          1.54
+        ],
+        [
+          15,
+          1.54
+        ]
+      ]
+    }
+  ],
+  "kind": "clip-variety",
+  "title": "WHIP ZOOM",
+  "sourceProject": "backend-checklist",
+  "source": "clips/1012 (1).mp4",
+  "sourceHash": "7c537a61e98771730a9c732c51673bad5832e5d507d30a8f77522c92dc3ef8e6",
+  "start": 0,
+  "duration": 15,
+  "export": {
+    "width": 1440,
+    "height": 2560,
+    "fps": 60
+  },
+  "composition": "clip-whip-zoom",
+  "thumbnail": {
+    "file": "assets/thumbnail.png"
+  }
+}

@@ -9,11 +9,13 @@ import {galleryCatalog} from '../lib/style-catalog.mjs';
 import {storyDigest} from '../lib/story-digest.mjs';
 import {showcaseGalleryHtml} from '../lib/showcase-gallery.mjs';
 import {proClipDigest} from '../lib/pro-clip-digest.mjs';
+import {varietyClipDigest} from '../lib/variety-clip-digest.mjs';
 const token=randomBytes(24).toString('hex'),port=3001;
 const auditionFile=join(ROOT,'projects/backend-checklist/style-lab/audition.json'),storyFile=join(ROOT,'story-projects/pip-last-light/timed.json');
 const catalog=()=>galleryCatalog(ROOT);
 function ready(item){
  if(!existsSync(item.file))return false;
+ if(item.group==='Your clip / new edit ideas')return existsSync(item.manifest)&&JSON.parse(readFileSync(item.manifest,'utf8')).sourceDigest===varietyClipDigest(ROOT,item.project);
  if(item.group==='Your clip / five edits')return existsSync(item.manifest)&&JSON.parse(readFileSync(item.manifest,'utf8')).sourceDigest===proClipDigest(ROOT,item.project);
  if(item.group==='Original style films'){
    if(!existsSync(item.manifest))return false;
