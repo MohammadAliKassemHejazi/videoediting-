@@ -1,0 +1,78 @@
+{
+  "originalVoiceGain": 1,
+  "normalization": false,
+  "events": [
+    {
+      "at": 0,
+      "kind": "air",
+      "gain": 0.065,
+      "pan": -0.3
+    },
+    {
+      "at": 0.58,
+      "kind": "air",
+      "gain": 0.065,
+      "pan": 0.3
+    },
+    {
+      "at": 1.68,
+      "kind": "air",
+      "gain": 0.065,
+      "pan": -0.3
+    },
+    {
+      "at": 3.14,
+      "kind": "air",
+      "gain": 0.065,
+      "pan": 0.3
+    },
+    {
+      "at": 4.64,
+      "kind": "air",
+      "gain": 0.065,
+      "pan": -0.3
+    },
+    {
+      "at": 7,
+      "kind": "air",
+      "gain": 0.065,
+      "pan": 0.3
+    },
+    {
+      "at": 7.88,
+      "kind": "air",
+      "gain": 0.036,
+      "pan": -0.3
+    },
+    {
+      "at": 9.18,
+      "kind": "air",
+      "gain": 0.036,
+      "pan": 0.3
+    },
+    {
+      "at": 10.24,
+      "kind": "air",
+      "gain": 0.036,
+      "pan": -0.3
+    },
+    {
+      "at": 11,
+      "kind": "air",
+      "gain": 0.036,
+      "pan": 0.3
+    },
+    {
+      "at": 11.9,
+      "kind": "air",
+      "gain": 0.036,
+      "pan": -0.3
+    },
+    {
+      "at": 13.18,
+      "kind": "air",
+      "gain": 0.036,
+      "pan": 0.3
+    }
+  ]
+}

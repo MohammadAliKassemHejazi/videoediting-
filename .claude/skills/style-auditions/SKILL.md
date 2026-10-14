@@ -39,3 +39,11 @@ For ALL video tasks, storyboard a subject-specific visual cause and payoff.
 Reject repeated headline cards, identical framing and generic drifting as a
 professional finish. Inspect actual phone frames before full rendering, expose
 the real project in live Remotion, and fix substantive framing/material/type issues.
+
+For the user's clip with typography behind the person, read `docs/PRO_CLIP_EDITS.md`.
+Use a real moving matte, not an opaque fake cutout or a still portrait. Match all
+source/matte crops, keep the speaker prominent, and inspect hair/mic/hand edges.
+The five current clip studies live in `projects/clip-*`; their gallery selection
+is saved in `projects/backend-checklist/pro-edits/choice.json`. Original voice
+stays at gain 1; quiet SFX do not normalize or duck it. Extend the chosen grammar
+with fresh topic-specific content rather than carrying its backend words to a new clip.

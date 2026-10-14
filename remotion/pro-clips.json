@@ -1,0 +1,84 @@
+{
+  "sourceProject": "backend-checklist",
+  "duration": 15,
+  "sourceHash": "7c537a61e98771730a9c732c51673bad5832e5d507d30a8f77522c92dc3ef8e6",
+  "captions": [
+    [
+      0,
+      0.58,
+      "STOP."
+    ],
+    [
+      0.58,
+      1.68,
+      "If an AI agent"
+    ],
+    [
+      1.68,
+      3.14,
+      "wrote your backend,"
+    ],
+    [
+      3.14,
+      4.64,
+      "ask these 3 questions."
+    ],
+    [
+      4.64,
+      5.75,
+      "Or hackers will"
+    ],
+    [
+      5.75,
+      7,
+      "talk to you personally."
+    ],
+    [
+      7,
+      7.88,
+      "First question:"
+    ],
+    [
+      7.88,
+      9.18,
+      "What are the requirements?"
+    ],
+    [
+      9.18,
+      10.24,
+      "Who are the users?"
+    ],
+    [
+      10.24,
+      11,
+      "What are the inputs?"
+    ],
+    [
+      11,
+      11.9,
+      "What is the response?"
+    ],
+    [
+      11.9,
+      13.18,
+      "And the error cases."
+    ],
+    [
+      13.18,
+      14.2,
+      "Second question:"
+    ],
+    [
+      14.2,
+      15,
+      "Security boundaries."
+    ]
+  ],
+  "styles": [
+    "clip-monument",
+    "clip-redline",
+    "clip-paper-evidence",
+    "clip-acid-print",
+    "clip-chrome-depth"
+  ]
+}

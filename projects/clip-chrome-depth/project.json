@@ -1,0 +1,41 @@
+{
+  "id": "clip-chrome-depth",
+  "name": "CHROME DEPTH / Spatial Editorial",
+  "style": "Satin-metal typography · amber depth · glass rails · measured camera",
+  "zoom": 1.24,
+  "anchor": 0.28,
+  "room": false,
+  "accent": "#f5c778",
+  "caption": "chrome",
+  "grade": "eq=contrast=1.04:saturation=0.85",
+  "bumps": [
+    [
+      1.68,
+      3.14,
+      0.045
+    ],
+    [
+      7.88,
+      9.18,
+      0.07
+    ]
+  ],
+  "sound": "glass",
+  "kind": "clip-audition",
+  "title": "CHROME DEPTH / Spatial Editorial",
+  "sourceProject": "backend-checklist",
+  "source": "clips/1012 (1).mp4",
+  "start": 0,
+  "duration": 15,
+  "export": {
+    "width": 1440,
+    "height": 2560,
+    "fps": 60
+  },
+  "composition": "clip-chrome-depth",
+  "thumbnail": {
+    "file": "assets/thumbnail.png"
+  },
+  "media": "pro-clips",
+  "sourceHash": "7c537a61e98771730a9c732c51673bad5832e5d507d30a8f77522c92dc3ef8e6"
+}

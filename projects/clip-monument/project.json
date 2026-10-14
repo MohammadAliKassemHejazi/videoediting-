@@ -1,0 +1,46 @@
+{
+  "id": "clip-monument",
+  "name": "MONUMENT / Behind the Type",
+  "style": "Oversized depth type · natural room · editorial punch-ins",
+  "zoom": 1.22,
+  "anchor": 0.28,
+  "room": true,
+  "accent": "#f5e5b8",
+  "caption": "clean",
+  "grade": "eq=contrast=1.035:saturation=0.95",
+  "bumps": [
+    [
+      0.58,
+      3.14,
+      0.07
+    ],
+    [
+      4.64,
+      7,
+      0.05
+    ],
+    [
+      13.18,
+      15,
+      0.045
+    ]
+  ],
+  "sound": "air",
+  "kind": "clip-audition",
+  "title": "MONUMENT / Behind the Type",
+  "sourceProject": "backend-checklist",
+  "source": "clips/1012 (1).mp4",
+  "start": 0,
+  "duration": 15,
+  "export": {
+    "width": 1440,
+    "height": 2560,
+    "fps": 60
+  },
+  "composition": "clip-monument",
+  "thumbnail": {
+    "file": "assets/thumbnail.png"
+  },
+  "media": "pro-clips",
+  "sourceHash": "7c537a61e98771730a9c732c51673bad5832e5d507d30a8f77522c92dc3ef8e6"
+}

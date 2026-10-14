@@ -1,0 +1,7 @@
+<!doctype html><html><head><meta charset="utf-8"><style>html,body{margin:0;background:transparent;overflow:hidden}canvas{display:block}@font-face{font-family:Anton;src:url('node_modules/@fontsource/anton/files/anton-latin-400-normal.woff2')}@font-face{font-family:Inter;src:url('node_modules/@fontsource/inter/files/inter-latin-600-normal.woff2');font-weight:600}@font-face{font-family:'Source Serif 4';src:url('node_modules/@fontsource/source-serif-4/files/source-serif-4-latin-600-normal.woff2');font-weight:600}</style></head><body><canvas id="c" width="2880" height="2560"></canvas><script src=".cache/pro-clips/graphics.js"></script><script>
+const spec=window.PRO_CLIP_SPEC;
+const id=new URLSearchParams(location.search).get('style')||'clip-monument',c=document.querySelector('#c'),ctx=c.getContext('2d');
+window.DURATION=15;window.FONTS=['400 360px Anton','600 49px Inter','600 73px "Source Serif 4"'];window.ASSETS_READY=Promise.all(FONTS.map(f=>document.fonts.load(f)));
+window.seek=t=>{ctx.clearRect(0,0,c.width,c.height);ctx.save();ctx.scale(4/3,4/3);ctx.save();ctx.beginPath();ctx.rect(0,0,1080,1920);ctx.clip();paintClipBack(ctx,t,id);ctx.restore();ctx.translate(1080,0);ctx.beginPath();ctx.rect(0,0,1080,1920);ctx.clip();paintClipFront(ctx,t,id,spec);ctx.restore();};
+ASSETS_READY.then(()=>seek(0));
+</script></body></html>

@@ -1,0 +1,41 @@
+{
+  "id": "clip-redline",
+  "name": "REDLINE / Security Thriller",
+  "style": "Dark security dossier · red scan cuts · code evidence",
+  "zoom": 1.29,
+  "anchor": 0.27,
+  "room": false,
+  "accent": "#ff343f",
+  "caption": "terminal",
+  "grade": "eq=contrast=1.075:saturation=0.72:brightness=-0.015",
+  "bumps": [
+    [
+      0,
+      0.58,
+      0.06
+    ],
+    [
+      4.64,
+      7,
+      0.09
+    ]
+  ],
+  "sound": "metal",
+  "kind": "clip-audition",
+  "title": "REDLINE / Security Thriller",
+  "sourceProject": "backend-checklist",
+  "source": "clips/1012 (1).mp4",
+  "start": 0,
+  "duration": 15,
+  "export": {
+    "width": 1440,
+    "height": 2560,
+    "fps": 60
+  },
+  "composition": "clip-redline",
+  "thumbnail": {
+    "file": "assets/thumbnail.png"
+  },
+  "media": "pro-clips",
+  "sourceHash": "7c537a61e98771730a9c732c51673bad5832e5d507d30a8f77522c92dc3ef8e6"
+}

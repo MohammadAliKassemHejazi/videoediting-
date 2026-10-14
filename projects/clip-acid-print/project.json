@@ -1,0 +1,46 @@
+{
+  "id": "clip-acid-print",
+  "name": "ACID PRINT / Kinetic Poster",
+  "style": "Chartreuse print · violet optical geometry · graphic impact cuts",
+  "zoom": 1.23,
+  "anchor": 0.28,
+  "room": false,
+  "accent": "#d9ff43",
+  "caption": "acid",
+  "grade": "eq=contrast=1.05:saturation=0.82",
+  "bumps": [
+    [
+      0,
+      0.58,
+      0.085
+    ],
+    [
+      4.64,
+      7,
+      0.08
+    ],
+    [
+      13.18,
+      15,
+      0.035
+    ]
+  ],
+  "sound": "wood",
+  "kind": "clip-audition",
+  "title": "ACID PRINT / Kinetic Poster",
+  "sourceProject": "backend-checklist",
+  "source": "clips/1012 (1).mp4",
+  "start": 0,
+  "duration": 15,
+  "export": {
+    "width": 1440,
+    "height": 2560,
+    "fps": 60
+  },
+  "composition": "clip-acid-print",
+  "thumbnail": {
+    "file": "assets/thumbnail.png"
+  },
+  "media": "pro-clips",
+  "sourceHash": "7c537a61e98771730a9c732c51673bad5832e5d507d30a8f77522c92dc3ef8e6"
+}

@@ -34,6 +34,7 @@ story-projects/*/assets/voice/*.mp3
 story-projects/*/assets/narration.wav
 story-projects/*/assets/foley.wav
 projects/*/assets/score.wav
+projects/*/assets/sfx.wav
 # Keep voice timing/provenance, authored visuals, fonts references and licenses.
 **/.DS_Store
 **/Thumbs.db

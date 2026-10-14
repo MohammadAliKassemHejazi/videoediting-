@@ -1,0 +1,41 @@
+{
+  "id": "clip-paper-evidence",
+  "name": "PAPER EVIDENCE / Editorial Cutout",
+  "style": "Torn paper · photo cutout · serif headlines · handwritten marks",
+  "zoom": 1.17,
+  "anchor": 0.28,
+  "room": false,
+  "accent": "#ea542e",
+  "caption": "paper",
+  "grade": "hue=s=0.26,eq=contrast=1.06:brightness=0.01",
+  "bumps": [
+    [
+      3.14,
+      4.64,
+      0.05
+    ],
+    [
+      7.88,
+      9.18,
+      0.045
+    ]
+  ],
+  "sound": "paper",
+  "kind": "clip-audition",
+  "title": "PAPER EVIDENCE / Editorial Cutout",
+  "sourceProject": "backend-checklist",
+  "source": "clips/1012 (1).mp4",
+  "start": 0,
+  "duration": 15,
+  "export": {
+    "width": 1440,
+    "height": 2560,
+    "fps": 60
+  },
+  "composition": "clip-paper-evidence",
+  "thumbnail": {
+    "file": "assets/thumbnail.png"
+  },
+  "media": "pro-clips",
+  "sourceHash": "7c537a61e98771730a9c732c51673bad5832e5d507d30a8f77522c92dc3ef8e6"
+}

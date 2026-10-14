@@ -6,7 +6,12 @@ try{
   page.on('pageerror',error=>errors.push(error.message));
   await page.goto('http://localhost:3001',{waitUntil:'domcontentloaded'});
   const items=await page.evaluate(async()=>await(await fetch('/api/styles')).json());
-  if(items.some(item=>item.group==='Original style films')){
+  if(items.some(item=>item.group==='Your clip / five edits')){
+    await page.waitForFunction(()=>document.querySelectorAll('article').length===5);
+    const titles=await page.locator('article h2').allTextContents();
+    if(!titles.some(t=>t.includes('MONUMENT'))||!titles.some(t=>t.includes('REDLINE'))||!titles.some(t=>t.includes('CHROME')))throw Error('Five clip styles must lead the gallery.');
+    console.log('Five clip project cards:',titles.join(', '));
+  }else if(items.some(item=>item.group==='Original style films')){
     await page.waitForFunction(()=>document.querySelectorAll('article').length===3);
     const titles=await page.locator('article h2').allTextContents();
     if(titles.join('|')!=='MIDNIGHT TRANSIT|PAPER RIOT|SIGNAL / NOISE')throw Error('New projects must lead the gallery.');
