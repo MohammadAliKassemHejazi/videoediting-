@@ -1,0 +1,22 @@
+{
+  "id": "story-collage-memory",
+  "project": "story-collage-memory",
+  "name": "MEMORY / PAPER COLLAGE",
+  "feeling": "Photographic magazine cutouts, torn fields, physical paper exchanges and a disappearing photograph.",
+  "styleId": "collage-memory",
+  "kind": "memory-story",
+  "title": "MEMORY / PAPER COLLAGE",
+  "sourceStory": "mira-stolen-minute",
+  "series": "mira-minute",
+  "duration": 99.56,
+  "composition": "story-collage-memory",
+  "export": {
+    "width": 1440,
+    "height": 2560,
+    "fps": 60
+  },
+  "voice": "ar-SA-ZariyahNeural",
+  "thumbnail": {
+    "file": "assets/thumbnail.png"
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "file": "video_wan2_2_5B_ti2v.json",
+    "url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/main/templates/video_wan2_2_5B_ti2v.json",
+    "downloadedAt": "2026-10-14T12:14:44.323Z",
+    "sha256": "23c93b88adecbdf5bcf4c5438117070fe757f30aca373dd6a2eb488d2c6a585a"
+  },
+  {
+    "file": "video_wan2_2_14B_flf2v.json",
+    "url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/main/templates/video_wan2_2_14B_flf2v.json",
+    "downloadedAt": "2026-10-14T12:14:44.565Z",
+    "sha256": "0325fe7832674530deed833c2baab73c4bcac7629faa0a9790dfd74e2336fe2b"
+  },
+  {
+    "file": "LICENSE",
+    "url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/main/LICENSE",
+    "downloadedAt": "2026-10-14T12:14:44.798Z",
+    "sha256": "5dccd61c80c847cd6b22fa98124010163ab8646e573557a16a5cae31122f2056"
+  }
+]

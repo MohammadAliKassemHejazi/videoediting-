@@ -1,0 +1,5 @@
+# Designed cover
+
+Generated with the built-in image generation tool on 2026-10-14; copied into this project. Original fictional characters. This asset is not proof of completed video animation.
+
+Designed portrait 9:16 cover for original teen magical story THE STOLEN MINUTE. Editorial magazine paper collage, torn ochre and dusty terracotta fields, black-and-white photographic cutout invented 16-year-old girl Mira warm brown skin short black bob small red triangular hairclip teal jacket cream tee navy trousers red shoes; boy Sam warm tan skin short dark curls mustard hoodie forest trousers. Large old Polaroid photo upper center where half the boy has been erased leaving an outlined blank shape. Girl looks surprised at red punched ticket in hand; cream clock runs backwards. Huge cream headline exactly "THE STOLEN MINUTE". Deliberate few layers, visible paper texture, cream silhouette cutout edges, no extra text, no gradients, never resembles a flat slide template. Title and face central square crop.

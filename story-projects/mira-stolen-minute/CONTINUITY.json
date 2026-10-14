@@ -1,0 +1,6 @@
+{
+ "series":"mira-minute","episode":"mira-stolen-minute","originalSample":true,
+ "outcome":"Mira returns the borrowed minute and misses the robotics competition. The erased shared memory returns; Sam remembers their three-tap greeting.",
+ "establishedFacts":["The time machine exchanges borrowed minutes for shared memories.","Returning the ticket restores the traded memory and forfeits the borrowed time.","Mira and Sam use a three-tap greeting.","Mira built Pipbot for the robotics competition."],
+ "nextEpisodeRules":"Keep character IDs, costume designs and machine rules from the bible; refer to this outcome when the user says the next story is related."
+}

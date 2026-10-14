@@ -1,0 +1,2 @@
+import React from 'react';import {AbsoluteFill,Img,staticFile} from 'remotion';
+export function WarmCreatureKeyframe(){return <AbsoluteFill style={{background:'#253b3c'}}><Img src={staticFile('warm-creature-story/keyframe.png')} style={{width:'100%',height:'100%',objectFit:'cover'}}/><div style={{position:'absolute',bottom:90,left:65,right:65,color:'#fff1db',background:'#162428ed',padding:'28px 35px',borderRadius:22,font:'600 42px system-ui'}}>Original production keyframe<br/><span style={{fontSize:30}}>Still image · animated shots required</span></div></AbsoluteFill>}

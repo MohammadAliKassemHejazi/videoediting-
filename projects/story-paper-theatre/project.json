@@ -1,0 +1,22 @@
+{
+  "id": "story-paper-theatre",
+  "project": "story-paper-theatre",
+  "name": "MEMORY / POP-UP THEATRE",
+  "feeling": "A real 3D book, hinged paper scenery, cutout shadows, folded page turns and close camera coverage.",
+  "styleId": "paper-theatre",
+  "kind": "memory-story",
+  "title": "MEMORY / POP-UP THEATRE",
+  "sourceStory": "mira-stolen-minute",
+  "series": "mira-minute",
+  "duration": 99.56,
+  "composition": "story-paper-theatre",
+  "export": {
+    "width": 1440,
+    "height": 2560,
+    "fps": 60
+  },
+  "voice": "ar-SA-ZariyahNeural",
+  "thumbnail": {
+    "file": "assets/thumbnail.png"
+  }
+}

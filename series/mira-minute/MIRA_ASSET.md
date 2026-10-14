@@ -1,0 +1,9 @@
+# mira / original character atlas
+
+File: assets/mira-atlas.png. Purpose: four poses in a 2×2 transparent atlas, preserving one identity for collage animation. Original generated fictional teen; no user photograph or external character is used. Cell order: neutral, reach, worried, happy greeting. Feet/root at the bottom of each cell; inspect actual contacts before animation.
+
+Source: C:\Users\USER\.codex\generated_images\01a13666-9ae6-7be0-ad70-c7955e51b712\exec-edfc9803-3e7a-4f9f-bfee-80955c737ee0.png
+
+Exact prompt:
+
+Create a professional transparent character asset atlas for an editorial magazine-cutout animated story. Original fictional 16-year-old girl with warm brown skin, short straight black bob, one small red triangular hair clip on her left, teal zip jacket over cream shirt, navy trousers and red sneakers. Consistent identity and exact clothing in all poses, natural photographic studio person, age-appropriate casual clothing, no logos. This is an original invented character, not a real celebrity. Exactly four complete full-body isolated figures in a precise evenly spaced 2 by 2 grid on a truly transparent canvas. Each equal cell contains one entire figure centered with comfortable transparent margins, feet fully visible; no figures touch another cell. Top left: neutral three-quarter view facing right, listening. Top right: reaching one hand outward at chest height toward right, as if touching a ticket slot, other hand resting naturally. Bottom left: surprised and worried, clear face and asymmetrical hands. Bottom right: warm happy expression, extending one hand for a friendly fist-bump toward right. Preserve the same face, haircut, costume, age and proportions in all four cells. High-resolution square atlas, ideally 2048x2048. Crisp natural edges, no fake white paper outline because compositing will add it. No text, labels, cell borders, contact shadows on empty canvas, background, watermarks or additional people.

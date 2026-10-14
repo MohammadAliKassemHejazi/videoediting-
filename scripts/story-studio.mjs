@@ -1,3 +1,4 @@
+import {writeStudioRoot} from '../lib/remotion-projects.mjs';
 import {mkdirSync,writeFileSync,readFileSync,existsSync,copyFileSync,openSync,closeSync,unlinkSync} from 'node:fs';
 import {join,relative,resolve} from 'node:path';
 import {execFileSync} from 'node:child_process';
@@ -62,7 +63,7 @@ if(!existsSync(modulePath))throw Error('Missing authored story renderer.');
 writeFileSync(join(ROOT,'remotion/story-director.js'),`export {createStoryWorld,paintIllustrated,storyState} from ${JSON.stringify('../'+relative(ROOT,modulePath).replaceAll('\\','/'))};\n`);
 // Both audition families remain accessible while viewing a story.
 const active=JSON.parse(readFileSync(join(ROOT,'remotion/active.json'),'utf8'));
-writeFileSync(join(ROOT,'remotion/index.jsx'),`import React from 'react';\nimport {registerRoot,Composition,Folder} from 'remotion';\nimport {Audition} from './Audition.jsx';\nimport {Story} from './Story.jsx';\nimport audition from './active.json';\nimport story from './story-active.json';\nregisterRoot(()=> <>\n<Folder name="15-second-styles">\n${active.styles.map(s=>`<Composition id="${s}" component={Audition} width={1080} height={1920} fps={60} durationInFrames={900} defaultProps={{spec:audition,styleId:'${s}'}}/>`).join('\n')}\n</Folder>\n<Folder name="Full-story-demos">\n${spec.styles.map(s=>`<Composition id="${s}" component={Story} width={1080} height={1920} fps={60} durationInFrames={Math.ceil(story.duration*60)} defaultProps={{spec:story,styleId:'${s}'}}/>`).join('\n')}\n</Folder></>);\n`);
+writeStudioRoot(ROOT,`import React from 'react';\nimport {registerRoot,Composition,Folder} from 'remotion';\nimport {Audition} from './Audition.jsx';\nimport {Story} from './Story.jsx';\nimport audition from './active.json';\nimport story from './story-active.json';\nregisterRoot(()=> <>\n<Folder name="15-second-styles">\n${active.styles.map(s=>`<Composition id="${s}" component={Audition} width={1080} height={1920} fps={60} durationInFrames={900} defaultProps={{spec:audition,styleId:'${s}'}}/>`).join('\n')}\n</Folder>\n<Folder name="Full-story-demos">\n${spec.styles.map(s=>`<Composition id="${s}" component={Story} width={1080} height={1920} fps={60} durationInFrames={Math.ceil(story.duration*60)} defaultProps={{spec:story,styleId:'${s}'}}/>`).join('\n')}\n</Folder></>);\n`);
 if(cmd==='activate'){console.log('Full-length story compositions are live in Remotion.');process.exit(0);}
 if(!['render','stills'].includes(cmd))throw Error('Unknown story command.');
 const styles=opt('style')?[opt('style')]:spec.styles;for(const s of styles)if(!STORY_STYLES.some(v=>v.id===s))throw Error('Unknown story style.');

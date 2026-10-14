@@ -1,0 +1,64 @@
+{
+  "id": "clip-hand-orchestra",
+  "name": "HAND ORCHESTRA",
+  "style": "Real hand-tracked glass orbits, gesture-launched code, counted request beads and speech-timed contract docking",
+  "sound": "swoosh",
+  "shots": [
+    {
+      "a": 0,
+      "b": 15,
+      "rect": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "zoom": [
+        [
+          0,
+          1.35
+        ],
+        [
+          0.58,
+          1.2
+        ],
+        [
+          3.14,
+          1.25
+        ],
+        [
+          4.64,
+          1.42
+        ],
+        [
+          7,
+          1.2
+        ],
+        [
+          13.18,
+          1.3
+        ],
+        [
+          15,
+          1.3
+        ]
+      ]
+    }
+  ],
+  "kind": "clip-reference",
+  "title": "HAND ORCHESTRA",
+  "sourceProject": "backend-checklist",
+  "source": "clips/1012 (1).mp4",
+  "sourceHash": "7c537a61e98771730a9c732c51673bad5832e5d507d30a8f77522c92dc3ef8e6",
+  "start": 0,
+  "duration": 15,
+  "export": {
+    "width": 1440,
+    "height": 2560,
+    "fps": 60
+  },
+  "composition": "clip-hand-orchestra",
+  "thumbnail": {
+    "file": "assets/thumbnail.png"
+  }
+}

@@ -1,0 +1,9 @@
+# sam / original character atlas
+
+File: assets/sam-atlas.png. Purpose: four poses in a 2×2 transparent atlas, preserving one identity for collage animation. Original generated fictional teen; no user photograph or external character is used. Cell order: neutral, reach, worried, happy greeting. Feet/root at the bottom of each cell; inspect actual contacts before animation.
+
+Source: C:\Users\USER\.codex\generated_images\01a13666-9ae6-7be0-ad70-c7955e51b712\exec-7ef85272-d419-4063-ba52-23ef300395b7.png
+
+Exact prompt:
+
+Create a professional transparent character asset atlas for an editorial magazine-cutout animated story. Original fictional 16-year-old boy, slightly shorter and slighter than the girl, warm tan skin, short dark curls, mustard hoodie, forest green trousers and cream sneakers. Consistent identity and exact clothing in all poses, natural photographic studio person, age-appropriate casual clothing, no logos. This is an original invented character, not a real celebrity. Exactly four complete full-body isolated figures in a precise evenly spaced 2 by 2 grid on a truly transparent canvas. Each equal cell contains one entire figure centered with comfortable transparent margins, feet fully visible; no figures touch another cell. Top left: neutral three-quarter view facing left, listening. Top right: reaching one hand outward at chest height toward left, as if touching a ticket slot, other hand resting naturally. Bottom left: surprised and worried, clear face and asymmetrical hands. Bottom right: warm happy expression, extending one hand for a friendly fist-bump toward left. Preserve the same face, haircut, costume, age and proportions in all four cells. High-resolution square atlas, ideally 2048x2048. Crisp natural edges, no fake white paper outline because compositing will add it. No text, labels, cell borders, contact shadows on empty canvas, background, watermarks or additional people.

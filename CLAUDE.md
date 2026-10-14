@@ -24,3 +24,9 @@ storytelling is the default; split-screen is optional. Research recent examples,
 make the narrative coherent, inspect the actual renders and finish authorized work.
 User preferences in AGENTS.md override upstream defaults and automatic paid setup.
 `npm run skills:check` verifies the shared Codex/Claude skill packages.
+
+Read docs/REFERENCE_AND_STORY_EDITS.md for the independent collage, Clawd brush,
+3D paper-theatre and reference/hand-tracked clip workflows. Use their dedicated
+render commands. The warm-creature-story skill adds an original keyframe and
+ComfyUI/Blender production path; real furry animation still needs animated shots.
+Keep that limitation visible. Related creature episodes reuse series/ember-luma.

@@ -1,0 +1,5 @@
+# Production keyframe, still image only
+
+Generated with the built-in image generation tool on 2026-10-14; copied into this project. Original fictional characters. This asset is not proof of completed video animation.
+
+Original short animated film production keyframe, 9:16. Two original anthropomorphic fluffy creatures, charming cinematic 3D fur. Ember: small copper fox with charcoal forepaws, cream chest, one ear subtly notched, moss-green woven satchel, expressive amber eyes. Luma: silver-cream kitten with round cheeks, lavender knitted neck scarf, hazel eyes, no bow. Golden-hour quiet tram stop, blue-green tram door behind them, flowering trees, soft bouncing light, true soft fur strands and rounded facial appeal. Fox turns to board tram but kitten gently holds his forepaw with both paws, heads close, expressive conflicted then affectionate glance. Clear physically plausible paw contact, one tail each, correct anatomy, no text, no watermark. Camera at kitten eye height, medium two-shot, strong silhouette, premium materials and warm depth of field. An ORIGINAL scene capturing the affectionate microstory feeling, not a reproduction of an existing film.

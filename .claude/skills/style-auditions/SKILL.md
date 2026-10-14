@@ -54,3 +54,8 @@ pointer-led demonstration, a narrated animated system, or a sketch interruption.
 The second set has independent `projects/clip-*/scenes.js` implementations and
 explicit footage shots, not recolored background headlines. Keep earlier selections
 and drafts available; preview the actual shots, inspect exports and finish rendering.
+
+For the supplied reference's editorial grammar and the actual hand-tracked graphic
+edit, read docs/REFERENCE_AND_STORY_EDITS.md. Use reference-clips.mjs and the source
+landmark dataset; graphic attachment must follow the footage crop and camera scale.
+Keep earlier live projects when activating a different workflow.

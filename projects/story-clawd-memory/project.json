@@ -1,0 +1,22 @@
+{
+  "id": "story-clawd-memory",
+  "project": "story-clawd-memory",
+  "name": "MEMORY / BRUSH CHARACTERS",
+  "feeling": "Original ink and watercolor characters with changing expressions, acted gestures and a three-tap friendship.",
+  "styleId": "clawd-memory",
+  "kind": "memory-story",
+  "title": "MEMORY / BRUSH CHARACTERS",
+  "sourceStory": "mira-stolen-minute",
+  "series": "mira-minute",
+  "duration": 99.56,
+  "composition": "story-clawd-memory",
+  "export": {
+    "width": 1440,
+    "height": 2560,
+    "fps": 60
+  },
+  "voice": "ar-SA-ZariyahNeural",
+  "thumbnail": {
+    "file": "assets/thumbnail.png"
+  }
+}

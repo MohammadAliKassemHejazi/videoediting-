@@ -1,0 +1,5 @@
+# Designed cover
+
+Generated with the built-in image generation tool on 2026-10-14; copied into this project. Original fictional characters. This asset is not proof of completed video animation.
+
+Portrait 9:16 designed cover: gorgeous real miniature 3D pop-up book on worn muted sage desk under warm raking window light. Standing paper figures: original teen girl warm brown skin short black bob red triangular clip teal jacket cream shirt navy pants red sneakers, boy tan skin short dark curls mustard hoodie forest pants. Hinged teal time machine with ivory clock, large paper red punched ticket physically suspended from fold, paper photo with a missing person shape. Visibly thick cream card edges, cutout-shaped shadows, actual folded tabs, macro photographic camera, coherent physical scale. Typography exactly "THE STOLEN MINUTE" in large dark ink on top opened page. No fluffy fur or plastic bodies; actors are illustrated cardstock. Phone readable, square cover crop preserves headline and pair.

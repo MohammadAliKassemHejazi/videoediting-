@@ -1,0 +1,296 @@
+{
+  "narratorGain": 1,
+  "normalization": false,
+  "events": [
+    {
+      "at": 8.3,
+      "kind": "paper",
+      "gain": 0.035
+    },
+    {
+      "at": 18.61,
+      "kind": "paper",
+      "gain": 0.035
+    },
+    {
+      "at": 18.91,
+      "kind": "clock",
+      "gain": 0.008
+    },
+    {
+      "at": 19.86,
+      "kind": "clock",
+      "gain": 0.008
+    },
+    {
+      "at": 20.81,
+      "kind": "clock",
+      "gain": 0.008
+    },
+    {
+      "at": 21.759999999999998,
+      "kind": "clock",
+      "gain": 0.008
+    },
+    {
+      "at": 22.71,
+      "kind": "clock",
+      "gain": 0.008
+    },
+    {
+      "at": 23.66,
+      "kind": "clock",
+      "gain": 0.008
+    },
+    {
+      "at": 24.61,
+      "kind": "clock",
+      "gain": 0.008
+    },
+    {
+      "at": 25.560000000000002,
+      "kind": "clock",
+      "gain": 0.008
+    },
+    {
+      "at": 26.51,
+      "kind": "clock",
+      "gain": 0.008
+    },
+    {
+      "at": 27.46,
+      "kind": "clock",
+      "gain": 0.008
+    },
+    {
+      "at": 28.41,
+      "kind": "clock",
+      "gain": 0.008
+    },
+    {
+      "at": 29.36,
+      "kind": "clock",
+      "gain": 0.008
+    },
+    {
+      "at": 29.909999999999997,
+      "kind": "paper",
+      "gain": 0.035
+    },
+    {
+      "at": 30.209999999999997,
+      "kind": "clock",
+      "gain": 0.008
+    },
+    {
+      "at": 31.159999999999997,
+      "kind": "clock",
+      "gain": 0.008
+    },
+    {
+      "at": 32.11,
+      "kind": "clock",
+      "gain": 0.008
+    },
+    {
+      "at": 33.059999999999995,
+      "kind": "clock",
+      "gain": 0.008
+    },
+    {
+      "at": 34.01,
+      "kind": "clock",
+      "gain": 0.008
+    },
+    {
+      "at": 34.959999999999994,
+      "kind": "clock",
+      "gain": 0.008
+    },
+    {
+      "at": 35.91,
+      "kind": "clock",
+      "gain": 0.008
+    },
+    {
+      "at": 36.86,
+      "kind": "clock",
+      "gain": 0.008
+    },
+    {
+      "at": 37.809999999999995,
+      "kind": "clock",
+      "gain": 0.008
+    },
+    {
+      "at": 38.76,
+      "kind": "clock",
+      "gain": 0.008
+    },
+    {
+      "at": 39.709999999999994,
+      "kind": "clock",
+      "gain": 0.008
+    },
+    {
+      "at": 31.762199999999996,
+      "kind": "coin",
+      "gain": 0.055
+    },
+    {
+      "at": 40.199999999999996,
+      "kind": "paper",
+      "gain": 0.035
+    },
+    {
+      "at": 46.989999999999995,
+      "kind": "paper",
+      "gain": 0.035
+    },
+    {
+      "at": 48.48519999999999,
+      "kind": "tap",
+      "gain": 0.045
+    },
+    {
+      "at": 48.905199999999994,
+      "kind": "tap",
+      "gain": 0.045
+    },
+    {
+      "at": 49.325199999999995,
+      "kind": "tap",
+      "gain": 0.045
+    },
+    {
+      "at": 59.449999999999996,
+      "kind": "paper",
+      "gain": 0.035
+    },
+    {
+      "at": 67.35,
+      "kind": "paper",
+      "gain": 0.035
+    },
+    {
+      "at": 76.06,
+      "kind": "paper",
+      "gain": 0.035
+    },
+    {
+      "at": 78.49000000000001,
+      "kind": "clock",
+      "gain": 0.008
+    },
+    {
+      "at": 78.95,
+      "kind": "clock",
+      "gain": 0.008
+    },
+    {
+      "at": 79.41,
+      "kind": "clock",
+      "gain": 0.008
+    },
+    {
+      "at": 79.87,
+      "kind": "clock",
+      "gain": 0.008
+    },
+    {
+      "at": 80.33,
+      "kind": "clock",
+      "gain": 0.008
+    },
+    {
+      "at": 80.79,
+      "kind": "clock",
+      "gain": 0.008
+    },
+    {
+      "at": 81.25,
+      "kind": "clock",
+      "gain": 0.008
+    },
+    {
+      "at": 81.71000000000001,
+      "kind": "clock",
+      "gain": 0.008
+    },
+    {
+      "at": 82.17,
+      "kind": "clock",
+      "gain": 0.008
+    },
+    {
+      "at": 82.63,
+      "kind": "clock",
+      "gain": 0.008
+    },
+    {
+      "at": 83.09,
+      "kind": "clock",
+      "gain": 0.008
+    },
+    {
+      "at": 83.55,
+      "kind": "clock",
+      "gain": 0.008
+    },
+    {
+      "at": 84.01,
+      "kind": "clock",
+      "gain": 0.008
+    },
+    {
+      "at": 84.47,
+      "kind": "clock",
+      "gain": 0.008
+    },
+    {
+      "at": 84.93,
+      "kind": "clock",
+      "gain": 0.008
+    },
+    {
+      "at": 85.39,
+      "kind": "clock",
+      "gain": 0.008
+    },
+    {
+      "at": 85.85000000000001,
+      "kind": "clock",
+      "gain": 0.008
+    },
+    {
+      "at": 86.31,
+      "kind": "clock",
+      "gain": 0.008
+    },
+    {
+      "at": 80.995,
+      "kind": "paper",
+      "gain": 0.065
+    },
+    {
+      "at": 86.56,
+      "kind": "paper",
+      "gain": 0.035
+    },
+    {
+      "at": 87.89,
+      "kind": "tap",
+      "gain": 0.045
+    },
+    {
+      "at": 88.78,
+      "kind": "tap",
+      "gain": 0.045
+    },
+    {
+      "at": 89.91,
+      "kind": "tap",
+      "gain": 0.045
+    }
+  ]
+}

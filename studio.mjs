@@ -27,9 +27,12 @@ if(/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(name)){
  const configFile=join(ROOT,'projects',name,'project.json');
  if(existsSync(configFile)){
   const config=JSON.parse(readFileSync(configFile,'utf8'));
-  if(config.kind==='directed-film'||config.kind==='clip-audition'||config.kind==='clip-variety'){
+  if(['directed-film','clip-audition','clip-variety','clip-reference','memory-story','creature-preset'].includes(config.kind)){
    if(cmd==='inspect')console.log(JSON.stringify({...config,live:'http://localhost:3000/'+config.composition,exportReady:existsSync(join(ROOT,'out',name,'draft.mp4'))},null,2));
-   else if(cmd==='draft')run(config.kind==='clip-variety'?'scripts/variety-clips.mjs':config.kind==='clip-audition'?'scripts/pro-clips.mjs':'scripts/showcase.mjs',['render',name]);
+   else if(cmd==='draft'&&config.kind==='creature-preset')throw Error('This is a production keyframe. Follow docs/WARM_CREATURE_STORIES.md and supply real animated shots to creature-story.mjs.');
+    else if(cmd==='draft'&&config.kind==='memory-story')run('scripts/memory-story.mjs',['render',config.styleId]);
+    else if(cmd==='draft'&&config.kind==='clip-reference')run('scripts/reference-clips.mjs',['render',name]);
+    else if(cmd==='draft')run(config.kind==='clip-variety'?'scripts/variety-clips.mjs':config.kind==='clip-audition'?'scripts/pro-clips.mjs':'scripts/showcase.mjs',['render',name]);
    else throw Error('Directed film commands: inspect, draft. Review the film before a production approval; source lives in projects/'+name+'.');
    process.exit(0);
   }

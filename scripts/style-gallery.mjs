@@ -10,11 +10,16 @@ import {storyDigest} from '../lib/story-digest.mjs';
 import {showcaseGalleryHtml} from '../lib/showcase-gallery.mjs';
 import {proClipDigest} from '../lib/pro-clip-digest.mjs';
 import {varietyClipDigest} from '../lib/variety-clip-digest.mjs';
+import {referenceClipDigest} from '../lib/reference-clip-digest.mjs';
+import {memoryDigest} from '../lib/memory-story-spec.mjs';
 const token=randomBytes(24).toString('hex'),port=3001;
 const auditionFile=join(ROOT,'projects/backend-checklist/style-lab/audition.json'),storyFile=join(ROOT,'story-projects/pip-last-light/timed.json');
 const catalog=()=>galleryCatalog(ROOT);
 function ready(item){
  if(!existsSync(item.file))return false;
+ if(item.group==='Your clip / reference and hand motion')return existsSync(item.manifest)&&JSON.parse(readFileSync(item.manifest,'utf8')).sourceDigest===referenceClipDigest(ROOT,item.project);
+ if(item.group==='Arabic / three story styles')return existsSync(item.manifest)&&JSON.parse(readFileSync(item.manifest,'utf8')).sourceDigest===memoryDigest(ROOT,item.styleId);
+ if(item.group==='Warm creature production')return existsSync(item.manifest);
  if(item.group==='Your clip / new edit ideas')return existsSync(item.manifest)&&JSON.parse(readFileSync(item.manifest,'utf8')).sourceDigest===varietyClipDigest(ROOT,item.project);
  if(item.group==='Your clip / five edits')return existsSync(item.manifest)&&JSON.parse(readFileSync(item.manifest,'utf8')).sourceDigest===proClipDigest(ROOT,item.project);
  if(item.group==='Original style films'){
@@ -38,7 +43,7 @@ const server=createServer(async(req,res)=>{
    if(req.method==='GET'&&url.pathname==='/api/styles')return send(res,200,catalog().map(item=>{const {file,choice,recordFile,manifest,...s}=item;return {...s,ready:ready(item),version:existsSync(file)?statSync(file).mtimeMs:0,selected:existsSync(choice)&&JSON.parse(readFileSync(choice,'utf8')).style===s.styleId};}));
    if(req.method==='GET'&&url.pathname.startsWith('/cover/')){
      const item=catalog().find(s=>s.id===decodeURIComponent(url.pathname.slice(7)));if(!item)return send(res,404,'Unknown project','text/plain');
-     const primaryCover=join(ROOT,'projects',item.project,'assets/thumbnail.png'),cover=existsSync(primaryCover)?primaryCover:join(ROOT,'story-projects',item.project,'assets/thumbnail.png');if(!existsSync(cover))return send(res,404,'Cover pending','text/plain');return send(res,200,readFileSync(cover),'image/png');
+     const primaryCover=join(ROOT,'projects',item.project,item.keyframe?'assets/keyframe.png':'assets/thumbnail.png'),cover=existsSync(primaryCover)?primaryCover:join(ROOT,'story-projects',item.project,'assets/thumbnail.png');if(!existsSync(cover))return send(res,404,'Cover pending','text/plain');return send(res,200,readFileSync(cover),'image/png');
    }
    if(req.method==='POST'&&url.pathname==='/api/choice'){
      if(!['http://localhost:3001','http://127.0.0.1:3001'].includes(req.headers.origin)||req.headers['x-studio-token']!==token)return send(res,403,{error:'Open this local studio page to choose a style.'});

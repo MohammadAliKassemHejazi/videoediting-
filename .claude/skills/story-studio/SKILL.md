@@ -37,3 +37,9 @@ Use free licensed assets where they help, or create local geometry. Keep provena
 and licenses. Inspect contact sheets, phone frames, acting and causal transitions,
 fix issues, and generate a distinct designed cover. Numerical checks do not count
 as listening or editorial review. Keep draft status until actually reviewed.
+
+For the original Arabic memory story's independent collage, Clawd brush and lit
+3D paper-book treatments, use docs/REFERENCE_AND_STORY_EDITS.md and the dedicated
+memory-story command. For the supplied fox/kitten animation direction, use the
+warm-creature-story skill and docs/WARM_CREATURE_STORIES.md. Its keyframe and
+native generator workflow require real animation before an episode can be exported.

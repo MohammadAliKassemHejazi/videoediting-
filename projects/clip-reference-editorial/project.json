@@ -1,0 +1,86 @@
+{
+  "id": "clip-reference-editorial",
+  "name": "REFERENCE EDITORIAL",
+  "style": "Dark grid, rounded evidence, speaker head breakout, red count and yellow marker; directed from the supplied OpenAI reference",
+  "sound": "click",
+  "shots": [
+    {
+      "a": 0,
+      "b": 4.64,
+      "rect": [
+        0,
+        840,
+        1080,
+        1080
+      ],
+      "masked": true,
+      "zoom": [
+        [
+          0,
+          1.12
+        ],
+        [
+          4.64,
+          1.12
+        ]
+      ]
+    },
+    {
+      "a": 4.64,
+      "b": 7,
+      "rect": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "zoom": [
+        [
+          4.64,
+          1.45
+        ],
+        [
+          7,
+          1.45
+        ]
+      ]
+    },
+    {
+      "a": 8.7,
+      "b": 15,
+      "rect": [
+        0,
+        840,
+        1080,
+        1080
+      ],
+      "masked": true,
+      "zoom": [
+        [
+          8.7,
+          1.1
+        ],
+        [
+          15,
+          1.1
+        ]
+      ]
+    }
+  ],
+  "kind": "clip-reference",
+  "title": "REFERENCE EDITORIAL",
+  "sourceProject": "backend-checklist",
+  "source": "clips/1012 (1).mp4",
+  "sourceHash": "7c537a61e98771730a9c732c51673bad5832e5d507d30a8f77522c92dc3ef8e6",
+  "start": 0,
+  "duration": 15,
+  "export": {
+    "width": 1440,
+    "height": 2560,
+    "fps": 60
+  },
+  "composition": "clip-reference-editorial",
+  "thumbnail": {
+    "file": "assets/thumbnail.png"
+  }
+}

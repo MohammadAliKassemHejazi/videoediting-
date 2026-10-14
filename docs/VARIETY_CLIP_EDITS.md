@@ -2,7 +2,7 @@
 
 The second set of five auditions uses the original 0–15 second backend recording.
 Earlier depth-type edits remain available at http://localhost:3001/?depth=1.
-The default gallery now compares five new ideas. All ten compositions remain in
+The gallery's **Five edit ideas** tab compares five new ideas. All ten compositions remain in
 Remotion; the new ones are in the NEW-EDIT-IDEAS folder.
 
 | Project | Editing structure |

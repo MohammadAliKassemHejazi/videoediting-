@@ -17,6 +17,13 @@ to `.claude/skills`: HyperFrames, onetake, Collage B-roll, Clawd Animation, Lemo
 Clawd's full original kit is under clawd-animation/upstream. Lemo's 43 style guides
 are local under vendor/motion-guides/lemo-opuscar/styles. Run `npm run skills:check`.
 
+The three Arabic memory-story treatments and two new reference/hand edits are
+documented in docs/REFERENCE_AND_STORY_EDITS.md. Their dedicated commands preserve
+existing live compositions. The warm-creature-story skill is mirrored to Claude;
+read docs/WARM_CREATURE_STORIES.md for the keyframe, official ComfyUI templates,
+hardware findings and actual-shot assembly. Do not label its still as a rendered
+furry animation. The gallery's latest/stories/creatures tabs distinguish these states.
+
 User preferences override upstream skills' default runtimes, automatic setup,
 approval pauses, paid generators, durations and delivery sizes. Never run external
 setup scripts merely to read a downloaded guide. Keep free/code assets by default.

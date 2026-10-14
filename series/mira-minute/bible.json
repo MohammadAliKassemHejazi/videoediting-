@@ -1,0 +1,14 @@
+{
+  "id":"mira-minute","title":"The Stolen Minute","version":1,
+  "audience":"13–17","world":"An original fictional town with a vending machine that lends time and takes a memory as its price.",
+  "voice":{"ar":"ar-SA-ZariyahNeural","en":"en-US-AriaNeural"},
+  "characters":[
+    {"id":"mira","name":"Mira","age":16,"design":"Warm brown skin, short black bob, one red triangular hair clip on her left, teal jacket over cream shirt, navy trousers, red sneakers. Curious, capable, expressive. No brand marks.","colors":{"hair":"#232333","skin":"#c58b64","jacket":"#328f90","shirt":"#f7e7c9","trousers":"#303347","shoes":"#be4f44"}},
+    {"id":"sam","name":"Sam","age":16,"design":"Mira's close friend. Warm tan skin, short dark curls, mustard hoodie, forest trousers, cream sneakers. Slightly shorter than Mira; kind, expressive.","colors":{"hair":"#35313b","skin":"#c99670","jacket":"#cfaa4c","trousers":"#456f60","shoes":"#f7e7c9"}},
+    {"id":"pipbot","name":"Pipbot","design":"Mira's original small cream box-shaped wheeled robot; teal side panels, two round ink eyes, one red aerial. No resemblance to a named commercial mascot."}
+  ],
+  "props":{"ticket":"Red punched paper time ticket, carried by Mira until she returns it.","machine":"Teal vending cabinet with a round ivory clock, red ticket slot and brass return lever.","memory":"A cream-bordered photograph of Mira and Sam making their three-tap greeting."},
+  "continuity":{"opening":"Mira and Sam recognize their three-tap greeting.","machineRule":"Borrowing a minute costs one shared memory. Returning its ticket restores that memory and forfeits the borrowed time.","ending":"The competition ends before Mira returns. Sam remembers their greeting again. Mira chooses the memory over winning."},
+  "styleVariants":["collage-memory","clawd-memory","paper-theatre"],
+  "identityPolicy":"Keep IDs, costume, hair, proportions and established facts across related episodes. Style selection fixes the matching model sheet for sequels. Do not replace these facts to fit a new script."
+}

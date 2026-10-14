@@ -1,0 +1,16 @@
+{
+ "id":"mira-stolen-minute","series":"mira-minute","title":"الدقيقة المسروقة / The Stolen Minute","originalSample":true,"audience":"13–17","language":"ar","voice":"ar-SA-ZariyahNeural","rate":"-6%","minimumDuration":60,
+ "export":{"width":1440,"height":2560,"fps":60},"rendererModule":"story-projects/mira-stolen-minute/scenes.js","styles":["collage-memory","clawd-memory","paper-theatre"],
+ "scenes":[
+  {"title":"The price","action":"memory-hook","narration":"اشترت ميرا دقيقة من الغد. وفجأة، اختفى سام من صورتهما القديمة.","silentAfter":0.5},
+  {"title":"Running late","action":"late-run","narration":"كانت متأخرة على مسابقة الروبوتات. بقيت دقيقة على إغلاق الباب، وروبوتها يتعطل.","silentAfter":0.45},
+  {"title":"The offer","action":"machine-offer","narration":"وجدت آلة غريبة في الزقاق. ساعتها تتحرك إلى الخلف، وتذكرة حمراء تعدها بدقيقة إضافية.","silentAfter":0.6},
+  {"title":"The purchase","action":"buy-minute","narration":"دفعت قطعة نقدية. توقفت الساعة، وسحبت التذكرة. وصلت قبل إغلاق الباب.","silentAfter":0.45},
+  {"title":"The early arrival","action":"contest-arrival","narration":"لكن سام نظر إليها بغرابة، وكأنه يراها للمرة الأولى.","silentAfter":0.55},
+  {"title":"The missing greeting","action":"forgotten-greeting","narration":"مدت يدها: ثلاث نقرات، تحيتهما السرية. لم يتذكر. كانت الصورة تحمل مكاناً فارغاً.","silentAfter":0.65},
+  {"title":"Read the price","action":"read-price","narration":"على ظهر التذكرة ظهر الثمن: كل دقيقة مستعارة تمحو ذكرى مشتركة.","silentAfter":0.7},
+  {"title":"The choice","action":"choose-memory","narration":"نظرت إلى الكأس، ثم إلى سام. أغلقت صندوق الروبوت، وعادت للآلة.","silentAfter":0.5},
+  {"title":"The return","action":"return-ticket","narration":"أعادت التذكرة. تسارعت الساعة وانتهت المسابقة. لكن وجه سام عاد إلى الصورة.","silentAfter":0.8},
+  {"title":"The greeting returns","action":"earned-greeting","narration":"رفع يده: نقرة، نقرتان، ثلاث. ضحكت ميرا. خسرت الكأس، واحتفظت بما يستحق وقتها.","silentAfter":1.1}
+ ]
+}

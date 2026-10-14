@@ -1,0 +1,11 @@
+{
+ "project":"warm-creature-story","output":"assembled-draft.mp4",
+ "note":"Example only. Replace these paths with actual accepted animated videos. PNG keyframes are not accepted.",
+ "shots":[
+  {"file":"assets/shots/departure.mp4","in":0,"out":3},
+  {"file":"assets/shots/paw-contact.mp4","in":0,"out":3},
+  {"file":"assets/shots/hug.mp4","in":0,"out":4},
+  {"file":"assets/shots/reaction.mp4","in":0,"out":3},
+  {"file":"assets/shots/next-tram.mp4","in":0,"out":2}
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "id":"ember-luma","originalCharacters":true,
+ "characters":[
+  {"id":"ember","species":"anthropomorphic copper fox","markings":"cream muzzle and chest, charcoal forepaws, one subtly notched ear","eyes":"amber","accessory":"moss-green woven satchel","scale":"1.45 times Luma height"},
+  {"id":"luma","species":"anthropomorphic silver-cream kitten","markings":"silver forehead and ears, cream cheeks and paws","eyes":"hazel","accessory":"lavender knitted neck scarf","scale":"shorter than Ember"}
+ ],
+ "world":{"location":"quiet flowering town tram stop","lighting":"warm late-afternoon sun and soft blue sky fill"},
+ "acting":"Eye contact precedes reach; paw contact is held before body turn; each character keeps one tail and stable limb anatomy.",
+ "relatedEpisodes":"Reuse the designs and accepted character references; read prior episode outcomes before writing a sequel.",
+ "status":"Original keyframe and production plan. No animated episode completed."
+}

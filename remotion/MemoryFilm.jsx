@@ -1,0 +1,12 @@
+import React,{useEffect,useLayoutEffect,useRef,useState} from 'react';
+import {AbsoluteFill,Audio,staticFile,useCurrentFrame,useVideoConfig,delayRender,continueRender,cancelRender} from 'remotion';
+import {M} from '../lib/memory-draw.js';
+import {paintCollageMemory} from '../story-projects/mira-stolen-minute/collage.js';
+import {paintClawdMemory} from '../story-projects/mira-stolen-minute/clawd.js';
+import {createPaperTheatre} from '../story-projects/mira-stolen-minute/paper.js';
+export function MemoryFilm({spec,styleId,captionLanguage='en'}){
+ const main=useRef(null),caps=useRef(null),assets=useRef({}),world=useRef(null),[ready,setReady]=useState(false),[handle]=useState(()=>delayRender('Load story art and local fonts'));const frame=useCurrentFrame(),{fps}=useVideoConfig();
+ useEffect(()=>{let active=true;(async()=>{const fonts=[['Inter','fonts/inter-latin-600-normal.woff2'],['Noto Sans Arabic','fonts/noto-sans-arabic-arabic-600-normal.woff2']];for(const [family,path]of fonts){const f=new FontFace(family,`url(${staticFile(path)})`,{weight:'600'});await f.load();document.fonts.add(f)}await Promise.all(['mira','sam'].map(id=>new Promise((resolve,reject)=>{const img=new Image();img.onload=()=>{assets.current[id]=img;resolve()};img.onerror=reject;img.src=staticFile('mira-stolen-minute/'+id+'-atlas.png')})));if(styleId==='paper-theatre')world.current=createPaperTheatre(main.current);if(active){setReady(true);continueRender(handle)}})().catch(cancelRender);return()=>{active=false;world.current?.dispose();world.current=null}},[styleId,handle]);
+ useLayoutEffect(()=>{if(!ready)return;const t=frame/fps;if(world.current)world.current.seek(t,spec);else{const c=main.current.getContext('2d');c.setTransform(4/3,0,0,4/3,0,0);styleId==='collage-memory'?paintCollageMemory(c,t,spec,assets.current):paintClawdMemory(c,t,spec)}const c=caps.current.getContext('2d');c.setTransform(1,0,0,1,0,0);c.clearRect(0,0,1440,2560);c.setTransform(4/3,0,0,4/3,0,0);M.caption(c,t,spec,captionLanguage);continueRender(handle)},[frame,fps,ready,spec,styleId,captionLanguage,handle]);
+ return <AbsoluteFill style={{background:'#efe7d3'}}><canvas ref={main} width={1440} height={2560} style={{position:'absolute',width:'100%',height:'100%'}}/><canvas ref={caps} width={1440} height={2560} style={{position:'absolute',width:'100%',height:'100%'}}/><Audio src={staticFile(spec.audio)} volume={1}/></AbsoluteFill>
+}

@@ -1,3 +1,4 @@
+import {REFERENCE_STYLES} from '../lib/reference-clip-spec.mjs';
 import {readFileSync,writeFileSync} from 'node:fs';
 import {join} from 'node:path';
 import {spawnSync} from 'node:child_process';
@@ -13,7 +14,7 @@ function samples(file){
  if(r.status!==0)throw Error(r.stderr.toString());
  return Float32Array.from({length:r.stdout.length/4},(_,i)=>r.stdout.readFloatLE(i*4));
 }
-const variety=process.argv[2]==='variety',selected=variety?VARIETY_STYLES:PRO_CLIP_STYLES,original=samples(source),times=variety?[.2,1.2,3.4,4.9,6.2,8.2,10.7,14.4]:[.2,1.2,2.5,4,5.5,8.2,10.7,14.4];
+const variety=process.argv[2]==='variety',reference=process.argv[2]==='reference',selected=reference?REFERENCE_STYLES:variety?VARIETY_STYLES:PRO_CLIP_STYLES,original=samples(source),times=variety||reference?[.2,1.2,3.4,4.9,6.2,8.2,10.7,14.4]:[.2,1.2,2.5,4,5.5,8.2,10.7,14.4];
 for(const style of selected){
  const folder=join(ROOT,'out',style.id),file=join(folder,'draft.mp4'),audio=samples(file);
  let best={correlation:-1};
@@ -28,7 +29,7 @@ for(const style of selected){
  if(best.correlation<.97||Math.abs(best.lagMs)>2||Math.abs(best.estimatedVoiceGain-1)>.08||peak>=1)throw Error('Audio alignment/level failed '+style.id+' '+JSON.stringify({...best,peak}));
  for(const t of times)await ffmpeg(['-ss',String(t),'-i',file,'-frames:v','1','-vf','scale=360:640','-an',join(folder,`export-${t}.png`)]);
  await ffmpeg([...times.flatMap(t=>['-i',join(folder,`export-${t}.png`)]),'-filter_complex','[0:v][1:v][2:v][3:v]hstack=inputs=4[top];[4:v][5:v][6:v][7:v]hstack=inputs=4[bottom];[top][bottom]vstack=inputs=2','-frames:v','1',join(folder,'export-contact.png')]);
- const seam=style.id==='clip-redline'?8.85:style.id==='clip-acid-print'?7.88:style.id==='clip-chrome-depth'?8.6:style.id==='clip-cursor-run'?.58:style.id==='clip-request-runner'?4.64:style.id==='clip-sketch-interrupt'?5.75:3.14;
+ const seam=style.id==='clip-reference-editorial'?4.64:style.id==='clip-hand-orchestra'?7:style.id==='clip-redline'?8.85:style.id==='clip-acid-print'?7.88:style.id==='clip-chrome-depth'?8.6:style.id==='clip-cursor-run'?.58:style.id==='clip-request-runner'?4.64:style.id==='clip-sketch-interrupt'?5.75:3.14;
  const seamTimes=[seam-.08,seam-.0167,seam,seam+.1];
  for(let i=0;i<4;i++)await ffmpeg(['-ss',String(seamTimes[i]),'-i',file,'-frames:v','1','-vf','scale=270:480','-an',join(folder,`seam-${i}.png`)]);
  await ffmpeg([...seamTimes.flatMap((_,i)=>['-i',join(folder,`seam-${i}.png`)]),'-filter_complex','[0:v][1:v][2:v][3:v]hstack=inputs=4','-frames:v','1',join(folder,'export-seam.png')]);

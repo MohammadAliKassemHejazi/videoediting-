@@ -1,3 +1,4 @@
+import {writeStudioRoot} from '../lib/remotion-projects.mjs';
 import {readFileSync,writeFileSync,mkdirSync,existsSync,copyFileSync,openSync,closeSync,unlinkSync} from 'node:fs';
 import {join} from 'node:path';
 import {pathToFileURL} from 'node:url';
@@ -26,9 +27,7 @@ if(cmd==='init'){
  }
  console.log('Five different editing structures prepared.');process.exit(0);
 }
-if(cmd==='activate'){
- const current=readFileSync(join(ROOT,'remotion/index.jsx'),'utf8');if(!current.includes("import {VarietyClip}")){const imports="import {VarietyClip} from './VarietyClip.jsx';\nimport varietySpec from './variety-clips.json';\n";writeFileSync(join(ROOT,'remotion/index.jsx'),imports+current.replace('registerRoot(()=> <>','registerRoot(()=> <>\n<Folder name="NEW-EDIT-IDEAS">'+VARIETY_STYLES.map(s=>`<Composition id="${s.id}" component={VarietyClip} width={1440} height={2560} fps={60} durationInFrames={900} defaultProps={{spec:varietySpec,styleId:'${s.id}'}}/>`).join('')+'</Folder>'))}console.log('Five new ideas added; earlier compositions preserved.');process.exit(0);
-}
+if(cmd==='activate'){writeStudioRoot(ROOT,readFileSync(join(ROOT,'remotion/index.jsx'),'utf8'));console.log('Five new ideas added; earlier compositions preserved.');process.exit(0)}
 if(!['render','stills'].includes(cmd))throw Error('variety-clips init | activate | stills [id] | render [id]');
 const files=['lib/variety-draw.js',...VARIETY_STYLES.map(s=>'projects/'+s.id+'/scenes.js'),'lib/variety-clip-graphics.js'];writeFileSync(join(cache,'graphics.js'),files.map(f=>readFileSync(join(ROOT,f),'utf8').replace(/^import[^\n]*\n/gm,'').replace(/^export /gm,'')).join('\n')+'\nwindow.VARIETY_SPEC='+JSON.stringify(spec).replaceAll('<','\\u003c')+';');
 function filter(style,stillTime=null){const active=stillTime===null?style.shots:style.shots.filter(s=>stillTime>=s.a&&stillTime<s.b);let f='[0:v]split=2[bp][fp];[bp]crop=1440:2560:0:0,format=rgba[bg];[fp]crop=1440:2560:1440:0,format=rgba[fg];';if(active.length)f+=`[1:v]fps=60,split=${active.length}`+active.map((_,i)=>`[src${i}]`).join('')+';';else f+='[1:v]nullsink;';let stage='bg';

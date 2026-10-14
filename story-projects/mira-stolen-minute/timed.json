@@ -1,0 +1,340 @@
+{
+  "id": "mira-stolen-minute",
+  "series": "mira-minute",
+  "title": "الدقيقة المسروقة / The Stolen Minute",
+  "originalSample": true,
+  "audience": "13–17",
+  "language": "ar",
+  "voice": "ar-SA-ZariyahNeural",
+  "rate": "-6%",
+  "minimumDuration": 60,
+  "export": {
+    "width": 1440,
+    "height": 2560,
+    "fps": 60
+  },
+  "rendererModule": "story-projects/mira-stolen-minute/scenes.js",
+  "styles": [
+    "collage-memory",
+    "clawd-memory",
+    "paper-theatre"
+  ],
+  "scenes": [
+    {
+      "title": "The price",
+      "action": "memory-hook",
+      "narration": "اشترت ميرا دقيقة من الغد. وفجأة، اختفى سام من صورتهما القديمة.",
+      "silentAfter": 0.5,
+      "at": 0,
+      "duration": 8.3
+    },
+    {
+      "title": "Running late",
+      "action": "late-run",
+      "narration": "كانت متأخرة على مسابقة الروبوتات. بقيت دقيقة على إغلاق الباب، وروبوتها يتعطل.",
+      "silentAfter": 0.45,
+      "at": 8.3,
+      "duration": 10.309999999999999
+    },
+    {
+      "title": "The offer",
+      "action": "machine-offer",
+      "narration": "وجدت آلة غريبة في الزقاق. ساعتها تتحرك إلى الخلف، وتذكرة حمراء تعدها بدقيقة إضافية.",
+      "silentAfter": 0.6,
+      "at": 18.61,
+      "duration": 11.299999999999999
+    },
+    {
+      "title": "The purchase",
+      "action": "buy-minute",
+      "narration": "دفعت قطعة نقدية. توقفت الساعة، وسحبت التذكرة. وصلت قبل إغلاق الباب.",
+      "silentAfter": 0.45,
+      "at": 29.909999999999997,
+      "duration": 10.29
+    },
+    {
+      "title": "The early arrival",
+      "action": "contest-arrival",
+      "narration": "لكن سام نظر إليها بغرابة، وكأنه يراها للمرة الأولى.",
+      "silentAfter": 0.55,
+      "at": 40.199999999999996,
+      "duration": 6.79
+    },
+    {
+      "title": "The missing greeting",
+      "action": "forgotten-greeting",
+      "narration": "مدت يدها: ثلاث نقرات، تحيتهما السرية. لم يتذكر. كانت الصورة تحمل مكاناً فارغاً.",
+      "silentAfter": 0.65,
+      "at": 46.989999999999995,
+      "duration": 12.46
+    },
+    {
+      "title": "Read the price",
+      "action": "read-price",
+      "narration": "على ظهر التذكرة ظهر الثمن: كل دقيقة مستعارة تمحو ذكرى مشتركة.",
+      "silentAfter": 0.7,
+      "at": 59.449999999999996,
+      "duration": 7.9
+    },
+    {
+      "title": "The choice",
+      "action": "choose-memory",
+      "narration": "نظرت إلى الكأس، ثم إلى سام. أغلقت صندوق الروبوت، وعادت للآلة.",
+      "silentAfter": 0.5,
+      "at": 67.35,
+      "duration": 8.71
+    },
+    {
+      "title": "The return",
+      "action": "return-ticket",
+      "narration": "أعادت التذكرة. تسارعت الساعة وانتهت المسابقة. لكن وجه سام عاد إلى الصورة.",
+      "silentAfter": 0.8,
+      "at": 76.06,
+      "duration": 10.5
+    },
+    {
+      "title": "The greeting returns",
+      "action": "earned-greeting",
+      "narration": "رفع يده: نقرة، نقرتان، ثلاث. ضحكت ميرا. خسرت الكأس، واحتفظت بما يستحق وقتها.",
+      "silentAfter": 1.1,
+      "at": 86.56,
+      "duration": 13
+    }
+  ],
+  "bible": {
+    "id": "mira-minute",
+    "title": "The Stolen Minute",
+    "version": 1,
+    "audience": "13–17",
+    "world": "An original fictional town with a vending machine that lends time and takes a memory as its price.",
+    "voice": {
+      "ar": "ar-SA-ZariyahNeural",
+      "en": "en-US-AriaNeural"
+    },
+    "characters": [
+      {
+        "id": "mira",
+        "name": "Mira",
+        "age": 16,
+        "design": "Warm brown skin, short black bob, one red triangular hair clip on her left, teal jacket over cream shirt, navy trousers, red sneakers. Curious, capable, expressive. No brand marks.",
+        "colors": {
+          "hair": "#232333",
+          "skin": "#c58b64",
+          "jacket": "#328f90",
+          "shirt": "#f7e7c9",
+          "trousers": "#303347",
+          "shoes": "#be4f44"
+        }
+      },
+      {
+        "id": "sam",
+        "name": "Sam",
+        "age": 16,
+        "design": "Mira's close friend. Warm tan skin, short dark curls, mustard hoodie, forest trousers, cream sneakers. Slightly shorter than Mira; kind, expressive.",
+        "colors": {
+          "hair": "#35313b",
+          "skin": "#c99670",
+          "jacket": "#cfaa4c",
+          "trousers": "#456f60",
+          "shoes": "#f7e7c9"
+        }
+      },
+      {
+        "id": "pipbot",
+        "name": "Pipbot",
+        "design": "Mira's original small cream box-shaped wheeled robot; teal side panels, two round ink eyes, one red aerial. No resemblance to a named commercial mascot."
+      }
+    ],
+    "props": {
+      "ticket": "Red punched paper time ticket, carried by Mira until she returns it.",
+      "machine": "Teal vending cabinet with a round ivory clock, red ticket slot and brass return lever.",
+      "memory": "A cream-bordered photograph of Mira and Sam making their three-tap greeting."
+    },
+    "continuity": {
+      "opening": "Mira and Sam recognize their three-tap greeting.",
+      "machineRule": "Borrowing a minute costs one shared memory. Returning its ticket restores that memory and forfeits the borrowed time.",
+      "ending": "The competition ends before Mira returns. Sam remembers their greeting again. Mira chooses the memory over winning."
+    },
+    "styleVariants": [
+      "collage-memory",
+      "clawd-memory",
+      "paper-theatre"
+    ],
+    "identityPolicy": "Keep IDs, costume, hair, proportions and established facts across related episodes. Style selection fixes the matching model sheet for sequels. Do not replace these facts to fit a new script."
+  },
+  "duration": 99.56,
+  "audio": "mira-stolen-minute/narration.wav",
+  "captions": [
+    {
+      "start": 0.103208,
+      "end": 2.430291,
+      "text": "اشترت ميرا دقيقة من الغد."
+    },
+    {
+      "start": 3.364375,
+      "end": 4.188833,
+      "text": "وفجأة،"
+    },
+    {
+      "start": 4.428208,
+      "end": 6.861666,
+      "text": "اختفى سام من صورتهما القديمة."
+    },
+    {
+      "start": 8.403208000000001,
+      "end": 11.621291,
+      "text": "كانت متأخرة على مسابقة الروبوتات."
+    },
+    {
+      "start": 12.555333000000001,
+      "end": 15.148416000000001,
+      "text": "بقيت دقيقة على إغلاق الباب،"
+    },
+    {
+      "start": 15.38775,
+      "end": 17.222874,
+      "text": "وروبوتها يتعطل."
+    },
+    {
+      "start": 18.713207999999998,
+      "end": 21.239791,
+      "text": "وجدت آلة غريبة في الزقاق."
+    },
+    {
+      "start": 22.173833,
+      "end": 24.540875,
+      "text": "ساعتها تتحرك إلى الخلف،"
+    },
+    {
+      "start": 24.766916,
+      "end": 28.383957999999996,
+      "text": "وتذكرة حمراء تعدها بدقيقة إضافية."
+    },
+    {
+      "start": 30.013207999999995,
+      "end": 31.795123999999998,
+      "text": "دفعت قطعة نقدية."
+    },
+    {
+      "start": 32.715832999999996,
+      "end": 34.032333,
+      "text": "توقفت الساعة،"
+    },
+    {
+      "start": 34.178625,
+      "end": 35.734457,
+      "text": "وسحبت التذكرة."
+    },
+    {
+      "start": 36.652041,
+      "end": 38.80625,
+      "text": "وصلت قبل إغلاق الباب."
+    },
+    {
+      "start": 40.303208,
+      "end": 42.86970699999999,
+      "text": "لكن سام نظر إليها بغرابة،"
+    },
+    {
+      "start": 43.095749999999995,
+      "end": 45.489374,
+      "text": "وكأنه يراها للمرة الأولى."
+    },
+    {
+      "start": 47.093208,
+      "end": 49.85912499999999,
+      "text": "مدت يدها: ثلاث نقرات،"
+    },
+    {
+      "start": 50.018708,
+      "end": 51.78733299999999,
+      "text": "تحيتهما السرية."
+    },
+    {
+      "start": 52.721374999999995,
+      "end": 53.851665999999994,
+      "text": "لم يتذكر."
+    },
+    {
+      "start": 54.782540999999995,
+      "end": 57.854333,
+      "text": "كانت الصورة تحمل مكاناً فارغاً."
+    },
+    {
+      "start": 59.553208,
+      "end": 62.37233199999999,
+      "text": "على ظهر التذكرة ظهر الثمن: كل"
+    },
+    {
+      "start": 62.385625,
+      "end": 65.710124,
+      "text": "دقيقة مستعارة تمحو ذكرى مشتركة."
+    },
+    {
+      "start": 67.45320799999999,
+      "end": 68.862749,
+      "text": "نظرت إلى الكأس،"
+    },
+    {
+      "start": 69.04891599999999,
+      "end": 70.29891599999999,
+      "text": "ثم إلى سام."
+    },
+    {
+      "start": 71.21966599999999,
+      "end": 73.054749,
+      "text": "أغلقت صندوق الروبوت،"
+    },
+    {
+      "start": 73.25425,
+      "end": 74.623916,
+      "text": "وعادت للآلة."
+    },
+    {
+      "start": 76.163208,
+      "end": 77.57275,
+      "text": "أعادت التذكرة."
+    },
+    {
+      "start": 78.4935,
+      "end": 81.49883200000001,
+      "text": "تسارعت الساعة وانتهت المسابقة."
+    },
+    {
+      "start": 82.429666,
+      "end": 84.823291,
+      "text": "لكن وجه سام عاد إلى الصورة."
+    },
+    {
+      "start": 86.663208,
+      "end": 88.564791,
+      "text": "رفع يده: نقرة،"
+    },
+    {
+      "start": 88.777541,
+      "end": 89.695082,
+      "text": "نقرتان،"
+    },
+    {
+      "start": 89.907875,
+      "end": 90.57275,
+      "text": "ثلاث."
+    },
+    {
+      "start": 91.506791,
+      "end": 92.610541,
+      "text": "ضحكت ميرا."
+    },
+    {
+      "start": 93.541375,
+      "end": 94.791416,
+      "text": "خسرت الكأس،"
+    },
+    {
+      "start": 94.96425,
+      "end": 97.517416,
+      "text": "واحتفظت بما يستحق وقتها."
+    }
+  ],
+  "bibleHash": "b1211ffd21849aa4fbf07eef3e6aa78cad5b62e0f8d65059df6c75d44a2d323e"
+}

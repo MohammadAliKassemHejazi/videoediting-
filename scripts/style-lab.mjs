@@ -1,3 +1,4 @@
+import {writeStudioRoot} from '../lib/remotion-projects.mjs';
 import {existsSync,mkdirSync,writeFileSync,readFileSync,copyFileSync,openSync,closeSync,unlinkSync,renameSync} from 'node:fs';
 import {join,resolve} from 'node:path';
 import {createHash} from 'node:crypto';
@@ -46,7 +47,7 @@ if(command==='init'){
  const spec={project:id,title:P.config.title,start,duration:15,media:`${id}/speech.mp4`,styles,beats:content.beats,captions:P.film.captions,sourceHash:mediaHash,note:'Illustrative code-drawn style auditions, original speech. Not a final reviewed film.'};
  writeFileSync(specPath,JSON.stringify(spec,null,2)+'\n');
  writeFileSync(join(ROOT,'remotion/active.json'),JSON.stringify(spec,null,2)+'\n');
- writeFileSync(join(ROOT,'remotion/index.jsx'),rootSource(styles));
+ writeStudioRoot(ROOT,rootSource(styles));
  writeFileSync(join(folder,'STYLE_OPTIONS.md'),`# ${P.config.title}: style auditions\n\nSame ${start}–${start+15}s speech excerpt. Local code visuals; no paid generation. These are creative trials, not reviewed finals.\n\n`+styles.map((s,i)=>{const v=styleById(s);return `${i+1}. **${v.name}** (${s}) — ${v.motion}. Best for: ${v.bestFor}. Assets: ${v.assetNeeds}.`;}).join('\n\n')+`\n\nSelect with: npm run styles -- select ${id} --style <id>\nThen ask Codex or Claude to extend the chosen direction through the full transcript.\n`);
  console.log(`Created ${styles.length} live 15-second auditions. Run npm run preview; export with npm run styles -- render ${id}.`);process.exit(0);
 }
@@ -54,7 +55,7 @@ if(command==='render'||command==='stills'){
  if(!existsSync(specPath))throw Error('Run init first.');
  const spec=JSON.parse(readFileSync(specPath,'utf8'));
  // Switching projects after init must not accidentally export the active project's voice.
- writeFileSync(join(ROOT,'remotion/active.json'),JSON.stringify(spec,null,2)+'\n');writeFileSync(join(ROOT,'remotion/index.jsx'),rootSource(spec.styles));
+ writeFileSync(join(ROOT,'remotion/active.json'),JSON.stringify(spec,null,2)+'\n');writeStudioRoot(ROOT,rootSource(spec.styles));
  mkdirSync(join(ROOT,'.cache'),{recursive:true});const lock=join(ROOT,'.cache/render.lock');let fd;
  try{fd=openSync(lock,'wx');writeFileSync(fd,String(process.pid));}catch{throw Error('Another render is active. Wait until it finishes.');}
  try{
