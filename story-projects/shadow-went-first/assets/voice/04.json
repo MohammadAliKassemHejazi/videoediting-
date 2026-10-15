@@ -1,0 +1,44 @@
+{
+  "input": {
+    "voice": "ar-EG-SalmaNeural",
+    "rate": "+0%",
+    "text": "رامي لوحده. عيد ميلاده... والكراسي كلها فاضية."
+  },
+  "words": [
+    {
+      "start": 0.1,
+      "duration": 0.4625,
+      "text": "رامي"
+    },
+    {
+      "start": 0.575,
+      "duration": 0.7375,
+      "text": "لوحده"
+    },
+    {
+      "start": 2.175,
+      "duration": 0.3875,
+      "text": "عيد"
+    },
+    {
+      "start": 2.575,
+      "duration": 0.7375,
+      "text": "ميلاده"
+    },
+    {
+      "start": 4.175,
+      "duration": 0.875,
+      "text": "والكراسي"
+    },
+    {
+      "start": 5.0625,
+      "duration": 0.4375,
+      "text": "كلها"
+    },
+    {
+      "start": 5.5125,
+      "duration": 0.6625,
+      "text": "فاضية"
+    }
+  ]
+}

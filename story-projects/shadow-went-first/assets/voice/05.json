@@ -1,0 +1,49 @@
+{
+  "input": {
+    "voice": "ar-EG-SalmaNeural",
+    "rate": "+0%",
+    "text": "دعوته كانت في موبايلها. قالت هردّ بعدين... ونسيت."
+  },
+  "words": [
+    {
+      "start": 0.1,
+      "duration": 0.725,
+      "text": "دعوته"
+    },
+    {
+      "start": 0.8375,
+      "duration": 0.3625,
+      "text": "كانت"
+    },
+    {
+      "start": 1.2125,
+      "duration": 0.15,
+      "text": "في"
+    },
+    {
+      "start": 1.375,
+      "duration": 0.9,
+      "text": "موبايلها"
+    },
+    {
+      "start": 3.15,
+      "duration": 0.425,
+      "text": "قالت"
+    },
+    {
+      "start": 3.5875,
+      "duration": 0.3,
+      "text": "هردّ"
+    },
+    {
+      "start": 3.9,
+      "duration": 0.7,
+      "text": "بعدين"
+    },
+    {
+      "start": 5.4625,
+      "duration": 0.9125,
+      "text": "ونسيت"
+    }
+  ]
+}

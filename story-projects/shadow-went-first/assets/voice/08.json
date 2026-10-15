@@ -1,0 +1,49 @@
+{
+  "input": {
+    "voice": "ar-EG-SalmaNeural",
+    "rate": "+0%",
+    "text": "صاروخ رجع، وبعده اتنين. وصحابهم دخلوا بكواكب ورق."
+  },
+  "words": [
+    {
+      "start": 0.1,
+      "duration": 0.6875,
+      "text": "صاروخ"
+    },
+    {
+      "start": 0.8,
+      "duration": 0.475,
+      "text": "رجع"
+    },
+    {
+      "start": 1.45,
+      "duration": 0.6125,
+      "text": "وبعده"
+    },
+    {
+      "start": 2.075,
+      "duration": 0.7375,
+      "text": "اتنين"
+    },
+    {
+      "start": 3.675,
+      "duration": 0.9,
+      "text": "وصحابهم"
+    },
+    {
+      "start": 4.5875,
+      "duration": 0.4,
+      "text": "دخلوا"
+    },
+    {
+      "start": 5.0,
+      "duration": 0.7125,
+      "text": "بكواكب"
+    },
+    {
+      "start": 5.725,
+      "duration": 0.6,
+      "text": "ورق"
+    }
+  ]
+}

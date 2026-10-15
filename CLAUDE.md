@@ -1,6 +1,8 @@
 ﻿# Tech Video Studio
 
 Read [AGENTS.md](AGENTS.md) for the maintained architecture and creative contract.
+For the paused GPU/story session, read [RESUME.md](RESUME.md) first. Restart
+background processes only when the user asks to resume.
 
 For original footage-free style films, read `docs/ORIGINAL_STYLE_FILMS.md`.
 The three independent examples live under `projects/` and have separate live

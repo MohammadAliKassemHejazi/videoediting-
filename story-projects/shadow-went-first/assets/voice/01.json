@@ -1,0 +1,44 @@
+{
+  "input": {
+    "voice": "ar-EG-SalmaNeural",
+    "rate": "+0%",
+    "text": "قالت: ارجع! هو شاور لآخر الممر، وجرى."
+  },
+  "words": [
+    {
+      "start": 0.1,
+      "duration": 0.625,
+      "text": "قالت"
+    },
+    {
+      "start": 1.0125,
+      "duration": 0.575,
+      "text": "ارجع"
+    },
+    {
+      "start": 2.4625,
+      "duration": 0.2875,
+      "text": "هو"
+    },
+    {
+      "start": 2.7625,
+      "duration": 0.45,
+      "text": "شاور"
+    },
+    {
+      "start": 3.225,
+      "duration": 0.5125,
+      "text": "لآخر"
+    },
+    {
+      "start": 3.75,
+      "duration": 0.6,
+      "text": "الممر"
+    },
+    {
+      "start": 4.5375,
+      "duration": 0.65,
+      "text": "وجرى"
+    }
+  ]
+}

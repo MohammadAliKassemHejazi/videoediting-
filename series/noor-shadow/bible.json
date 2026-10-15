@@ -1,0 +1,39 @@
+{
+  "id": "noor-shadow",
+  "title": "After-school shadows",
+  "original": true,
+  "voice": {
+    "ar": "ar-EG-ShakirNeural",
+    "en": "en-US-AriaNeural"
+  },
+  "characters": [
+    {
+      "id": "noor-15",
+      "name": "Noor",
+      "age": 15,
+      "design": "Warm ochre skin, short dark bob, oversized teal jacket, charcoal trousers, cream sneakers with yellow laces, small copper shoulder bag. A competent but distracted teenager; no adult glamour styling."
+    },
+    {
+      "id": "rami-16",
+      "name": "Rami",
+      "age": 16,
+      "design": "Warm brown skin, short curly hair, lavender hoodie, navy trousers, cream sneakers. Shy paper-spacecraft maker; same height as Noor, broader hair silhouette."
+    },
+    {
+      "id": "noor-shadow",
+      "name": "Noor's shadow",
+      "design": "Noor's exact silhouette, midnight ink, thin lavender edge visible in dark scenes. Can detach, gesture and travel along surfaces; never gains new clothes or a face identical to a new human."
+    }
+  ],
+  "world": {
+    "setting": "A school arts corridor and classroom after sunset",
+    "rules": [
+      "One independent shadow belongs to Noor; its motive is care, not punishment.",
+      "Paper rockets obey thrown arcs; no free-floating decoration.",
+      "The birthday happened the same evening; the old invitation was ignored, not magically erased."
+    ]
+  },
+  "continuity": {
+    "episode1": "Pending rendered film and visual review."
+  }
+}

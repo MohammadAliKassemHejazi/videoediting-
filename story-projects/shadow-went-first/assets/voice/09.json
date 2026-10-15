@@ -1,0 +1,39 @@
+{
+  "input": {
+    "voice": "ar-EG-SalmaNeural",
+    "rate": "+0%",
+    "text": "رامي طفّى الشمعة. أخيرًا، ضحك بجد."
+  },
+  "words": [
+    {
+      "start": 0.1,
+      "duration": 0.4625,
+      "text": "رامي"
+    },
+    {
+      "start": 0.575,
+      "duration": 0.275,
+      "text": "طفّى"
+    },
+    {
+      "start": 0.8625,
+      "duration": 0.725,
+      "text": "الشمعة"
+    },
+    {
+      "start": 2.4625,
+      "duration": 0.775,
+      "text": "أخيرًا"
+    },
+    {
+      "start": 3.425,
+      "duration": 0.5,
+      "text": "ضحك"
+    },
+    {
+      "start": 3.9375,
+      "duration": 0.625,
+      "text": "بجد"
+    }
+  ]
+}

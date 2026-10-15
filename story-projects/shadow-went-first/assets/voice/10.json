@@ -1,0 +1,54 @@
+{
+  "input": {
+    "voice": "ar-EG-SalmaNeural",
+    "rate": "+0%",
+    "text": "ظلّها رجع. بس الفيديو اللي كانت عايزاه... ما اتصوّرش."
+  },
+  "words": [
+    {
+      "start": 0.1,
+      "duration": 0.6375,
+      "text": "ظلّها"
+    },
+    {
+      "start": 0.75,
+      "duration": 0.5875,
+      "text": "رجع"
+    },
+    {
+      "start": 2.2125,
+      "duration": 0.3375,
+      "text": "بس"
+    },
+    {
+      "start": 2.5625,
+      "duration": 0.4875,
+      "text": "الفيديو"
+    },
+    {
+      "start": 3.0625,
+      "duration": 0.3,
+      "text": "اللي"
+    },
+    {
+      "start": 3.375,
+      "duration": 0.375,
+      "text": "كانت"
+    },
+    {
+      "start": 3.7625,
+      "duration": 0.6875,
+      "text": "عايزاه"
+    },
+    {
+      "start": 5.3125,
+      "duration": 0.175,
+      "text": "ما"
+    },
+    {
+      "start": 5.5,
+      "duration": 0.85,
+      "text": "اتصوّرش"
+    }
+  ]
+}

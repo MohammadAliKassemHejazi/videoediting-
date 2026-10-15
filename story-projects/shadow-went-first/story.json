@@ -1,0 +1,94 @@
+{
+  "id": "shadow-went-first",
+  "series": "noor-shadow",
+  "title": "ظلّي سبقني / My Shadow Went First",
+  "originalSample": true,
+  "audience": "13–17",
+  "language": "ar",
+  "voice": "ar-EG-SalmaNeural",
+  "rate": "+0%",
+  "minimumDuration": 60,
+  "export": {
+    "width": 1440,
+    "height": 2560,
+    "fps": 60
+  },
+  "rendererModule": "story-projects/shadow-went-first/scenes.js",
+  "styles": [
+    "shadow-nocturne"
+  ],
+  "scenes": [
+    {
+      "title": "The wrong step",
+      "action": "shadow-detaches",
+      "narration": "نور بتصوّر رقصة. فجأة... ظلّها مشي لوحده.",
+      "silentAfter": 0.5
+    },
+    {
+      "title": "Stay in frame",
+      "action": "phone-reaction",
+      "narration": "قالت: ارجع! هو شاور لآخر الممر، وجرى.",
+      "silentAfter": 0.3
+    },
+    {
+      "title": "A different spotlight",
+      "action": "shadow-chase",
+      "narration": "جريت وراه. عدّى تحت الباب، وسابها برّه.",
+      "silentAfter": 0.45
+    },
+    {
+      "title": "The paper rocket",
+      "action": "rocket-catch",
+      "narration": "صاروخ ورق وقع قدّامها. عليه كوكب وشمعة.",
+      "silentAfter": 0.6
+    },
+    {
+      "title": "Nobody came",
+      "action": "birthday-reveal",
+      "narration": "رامي لوحده. عيد ميلاده... والكراسي كلها فاضية.",
+      "silentAfter": 0.85
+    },
+    {
+      "title": "The invitation she missed",
+      "action": "phone-choice",
+      "narration": "دعوته كانت في موبايلها. قالت هردّ بعدين... ونسيت.",
+      "silentAfter": 0.5
+    },
+    {
+      "title": "A real arrival",
+      "action": "sit-and-fold",
+      "narration": "قفلت الكاميرا، وقعدت قصاده. وبدأوا يطووا صاروخ جديد.",
+      "silentAfter": 0.7
+    },
+    {
+      "title": "Help me find the others",
+      "action": "rocket-launch",
+      "narration": "كتبت: لسه في مكان. وبعتته من الشباك.",
+      "silentAfter": 0.55
+    },
+    {
+      "title": "One becomes many",
+      "action": "friends-arrive",
+      "narration": "صاروخ رجع، وبعده اتنين. وصحابهم دخلوا بكواكب ورق.",
+      "silentAfter": 0.65
+    },
+    {
+      "title": "The wish",
+      "action": "candle-wish",
+      "narration": "رامي طفّى الشمعة. أخيرًا، ضحك بجد.",
+      "silentAfter": 1
+    },
+    {
+      "title": "The shadow comes home",
+      "action": "shadow-rejoins",
+      "narration": "ظلّها رجع. بس الفيديو اللي كانت عايزاه... ما اتصوّرش.",
+      "silentAfter": 0.45
+    },
+    {
+      "title": "Someone remembered",
+      "action": "last-secret",
+      "narration": "قال: إنتِ افتكرتي؟ قالت: حدّ فكّرني. وراهم، ظلّ تاني سرق حتّة تورتة.",
+      "silentAfter": 1.2
+    }
+  ]
+}

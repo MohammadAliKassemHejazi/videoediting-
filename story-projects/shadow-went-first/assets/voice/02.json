@@ -1,0 +1,44 @@
+{
+  "input": {
+    "voice": "ar-EG-SalmaNeural",
+    "rate": "+0%",
+    "text": "جريت وراه. عدّى تحت الباب، وسابها برّه."
+  },
+  "words": [
+    {
+      "start": 0.1,
+      "duration": 0.5625,
+      "text": "جريت"
+    },
+    {
+      "start": 0.675,
+      "duration": 0.5375,
+      "text": "وراه"
+    },
+    {
+      "start": 2.075,
+      "duration": 0.375,
+      "text": "عدّى"
+    },
+    {
+      "start": 2.4625,
+      "duration": 0.3,
+      "text": "تحت"
+    },
+    {
+      "start": 2.775,
+      "duration": 0.575,
+      "text": "الباب"
+    },
+    {
+      "start": 3.4875,
+      "duration": 0.6125,
+      "text": "وسابها"
+    },
+    {
+      "start": 4.1125,
+      "duration": 0.525,
+      "text": "برّه"
+    }
+  ]
+}

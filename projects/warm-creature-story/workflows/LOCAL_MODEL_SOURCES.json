@@ -1,0 +1,29 @@
+{
+  "downloadedAt": "2026-10-14T13:20:39.080Z",
+  "models": [
+    {
+      "repo": "QuantStack/Wan2.2-TI2V-5B-GGUF",
+      "revision": "57437632ddd08bdcbd1508c866aa22e126ed51d2",
+      "file": "Wan2.2-TI2V-5B-Q4_K_M.gguf",
+      "folder": "unet",
+      "size": 3433116000,
+      "sha256": "95b19697b7f98e65b0a543640e9ca7b4dfec32e2a6e3731e8e10708be52655e2"
+    },
+    {
+      "repo": "city96/umt5-xxl-encoder-gguf",
+      "revision": "b535255bee98c2b0a59ea7c0ae2dcd0c6657b3b7",
+      "file": "umt5-xxl-encoder-Q4_K_M.gguf",
+      "folder": "text_encoders",
+      "size": 3655145312,
+      "sha256": "17cf97a5bbbc60a646d6105b832b6f657ce904a8a1ad970e4b59df0c67584a40"
+    },
+    {
+      "repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+      "revision": "ee6f4a40737a995bf5818954cfce6d59443b0f04",
+      "file": "split_files/vae/wan2.2_vae.safetensors",
+      "folder": "vae",
+      "size": 1409400960,
+      "sha256": "e40321bd36b9709991dae2530eb4ac303dd168276980d3e9bc4b6e2b75fed156"
+    }
+  ]
+}

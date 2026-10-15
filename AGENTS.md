@@ -1,5 +1,8 @@
 # Tech Video Studio
 
+For the paused GPU/story session, read [RESUME.md](RESUME.md) before continuing.
+Restart background processes only when the user asks to resume.
+
 Read `.agents/skills/tech-video-editor/SKILL.md` for video tasks, then the target
 project's `BRIEF.md`, `project.json`, transcript and `STORYBOARD.md` when present.
 The user approved `out/developer-stack/approved.mp4` on 2026-09-30. Preserve that
