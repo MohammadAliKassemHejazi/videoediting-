@@ -120,7 +120,7 @@
     "title": "After-school shadows",
     "original": true,
     "voice": {
-      "ar": "ar-EG-ShakirNeural",
+      "ar": "ar-EG-SalmaNeural",
       "en": "en-US-AriaNeural"
     },
     "characters": [
@@ -333,5 +333,5 @@
       "text": "ظلّ تاني سرق حتّة تورتة."
     }
   ],
-  "bibleHash": "d7581ae9a9a5dde5261ea3403bd0661b04d8c182e003ee559d3e9cd4aa3892ef"
+  "bibleHash": "2aaf9f620d4cacbe9db9d5ea6b0d7f13da8bfe607ed9748faa7415f884fb264a"
 }

@@ -1,0 +1,507 @@
+{
+  "id": "shadow-went-first",
+  "title": "ظلّي سبقني / My Shadow Went First",
+  "duration": 88.83,
+  "voice": "ar-EG-SalmaNeural",
+  "language": "ar",
+  "width": 1440,
+  "height": 2560,
+  "fps": 60,
+  "shots": [
+    {
+      "id": "00",
+      "sceneIndex": 0,
+      "at": 0,
+      "duration": 7.41,
+      "frames": 193,
+      "in": 0.25,
+      "image": "assets/00-clean.png",
+      "file": "assets/shots/00.mp4",
+      "promptFile": "story-projects/shadow-went-first/prompts/00.txt",
+      "seed": 318002,
+      "prompt": "One original teenage girl Noor, exactly the same bare face with brown eyes, short dark bob, teal jacket, cream shirt and copper shoulder bag as the input. Her face remains completely unchanged and unobstructed, with no glasses or new accessories. She finishes a small hand gesture from her dance recording, notices something off screen to the LEFT, raises her eyebrows in surprise and slowly turns her gaze left. Her mouth stays mostly closed, she does not speak or smile. Natural restrained head and hand acting, steady camera and stable clothes. The LEFT background corridor remains EMPTY and completely unchanged; no shadow or second person is generated here. A separately authored silhouette will be composited there. The foreground phone tripod stays still."
+    },
+    {
+      "id": "01",
+      "sceneIndex": 1,
+      "at": 7.41,
+      "duration": 6.35,
+      "frames": 165,
+      "in": 0.25,
+      "image": "assets/01.png",
+      "file": "assets/shots/01.mp4",
+      "promptFile": "story-projects/shadow-went-first/prompts/01.txt"
+    },
+    {
+      "id": "02",
+      "sceneIndex": 2,
+      "at": 13.76,
+      "duration": 5.97,
+      "frames": 157,
+      "in": 0.25,
+      "image": "assets/02-clean.png",
+      "file": "assets/shots/02.mp4",
+      "promptFile": "story-projects/shadow-went-first/prompts/02.txt",
+      "seed": 314282,
+      "prompt": "Locked tripod camera at exactly the input framing, no pan, no tilt, no zoom. Noor stays in exactly this leaning pose at the door. Her cream sneakers stay completely planted and unchanged. She gently turns the door handle with her left wrist, then glances toward the doorway. A small natural breath, slight eye and eyebrow reaction. Preserve her bare face, dark bob, teal jacket, copper bag, trousers and all background objects. Floor remains clean with only reflected lights, no black human shadow, no black figure, no other people. The camera never crops her head or changes height. Restrained acting, one careful wrist turn only."
+    },
+    {
+      "id": "03",
+      "sceneIndex": 3,
+      "at": 19.73,
+      "duration": 6.79,
+      "frames": 177,
+      "in": 0.25,
+      "image": "assets/03.png",
+      "file": "assets/shots/03.mp4",
+      "promptFile": "story-projects/shadow-went-first/prompts/03.txt"
+    },
+    {
+      "id": "04",
+      "sceneIndex": 4,
+      "at": 26.52,
+      "duration": 7.909999999999999,
+      "frames": 205,
+      "in": 0.25,
+      "image": "assets/04-close.png",
+      "file": "assets/shots/04.mp4",
+      "promptFile": "story-projects/shadow-went-first/prompts/04.txt",
+      "seed": 318404,
+      "prompt": "Original teenage Rami, the SAME bare-faced boy with brown eyes, thick dark eyebrows and short dark curls as the input, lavender hoodie, face completely unchanged and unobstructed with no eyewear or accessories. He sits alone at the arts table. He glances toward the empty doorway on his right with a little hopeful eyebrow lift, waits, then gently lowers his gaze to the small cake and single candle. Mouth closed, subtle quiet disappointment, no talking. Hands stay resting beside the cake, no new props. All surrounding chairs remain empty. Steady locked medium camera at the same close framing, warm school light and blue evening window. NO GLASSES, no new people, preserve exact face."
+    },
+    {
+      "id": "05",
+      "sceneIndex": 5,
+      "at": 34.43,
+      "duration": 7.75,
+      "frames": 201,
+      "in": 0.25,
+      "image": "assets/05.png",
+      "file": "assets/shots/05.mp4",
+      "promptFile": "story-projects/shadow-went-first/prompts/05.txt"
+    },
+    {
+      "id": "06",
+      "sceneIndex": 6,
+      "at": 42.18,
+      "duration": 7.54,
+      "frames": 193,
+      "in": 0.25,
+      "image": "assets/06.png",
+      "file": "assets/shots/06.mp4",
+      "promptFile": "story-projects/shadow-went-first/prompts/06.txt"
+    },
+    {
+      "id": "07",
+      "sceneIndex": 7,
+      "at": 49.72,
+      "duration": 6.29,
+      "frames": 165,
+      "in": 0.25,
+      "image": "assets/07.png",
+      "file": "assets/shots/07.mp4",
+      "promptFile": "story-projects/shadow-went-first/prompts/07.txt"
+    },
+    {
+      "id": "08",
+      "sceneIndex": 8,
+      "at": 56.01,
+      "duration": 7.8500000000000005,
+      "frames": 201,
+      "in": 0.25,
+      "image": "assets/08.png",
+      "file": "assets/shots/08.mp4",
+      "promptFile": "story-projects/shadow-went-first/prompts/08.txt"
+    },
+    {
+      "id": "09",
+      "sceneIndex": 9,
+      "at": 63.86,
+      "duration": 6.45,
+      "frames": 169,
+      "in": 0.25,
+      "image": "assets/09.png",
+      "file": "assets/shots/09.mp4",
+      "promptFile": "story-projects/shadow-went-first/prompts/09.txt"
+    },
+    {
+      "id": "10",
+      "sceneIndex": 10,
+      "at": 70.31,
+      "duration": 7.67,
+      "frames": 197,
+      "in": 0.25,
+      "image": "assets/10.png",
+      "file": "assets/shots/10.mp4",
+      "promptFile": "story-projects/shadow-went-first/prompts/10.txt"
+    },
+    {
+      "id": "11",
+      "sceneIndex": 11,
+      "at": 77.98,
+      "duration": 6.019999999999996,
+      "frames": 157,
+      "in": 0.25,
+      "image": "assets/11.png",
+      "file": "assets/shots/11.mp4",
+      "promptFile": "story-projects/shadow-went-first/prompts/11.txt"
+    },
+    {
+      "id": "12",
+      "sceneIndex": 11,
+      "at": 84,
+      "duration": 4.829999999999998,
+      "frames": 129,
+      "in": 0.25,
+      "image": "assets/12.png",
+      "file": "assets/shots/12.mp4",
+      "promptFile": "story-projects/shadow-went-first/prompts/12.txt"
+    }
+  ],
+  "captionsEn": [
+    {
+      "start": 0.1,
+      "end": 3.06875,
+      "text": "Noor was filming a dance."
+    },
+    {
+      "start": 3.06875,
+      "end": 6.0375,
+      "text": "Then her shadow walked away."
+    },
+    {
+      "start": 7.51,
+      "end": 8.640555555555554,
+      "text": "'Come back!'"
+    },
+    {
+      "start": 8.640555555555556,
+      "end": 11.466944444444445,
+      "text": "It pointed down the corridor."
+    },
+    {
+      "start": 11.466944444444444,
+      "end": 12.5975,
+      "text": "And ran."
+    },
+    {
+      "start": 13.86,
+      "end": 15.0975,
+      "text": "She chased it."
+    },
+    {
+      "start": 15.0975,
+      "end": 17.16,
+      "text": "It slipped under the door."
+    },
+    {
+      "start": 17.16,
+      "end": 18.3975,
+      "text": "Leaving her outside."
+    },
+    {
+      "start": 19.830000000000002,
+      "end": 23.03769230769231,
+      "text": "A paper rocket landed in front of her."
+    },
+    {
+      "start": 23.037692307692307,
+      "end": 25.0425,
+      "text": "A planet. And one candle."
+    },
+    {
+      "start": 26.62,
+      "end": 28.276818181818182,
+      "text": "Rami was alone."
+    },
+    {
+      "start": 28.276818181818182,
+      "end": 30.48590909090909,
+      "text": "It was his birthday."
+    },
+    {
+      "start": 30.48590909090909,
+      "end": 32.695,
+      "text": "Every chair was empty."
+    },
+    {
+      "start": 34.53,
+      "end": 37.426153846153845,
+      "text": "His invitation was on her phone."
+    },
+    {
+      "start": 37.426153846153845,
+      "end": 39.839615384615385,
+      "text": "She meant to reply later."
+    },
+    {
+      "start": 39.839615384615385,
+      "end": 40.805,
+      "text": "She forgot."
+    },
+    {
+      "start": 42.28,
+      "end": 44.37375,
+      "text": "She put away the camera."
+    },
+    {
+      "start": 44.37375,
+      "end": 46.4675,
+      "text": "And sat across from him."
+    },
+    {
+      "start": 46.4675,
+      "end": 48.1425,
+      "text": "They folded another rocket."
+    },
+    {
+      "start": 49.82,
+      "end": 51.725,
+      "text": "'There is still room.'"
+    },
+    {
+      "start": 51.725,
+      "end": 54.5825,
+      "text": "She sent it out the window."
+    },
+    {
+      "start": 56.11,
+      "end": 58.185,
+      "text": "One rocket came back."
+    },
+    {
+      "start": 58.184999999999995,
+      "end": 59.2225,
+      "text": "Then two."
+    },
+    {
+      "start": 59.2225,
+      "end": 62.334999999999994,
+      "text": "Their friends arrived with paper planets."
+    },
+    {
+      "start": 63.96,
+      "end": 66.43916666666667,
+      "text": "Rami blew out the candle."
+    },
+    {
+      "start": 66.43916666666667,
+      "end": 68.4225,
+      "text": "Finally, a real smile."
+    },
+    {
+      "start": 70.41,
+      "end": 72.11454545454545,
+      "text": "Her shadow returned."
+    },
+    {
+      "start": 72.11454545454546,
+      "end": 74.95545454545456,
+      "text": "But the video she wanted..."
+    },
+    {
+      "start": 74.95545454545454,
+      "end": 76.66,
+      "text": "Was never filmed."
+    },
+    {
+      "start": 78.08,
+      "end": 79.31928571428571,
+      "text": "'You remembered?'"
+    },
+    {
+      "start": 79.31928571428571,
+      "end": 81.17821428571429,
+      "text": "'Someone reminded me.'"
+    },
+    {
+      "start": 81.17821428571429,
+      "end": 83.65678571428572,
+      "text": "Behind them, another shadow"
+    },
+    {
+      "start": 83.65678571428572,
+      "end": 86.75500000000001,
+      "text": "stole a piece of cake."
+    }
+  ],
+  "captionsAr": [
+    {
+      "start": 0.1,
+      "end": 1.9375,
+      "text": "نور بتصوّر رقصة."
+    },
+    {
+      "start": 2.8,
+      "end": 3.375,
+      "text": "فجأة..."
+    },
+    {
+      "start": 4.225,
+      "end": 6.0375,
+      "text": "ظلّها مشي لوحده."
+    },
+    {
+      "start": 7.51,
+      "end": 8.997499999999999,
+      "text": "قالت: ارجع!"
+    },
+    {
+      "start": 9.8725,
+      "end": 11.76,
+      "text": "هو شاور لآخر الممر،"
+    },
+    {
+      "start": 11.9475,
+      "end": 12.5975,
+      "text": "وجرى."
+    },
+    {
+      "start": 13.86,
+      "end": 14.9725,
+      "text": "جريت وراه."
+    },
+    {
+      "start": 15.835,
+      "end": 17.11,
+      "text": "عدّى تحت الباب،"
+    },
+    {
+      "start": 17.2475,
+      "end": 18.397499999999997,
+      "text": "وسابها برّه."
+    },
+    {
+      "start": 19.830000000000002,
+      "end": 22.355,
+      "text": "صاروخ ورق وقع قدّامها."
+    },
+    {
+      "start": 23.23,
+      "end": 25.0425,
+      "text": "عليه كوكب وشمعة."
+    },
+    {
+      "start": 26.62,
+      "end": 27.8325,
+      "text": "رامي لوحده."
+    },
+    {
+      "start": 28.695,
+      "end": 29.8325,
+      "text": "عيد ميلاده..."
+    },
+    {
+      "start": 30.695,
+      "end": 32.695,
+      "text": "والكراسي كلها فاضية."
+    },
+    {
+      "start": 34.53,
+      "end": 36.705,
+      "text": "دعوته كانت في موبايلها."
+    },
+    {
+      "start": 37.58,
+      "end": 39.03,
+      "text": "قالت هردّ بعدين..."
+    },
+    {
+      "start": 39.8925,
+      "end": 40.805,
+      "text": "ونسيت."
+    },
+    {
+      "start": 42.28,
+      "end": 43.53,
+      "text": "قفلت الكاميرا،"
+    },
+    {
+      "start": 43.73,
+      "end": 45.03,
+      "text": "وقعدت قصاده."
+    },
+    {
+      "start": 45.905,
+      "end": 48.1425,
+      "text": "وبدأوا يطووا صاروخ جديد."
+    },
+    {
+      "start": 49.82,
+      "end": 51.995,
+      "text": "كتبت: لسه في مكان."
+    },
+    {
+      "start": 52.87,
+      "end": 54.582499999999996,
+      "text": "وبعتته من الشباك."
+    },
+    {
+      "start": 56.11,
+      "end": 57.285,
+      "text": "صاروخ رجع،"
+    },
+    {
+      "start": 57.46,
+      "end": 58.8225,
+      "text": "وبعده اتنين."
+    },
+    {
+      "start": 59.684999999999995,
+      "end": 62.335,
+      "text": "وصحابهم دخلوا بكواكب ورق."
+    },
+    {
+      "start": 63.96,
+      "end": 65.44749999999999,
+      "text": "رامي طفّى الشمعة."
+    },
+    {
+      "start": 66.3225,
+      "end": 67.09750000000001,
+      "text": "أخيرًا،"
+    },
+    {
+      "start": 67.285,
+      "end": 68.4225,
+      "text": "ضحك بجد."
+    },
+    {
+      "start": 70.41,
+      "end": 71.64750000000001,
+      "text": "ظلّها رجع."
+    },
+    {
+      "start": 72.52250000000001,
+      "end": 74.76,
+      "text": "بس الفيديو اللي كانت عايزاه..."
+    },
+    {
+      "start": 75.6225,
+      "end": 76.66,
+      "text": "ما اتصوّرش."
+    },
+    {
+      "start": 78.08,
+      "end": 80.0675,
+      "text": "قال: إنتِ افتكرتي؟"
+    },
+    {
+      "start": 80.94250000000001,
+      "end": 82.7925,
+      "text": "قالت: حدّ فكّرني."
+    },
+    {
+      "start": 83.655,
+      "end": 84.33,
+      "text": "وراهم،"
+    },
+    {
+      "start": 84.4925,
+      "end": 86.75500000000001,
+      "text": "ظلّ تاني سرق حتّة تورتة."
+    }
+  ],
+  "captionTiming": "Arabic uses service word boundaries; English translation clauses aligned within each narrated scene.",
+  "conversion": "Generated 24fps sources upscaled to 2K and repeated to 60fps."
+}

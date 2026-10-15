@@ -1,0 +1,8 @@
+{
+ "project":"warm-creature-story","output":"assembled-draft.mp4","narration":"assets/score.wav","encoder":"h264_nvenc",
+ "shots":[
+  {"file":"assets/shots/contact-clean.mp4","in":0.125,"out":3.375,"action":"Luma holds Ember's forepaw; he looks down and lowers toward her."},
+  {"file":"assets/shots/hug-acting.mp4","in":0.25,"out":6,"action":"Shoulder hug, cheek lean and delayed eye closure."},
+  {"file":"assets/shots/bench-stay.mp4","in":0,"out":6,"action":"Sit together, kitten leans toward Ember and he returns her gaze."}
+ ]
+}

@@ -1,6 +1,19 @@
 {
- "id":"warm-creature-story","kind":"creature-preset","title":"WARM CREATURE STORY","duration":15,"series":"ember-luma",
- "style":"Cinematic furry characters, affectionate microstories, face acting and believable paw contact.",
- "status":"Keyframe and workflow ready; animated shots required.","thumbnail":{"file":"assets/keyframe.png"},
- "export":{"width":1440,"height":2560,"fps":60},"workflow":"docs/WARM_CREATURE_STORIES.md"
+  "id": "warm-creature-story",
+  "kind": "creature-film",
+  "title": "THE NEXT TRAM",
+  "duration": 15,
+  "series": "ember-luma",
+  "style": "Cinematic furry characters, affectionate microstories, face acting and believable paw contact.",
+  "status": "Animated draft; visual inspection complete, listening review pending.",
+  "thumbnail": {
+    "file": "assets/thumbnail.png"
+  },
+  "export": {
+    "width": 1440,
+    "height": 2560,
+    "fps": 60
+  },
+  "workflow": "docs/WARM_CREATURE_STORIES.md",
+  "composition": "warm-creature-story"
 }

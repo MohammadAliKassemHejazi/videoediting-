@@ -4,7 +4,14 @@ description: Direct affectionate cinematic 3D animal microstories with consisten
 ---
 
 Read [the production guide](../../../docs/WARM_CREATURE_STORIES.md) and the selected
-series bible. The user's fox/kitten reference establishes warm fur, face acting,
+series bible. The tested local 6GB engine and first actual animated draft are
+documented in [LOCAL_GPU_ANIMATION.md](../../../docs/LOCAL_GPU_ANIMATION.md).
+Use scripts/generate-local-shot.mjs for generation; it saves latents, separates
+sampling/decoding, records settings and copies clips into project assets. Inspect
+identity, contact and background before accepting a generated shot. Keep native
+source dimensions/fps and upscale limits explicit.
+
+The user's fox/kitten reference establishes warm fur, face acting,
 paw contact and an affectionate interrupted-departure story. Direct an original
 situation and characters rather than reproducing that film frame for frame.
 

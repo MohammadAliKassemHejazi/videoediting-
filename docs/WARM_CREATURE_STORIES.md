@@ -1,5 +1,10 @@
 # Warm creature stories
 
+**Current 2026-10-15 state:** real local GPU animation and the first 15-second
+draft are now available. Read [LOCAL_GPU_ANIMATION.md](LOCAL_GPU_ANIMATION.md)
+for the tested 6GB setup, native source limits, commands and actual output.
+The original preparation notes below describe the earlier template-first route.
+
 Added 2026-10-14 after inspecting the supplied 15.16-second fox/kitten reference.
 Its technique is cinematic character animation: one character tries to leave,
 the other asks for affection, the first reacts, and they reconnect. Warm backlight,
@@ -8,7 +13,7 @@ cannot reproduce those performances.
 
 The studio now includes an original production keyframe, stable Ember/Luma designs,
 an actionable shot plan, official ComfyUI workflow files, and an assembler for real
-animated shots. **The matching furry animation has not been generated.** The
+animated shots. **The first original furry-animation draft is now generated.** The
 three Arabic collage/brush/paper story films are separate, code-based capabilities.
 
 ## Generate the animation with ComfyUI
@@ -18,7 +23,8 @@ three Arabic collage/brush/paper story films are separate, code-based capabiliti
    or drag `vendor/comfy-workflows/video_wan2_2_5B_ti2v.json` into ComfyUI.
 2. Follow the [official Wan2.2 guide](https://docs.comfy.org/tutorials/video/wan/wan2_2)
    for the diffusion model, text encoder and VAE filenames and their model folders.
-   The JSON templates are downloaded here; the large weights and ComfyUI are not installed.
+   The JSON templates remain here; this machine now has an isolated GGUF engine
+   and verified local weights as documented in LOCAL_GPU_ANIMATION.md.
 3. The prepared `projects/warm-creature-story/workflows/contact-test-5b.json`
    already enables Load Image, supplies the original contact/reaction prompt,
    fixes a seed and uses 352×640 / 73 source frames for a modest initial test.
@@ -53,7 +59,8 @@ ComfyUI's official guide says the 5B workflow should fit 8 GB with native offloa
 the [Wan repository](https://github.com/Wan-Video/Wan2.2) documents a different
 standard 5B command using at least 24 GB. Neither establishes that the provided
 workflow will work reliably at 6 GB. Quantization/offloading can change requirements,
-but has not been tested here. A larger GPU, a separately chosen hosted generator,
+and the local quantized route has now been tested here (see the current guide).
+A larger GPU, a separately chosen hosted generator,
 or the Blender route can resolve this; no paid generation was initiated.
 
 ## Animate in Blender for precise contact

@@ -1,0 +1,20 @@
+{
+  "id": "shadow-went-first",
+  "kind": "generated-story",
+  "title": "MY SHADOW WENT FIRST",
+  "duration": 88.83,
+  "series": "noor-shadow",
+  "composition": "shadow-went-first",
+  "style": "Original Arabic teen mystery: animated character acting, a mischievous ink shadow, paper rockets and an unexpected birthday.",
+  "status": "Rendered animated draft; visual inspection and playback passed, listening review pending.",
+  "thumbnail": {
+    "file": "assets/thumbnail.png",
+    "square": "assets/thumbnail-square.png"
+  },
+  "export": {
+    "width": 1440,
+    "height": 2560,
+    "fps": 60
+  },
+  "sourceLimit": "448x800/24fps generated sources; upscaled and repeated for delivery. Authored overlays render at output resolution."
+}

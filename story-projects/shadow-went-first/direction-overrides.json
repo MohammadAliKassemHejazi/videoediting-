@@ -1,0 +1,17 @@
+{
+  "00": {
+    "image": "assets/00-clean.png",
+    "seed": 318002,
+    "prompt": "One original teenage girl Noor, exactly the same bare face with brown eyes, short dark bob, teal jacket, cream shirt and copper shoulder bag as the input. Her face remains completely unchanged and unobstructed, with no glasses or new accessories. She finishes a small hand gesture from her dance recording, notices something off screen to the LEFT, raises her eyebrows in surprise and slowly turns her gaze left. Her mouth stays mostly closed, she does not speak or smile. Natural restrained head and hand acting, steady camera and stable clothes. The LEFT background corridor remains EMPTY and completely unchanged; no shadow or second person is generated here. A separately authored silhouette will be composited there. The foreground phone tripod stays still."
+  },
+  "02": {
+    "image": "assets/02-clean.png",
+    "seed": 314282,
+    "prompt": "Locked tripod camera at exactly the input framing, no pan, no tilt, no zoom. Noor stays in exactly this leaning pose at the door. Her cream sneakers stay completely planted and unchanged. She gently turns the door handle with her left wrist, then glances toward the doorway. A small natural breath, slight eye and eyebrow reaction. Preserve her bare face, dark bob, teal jacket, copper bag, trousers and all background objects. Floor remains clean with only reflected lights, no black human shadow, no black figure, no other people. The camera never crops her head or changes height. Restrained acting, one careful wrist turn only."
+  },
+  "04": {
+    "image": "assets/04-close.png",
+    "seed": 318404,
+    "prompt": "Original teenage Rami, the SAME bare-faced boy with brown eyes, thick dark eyebrows and short dark curls as the input, lavender hoodie, face completely unchanged and unobstructed with no eyewear or accessories. He sits alone at the arts table. He glances toward the empty doorway on his right with a little hopeful eyebrow lift, waits, then gently lowers his gaze to the small cake and single candle. Mouth closed, subtle quiet disappointment, no talking. Hands stay resting beside the cake, no new props. All surrounding chairs remain empty. Steady locked medium camera at the same close framing, warm school light and blue evening window. NO GLASSES, no new people, preserve exact face."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "repo": "Kijai/WanVideo_comfy",
+  "revision": "8260d429d19fd7a72304cad059160b95d843913f",
+  "path": "LoRAs/Wan22-Turbo/Wan22_TI2V_5B_Turbo_lora_rank_64_fp16.safetensors",
+  "sha256": "0ace5244e3d1256f884662c261b017249796cf5b95f05d5ed93cc02a478967b8",
+  "size": 332348584,
+  "licenseSource": "https://huggingface.co/hum-ma/Wan2.2-TI2V-5B-Turbo-GGUF",
+  "license": "Apache-2.0, as declared for the conversion and extracted LoRA repository",
+  "acquired": "2026-10-15",
+  "licenseVerification": {
+    "date": "2026-10-15",
+    "repository": "hum-ma/Wan2.2-TI2V-5B-Turbo-GGUF",
+    "card": "https://huggingface.co/hum-ma/Wan2.2-TI2V-5B-Turbo-GGUF/blob/main/README.md",
+    "file": "Wan22_TI2V_5B_Turbo_lora_rank_64_fp16.safetensors",
+    "api": "https://huggingface.co/api/models/hum-ma/Wan2.2-TI2V-5B-Turbo-GGUF/tree/main?recursive=true&expand=false",
+    "sha256MatchesDownloadedKijaiFile": true,
+    "note": "Same LFS SHA-256 and byte size; repository card declares apache-2.0. Provenance record, not a separate legal opinion."
+  }
+}

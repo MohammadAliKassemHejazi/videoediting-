@@ -1,0 +1,105 @@
+{
+  "original": true,
+  "rate": 48000,
+  "duration": 15,
+  "masterGainDb": 13.979400086720377,
+  "events": [
+    {
+      "at": 0.12,
+      "type": "felt",
+      "freq": 293.66,
+      "length": 2.8,
+      "gain": 0.055,
+      "pan": 0
+    },
+    {
+      "at": 2.35,
+      "type": "felt",
+      "freq": 369.99,
+      "length": 2.6,
+      "gain": 0.044,
+      "pan": 0
+    },
+    {
+      "at": 4.65,
+      "type": "felt",
+      "freq": 440,
+      "length": 3.1,
+      "gain": 0.048,
+      "pan": 0
+    },
+    {
+      "at": 7.05,
+      "type": "felt",
+      "freq": 369.99,
+      "length": 2.7,
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "at": 10.1,
+      "type": "felt",
+      "freq": 293.66,
+      "length": 3.4,
+      "gain": 0.044,
+      "pan": 0
+    },
+    {
+      "at": 11.5,
+      "type": "felt",
+      "freq": 392,
+      "length": 3.4,
+      "gain": 0.039,
+      "pan": 0
+    },
+    {
+      "at": 12.2,
+      "type": "felt",
+      "freq": 493.88,
+      "length": 2.8,
+      "gain": 0.033,
+      "pan": 0
+    },
+    {
+      "at": 13.1,
+      "type": "felt",
+      "freq": 587.33,
+      "length": 1.9,
+      "gain": 0.025,
+      "pan": 0
+    },
+    {
+      "at": 0.72,
+      "type": "bell",
+      "freq": 1174.66,
+      "length": 1.25,
+      "gain": 0.042,
+      "pan": -0.1
+    },
+    {
+      "at": 0.76,
+      "type": "bell",
+      "freq": 1567.98,
+      "length": 0.95,
+      "gain": 0.018,
+      "pan": -0.1
+    },
+    {
+      "at": 9.9,
+      "type": "bell",
+      "freq": 1174.66,
+      "length": 1.2,
+      "gain": 0.026,
+      "pan": 0.35
+    },
+    {
+      "at": 9.94,
+      "type": "bell",
+      "freq": 1567.98,
+      "length": 0.9,
+      "gain": 0.011,
+      "pan": 0.35
+    }
+  ],
+  "review": "Designed synthetic score and Foley; no listening review claimed."
+}

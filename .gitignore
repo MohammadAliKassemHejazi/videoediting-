@@ -33,6 +33,8 @@ remotion/public/
 story-projects/*/assets/voice/*.mp3
 story-projects/*/assets/narration.wav
 story-projects/*/assets/foley.wav
+story-projects/*/assets/score.wav
+story-projects/*/assets/mix.wav
 projects/*/assets/score.wav
 projects/*/assets/sfx.wav
 # Keep voice timing/provenance, authored visuals, fonts references and licenses.

@@ -3,7 +3,7 @@
   "title": "After-school shadows",
   "original": true,
   "voice": {
-    "ar": "ar-EG-ShakirNeural",
+    "ar": "ar-EG-SalmaNeural",
     "en": "en-US-AriaNeural"
   },
   "characters": [
@@ -11,18 +11,30 @@
       "id": "noor-15",
       "name": "Noor",
       "age": 15,
-      "design": "Warm ochre skin, short dark bob, oversized teal jacket, charcoal trousers, cream sneakers with yellow laces, small copper shoulder bag. A competent but distracted teenager; no adult glamour styling."
+      "design": "Warm ochre skin, short dark bob, oversized teal jacket, charcoal trousers, cream sneakers with yellow laces, small copper shoulder bag. A competent but distracted teenager; no adult glamour styling. Bare face, no glasses or additional accessories."
     },
     {
       "id": "rami-16",
       "name": "Rami",
       "age": 16,
-      "design": "Warm brown skin, short curly hair, lavender hoodie, navy trousers, cream sneakers. Shy paper-spacecraft maker; same height as Noor, broader hair silhouette."
+      "design": "Warm brown skin, short curly hair, lavender hoodie, navy trousers, cream sneakers. Shy paper-spacecraft maker; same height as Noor, broader hair silhouette. Bare face, no glasses or new accessories."
     },
     {
       "id": "noor-shadow",
       "name": "Noor's shadow",
       "design": "Noor's exact silhouette, midnight ink, thin lavender edge visible in dark scenes. Can detach, gesture and travel along surfaces; never gains new clothes or a face identical to a new human."
+    },
+    {
+      "id": "aya-16",
+      "name": "Aya",
+      "age": 16,
+      "design": "Warm brown skin, long dark braid, mustard cardigan; carries folded paper planets."
+    },
+    {
+      "id": "zain-16",
+      "name": "Zain",
+      "age": 16,
+      "design": "Brown hair, navy overshirt over cream T-shirt; carries paper planets."
     }
   ],
   "world": {
@@ -34,6 +46,11 @@
     ]
   },
   "continuity": {
-    "episode1": "Pending rendered film and visual review."
+    "episode1": {
+      "id": "shadow-went-first",
+      "state": "88.83s Arabic animated draft rendered and visually inspected 2026-10-15; listening and user approval pending.",
+      "outcome": "Noor responds to the invitation she ignored, joins Rami to fold rockets, and invites Aya and Zain. Rami blows out the candle; Noor chooses the gathering over filming. Her shadow returns. A second shadow steals cake.",
+      "props": "White folded rocket with blue planet and candle drawing; cake candle remains extinguished after wish."
+    }
   }
 }

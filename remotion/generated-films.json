@@ -1,0 +1,13 @@
+[
+  {
+    "id": "warm-creature-motion-preview",
+    "duration": 5.041666666666667,
+    "file": "warm-creature-story/contact-preview.mp4",
+    "muted": true
+  },
+  {
+    "id": "warm-creature-story",
+    "duration": 15,
+    "file": "warm-creature-story/film.mp4"
+  }
+]

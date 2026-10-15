@@ -1,11 +1,37 @@
 {
- "id":"ember-luma","originalCharacters":true,
- "characters":[
-  {"id":"ember","species":"anthropomorphic copper fox","markings":"cream muzzle and chest, charcoal forepaws, one subtly notched ear","eyes":"amber","accessory":"moss-green woven satchel","scale":"1.45 times Luma height"},
-  {"id":"luma","species":"anthropomorphic silver-cream kitten","markings":"silver forehead and ears, cream cheeks and paws","eyes":"hazel","accessory":"lavender knitted neck scarf","scale":"shorter than Ember"}
- ],
- "world":{"location":"quiet flowering town tram stop","lighting":"warm late-afternoon sun and soft blue sky fill"},
- "acting":"Eye contact precedes reach; paw contact is held before body turn; each character keeps one tail and stable limb anatomy.",
- "relatedEpisodes":"Reuse the designs and accepted character references; read prior episode outcomes before writing a sequel.",
- "status":"Original keyframe and production plan. No animated episode completed."
+  "id": "ember-luma",
+  "originalCharacters": true,
+  "characters": [
+    {
+      "id": "ember",
+      "species": "anthropomorphic copper fox",
+      "markings": "cream muzzle and chest, charcoal forepaws, one subtly notched ear",
+      "eyes": "amber",
+      "accessory": "moss-green woven satchel",
+      "scale": "1.45 times Luma height"
+    },
+    {
+      "id": "luma",
+      "species": "anthropomorphic silver-cream kitten",
+      "markings": "silver forehead and ears, cream cheeks and paws",
+      "eyes": "hazel",
+      "accessory": "lavender knitted neck scarf",
+      "scale": "shorter than Ember"
+    }
+  ],
+  "world": {
+    "location": "quiet flowering town tram stop",
+    "lighting": "warm late-afternoon sun and soft blue sky fill"
+  },
+  "acting": "Eye contact precedes reach; paw contact is held before body turn; each character keeps one tail and stable limb anatomy.",
+  "relatedEpisodes": "Reuse the designs and accepted character references; read prior episode outcomes before writing a sequel.",
+  "status": "The Next Tram: 15-second animated draft made and visually inspected 2026-10-15; not user-approved, listening pending.",
+  "continuity": {
+    "episode1": {
+      "id": "the-next-tram",
+      "outcome": "Ember gives up leaving for the tram and stays beside Luma. Paw contact leads to a hug, then a shared bench.",
+      "wardrobe": "Ember keeps moss satchel; Luma lavender scarf.",
+      "location": "Sunny flower-lined tram stop"
+    }
+  }
 }

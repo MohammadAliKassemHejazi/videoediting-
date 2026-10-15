@@ -1,0 +1,408 @@
+{
+  "original": true,
+  "duration": 88.83,
+  "events": [
+    {
+      "at": 0.3,
+      "type": "felt/bell",
+      "freq": 329.63,
+      "length": 3.5,
+      "gain": 0.027
+    },
+    {
+      "at": 4.3999999999999995,
+      "type": "felt/bell",
+      "freq": 369.99,
+      "length": 3.5,
+      "gain": 0.027
+    },
+    {
+      "at": 8.5,
+      "type": "felt/bell",
+      "freq": 392,
+      "length": 3.5,
+      "gain": 0.027
+    },
+    {
+      "at": 12.6,
+      "type": "felt/bell",
+      "freq": 293.66,
+      "length": 3.5,
+      "gain": 0.027
+    },
+    {
+      "at": 16.7,
+      "type": "felt/bell",
+      "freq": 329.63,
+      "length": 3.5,
+      "gain": 0.027
+    },
+    {
+      "at": 18.5,
+      "type": "felt/bell",
+      "freq": 164.81,
+      "length": 3,
+      "gain": 0.019
+    },
+    {
+      "at": 20.8,
+      "type": "felt/bell",
+      "freq": 369.99,
+      "length": 3.5,
+      "gain": 0.027
+    },
+    {
+      "at": 22.6,
+      "type": "felt/bell",
+      "freq": 164.81,
+      "length": 3,
+      "gain": 0.019
+    },
+    {
+      "at": 24.900000000000002,
+      "type": "felt/bell",
+      "freq": 392,
+      "length": 3.5,
+      "gain": 0.027
+    },
+    {
+      "at": 26.700000000000003,
+      "type": "felt/bell",
+      "freq": 164.81,
+      "length": 3,
+      "gain": 0.019
+    },
+    {
+      "at": 29.000000000000004,
+      "type": "felt/bell",
+      "freq": 293.66,
+      "length": 3.5,
+      "gain": 0.027
+    },
+    {
+      "at": 30.800000000000004,
+      "type": "felt/bell",
+      "freq": 164.81,
+      "length": 3,
+      "gain": 0.019
+    },
+    {
+      "at": 33.1,
+      "type": "felt/bell",
+      "freq": 329.63,
+      "length": 3.5,
+      "gain": 0.027
+    },
+    {
+      "at": 34.900000000000006,
+      "type": "felt/bell",
+      "freq": 164.81,
+      "length": 3,
+      "gain": 0.019
+    },
+    {
+      "at": 42.3,
+      "type": "felt/bell",
+      "freq": 196,
+      "length": 4,
+      "gain": 0.032
+    },
+    {
+      "at": 43.8,
+      "type": "felt/bell",
+      "freq": 392,
+      "length": 2.5,
+      "gain": 0.019
+    },
+    {
+      "at": 46.8,
+      "type": "felt/bell",
+      "freq": 246.94,
+      "length": 4,
+      "gain": 0.032
+    },
+    {
+      "at": 48.3,
+      "type": "felt/bell",
+      "freq": 493.88,
+      "length": 2.5,
+      "gain": 0.019
+    },
+    {
+      "at": 51.3,
+      "type": "felt/bell",
+      "freq": 293.66,
+      "length": 4,
+      "gain": 0.032
+    },
+    {
+      "at": 52.8,
+      "type": "felt/bell",
+      "freq": 587.32,
+      "length": 2.5,
+      "gain": 0.019
+    },
+    {
+      "at": 55.8,
+      "type": "felt/bell",
+      "freq": 261.63,
+      "length": 4,
+      "gain": 0.032
+    },
+    {
+      "at": 57.3,
+      "type": "felt/bell",
+      "freq": 523.26,
+      "length": 2.5,
+      "gain": 0.019
+    },
+    {
+      "at": 60.3,
+      "type": "felt/bell",
+      "freq": 196,
+      "length": 4,
+      "gain": 0.032
+    },
+    {
+      "at": 61.8,
+      "type": "felt/bell",
+      "freq": 392,
+      "length": 2.5,
+      "gain": 0.019
+    },
+    {
+      "at": 64.8,
+      "type": "felt/bell",
+      "freq": 246.94,
+      "length": 4,
+      "gain": 0.032
+    },
+    {
+      "at": 66.3,
+      "type": "felt/bell",
+      "freq": 493.88,
+      "length": 2.5,
+      "gain": 0.019
+    },
+    {
+      "at": 69.3,
+      "type": "felt/bell",
+      "freq": 293.66,
+      "length": 4,
+      "gain": 0.032
+    },
+    {
+      "at": 70.8,
+      "type": "felt/bell",
+      "freq": 587.32,
+      "length": 2.5,
+      "gain": 0.019
+    },
+    {
+      "at": 73.8,
+      "type": "felt/bell",
+      "freq": 261.63,
+      "length": 4,
+      "gain": 0.032
+    },
+    {
+      "at": 75.3,
+      "type": "felt/bell",
+      "freq": 523.26,
+      "length": 2.5,
+      "gain": 0.019
+    },
+    {
+      "at": 78.15,
+      "type": "felt/bell",
+      "freq": 196,
+      "length": 4,
+      "gain": 0.03
+    },
+    {
+      "at": 80.3,
+      "type": "felt/bell",
+      "freq": 246.94,
+      "length": 3.5,
+      "gain": 0.026
+    },
+    {
+      "at": 82.7,
+      "type": "felt/bell",
+      "freq": 293.66,
+      "length": 3,
+      "gain": 0.023
+    },
+    {
+      "at": 87.1,
+      "type": "felt/bell",
+      "freq": 392,
+      "length": 1.5,
+      "gain": 0.035
+    },
+    {
+      "at": 87.3,
+      "type": "felt/bell",
+      "freq": 493.88,
+      "length": 1.2,
+      "gain": 0.023
+    },
+    {
+      "at": 1.6,
+      "type": "shoe",
+      "length": 0.12,
+      "gain": 0.025
+    },
+    {
+      "at": 2.15,
+      "type": "shoe",
+      "length": 0.12,
+      "gain": 0.025
+    },
+    {
+      "at": 2.7,
+      "type": "shoe",
+      "length": 0.12,
+      "gain": 0.025
+    },
+    {
+      "at": 3.25,
+      "type": "shoe",
+      "length": 0.12,
+      "gain": 0.025
+    },
+    {
+      "at": 9.8,
+      "type": "shoe",
+      "length": 0.12,
+      "gain": 0.025
+    },
+    {
+      "at": 10.2,
+      "type": "shoe",
+      "length": 0.12,
+      "gain": 0.025
+    },
+    {
+      "at": 10.6,
+      "type": "shoe",
+      "length": 0.12,
+      "gain": 0.025
+    },
+    {
+      "at": 11,
+      "type": "shoe",
+      "length": 0.12,
+      "gain": 0.025
+    },
+    {
+      "at": 11.4,
+      "type": "shoe",
+      "length": 0.12,
+      "gain": 0.025
+    },
+    {
+      "at": 14.1,
+      "type": "shadow",
+      "length": 1.45,
+      "gain": 0.022
+    },
+    {
+      "at": 16,
+      "type": "latch",
+      "length": 0.25,
+      "gain": 0.045
+    },
+    {
+      "at": 20.5,
+      "type": "paper",
+      "length": 0.65,
+      "gain": 0.018
+    },
+    {
+      "at": 21.6,
+      "type": "paper",
+      "length": 0.65,
+      "gain": 0.018
+    },
+    {
+      "at": 23.1,
+      "type": "paper",
+      "length": 0.65,
+      "gain": 0.018
+    },
+    {
+      "at": 44.1,
+      "type": "paper",
+      "length": 0.65,
+      "gain": 0.018
+    },
+    {
+      "at": 45.9,
+      "type": "paper",
+      "length": 0.65,
+      "gain": 0.018
+    },
+    {
+      "at": 47.1,
+      "type": "paper",
+      "length": 0.65,
+      "gain": 0.018
+    },
+    {
+      "at": 35,
+      "type": "phone",
+      "length": 0.08,
+      "gain": 0.02
+    },
+    {
+      "at": 43,
+      "type": "phone-down",
+      "length": 0.14,
+      "gain": 0.035
+    },
+    {
+      "at": 51.3,
+      "type": "paper",
+      "length": 0.6,
+      "gain": 0.028
+    },
+    {
+      "at": 56.4,
+      "type": "paper",
+      "length": 0.6,
+      "gain": 0.02
+    },
+    {
+      "at": 58.2,
+      "type": "shoe",
+      "length": 0.14,
+      "gain": 0.025
+    },
+    {
+      "at": 58.6,
+      "type": "shoe",
+      "length": 0.14,
+      "gain": 0.025
+    },
+    {
+      "at": 66.75,
+      "type": "breath",
+      "length": 0.42,
+      "gain": 0.025
+    },
+    {
+      "at": 71.7,
+      "type": "shadow",
+      "length": 2.7,
+      "gain": 0.018
+    },
+    {
+      "at": 85.5,
+      "type": "cake",
+      "length": 0.45,
+      "gain": 0.027
+    }
+  ],
+  "review": "No listening review claimed; narration mixed at unity gain before a +5dB master, limiter is a peak guard."
+}

@@ -12,10 +12,12 @@ import {proClipDigest} from '../lib/pro-clip-digest.mjs';
 import {varietyClipDigest} from '../lib/variety-clip-digest.mjs';
 import {referenceClipDigest} from '../lib/reference-clip-digest.mjs';
 import {memoryDigest} from '../lib/memory-story-spec.mjs';
+import {generatedStoryDigest} from '../lib/generated-story.mjs';
 const token=randomBytes(24).toString('hex'),port=3001;
 const auditionFile=join(ROOT,'projects/backend-checklist/style-lab/audition.json'),storyFile=join(ROOT,'story-projects/pip-last-light/timed.json');
 const catalog=()=>galleryCatalog(ROOT);
 function ready(item){
+ if(item.group==='Original narrated stories'){try{return existsSync(item.file)&&existsSync(item.manifest)&&JSON.parse(readFileSync(item.manifest,'utf8')).sourceDigest===generatedStoryDigest(ROOT)}catch{return false}}
  if(!existsSync(item.file))return false;
  if(item.group==='Your clip / reference and hand motion')return existsSync(item.manifest)&&JSON.parse(readFileSync(item.manifest,'utf8')).sourceDigest===referenceClipDigest(ROOT,item.project);
  if(item.group==='Arabic / three story styles')return existsSync(item.manifest)&&JSON.parse(readFileSync(item.manifest,'utf8')).sourceDigest===memoryDigest(ROOT,item.styleId);

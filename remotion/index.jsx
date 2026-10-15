@@ -1,3 +1,6 @@
+import {ShadowStory} from './ShadowStory.jsx';
+import studioPreservedSpec0 from './shadow-work.json';
+import {FilmPlayer} from './FilmPlayer.jsx';
 import {WarmCreatureKeyframe} from './WarmCreatureKeyframe.jsx';
 import {MemoryFilm} from './MemoryFilm.jsx';
 import memorySpec from './memory-story.json';
@@ -13,6 +16,24 @@ import {MidnightTransit} from '../projects/midnight-transit/scenes.jsx';
 import {PaperRiot} from '../projects/paper-riot/scenes.jsx';
 import {SignalNoise} from '../projects/signal-noise/scenes.jsx';
 registerRoot(()=> <>
+<Folder name="NEW-ANIMATED-STORIES"><Composition id="warm-creature-story" component={FilmPlayer} width={1440} height={2560} fps={60} durationInFrames={900} defaultProps={{file:"warm-creature-story/film.mp4",muted:false}}/><Composition id="warm-creature-motion-preview" component={FilmPlayer} width={1440} height={2560} fps={60} durationInFrames={303} defaultProps={{file:"warm-creature-story/contact-preview.mp4",muted:true}}/></Folder>
+
+
+
+
+
+
+
+
+
+<Folder name="NEW-STORY-PRODUCTION"><Composition id="shadow-went-first" component={ShadowStory} width={1440} height={2560} fps={60} durationInFrames={5330} defaultProps={{spec:studioPreservedSpec0,styleId:'shadow-nocturne'}}/></Folder>
+
+
+
+
+
+
+
 <Folder name="CREATURE-PRODUCTION-KEYFRAME"><Composition id="warm-creature-keyframe" component={WarmCreatureKeyframe} width={1440} height={2560} fps={60} durationInFrames={900}/></Folder>
 <Folder name="ARABIC-STORY-THREE-MATERIALS"><Composition id="story-collage-memory" component={MemoryFilm} width={1440} height={2560} fps={60} durationInFrames={5974} defaultProps={{spec:memorySpec,styleId:'collage-memory',captionLanguage:'en'}}/><Composition id="story-clawd-memory" component={MemoryFilm} width={1440} height={2560} fps={60} durationInFrames={5974} defaultProps={{spec:memorySpec,styleId:'clawd-memory',captionLanguage:'en'}}/><Composition id="story-paper-theatre" component={MemoryFilm} width={1440} height={2560} fps={60} durationInFrames={5974} defaultProps={{spec:memorySpec,styleId:'paper-theatre',captionLanguage:'en'}}/></Folder>
 <Folder name="REFERENCE-AND-HAND-MOTION"><Composition id="clip-reference-editorial" component={ReferenceClip} width={1440} height={2560} fps={60} durationInFrames={900} defaultProps={{spec:referenceSpec,styleId:'clip-reference-editorial'}}/><Composition id="clip-hand-orchestra" component={ReferenceClip} width={1440} height={2560} fps={60} durationInFrames={900} defaultProps={{spec:referenceSpec,styleId:'clip-hand-orchestra'}}/></Folder>
