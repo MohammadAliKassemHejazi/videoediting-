@@ -1,0 +1,22 @@
+Create a cinematic 2D hand-inked cartoon frame in vertical 9:16, suitable for a 1440×2560 edit.
+
+Full color. Texas frontier-town dusk: deep navy sky fading into a burnt-orange horizon, warm amber lantern and window glow, dusty main street with wooden boardwalks and storefronts, a saloon sign glow, distant windmill, mesa or oil-derrick silhouette, long soft shadows, golden rim light on the characters.
+
+CAST: no characters, faces, silhouettes or hands in this shot.
+
+The scene shows: The glowing reel rests alone on the wooden sales table beside one closed wallet. A curling bank of dense black ink-smoke enters from the right and covers the upper half of the frame. This is the PRESENT side of a transition; no sepia scene is visible inside the smoke. No characters or hands.
+
+Shot and camera composition: macro prop shot / outgoing ink wipe; one clear focal subject; full-bleed phone-readable staging with softly blurred depth. Lighting: Amber hub and lantern highlights remain in the uncovered lower-left area. Emotion: An ominous question conveyed by the lonely object and encroaching ink.
+
+Hero Prop state: glowing amber. Hero Prop design: a hand-sized silver-grey metal film reel with five broad rounded triangular cutouts, one small nick on the rim, and a circular hub. When a label is visible, its ONLY word is CONTROL. Keep the same reel design; never add other lettering.
+
+Style: thick black outlines, clean cel shading, large expressive eyes and eyebrows, white-gloved hands whenever visible, painted slightly textured background, strong contrast and one clear focal subject. Reference series/texas-casefiles/assets/duo-v1.png for the main identities when supplied as an input; do not add a character merely because it appears in the reference sheet.
+
+Character consistency lock:
+Every character keeps the same outfit, face, body shape, color palette, proportions and identity as in the full character lock above, in every scene.
+
+World lock:
+PRESENT scenes use only the PRESENT look. ARCHIVE scenes use only the ARCHIVE look. Do not mix them in one frame, except the small amber-orange glow on the Hero Prop in ARCHIVE adoption scenes. Archive imagery is a stylized reenactment or visual metaphor, not a fabricated historical document.
+
+Negative prompt:
+No photorealism, no anime, no 3D render, no CGI look, no changed outfits or identities, no extra or missing characters beyond the specified cast, no distorted anatomy, no extra fingers, no bare ungloved hands, no cluttered background, no text or lettering except the single allowed word CONTROL on the reel, no captions, no watermark, no logos, no modern-day items in ARCHIVE scenes, no multi-panel image, no split screen.

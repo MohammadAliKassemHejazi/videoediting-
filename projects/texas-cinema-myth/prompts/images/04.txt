@@ -1,0 +1,22 @@
+Create a cinematic 2D hand-inked cartoon frame in vertical 9:16, suitable for a 1440×2560 edit.
+
+Sepia and black-and-white vintage ink-cartoon look, 1930s to 1960s Texas, film grain, dust scratches, soft vignette, flat tonal shading, no color. The only color allowed is a small amber-orange glow on the Hero Prop when it appears.
+
+ARCHIVE ADVERTISER STAND-IN: a tall slim upright cartoon Texas jackrabbit with ash-grey fur, long black-tipped ears, narrow dark eyes and expressive thick brows. He wears a light-grey waistcoat, white collared shirt, black tie, charcoal trousers, white cartoon gloves and dark lace-up shoes. He is a fictional visual stand-in, not a likeness of James Vicary.
+
+The scene shows: A fictional jackrabbit advertiser stands beside a mechanical film projector in a modest period cinema. Two empty wooden seat rows lead toward him. He holds a plain reel by the rim, ready to demonstrate. This Texas-styled reenactment space is not presented as the actual historical New Jersey theater.
+
+Shot and camera composition: wide establishing shot; one clear focal subject; full-bleed phone-readable staging with softly blurred depth. Lighting: One pale projector beam cuts through dust; deep charcoal edges. Emotion: Confident anticipation, raised eyebrow and closed-mouth sales smile.
+
+Hero Prop state: plain object. Hero Prop design: a hand-sized silver-grey metal film reel with five broad rounded triangular cutouts, one small nick on the rim, and a circular hub. When a label is visible, its ONLY word is CONTROL. Keep the same reel design; never add other lettering.
+
+Style: thick black outlines, clean cel shading, large expressive eyes and eyebrows, white-gloved hands whenever visible, painted slightly textured background, strong contrast and one clear focal subject. Reference series/texas-casefiles/assets/duo-v1.png for the main identities when supplied as an input; do not add a character merely because it appears in the reference sheet.
+
+Character consistency lock:
+Every character keeps the same outfit, face, body shape, color palette, proportions and identity as in the full character lock above, in every scene.
+
+World lock:
+PRESENT scenes use only the PRESENT look. ARCHIVE scenes use only the ARCHIVE look. Do not mix them in one frame, except the small amber-orange glow on the Hero Prop in ARCHIVE adoption scenes. Archive imagery is a stylized reenactment or visual metaphor, not a fabricated historical document.
+
+Negative prompt:
+No photorealism, no anime, no 3D render, no CGI look, no changed outfits or identities, no extra or missing characters beyond the specified cast, no distorted anatomy, no extra fingers, no bare ungloved hands, no cluttered background, no text or lettering except the single allowed word CONTROL on the reel, no captions, no watermark, no logos, no modern-day items in ARCHIVE scenes, no multi-panel image, no split screen.

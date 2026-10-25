@@ -1,6 +1,21 @@
-# Completed drafts — 2026-10-15
+# Active H3 Texas series production — 2026-10-25
 
-New intake (2026-10-25): the user selected the 90-second vertical Texas animal
+Read `docs/TEXAS_H3_PRODUCTION.md` first. The user requested building the actual
+90-second YouTube film with recurring Javelina/Vulture Banker characters, coherent
+cuts and real animation. They report a MiniMax authorization email for Hungary;
+proceed on that attestation and do not ask the same license question again.
+H3 weights/8-step accelerator are downloaded and SHA-verified. Local generation
+works on the6GB3060: first4.46s source and an acceleration comparison are inspected,
+not a completed episode. Remotion3002 shows the real first shot, H3 engine8189.
+Current jobs must be checked before starting another generation; the episode
+queue was started at shot02 and waits for missing artwork. Global render lock.
+Full local English narration is generated (90.80s/223 timed words), not listened
+to. Most episode sources and full assembly/render remain unfinished. See the
+production handoff for files, exact tests, caveats and next work.
+
+## Previous completed drafts — 2026-10-15
+
+Historical intake (superseded by active production above): the user selected the 90-second vertical Texas animal
 mystery "The Cinema That Could Control Your Mind", with Javelina/Vulture Banker.
 The user chose ending 3 (Case Closed). STEP 7's English voiceover draft is saved
 in `projects/texas-cinema-myth/VOICEOVER_DRAFT.md`; await approval/NEXT before

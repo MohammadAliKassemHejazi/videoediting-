@@ -1,7 +1,10 @@
 # The Cinema That Could Control Your Mind
 
-Status: STEP 7 voiceover drafted for approval in `VOICEOVER_DRAFT.md`. No script,
-image prompts, images, animation prompts or generated clips have been approved.
+Status: active production. The user accepted the script by typing NEXT, then
+requested building the actual H3 YouTube video. Full image and motion prompt sets,
+the recurring duo reference and initial keyframes are prepared. Local H3 has
+generated and passed inspection of first-shot tests; the full episode is unfinished.
+See `docs/TEXAS_H3_PRODUCTION.md` for runtime, sources, current queue and next work.
 
 ## Confirmed choices
 
@@ -11,12 +14,18 @@ image prompts, images, animation prompts or generated clips have been approved.
 - Runtime: 90 seconds; 23 four-second animated scenes (92s), final trim to 90s.
 - Selected idea: 4, "The Cinema That Could Control Your Mind."
 - Hero Prop: an amber-glowing film reel.
-- Requested generator: local MiniMax H3. Acquisition/readiness findings are in
-  `docs/MINIMAX_H3_LOCAL.md`; weights are not installed and inference is untested.
+- Requested generator: local MiniMax H3, installed with verified model components
+  and a separate ComfyUI base. Actual 352×640/24fps source tests have completed;
+  delivery remains upscaled 1440×2560/60fps. See `H3_MODELS.json`.
 - Ending: 3, Case Closed, selected by the user.
-- Narration language: not selected for this episode; the approval draft is English.
-- Updated disk check: 41.07 GiB free on C:. H3 weights remain absent; additional
-  space alone does not validate RAM/VRAM feasibility or deployment rights.
+- English approval script is the narration source for this episode. Full local
+  Kokoro am_michael narration is generated, 90.80s, with223 model-timed words;
+  listening is pending. English/Arabic remain selectable for future episodes.
+- The user confirmed Hungary and subsequently reported a MiniMax authorization
+  email. Proceed on that attestation without inventing its terms or a guarantee
+  of commercial/platform approval.
+- Source direction: one coherent film with causal prop handoffs, matched eyelines,
+  consistent characters and world lighting, purposeful action and continuous voice.
 
 ## Locked characters
 
@@ -72,9 +81,10 @@ https://www.nationalacademies.org/read/1580/chapter/10
 
 ## Next permitted step
 
-Wait for voiceover approval/NEXT before STEP 8. The draft is approximately
-207–234 words for 90 seconds; final timing depends on spoken delivery. If narration
-language remains unknown, resolve it before synthesizing speech.
+Continue authorized production. Preserve the stepwise image/motion prompt artifacts;
+the user's subsequent request to build the actual film authorizes production beyond
+the earlier prompt-only pauses. Do not request repeated confirmation of intake,
+generator or licensing attestation. Review generated sources and the whole edit.
 
 STEP 8 image prompts require script approval/NEXT; STEP 9 animation prompts
 require NEXT; STEP 10 title/thumbnail/description requires NEXT. Animation clips

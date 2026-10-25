@@ -1,5 +1,11 @@
 # MiniMax H3 acquisition and local readiness
 
+Update: H3 is now installed and has generated real local source tests. The user
+reports a separate MiniMax authorization email for Hungary. Active instructions,
+verified model hashes, memory fixes and remaining film work are documented in
+`docs/TEXAS_H3_PRODUCTION.md`. The first acquisition notes below are historical;
+do not treat the old absence of weights as the current state.
+
 Checked 2026-10-25. Skills are installed; H3 model inference is not configured or
 validated. No weights, paid API, external setup script or background generator was
 started for this acquisition.

@@ -1,0 +1,80 @@
+{
+  "id": "texas-casefiles",
+  "workingTitle": "Texas Casefiles",
+  "channelNameApproved": false,
+  "purpose": "Recurring original YouTube mystery and myth-investigation cartoon series",
+  "audience": "13–17 default, with general-audience factual storytelling",
+  "style": "Cinematic hand-inked 2D cartoon, thick black contours, clean cel shading, painted textured Texas settings, expressive eyebrows, white cartoon gloves on every hand",
+  "characters": {
+    "javelina-victim": {
+      "role": "Recurring curious protagonist; trusting without being helpless; investigates and learns",
+      "lock": "VICTIM: a scrappy salt-and-pepper javelina with bristly fur, a round snout, small tusks, curious bright eyes, a flat-brimmed hat, a striped poncho, white cartoon gloves and scuffed boots.",
+      "designAnchors": "Charcoal flat-brimmed hat, rust-red and cream striped poncho, brown eyes, dark brown scuffed boots, two small ivory tusks. Upright cartoon proportions. Keep these choices once model-sheet art is approved.",
+      "references": [
+        "assets/duo-v1.png"
+      ],
+      "referenceStatus": "Working production reference generated and visually inspected; no separate user art approval claimed."
+    },
+    "vulture-banker": {
+      "role": "Recurring confident salesman of claims; a fictional character, not a likeness of a historical person",
+      "lock": "TRICKSTER: a hunched, bald-headed vulture in a long black tailcoat, a wing-collar shirt, a silver cravat, wire spectacles, a pocket watch chain and white cartoon gloves, with a polite, hungry smile.",
+      "designAnchors": "Pale dusty-rose bald head, ivory hooked beak, dark brown feathers, amber eyes, black tailcoat, off-white shirt, silver cravat, brass watch chain, round wire spectacles, black formal boots. Upright cartoon proportions. Keep these choices once model-sheet art is approved.",
+      "references": [
+        "assets/duo-v1.png"
+      ],
+      "referenceStatus": "Working production reference generated and visually inspected; no separate user art approval claimed."
+    }
+  },
+  "worlds": {
+    "PRESENT": "Full color. Texas frontier-town dusk: deep navy sky fading into a burnt-orange horizon, warm amber lantern and window glow, dusty main street with wooden boardwalks and storefronts, a saloon sign glow, distant windmill, mesa or oil-derrick silhouette, long soft shadows, golden rim light on the characters.",
+    "ARCHIVE": "Sepia and black-and-white vintage ink-cartoon look, 1930s to 1960s Texas, film grain, dust scratches, soft vignette, flat tonal shading, no color. The only color allowed is a small amber-orange glow on the Hero Prop when it appears.",
+    "rule": "Each scene has exactly one world. Archive scenes are explicitly stylized reenactments/metaphors, not genuine historical footage or evidence. Do not relocate historical facts to Texas in narration. Extra characters only in Archive. Black smoke/ink-dust wipes bridge worlds."
+  },
+  "continuity": {
+    "stableIdentityIds": true,
+    "reusable": [
+      "approved model sheets",
+      "outfits and proportions",
+      "town geography",
+      "recurring character motivations",
+      "caption design and restrained sound identity"
+    ],
+    "episodeSpecific": [
+      "researched claim",
+      "hero prop",
+      "acting and staging",
+      "camera coverage",
+      "historical research",
+      "visual consequences and payoff"
+    ],
+    "episodes": [
+      {
+        "id": "texas-cinema-myth",
+        "status": "script approved by NEXT; production requested; no completed film or continuity outcome yet"
+      }
+    ]
+  },
+  "commercialIntent": {
+    "youtubeMonetizationRequested": true,
+    "approvalGuaranteed": false,
+    "policyChecked": "2026-10-25",
+    "policySource": "https://support.google.com/youtube/blog/356734251/response-to-creator-questions-about-ypp-policies-july-2025?hl=en",
+    "direction": "Original factual scripts and distinct developed episodes. Recurring characters do not justify recycling plots with superficial changes. Preserve generation, asset, music and voice provenance; no unlicensed copied clips or imitated real voices.",
+    "h3Authorization": "User reports confirmation email authorizing H3 use in Hungary; exact terms not independently inspected."
+  },
+  "episodes": [
+    {
+      "id": "texas-cinema-myth",
+      "title": "The Cinema That Could Control Your Mind",
+      "scriptApprovedBy": "User typed NEXT after the STEP 7 script",
+      "productionAuthorizedBy": "User requested H3 build of the actual YouTube video",
+      "status": "Local H3 test passed; episode assembly pending"
+    }
+  ],
+  "narrator": {
+    "id": "texas-narrator-en-v1",
+    "engine": "Kokoro ONNX",
+    "voice": "am_michael",
+    "status": "Proposed preset; local audio not generated/listened to yet"
+  }
+}

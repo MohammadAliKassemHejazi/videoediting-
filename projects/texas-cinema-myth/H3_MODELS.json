@@ -1,0 +1,57 @@
+{
+  "checked": "2026-10-25",
+  "purpose": "Local H3 compatibility test, then recurring Texas casefile episodes if validated",
+  "licenseStatus": "User confirmed Hungary and subsequently reported receiving a confirmation email authorizing H3 use. Proceeding on that user attestation; email terms and commercial scope have not been independently inspected.",
+  "models": [
+    {
+      "repo": "unsloth/MiniMax-H3-GGUF",
+      "revision": "babc040eff0084465460ead58fdb8ec44296f8dd",
+      "file": "minimax_h3_fl2va_pruned-Q3_K.gguf",
+      "destination": "models/unet/minimax_h3_fl2va_pruned-Q3_K.gguf",
+      "size": 8759328864,
+      "sha256": "2c3cadbcc87ce2ed550b9be1e3b099198ba31a33a83f051411254c5149f6f59f"
+    },
+    {
+      "repo": "leejet/MiniMax-H3-GGUF",
+      "revision": "d9c4c6312b4728a68a15a35626d84775a6523783",
+      "file": "qwen3vl_32b_minimax_h3-Q2_K_M.gguf",
+      "destination": "models/text_encoders/qwen3vl_32b_minimax_h3-Q2_K_M.gguf",
+      "size": 13102161024,
+      "sha256": "a8ccadccd57ef34c838ffb8a7da8368bb554721b2760274a1d3b0df63960b997"
+    },
+    {
+      "repo": "Comfy-Org/MiniMax-H3",
+      "revision": "e5eb578a89295337b8ff433a035929ce0279e0b6",
+      "file": "vae/minimax_h3_video_vae_int8_convrot.safetensors",
+      "destination": "models/vae/minimax_h3_video_vae_int8_convrot.safetensors",
+      "size": 2811065184,
+      "sha256": "52a2c8c73583c86e4f41cdcce3a6ad0ea562987bc0bf3d60a0cef5f5c8e60c0e"
+    },
+    {
+      "repo": "Comfy-Org/MiniMax-H3",
+      "revision": "e5eb578a89295337b8ff433a035929ce0279e0b6",
+      "file": "vae/minimax_h3_audio_vae_fp32.safetensors",
+      "destination": "models/vae/minimax_h3_audio_vae_fp32.safetensors",
+      "size": 605254808,
+      "sha256": "8e505d95dd1561d47abd43d4238fd40d9bb1ae9e147ed0a4cba778d76ae4db48"
+    }
+  ],
+  "accelerators": [
+    {
+      "repo": "lightx2v/Minimax-h3-Turbo",
+      "revision": "30f485ed874aa44c8183348ad361c5eabad318da",
+      "file": "minimax_h3_fl2v_turbo_8step_v1.0_comfyui_bf16.safetensors",
+      "destination": "models/loras/minimax_h3_fl2v_turbo_8step_v1.0_comfyui_bf16.safetensors",
+      "size": 1956193000,
+      "sha256": "2339acdf19bfe123f46b971ea35d367a84adb85de43627e1eceafa5a5b2b111e",
+      "recipe": "ModelTC mixed-aspect 544p FL2VA Turbo v1.0: 8 steps, Euler, video shift 12 / audio shift 3. Test against inspected base output before episode-wide use."
+    }
+  ],
+  "runtime": {
+    "core": "Existing ComfyUI e0a32bce84f4603f2b61b16b50f8958e68fd6171",
+    "ggufRepo": "https://github.com/leejet/ComfyUI-GGUF",
+    "ggufRevision": "373048b8403a7820620065210a691263d4da0a61",
+    "baseDirectory": ".cache/h3-engine",
+    "note": "Separate model/custom-node directory; preserve the existing Wan engine. Runtime not validated yet."
+  }
+}

@@ -10,11 +10,12 @@ test('incremental animated films retain one folder and valid JSX when adding a n
   writeStudioRoot(root,"import React from 'react';import {registerRoot,Composition,Folder} from 'remotion';registerRoot(()=> <></>);");
   writeFileSync(registry,JSON.stringify([{id:'first-animation',file:'first.mp4',duration:15},{id:'second-animation',file:'second.mp4',duration:20}]));
   writeFileSync(join(root,'remotion/shadow-work.json'),JSON.stringify({duration:88.83}));
+  writeFileSync(join(root,'remotion/texas-preview.json'),JSON.stringify({duration:4}));
   writeStudioRoot(root,readFileSync(entry,'utf8'));
   const source=readFileSync(entry,'utf8');
   assert.doesNotThrow(()=>transformSync(source,{loader:'jsx'}));
   const folders=[...source.matchAll(/<Folder name="([^"]+)"/g)].map(m=>m[1]);assert.equal(new Set(folders).size,folders.length);
-  for(const id of ['first-animation','second-animation','shadow-went-first'])assert.equal(source.split('id="'+id+'"').length-1,1);
+  for(const id of ['first-animation','second-animation','shadow-went-first','texas-cinema-myth-workbench'])assert.equal(source.split('id="'+id+'"').length-1,1);
   writeStudioRoot(root,source);assert.equal(readFileSync(entry,'utf8'),source);
  }finally{const base=resolve(tmpdir()),target=resolve(root);assert.ok(relative(base,target)&&!relative(base,target).startsWith('..'));rmSync(target,{recursive:true,force:true})}
 });

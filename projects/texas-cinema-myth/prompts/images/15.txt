@@ -1,0 +1,22 @@
+Create a cinematic 2D hand-inked cartoon frame in vertical 9:16, suitable for a 1440×2560 edit.
+
+Full color. Texas frontier-town dusk: deep navy sky fading into a burnt-orange horizon, warm amber lantern and window glow, dusty main street with wooden boardwalks and storefronts, a saloon sign glow, distant windmill, mesa or oil-derrick silhouette, long soft shadows, golden rim light on the characters.
+
+TRICKSTER: a hunched, bald-headed vulture in a long black tailcoat, a wing-collar shirt, a silver cravat, wire spectacles, a pocket watch chain and white cartoon gloves, with a polite, hungry smile. Design anchors: Pale dusty-rose bald head, ivory hooked beak, dark brown feathers, amber eyes, black tailcoat, off-white shirt, silver cravat, brass watch chain, round wire spectacles, black formal boots. Upright cartoon proportions. Keep these choices once model-sheet art is approved.
+
+The scene shows: Back at the same Texas boardwalk sales table, the Banker displays the glowing reel in one white glove and a small plain closed wooden protection case in the other. Keep the case unlabelled. He is the sole visible character. Behind him are a blurred lantern and a blank storefront sign.
+
+Shot and camera composition: low-angle salesman shot; one clear focal subject; full-bleed phone-readable staging with softly blurred depth. Lighting: Rich navy dusk with warm amber hub and lantern light. Emotion: A hungry polite smile, confident raised brow, slightly forward posture.
+
+Hero Prop state: glowing amber. Hero Prop design: a hand-sized silver-grey metal film reel with five broad rounded triangular cutouts, one small nick on the rim, and a circular hub. When a label is visible, its ONLY word is CONTROL. Keep the same reel design; never add other lettering.
+
+Style: thick black outlines, clean cel shading, large expressive eyes and eyebrows, white-gloved hands whenever visible, painted slightly textured background, strong contrast and one clear focal subject. Reference series/texas-casefiles/assets/duo-v1.png for the main identities when supplied as an input; do not add a character merely because it appears in the reference sheet.
+
+Character consistency lock:
+Every character keeps the same outfit, face, body shape, color palette, proportions and identity as in the full character lock above, in every scene.
+
+World lock:
+PRESENT scenes use only the PRESENT look. ARCHIVE scenes use only the ARCHIVE look. Do not mix them in one frame, except the small amber-orange glow on the Hero Prop in ARCHIVE adoption scenes. Archive imagery is a stylized reenactment or visual metaphor, not a fabricated historical document.
+
+Negative prompt:
+No photorealism, no anime, no 3D render, no CGI look, no changed outfits or identities, no extra or missing characters beyond the specified cast, no distorted anatomy, no extra fingers, no bare ungloved hands, no cluttered background, no text or lettering except the single allowed word CONTROL on the reel, no captions, no watermark, no logos, no modern-day items in ARCHIVE scenes, no multi-panel image, no split screen.
