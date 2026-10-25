@@ -43,7 +43,8 @@ checked separately; mirror equality does not prove generation works.
 
 - NVIDIA GeForce RTX 3060 Laptop GPU: 6144 MiB VRAM.
 - Physical RAM: 15.7 GiB reported by Windows.
-- C: free space at inspection: 8.18 GiB, before the small source downloads.
+- C: free space at first inspection: 8.18 GiB; after the user freed space, 41.07
+  GiB. No H3 model downloads have begun.
 - Existing isolated ComfyUI reports 0.40.0, commit
   `e0a32bce84f4603f2b61b16b50f8958e68fd6171`, with native
   `comfy_extras/nodes_minimax_h3.py` already present. This install was not upgraded.
@@ -54,8 +55,9 @@ Comfy's current guide lists a 16 GB pruned W6A8 transformer as its smallest
 listed checkpoint, before the required text encoder and video/audio VAEs. MiniMax
 suggests planning for 32–64 GB system RAM; its 12 GB VRAM reference uses around
 42 GB of downloads. Lower-VRAM community routes are mentioned, but are not a
-validated recipe for this 6 GB VRAM / 16 GB RAM machine. Disk space currently
-prevents even that smallest listed transformer download. Do not delete user
+validated recipe for this 6 GB VRAM / 16 GB RAM machine. The updated free space
+fits the smallest listed transformer in isolation, but does not establish room
+for an entire working bundle plus temporary files and rendered output. Do not delete user
 footage, existing models or completed films to fit it, and do not claim that
 buying more RAM alone will establish acceptable speed or output quality.
 
@@ -84,8 +86,8 @@ last two seconds for a 90-second edit.
 
 ## Texas story overrides and current gate
 
-See `projects/texas-cinema-myth/BRIEF.md`. The user chose idea 4 and is at STEP 6,
-ending selection. Do not draft the voiceover before that answer; do not generate
+See `projects/texas-cinema-myth/BRIEF.md`. The user chose idea 4, ending 3 (Case
+Closed), and has a STEP 7 English script draft awaiting approval. Do not generate
 image prompts/assets before voiceover approval; animation prompts require NEXT.
 
 For this project all animation prompts describe visible motion only. User rules

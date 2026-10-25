@@ -2,8 +2,10 @@
 
 New intake (2026-10-25): the user selected the 90-second vertical Texas animal
 mystery "The Cinema That Could Control Your Mind", with Javelina/Vulture Banker.
-Await STEP 6 ending choice; follow their sequential workflow and do not generate
-the script or assets yet. See `projects/texas-cinema-myth/BRIEF.md`.
+The user chose ending 3 (Case Closed). STEP 7's English voiceover draft is saved
+in `projects/texas-cinema-myth/VOICEOVER_DRAFT.md`; await approval/NEXT before
+image prompts or assets. See that project's BRIEF.md. Final voice language is
+unconfirmed. C: now has 41.07 GiB free; H3 inference remains unvalidated.
 Nine official H3 skills and three official Comfy templates are downloaded;
 33 skill packages match Codex/Claude. H3 weights are absent, local inference is
 unvalidated, and disk/RAM constraints remain. See `docs/MINIMAX_H3_LOCAL.md`.
