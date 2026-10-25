@@ -1,0 +1,8 @@
+﻿{
+    "checkedDate":  "2026-10-25",
+    "skillsRepository":  "https://github.com/MiniMax-AI/MiniMax-H3",
+    "skillsCommit":  "d21241f0a4b3acbb34c97dae47fa417b7065e438",
+    "workflowsRepository":  "https://github.com/Comfy-Org/workflow_templates",
+    "workflowsCommit":  "67984637eefcd4825dcf5c134e39034785be1682",
+    "note":  "Unmodified official skill sources and ComfyUI editor templates. Model weights not installed. Templates are not API graphs and have not been executed."
+}
