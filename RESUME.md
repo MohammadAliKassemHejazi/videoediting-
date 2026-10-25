@@ -1,5 +1,13 @@
 # Completed drafts — 2026-10-15
 
+New intake (2026-10-25): the user selected the 90-second vertical Texas animal
+mystery "The Cinema That Could Control Your Mind", with Javelina/Vulture Banker.
+Await STEP 6 ending choice; follow their sequential workflow and do not generate
+the script or assets yet. See `projects/texas-cinema-myth/BRIEF.md`.
+Nine official H3 skills and three official Comfy templates are downloaded;
+33 skill packages match Codex/Claude. H3 weights are absent, local inference is
+unvalidated, and disk/RAM constraints remain. See `docs/MINIMAX_H3_LOCAL.md`.
+
 The user resumed the paused session. Both authorized new films are rendered:
 
 - **My Shadow Went First**: original 88.83s Arabic teen story, Salma narration,
