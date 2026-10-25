@@ -1,0 +1,10 @@
+{
+  "purpose": "Native source-plane coordinates for clean editorial prop labels. Numeric tracking only; original AI frames remain preserved.",
+  "shots": [
+    {"id":"01","kind":"hub","center":[101,434],"axes":[23.5,25],"angle":-9,"featureAxes":[92,91]},
+    {"id":"02","kind":"hub","center":[180,350],"axes":[18.5,17.5],"angle":-10,"featureAxes":[68,61]},
+    {"id":"03","kind":"hub","center":[122,422],"axes":[27,18],"angle":-13,"featureAxes":[116,80],"fadeOutFrames":[72,84]},
+    {"id":"14","kind":"hub","center":[231,358],"axes":[26,23.5],"angle":4,"featureAxes":[81,77],"fadeOutFrames":[43,57]},
+    {"id":"15","kind":"hub","center":[120,352],"axes":[20,20],"angle":-6,"featureAxes":[73,70]}
+  ]
+}

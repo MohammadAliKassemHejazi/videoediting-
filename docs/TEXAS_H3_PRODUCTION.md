@@ -1,5 +1,57 @@
 # Active production — Texas Casefiles
 
+## LATEST checkpoint — full timeline, generation still active
+
+- All23 still keyframes and designed landscape/portrait covers are generated,
+  copied and visually inspected. Scene16's black jewelry box was corrected to the
+  same wood/brass box from15. ASSET_SOURCES.md records every generation.
+- H3 queue `node scripts/generate-texas-episode.mjs --watch --start=2`, tool session
+ 22471, remains active.15 sources were complete at this checkpoint; check actual
+  files/history/session before launching anything that acquires render.lock.
+- Remotion3002: http://localhost:3002/texas-cinema-myth is the full90s timeline.
+  It has actual generated shots plus honestly labeled remaining keyframes,
+  continuous local narration and timed serif captions. The old4s workbench remains.
+- Live sync watcher `scripts/sync-texas-episode.mjs --watch`, latest session17267;
+  it must be restarted after changing the watcher code. Only stop its exact owned
+  node process, not unrelated Node/Python/Docker services. Gallery3001/session14571
+  now shows this project as in progress, and live links target actual Studio3002.
+- `editorial.json`/EDITORIAL.md follow real word timings and semantic boundaries:
+  the NRC report lands on book11; “Back in town” starts Present15 at55.17s.
+  Source performance units remain4s; master cut lengths are deliberately retimed.
+  Never restore the old fixed4s editStart grid as the finished film.
+- `track-texas-props.py` writes numeric optical-flow/RANSAC metadata only, using
+  CPU OpenCV4.13.0.92 in the separate voice venv. Native H3 videos are untouched.
+  Tracked CONTROL repairs use a feathered text-only gold patch, preserving the
+  metal hub/rivets. Ink shots03/14 have explicit label occlusion fades.
+- `inspect-texas-seams.mjs <seconds...>` seeks actual Studio frame controls and
+  captures phone images. The real90s composition, local font and source playback
+  work in installed Chrome. SOURCE_REVIEW.md records actual source observations;
+  no listening review or final-film approval is claimed.
+- Finishing code is prepared, NOT RUN while the GPU queue owns the lock:
+  `prepare-texas-units.mjs`, `make-texas-audio.mjs`, `enhance-texas-shots.mjs`,
+  `render-texas-episode.mjs`. Read/review them before invoking. Source23 must exist.
+  Run exact4s intermediate preparation, then local voice/music/Foley mastering,
+  then the optional enhancement test/inspection/all, then sync and render.
+- Optional official Real-ESRGAN NCNN binary/models are downloaded under
+  `.cache/video-finishing/realesrgan`; hashes in FINISHING_TOOLS.json, publisher
+  licenses under vendor/video-finishing. Help works; GPU inference/three-frame
+  artistic comparison has NOT been run. Do not call it already validated.
+- Final renderer uses an isolated Texas bundle/public folder and a source hash,
+  global lock,90s/1440×2560/60fps/audio/full-decode gates. --stills and
+  --reverse-check modes are ready but have not yet been run.
+-17 tests pass after shared registry/gallery integration. Gallery currently
+  reports ready:false, correctly. POSTING_PACKAGE.md is prepared; no upload.
+
+Remaining: sources16–23 and actual reviews, remaining hub/paper tracking and
+physical stamp/contact/reveal alignment, audio mastering/listening status,
+optional upscale comparison, all-source playback,2K60 export, complete-film
+contact/phone/seam/seek/decode review, final gallery registration and continuity
+outcome. Current script source07–21 lines were regrouped semantically without
+changing any actual H3 motion-prompt hashes. Original223-word narration unchanged.
+
+The older implementation details below remain useful; initial artwork/first-shot
+counts are historical and superseded by this checkpoint.
+
 The user requested an actual professional 90-second YouTube video using local
 MiniMax H3, with the same Javelina and Vulture Banker across future channel
 episodes. This is not a request to stop at prompts. They approved the English

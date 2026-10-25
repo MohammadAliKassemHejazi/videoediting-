@@ -2,8 +2,10 @@
 
 Status: active production. The user accepted the script by typing NEXT, then
 requested building the actual H3 YouTube video. Full image and motion prompt sets,
-the recurring duo reference and initial keyframes are prepared. Local H3 has
-generated and passed inspection of first-shot tests; the full episode is unfinished.
+the recurring duo reference, all23 scene keyframes and both designed covers are
+prepared. The90s live timeline includes continuous locally generated narration
+and timed captions. Actual H3 episode source generation and finishing continue;
+the full rendered episode is unfinished.
 See `docs/TEXAS_H3_PRODUCTION.md` for runtime, sources, current queue and next work.
 
 ## Confirmed choices
@@ -11,7 +13,8 @@ See `docs/TEXAS_H3_PRODUCTION.md` for runtime, sources, current queue and next w
 - Niche: True Crime & Mystery, framed as an investigation of a deceptive claim.
 - Duo: Character 3, the Javelina and the Vulture Banker.
 - Format: vertical 9:16; delivery 1440×2560 at 60fps.
-- Runtime: 90 seconds; 23 four-second animated scenes (92s), final trim to 90s.
+- Runtime:90seconds.23 four-second source performance units, with voice-timed
+  editorial trims/retiming for the connected master. See EDITORIAL.md.
 - Selected idea: 4, "The Cinema That Could Control Your Mind."
 - Hero Prop: an amber-glowing film reel.
 - Requested generator: local MiniMax H3, installed with verified model components

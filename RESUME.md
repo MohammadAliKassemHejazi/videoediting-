@@ -1,5 +1,13 @@
 # Active H3 Texas series production — 2026-10-25
 
+LATEST: All23 keyframes, corrected wood-case continuity, landscape/portrait covers,
+the continuous223-word local narration and a full90s Remotion timeline are ready.
+Actual H3 source generation is still running;15 sources were complete at the last
+review checkpoint. Verify the live queue before any new GPU/render job. Preview:
+http://localhost:3002/texas-cinema-myth ; gallery http://localhost:3001/?latest=1.
+The preview labels unanimated shots as keyframes. This is not a finished export.
+Read the top of docs/TEXAS_H3_PRODUCTION.md for current commands and remaining work.
+
 Read `docs/TEXAS_H3_PRODUCTION.md` first. The user requested building the actual
 90-second YouTube film with recurring Javelina/Vulture Banker characters, coherent
 cuts and real animation. They report a MiniMax authorization email for Hungary;

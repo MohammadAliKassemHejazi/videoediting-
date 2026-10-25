@@ -1,3 +1,5 @@
+import {TexasEpisode} from './TexasEpisode.jsx';
+import studioPreservedSpec6 from './texas-film.json';
 import {TexasShotPreview} from './TexasShotPreview.jsx';
 import studioPreservedSpec5 from './texas-preview.json';
 import {ShadowStory} from './ShadowStory.jsx';
@@ -18,6 +20,8 @@ import {MidnightTransit} from '../projects/midnight-transit/scenes.jsx';
 import {PaperRiot} from '../projects/paper-riot/scenes.jsx';
 import {SignalNoise} from '../projects/signal-noise/scenes.jsx';
 registerRoot(()=> <>
+<Folder name="TEXAS-FULL-EPISODE"><Composition id="texas-cinema-myth" component={TexasEpisode} width={1440} height={2560} fps={60} durationInFrames={5400} defaultProps={{spec:studioPreservedSpec6,styleId:'texas-casefiles'}}/></Folder>
+
 <Folder name="TEXAS-CASEFILES"><Composition id="texas-cinema-myth-workbench" component={TexasShotPreview} width={1440} height={2560} fps={60} durationInFrames={240} defaultProps={{spec:studioPreservedSpec5,styleId:'texas-casefiles'}}/></Folder>
 
 <Folder name="NEW-ANIMATED-STORIES"><Composition id="warm-creature-story" component={FilmPlayer} width={1440} height={2560} fps={60} durationInFrames={900} defaultProps={{file:"warm-creature-story/film.mp4",muted:false}}/><Composition id="warm-creature-motion-preview" component={FilmPlayer} width={1440} height={2560} fps={60} durationInFrames={303} defaultProps={{file:"warm-creature-story/contact-preview.mp4",muted:true}}/></Folder>

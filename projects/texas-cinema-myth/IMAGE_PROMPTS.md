@@ -164,7 +164,7 @@ No photorealism, no anime, no 3D render, no CGI look, no changed outfits or iden
 ## SCENE 06 (ARCHIVE)
 
 Voiceover line:
-"Messages flashed so quickly, viewers supposedly never noticed them. A frightening idea:"
+"Messages flashed so quickly, viewers supposedly never noticed them."
 
 Image prompt:
 Create a cinematic 2D hand-inked cartoon frame in vertical 9:16, suitable for a 1440×2560 edit.
@@ -195,7 +195,7 @@ No photorealism, no anime, no 3D render, no CGI look, no changed outfits or iden
 ## SCENE 07 (ARCHIVE)
 
 Voiceover line:
-"someone could sell you something without your permission. But a frightening claim"
+"A frightening idea: someone could sell you something without your permission."
 
 Image prompt:
 Create a cinematic 2D hand-inked cartoon frame in vertical 9:16, suitable for a 1440×2560 edit.
@@ -230,7 +230,7 @@ No photorealism, no anime, no 3D render, no CGI look, no changed outfits or iden
 ## SCENE 08 (ARCHIVE)
 
 Voiceover line:
-"still needs convincing evidence. Where was the independently verified proof"
+"But a frightening claim still needs convincing evidence."
 
 Image prompt:
 Create a cinematic 2D hand-inked cartoon frame in vertical 9:16, suitable for a 1440×2560 edit.
@@ -261,7 +261,7 @@ No photorealism, no anime, no 3D render, no CGI look, no changed outfits or iden
 ## SCENE 09 (ARCHIVE)
 
 Voiceover line:
-"that those flashes caused those purchases? The famous sales claim"
+"Where was the independently verified proof that those flashes caused those purchases?"
 
 Image prompt:
 Create a cinematic 2D hand-inked cartoon frame in vertical 9:16, suitable for a 1440×2560 edit.
@@ -292,7 +292,7 @@ No photorealism, no anime, no 3D render, no CGI look, no changed outfits or iden
 ## SCENE 10 (ARCHIVE)
 
 Voiceover line:
-"did not establish that. A later National Research Council report"
+"The famous sales claim did not establish that."
 
 Image prompt:
 Create a cinematic 2D hand-inked cartoon frame in vertical 9:16, suitable for a 1440×2560 edit.
@@ -323,7 +323,7 @@ No photorealism, no anime, no 3D render, no CGI look, no changed outfits or iden
 ## SCENE 11 (ARCHIVE)
 
 Voiceover line:
-"described Vicary’s study as a hoax. Yet the story sparked controversy"
+"A later National Research Council report described Vicary’s study as a hoax."
 
 Image prompt:
 Create a cinematic 2D hand-inked cartoon frame in vertical 9:16, suitable for a 1440×2560 edit.
@@ -354,7 +354,7 @@ No photorealism, no anime, no 3D render, no CGI look, no changed outfits or iden
 ## SCENE 12 (ARCHIVE)
 
 Voiceover line:
-"and inspired more investigations. The claim had become a mystery"
+"Yet the story sparked controversy and inspired more investigations."
 
 Image prompt:
 Create a cinematic 2D hand-inked cartoon frame in vertical 9:16, suitable for a 1440×2560 edit.
@@ -389,7 +389,7 @@ No photorealism, no anime, no 3D render, no CGI look, no changed outfits or iden
 ## SCENE 13 (ARCHIVE)
 
 Voiceover line:
-"people wanted answered. And a scary explanation can travel further"
+"The claim had become a mystery people wanted answered. And a scary explanation can travel further"
 
 Image prompt:
 Create a cinematic 2D hand-inked cartoon frame in vertical 9:16, suitable for a 1440×2560 edit.
@@ -420,7 +420,7 @@ No photorealism, no anime, no 3D render, no CGI look, no changed outfits or iden
 ## SCENE 14 (ARCHIVE)
 
 Voiceover line:
-"than its correction. Back in town, the Banker has turned"
+"than its correction."
 
 Image prompt:
 Create a cinematic 2D hand-inked cartoon frame in vertical 9:16, suitable for a 1440×2560 edit.
@@ -451,7 +451,7 @@ No photorealism, no anime, no 3D render, no CGI look, no changed outfits or iden
 ## SCENE 15 (PRESENT)
 
 Voiceover line:
-"that fear into another sales pitch. He offers Javelina protection"
+"Back in town, the Banker has turned that fear into another sales pitch."
 
 Image prompt:
 Create a cinematic 2D hand-inked cartoon frame in vertical 9:16, suitable for a 1440×2560 edit.
@@ -482,7 +482,7 @@ No photorealism, no anime, no 3D render, no CGI look, no changed outfits or iden
 ## SCENE 16 (PRESENT)
 
 Voiceover line:
-"from the very reel he’s selling. Here’s the distinction his"
+"He offers Javelina protection from the very reel he’s selling."
 
 Image prompt:
 Create a cinematic 2D hand-inked cartoon frame in vertical 9:16, suitable for a 1440×2560 edit.
@@ -515,7 +515,7 @@ No photorealism, no anime, no 3D render, no CGI look, no changed outfits or iden
 ## SCENE 17 (PRESENT)
 
 Voiceover line:
-"pitch leaves out. Researchers have found subliminal effects on simple"
+"Here’s the distinction his pitch leaves out. Researchers have found subliminal effects"
 
 Image prompt:
 Create a cinematic 2D hand-inked cartoon frame in vertical 9:16, suitable for a 1440×2560 edit.
@@ -546,7 +546,7 @@ No photorealism, no anime, no 3D render, no CGI look, no changed outfits or iden
 ## SCENE 18 (PRESENT)
 
 Voiceover line:
-"tasks under controlled conditions. That doesn’t establish a secret switch"
+"on simple tasks under controlled conditions. That doesn’t establish a secret switch"
 
 Image prompt:
 Create a cinematic 2D hand-inked cartoon frame in vertical 9:16, suitable for a 1440×2560 edit.
@@ -610,7 +610,7 @@ No photorealism, no anime, no 3D render, no CGI look, no changed outfits or iden
 ## SCENE 20 (PRESENT)
 
 Voiceover line:
-"The Banker’s smile slips. Now that amber glow looks a"
+"The Banker’s smile slips. Now that amber glow looks a lot less impressive."
 
 Image prompt:
 Create a cinematic 2D hand-inked cartoon frame in vertical 9:16, suitable for a 1440×2560 edit.
@@ -641,7 +641,7 @@ No photorealism, no anime, no 3D render, no CGI look, no changed outfits or iden
 ## SCENE 21 (PRESENT)
 
 Voiceover line:
-"lot less impressive. Javelina stamps the original advertisement: MYTH."
+"Javelina stamps the original advertisement: MYTH."
 
 Image prompt:
 Create a cinematic 2D hand-inked cartoon frame in vertical 9:16, suitable for a 1440×2560 edit.

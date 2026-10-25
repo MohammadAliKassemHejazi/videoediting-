@@ -1,0 +1,2731 @@
+{
+  "project": "texas-cinema-myth",
+  "series": "texas-casefiles",
+  "width": 1440,
+  "height": 2560,
+  "fps": 60,
+  "duration": 90,
+  "voiceDuration": 89.4,
+  "voiceSpeed": 1.0156599552572707,
+  "voice": "texas-cinema-myth/audio/narration.wav",
+  "score": "texas-cinema-myth/audio/score.wav",
+  "foley": "texas-cinema-myth/audio/foley.wav",
+  "font": "texas-cinema-myth/fonts/source-serif-4-latin-600-normal.woff2",
+  "shots": [
+    {
+      "id": "01",
+      "world": "PRESENT",
+      "voiceover": "One invisible frame, and your wallet belongs to someone else.",
+      "wordFrom": 0,
+      "wordTo": 10,
+      "startFrame": 0,
+      "source": "texas-cinema-myth/shots/01-h3.mp4",
+      "keyframe": "texas-cinema-myth/keyframes/01.png",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "transitionIn": "cut",
+      "durationFrames": 224,
+      "playbackRate": 1.0714285714285714
+    },
+    {
+      "id": "02",
+      "world": "PRESENT",
+      "voiceover": "That’s the Vulture Banker’s pitch. Javelina grips his popcorn.",
+      "wordFrom": 10,
+      "wordTo": 19,
+      "startFrame": 224,
+      "source": "texas-cinema-myth/shots/02-h3.mp4",
+      "keyframe": "texas-cinema-myth/keyframes/02.png",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "transitionIn": "cut",
+      "durationFrames": 235,
+      "playbackRate": 1.021276595744681
+    },
+    {
+      "id": "03",
+      "world": "PRESENT",
+      "voiceover": "But who decided a movie could control your mind?",
+      "wordFrom": 19,
+      "wordTo": 28,
+      "startFrame": 459,
+      "source": "texas-cinema-myth/shots/03-h3.mp4",
+      "keyframe": "texas-cinema-myth/keyframes/03.png",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "transitionIn": "cut",
+      "durationFrames": 173,
+      "playbackRate": 1.3872832369942196
+    },
+    {
+      "id": "04",
+      "world": "ARCHIVE",
+      "voiceover": "Follow that glowing reel back to 1957. Advertiser James Vicary",
+      "wordFrom": 28,
+      "wordTo": 38,
+      "startFrame": 632,
+      "source": "texas-cinema-myth/shots/04-h3.mp4",
+      "keyframe": "texas-cinema-myth/keyframes/04.png",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "transitionIn": "ink-reveal",
+      "durationFrames": 298,
+      "playbackRate": 0.8053691275167785
+    },
+    {
+      "id": "05",
+      "world": "ARCHIVE",
+      "voiceover": "claimed hidden messages made cinema audiences buy more popcorn and cola.",
+      "wordFrom": 38,
+      "wordTo": 49,
+      "startFrame": 930,
+      "source": "texas-cinema-myth/shots/05-h3.mp4",
+      "keyframe": "texas-cinema-myth/keyframes/05.png",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "transitionIn": "cut",
+      "durationFrames": 272,
+      "playbackRate": 0.8823529411764706
+    },
+    {
+      "id": "06",
+      "world": "ARCHIVE",
+      "voiceover": "Messages flashed so quickly, viewers supposedly never noticed them.",
+      "wordFrom": 49,
+      "wordTo": 58,
+      "startFrame": 1202,
+      "source": "texas-cinema-myth/shots/06-h3.mp4",
+      "keyframe": "texas-cinema-myth/keyframes/06.png",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "transitionIn": "cut",
+      "durationFrames": 247,
+      "playbackRate": 0.9716599190283401
+    },
+    {
+      "id": "07",
+      "world": "ARCHIVE",
+      "voiceover": "A frightening idea: someone could sell you something without your permission.",
+      "wordFrom": 58,
+      "wordTo": 69,
+      "startFrame": 1449,
+      "source": "texas-cinema-myth/shots/07-h3.mp4",
+      "keyframe": "texas-cinema-myth/keyframes/07.png",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "transitionIn": "cut",
+      "durationFrames": 241,
+      "playbackRate": 0.995850622406639
+    },
+    {
+      "id": "08",
+      "world": "ARCHIVE",
+      "voiceover": "But a frightening claim still needs convincing evidence.",
+      "wordFrom": 69,
+      "wordTo": 77,
+      "startFrame": 1690,
+      "source": "texas-cinema-myth/shots/08-h3.mp4",
+      "keyframe": "texas-cinema-myth/keyframes/08.png",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "transitionIn": "cut",
+      "durationFrames": 193,
+      "playbackRate": 1.2435233160621761
+    },
+    {
+      "id": "09",
+      "world": "ARCHIVE",
+      "voiceover": "Where was the independently verified proof that those flashes caused those purchases?",
+      "wordFrom": 77,
+      "wordTo": 89,
+      "startFrame": 1883,
+      "source": "texas-cinema-myth/shots/09-h3.mp4",
+      "keyframe": "texas-cinema-myth/keyframes/09.png",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "transitionIn": "cut",
+      "durationFrames": 285,
+      "playbackRate": 0.8421052631578947
+    },
+    {
+      "id": "10",
+      "world": "ARCHIVE",
+      "voiceover": "The famous sales claim did not establish that.",
+      "wordFrom": 89,
+      "wordTo": 97,
+      "startFrame": 2168,
+      "source": "texas-cinema-myth/shots/10-h3.mp4",
+      "keyframe": "texas-cinema-myth/keyframes/10.png",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "transitionIn": "cut",
+      "durationFrames": 167,
+      "playbackRate": 1.437125748502994
+    },
+    {
+      "id": "11",
+      "world": "ARCHIVE",
+      "voiceover": "A later National Research Council report described Vicary’s study as a hoax.",
+      "wordFrom": 97,
+      "wordTo": 109,
+      "startFrame": 2335,
+      "source": "texas-cinema-myth/shots/11-h3.mp4",
+      "keyframe": "texas-cinema-myth/keyframes/11.png",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "transitionIn": "cut",
+      "durationFrames": 286,
+      "playbackRate": 0.8391608391608392
+    },
+    {
+      "id": "12",
+      "world": "ARCHIVE",
+      "voiceover": "Yet the story sparked controversy and inspired more investigations.",
+      "wordFrom": 109,
+      "wordTo": 118,
+      "startFrame": 2621,
+      "source": "texas-cinema-myth/shots/12-h3.mp4",
+      "keyframe": "texas-cinema-myth/keyframes/12.png",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "transitionIn": "cut",
+      "durationFrames": 283,
+      "playbackRate": 0.8480565371024735
+    },
+    {
+      "id": "13",
+      "world": "ARCHIVE",
+      "voiceover": "The claim had become a mystery people wanted answered. And a scary explanation can travel further",
+      "wordFrom": 118,
+      "wordTo": 134,
+      "startFrame": 2904,
+      "source": "texas-cinema-myth/shots/13-h3.mp4",
+      "keyframe": "texas-cinema-myth/keyframes/13.png",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "transitionIn": "cut",
+      "durationFrames": 330,
+      "playbackRate": 0.7272727272727273
+    },
+    {
+      "id": "14",
+      "world": "ARCHIVE",
+      "voiceover": "than its correction.",
+      "wordFrom": 134,
+      "wordTo": 137,
+      "startFrame": 3234,
+      "source": "texas-cinema-myth/shots/14-h3.mp4",
+      "keyframe": "texas-cinema-myth/keyframes/14.png",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "transitionIn": "cut",
+      "durationFrames": 76,
+      "playbackRate": 3.1578947368421053
+    },
+    {
+      "id": "15",
+      "world": "PRESENT",
+      "voiceover": "Back in town, the Banker has turned that fear into another sales pitch.",
+      "wordFrom": 137,
+      "wordTo": 150,
+      "startFrame": 3310,
+      "source": "texas-cinema-myth/shots/15-h3.mp4",
+      "keyframe": "texas-cinema-myth/keyframes/15.png",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "transitionIn": "ink-reveal",
+      "durationFrames": 252,
+      "playbackRate": 0.9523809523809523
+    },
+    {
+      "id": "16",
+      "world": "PRESENT",
+      "voiceover": "He offers Javelina protection from the very reel he’s selling.",
+      "wordFrom": 150,
+      "wordTo": 160,
+      "startFrame": 3562,
+      "source": "texas-cinema-myth/shots/16-h3.mp4",
+      "keyframe": "texas-cinema-myth/keyframes/16.png",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "transitionIn": "cut",
+      "durationFrames": 216,
+      "playbackRate": 1.1111111111111112
+    },
+    {
+      "id": "17",
+      "world": "PRESENT",
+      "voiceover": "Here’s the distinction his pitch leaves out. Researchers have found subliminal effects",
+      "wordFrom": 160,
+      "wordTo": 172,
+      "startFrame": 3778,
+      "source": "texas-cinema-myth/shots/17-h3.mp4",
+      "keyframe": "texas-cinema-myth/keyframes/17.png",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "transitionIn": "cut",
+      "durationFrames": 267,
+      "playbackRate": 0.898876404494382
+    },
+    {
+      "id": "18",
+      "world": "PRESENT",
+      "voiceover": "on simple tasks under controlled conditions. That doesn’t establish a secret switch",
+      "wordFrom": 172,
+      "wordTo": 184,
+      "startFrame": 4045,
+      "source": "texas-cinema-myth/shots/18-h3.mp4",
+      "keyframe": "texas-cinema-myth/keyframes/18.png",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "transitionIn": "cut",
+      "durationFrames": 296,
+      "playbackRate": 0.8108108108108107
+    },
+    {
+      "id": "19",
+      "world": "PRESENT",
+      "voiceover": "that makes cinema customers obey. Javelina puts his wallet away.",
+      "wordFrom": 184,
+      "wordTo": 194,
+      "startFrame": 4341,
+      "source": "texas-cinema-myth/shots/19-h3.mp4",
+      "keyframe": "texas-cinema-myth/keyframes/19.png",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "transitionIn": "cut",
+      "durationFrames": 248,
+      "playbackRate": 0.9677419354838709
+    },
+    {
+      "id": "20",
+      "world": "PRESENT",
+      "voiceover": "The Banker’s smile slips. Now that amber glow looks a lot less impressive.",
+      "wordFrom": 194,
+      "wordTo": 207,
+      "startFrame": 4589,
+      "source": "texas-cinema-myth/shots/20-h3.mp4",
+      "keyframe": "texas-cinema-myth/keyframes/20.png",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "transitionIn": "cut",
+      "durationFrames": 289,
+      "playbackRate": 0.8304498269896194
+    },
+    {
+      "id": "21",
+      "world": "PRESENT",
+      "voiceover": "Javelina stamps the original advertisement: MYTH.",
+      "wordFrom": 207,
+      "wordTo": 213,
+      "startFrame": 4878,
+      "source": "texas-cinema-myth/shots/21-h3.mp4",
+      "keyframe": "texas-cinema-myth/keyframes/21.png",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "transitionIn": "cut",
+      "durationFrames": 195,
+      "playbackRate": 1.2307692307692308
+    },
+    {
+      "id": "22",
+      "world": "PRESENT",
+      "voiceover": "Then, one satisfied nod.",
+      "wordFrom": 213,
+      "wordTo": 217,
+      "startFrame": 5073,
+      "source": "texas-cinema-myth/shots/22-h3.mp4",
+      "keyframe": "texas-cinema-myth/keyframes/22.png",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "transitionIn": "cut",
+      "durationFrames": 123,
+      "playbackRate": 1.9512195121951221
+    },
+    {
+      "id": "23",
+      "world": "PRESENT",
+      "voiceover": "Case closed. Fear was the product.",
+      "wordFrom": 217,
+      "wordTo": 223,
+      "startFrame": 5196,
+      "source": "texas-cinema-myth/shots/23-h3.mp4",
+      "keyframe": "texas-cinema-myth/keyframes/23.png",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "transitionIn": "cut",
+      "durationFrames": 204,
+      "playbackRate": 1.1764705882352942
+    }
+  ],
+  "words": [
+    {
+      "text": "One",
+      "start": 0,
+      "end": 0.24614537444933923
+    },
+    {
+      "text": "invisible",
+      "start": 0.2953744493392071,
+      "end": 0.8122797356828194
+    },
+    {
+      "text": "frame,",
+      "start": 0.9107378854625552,
+      "end": 1.4276431718061675
+    },
+    {
+      "text": "and",
+      "start": 1.5014867841409691,
+      "end": 1.5753303964757712
+    },
+    {
+      "text": "your",
+      "start": 1.6245594713656388,
+      "end": 1.7476321585903085
+    },
+    {
+      "text": "wallet",
+      "start": 1.8214757709251104,
+      "end": 2.1168502202643174
+    },
+    {
+      "text": "belongs",
+      "start": 2.1660792951541854,
+      "end": 2.584526431718062
+    },
+    {
+      "text": "to",
+      "start": 2.6337555066079297,
+      "end": 2.6829845814977977
+    },
+    {
+      "text": "someone",
+      "start": 2.7322136563876653,
+      "end": 2.929129955947137
+    },
+    {
+      "text": "else.",
+      "start": 2.9783590308370047,
+      "end": 3.6183370044052867
+    },
+    {
+      "text": "That’s",
+      "start": 3.741409691629956,
+      "end": 3.9383259911894277
+    },
+    {
+      "text": "the",
+      "start": 3.9875550660792953,
+      "end": 4.036784140969163
+    },
+    {
+      "text": "Vulture",
+      "start": 4.086013215859031,
+      "end": 4.430616740088106
+    },
+    {
+      "text": "Banker’s",
+      "start": 4.5044603524229085,
+      "end": 4.89829295154185
+    },
+    {
+      "text": "pitch.",
+      "start": 4.972136563876652,
+      "end": 5.5875
+    },
+    {
+      "text": "Javelina",
+      "start": 5.7351872246696045,
+      "end": 6.178248898678415
+    },
+    {
+      "text": "grips",
+      "start": 6.252092511013216,
+      "end": 6.473623348017622
+    },
+    {
+      "text": "his",
+      "start": 6.498237885462555,
+      "end": 6.621310572687225
+    },
+    {
+      "text": "popcorn.",
+      "start": 6.670539647577094,
+      "end": 7.556662995594714
+    },
+    {
+      "text": "But",
+      "start": 7.6551211453744505,
+      "end": 7.753579295154186
+    },
+    {
+      "text": "who",
+      "start": 7.77819383259912,
+      "end": 7.876651982378855
+    },
+    {
+      "text": "decided",
+      "start": 7.925881057268724,
+      "end": 8.393557268722468
+    },
+    {
+      "text": "a",
+      "start": 8.418171806167402,
+      "end": 8.442786343612335
+    },
+    {
+      "text": "movie",
+      "start": 8.516629955947138,
+      "end": 8.812004405286343
+    },
+    {
+      "text": "could",
+      "start": 8.861233480176212,
+      "end": 8.984306167400883
+    },
+    {
+      "text": "control",
+      "start": 9.03353524229075,
+      "end": 9.451982378854627
+    },
+    {
+      "text": "your",
+      "start": 9.501211453744494,
+      "end": 9.59966960352423
+    },
+    {
+      "text": "mind?",
+      "start": 9.648898678414099,
+      "end": 10.338105726872248
+    },
+    {
+      "text": "Follow",
+      "start": 10.535022026431719,
+      "end": 10.830396475770927
+    },
+    {
+      "text": "that",
+      "start": 10.879625550660794,
+      "end": 11.051927312775332
+    },
+    {
+      "text": "glowing",
+      "start": 11.125770925110134,
+      "end": 11.470374449339209
+    },
+    {
+      "text": "reel",
+      "start": 11.519603524229076,
+      "end": 11.765748898678414
+    },
+    {
+      "text": "back",
+      "start": 11.814977973568283,
+      "end": 12.036508810572688
+    },
+    {
+      "text": "to",
+      "start": 12.085737885462557,
+      "end": 12.159581497797358
+    },
+    {
+      "text": "1957.",
+      "start": 12.208810572687227,
+      "end": 13.833370044052865
+    },
+    {
+      "text": "Advertiser",
+      "start": 14.005671806167403,
+      "end": 14.62103524229075
+    },
+    {
+      "text": "James",
+      "start": 14.670264317180619,
+      "end": 14.990253303964758
+    },
+    {
+      "text": "Vicary",
+      "start": 15.064096916299562,
+      "end": 15.457929515418503
+    },
+    {
+      "text": "claimed",
+      "start": 15.507158590308372,
+      "end": 15.827147577092513
+    },
+    {
+      "text": "hidden",
+      "start": 15.87637665198238,
+      "end": 16.097907488986788
+    },
+    {
+      "text": "messages",
+      "start": 16.147136563876654,
+      "end": 16.66404185022027
+    },
+    {
+      "text": "made",
+      "start": 16.713270925110134,
+      "end": 16.910187224669606
+    },
+    {
+      "text": "cinema",
+      "start": 17.00864537444934,
+      "end": 17.279405286343614
+    },
+    {
+      "text": "audiences",
+      "start": 17.353248898678416,
+      "end": 17.919383259911896
+    },
+    {
+      "text": "buy",
+      "start": 17.968612334801765,
+      "end": 18.091685022026432
+    },
+    {
+      "text": "more",
+      "start": 18.1409140969163,
+      "end": 18.31321585903084
+    },
+    {
+      "text": "popcorn",
+      "start": 18.387059471365642,
+      "end": 18.92857929515419
+    },
+    {
+      "text": "and",
+      "start": 18.95319383259912,
+      "end": 19.02703744493392
+    },
+    {
+      "text": "cola.",
+      "start": 19.100881057268722,
+      "end": 19.839317180616742
+    },
+    {
+      "text": "Messages",
+      "start": 20.036233480176215,
+      "end": 20.503909691629957
+    },
+    {
+      "text": "flashed",
+      "start": 20.57775330396476,
+      "end": 20.8977422907489
+    },
+    {
+      "text": "so",
+      "start": 20.946971365638767,
+      "end": 21.094658590308374
+    },
+    {
+      "text": "quickly,",
+      "start": 21.168502202643175,
+      "end": 21.75925110132159
+    },
+    {
+      "text": "viewers",
+      "start": 21.90693832599119,
+      "end": 22.202312775330398
+    },
+    {
+      "text": "supposedly",
+      "start": 22.251541850220267,
+      "end": 22.817676211453747
+    },
+    {
+      "text": "never",
+      "start": 22.866905286343616,
+      "end": 23.088436123348018
+    },
+    {
+      "text": "noticed",
+      "start": 23.137665198237887,
+      "end": 23.482268722466966
+    },
+    {
+      "text": "them.",
+      "start": 23.531497797356828,
+      "end": 23.999174008810574
+    },
+    {
+      "text": "A",
+      "start": 24.146861233480177,
+      "end": 24.196090308370046
+    },
+    {
+      "text": "frightening",
+      "start": 24.269933920704847,
+      "end": 24.737610132158594
+    },
+    {
+      "text": "idea:",
+      "start": 24.811453744493395,
+      "end": 25.500660792951543
+    },
+    {
+      "text": "someone",
+      "start": 25.672962555066082,
+      "end": 25.86987885462555
+    },
+    {
+      "text": "could",
+      "start": 25.91910792951542,
+      "end": 26.04218061674009
+    },
+    {
+      "text": "sell",
+      "start": 26.116024229074892,
+      "end": 26.312940528634364
+    },
+    {
+      "text": "you",
+      "start": 26.36216960352423,
+      "end": 26.436013215859035
+    },
+    {
+      "text": "something",
+      "start": 26.4852422907489,
+      "end": 26.780616740088107
+    },
+    {
+      "text": "without",
+      "start": 26.805231277533043,
+      "end": 27.075991189427317
+    },
+    {
+      "text": "your",
+      "start": 27.125220264317186,
+      "end": 27.199063876651984
+    },
+    {
+      "text": "permission.",
+      "start": 27.248292951541853,
+      "end": 28.03595814977974
+    },
+    {
+      "text": "But",
+      "start": 28.15903083700441,
+      "end": 28.257488986784143
+    },
+    {
+      "text": "a",
+      "start": 28.28210352422908,
+      "end": 28.30671806167401
+    },
+    {
+      "text": "frightening",
+      "start": 28.380561674008813,
+      "end": 28.84823788546256
+    },
+    {
+      "text": "claim",
+      "start": 28.89746696035243,
+      "end": 29.1682268722467
+    },
+    {
+      "text": "still",
+      "start": 29.2420704845815,
+      "end": 29.463601321585905
+    },
+    {
+      "text": "needs",
+      "start": 29.512830396475774,
+      "end": 29.783590308370048
+    },
+    {
+      "text": "convincing",
+      "start": 29.832819383259917,
+      "end": 30.34972466960353
+    },
+    {
+      "text": "evidence.",
+      "start": 30.423568281938326,
+      "end": 31.285077092511013
+    },
+    {
+      "text": "Where",
+      "start": 31.38353524229075,
+      "end": 31.48199339207049
+    },
+    {
+      "text": "was",
+      "start": 31.531222466960354,
+      "end": 31.654295154185025
+    },
+    {
+      "text": "the",
+      "start": 31.654295154185025,
+      "end": 31.75275330396476
+    },
+    {
+      "text": "independently",
+      "start": 31.826596916299565,
+      "end": 32.491189427312776
+    },
+    {
+      "text": "verified",
+      "start": 32.56503303964758,
+      "end": 33.10655286343613
+    },
+    {
+      "text": "proof",
+      "start": 33.180396475770934,
+      "end": 33.47577092511013
+    },
+    {
+      "text": "that",
+      "start": 33.525,
+      "end": 33.62345814977974
+    },
+    {
+      "text": "those",
+      "start": 33.67268722466961,
+      "end": 33.91883259911895
+    },
+    {
+      "text": "flashes",
+      "start": 33.99267621145375,
+      "end": 34.43573788546256
+    },
+    {
+      "text": "caused",
+      "start": 34.48496696035242,
+      "end": 34.78034140969164
+    },
+    {
+      "text": "those",
+      "start": 34.8295704845815,
+      "end": 35.02648678414098
+    },
+    {
+      "text": "purchases?",
+      "start": 35.07571585903084,
+      "end": 36.011068281938336
+    },
+    {
+      "text": "The",
+      "start": 36.134140969163,
+      "end": 36.2079845814978
+    },
+    {
+      "text": "famous",
+      "start": 36.2818281938326,
+      "end": 36.57720264317181
+    },
+    {
+      "text": "sales",
+      "start": 36.651046255506614,
+      "end": 36.995649779735686
+    },
+    {
+      "text": "claim",
+      "start": 37.04487885462555,
+      "end": 37.315638766519825
+    },
+    {
+      "text": "did",
+      "start": 37.3648678414097,
+      "end": 37.48794052863437
+    },
+    {
+      "text": "not",
+      "start": 37.48794052863437,
+      "end": 37.63562775330397
+    },
+    {
+      "text": "establish",
+      "start": 37.660242290748904,
+      "end": 38.201762114537445
+    },
+    {
+      "text": "that.",
+      "start": 38.25099118942732,
+      "end": 38.76789647577093
+    },
+    {
+      "text": "A",
+      "start": 38.91558370044053,
+      "end": 38.9648127753304
+    },
+    {
+      "text": "later",
+      "start": 39.014041850220266,
+      "end": 39.235572687224675
+    },
+    {
+      "text": "National",
+      "start": 39.30941629955947,
+      "end": 39.72786343612335
+    },
+    {
+      "text": "Research",
+      "start": 39.777092511013215,
+      "end": 40.22015418502203
+    },
+    {
+      "text": "Council",
+      "start": 40.2693832599119,
+      "end": 40.63860132158591
+    },
+    {
+      "text": "report",
+      "start": 40.687830396475775,
+      "end": 41.10627753303965
+    },
+    {
+      "text": "described",
+      "start": 41.15550660792952,
+      "end": 41.697026431718065
+    },
+    {
+      "text": "Vicary’s",
+      "start": 41.77087004405286,
+      "end": 42.140088105726875
+    },
+    {
+      "text": "study",
+      "start": 42.21393171806168,
+      "end": 42.55853524229075
+    },
+    {
+      "text": "as",
+      "start": 42.60776431718062,
+      "end": 42.68160792951542
+    },
+    {
+      "text": "a",
+      "start": 42.73083700440529,
+      "end": 42.78006607929516
+    },
+    {
+      "text": "hoax.",
+      "start": 42.85390969162996,
+      "end": 43.56773127753304
+    },
+    {
+      "text": "Yet",
+      "start": 43.69080396475771,
+      "end": 43.78926211453745
+    },
+    {
+      "text": "the",
+      "start": 43.81387665198238,
+      "end": 43.86310572687225
+    },
+    {
+      "text": "story",
+      "start": 43.936949339207054,
+      "end": 44.30616740088106
+    },
+    {
+      "text": "sparked",
+      "start": 44.380011013215864,
+      "end": 44.749229074889875
+    },
+    {
+      "text": "controversy",
+      "start": 44.82307268722467,
+      "end": 45.7830396475771
+    },
+    {
+      "text": "and",
+      "start": 45.8568832599119,
+      "end": 45.9307268722467
+    },
+    {
+      "text": "inspired",
+      "start": 45.955341409691634,
+      "end": 46.54609030837005
+    },
+    {
+      "text": "more",
+      "start": 46.61993392070485,
+      "end": 46.866079295154194
+    },
+    {
+      "text": "investigations.",
+      "start": 46.91530837004406,
+      "end": 48.219878854625556
+    },
+    {
+      "text": "The",
+      "start": 48.39218061674009,
+      "end": 48.4660242290749
+    },
+    {
+      "text": "claim",
+      "start": 48.539867841409695,
+      "end": 48.93370044052864
+    },
+    {
+      "text": "had",
+      "start": 48.982929515418505,
+      "end": 49.05677312775331
+    },
+    {
+      "text": "become",
+      "start": 49.106002202643175,
+      "end": 49.40137665198238
+    },
+    {
+      "text": "a",
+      "start": 49.450605726872254,
+      "end": 49.49983480176212
+    },
+    {
+      "text": "mystery",
+      "start": 49.573678414096925,
+      "end": 49.94289647577093
+    },
+    {
+      "text": "people",
+      "start": 49.992125550660795,
+      "end": 50.31211453744494
+    },
+    {
+      "text": "wanted",
+      "start": 50.36134361233481,
+      "end": 50.65671806167402
+    },
+    {
+      "text": "answered.",
+      "start": 50.73056167400881,
+      "end": 51.49361233480177
+    },
+    {
+      "text": "And",
+      "start": 51.64129955947137,
+      "end": 51.71514317180617
+    },
+    {
+      "text": "a",
+      "start": 51.7397577092511,
+      "end": 51.76437224669604
+    },
+    {
+      "text": "scary",
+      "start": 51.83821585903084,
+      "end": 52.232048458149784
+    },
+    {
+      "text": "explanation",
+      "start": 52.281277533039656,
+      "end": 52.99509911894274
+    },
+    {
+      "text": "can",
+      "start": 53.044328193832605,
+      "end": 53.11817180616741
+    },
+    {
+      "text": "travel",
+      "start": 53.167400881057276,
+      "end": 53.487389867841415
+    },
+    {
+      "text": "further",
+      "start": 53.585848017621146,
+      "end": 53.85660792951543
+    },
+    {
+      "text": "than",
+      "start": 53.90583700440529,
+      "end": 53.9796806167401
+    },
+    {
+      "text": "its",
+      "start": 54.00429515418503,
+      "end": 54.10275330396477
+    },
+    {
+      "text": "correction.",
+      "start": 54.15198237885463,
+      "end": 54.98887665198239
+    },
+    {
+      "text": "Back",
+      "start": 55.16117841409692,
+      "end": 55.382709251101325
+    },
+    {
+      "text": "in",
+      "start": 55.40732378854626,
+      "end": 55.505781938325995
+    },
+    {
+      "text": "town,",
+      "start": 55.55501101321586,
+      "end": 56.07191629955948
+    },
+    {
+      "text": "the",
+      "start": 56.17037444933921,
+      "end": 56.21960352422908
+    },
+    {
+      "text": "Banker",
+      "start": 56.268832599118944,
+      "end": 56.58882158590309
+    },
+    {
+      "text": "has",
+      "start": 56.638050660792956,
+      "end": 56.76112334801763
+    },
+    {
+      "text": "turned",
+      "start": 56.8103524229075,
+      "end": 57.05649779735684
+    },
+    {
+      "text": "that",
+      "start": 57.1057268722467,
+      "end": 57.278028634361235
+    },
+    {
+      "text": "fear",
+      "start": 57.35187224669604,
+      "end": 57.59801762114538
+    },
+    {
+      "text": "into",
+      "start": 57.622632158590314,
+      "end": 57.81954845814979
+    },
+    {
+      "text": "another",
+      "start": 57.868777533039655,
+      "end": 58.16415198237886
+    },
+    {
+      "text": "sales",
+      "start": 58.23799559471366,
+      "end": 58.557984581497806
+    },
+    {
+      "text": "pitch.",
+      "start": 58.631828193832604,
+      "end": 59.24719162995595
+    },
+    {
+      "text": "He",
+      "start": 59.37026431718062,
+      "end": 59.444107929515425
+    },
+    {
+      "text": "offers",
+      "start": 59.49333700440529,
+      "end": 59.83794052863436
+    },
+    {
+      "text": "Javelina",
+      "start": 59.887169603524235,
+      "end": 60.37946035242292
+    },
+    {
+      "text": "protection",
+      "start": 60.42868942731278,
+      "end": 60.94559471365639
+    },
+    {
+      "text": "from",
+      "start": 60.99482378854626,
+      "end": 61.14251101321587
+    },
+    {
+      "text": "the",
+      "start": 61.14251101321587,
+      "end": 61.19174008810573
+    },
+    {
+      "text": "very",
+      "start": 61.26558370044054,
+      "end": 61.53634361233481
+    },
+    {
+      "text": "reel",
+      "start": 61.610187224669616,
+      "end": 61.905561674008815
+    },
+    {
+      "text": "he’s",
+      "start": 61.95479074889868,
+      "end": 62.07786343612335
+    },
+    {
+      "text": "selling.",
+      "start": 62.15170704845816,
+      "end": 62.81629955947137
+    },
+    {
+      "text": "Here’s",
+      "start": 62.96398678414098,
+      "end": 63.21013215859032
+    },
+    {
+      "text": "the",
+      "start": 63.234746696035245,
+      "end": 63.283975770925124
+    },
+    {
+      "text": "distinction",
+      "start": 63.33320484581499,
+      "end": 63.800881057268725
+    },
+    {
+      "text": "his",
+      "start": 63.825495594713665,
+      "end": 63.948568281938336
+    },
+    {
+      "text": "pitch",
+      "start": 64.02241189427313,
+      "end": 64.26855726872247
+    },
+    {
+      "text": "leaves",
+      "start": 64.31778634361234,
+      "end": 64.56393171806168
+    },
+    {
+      "text": "out.",
+      "start": 64.61316079295155,
+      "end": 65.1546806167401
+    },
+    {
+      "text": "Researchers",
+      "start": 65.3023678414097,
+      "end": 65.86850220264319
+    },
+    {
+      "text": "have",
+      "start": 65.8931167400881,
+      "end": 66.01618942731278
+    },
+    {
+      "text": "found",
+      "start": 66.06541850220265,
+      "end": 66.36079295154187
+    },
+    {
+      "text": "subliminal",
+      "start": 66.43463656387665,
+      "end": 66.97615638766521
+    },
+    {
+      "text": "effects",
+      "start": 67.02538546255508,
+      "end": 67.39460352422908
+    },
+    {
+      "text": "on",
+      "start": 67.41921806167402,
+      "end": 67.56690528634363
+    },
+    {
+      "text": "simple",
+      "start": 67.66536343612334,
+      "end": 67.96073788546256
+    },
+    {
+      "text": "tasks",
+      "start": 68.03458149779736,
+      "end": 68.50225770925111
+    },
+    {
+      "text": "under",
+      "start": 68.52687224669603,
+      "end": 68.69917400881059
+    },
+    {
+      "text": "controlled",
+      "start": 68.74840308370045,
+      "end": 69.26530837004405
+    },
+    {
+      "text": "conditions.",
+      "start": 69.31453744493393,
+      "end": 70.27450440528635
+    },
+    {
+      "text": "That",
+      "start": 70.39757709251101,
+      "end": 70.54526431718062
+    },
+    {
+      "text": "doesn’t",
+      "start": 70.59449339207049,
+      "end": 70.8160242290749
+    },
+    {
+      "text": "establish",
+      "start": 70.84063876651983,
+      "end": 71.38215859030838
+    },
+    {
+      "text": "a",
+      "start": 71.43138766519824,
+      "end": 71.48061674008811
+    },
+    {
+      "text": "secret",
+      "start": 71.57907488986785,
+      "end": 71.94829295154186
+    },
+    {
+      "text": "switch",
+      "start": 72.02213656387667,
+      "end": 72.31751101321586
+    },
+    {
+      "text": "that",
+      "start": 72.3421255506608,
+      "end": 72.44058370044054
+    },
+    {
+      "text": "makes",
+      "start": 72.46519823788546,
+      "end": 72.66211453744494
+    },
+    {
+      "text": "cinema",
+      "start": 72.73595814977975,
+      "end": 73.00671806167402
+    },
+    {
+      "text": "customers",
+      "start": 73.05594713656389,
+      "end": 73.54823788546257
+    },
+    {
+      "text": "obey.",
+      "start": 73.62208149779737,
+      "end": 74.38513215859031
+    },
+    {
+      "text": "Javelina",
+      "start": 74.50820484581499,
+      "end": 74.92665198237886
+    },
+    {
+      "text": "puts",
+      "start": 74.97588105726874,
+      "end": 75.14818281938327
+    },
+    {
+      "text": "his",
+      "start": 75.1727973568282,
+      "end": 75.29587004405286
+    },
+    {
+      "text": "wallet",
+      "start": 75.36971365638767,
+      "end": 75.66508810572688
+    },
+    {
+      "text": "away.",
+      "start": 75.71431718061676,
+      "end": 76.35429515418502
+    },
+    {
+      "text": "The",
+      "start": 76.4773678414097,
+      "end": 76.52659691629957
+    },
+    {
+      "text": "Banker’s",
+      "start": 76.57582599118945,
+      "end": 76.96965859030837
+    },
+    {
+      "text": "smile",
+      "start": 77.06811674008812,
+      "end": 77.486563876652
+    },
+    {
+      "text": "slips.",
+      "start": 77.58502202643173,
+      "end": 78.22500000000001
+    },
+    {
+      "text": "Now",
+      "start": 78.3726872246696,
+      "end": 78.59421806167401
+    },
+    {
+      "text": "that",
+      "start": 78.64344713656388,
+      "end": 78.74190528634361
+    },
+    {
+      "text": "amber",
+      "start": 78.81574889867842,
+      "end": 79.0865088105727
+    },
+    {
+      "text": "glow",
+      "start": 79.16035242290751,
+      "end": 79.48034140969163
+    },
+    {
+      "text": "looks",
+      "start": 79.52957048458151,
+      "end": 79.70187224669604
+    },
+    {
+      "text": "a",
+      "start": 79.72648678414097,
+      "end": 79.77571585903085
+    },
+    {
+      "text": "lot",
+      "start": 79.82494493392072,
+      "end": 80.07109030837006
+    },
+    {
+      "text": "less",
+      "start": 80.12031938325993,
+      "end": 80.29262114537445
+    },
+    {
+      "text": "impressive.",
+      "start": 80.34185022026432,
+      "end": 81.17874449339209
+    },
+    {
+      "text": "Javelina",
+      "start": 81.30181718061675,
+      "end": 81.72026431718062
+    },
+    {
+      "text": "stamps",
+      "start": 81.79410792951543,
+      "end": 82.16332599118944
+    },
+    {
+      "text": "the",
+      "start": 82.2125550660793,
+      "end": 82.2863986784141
+    },
+    {
+      "text": "original",
+      "start": 82.33562775330397,
+      "end": 82.75407488986785
+    },
+    {
+      "text": "advertisement:",
+      "start": 82.80330396475772,
+      "end": 83.71404185022028
+    },
+    {
+      "text": "MYTH.",
+      "start": 83.83711453744495,
+      "end": 84.3786343612335
+    },
+    {
+      "text": "Then,",
+      "start": 84.55093612334802,
+      "end": 84.82169603524231
+    },
+    {
+      "text": "one",
+      "start": 84.94476872246697,
+      "end": 85.19091409691632
+    },
+    {
+      "text": "satisfied",
+      "start": 85.28937224669605,
+      "end": 85.90473568281939
+    },
+    {
+      "text": "nod.",
+      "start": 85.95396475770926,
+      "end": 86.47087004405287
+    },
+    {
+      "text": "Case",
+      "start": 86.59394273127755,
+      "end": 86.88931718061674
+    },
+    {
+      "text": "closed.",
+      "start": 86.96316079295156,
+      "end": 87.65236784140971
+    },
+    {
+      "text": "Fear",
+      "start": 87.84928414096916,
+      "end": 88.14465859030838
+    },
+    {
+      "text": "was",
+      "start": 88.19388766519825,
+      "end": 88.31696035242292
+    },
+    {
+      "text": "the",
+      "start": 88.31696035242292,
+      "end": 88.36618942731279
+    },
+    {
+      "text": "product.",
+      "start": 88.44003303964759,
+      "end": 89.25231277533041
+    }
+  ],
+  "captionPhrases": [
+    [
+      {
+        "text": "One",
+        "start": 0,
+        "end": 0.24614537444933923
+      },
+      {
+        "text": "invisible",
+        "start": 0.2953744493392071,
+        "end": 0.8122797356828194
+      },
+      {
+        "text": "frame,",
+        "start": 0.9107378854625552,
+        "end": 1.4276431718061675
+      },
+      {
+        "text": "and",
+        "start": 1.5014867841409691,
+        "end": 1.5753303964757712
+      }
+    ],
+    [
+      {
+        "text": "your",
+        "start": 1.6245594713656388,
+        "end": 1.7476321585903085
+      },
+      {
+        "text": "wallet",
+        "start": 1.8214757709251104,
+        "end": 2.1168502202643174
+      },
+      {
+        "text": "belongs",
+        "start": 2.1660792951541854,
+        "end": 2.584526431718062
+      },
+      {
+        "text": "to",
+        "start": 2.6337555066079297,
+        "end": 2.6829845814977977
+      }
+    ],
+    [
+      {
+        "text": "someone",
+        "start": 2.7322136563876653,
+        "end": 2.929129955947137
+      },
+      {
+        "text": "else.",
+        "start": 2.9783590308370047,
+        "end": 3.6183370044052867
+      }
+    ],
+    [
+      {
+        "text": "That’s",
+        "start": 3.741409691629956,
+        "end": 3.9383259911894277
+      },
+      {
+        "text": "the",
+        "start": 3.9875550660792953,
+        "end": 4.036784140969163
+      },
+      {
+        "text": "Vulture",
+        "start": 4.086013215859031,
+        "end": 4.430616740088106
+      },
+      {
+        "text": "Banker’s",
+        "start": 4.5044603524229085,
+        "end": 4.89829295154185
+      }
+    ],
+    [
+      {
+        "text": "pitch.",
+        "start": 4.972136563876652,
+        "end": 5.5875
+      }
+    ],
+    [
+      {
+        "text": "Javelina",
+        "start": 5.7351872246696045,
+        "end": 6.178248898678415
+      },
+      {
+        "text": "grips",
+        "start": 6.252092511013216,
+        "end": 6.473623348017622
+      },
+      {
+        "text": "his",
+        "start": 6.498237885462555,
+        "end": 6.621310572687225
+      },
+      {
+        "text": "popcorn.",
+        "start": 6.670539647577094,
+        "end": 7.556662995594714
+      }
+    ],
+    [
+      {
+        "text": "But",
+        "start": 7.6551211453744505,
+        "end": 7.753579295154186
+      },
+      {
+        "text": "who",
+        "start": 7.77819383259912,
+        "end": 7.876651982378855
+      },
+      {
+        "text": "decided",
+        "start": 7.925881057268724,
+        "end": 8.393557268722468
+      },
+      {
+        "text": "a",
+        "start": 8.418171806167402,
+        "end": 8.442786343612335
+      },
+      {
+        "text": "movie",
+        "start": 8.516629955947138,
+        "end": 8.812004405286343
+      }
+    ],
+    [
+      {
+        "text": "could",
+        "start": 8.861233480176212,
+        "end": 8.984306167400883
+      },
+      {
+        "text": "control",
+        "start": 9.03353524229075,
+        "end": 9.451982378854627
+      },
+      {
+        "text": "your",
+        "start": 9.501211453744494,
+        "end": 9.59966960352423
+      },
+      {
+        "text": "mind?",
+        "start": 9.648898678414099,
+        "end": 10.338105726872248
+      }
+    ],
+    [
+      {
+        "text": "Follow",
+        "start": 10.535022026431719,
+        "end": 10.830396475770927
+      },
+      {
+        "text": "that",
+        "start": 10.879625550660794,
+        "end": 11.051927312775332
+      },
+      {
+        "text": "glowing",
+        "start": 11.125770925110134,
+        "end": 11.470374449339209
+      },
+      {
+        "text": "reel",
+        "start": 11.519603524229076,
+        "end": 11.765748898678414
+      }
+    ],
+    [
+      {
+        "text": "back",
+        "start": 11.814977973568283,
+        "end": 12.036508810572688
+      },
+      {
+        "text": "to",
+        "start": 12.085737885462557,
+        "end": 12.159581497797358
+      },
+      {
+        "text": "1957.",
+        "start": 12.208810572687227,
+        "end": 13.833370044052865
+      }
+    ],
+    [
+      {
+        "text": "Advertiser",
+        "start": 14.005671806167403,
+        "end": 14.62103524229075
+      },
+      {
+        "text": "James",
+        "start": 14.670264317180619,
+        "end": 14.990253303964758
+      },
+      {
+        "text": "Vicary",
+        "start": 15.064096916299562,
+        "end": 15.457929515418503
+      }
+    ],
+    [
+      {
+        "text": "claimed",
+        "start": 15.507158590308372,
+        "end": 15.827147577092513
+      },
+      {
+        "text": "hidden",
+        "start": 15.87637665198238,
+        "end": 16.097907488986788
+      },
+      {
+        "text": "messages",
+        "start": 16.147136563876654,
+        "end": 16.66404185022027
+      },
+      {
+        "text": "made",
+        "start": 16.713270925110134,
+        "end": 16.910187224669606
+      }
+    ],
+    [
+      {
+        "text": "cinema",
+        "start": 17.00864537444934,
+        "end": 17.279405286343614
+      },
+      {
+        "text": "audiences",
+        "start": 17.353248898678416,
+        "end": 17.919383259911896
+      },
+      {
+        "text": "buy",
+        "start": 17.968612334801765,
+        "end": 18.091685022026432
+      },
+      {
+        "text": "more",
+        "start": 18.1409140969163,
+        "end": 18.31321585903084
+      }
+    ],
+    [
+      {
+        "text": "popcorn",
+        "start": 18.387059471365642,
+        "end": 18.92857929515419
+      },
+      {
+        "text": "and",
+        "start": 18.95319383259912,
+        "end": 19.02703744493392
+      },
+      {
+        "text": "cola.",
+        "start": 19.100881057268722,
+        "end": 19.839317180616742
+      }
+    ],
+    [
+      {
+        "text": "Messages",
+        "start": 20.036233480176215,
+        "end": 20.503909691629957
+      },
+      {
+        "text": "flashed",
+        "start": 20.57775330396476,
+        "end": 20.8977422907489
+      },
+      {
+        "text": "so",
+        "start": 20.946971365638767,
+        "end": 21.094658590308374
+      },
+      {
+        "text": "quickly,",
+        "start": 21.168502202643175,
+        "end": 21.75925110132159
+      }
+    ],
+    [
+      {
+        "text": "viewers",
+        "start": 21.90693832599119,
+        "end": 22.202312775330398
+      },
+      {
+        "text": "supposedly",
+        "start": 22.251541850220267,
+        "end": 22.817676211453747
+      },
+      {
+        "text": "never",
+        "start": 22.866905286343616,
+        "end": 23.088436123348018
+      }
+    ],
+    [
+      {
+        "text": "noticed",
+        "start": 23.137665198237887,
+        "end": 23.482268722466966
+      },
+      {
+        "text": "them.",
+        "start": 23.531497797356828,
+        "end": 23.999174008810574
+      }
+    ],
+    [
+      {
+        "text": "A",
+        "start": 24.146861233480177,
+        "end": 24.196090308370046
+      },
+      {
+        "text": "frightening",
+        "start": 24.269933920704847,
+        "end": 24.737610132158594
+      },
+      {
+        "text": "idea:",
+        "start": 24.811453744493395,
+        "end": 25.500660792951543
+      },
+      {
+        "text": "someone",
+        "start": 25.672962555066082,
+        "end": 25.86987885462555
+      }
+    ],
+    [
+      {
+        "text": "could",
+        "start": 25.91910792951542,
+        "end": 26.04218061674009
+      },
+      {
+        "text": "sell",
+        "start": 26.116024229074892,
+        "end": 26.312940528634364
+      },
+      {
+        "text": "you",
+        "start": 26.36216960352423,
+        "end": 26.436013215859035
+      },
+      {
+        "text": "something",
+        "start": 26.4852422907489,
+        "end": 26.780616740088107
+      }
+    ],
+    [
+      {
+        "text": "without",
+        "start": 26.805231277533043,
+        "end": 27.075991189427317
+      },
+      {
+        "text": "your",
+        "start": 27.125220264317186,
+        "end": 27.199063876651984
+      },
+      {
+        "text": "permission.",
+        "start": 27.248292951541853,
+        "end": 28.03595814977974
+      }
+    ],
+    [
+      {
+        "text": "But",
+        "start": 28.15903083700441,
+        "end": 28.257488986784143
+      },
+      {
+        "text": "a",
+        "start": 28.28210352422908,
+        "end": 28.30671806167401
+      },
+      {
+        "text": "frightening",
+        "start": 28.380561674008813,
+        "end": 28.84823788546256
+      },
+      {
+        "text": "claim",
+        "start": 28.89746696035243,
+        "end": 29.1682268722467
+      }
+    ],
+    [
+      {
+        "text": "still",
+        "start": 29.2420704845815,
+        "end": 29.463601321585905
+      },
+      {
+        "text": "needs",
+        "start": 29.512830396475774,
+        "end": 29.783590308370048
+      },
+      {
+        "text": "convincing",
+        "start": 29.832819383259917,
+        "end": 30.34972466960353
+      }
+    ],
+    [
+      {
+        "text": "evidence.",
+        "start": 30.423568281938326,
+        "end": 31.285077092511013
+      }
+    ],
+    [
+      {
+        "text": "Where",
+        "start": 31.38353524229075,
+        "end": 31.48199339207049
+      },
+      {
+        "text": "was",
+        "start": 31.531222466960354,
+        "end": 31.654295154185025
+      },
+      {
+        "text": "the",
+        "start": 31.654295154185025,
+        "end": 31.75275330396476
+      },
+      {
+        "text": "independently",
+        "start": 31.826596916299565,
+        "end": 32.491189427312776
+      }
+    ],
+    [
+      {
+        "text": "verified",
+        "start": 32.56503303964758,
+        "end": 33.10655286343613
+      },
+      {
+        "text": "proof",
+        "start": 33.180396475770934,
+        "end": 33.47577092511013
+      },
+      {
+        "text": "that",
+        "start": 33.525,
+        "end": 33.62345814977974
+      },
+      {
+        "text": "those",
+        "start": 33.67268722466961,
+        "end": 33.91883259911895
+      }
+    ],
+    [
+      {
+        "text": "flashes",
+        "start": 33.99267621145375,
+        "end": 34.43573788546256
+      },
+      {
+        "text": "caused",
+        "start": 34.48496696035242,
+        "end": 34.78034140969164
+      },
+      {
+        "text": "those",
+        "start": 34.8295704845815,
+        "end": 35.02648678414098
+      }
+    ],
+    [
+      {
+        "text": "purchases?",
+        "start": 35.07571585903084,
+        "end": 36.011068281938336
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 36.134140969163,
+        "end": 36.2079845814978
+      },
+      {
+        "text": "famous",
+        "start": 36.2818281938326,
+        "end": 36.57720264317181
+      },
+      {
+        "text": "sales",
+        "start": 36.651046255506614,
+        "end": 36.995649779735686
+      },
+      {
+        "text": "claim",
+        "start": 37.04487885462555,
+        "end": 37.315638766519825
+      },
+      {
+        "text": "did",
+        "start": 37.3648678414097,
+        "end": 37.48794052863437
+      }
+    ],
+    [
+      {
+        "text": "not",
+        "start": 37.48794052863437,
+        "end": 37.63562775330397
+      },
+      {
+        "text": "establish",
+        "start": 37.660242290748904,
+        "end": 38.201762114537445
+      },
+      {
+        "text": "that.",
+        "start": 38.25099118942732,
+        "end": 38.76789647577093
+      }
+    ],
+    [
+      {
+        "text": "A",
+        "start": 38.91558370044053,
+        "end": 38.9648127753304
+      },
+      {
+        "text": "later",
+        "start": 39.014041850220266,
+        "end": 39.235572687224675
+      },
+      {
+        "text": "National",
+        "start": 39.30941629955947,
+        "end": 39.72786343612335
+      },
+      {
+        "text": "Research",
+        "start": 39.777092511013215,
+        "end": 40.22015418502203
+      }
+    ],
+    [
+      {
+        "text": "Council",
+        "start": 40.2693832599119,
+        "end": 40.63860132158591
+      },
+      {
+        "text": "report",
+        "start": 40.687830396475775,
+        "end": 41.10627753303965
+      },
+      {
+        "text": "described",
+        "start": 41.15550660792952,
+        "end": 41.697026431718065
+      }
+    ],
+    [
+      {
+        "text": "Vicary’s",
+        "start": 41.77087004405286,
+        "end": 42.140088105726875
+      },
+      {
+        "text": "study",
+        "start": 42.21393171806168,
+        "end": 42.55853524229075
+      },
+      {
+        "text": "as",
+        "start": 42.60776431718062,
+        "end": 42.68160792951542
+      },
+      {
+        "text": "a",
+        "start": 42.73083700440529,
+        "end": 42.78006607929516
+      },
+      {
+        "text": "hoax.",
+        "start": 42.85390969162996,
+        "end": 43.56773127753304
+      }
+    ],
+    [
+      {
+        "text": "Yet",
+        "start": 43.69080396475771,
+        "end": 43.78926211453745
+      },
+      {
+        "text": "the",
+        "start": 43.81387665198238,
+        "end": 43.86310572687225
+      },
+      {
+        "text": "story",
+        "start": 43.936949339207054,
+        "end": 44.30616740088106
+      },
+      {
+        "text": "sparked",
+        "start": 44.380011013215864,
+        "end": 44.749229074889875
+      }
+    ],
+    [
+      {
+        "text": "controversy",
+        "start": 44.82307268722467,
+        "end": 45.7830396475771
+      },
+      {
+        "text": "and",
+        "start": 45.8568832599119,
+        "end": 45.9307268722467
+      },
+      {
+        "text": "inspired",
+        "start": 45.955341409691634,
+        "end": 46.54609030837005
+      }
+    ],
+    [
+      {
+        "text": "more",
+        "start": 46.61993392070485,
+        "end": 46.866079295154194
+      },
+      {
+        "text": "investigations.",
+        "start": 46.91530837004406,
+        "end": 48.219878854625556
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 48.39218061674009,
+        "end": 48.4660242290749
+      },
+      {
+        "text": "claim",
+        "start": 48.539867841409695,
+        "end": 48.93370044052864
+      },
+      {
+        "text": "had",
+        "start": 48.982929515418505,
+        "end": 49.05677312775331
+      },
+      {
+        "text": "become",
+        "start": 49.106002202643175,
+        "end": 49.40137665198238
+      },
+      {
+        "text": "a",
+        "start": 49.450605726872254,
+        "end": 49.49983480176212
+      }
+    ],
+    [
+      {
+        "text": "mystery",
+        "start": 49.573678414096925,
+        "end": 49.94289647577093
+      },
+      {
+        "text": "people",
+        "start": 49.992125550660795,
+        "end": 50.31211453744494
+      },
+      {
+        "text": "wanted",
+        "start": 50.36134361233481,
+        "end": 50.65671806167402
+      }
+    ],
+    [
+      {
+        "text": "answered.",
+        "start": 50.73056167400881,
+        "end": 51.49361233480177
+      }
+    ],
+    [
+      {
+        "text": "And",
+        "start": 51.64129955947137,
+        "end": 51.71514317180617
+      },
+      {
+        "text": "a",
+        "start": 51.7397577092511,
+        "end": 51.76437224669604
+      },
+      {
+        "text": "scary",
+        "start": 51.83821585903084,
+        "end": 52.232048458149784
+      },
+      {
+        "text": "explanation",
+        "start": 52.281277533039656,
+        "end": 52.99509911894274
+      },
+      {
+        "text": "can",
+        "start": 53.044328193832605,
+        "end": 53.11817180616741
+      }
+    ],
+    [
+      {
+        "text": "travel",
+        "start": 53.167400881057276,
+        "end": 53.487389867841415
+      },
+      {
+        "text": "further",
+        "start": 53.585848017621146,
+        "end": 53.85660792951543
+      },
+      {
+        "text": "than",
+        "start": 53.90583700440529,
+        "end": 53.9796806167401
+      },
+      {
+        "text": "its",
+        "start": 54.00429515418503,
+        "end": 54.10275330396477
+      }
+    ],
+    [
+      {
+        "text": "correction.",
+        "start": 54.15198237885463,
+        "end": 54.98887665198239
+      }
+    ],
+    [
+      {
+        "text": "Back",
+        "start": 55.16117841409692,
+        "end": 55.382709251101325
+      },
+      {
+        "text": "in",
+        "start": 55.40732378854626,
+        "end": 55.505781938325995
+      },
+      {
+        "text": "town,",
+        "start": 55.55501101321586,
+        "end": 56.07191629955948
+      },
+      {
+        "text": "the",
+        "start": 56.17037444933921,
+        "end": 56.21960352422908
+      },
+      {
+        "text": "Banker",
+        "start": 56.268832599118944,
+        "end": 56.58882158590309
+      }
+    ],
+    [
+      {
+        "text": "has",
+        "start": 56.638050660792956,
+        "end": 56.76112334801763
+      },
+      {
+        "text": "turned",
+        "start": 56.8103524229075,
+        "end": 57.05649779735684
+      },
+      {
+        "text": "that",
+        "start": 57.1057268722467,
+        "end": 57.278028634361235
+      },
+      {
+        "text": "fear",
+        "start": 57.35187224669604,
+        "end": 57.59801762114538
+      },
+      {
+        "text": "into",
+        "start": 57.622632158590314,
+        "end": 57.81954845814979
+      }
+    ],
+    [
+      {
+        "text": "another",
+        "start": 57.868777533039655,
+        "end": 58.16415198237886
+      },
+      {
+        "text": "sales",
+        "start": 58.23799559471366,
+        "end": 58.557984581497806
+      },
+      {
+        "text": "pitch.",
+        "start": 58.631828193832604,
+        "end": 59.24719162995595
+      }
+    ],
+    [
+      {
+        "text": "He",
+        "start": 59.37026431718062,
+        "end": 59.444107929515425
+      },
+      {
+        "text": "offers",
+        "start": 59.49333700440529,
+        "end": 59.83794052863436
+      },
+      {
+        "text": "Javelina",
+        "start": 59.887169603524235,
+        "end": 60.37946035242292
+      }
+    ],
+    [
+      {
+        "text": "protection",
+        "start": 60.42868942731278,
+        "end": 60.94559471365639
+      },
+      {
+        "text": "from",
+        "start": 60.99482378854626,
+        "end": 61.14251101321587
+      },
+      {
+        "text": "the",
+        "start": 61.14251101321587,
+        "end": 61.19174008810573
+      },
+      {
+        "text": "very",
+        "start": 61.26558370044054,
+        "end": 61.53634361233481
+      }
+    ],
+    [
+      {
+        "text": "reel",
+        "start": 61.610187224669616,
+        "end": 61.905561674008815
+      },
+      {
+        "text": "he’s",
+        "start": 61.95479074889868,
+        "end": 62.07786343612335
+      },
+      {
+        "text": "selling.",
+        "start": 62.15170704845816,
+        "end": 62.81629955947137
+      }
+    ],
+    [
+      {
+        "text": "Here’s",
+        "start": 62.96398678414098,
+        "end": 63.21013215859032
+      },
+      {
+        "text": "the",
+        "start": 63.234746696035245,
+        "end": 63.283975770925124
+      },
+      {
+        "text": "distinction",
+        "start": 63.33320484581499,
+        "end": 63.800881057268725
+      },
+      {
+        "text": "his",
+        "start": 63.825495594713665,
+        "end": 63.948568281938336
+      }
+    ],
+    [
+      {
+        "text": "pitch",
+        "start": 64.02241189427313,
+        "end": 64.26855726872247
+      },
+      {
+        "text": "leaves",
+        "start": 64.31778634361234,
+        "end": 64.56393171806168
+      },
+      {
+        "text": "out.",
+        "start": 64.61316079295155,
+        "end": 65.1546806167401
+      }
+    ],
+    [
+      {
+        "text": "Researchers",
+        "start": 65.3023678414097,
+        "end": 65.86850220264319
+      },
+      {
+        "text": "have",
+        "start": 65.8931167400881,
+        "end": 66.01618942731278
+      },
+      {
+        "text": "found",
+        "start": 66.06541850220265,
+        "end": 66.36079295154187
+      }
+    ],
+    [
+      {
+        "text": "subliminal",
+        "start": 66.43463656387665,
+        "end": 66.97615638766521
+      },
+      {
+        "text": "effects",
+        "start": 67.02538546255508,
+        "end": 67.39460352422908
+      },
+      {
+        "text": "on",
+        "start": 67.41921806167402,
+        "end": 67.56690528634363
+      },
+      {
+        "text": "simple",
+        "start": 67.66536343612334,
+        "end": 67.96073788546256
+      }
+    ],
+    [
+      {
+        "text": "tasks",
+        "start": 68.03458149779736,
+        "end": 68.50225770925111
+      },
+      {
+        "text": "under",
+        "start": 68.52687224669603,
+        "end": 68.69917400881059
+      },
+      {
+        "text": "controlled",
+        "start": 68.74840308370045,
+        "end": 69.26530837004405
+      }
+    ],
+    [
+      {
+        "text": "conditions.",
+        "start": 69.31453744493393,
+        "end": 70.27450440528635
+      }
+    ],
+    [
+      {
+        "text": "That",
+        "start": 70.39757709251101,
+        "end": 70.54526431718062
+      },
+      {
+        "text": "doesn’t",
+        "start": 70.59449339207049,
+        "end": 70.8160242290749
+      },
+      {
+        "text": "establish",
+        "start": 70.84063876651983,
+        "end": 71.38215859030838
+      },
+      {
+        "text": "a",
+        "start": 71.43138766519824,
+        "end": 71.48061674008811
+      }
+    ],
+    [
+      {
+        "text": "secret",
+        "start": 71.57907488986785,
+        "end": 71.94829295154186
+      },
+      {
+        "text": "switch",
+        "start": 72.02213656387667,
+        "end": 72.31751101321586
+      },
+      {
+        "text": "that",
+        "start": 72.3421255506608,
+        "end": 72.44058370044054
+      },
+      {
+        "text": "makes",
+        "start": 72.46519823788546,
+        "end": 72.66211453744494
+      }
+    ],
+    [
+      {
+        "text": "cinema",
+        "start": 72.73595814977975,
+        "end": 73.00671806167402
+      },
+      {
+        "text": "customers",
+        "start": 73.05594713656389,
+        "end": 73.54823788546257
+      },
+      {
+        "text": "obey.",
+        "start": 73.62208149779737,
+        "end": 74.38513215859031
+      }
+    ],
+    [
+      {
+        "text": "Javelina",
+        "start": 74.50820484581499,
+        "end": 74.92665198237886
+      },
+      {
+        "text": "puts",
+        "start": 74.97588105726874,
+        "end": 75.14818281938327
+      },
+      {
+        "text": "his",
+        "start": 75.1727973568282,
+        "end": 75.29587004405286
+      },
+      {
+        "text": "wallet",
+        "start": 75.36971365638767,
+        "end": 75.66508810572688
+      }
+    ],
+    [
+      {
+        "text": "away.",
+        "start": 75.71431718061676,
+        "end": 76.35429515418502
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 76.4773678414097,
+        "end": 76.52659691629957
+      },
+      {
+        "text": "Banker’s",
+        "start": 76.57582599118945,
+        "end": 76.96965859030837
+      },
+      {
+        "text": "smile",
+        "start": 77.06811674008812,
+        "end": 77.486563876652
+      },
+      {
+        "text": "slips.",
+        "start": 77.58502202643173,
+        "end": 78.22500000000001
+      }
+    ],
+    [
+      {
+        "text": "Now",
+        "start": 78.3726872246696,
+        "end": 78.59421806167401
+      },
+      {
+        "text": "that",
+        "start": 78.64344713656388,
+        "end": 78.74190528634361
+      },
+      {
+        "text": "amber",
+        "start": 78.81574889867842,
+        "end": 79.0865088105727
+      },
+      {
+        "text": "glow",
+        "start": 79.16035242290751,
+        "end": 79.48034140969163
+      },
+      {
+        "text": "looks",
+        "start": 79.52957048458151,
+        "end": 79.70187224669604
+      }
+    ],
+    [
+      {
+        "text": "a",
+        "start": 79.72648678414097,
+        "end": 79.77571585903085
+      },
+      {
+        "text": "lot",
+        "start": 79.82494493392072,
+        "end": 80.07109030837006
+      },
+      {
+        "text": "less",
+        "start": 80.12031938325993,
+        "end": 80.29262114537445
+      },
+      {
+        "text": "impressive.",
+        "start": 80.34185022026432,
+        "end": 81.17874449339209
+      }
+    ],
+    [
+      {
+        "text": "Javelina",
+        "start": 81.30181718061675,
+        "end": 81.72026431718062
+      },
+      {
+        "text": "stamps",
+        "start": 81.79410792951543,
+        "end": 82.16332599118944
+      },
+      {
+        "text": "the",
+        "start": 82.2125550660793,
+        "end": 82.2863986784141
+      },
+      {
+        "text": "original",
+        "start": 82.33562775330397,
+        "end": 82.75407488986785
+      }
+    ],
+    [
+      {
+        "text": "advertisement:",
+        "start": 82.80330396475772,
+        "end": 83.71404185022028
+      },
+      {
+        "text": "MYTH.",
+        "start": 83.83711453744495,
+        "end": 84.3786343612335
+      }
+    ],
+    [
+      {
+        "text": "Then,",
+        "start": 84.55093612334802,
+        "end": 84.82169603524231
+      },
+      {
+        "text": "one",
+        "start": 84.94476872246697,
+        "end": 85.19091409691632
+      },
+      {
+        "text": "satisfied",
+        "start": 85.28937224669605,
+        "end": 85.90473568281939
+      },
+      {
+        "text": "nod.",
+        "start": 85.95396475770926,
+        "end": 86.47087004405287
+      }
+    ],
+    [
+      {
+        "text": "Case",
+        "start": 86.59394273127755,
+        "end": 86.88931718061674
+      },
+      {
+        "text": "closed.",
+        "start": 86.96316079295156,
+        "end": 87.65236784140971
+      }
+    ],
+    [
+      {
+        "text": "Fear",
+        "start": 87.84928414096916,
+        "end": 88.14465859030838
+      },
+      {
+        "text": "was",
+        "start": 88.19388766519825,
+        "end": 88.31696035242292
+      },
+      {
+        "text": "the",
+        "start": 88.31696035242292,
+        "end": 88.36618942731279
+      },
+      {
+        "text": "product.",
+        "start": 88.44003303964759,
+        "end": 89.25231277533041
+      }
+    ]
+  ],
+  "stampTime": 83.83711453744495,
+  "sourceDeliveryNote": "Local H3 352x640/24fps sources; 4-second generated performance units editorially retimed to continuous narration; 1440x2560/60fps upscale/repetition, not native detail or unique poses.",
+  "timingMethod": "Model-predicted phoneme durations mapped to canonical script words; not an independent listening review",
+  "sourceNarrationHash": "55778dc1713c7f0237f319a564623a98741971cfc0426b608a6446f7cf2336f1"
+}

@@ -1,6 +1,6 @@
 # Four-second image animation prompts
 
-The user subsequently requested full video production using H3. These prompts follow the approved story and image plan. They contain visible motion only. Any native source soundtrack is discarded; approved narration, captions and sound are added in editing. Source generation may include handles; each assembled source clip is trimmed to exactly four seconds, with the last clip trimmed further for a 90-second film.
+The user subsequently requested full video production using H3. These prompts follow the approved story and image plan. They contain visible motion only. Any native source soundtrack is discarded; approved narration, captions and sound are added in editing. Generation includes motion handles. Each source performance is separately trimmed to an exact four-second unit; the continuous90-second master uses voice-timed cuts and performance retiming as documented in EDITORIAL.md.
 
 ## SCENE 01 ANIMATION PROMPT (PRESENT)
 

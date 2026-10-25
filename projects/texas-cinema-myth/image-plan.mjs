@@ -16,7 +16,10 @@ const cast={
  editor:'ARCHIVE NEWSPAPER EDITOR: an upright cartoon barn owl with a pale heart-shaped face, grey-brown feathers rendered monochromatically, heavy expressive eyebrows and small round spectacles. He wears a white rolled-sleeve shirt, dark suspenders and trousers, white cartoon gloves on his wing-arms and dark shoes.'
 };
 const source=readFileSync(join(folder,'VOICEOVER_DRAFT.md'),'utf8').split('VOICEOVER SCRIPT (English approval draft):')[1].split('EDITING NOTES:')[0].trim().replace(/\s+/g,' ');
-const endpoints=['someone else.','his popcorn.','your mind?','Advertiser James Vicary','popcorn and cola.','A frightening idea:','a frightening claim','verified proof','famous sales claim','Research Council report','sparked controversy','become a mystery','can travel further','Banker has turned','Javelina protection','the distinction his','effects on simple','a secret switch','his wallet away.','glow looks a','advertisement: MYTH.','Then, one satisfied nod.','Case closed. Fear was the product.'];
+// Source animation units remain four seconds. The final editorial cuts follow
+// the uninterrupted narrator, so world changes and evidence beats land on the
+// words that actually introduce them, rather than arbitrary word-count chunks.
+const endpoints=['someone else.','his popcorn.','your mind?','Advertiser James Vicary','popcorn and cola.','never noticed them.','without your permission.','needs convincing evidence.','those purchases?','did not establish that.','study as a hoax.','more investigations.','can travel further','than its correction.','another sales pitch.','reel he’s selling.','found subliminal effects','a secret switch','his wallet away.','a lot less impressive.','advertisement: MYTH.','Then, one satisfied nod.','Case closed. Fear was the product.'];
 let cursor=0;
 const voice=endpoints.map(end=>{const at=source.indexOf(end,cursor);if(at<cursor)throw Error('Script endpoint missing: '+end);const value=source.slice(cursor,at+end.length).trim();cursor=at+end.length;return value;});
 if(cursor!==source.length||voice.join(' ')!==source)throw Error('Shot lines must preserve the entire approved script in order.');

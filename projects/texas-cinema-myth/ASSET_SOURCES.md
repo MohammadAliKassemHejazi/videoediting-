@@ -18,6 +18,26 @@ Generated art is preserved in this workspace; originals remain under
 | `assets/keyframes/03.png` | `exec-0259d3d5-369a-4630-aa2d-1976dfe59f79.png` | Present reel/wallet and incoming black ink; no characters, inspected. |
 | `assets/keyframes/05.png` | `exec-6796151f-a5fc-4974-ad4a-616064bf0268.png` | Same Archive rabbit, cinema desk and unbranded popcorn/cola; inspected. |
 | `assets/keyframes/06.png` | `exec-708131cb-c565-44cb-927f-37d7e3a176fc.png` | Same Archive gloves/cuffs threading projector; hand contact inspected. |
+| `assets/keyframes/07.png` | `exec-b0ca8300-5cfb-4c0c-a185-c00eb80513f1.png` | Exactly three archive audience animals, gloves and questioning eyelines inspected. |
+| `assets/keyframes/08.png` | `exec-a117b99d-2adb-44ee-948d-7da80c62367f.png` | Archive armadillo researcher; working reference for the following desk shots. |
+| `assets/keyframes/09.png` | `exec-369d82cd-1b0d-41a1-a0e1-d1c0a2f9fa2e.png` | POV empty folder, matching cardigan cuffs and office; inspected. |
+| `assets/keyframes/10.png` | `exec-baadbb63-a2c8-4a6e-843f-26ecb77356c8.png` | Same researcher examines symbolic claim/blank chart; no fabricated statistics. |
+| `assets/keyframes/11.png` | `exec-d7f47421-4ed7-45f9-9806-980e1ce3cd55.png` | Symbolic book/research folder; not a facsimile of the NRC report. |
+| `assets/keyframes/12.png` | `exec-d99bc91a-f0d9-442d-903c-25191f1b7c01.png` | Same three archive townspeople; amber adoption glow restricted to reel props. |
+| `assets/keyframes/13.png` | `exec-ce43bc0c-1300-4c81-9504-a6526b59edac.png` | Owl editor close-up, unlettered newsprint, white gloves; inspected. |
+| `assets/keyframes/14.png` | `exec-77ef8f07-5b92-49ab-8b20-0673451003a7.png` | Archive reel/ink exit; sepia plus permitted amber prop glow, inspected. |
+| `assets/keyframes/15.png` | `exec-a3ebffc2-5368-4493-9a7f-4e50462fb162.png` | Returning Banker, reel and closed wooden case; outfit/lighting inspected. |
+| `assets/keyframes/16-rejected.png` | `exec-ea190112-abbd-49a5-9d77-422a2a88abfd.png` | Rejected black jewelry-case continuity error, preserved. |
+| `assets/keyframes/16.png` | `exec-aa29b627-2b37-48a2-af17-04377fe80bec.png` | Corrected to the same wood/brass protection box as15, open and empty. |
+| `assets/keyframes/17.png` | `exec-4ead779c-e59e-44c5-9d29-817a62ab0603.png` | Javelina's controlled-task visual analogy, one circle/one blank card. |
+| `assets/keyframes/18.png` | `exec-72f381cf-c9dd-4cc0-bbd6-b47d09cda46a.png` | Javelina inspects ordinary reel; matching identities and prop inspected. |
+| `assets/keyframes/19.png` | `exec-c4d2a50a-057a-4e1c-a2ed-507d875d2933.png` | Javelina POV with same poncho, gloves, boots and brown wallet. |
+| `assets/keyframes/20.png` | `exec-072eba0a-26a1-4a21-8c28-d3a89110bcb9.png` | Banker reaction close-up; same spectacles, cravat and face. |
+| `assets/keyframes/21.png` | `exec-eda3962f-6840-4a1c-b9a7-da45cd719c6f.png` | Physical wooden stamp poised above fictional reel advertisement, no generated MYTH lettering. |
+| `assets/keyframes/22.png` | `exec-9f513788-adac-440c-8f2e-9c4df034d4ad.png` | Javelina resolution, same table/location and identity. |
+| `assets/keyframes/23.png` | `exec-97b99fb2-53e1-494f-bb1b-0d66aaf81743.png` | Defeated Banker, empty cash tray and reel; inspected. |
+| `assets/covers/youtube.png` | `exec-fc0e6662-fcca-4dc7-9814-65848c47a5ff.png` | Designed16:9 cover, SOLD YOU FEAR; exact duo and amber reel, not a random video frame. |
+| `assets/covers/portrait.png` | `exec-723f64f3-e938-46a5-beb5-22a0b1ca25bb.png` | Intentionally recomposed9:16 cover, same identities and headline; phone framing inspected. |
 
 Model sources, immutable revisions and SHA-256 hashes: `H3_MODELS.json`.
 Local model verification: `.cache/h3-engine/verified-models.json`.

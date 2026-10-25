@@ -68,13 +68,13 @@
       "title": "The Cinema That Could Control Your Mind",
       "scriptApprovedBy": "User typed NEXT after the STEP 7 script",
       "productionAuthorizedBy": "User requested H3 build of the actual YouTube video",
-      "status": "Local H3 test passed; episode assembly pending"
+      "status": "Full scene artwork, timed continuous narration and90s live timeline prepared; actual local H3 episode sources and finishing in progress"
     }
   ],
   "narrator": {
     "id": "texas-narrator-en-v1",
     "engine": "Kokoro ONNX",
     "voice": "am_michael",
-    "status": "Proposed preset; local audio not generated/listened to yet"
+    "status": "Full local narration generated and aligned; working recurring preset am_michael, listening review pending"
   }
 }
