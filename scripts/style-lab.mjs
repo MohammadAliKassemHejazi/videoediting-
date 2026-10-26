@@ -15,7 +15,7 @@ if(command==='list'){
  console.table(STYLES.map(({id,name,family,bestFor})=>({id,name,family,bestFor})));process.exit(0);
 }
 if(command==='preview'){
- execFileSync(process.execPath,[join(ROOT,'node_modules/@remotion/cli/remotion-cli.js'),'studio','remotion/index.jsx','--public-dir=remotion/public','--port=3000'],{cwd:ROOT,stdio:'inherit'});process.exit(0);
+ execFileSync(process.execPath,[join(ROOT,'node_modules/@remotion/cli/remotion-cli.js'),'studio','remotion/index.jsx','--public-dir=remotion/public',...process.argv.slice(3)],{cwd:ROOT,stdio:'inherit'});process.exit(0);
 }
 const P=project(id),folder=join(P.dir,'style-lab'),output=join(P.out,'styles');mkdirSync(folder,{recursive:true});mkdirSync(output,{recursive:true});
 const contentPath=join(P.dir,'STYLE_CONTENT.json'),specPath=join(folder,'audition.json');
