@@ -18,6 +18,8 @@ Docker, GPU service or active render was stopped to free a port.
 
 The separate production export `out/texas-cinema-myth/draft.mp4` had already
 completed: 90.01 seconds, 1440x2560, 60fps, audio present, full decode passed.
-The browser-queued re-export is a separate file, `out/texas-cinema-myth.mp4`.
+The browser-queued re-export also completed at `out/texas-cinema-myth.mp4`:5,400
+frames,90.01 seconds,1440x2560/60fps,audio, full decode passed. Its validation record
+is `out/texas-cinema-myth/studio-render-check.json`.
 Do not run another render or GPU generation concurrently with an active Studio
 render, even when the studio queue does not use `.cache/render.lock`.

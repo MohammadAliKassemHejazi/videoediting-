@@ -11,10 +11,13 @@ media errors. Listening and user creative approval remain pending.
 
 Port fix committed as27493d0: removed fixed3000 from config and preview command.
 Studio is3002; Docker keeps3000. On2026-10-26 the user confirmed "its working".
-IMPORTANT: a user-started Studio render is currently exporting a SECOND copy to
-`out/texas-cinema-myth.mp4`, queue id2450479451671672, using renderer3003.
-Check the live Studio queue before any render/generation; this UI job does NOT
-acquire `.cache/render.lock`. Do not stop it or restart Studio while it runs.
+The user-started Studio SECOND export also FINISHED successfully at
+`out/texas-cinema-myth.mp4`, queue id2450479451671672:5400 frames,90.01s,
+1440x2560/60fps,audio, full decode passed. `studio-render-check.json` records the
+check at2026-10-26T12:38:06Z. No export/generation is active at this checkpoint.
+Services left running: Studio3002, gallery3001, H3 engine8189 and live Texas sync.
+Check the live Studio queue before new render/generation: UI jobs do NOT acquire
+`.cache/render.lock`. Do not stop unrelated services to free3000.
 
 Episode2, the requested ten-thousand-steps retelling, is NOT a completed video.
 `projects/texas-ten-thousand-steps` has the analyzed110.27s reference, sourced

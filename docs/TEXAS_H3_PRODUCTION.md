@@ -13,9 +13,10 @@ The final mux measures-16.0LUFS/-1.7dBFS true peak. No listening or user creativ
 approval is claimed. Source digest2d4b1d387c3428c5792c405b7b74115bb4d42c2a2b1453c774ddb5d8e4150e39.
 
 Port issue fixed in27493d0: neither the config nor preview command forces3000.
-The user confirmed rendering works. Studio3002 now has a user-started SECOND
-export active at `out/texas-cinema-myth.mp4`, render queue2450479451671672,
-renderer3003. Inspect Studio's actual queue before starting generation/render:
+The user confirmed rendering works. Studio3002's user-started SECOND export
+FINISHED at `out/texas-cinema-myth.mp4`, render queue2450479451671672,
+using renderer3003:5400frames,90.01s,1440x2560/60fps,audio, full decode passed.
+No export/generation is active at this checkpoint. Inspect Studio's actual queue before starting generation/render:
 these UI exports do not acquire the repository lock. Leave Docker3000 untouched.
 See docs/REMOTION_RENDERING.md. Gallery3001 was restarted to load the updated
 source-hash module; Episode1 now reports ready and its actual MP4 plays in Chrome.
