@@ -1,4 +1,30 @@
-# Source review — in progress
+# Source review — completed source pass, 2026-10-26
+
+All23 native animated sources have now been reviewed in sampled contacts, and
+all23 enhanced sources passed decode. The actual muxed film was inspected through
+three contact sheets and selected phone frames; see REVIEW.md for the completed
+render, browser playback, remaining AI limitations and listening status.
+
+-16: corrected wood/brass carrying case survives the walking action; identity and
+  clothing match15. The rejected black jewelry-box still remains preserved.
+-17: two comparison cards demonstrate the limited simple-task premise.
+-18: Javelina examines the reel; glove contact and same hub design remain readable.
+-19: both gloves hold and put away the wallet, giving the investigation a visible
+  consequence instead of another static explanation card.
+-20: the Banker reacts as his confident sale loses its force.
+-21: native stamp anticipation/contact/lift was inspected; the continuous source
+  excerpts align contact82.15s and reveal83.63s in the voiced master.
+-22: the later closed-mouth nod is selected, excluding the earlier broad grin.
+-23: defeated Banker and empty tray close the failed pitch; the repaired hub
+  was checked again in decoded final-film frame88.4s.
+
+Shot04's attempted optical-flow label patch floated onto the wall and was rejected
+and disabled. The remaining track metadata is retained only for diagnosis.
+Real-ESRGAN animevideov3 comparisons were inspected in Present and Archive frames,
+then all23 sources were enhanced on RTX3060 (Vulkan index1). Native originals are
+preserved. Voice remains the approved223-word script; listening is still pending.
+
+The earlier partial checkpoint below is retained as production history.
 
 Native H3 sources are352×640/24fps. These notes are based on actual nine-frame
 contacts and native first frames, not on the still-image prompts alone. Contacts

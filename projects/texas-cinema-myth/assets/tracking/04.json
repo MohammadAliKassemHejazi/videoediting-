@@ -8,6 +8,7 @@
   "configuration": {
     "id": "04",
     "kind": "hub",
+    "enabled": false,
     "mode": "plain",
     "center": [
       179,
@@ -21,7 +22,8 @@
     "featureAxes": [
       37,
       37
-    ]
+    ],
+    "review": "Rejected tracking drift; retain original hub."
   },
   "method": "CPU pyramidal Lucas-Kanade optical flow, forward/backward rejection and affine RANSAC; native-frame numeric metadata only",
   "frames": [

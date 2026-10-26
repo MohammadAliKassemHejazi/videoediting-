@@ -26,7 +26,7 @@ function sync(){
   if(shot.available&&existsSync(trackFile)){
    const track=JSON.parse(readFileSync(trackFile,'utf8'));
    if(track.sourceHash!==hash(video))throw Error('Stale prop tracking for '+shot.id);
-   tracks[shot.id]=track;
+   if(track.configuration.enabled!==false)tracks[shot.id]=track;
   }
  }
  const font=join(ROOT,'node_modules/@fontsource/source-serif-4/files/source-serif-4-latin-600-normal.woff2');copy(font,join(pub,spec.font));

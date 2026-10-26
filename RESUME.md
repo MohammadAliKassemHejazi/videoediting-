@@ -1,4 +1,30 @@
-# Active H3 Texas series production — 2026-10-25
+# Active H3 Texas series production — 2026-10-26
+
+CURRENT: Episode 1 is rendered at `out/texas-cinema-myth/draft.mp4` (90.01s,
+1440x2560/60fps, audio, full decode passed). All23 actual H3 sources are complete,
+AI enhanced using Real-ESRGAN animevideov3 on Vulkan GPU1 (RTX3060), and assembled
+with continuous Kokoro narration, original synthesized score/Foley and captions.
+The native sources remain352x640/24fps; delivery is enhanced/upscaled with repeated
+poses, not native2K/60 generated motion. Actual muxed-film contacts, final stamp and
+closing prop repair were inspected; Chrome played six sampled sections without
+media errors. Listening and user creative approval remain pending.
+
+Port fix committed as27493d0: removed fixed3000 from config and preview command.
+Studio is3002; Docker keeps3000. On2026-10-26 the user confirmed "its working".
+IMPORTANT: a user-started Studio render is currently exporting a SECOND copy to
+`out/texas-cinema-myth.mp4`, queue id2450479451671672, using renderer3003.
+Check the live Studio queue before any render/generation; this UI job does NOT
+acquire `.cache/render.lock`. Do not stop it or restart Studio while it runs.
+
+Episode2, the requested ten-thousand-steps retelling, is NOT a completed video.
+`projects/texas-ten-thousand-steps` has the analyzed110.27s reference, sourced
+factual corrections, a267-word original multi-voice script and first original
+keyframe. Remaining:28-scene plans/art, local voices, H3 sources, separate live
+composition, sound, finishing, actual110s2K60 render/review and monetization answer
+after finishing. Keep the same series duo; do not copy reference audio/frames.
+User already attested MiniMax authorization for Hungary; do not ask again.
+
+The checkpoints below are historical and superseded by this paragraph.
 
 LATEST: All23 keyframes, corrected wood-case continuity, landscape/portrait covers,
 the continuous223-word local narration and a full90s Remotion timeline are ready.

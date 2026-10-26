@@ -2883,10 +2883,10 @@
   "sourceDeliveryNote": "Local H3 352x640/24fps sources; 4-second generated performance units editorially retimed to continuous narration; 1440x2560/60fps upscale/repetition, not native detail or unique poses.",
   "timingMethod": "Model-predicted phoneme durations mapped to canonical script words; not an independent listening review",
   "sourceNarrationHash": "55778dc1713c7f0237f319a564623a98741971cfc0426b608a6446f7cf2336f1",
-  "audio": "texas-cinema-myth/audio/narration.raw.wav",
-  "audioPlaybackRate": 1.0156599552572707,
-  "audioVersion": "e4ccfd63460fefbc",
+  "audio": "texas-cinema-myth/audio/mix.wav",
+  "audioPlaybackRate": 1,
+  "audioVersion": "8b39b9f6cade2f40",
   "readyCount": 23,
   "complete": true,
-  "audioMasterReady": false
+  "audioMasterReady": true
 }

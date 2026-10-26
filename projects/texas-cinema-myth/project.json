@@ -7,7 +7,7 @@
   "composition": "texas-cinema-myth",
   "previewOrigin": "http://localhost:3002",
   "style": "Original Texas noir cartoon mystery: recurring Javelina/Banker, a sepia investigation and an earned Case Closed ending.",
-  "status": "Active production. The live90s timeline replaces labeled keyframes with actual H3 animation as each source completes. Full export pending.",
+  "status": "Rendered90s draft:23 actual local H3 shots, continuous generated narration, original score/Foley and serif captions. Muxed-film visual samples and Chrome playback checked; listening and user creative approval pending.",
   "thumbnail": {"file":"assets/thumbnail.png","landscape":"assets/covers/youtube.png"},
   "export": {"width":1440,"height":2560,"fps":60},
   "sourceLimit": "352x640/24fps local H3 sources, with inspected enhancement/upscale and repeated poses for delivery; never native H3 2K/60."

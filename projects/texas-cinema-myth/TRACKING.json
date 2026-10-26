@@ -8,9 +8,9 @@
     {"id":"15","kind":"hub","center":[120,352],"axes":[20,20],"angle":-6,"featureAxes":[73,70]},
     {"id":"16","kind":"hub","center":[301,288],"axes":[11.5,10.5],"angle":1,"featureAxes":[39,37]},
     {"id":"18","kind":"hub","center":[233,384],"axes":[18,21.5],"angle":-6,"featureAxes":[75,81]},
-    {"id":"04","kind":"hub","mode":"plain","center":[179,206],"axes":[10.5,10.5],"angle":-5,"featureAxes":[37,37]},
+    {"id":"04","kind":"hub","enabled":false,"mode":"plain","center":[179,206],"axes":[10.5,10.5],"angle":-5,"featureAxes":[37,37],"review":"Rejected tracking drift; retain original hub."},
     {"id":"05","kind":"hub","mode":"plain","center":[155,337],"axes":[11,11.5],"angle":-6,"featureAxes":[44,43]},
     {"id":"21","kind":"paper","center":[167,476],"axes":[56,18],"angle":-5,"featureAxes":[130,110],"featureMaskPolygon":[[30,491],[301,493],[327,570],[198,622],[51,586]]},
-    {"id":"23","kind":"hub","center":[94,439],"axes":[19,13.5],"angle":-10,"featureAxes":[67,47]}
+    {"id":"23","kind":"hub","center":[94,439],"axes":[19,13.5],"angle":-10,"featureAxes":[67,47],"patchHeight":0.7,"patchWidth":0.95}
   ]
 }

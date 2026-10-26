@@ -1,11 +1,10 @@
 # The Cinema That Could Control Your Mind
 
-Status: active production. The user accepted the script by typing NEXT, then
-requested building the actual H3 YouTube video. Full image and motion prompt sets,
-the recurring duo reference, all23 scene keyframes and both designed covers are
-prepared. The90s live timeline includes continuous locally generated narration
-and timed captions. Actual H3 episode source generation and finishing continue;
-the full rendered episode is unfinished.
+Status:90s draft rendered at `out/texas-cinema-myth/draft.mp4`, with23 actual H3
+animated sources, continuous locally generated narration, original score/Foley
+and timed captions. Muxed-film visual samples, Chrome playback and2K60/full-decode
+checks are complete. Listening and user creative approval remain pending. The
+user accepted the script by NEXT and subsequently requested actual production.
 See `docs/TEXAS_H3_PRODUCTION.md` for runtime, sources, current queue and next work.
 
 ## Confirmed choices

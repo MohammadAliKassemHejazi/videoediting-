@@ -20,7 +20,9 @@
     "featureAxes": [
       67,
       47
-    ]
+    ],
+    "patchHeight": 0.7,
+    "patchWidth": 0.95
   },
   "method": "CPU pyramidal Lucas-Kanade optical flow, forward/backward rejection and affine RANSAC; native-frame numeric metadata only",
   "frames": [

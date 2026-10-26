@@ -1,9 +1,10 @@
 import {readFileSync,writeFileSync,mkdirSync,openSync,closeSync,unlinkSync} from 'node:fs';
 import {spawnSync} from 'node:child_process';
 import {join} from 'node:path';
-import {createHash} from 'node:crypto';
+import {createHash,randomUUID} from 'node:crypto';
 import {FFMPEG,ffmpeg,duration as mediaDuration} from '../lib/ffmpeg.mjs';
 import {ROOT} from '../lib/project.mjs';
+import {replaceWorkspaceFile} from '../lib/replace-file.mjs';
 const folder=join(ROOT,'story-projects/texas-cinema-myth/assets'),project=join(ROOT,'projects/texas-cinema-myth');
 const spec=JSON.parse(readFileSync(join(project,'editorial.json'),'utf8'));
 const lock=join(ROOT,'.cache/render.lock'),fd=openSync(lock,'wx');writeFileSync(fd,String(process.pid));
@@ -105,7 +106,10 @@ try{
  saveWave(foleyPath,foley);
  const inputs=['-i',voice,'-i',scorePath,'-i',foleyPath],mixGraph='[0:a][1:a][2:a]amix=inputs=3:duration=first:normalize=0';
  const measuredMix=loudness(inputs,mixGraph,-16);
- await ffmpeg(['-threads','2',...inputs,'-filter_complex_threads','1','-filter_complex',mixGraph+`,${norm(measuredMix,-16)},apad,atrim=duration=90[a]`,'-map','[a]','-ar','48000','-ac','2','-c:a','pcm_s16le',join(folder,'mix.wav')]);
+ const pendingMix=join(folder,randomUUID()+'.pending.wav');
+ await ffmpeg(['-threads','2',...inputs,'-filter_complex_threads','1','-filter_complex',mixGraph+`,${norm(measuredMix,-16)},apad,atrim=duration=90[a]`,'-map','[a]','-ar','48000','-ac','2','-c:a','pcm_s16le',pendingMix]);
+ if(Math.abs(mediaDuration(pendingMix)-90)>.02)throw Error('Audio master duration failed');
+ await ffmpeg(['-threads','2','-i',pendingMix,'-f','null','-']);replaceWorkspaceFile(pendingMix,join(folder,'mix.wav'));
  const sha=file=>createHash('sha256').update(readFileSync(file)).digest('hex');
  writeFileSync(join(folder,'SOUND_EVENTS.json'),JSON.stringify({duration:90,originalScore:true,originalProceduralFoley:true,recordedSamplesUsed:false,voiceEngine:'Kokoro ONNX am_michael',voiceSpeed:spec.voiceSpeed,voiceTargetLufs:-18.5,masterTargetLufs:-16,truePeakCeilingDb:-1.5,measuredVoiceBeforeMaster:measuredVoice,measuredMixBeforeMaster:measuredMix,files:{raw:sha(raw),voice:sha(voice),score:sha(scorePath),foley:sha(foleyPath),mix:sha(join(folder,'mix.wav'))},events,review:'Numerical mastering and cue preparation; no listening review claimed.'},null,2)+'\n');
  console.log('Prepared continuous90s voice/original guitar-like score/Foley and -16LUFS-target mix; listening remains pending.');

@@ -1,5 +1,34 @@
 # Active production — Texas Casefiles
 
+## Current checkpoint — 2026-10-26
+
+Episode1 is rendered: `out/texas-cinema-myth/draft.mp4`,90.01s,1440x2560/60fps,
+audio and full decode verified. All23 actual H3 sources and23 enhanced copies are
+complete. Exact4s native units, semantic voice edit, tracked prop repairs, timed
+stamp and continuous locally generated narration/original music/Foley are complete.
+Real-ESRGAN runs on Vulkan GPU1 (RTX3060), not index0 (Intel). Enhancement is not
+native2K detail;60fps delivery repeats24fps source poses. Read the project's
+REVIEW.md and SOURCE_REVIEW.md for actual visual/browser checks and limitations.
+The final mux measures-16.0LUFS/-1.7dBFS true peak. No listening or user creative
+approval is claimed. Source digest2d4b1d387c3428c5792c405b7b74115bb4d42c2a2b1453c774ddb5d8e4150e39.
+
+Port issue fixed in27493d0: neither the config nor preview command forces3000.
+The user confirmed rendering works. Studio3002 now has a user-started SECOND
+export active at `out/texas-cinema-myth.mp4`, render queue2450479451671672,
+renderer3003. Inspect Studio's actual queue before starting generation/render:
+these UI exports do not acquire the repository lock. Leave Docker3000 untouched.
+See docs/REMOTION_RENDERING.md. Gallery3001 was restarted to load the updated
+source-hash module; Episode1 now reports ready and its actual MP4 plays in Chrome.
+
+Episode2 (`projects/texas-ten-thousand-steps`) currently has the reference analysis,
+an original267-word multi-voice English script, primary-source fact checks and one
+original character/watch keyframe. It still needs28-shot production, sound and a
+separate110s composition/render. Keep Episode1's project renderer frozen so its
+verified export stays valid. Do not claim Episode2 complete or answer its requested
+final monetization question before production is finished.
+
+The older checkpoints below are historical.
+
 ## LATEST checkpoint — full timeline, generation still active
 
 - All23 still keyframes and designed landscape/portrait covers are generated,

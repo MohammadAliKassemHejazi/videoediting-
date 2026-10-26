@@ -50,7 +50,9 @@
     "episodes": [
       {
         "id": "texas-cinema-myth",
-        "status": "script approved by NEXT; production requested; no completed film or continuity outcome yet"
+        "status": "90-second animated draft rendered and visually sampled; Chrome playback and full decode passed. Listening/user creative approval pending.",
+        "outcome": "Javelina rejects the mind-control sales claim, puts his wallet away and marks the reel advertisement MYTH; Banker fails to sell his wooden case. Both recurring identities/outfits remain unchanged.",
+        "output": "out/texas-cinema-myth/draft.mp4"
       }
     ]
   },
@@ -68,7 +70,16 @@
       "title": "The Cinema That Could Control Your Mind",
       "scriptApprovedBy": "User typed NEXT after the STEP 7 script",
       "productionAuthorizedBy": "User requested H3 build of the actual YouTube video",
-      "status": "Full scene artwork, timed continuous narration and90s live timeline prepared; actual local H3 episode sources and finishing in progress"
+      "status": "90-second animated draft rendered and visually sampled; Chrome playback and full decode passed. Listening/user creative approval pending.",
+      "outcome": "Javelina rejects the mind-control sales claim, puts his wallet away and marks the reel advertisement MYTH; Banker fails to sell his wooden case. Both recurring identities/outfits remain unchanged.",
+      "output": "out/texas-cinema-myth/draft.mp4"
+    },
+    {
+      "id": "texas-ten-thousand-steps",
+      "title": "Who Told Your Watch?",
+      "status": "Reference analyzed, original script and first keyframe ready; motion generation and final production pending.",
+      "heroProp": "pedometer-v1: round antique brass case, plain brown leather strap, dark face with a single amber numeric window; worn on Javelina left wrist above glove cuff",
+      "continuity": "Same javelina-victim and vulture-banker identities/outfits. The old reel and wooden case do not reappear as the new hero prop."
     }
   ],
   "narrator": {
