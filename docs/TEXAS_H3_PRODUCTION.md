@@ -32,6 +32,10 @@
   `render-texas-episode.mjs`. Read/review them before invoking. Source23 must exist.
   Run exact4s intermediate preparation, then local voice/music/Foley mastering,
   then the optional enhancement test/inspection/all, then sync and render.
+  An owned waiting helper is now active: scripts/await-texas-finishing.mjs,
+  session21556, state `.cache/texas-cinema-myth/finishing-wait.json`. It waits for
+  source23's completed record and a clear lock, then runs units/audio/sync
+  sequentially. Check this helper before manually launching those same stages.
 - Optional official Real-ESRGAN NCNN binary/models are downloaded under
   `.cache/video-finishing/realesrgan`; hashes in FINISHING_TOOLS.json, publisher
   licenses under vendor/video-finishing. Help works; GPU inference/three-frame

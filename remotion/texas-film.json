@@ -19,7 +19,7 @@
       "wordFrom": 0,
       "wordTo": 10,
       "startFrame": 0,
-      "source": "texas-cinema-myth/shots/01-h3.mp4",
+      "source": "texas-cinema-myth/shots/01-x4.mp4",
       "keyframe": "texas-cinema-myth/keyframes/01.png",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
@@ -28,7 +28,10 @@
       "playbackRate": 1.0714285714285714,
       "imageVersion": "5f1611ec46e43d34",
       "available": true,
-      "version": "b5b9bc2f9b9ef567"
+      "version": "464e51e63c4e7a6a",
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true
     },
     {
       "id": "02",
@@ -37,7 +40,7 @@
       "wordFrom": 10,
       "wordTo": 19,
       "startFrame": 224,
-      "source": "texas-cinema-myth/shots/02-h3.mp4",
+      "source": "texas-cinema-myth/shots/02-x4.mp4",
       "keyframe": "texas-cinema-myth/keyframes/02.png",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
@@ -46,7 +49,10 @@
       "playbackRate": 1.021276595744681,
       "imageVersion": "8ad5a8b874e700e8",
       "available": true,
-      "version": "447791a4baabc95a"
+      "version": "ea8c576d59b902e5",
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true
     },
     {
       "id": "03",
@@ -55,7 +61,7 @@
       "wordFrom": 19,
       "wordTo": 28,
       "startFrame": 459,
-      "source": "texas-cinema-myth/shots/03-h3.mp4",
+      "source": "texas-cinema-myth/shots/03-x4.mp4",
       "keyframe": "texas-cinema-myth/keyframes/03.png",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
@@ -64,7 +70,10 @@
       "playbackRate": 1.3872832369942196,
       "imageVersion": "1bdcc14e2dd94d9e",
       "available": true,
-      "version": "32961e9510ca1efd"
+      "version": "01dd466064752f0e",
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true
     },
     {
       "id": "04",
@@ -73,7 +82,7 @@
       "wordFrom": 28,
       "wordTo": 38,
       "startFrame": 632,
-      "source": "texas-cinema-myth/shots/04-h3.mp4",
+      "source": "texas-cinema-myth/shots/04-x4.mp4",
       "keyframe": "texas-cinema-myth/keyframes/04.png",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
@@ -82,7 +91,10 @@
       "playbackRate": 0.8053691275167785,
       "imageVersion": "0a52b2045b58655d",
       "available": true,
-      "version": "e940111bc648578c"
+      "version": "8158eca28ecea17d",
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true
     },
     {
       "id": "05",
@@ -91,7 +103,7 @@
       "wordFrom": 38,
       "wordTo": 49,
       "startFrame": 930,
-      "source": "texas-cinema-myth/shots/05-h3.mp4",
+      "source": "texas-cinema-myth/shots/05-x4.mp4",
       "keyframe": "texas-cinema-myth/keyframes/05.png",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
@@ -100,7 +112,10 @@
       "playbackRate": 0.8823529411764706,
       "imageVersion": "ee8469acd03e16d6",
       "available": true,
-      "version": "39aeed5e560c4af8"
+      "version": "6eb51fc852511dbc",
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true
     },
     {
       "id": "06",
@@ -109,7 +124,7 @@
       "wordFrom": 49,
       "wordTo": 58,
       "startFrame": 1202,
-      "source": "texas-cinema-myth/shots/06-h3.mp4",
+      "source": "texas-cinema-myth/shots/06-x4.mp4",
       "keyframe": "texas-cinema-myth/keyframes/06.png",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
@@ -118,7 +133,10 @@
       "playbackRate": 0.9716599190283401,
       "imageVersion": "7b24e840b483723f",
       "available": true,
-      "version": "c0ce3d3047e35084"
+      "version": "482ad7d145dfb04b",
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true
     },
     {
       "id": "07",
@@ -127,7 +145,7 @@
       "wordFrom": 58,
       "wordTo": 69,
       "startFrame": 1449,
-      "source": "texas-cinema-myth/shots/07-h3.mp4",
+      "source": "texas-cinema-myth/shots/07-x4.mp4",
       "keyframe": "texas-cinema-myth/keyframes/07.png",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
@@ -136,7 +154,10 @@
       "playbackRate": 0.995850622406639,
       "imageVersion": "22efb87a452de4be",
       "available": true,
-      "version": "0f8869456426aab5"
+      "version": "67061306932f3758",
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true
     },
     {
       "id": "08",
@@ -145,7 +166,7 @@
       "wordFrom": 69,
       "wordTo": 77,
       "startFrame": 1690,
-      "source": "texas-cinema-myth/shots/08-h3.mp4",
+      "source": "texas-cinema-myth/shots/08-x4.mp4",
       "keyframe": "texas-cinema-myth/keyframes/08.png",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
@@ -154,7 +175,10 @@
       "playbackRate": 1.2435233160621761,
       "imageVersion": "24a08b56e6d8379e",
       "available": true,
-      "version": "df35757f3a9a2664"
+      "version": "9126a13c082a4c89",
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true
     },
     {
       "id": "09",
@@ -163,7 +187,7 @@
       "wordFrom": 77,
       "wordTo": 89,
       "startFrame": 1883,
-      "source": "texas-cinema-myth/shots/09-h3.mp4",
+      "source": "texas-cinema-myth/shots/09-x4.mp4",
       "keyframe": "texas-cinema-myth/keyframes/09.png",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
@@ -172,7 +196,10 @@
       "playbackRate": 0.8421052631578947,
       "imageVersion": "fd8cea1f3eb78d2f",
       "available": true,
-      "version": "3b3996bc931150e2"
+      "version": "cd8acf0481cc2955",
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true
     },
     {
       "id": "10",
@@ -181,7 +208,7 @@
       "wordFrom": 89,
       "wordTo": 97,
       "startFrame": 2168,
-      "source": "texas-cinema-myth/shots/10-h3.mp4",
+      "source": "texas-cinema-myth/shots/10-x4.mp4",
       "keyframe": "texas-cinema-myth/keyframes/10.png",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
@@ -190,7 +217,10 @@
       "playbackRate": 1.437125748502994,
       "imageVersion": "bdb7daa6e3fe2fb8",
       "available": true,
-      "version": "d9e3805bfbb6355d"
+      "version": "e22ae2023283f64e",
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true
     },
     {
       "id": "11",
@@ -199,7 +229,7 @@
       "wordFrom": 97,
       "wordTo": 109,
       "startFrame": 2335,
-      "source": "texas-cinema-myth/shots/11-h3.mp4",
+      "source": "texas-cinema-myth/shots/11-x4.mp4",
       "keyframe": "texas-cinema-myth/keyframes/11.png",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
@@ -208,7 +238,10 @@
       "playbackRate": 0.8391608391608392,
       "imageVersion": "aeddf076b181a63a",
       "available": true,
-      "version": "97926bd3c4b89388"
+      "version": "cee0d4d7d15bdc34",
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true
     },
     {
       "id": "12",
@@ -217,7 +250,7 @@
       "wordFrom": 109,
       "wordTo": 118,
       "startFrame": 2621,
-      "source": "texas-cinema-myth/shots/12-h3.mp4",
+      "source": "texas-cinema-myth/shots/12-x4.mp4",
       "keyframe": "texas-cinema-myth/keyframes/12.png",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
@@ -226,7 +259,10 @@
       "playbackRate": 0.8480565371024735,
       "imageVersion": "0de7f8c9faf317cd",
       "available": true,
-      "version": "31bb5fdc058b725a"
+      "version": "ddcb77dfa2839179",
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true
     },
     {
       "id": "13",
@@ -235,7 +271,7 @@
       "wordFrom": 118,
       "wordTo": 134,
       "startFrame": 2904,
-      "source": "texas-cinema-myth/shots/13-h3.mp4",
+      "source": "texas-cinema-myth/shots/13-x4.mp4",
       "keyframe": "texas-cinema-myth/keyframes/13.png",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
@@ -244,7 +280,10 @@
       "playbackRate": 0.7272727272727273,
       "imageVersion": "9b33f4dfa7485cf1",
       "available": true,
-      "version": "571aeeb075a33ea5"
+      "version": "ca800dd9067c17af",
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true
     },
     {
       "id": "14",
@@ -253,7 +292,7 @@
       "wordFrom": 134,
       "wordTo": 137,
       "startFrame": 3234,
-      "source": "texas-cinema-myth/shots/14-h3.mp4",
+      "source": "texas-cinema-myth/shots/14-x4.mp4",
       "keyframe": "texas-cinema-myth/keyframes/14.png",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
@@ -262,7 +301,10 @@
       "playbackRate": 3.1578947368421053,
       "imageVersion": "55a61dd4ff8f1ce2",
       "available": true,
-      "version": "25b0a5d488de612b"
+      "version": "10646bda760554bf",
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true
     },
     {
       "id": "15",
@@ -271,7 +313,7 @@
       "wordFrom": 137,
       "wordTo": 150,
       "startFrame": 3310,
-      "source": "texas-cinema-myth/shots/15-h3.mp4",
+      "source": "texas-cinema-myth/shots/15-x4.mp4",
       "keyframe": "texas-cinema-myth/keyframes/15.png",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
@@ -280,7 +322,10 @@
       "playbackRate": 0.9523809523809523,
       "imageVersion": "812bc2f32d9b84a6",
       "available": true,
-      "version": "cd3f49ec8e681f7a"
+      "version": "93f8bb12ba5d5896",
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true
     },
     {
       "id": "16",
@@ -289,7 +334,7 @@
       "wordFrom": 150,
       "wordTo": 160,
       "startFrame": 3562,
-      "source": "texas-cinema-myth/shots/16-h3.mp4",
+      "source": "texas-cinema-myth/shots/16-x4.mp4",
       "keyframe": "texas-cinema-myth/keyframes/16.png",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
@@ -298,7 +343,10 @@
       "playbackRate": 1.1111111111111112,
       "imageVersion": "87ceb80288b6cf89",
       "available": true,
-      "version": "9aac70ee7c2624da"
+      "version": "be14474c42de84c5",
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true
     },
     {
       "id": "17",
@@ -307,7 +355,7 @@
       "wordFrom": 160,
       "wordTo": 172,
       "startFrame": 3778,
-      "source": "texas-cinema-myth/shots/17-h3.mp4",
+      "source": "texas-cinema-myth/shots/17-x4.mp4",
       "keyframe": "texas-cinema-myth/keyframes/17.png",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
@@ -316,7 +364,10 @@
       "playbackRate": 0.898876404494382,
       "imageVersion": "e7894ea74cb16777",
       "available": true,
-      "version": "18d0c50181ea4905"
+      "version": "73824b1d0b8af737",
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true
     },
     {
       "id": "18",
@@ -325,7 +376,7 @@
       "wordFrom": 172,
       "wordTo": 184,
       "startFrame": 4045,
-      "source": "texas-cinema-myth/shots/18-h3.mp4",
+      "source": "texas-cinema-myth/shots/18-x4.mp4",
       "keyframe": "texas-cinema-myth/keyframes/18.png",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
@@ -333,7 +384,11 @@
       "durationFrames": 296,
       "playbackRate": 0.8108108108108107,
       "imageVersion": "6ccd388b19b2a149",
-      "available": false
+      "available": true,
+      "version": "4d827c88ef58cdbf",
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true
     },
     {
       "id": "19",
@@ -342,7 +397,7 @@
       "wordFrom": 184,
       "wordTo": 194,
       "startFrame": 4341,
-      "source": "texas-cinema-myth/shots/19-h3.mp4",
+      "source": "texas-cinema-myth/shots/19-x4.mp4",
       "keyframe": "texas-cinema-myth/keyframes/19.png",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
@@ -350,7 +405,11 @@
       "durationFrames": 248,
       "playbackRate": 0.9677419354838709,
       "imageVersion": "d58cdc2bb0d30201",
-      "available": false
+      "available": true,
+      "version": "9141243cba5ec76c",
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true
     },
     {
       "id": "20",
@@ -359,7 +418,7 @@
       "wordFrom": 194,
       "wordTo": 207,
       "startFrame": 4589,
-      "source": "texas-cinema-myth/shots/20-h3.mp4",
+      "source": "texas-cinema-myth/shots/20-x4.mp4",
       "keyframe": "texas-cinema-myth/keyframes/20.png",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
@@ -367,7 +426,11 @@
       "durationFrames": 289,
       "playbackRate": 0.8304498269896194,
       "imageVersion": "736aa8da2006fdd3",
-      "available": false
+      "available": true,
+      "version": "cc233cd8fc006996",
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true
     },
     {
       "id": "21",
@@ -376,15 +439,33 @@
       "wordFrom": 207,
       "wordTo": 213,
       "startFrame": 4878,
-      "source": "texas-cinema-myth/shots/21-h3.mp4",
+      "source": "texas-cinema-myth/shots/21-x4.mp4",
       "keyframe": "texas-cinema-myth/keyframes/21.png",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
       "transitionIn": "cut",
       "durationFrames": 195,
+      "performanceMap": [
+        {
+          "fromFrame": 0,
+          "durationFrames": 51,
+          "sourceStart": 0.13333333333333333,
+          "sourceEnd": 0.6666666666666666
+        },
+        {
+          "fromFrame": 51,
+          "durationFrames": 144,
+          "sourceStart": 0.6666666666666666,
+          "sourceEnd": 4.133333333333334
+        }
+      ],
       "playbackRate": 1.2307692307692308,
       "imageVersion": "1373d487644b0757",
-      "available": false
+      "available": true,
+      "version": "cbcd48addc3975b4",
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true
     },
     {
       "id": "22",
@@ -393,15 +474,20 @@
       "wordFrom": 213,
       "wordTo": 217,
       "startFrame": 5073,
-      "source": "texas-cinema-myth/shots/22-h3.mp4",
+      "source": "texas-cinema-myth/shots/22-x4.mp4",
       "keyframe": "texas-cinema-myth/keyframes/22.png",
-      "sourceStart": 0.125,
+      "sourceStart": 1.5,
       "sourceUnitDuration": 4,
       "transitionIn": "cut",
       "durationFrames": 123,
-      "playbackRate": 1.9512195121951221,
+      "sourcePlaybackDuration": 2.5,
+      "playbackRate": 1.2195121951219514,
       "imageVersion": "9cafc989bd5fb954",
-      "available": false
+      "available": true,
+      "version": "818e33af2deb9250",
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true
     },
     {
       "id": "23",
@@ -410,7 +496,7 @@
       "wordFrom": 217,
       "wordTo": 223,
       "startFrame": 5196,
-      "source": "texas-cinema-myth/shots/23-h3.mp4",
+      "source": "texas-cinema-myth/shots/23-x4.mp4",
       "keyframe": "texas-cinema-myth/keyframes/23.png",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
@@ -418,7 +504,11 @@
       "durationFrames": 204,
       "playbackRate": 1.1764705882352942,
       "imageVersion": "9a1f07f10f700624",
-      "available": false
+      "available": true,
+      "version": "2fda44fa061d52a4",
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true
     }
   ],
   "words": [
@@ -2788,13 +2878,15 @@
     ]
   ],
   "stampTime": 83.83711453744495,
+  "stampContactTime": 82.15,
+  "stampRevealTime": 83.63,
   "sourceDeliveryNote": "Local H3 352x640/24fps sources; 4-second generated performance units editorially retimed to continuous narration; 1440x2560/60fps upscale/repetition, not native detail or unique poses.",
   "timingMethod": "Model-predicted phoneme durations mapped to canonical script words; not an independent listening review",
   "sourceNarrationHash": "55778dc1713c7f0237f319a564623a98741971cfc0426b608a6446f7cf2336f1",
   "audio": "texas-cinema-myth/audio/narration.raw.wav",
   "audioPlaybackRate": 1.0156599552572707,
   "audioVersion": "e4ccfd63460fefbc",
-  "readyCount": 17,
-  "complete": false,
+  "readyCount": 23,
+  "complete": true,
   "audioMasterReady": false
 }

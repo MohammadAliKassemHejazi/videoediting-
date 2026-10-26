@@ -41,6 +41,10 @@ function noise(stereo,when,length,gain,kind,pan=0){
   return gain*low*Math.sin(Math.PI*p)**2;
  });
 }
+function metalContact(stereo,when){
+ events.push({type:'original light film-reel contact',at:when,gain:.045});
+ add(stereo,when,.65,-.15,t=>.045*(Math.sin(2*Math.PI*1830*t)*Math.exp(-t*18)+.3*Math.sin(2*Math.PI*2771*t)*Math.exp(-t*24)));
+}
 function saveWave(path,stereo){
  const n=stereo[0].length,wav=Buffer.alloc(44+n*4);wav.write('RIFF');wav.writeUInt32LE(wav.length-8,4);wav.write('WAVEfmt ',8);wav.writeUInt32LE(16,16);wav.writeUInt16LE(1,20);wav.writeUInt16LE(2,22);wav.writeUInt32LE(rate,24);wav.writeUInt32LE(rate*4,28);wav.writeUInt16LE(4,32);wav.writeUInt16LE(16,34);wav.write('data',36);wav.writeUInt32LE(n*4,40);
  for(let i=0;i<n;i++){const env=Math.max(0,Math.min(1,i/rate/.08,(total-i/rate)/.7));for(let c=0;c<2;c++)wav.writeInt16LE(Math.round(Math.max(-.98,Math.min(.98,stereo[c][i]*env))*32767),44+i*4+c*2)}
@@ -55,7 +59,8 @@ function norm(measured,target){return `loudnorm=I=${target}:TP=-1.5:LRA=9:measur
 try{
  mkdirSync(folder,{recursive:true});
  const raw=join(folder,'narration.raw.wav'),voice=join(folder,'narration.wav'),scorePath=join(folder,'score.wav'),foleyPath=join(folder,'foley.wav');
- if(Math.abs(mediaDuration(raw)*spec.voiceSpeed-90.8*spec.voiceSpeed)>.2)throw Error('Unexpected raw narration duration');
+ const voiceMetadata=JSON.parse(readFileSync(join(folder,'narration.raw.json'),'utf8'));
+ if(Math.abs(mediaDuration(raw)-voiceMetadata.duration)>.1||voiceMetadata.scriptHash!==spec.sourceNarrationHash)throw Error('Unexpected raw narration source');
  const voiceGraph=`[0:a]atempo=${spec.voiceSpeed.toFixed(10)},highpass=f=65`;
  const measuredVoice=loudness(['-i',raw],voiceGraph,-18.5);
  await ffmpeg(['-threads','2','-i',raw,'-filter_threads','1','-af',`atempo=${spec.voiceSpeed.toFixed(10)},highpass=f=65,${norm(measuredVoice,-18.5)},apad,atrim=duration=90`,'-ar','48000','-ac','2','-c:a','pcm_s16le',voice]);
@@ -75,12 +80,15 @@ try{
  for(const [i,f]of [195.9977,246.9417,293.6648].entries())pluck(score,86.6+i*.045,f,.018,i*.15-.15);
  pluck(score,88.3,391.9954,.013,.08);saveWave(scorePath,score);
  const foley=track();
+ metalContact(foley,at('03')+.035);
  noise(foley,at('03')+.15,2.1,.06,'ink wipe',.15);
  noise(foley,at('14')+.08,2.6,.055,'ink wipe',-.15);
  noise(foley,at('05')+.6,.35,.02,'paper / leather',-.15);
  noise(foley,at('09')+.6,.6,.035,'paper / leather',.1);
  noise(foley,at('10')+.4,.35,.025,'paper / leather',-.1);
  noise(foley,at('11')+.7,.4,.027,'paper / leather',.1);
+ noise(foley,at('16')+.02,.18,.028,'paper / leather',.1);
+ noise(foley,at('17')+1.75,.18,.023,'paper / leather',-.1);
  for(let i=0;i<5;i++)noise(foley,at('16')+.18+i*.53,.16,.045,'boardwalk footstep',i%2?.15:-.15);
  noise(foley,at('19')+.8,.5,.035,'paper / leather',-.1);
  // This cue is moved to the inspected physical-contact frame by the finishing
@@ -90,6 +98,10 @@ try{
  const archiveStart=at('04'),archiveEnd=at('15');
  events.push({type:'original synthesized film-projector mechanism',at:archiveStart,length:archiveEnd-archiveStart,gain:.009});
  add(foley,archiveStart,archiveEnd-archiveStart,-.2,(t)=>.009*(Math.sin(2*Math.PI*72*t)*.15+random()*.25)*(.48+.52*Math.max(0,Math.sin(2*Math.PI*24*t))));
+ for(const [begin,length]of [[0,archiveStart],[archiveEnd,total-archiveEnd]]){
+  let wind=0;events.push({type:'original quiet frontier wind',at:begin,length,gain:.006});
+  add(foley,begin,length,.12,t=>{wind+=.014*(random()-wind);return wind*.006*(.7+.3*Math.sin(t*.8))});
+ }
  saveWave(foleyPath,foley);
  const inputs=['-i',voice,'-i',scorePath,'-i',foleyPath],mixGraph='[0:a][1:a][2:a]amix=inputs=3:duration=first:normalize=0';
  const measuredMix=loudness(inputs,mixGraph,-16);

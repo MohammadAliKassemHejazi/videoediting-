@@ -8,11 +8,11 @@ const folder=join(ROOT,'projects/texas-cinema-myth'),cache=join(ROOT,'.cache/tex
 const manifest=JSON.parse(readFileSync(join(folder,'FINISHING_TOOLS.json'),'utf8'));
 const hash=file=>createHash('sha256').update(readFileSync(file)).digest('hex');
 for(const [file,expected]of Object.entries(manifest.files))if(hash(join(bin,file))!==expected)throw Error('Enhancer hash mismatch: '+file);
-const test=process.argv.includes('--test'),ids=test?['01']:process.argv.includes('--all')?Array.from({length:23},(_,n)=>String(n+1).padStart(2,'0')):process.argv.slice(2).filter(x=>/^\d{2}$/.test(x));
+const test=process.argv.includes('--test'),selected=process.argv.slice(2).filter(x=>/^\d{2}$/.test(x)),ids=test?(selected.length?selected:['01']):process.argv.includes('--all')?Array.from({length:23},(_,n)=>String(n+1).padStart(2,'0')):selected;
 if(!ids.length)throw Error('Choose --test, --all or shot IDs');
 mkdirSync(cache,{recursive:true});const lock=join(ROOT,'.cache/render.lock'),fd=openSync(lock,'wx');writeFileSync(fd,String(process.pid));
 try{
- await fetch('http://127.0.0.1:8189/free',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({unload_models:true,free_memory:true})});
+ try{await fetch('http://127.0.0.1:8189/free',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({unload_models:true,free_memory:true})})}catch{console.log('H3 engine is offline; no resident engine model cache to unload.');}
  for(const id of ids){
   const disk=statfsSync(ROOT);if(Number(disk.bavail)*Number(disk.bsize)<9*1024**3)throw Error('Keep9GiB free before another enhancement; partial sources are preserved.');
   const source=join(folder,'assets/shots/'+id+'-h3.mp4');
@@ -33,11 +33,12 @@ try{
    child.stdout.on('data',report);child.stderr.on('data',report);child.on('error',reject);child.on('exit',code=>{log.end();code===0?resolve():reject(Error('Enhancer failed '+code+'; '+logFile))});
   });
   const count=readdirSync(images).filter(f=>f.endsWith('.png')).length;if(count!==total)throw Error('Missing enhanced frames: '+id);
-  if(test){writeFileSync(join(cache,'test.json'),JSON.stringify({source,input,images,logFile,gpuHeader:header,signature,status:'Visual comparison required'},null,2)+'\n');console.log('Three-frame comparison ready: '+images);continue;}
+  if(test){const record=JSON.stringify({source,input,images,logFile,gpuHeader:header,signature,status:'Visual comparison required'},null,2)+'\n';writeFileSync(join(cache,'test.json'),record);writeFileSync(join(cache,id+'-test.json'),record);console.log('Three-frame comparison ready: '+images);continue;}
   await ffmpeg(['-threads','2','-framerate','24','-start_number','0','-i',join(images,'%08d.png'),'-an','-c:v','libx264','-preset','medium','-crf','17','-pix_fmt','yuv420p','-movflags','+faststart',output]);
   const metadata=probe(output);if(metadata.width!==1408||metadata.height!==2560||metadata.fps!==24||Math.abs(metadata.duration-107/24)>.04)throw Error('Enhanced source metadata mismatch: '+id);
   await ffmpeg(['-threads','2','-v','error','-i',output,'-f','null','-']);
   writeFileSync(record,JSON.stringify({input:signature,outputHash:hash(output),metadata,work,gpuHeader:header,status:'4x enhanced source; visual review separate, native H3 originals preserved',at:new Date().toISOString()},null,2)+'\n');
+  await new Promise((resolve,reject)=>{const child=spawn('powershell.exe',['-NoProfile','-File',join(ROOT,'scripts/clear-texas-enhancement-frames.ps1'),'-WorkPath',work],{cwd:ROOT,stdio:'inherit',windowsHide:true});child.on('error',reject);child.on('exit',code=>code===0?resolve():reject(Error('Verified frame cleanup failed; frames preserved.')))});
   console.log('Enhanced source complete '+id+'/23');
  }
 }finally{closeSync(fd);unlinkSync(lock)}

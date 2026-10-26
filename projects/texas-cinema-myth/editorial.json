@@ -325,6 +325,20 @@
       "sourceUnitDuration": 4,
       "transitionIn": "cut",
       "durationFrames": 195,
+      "performanceMap": [
+        {
+          "fromFrame": 0,
+          "durationFrames": 51,
+          "sourceStart": 0.13333333333333333,
+          "sourceEnd": 0.6666666666666666
+        },
+        {
+          "fromFrame": 51,
+          "durationFrames": 144,
+          "sourceStart": 0.6666666666666666,
+          "sourceEnd": 4.133333333333334
+        }
+      ],
       "playbackRate": 1.2307692307692308
     },
     {
@@ -336,11 +350,12 @@
       "startFrame": 5073,
       "source": "texas-cinema-myth/shots/22-h3.mp4",
       "keyframe": "texas-cinema-myth/keyframes/22.png",
-      "sourceStart": 0.125,
+      "sourceStart": 1.5,
       "sourceUnitDuration": 4,
       "transitionIn": "cut",
       "durationFrames": 123,
-      "playbackRate": 1.9512195121951221
+      "sourcePlaybackDuration": 2.5,
+      "playbackRate": 1.2195121951219514
     },
     {
       "id": "23",
@@ -2725,6 +2740,8 @@
     ]
   ],
   "stampTime": 83.83711453744495,
+  "stampContactTime": 82.15,
+  "stampRevealTime": 83.63,
   "sourceDeliveryNote": "Local H3 352x640/24fps sources; 4-second generated performance units editorially retimed to continuous narration; 1440x2560/60fps upscale/repetition, not native detail or unique poses.",
   "timingMethod": "Model-predicted phoneme durations mapped to canonical script words; not an independent listening review",
   "sourceNarrationHash": "55778dc1713c7f0237f319a564623a98741971cfc0426b608a6446f7cf2336f1"

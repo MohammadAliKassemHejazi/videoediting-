@@ -26,7 +26,11 @@ an episode outcome; never overwrite the bible to fit a new scene. Preserve any
 user-supplied voices, assets or references. Do not claim procedural models are
 photorealistic or exact recreations of upstream demos.
 
-English and Arabic are selectable. Use the configured free neural voice client
+English and Arabic are selectable. For a requested offline workflow, use the
+installed local Kokoro ONNX narrator when it supports the chosen language; the
+Texas episode's stable English working preset is am_michael. Read the actual
+engine/model provenance and keep listening separate from timing validation.
+Use the configured free neural voice client
 or supplied audio; it sends narration text to Microsoft's online speech service.
 If unavailable, report the failure and choose another available free/local engine
 without pretending a system voice is neural AI. Align scenes and captions to
@@ -43,3 +47,27 @@ For the original Arabic memory story's independent collage, Clawd brush and lit
 memory-story command. For the supplied fox/kitten animation direction, use the
 warm-creature-story skill and docs/WARM_CREATURE_STORIES.md. Its keyframe and
 native generator workflow require real animation before an episode can be exported.
+
+## Local MiniMax H3 episodes
+
+When H3 is explicitly selected, read the installed h3-prompt-writing skill and
+docs/TEXAS_H3_PRODUCTION.md, RESUME.md and the episode BRIEF before resuming.
+The working H3 engine is separate from Wan, on8189, with pinned GGUF components,
+first-frame I2V conditioning and sequential generation protected by render.lock.
+For the current Texas casefile the user approved the English script with NEXT,
+requested actual production, and reports separate MiniMax permission for Hungary.
+Do not repeat that intake/authorization question or restore historical approval
+gates. Do not invent the email's terms or certify platform monetization.
+
+Keep original H3 sources and takes, the recurring series bible and actual source
+reviews. New actor images must use the same model-sheet references. Numeric prop
+tracking and editorial graphics may repair unstable AI lettering without altering
+the source footage. Four-second generated performance units can be editorially
+trimmed/retimed to the continuous narrator when needed for the user's requested
+coherent90s film. Never mislabel low-resolution24fps generation, AI upscaling or
+frame repetition as native2K/60fps animation. The master still exports2K/60fps.
+
+Use the full90s Remotion composition, not only the four-second first-shot test.
+Keep incomplete keyframes labeled, and require real animation before final export.
+Prepare original sound, a designed cover, full decode/playback/phone/seam review
+and source hashes. No concurrent H3, enhancement or full rendering jobs.

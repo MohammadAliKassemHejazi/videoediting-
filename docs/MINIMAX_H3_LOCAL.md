@@ -90,11 +90,13 @@ Never promise an arbitrary node duration parameter produces an exact four second
 Twenty-three four-second clips total 92 seconds; the user permits trimming the
 last two seconds for a 90-second edit.
 
-## Texas story overrides and current gate
+## Texas story overrides and current production
 
-See `projects/texas-cinema-myth/BRIEF.md`. The user chose idea 4, ending 3 (Case
-Closed), and has a STEP 7 English script draft awaiting approval. Do not generate
-image prompts/assets before voiceover approval; animation prompts require NEXT.
+See `projects/texas-cinema-myth/BRIEF.md` and docs/TEXAS_H3_PRODUCTION.md. The user
+chose idea4, ending3 Case Closed, approved the English script with NEXT, requested
+actual H3 production and reports separate MiniMax permission for Hungary. Full
+artwork and local narration are generated; actual source animation/finishing is
+active. Do not restore the earlier prompt-only approval gate or repeat intake.
 
 For this project all animation prompts describe visible motion only. User rules
 override H3's audiovisual prompt defaults: do not insert soundscape/music,
@@ -116,7 +118,11 @@ The official model license's I.5 and V.4 exclude local use in the EU, UK, US and
 South Korea under that standard grant; MiniMax offers a separate authorization
 route. A Europe/Budapest timezone is not proof of where the user deploys. Before
 weights are acquired/run, establish applicable deployment rights if the intended
-location is one of those regions. No weights were downloaded or terms accepted.
+location is one of those regions. For this current episode, the user reports a
+separate permission email and production proceeds on that attestation. Verified
+weights are downloaded and actual local I2V generation works; hashes and immutable
+revisions are in projects/texas-cinema-myth/H3_MODELS.json. Exact email terms and
+commercial scope have not been independently inspected.
 MiniMax's general FAQ and Comfy's commercial-license summary differ in emphasis;
 retain the actual model license and verify applicable terms rather than certifying
 unconditional commercial rights from the word "open". Do not assume an MIT grant

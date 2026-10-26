@@ -1,0 +1,9 @@
+{
+  "stampContactTime":82.15,
+  "stampRevealTime":83.63,
+  "sourceEdits":{
+    "21":{"performanceMap":[{"fromFrame":0,"durationFrames":51,"sourceStart":0.13333333333333333,"sourceEnd":0.6666666666666666},{"fromFrame":51,"durationFrames":144,"sourceStart":0.6666666666666666,"sourceEnd":4.133333333333334}]},
+    "22":{"sourceStart":1.5,"sourcePlaybackDuration":2.5}
+  },
+  "notes":"21 anticipates then stamps on the spoken action; the printed mark reveals as the stamp clears the paper.22 selects the later closed-mouth nod instead of the earlier broad grin. Native four-second source units are preserved."
+}

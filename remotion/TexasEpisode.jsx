@@ -4,6 +4,20 @@ import propTracks from './texas-tracks.json';
 
 const clamp=x=>Math.max(0,Math.min(1,x));
 const file=(path,version)=>staticFile(path)+(version?'?v='+version:'');
+const sourceTime=(shot,frame)=>{
+ if(!shot.performanceMap)return Math.round(shot.sourceStart*60)/60+frame/60*shot.playbackRate;
+ const segment=shot.performanceMap.find(s=>frame>=s.fromFrame&&frame<s.fromFrame+s.durationFrames)||shot.performanceMap.at(-1);
+ return Math.round(segment.sourceStart*60)/60+(frame-segment.fromFrame)/segment.durationFrames*(segment.sourceEnd-segment.sourceStart);
+};
+function trackAt(track,index){
+ index=Math.max(0,Math.min(track.frames.length-1,index));const lo=track.frames[Math.floor(index)],hi=track.frames[Math.min(track.frames.length-1,Math.ceil(index))],mix=index-Math.floor(index);
+ return{matrix:lo.matrix.map((v,i)=>v+(hi.matrix[i]-v)*mix),opacity:lo.visibility+(hi.visibility-lo.visibility)*mix};
+}
+const videoStyle={width:'100%',height:'100%',objectFit:'cover'};
+function PerformanceVideo({shot}){
+ if(!shot.performanceMap)return <OffthreadVideo name={shot.id+' H3 animation'} src={file(shot.source,shot.version)} muted trimBefore={Math.round(shot.sourceStart*60)} playbackRate={shot.playbackRate} style={videoStyle}/>;
+ return <>{shot.performanceMap.map((s,i)=><Sequence key={i} from={s.fromFrame} durationInFrames={s.durationFrames} premountFor={60} name={shot.id+' continuous performance '+(i+1)}><OffthreadVideo src={file(shot.source,shot.version)} muted trimBefore={Math.round(s.sourceStart*60)} playbackRate={(s.sourceEnd-s.sourceStart)/(s.durationFrames/60)} style={videoStyle}/></Sequence>)}</>;
+}
 
 function InkEdge({amount,incoming=false}){
  const x=1640-amount*1840;
@@ -16,7 +30,7 @@ function InkEdge({amount,incoming=false}){
 function ShotPicture({shot}){
  const frame=useCurrentFrame();
  return <AbsoluteFill style={{background:'#10131b'}}>
-  {shot.available?<OffthreadVideo name={shot.id+' H3 animation'} src={file(shot.source,shot.version)} muted trimBefore={Math.round(shot.sourceStart*60)} playbackRate={shot.playbackRate} style={{width:'100%',height:'100%',objectFit:'cover'}}/>:<Img src={file(shot.keyframe,shot.imageVersion)} style={{width:'100%',height:'100%',objectFit:'cover'}}/>}
+  {shot.available?<PerformanceVideo shot={shot}/>:<Img src={file(shot.keyframe,shot.imageVersion)} style={videoStyle}/>}
   {shot.available&&propTracks[shot.id]?.kind==='hub'?<TrackedHub shot={shot} frame={frame} track={propTracks[shot.id]}/>:null}
   {shot.transitionIn==='ink-reveal'&&frame<20?<InkEdge amount={clamp(frame/17)} incoming/>:null}
   {['03','14'].includes(shot.id)&&frame>shot.durationFrames-18?<InkEdge amount={clamp((frame-shot.durationFrames+18)/15)}/>:null}
@@ -24,12 +38,11 @@ function ShotPicture({shot}){
 }
 
 function TrackedHub({shot,frame,track}){
- const index=Math.max(0,Math.min(track.frames.length-1,(Math.round(shot.sourceStart*60)/60+frame/60*shot.playbackRate)*24));
- const lo=track.frames[Math.floor(index)],hi=track.frames[Math.min(track.frames.length-1,Math.ceil(index))],mix=index-Math.floor(index);
- const matrix=lo.matrix.map((v,i)=>v+(hi.matrix[i]-v)*mix),opacity=lo.visibility+(hi.visibility-lo.visibility)*mix;
+ const {matrix,opacity}=trackAt(track,sourceTime(shot,frame)*24);
  const {center:[x,y],axes:[rx,ry],angle}=track.configuration;
  const gradient='hub-gold-'+shot.id;
- return <svg viewBox="0 0 352 640" preserveAspectRatio="xMidYMid slice" style={{position:'absolute',inset:0,width:'100%',height:'100%',opacity}}><defs><radialGradient id={gradient}><stop offset="0" stopColor="#ffdc80"/><stop offset="1" stopColor="#f9c763"/></radialGradient><filter id={gradient+'-edge'}><feGaussianBlur stdDeviation=".65"/></filter></defs><g transform={`matrix(${matrix.join(' ')})`}><g transform={`translate(${x} ${y}) rotate(${angle}) scale(1 ${ry/rx})`}><ellipse rx={rx*.88} ry={rx*.3} fill={`url(#${gradient})`} filter={`url(#${gradient+'-edge'})`}/><text x="0" y="1.85" fontFamily="Georgia,serif" fontWeight="bold" fontSize={rx*.24} textAnchor="middle" fill="#56351d" textLength={rx*1.58} lengthAdjust="spacingAndGlyphs">CONTROL</text></g></g></svg>;
+ const plain=track.configuration.mode==='plain';
+ return <svg viewBox="0 0 352 640" preserveAspectRatio="xMidYMid slice" style={{position:'absolute',inset:0,width:'100%',height:'100%',opacity}}><defs><radialGradient id={gradient}><stop offset="0" stopColor={plain?'#c7b799':'#ffdc80'}/><stop offset="1" stopColor={plain?'#b7a586':'#f9c763'}/></radialGradient><filter id={gradient+'-edge'}><feGaussianBlur stdDeviation=".65"/></filter></defs><g transform={`matrix(${matrix.join(' ')})`}><g transform={`translate(${x} ${y}) rotate(${angle}) scale(1 ${ry/rx})`}><ellipse rx={rx*(plain?1.02:.88)} ry={rx*(plain?.65:.3)} fill={`url(#${gradient})`} filter={`url(#${gradient+'-edge'})`}/>{plain?null:<text x="0" y="1.85" fontFamily="Georgia,serif" fontWeight="bold" fontSize={rx*.24} textAnchor="middle" fill="#56351d" textLength={rx*1.58} lengthAdjust="spacingAndGlyphs">CONTROL</text>}</g></g></svg>;
 }
 
 function StoryShot({spec,index}){
@@ -48,11 +61,13 @@ function Captions({spec,time}){
 
 function CaseStamp({spec,time}){
  const shot=spec.shots.find(s=>s.id==='21');
- if(time<spec.stampTime||time>=(shot.startFrame+shot.durationFrames)/60)return null;
- // Coordinates are in the native image plane. Replace with measured per-frame
- // paper tracking before final delivery; the preview keeps this cue editable.
- const age=time-spec.stampTime,scale=1+.08*Math.exp(-age*30),opacity=clamp(age*35);
- return <svg viewBox="0 0 352 640" preserveAspectRatio="xMidYMid slice" style={{position:'absolute',inset:0,width:'100%',height:'100%',opacity}}><g transform={`translate(202 502) rotate(-9) scale(${scale})`} fill="none" stroke="#9c3025"><rect x="-67" y="-22" width="134" height="44" rx="2" strokeWidth="2.4"/><rect x="-63" y="-18" width="126" height="36" strokeWidth=".6"/><text x="0" y="12" textAnchor="middle" fill="#9c3025" stroke="none" fontFamily="TexasSerif,Georgia,serif" fontSize="35" fontWeight="600" letterSpacing="2">MYTH</text></g></svg>;
+ const reveal=spec.stampRevealTime??spec.stampTime;
+ if(time<reveal||time>=(shot.startFrame+shot.durationFrames)/60)return null;
+ const track=propTracks['21'],localFrame=time*60-shot.startFrame;
+ const matrix=track?trackAt(track,sourceTime(shot,localFrame)*24).matrix:[1,0,0,1,0,0];
+ const {center:[x,y]=[167,476],angle=-5}=track?.configuration||{};
+ const opacity=clamp((time-reveal)*35)*.92;
+ return <svg viewBox="0 0 352 640" preserveAspectRatio="xMidYMid slice" style={{position:'absolute',inset:0,width:'100%',height:'100%',opacity,mixBlendMode:'multiply'}}><g transform={`matrix(${matrix.join(' ')})`}><g transform={`translate(${x} ${y}) rotate(${angle}) skewX(-8) scale(1 .7)`} fill="none" stroke="#9c3025"><rect x="-56" y="-20" width="112" height="40" rx="1.4" strokeWidth="2.1"/><rect x="-52.5" y="-16.5" width="105" height="33" strokeWidth=".5"/><text x="0" y="10" textAnchor="middle" fill="#9c3025" stroke="none" fontFamily="TexasSerif,Georgia,serif" fontSize="29" fontWeight="600" letterSpacing="1.2">MYTH</text></g></g></svg>;
 }
 
 export function TexasEpisode({spec}){

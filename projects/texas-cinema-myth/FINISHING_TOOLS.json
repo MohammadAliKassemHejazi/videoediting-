@@ -11,7 +11,7 @@
     "models/realesr-animevideov3-x4.bin": "548a36f9c3f4ab8da56cd3b13badf23968bee207b396dad14d04b830e5f2ab2d",
     "models/realesr-animevideov3-x4.param": "850a248e7c14c27e5bd8cf7265113a9441036a7db63963bb8aa5169d788a435e"
   },
-  "settings": {"model":"realesr-animevideov3","scale":4,"tile":256,"workers":"1:1:1","gpu":0},
+  "settings": {"model":"realesr-animevideov3","scale":4,"tile":256,"workers":"1:1:1","gpu":1},
   "sources": ["https://github.com/xinntao/Real-ESRGAN","https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan"],
-  "status": "Downloaded and hash-checked. Help command runs. GPU inference and artistic comparison not yet performed."
+  "status": "Downloaded and hash-checked. Present/Archive three-frame comparison inspected: outlines clean, identities and vintage treatment preserved. Vulkan device0 is Intel; device1 is the RTX3060, selected for the finishing pass."
 }

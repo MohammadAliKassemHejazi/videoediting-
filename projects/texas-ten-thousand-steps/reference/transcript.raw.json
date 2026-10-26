@@ -1,0 +1,1841 @@
+{
+  "text": " Come on, keep walking 8400. I still need 1600 1600 watt steps 10,000 a day everybody knows that under that you're basically dying Everybody knows and who told everybody doctors scientists My watch your watch. Do you know who picked that number? No, not another word watch this Tokyo 1964 the Olympic Games turn a whole country toward fitness the next year a clock company wants its share of the fever. Its product, a little box that counts your steps. It needs a name. They call it \"Manpoké,\" the 10,000 step meter. Why 10,000? No study, no doctor, just a round number, and a symbol that looks like a man walking. The ads repeat it, walk 10,000 steps a day and the box sells. The slogan outlives the box. It spreads into gyms, magazines, health campaigns. Then come the fitness bands and smartwatches and 10,000 becomes the default goal on millions of risks. In 2019, a Harvard researcher looks for the study behind the number. There isn't one. The name was a marketing tool. In 2025, a review of 57 studies, most of the benefit arrives around 7,000 steps. And some who never reached 10,000 stop walking altogether. Walking is good for you. That part is true. But the number was never medicine. It was a slogan that sold a box. How many of your rules did someone write just to sell you something? You can keep counting someone else's numbers or go quiet. Watch, learn, like, subscribe and evolve quietly until you're the wolf.",
+  "chunks": [
+    {
+      "text": " Come",
+      "timestamp": [
+        0,
+        0.5
+      ]
+    },
+    {
+      "text": " on,",
+      "timestamp": [
+        0.5,
+        0.68
+      ]
+    },
+    {
+      "text": " keep",
+      "timestamp": [
+        0.68,
+        0.84
+      ]
+    },
+    {
+      "text": " walking",
+      "timestamp": [
+        0.84,
+        1.14
+      ]
+    },
+    {
+      "text": " 8400.",
+      "timestamp": [
+        1.14,
+        2.32
+      ]
+    },
+    {
+      "text": " I",
+      "timestamp": [
+        2.82,
+        3.08
+      ]
+    },
+    {
+      "text": " still",
+      "timestamp": [
+        3.08,
+        3.26
+      ]
+    },
+    {
+      "text": " need",
+      "timestamp": [
+        3.26,
+        3.42
+      ]
+    },
+    {
+      "text": " 1600",
+      "timestamp": [
+        3.42,
+        4.12
+      ]
+    },
+    {
+      "text": " 1600",
+      "timestamp": [
+        4.12,
+        5.04
+      ]
+    },
+    {
+      "text": " watt",
+      "timestamp": [
+        5.04,
+        5.68
+      ]
+    },
+    {
+      "text": " steps",
+      "timestamp": [
+        5.68,
+        6.64
+      ]
+    },
+    {
+      "text": " 10",
+      "timestamp": [
+        6.64,
+        7.34
+      ]
+    },
+    {
+      "text": ",000",
+      "timestamp": [
+        7.34,
+        7.68
+      ]
+    },
+    {
+      "text": " a",
+      "timestamp": [
+        7.68,
+        7.86
+      ]
+    },
+    {
+      "text": " day",
+      "timestamp": [
+        7.86,
+        8.06
+      ]
+    },
+    {
+      "text": " everybody",
+      "timestamp": [
+        8.06,
+        8.6
+      ]
+    },
+    {
+      "text": " knows",
+      "timestamp": [
+        8.6,
+        8.94
+      ]
+    },
+    {
+      "text": " that",
+      "timestamp": [
+        8.94,
+        9.2
+      ]
+    },
+    {
+      "text": " under",
+      "timestamp": [
+        9.2,
+        9.64
+      ]
+    },
+    {
+      "text": " that",
+      "timestamp": [
+        9.64,
+        9.86
+      ]
+    },
+    {
+      "text": " you're",
+      "timestamp": [
+        9.86,
+        10.08
+      ]
+    },
+    {
+      "text": " basically",
+      "timestamp": [
+        10.08,
+        10.48
+      ]
+    },
+    {
+      "text": " dying",
+      "timestamp": [
+        10.48,
+        10.88
+      ]
+    },
+    {
+      "text": " Everybody",
+      "timestamp": [
+        10.88,
+        11.72
+      ]
+    },
+    {
+      "text": " knows",
+      "timestamp": [
+        11.72,
+        12.28
+      ]
+    },
+    {
+      "text": " and",
+      "timestamp": [
+        12.28,
+        12.96
+      ]
+    },
+    {
+      "text": " who",
+      "timestamp": [
+        12.96,
+        13.14
+      ]
+    },
+    {
+      "text": " told",
+      "timestamp": [
+        13.14,
+        13.52
+      ]
+    },
+    {
+      "text": " everybody",
+      "timestamp": [
+        13.52,
+        13.98
+      ]
+    },
+    {
+      "text": " doctors",
+      "timestamp": [
+        13.98,
+        15.1
+      ]
+    },
+    {
+      "text": " scientists",
+      "timestamp": [
+        15.1,
+        16.1
+      ]
+    },
+    {
+      "text": " My",
+      "timestamp": [
+        16.1,
+        17.12
+      ]
+    },
+    {
+      "text": " watch",
+      "timestamp": [
+        17.12,
+        17.54
+      ]
+    },
+    {
+      "text": " your",
+      "timestamp": [
+        17.54,
+        18.46
+      ]
+    },
+    {
+      "text": " watch.",
+      "timestamp": [
+        18.46,
+        18.94
+      ]
+    },
+    {
+      "text": " Do",
+      "timestamp": [
+        19.06,
+        19.66
+      ]
+    },
+    {
+      "text": " you",
+      "timestamp": [
+        19.66,
+        19.8
+      ]
+    },
+    {
+      "text": " know",
+      "timestamp": [
+        19.78,
+        19.94
+      ]
+    },
+    {
+      "text": " who",
+      "timestamp": [
+        19.94,
+        20.12
+      ]
+    },
+    {
+      "text": " picked",
+      "timestamp": [
+        20.12,
+        20.38
+      ]
+    },
+    {
+      "text": " that",
+      "timestamp": [
+        20.38,
+        20.62
+      ]
+    },
+    {
+      "text": " number?",
+      "timestamp": [
+        20.62,
+        20.98
+      ]
+    },
+    {
+      "text": " No,",
+      "timestamp": [
+        22.98,
+        24.58
+      ]
+    },
+    {
+      "text": " not",
+      "timestamp": [
+        24.8,
+        25.88
+      ]
+    },
+    {
+      "text": " another",
+      "timestamp": [
+        25.88,
+        26.2
+      ]
+    },
+    {
+      "text": " word",
+      "timestamp": [
+        26.2,
+        26.68
+      ]
+    },
+    {
+      "text": " watch",
+      "timestamp": [
+        26.68,
+        27.54
+      ]
+    },
+    {
+      "text": " this",
+      "timestamp": [
+        27.54,
+        28
+      ]
+    },
+    {
+      "text": " Tokyo",
+      "timestamp": [
+        28,
+        31.08
+      ]
+    },
+    {
+      "text": " 1964",
+      "timestamp": [
+        31.08,
+        32.14
+      ]
+    },
+    {
+      "text": " the",
+      "timestamp": [
+        32.14,
+        33.12
+      ]
+    },
+    {
+      "text": " Olympic",
+      "timestamp": [
+        33.12,
+        33.36
+      ]
+    },
+    {
+      "text": " Games",
+      "timestamp": [
+        33.36,
+        33.82
+      ]
+    },
+    {
+      "text": " turn",
+      "timestamp": [
+        33.82,
+        34.02
+      ]
+    },
+    {
+      "text": " a",
+      "timestamp": [
+        34.02,
+        34.18
+      ]
+    },
+    {
+      "text": " whole",
+      "timestamp": [
+        34.18,
+        34.4
+      ]
+    },
+    {
+      "text": " country",
+      "timestamp": [
+        34.4,
+        34.84
+      ]
+    },
+    {
+      "text": " toward",
+      "timestamp": [
+        34.84,
+        35.14
+      ]
+    },
+    {
+      "text": " fitness",
+      "timestamp": [
+        35.14,
+        35.54
+      ]
+    },
+    {
+      "text": " the",
+      "timestamp": [
+        35.54,
+        36.44
+      ]
+    },
+    {
+      "text": " next",
+      "timestamp": [
+        36.44,
+        36.64
+      ]
+    },
+    {
+      "text": " year",
+      "timestamp": [
+        36.64,
+        36.98
+      ]
+    },
+    {
+      "text": " a",
+      "timestamp": [
+        36.98,
+        37.26
+      ]
+    },
+    {
+      "text": " clock",
+      "timestamp": [
+        37.26,
+        37.48
+      ]
+    },
+    {
+      "text": " company",
+      "timestamp": [
+        37.48,
+        37.9
+      ]
+    },
+    {
+      "text": " wants",
+      "timestamp": [
+        37.9,
+        38.14
+      ]
+    },
+    {
+      "text": " its",
+      "timestamp": [
+        38.14,
+        38.32
+      ]
+    },
+    {
+      "text": " share",
+      "timestamp": [
+        38.32,
+        38.62
+      ]
+    },
+    {
+      "text": " of",
+      "timestamp": [
+        38.62,
+        38.76
+      ]
+    },
+    {
+      "text": " the",
+      "timestamp": [
+        38.76,
+        38.88
+      ]
+    },
+    {
+      "text": " fever.",
+      "timestamp": [
+        38.88,
+        39.12
+      ]
+    },
+    {
+      "text": " Its",
+      "timestamp": [
+        39.6,
+        39.72
+      ]
+    },
+    {
+      "text": " product,",
+      "timestamp": [
+        39.72,
+        40.06
+      ]
+    },
+    {
+      "text": " a",
+      "timestamp": [
+        40.36,
+        40.46
+      ]
+    },
+    {
+      "text": " little",
+      "timestamp": [
+        40.46,
+        40.6
+      ]
+    },
+    {
+      "text": " box",
+      "timestamp": [
+        40.6,
+        40.84
+      ]
+    },
+    {
+      "text": " that",
+      "timestamp": [
+        40.84,
+        41.16
+      ]
+    },
+    {
+      "text": " counts",
+      "timestamp": [
+        41.16,
+        41.38
+      ]
+    },
+    {
+      "text": " your",
+      "timestamp": [
+        41.38,
+        41.58
+      ]
+    },
+    {
+      "text": " steps.",
+      "timestamp": [
+        41.58,
+        41.9
+      ]
+    },
+    {
+      "text": " It",
+      "timestamp": [
+        42.8,
+        42.92
+      ]
+    },
+    {
+      "text": " needs",
+      "timestamp": [
+        42.92,
+        43.14
+      ]
+    },
+    {
+      "text": " a",
+      "timestamp": [
+        43.14,
+        43.28
+      ]
+    },
+    {
+      "text": " name.",
+      "timestamp": [
+        43.28,
+        43.56
+      ]
+    },
+    {
+      "text": " They",
+      "timestamp": [
+        44,
+        44.1
+      ]
+    },
+    {
+      "text": " call",
+      "timestamp": [
+        44.1,
+        44.32
+      ]
+    },
+    {
+      "text": " it",
+      "timestamp": [
+        44.32,
+        44.46
+      ]
+    },
+    {
+      "text": " \"Manpoké,\"",
+      "timestamp": [
+        44.46,
+        45.26
+      ]
+    },
+    {
+      "text": " the",
+      "timestamp": [
+        45.5,
+        45.66
+      ]
+    },
+    {
+      "text": " 10",
+      "timestamp": [
+        45.66,
+        45.92
+      ]
+    },
+    {
+      "text": ",000",
+      "timestamp": [
+        45.92,
+        46.3
+      ]
+    },
+    {
+      "text": " step",
+      "timestamp": [
+        46.3,
+        46.58
+      ]
+    },
+    {
+      "text": " meter.",
+      "timestamp": [
+        46.58,
+        46.88
+      ]
+    },
+    {
+      "text": " Why",
+      "timestamp": [
+        47.48,
+        47.66
+      ]
+    },
+    {
+      "text": " 10",
+      "timestamp": [
+        47.66,
+        47.92
+      ]
+    },
+    {
+      "text": ",000?",
+      "timestamp": [
+        47.92,
+        48.36
+      ]
+    },
+    {
+      "text": " No",
+      "timestamp": [
+        48.64,
+        48.84
+      ]
+    },
+    {
+      "text": " study,",
+      "timestamp": [
+        48.84,
+        49.18
+      ]
+    },
+    {
+      "text": " no",
+      "timestamp": [
+        49.62,
+        49.76
+      ]
+    },
+    {
+      "text": " doctor,",
+      "timestamp": [
+        49.76,
+        50.14
+      ]
+    },
+    {
+      "text": " just",
+      "timestamp": [
+        50.68,
+        50.94
+      ]
+    },
+    {
+      "text": " a",
+      "timestamp": [
+        50.94,
+        51.12
+      ]
+    },
+    {
+      "text": " round",
+      "timestamp": [
+        51.12,
+        51.3
+      ]
+    },
+    {
+      "text": " number,",
+      "timestamp": [
+        51.3,
+        51.68
+      ]
+    },
+    {
+      "text": " and",
+      "timestamp": [
+        52.06,
+        52.38
+      ]
+    },
+    {
+      "text": " a",
+      "timestamp": [
+        52.38,
+        52.52
+      ]
+    },
+    {
+      "text": " symbol",
+      "timestamp": [
+        52.52,
+        52.76
+      ]
+    },
+    {
+      "text": " that",
+      "timestamp": [
+        52.76,
+        53.02
+      ]
+    },
+    {
+      "text": " looks",
+      "timestamp": [
+        53.02,
+        53.2
+      ]
+    },
+    {
+      "text": " like",
+      "timestamp": [
+        53.2,
+        53.44
+      ]
+    },
+    {
+      "text": " a",
+      "timestamp": [
+        53.44,
+        53.56
+      ]
+    },
+    {
+      "text": " man",
+      "timestamp": [
+        53.56,
+        53.76
+      ]
+    },
+    {
+      "text": " walking.",
+      "timestamp": [
+        53.76,
+        54.12
+      ]
+    },
+    {
+      "text": " The",
+      "timestamp": [
+        54.82,
+        54.96
+      ]
+    },
+    {
+      "text": " ads",
+      "timestamp": [
+        54.96,
+        55.22
+      ]
+    },
+    {
+      "text": " repeat",
+      "timestamp": [
+        55.22,
+        55.58
+      ]
+    },
+    {
+      "text": " it,",
+      "timestamp": [
+        55.58,
+        55.84
+      ]
+    },
+    {
+      "text": " walk",
+      "timestamp": [
+        56.2,
+        56.4
+      ]
+    },
+    {
+      "text": " 10",
+      "timestamp": [
+        56.4,
+        56.76
+      ]
+    },
+    {
+      "text": ",000",
+      "timestamp": [
+        56.76,
+        57.2
+      ]
+    },
+    {
+      "text": " steps",
+      "timestamp": [
+        57.2,
+        57.48
+      ]
+    },
+    {
+      "text": " a",
+      "timestamp": [
+        57.48,
+        57.72
+      ]
+    },
+    {
+      "text": " day",
+      "timestamp": [
+        57.72,
+        58
+      ]
+    },
+    {
+      "text": " and",
+      "timestamp": [
+        58,
+        58.46
+      ]
+    },
+    {
+      "text": " the",
+      "timestamp": [
+        58.46,
+        58.58
+      ]
+    },
+    {
+      "text": " box",
+      "timestamp": [
+        58.58,
+        58.82
+      ]
+    },
+    {
+      "text": " sells.",
+      "timestamp": [
+        58.82,
+        59.32
+      ]
+    },
+    {
+      "text": " The",
+      "timestamp": [
+        60.06,
+        60.18
+      ]
+    },
+    {
+      "text": " slogan",
+      "timestamp": [
+        60.18,
+        60.48
+      ]
+    },
+    {
+      "text": " outlives",
+      "timestamp": [
+        60.48,
+        61.06
+      ]
+    },
+    {
+      "text": " the",
+      "timestamp": [
+        61.06,
+        61.24
+      ]
+    },
+    {
+      "text": " box.",
+      "timestamp": [
+        61.24,
+        61.56
+      ]
+    },
+    {
+      "text": " It",
+      "timestamp": [
+        62.02,
+        62.1
+      ]
+    },
+    {
+      "text": " spreads",
+      "timestamp": [
+        62.1,
+        62.38
+      ]
+    },
+    {
+      "text": " into",
+      "timestamp": [
+        62.38,
+        62.66
+      ]
+    },
+    {
+      "text": " gyms,",
+      "timestamp": [
+        62.66,
+        63.12
+      ]
+    },
+    {
+      "text": " magazines,",
+      "timestamp": [
+        63.28,
+        63.52
+      ]
+    },
+    {
+      "text": " health",
+      "timestamp": [
+        63.94,
+        64.1
+      ]
+    },
+    {
+      "text": " campaigns.",
+      "timestamp": [
+        64.1,
+        64.54
+      ]
+    },
+    {
+      "text": " Then",
+      "timestamp": [
+        65.38,
+        65.56
+      ]
+    },
+    {
+      "text": " come",
+      "timestamp": [
+        65.56,
+        65.76
+      ]
+    },
+    {
+      "text": " the",
+      "timestamp": [
+        65.76,
+        65.92
+      ]
+    },
+    {
+      "text": " fitness",
+      "timestamp": [
+        65.92,
+        66.14
+      ]
+    },
+    {
+      "text": " bands",
+      "timestamp": [
+        66.14,
+        66.54
+      ]
+    },
+    {
+      "text": " and",
+      "timestamp": [
+        66.54,
+        66.78
+      ]
+    },
+    {
+      "text": " smartwatches",
+      "timestamp": [
+        66.78,
+        67.56
+      ]
+    },
+    {
+      "text": " and",
+      "timestamp": [
+        67.56,
+        67.96
+      ]
+    },
+    {
+      "text": " 10",
+      "timestamp": [
+        67.96,
+        68.22
+      ]
+    },
+    {
+      "text": ",000",
+      "timestamp": [
+        68.22,
+        68.58
+      ]
+    },
+    {
+      "text": " becomes",
+      "timestamp": [
+        68.58,
+        68.9
+      ]
+    },
+    {
+      "text": " the",
+      "timestamp": [
+        68.9,
+        69.18
+      ]
+    },
+    {
+      "text": " default",
+      "timestamp": [
+        69.18,
+        69.48
+      ]
+    },
+    {
+      "text": " goal",
+      "timestamp": [
+        69.48,
+        69.84
+      ]
+    },
+    {
+      "text": " on",
+      "timestamp": [
+        69.84,
+        70.36
+      ]
+    },
+    {
+      "text": " millions",
+      "timestamp": [
+        70.36,
+        70.68
+      ]
+    },
+    {
+      "text": " of",
+      "timestamp": [
+        70.68,
+        70.94
+      ]
+    },
+    {
+      "text": " risks.",
+      "timestamp": [
+        70.94,
+        71.28
+      ]
+    },
+    {
+      "text": " In",
+      "timestamp": [
+        71.9,
+        72.02
+      ]
+    },
+    {
+      "text": " 2019,",
+      "timestamp": [
+        72.02,
+        72.58
+      ]
+    },
+    {
+      "text": " a",
+      "timestamp": [
+        73,
+        73.1
+      ]
+    },
+    {
+      "text": " Harvard",
+      "timestamp": [
+        73.1,
+        73.32
+      ]
+    },
+    {
+      "text": " researcher",
+      "timestamp": [
+        73.32,
+        73.82
+      ]
+    },
+    {
+      "text": " looks",
+      "timestamp": [
+        73.82,
+        74.04
+      ]
+    },
+    {
+      "text": " for",
+      "timestamp": [
+        74.04,
+        74.24
+      ]
+    },
+    {
+      "text": " the",
+      "timestamp": [
+        74.24,
+        74.34
+      ]
+    },
+    {
+      "text": " study",
+      "timestamp": [
+        74.34,
+        74.58
+      ]
+    },
+    {
+      "text": " behind",
+      "timestamp": [
+        74.58,
+        74.82
+      ]
+    },
+    {
+      "text": " the",
+      "timestamp": [
+        74.82,
+        75.04
+      ]
+    },
+    {
+      "text": " number.",
+      "timestamp": [
+        75.04,
+        75.3
+      ]
+    },
+    {
+      "text": " There",
+      "timestamp": [
+        75.8,
+        75.94
+      ]
+    },
+    {
+      "text": " isn't",
+      "timestamp": [
+        75.94,
+        76.18
+      ]
+    },
+    {
+      "text": " one.",
+      "timestamp": [
+        76.18,
+        76.38
+      ]
+    },
+    {
+      "text": " The",
+      "timestamp": [
+        76.84,
+        76.98
+      ]
+    },
+    {
+      "text": " name",
+      "timestamp": [
+        76.98,
+        77.18
+      ]
+    },
+    {
+      "text": " was",
+      "timestamp": [
+        77.18,
+        77.34
+      ]
+    },
+    {
+      "text": " a",
+      "timestamp": [
+        77.34,
+        77.48
+      ]
+    },
+    {
+      "text": " marketing",
+      "timestamp": [
+        77.48,
+        77.72
+      ]
+    },
+    {
+      "text": " tool.",
+      "timestamp": [
+        77.72,
+        78.08
+      ]
+    },
+    {
+      "text": " In",
+      "timestamp": [
+        78.78,
+        78.86
+      ]
+    },
+    {
+      "text": " 2025,",
+      "timestamp": [
+        78.86,
+        79.38
+      ]
+    },
+    {
+      "text": " a",
+      "timestamp": [
+        79.98,
+        80.16
+      ]
+    },
+    {
+      "text": " review",
+      "timestamp": [
+        80.16,
+        80.42
+      ]
+    },
+    {
+      "text": " of",
+      "timestamp": [
+        80.42,
+        80.56
+      ]
+    },
+    {
+      "text": " 57",
+      "timestamp": [
+        80.56,
+        80.96
+      ]
+    },
+    {
+      "text": " studies,",
+      "timestamp": [
+        80.96,
+        81.48
+      ]
+    },
+    {
+      "text": " most",
+      "timestamp": [
+        81.84,
+        82.08
+      ]
+    },
+    {
+      "text": " of",
+      "timestamp": [
+        82.08,
+        82.22
+      ]
+    },
+    {
+      "text": " the",
+      "timestamp": [
+        82.22,
+        82.3
+      ]
+    },
+    {
+      "text": " benefit",
+      "timestamp": [
+        82.3,
+        82.6
+      ]
+    },
+    {
+      "text": " arrives",
+      "timestamp": [
+        82.6,
+        82.96
+      ]
+    },
+    {
+      "text": " around",
+      "timestamp": [
+        82.96,
+        83.3
+      ]
+    },
+    {
+      "text": " 7",
+      "timestamp": [
+        83.3,
+        83.58
+      ]
+    },
+    {
+      "text": ",000",
+      "timestamp": [
+        83.58,
+        83.96
+      ]
+    },
+    {
+      "text": " steps.",
+      "timestamp": [
+        83.96,
+        84.38
+      ]
+    },
+    {
+      "text": " And",
+      "timestamp": [
+        85.38,
+        85.52
+      ]
+    },
+    {
+      "text": " some",
+      "timestamp": [
+        85.52,
+        85.8
+      ]
+    },
+    {
+      "text": " who",
+      "timestamp": [
+        85.8,
+        86.06
+      ]
+    },
+    {
+      "text": " never",
+      "timestamp": [
+        86.06,
+        86.26
+      ]
+    },
+    {
+      "text": " reached",
+      "timestamp": [
+        86.26,
+        86.56
+      ]
+    },
+    {
+      "text": " 10",
+      "timestamp": [
+        86.56,
+        86.84
+      ]
+    },
+    {
+      "text": ",000",
+      "timestamp": [
+        86.84,
+        87.26
+      ]
+    },
+    {
+      "text": " stop",
+      "timestamp": [
+        87.26,
+        88.18
+      ]
+    },
+    {
+      "text": " walking",
+      "timestamp": [
+        88.18,
+        88.54
+      ]
+    },
+    {
+      "text": " altogether.",
+      "timestamp": [
+        88.54,
+        88.96
+      ]
+    },
+    {
+      "text": " Walking",
+      "timestamp": [
+        89.6,
+        90.26
+      ]
+    },
+    {
+      "text": " is",
+      "timestamp": [
+        90.26,
+        90.52
+      ]
+    },
+    {
+      "text": " good",
+      "timestamp": [
+        90.52,
+        90.7
+      ]
+    },
+    {
+      "text": " for",
+      "timestamp": [
+        90.7,
+        90.9
+      ]
+    },
+    {
+      "text": " you.",
+      "timestamp": [
+        90.9,
+        91.08
+      ]
+    },
+    {
+      "text": " That",
+      "timestamp": [
+        91.46,
+        91.58
+      ]
+    },
+    {
+      "text": " part",
+      "timestamp": [
+        91.58,
+        91.82
+      ]
+    },
+    {
+      "text": " is",
+      "timestamp": [
+        91.82,
+        92
+      ]
+    },
+    {
+      "text": " true.",
+      "timestamp": [
+        92,
+        92.28
+      ]
+    },
+    {
+      "text": " But",
+      "timestamp": [
+        93.82,
+        94
+      ]
+    },
+    {
+      "text": " the",
+      "timestamp": [
+        94,
+        94.12
+      ]
+    },
+    {
+      "text": " number",
+      "timestamp": [
+        94.12,
+        94.36
+      ]
+    },
+    {
+      "text": " was",
+      "timestamp": [
+        94.36,
+        94.58
+      ]
+    },
+    {
+      "text": " never",
+      "timestamp": [
+        94.58,
+        94.76
+      ]
+    },
+    {
+      "text": " medicine.",
+      "timestamp": [
+        94.76,
+        95.2
+      ]
+    },
+    {
+      "text": " It",
+      "timestamp": [
+        95.66,
+        95.78
+      ]
+    },
+    {
+      "text": " was",
+      "timestamp": [
+        95.78,
+        95.88
+      ]
+    },
+    {
+      "text": " a",
+      "timestamp": [
+        95.88,
+        96
+      ]
+    },
+    {
+      "text": " slogan",
+      "timestamp": [
+        96,
+        96.34
+      ]
+    },
+    {
+      "text": " that",
+      "timestamp": [
+        96.34,
+        96.6
+      ]
+    },
+    {
+      "text": " sold",
+      "timestamp": [
+        96.6,
+        96.84
+      ]
+    },
+    {
+      "text": " a",
+      "timestamp": [
+        96.84,
+        96.94
+      ]
+    },
+    {
+      "text": " box.",
+      "timestamp": [
+        96.94,
+        97.24
+      ]
+    },
+    {
+      "text": " How",
+      "timestamp": [
+        97.82,
+        97.96
+      ]
+    },
+    {
+      "text": " many",
+      "timestamp": [
+        97.96,
+        98.14
+      ]
+    },
+    {
+      "text": " of",
+      "timestamp": [
+        98.14,
+        98.28
+      ]
+    },
+    {
+      "text": " your",
+      "timestamp": [
+        98.28,
+        98.42
+      ]
+    },
+    {
+      "text": " rules",
+      "timestamp": [
+        98.42,
+        98.76
+      ]
+    },
+    {
+      "text": " did",
+      "timestamp": [
+        98.76,
+        98.96
+      ]
+    },
+    {
+      "text": " someone",
+      "timestamp": [
+        98.96,
+        99.26
+      ]
+    },
+    {
+      "text": " write",
+      "timestamp": [
+        99.26,
+        99.54
+      ]
+    },
+    {
+      "text": " just",
+      "timestamp": [
+        99.54,
+        99.84
+      ]
+    },
+    {
+      "text": " to",
+      "timestamp": [
+        99.84,
+        100.02
+      ]
+    },
+    {
+      "text": " sell",
+      "timestamp": [
+        100.02,
+        100.22
+      ]
+    },
+    {
+      "text": " you",
+      "timestamp": [
+        100.22,
+        100.36
+      ]
+    },
+    {
+      "text": " something?",
+      "timestamp": [
+        100.36,
+        100.68
+      ]
+    },
+    {
+      "text": " You",
+      "timestamp": [
+        101.28,
+        101.48
+      ]
+    },
+    {
+      "text": " can",
+      "timestamp": [
+        101.48,
+        101.62
+      ]
+    },
+    {
+      "text": " keep",
+      "timestamp": [
+        101.62,
+        101.8
+      ]
+    },
+    {
+      "text": " counting",
+      "timestamp": [
+        101.8,
+        102.12
+      ]
+    },
+    {
+      "text": " someone",
+      "timestamp": [
+        102.12,
+        102.46
+      ]
+    },
+    {
+      "text": " else's",
+      "timestamp": [
+        102.46,
+        102.82
+      ]
+    },
+    {
+      "text": " numbers",
+      "timestamp": [
+        102.82,
+        103.08
+      ]
+    },
+    {
+      "text": " or",
+      "timestamp": [
+        103.08,
+        103.48
+      ]
+    },
+    {
+      "text": " go",
+      "timestamp": [
+        103.48,
+        103.64
+      ]
+    },
+    {
+      "text": " quiet.",
+      "timestamp": [
+        103.64,
+        104.02
+      ]
+    },
+    {
+      "text": " Watch,",
+      "timestamp": [
+        104.54,
+        104.84
+      ]
+    },
+    {
+      "text": " learn,",
+      "timestamp": [
+        105.26,
+        105.46
+      ]
+    },
+    {
+      "text": " like,",
+      "timestamp": [
+        105.82,
+        106.04
+      ]
+    },
+    {
+      "text": " subscribe",
+      "timestamp": [
+        106.32,
+        106.6
+      ]
+    },
+    {
+      "text": " and",
+      "timestamp": [
+        106.6,
+        107.02
+      ]
+    },
+    {
+      "text": " evolve",
+      "timestamp": [
+        107.02,
+        107.38
+      ]
+    },
+    {
+      "text": " quietly",
+      "timestamp": [
+        107.38,
+        107.94
+      ]
+    },
+    {
+      "text": " until",
+      "timestamp": [
+        107.94,
+        108.66
+      ]
+    },
+    {
+      "text": " you're",
+      "timestamp": [
+        108.66,
+        108.92
+      ]
+    },
+    {
+      "text": " the",
+      "timestamp": [
+        108.92,
+        109.02
+      ]
+    },
+    {
+      "text": " wolf.",
+      "timestamp": [
+        109.02,
+        109.24
+      ]
+    }
+  ],
+  "sourceHash": "19daae481783ae7c2e72db94e588d388dcc6cd8fd1dfbbe1b1864b7b4b97ac09",
+  "warning": "ASR estimates; inspect/correct names, numbers and narrative claims before adaptation. Not a listening review."
+}

@@ -22,6 +22,6 @@ try{
  await page.screenshot({path:'out/texas-cinema-myth/full-timeline-preview.png'});
  const report={at:new Date().toISOString(),errors,readyCount:spec.readyCount,complete:spec.complete,media,audio,fontLoaded:true,first,inputs:await page.locator('input').evaluateAll(items=>items.map(i=>({type:i.type,value:i.value,title:i.title,placeholder:i.placeholder,aria:i.getAttribute('aria-label')})))};
  writeFileSync('out/texas-cinema-myth/episode-preview-check.json',JSON.stringify(report,null,2)+'\n');
- if(errors.length||first.error||media.some(m=>m.error||m.width!==352||m.height!==640)||audio.some(a=>a.error))throw Error('Episode preview media failure; see report');
+ if(errors.length||first.error||media.some(m=>{const shot=spec.shots.find(s=>s.id===m.id);return m.error||m.width!==(shot.sourceWidth||352)||m.height!==(shot.sourceHeight||640)})||audio.some(a=>a.error))throw Error('Episode preview media failure; see report');
  console.log('Full90s composition, local font and '+media.length+' real H3 sources loaded in Chrome; incomplete scenes remain labeled keyframes.');
 }finally{await browser.close()}

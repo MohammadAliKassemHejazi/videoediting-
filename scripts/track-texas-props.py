@@ -32,7 +32,10 @@ for cfg in settings['shots']:
     mask = np.zeros((height, width), dtype=np.uint8)
     center = tuple(round(v) for v in cfg['center'])
     axes = tuple(round(v) for v in cfg['featureAxes'])
-    cv2.ellipse(mask, center, axes, cfg['angle'], 0, 360, 255, -1)
+    if 'featureMaskPolygon' in cfg:
+        cv2.fillPoly(mask,[np.array(cfg['featureMaskPolygon'],dtype=np.int32)],255)
+    else:
+        cv2.ellipse(mask, center, axes, cfg['angle'], 0, 360, 255, -1)
     if cfg['kind'] == 'hub':
         cv2.ellipse(mask, center, tuple(round(v*1.2) for v in cfg['axes']), cfg['angle'], 0, 360, 0, -1)
     previous = cv2.cvtColor(first, cv2.COLOR_BGR2GRAY)
