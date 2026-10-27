@@ -1,0 +1,15 @@
+{
+  "project": "texas-ten-thousand-steps",
+  "source": "narration.wav",
+  "method": "Each speaking shot is pitch-preservingly fitted into its exact selected source interval, with0.125s leading handle. The master retimes the same interval back to the canonical voice cut.",
+  "speakingShots": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "28"
+  ],
+  "review": "Audio guide preparation is not a lip-sync or listening approval."
+}

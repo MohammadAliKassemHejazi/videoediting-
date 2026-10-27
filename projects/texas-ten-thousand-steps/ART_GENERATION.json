@@ -1,0 +1,385 @@
+{
+  "episode": "texas-ten-thousand-steps",
+  "generator": "Built-in image generation tool",
+  "status": "All selected images copied and visually inspected. Rejected and alternate images preserved; source videos remain separate.",
+  "entries": [
+    {
+      "id": "01",
+      "version": "v1",
+      "tool": "image_gen.imagegen",
+      "sourceGeneratedFile": "exec-ccff8735-1476-4d3b-b5b1-3ac0ecdc5726.png",
+      "prompt": null,
+      "promptRecord": "Current planned prompt plus documented archive-only corrections; original first-shot prompt retained from Git e5bfa89",
+      "references": [
+        "series/texas-casefiles/assets/duo-v1.png"
+      ],
+      "selectedFile": "assets/keyframes/01.png",
+      "selectedSHA256": "3e83407114fd9bdb970ab2fa0f15a4b5ecbdbfce0e462c2db5d6f18a24a8710b"
+    },
+    {
+      "id": "02",
+      "version": "v1",
+      "tool": "image_gen.imagegen",
+      "sourceGeneratedFile": "C:\\Users\\USER\\.codex\\generated_images\\01a13666-9ae6-7be0-ad70-c7955e51b712\\exec-a75f193a-e276-4f8b-ae4c-f2be789b5177.png",
+      "prompt": "Create ONE vertical9:16 cinematic hand-inked2D cartoon film frame, not a contact sheet. Scene02,PRESENT. Reference image1 defines the exact recurring character identities; image2 defines the rendered look and brass watch. Full color. Texas frontier-town dusk: deep navy sky fading into a burnt-orange horizon, warm amber lantern and window glow, dusty main street with wooden boardwalks and storefronts, a saloon sign glow, distant windmill, mesa or oil-derrick silhouette, long soft shadows, golden rim light on the characters.\nVICTIM: a scrappy salt-and-pepper javelina with bristly fur, a round snout, small tusks, curious bright eyes, a flat-brimmed hat, a striped poncho, white cartoon gloves and scuffed boots. Charcoal flat-brimmed hat, rust-red and cream striped poncho, brown eyes, dark brown scuffed boots, two small ivory tusks. Upright cartoon proportions. Keep these choices once model-sheet art is approved.\nTRICKSTER: a hunched, bald-headed vulture in a long black tailcoat, a wing-collar shirt, a silver cravat, wire spectacles, a pocket watch chain and white cartoon gloves, with a polite, hungry smile. Pale dusty-rose bald head, ivory hooked beak, dark brown feathers, amber eyes, black tailcoat, off-white shirt, silver cravat, brass watch chain, round wire spectacles, black formal boots. Upright cartoon proportions. Keep these choices once model-sheet art is approved.\nHero prop pedometer-v1: antique round brass wrist case, round dark face with a single rectangular amber digital counter window, raised riveted bezel, tiny right-side brass button, plain dark-brown leather strap. On Javelina LEFT wrist above the white glove cuff. Match reference01 exactly. No reel or wooden jewelry box in this episode.\nEXACT STAGING: Extreme close-up of Javelina face under charcoal hat brim, looking up and to screen right at the offscreen Banker. Eyebrows form a baffled asymmetrical question, mouth closed. One white-gloved fingertip hovers by his chin; the watch is outside frame.\nOne strong focal subject, deliberate shot size, painted lightly textured background, thick black outlines, clean cel shading, dramatic light and depth separation. Show all mentioned hands as white cartoon gloves. Mouths closed, no speaking poses. Keep costume, face, proportions, palette and identity identical. No anime,3D,photorealism,extra limbs,distorted fingers,clutter,watermarks,logos,modern branded devices or captions. Never put sentences in the image. At most ONE readable numeral/symbol/short word, only the one explicitly specified in staging. Signs blank. Main duo only in Present; extras only in Archive.\n",
+      "promptRecord": "Exact prompt retained from generation request",
+      "references": [
+        "series/texas-casefiles/assets/duo-v1.png",
+        "assets/keyframes/01.png"
+      ],
+      "selectedFile": "assets/keyframes/02.png",
+      "selectedSHA256": "9998a1f5875c7c73d776eebe42de4e21a7b6188ced8d51f5bf19e410320810be"
+    },
+    {
+      "id": "03",
+      "version": "v1",
+      "tool": "image_gen.imagegen",
+      "sourceGeneratedFile": "C:\\Users\\USER\\.codex\\generated_images\\01a13666-9ae6-7be0-ad70-c7955e51b712\\exec-41803bcb-0b91-4698-b8da-99fd3b00dc0b.png",
+      "prompt": "Create ONE vertical9:16 cinematic hand-inked2D cartoon film frame, not a contact sheet. Scene03,PRESENT. Reference image1 defines the exact recurring character identities; image2 defines the rendered look and brass watch. Full color. Texas frontier-town dusk: deep navy sky fading into a burnt-orange horizon, warm amber lantern and window glow, dusty main street with wooden boardwalks and storefronts, a saloon sign glow, distant windmill, mesa or oil-derrick silhouette, long soft shadows, golden rim light on the characters.\nVICTIM: a scrappy salt-and-pepper javelina with bristly fur, a round snout, small tusks, curious bright eyes, a flat-brimmed hat, a striped poncho, white cartoon gloves and scuffed boots. Charcoal flat-brimmed hat, rust-red and cream striped poncho, brown eyes, dark brown scuffed boots, two small ivory tusks. Upright cartoon proportions. Keep these choices once model-sheet art is approved.\nTRICKSTER: a hunched, bald-headed vulture in a long black tailcoat, a wing-collar shirt, a silver cravat, wire spectacles, a pocket watch chain and white cartoon gloves, with a polite, hungry smile. Pale dusty-rose bald head, ivory hooked beak, dark brown feathers, amber eyes, black tailcoat, off-white shirt, silver cravat, brass watch chain, round wire spectacles, black formal boots. Upright cartoon proportions. Keep these choices once model-sheet art is approved.\nHero prop pedometer-v1: antique round brass wrist case, round dark face with a single rectangular amber digital counter window, raised riveted bezel, tiny right-side brass button, plain dark-brown leather strap. On Javelina LEFT wrist above the white glove cuff. Match reference01 exactly. No reel or wooden jewelry box in this episode.\nEXACT STAGING: Low-angle medium close-up of the Banker alone, large ivory hooked beak and spectacles catching amber rim light, chin high, one white glove holding up a single instructive index finger. Boardwalk lantern and deep navy sky behind.\nOne strong focal subject, deliberate shot size, painted lightly textured background, thick black outlines, clean cel shading, dramatic light and depth separation. Show all mentioned hands as white cartoon gloves. Mouths closed, no speaking poses. Keep costume, face, proportions, palette and identity identical. No anime,3D,photorealism,extra limbs,distorted fingers,clutter,watermarks,logos,modern branded devices or captions. Never put sentences in the image. At most ONE readable numeral/symbol/short word, only the one explicitly specified in staging. Signs blank. Main duo only in Present; extras only in Archive.\n",
+      "promptRecord": "Exact prompt retained from generation request",
+      "references": [
+        "series/texas-casefiles/assets/duo-v1.png",
+        "assets/keyframes/01.png"
+      ],
+      "selectedFile": "assets/keyframes/03.png",
+      "selectedSHA256": "adfe3cb6cd8bb85169354bc15d09afc9777d28e7d7f9597e9a085439a92ba283"
+    },
+    {
+      "id": "04",
+      "version": "v1",
+      "tool": "image_gen.imagegen",
+      "sourceGeneratedFile": "C:\\Users\\USER\\.codex\\generated_images\\01a13666-9ae6-7be0-ad70-c7955e51b712\\exec-e8d9a882-88d4-404d-8d60-17cf9f14cb48.png",
+      "prompt": "Create ONE vertical9:16 cinematic hand-inked2D cartoon film frame, not a contact sheet. Scene04,PRESENT. Reference image1 defines the exact recurring character identities; image2 defines the rendered look and brass watch. Full color. Texas frontier-town dusk: deep navy sky fading into a burnt-orange horizon, warm amber lantern and window glow, dusty main street with wooden boardwalks and storefronts, a saloon sign glow, distant windmill, mesa or oil-derrick silhouette, long soft shadows, golden rim light on the characters.\nVICTIM: a scrappy salt-and-pepper javelina with bristly fur, a round snout, small tusks, curious bright eyes, a flat-brimmed hat, a striped poncho, white cartoon gloves and scuffed boots. Charcoal flat-brimmed hat, rust-red and cream striped poncho, brown eyes, dark brown scuffed boots, two small ivory tusks. Upright cartoon proportions. Keep these choices once model-sheet art is approved.\nTRICKSTER: a hunched, bald-headed vulture in a long black tailcoat, a wing-collar shirt, a silver cravat, wire spectacles, a pocket watch chain and white cartoon gloves, with a polite, hungry smile. Pale dusty-rose bald head, ivory hooked beak, dark brown feathers, amber eyes, black tailcoat, off-white shirt, silver cravat, brass watch chain, round wire spectacles, black formal boots. Upright cartoon proportions. Keep these choices once model-sheet art is approved.\nHero prop pedometer-v1: antique round brass wrist case, round dark face with a single rectangular amber digital counter window, raised riveted bezel, tiny right-side brass button, plain dark-brown leather strap. On Javelina LEFT wrist above the white glove cuff. Match reference01 exactly. No reel or wooden jewelry box in this episode.\nEXACT STAGING: Over the blurred black shoulder of the Banker, Javelina faces screen right and looks directly up at him, one white palm open in a sincere challenge. Same town and outfits, watch face turned away.\nOne strong focal subject, deliberate shot size, painted lightly textured background, thick black outlines, clean cel shading, dramatic light and depth separation. Show all mentioned hands as white cartoon gloves. Mouths closed, no speaking poses. Keep costume, face, proportions, palette and identity identical. No anime,3D,photorealism,extra limbs,distorted fingers,clutter,watermarks,logos,modern branded devices or captions. Never put sentences in the image. At most ONE readable numeral/symbol/short word, only the one explicitly specified in staging. Signs blank. Main duo only in Present; extras only in Archive.\n",
+      "promptRecord": "Exact prompt retained from generation request",
+      "references": [
+        "series/texas-casefiles/assets/duo-v1.png",
+        "assets/keyframes/01.png"
+      ],
+      "selectedFile": "assets/keyframes/04.png",
+      "selectedSHA256": "890bc41922b39eb72190994d030d8badd6d78474ea57cc1822d121c003a1ad17"
+    },
+    {
+      "id": "05",
+      "version": "v1",
+      "tool": "image_gen.imagegen",
+      "sourceGeneratedFile": "C:\\Users\\USER\\.codex\\generated_images\\01a13666-9ae6-7be0-ad70-c7955e51b712\\exec-faeab18b-e20f-4b19-b7dd-d5f199aa8346.png",
+      "prompt": "Create ONE vertical9:16 cinematic hand-inked2D cartoon film frame, not a contact sheet. Scene05,PRESENT. Reference image1 defines the exact recurring character identities; image2 defines the rendered look and brass watch. Full color. Texas frontier-town dusk: deep navy sky fading into a burnt-orange horizon, warm amber lantern and window glow, dusty main street with wooden boardwalks and storefronts, a saloon sign glow, distant windmill, mesa or oil-derrick silhouette, long soft shadows, golden rim light on the characters.\nVICTIM: a scrappy salt-and-pepper javelina with bristly fur, a round snout, small tusks, curious bright eyes, a flat-brimmed hat, a striped poncho, white cartoon gloves and scuffed boots. Charcoal flat-brimmed hat, rust-red and cream striped poncho, brown eyes, dark brown scuffed boots, two small ivory tusks. Upright cartoon proportions. Keep these choices once model-sheet art is approved.\nTRICKSTER: a hunched, bald-headed vulture in a long black tailcoat, a wing-collar shirt, a silver cravat, wire spectacles, a pocket watch chain and white cartoon gloves, with a polite, hungry smile. Pale dusty-rose bald head, ivory hooked beak, dark brown feathers, amber eyes, black tailcoat, off-white shirt, silver cravat, brass watch chain, round wire spectacles, black formal boots. Upright cartoon proportions. Keep these choices once model-sheet art is approved.\nHero prop pedometer-v1: antique round brass wrist case, round dark face with a single rectangular amber digital counter window, raised riveted bezel, tiny right-side brass button, plain dark-brown leather strap. On Javelina LEFT wrist above the white glove cuff. Match reference01 exactly. No reel or wooden jewelry box in this episode.\nEXACT STAGING: Macro: the Banker white-gloved index points toward the brass8400 pedometer on Javelina left wrist. Rust striped poncho sleeve and a portion of Javelina other glove below. Finger stops beside the case, never through the screen.\nOne strong focal subject, deliberate shot size, painted lightly textured background, thick black outlines, clean cel shading, dramatic light and depth separation. Show all mentioned hands as white cartoon gloves. Mouths closed, no speaking poses. Keep costume, face, proportions, palette and identity identical. No anime,3D,photorealism,extra limbs,distorted fingers,clutter,watermarks,logos,modern branded devices or captions. Never put sentences in the image. At most ONE readable numeral/symbol/short word, only the one explicitly specified in staging. Signs blank. Main duo only in Present; extras only in Archive.\n",
+      "promptRecord": "Exact prompt retained from generation request",
+      "references": [
+        "series/texas-casefiles/assets/duo-v1.png",
+        "assets/keyframes/01.png"
+      ],
+      "selectedFile": "assets/keyframes/05.png",
+      "selectedSHA256": "df3bc01b6e8c5a79ce31c00d138e84aa75bc3a9786875551cc88bfe46b5162ce"
+    },
+    {
+      "id": "06",
+      "version": "v1",
+      "tool": "image_gen.imagegen",
+      "sourceGeneratedFile": null,
+      "prompt": "Create ONE vertical9:16 cinematic hand-inked2D cartoon film frame, not a contact sheet. Scene06,PRESENT. Reference image1 defines the exact recurring character identities; image2 defines the rendered look and brass watch. Full color. Texas frontier-town dusk: deep navy sky fading into a burnt-orange horizon, warm amber lantern and window glow, dusty main street with wooden boardwalks and storefronts, a saloon sign glow, distant windmill, mesa or oil-derrick silhouette, long soft shadows, golden rim light on the characters.\nVICTIM: a scrappy salt-and-pepper javelina with bristly fur, a round snout, small tusks, curious bright eyes, a flat-brimmed hat, a striped poncho, white cartoon gloves and scuffed boots. Charcoal flat-brimmed hat, rust-red and cream striped poncho, brown eyes, dark brown scuffed boots, two small ivory tusks. Upright cartoon proportions. Keep these choices once model-sheet art is approved.\nTRICKSTER: a hunched, bald-headed vulture in a long black tailcoat, a wing-collar shirt, a silver cravat, wire spectacles, a pocket watch chain and white cartoon gloves, with a polite, hungry smile. Pale dusty-rose bald head, ivory hooked beak, dark brown feathers, amber eyes, black tailcoat, off-white shirt, silver cravat, brass watch chain, round wire spectacles, black formal boots. Upright cartoon proportions. Keep these choices once model-sheet art is approved.\nHero prop pedometer-v1: antique round brass wrist case, round dark face with a single rectangular amber digital counter window, raised riveted bezel, tiny right-side brass button, plain dark-brown leather strap. On Javelina LEFT wrist above the white glove cuff. Match reference01 exactly. No reel or wooden jewelry box in this episode.\nEXACT STAGING: Medium two-shot from waist up, Javelina screen left looks up skeptically at Banker screen right, wrist turned inward and other white-gloved palm open. Banker confidence momentarily paused. Both mouths closed.\nOne strong focal subject, deliberate shot size, painted lightly textured background, thick black outlines, clean cel shading, dramatic light and depth separation. Show all mentioned hands as white cartoon gloves. Mouths closed, no speaking poses. Keep costume, face, proportions, palette and identity identical. No anime,3D,photorealism,extra limbs,distorted fingers,clutter,watermarks,logos,modern branded devices or captions. Never put sentences in the image. At most ONE readable numeral/symbol/short word, only the one explicitly specified in staging. Signs blank. Main duo only in Present; extras only in Archive.\n",
+      "promptRecord": "Exact prompt retained from generation request",
+      "references": [
+        "series/texas-casefiles/assets/duo-v1.png",
+        "assets/keyframes/01.png"
+      ],
+      "selectedFile": "assets/keyframes/06.png",
+      "selectedSHA256": "d92ffc53c586a59c3164b00e07ea5a6cacfcc48a19341ff4d67680a1c680196e"
+    },
+    {
+      "id": "07",
+      "version": "v2",
+      "tool": "image_gen.imagegen",
+      "sourceGeneratedFile": "C:\\Users\\USER\\.codex\\generated_images\\01a13666-9ae6-7be0-ad70-c7955e51b712\\exec-7c26cb17-d990-4e35-8080-a0de5040fe9b.png",
+      "prompt": null,
+      "promptRecord": "Current planned prompt plus documented archive-only corrections; original first-shot prompt retained from Git e5bfa89",
+      "references": [
+        "assets/keyframes/08.png (Archive rendering only)"
+      ],
+      "selectedFile": "assets/keyframes/07.png",
+      "selectedSHA256": "ef0e77ec63143350127e7f3a3c8726f90b2a4a1e711d9c298fcda5958ef5627b"
+    },
+    {
+      "id": "08",
+      "version": "v1",
+      "tool": "image_gen.imagegen",
+      "sourceGeneratedFile": "C:\\Users\\USER\\.codex\\generated_images\\01a13666-9ae6-7be0-ad70-c7955e51b712\\exec-b512750d-f8d4-40dc-9358-5e3230b28d59.png",
+      "prompt": "Create ONE vertical9:16 cinematic hand-inked2D cartoon film frame, not a contact sheet. Scene08,ARCHIVE. Reference image1 defines the exact recurring character identities; image2 defines the rendered look and brass watch. Sepia and black-and-white vintage ink-cartoon look, 1930s to 1960s Texas, film grain, dust scratches, soft vignette, flat tonal shading, no color. The only color allowed is a small amber-orange glow on the Hero Prop when it appears.\nArchive characters are original anthropomorphic Texas animal extras in period-inspired clothing with white cartoon gloves, expressive eyebrows and large readable eyes. This is a symbolic animal reenactment, not genuine historical evidence.\nKeep any brass pedometer the same small round case and plain brown strap as image2, recolored sepia except an explicitly requested adoption glow.\nEXACT STAGING: Wide depth composition in a vintage clockmaking workshop: old short armadillo clockmaker, round glasses, rolled shirtsleeves, dark vest, apron and white gloves, bent over a compact plain brass counter on a bench. Behind him two clocks and a small paper drawing of an Olympic-style ceremonial flame WITHOUT logos or lettering. Period-inspired animal reenactment, no main duo.\nOne strong focal subject, deliberate shot size, painted lightly textured background, thick black outlines, clean cel shading, dramatic light and depth separation. Show all mentioned hands as white cartoon gloves. Mouths closed, no speaking poses. Keep costume, face, proportions, palette and identity identical. No anime,3D,photorealism,extra limbs,distorted fingers,clutter,watermarks,logos,modern branded devices or captions. Never put sentences in the image. At most ONE readable numeral/symbol/short word, only the one explicitly specified in staging. Signs blank. Main duo only in Present; extras only in Archive.\n",
+      "promptRecord": "Exact prompt retained from generation request",
+      "references": [
+        "series/texas-casefiles/assets/duo-v1.png",
+        "assets/keyframes/01.png"
+      ],
+      "selectedFile": "assets/keyframes/08.png",
+      "selectedSHA256": "5e988fa025f5185e41d9e98999f6e1f7e49d579e9198686d02052d0b34f0db14"
+    },
+    {
+      "id": "09",
+      "version": "v2",
+      "tool": "image_gen.imagegen",
+      "sourceGeneratedFile": "C:\\Users\\USER\\.codex\\generated_images\\01a13666-9ae6-7be0-ad70-c7955e51b712\\exec-105755ae-978b-47f3-a2ef-8c54e2ab5dec.png",
+      "prompt": null,
+      "promptRecord": "Current planned prompt plus documented archive-only corrections; original first-shot prompt retained from Git e5bfa89",
+      "references": [
+        "assets/keyframes/08.png (Archive rendering only)"
+      ],
+      "selectedFile": "assets/keyframes/09.png",
+      "selectedSHA256": "0ada7d7be0a79e4b81a7b66984d4cdb4fa3425f425bfbccff53d19365d6ff7c6"
+    },
+    {
+      "id": "10",
+      "version": "v2",
+      "tool": "image_gen.imagegen",
+      "sourceGeneratedFile": "C:\\Users\\USER\\.codex\\generated_images\\01a13666-9ae6-7be0-ad70-c7955e51b712\\exec-e270a4f7-c552-4f08-a5ae-9ad847f10fed.png",
+      "prompt": null,
+      "promptRecord": "Current planned prompt plus documented archive-only corrections; original first-shot prompt retained from Git e5bfa89",
+      "references": [
+        "assets/keyframes/08.png (Archive rendering only)"
+      ],
+      "selectedFile": "assets/keyframes/10.png",
+      "selectedSHA256": "82ce9b3fa462ccf18834862931d280b61b2c8f34481cc71cac53cd4c76aece84"
+    },
+    {
+      "id": "11",
+      "version": "v1",
+      "tool": "image_gen.imagegen",
+      "sourceGeneratedFile": "C:\\Users\\USER\\.codex\\generated_images\\01a13666-9ae6-7be0-ad70-c7955e51b712\\exec-cd6691b6-28ae-4923-a8b3-1736c29a7cb1.png",
+      "prompt": "Create ONE vertical9:16 cinematic hand-inked2D cartoon film frame, not a contact sheet. Scene11,ARCHIVE. Reference image1 defines the exact recurring character identities; image2 defines the rendered look and brass watch. Sepia and black-and-white vintage ink-cartoon look, 1930s to 1960s Texas, film grain, dust scratches, soft vignette, flat tonal shading, no color. The only color allowed is a small amber-orange glow on the Hero Prop when it appears.\nArchive characters are original anthropomorphic Texas animal extras in period-inspired clothing with white cartoon gloves, expressive eyebrows and large readable eyes. This is a symbolic animal reenactment, not genuine historical evidence.\nKeep any brass pedometer the same small round case and plain brown strap as image2, recolored sepia except an explicitly requested adoption glow.\nEXACT STAGING: Medium three-quarter shot of a gentle longhorn doctor with white period coat, stethoscope and white gloves, holding an unlettered walking-route drawing toward an owl journalist with round spectacles, cardigan and white gloves. Vintage town community room; plain pinned map, desk lamp, wooden chair. No numbers or words.\nOne strong focal subject, deliberate shot size, painted lightly textured background, thick black outlines, clean cel shading, dramatic light and depth separation. Show all mentioned hands as white cartoon gloves. Mouths closed, no speaking poses. Keep costume, face, proportions, palette and identity identical. No anime,3D,photorealism,extra limbs,distorted fingers,clutter,watermarks,logos,modern branded devices or captions. Never put sentences in the image. At most ONE readable numeral/symbol/short word, only the one explicitly specified in staging. Signs blank. Main duo only in Present; extras only in Archive.\n",
+      "promptRecord": "Exact prompt retained from generation request",
+      "references": [
+        "series/texas-casefiles/assets/duo-v1.png",
+        "assets/keyframes/01.png"
+      ],
+      "selectedFile": "assets/keyframes/11.png",
+      "selectedSHA256": "627f2a1dd485e8c4a99d0c4ee1a2346cea3d4350c4594532598f1995b436151a"
+    },
+    {
+      "id": "12",
+      "version": "v2",
+      "tool": "image_gen.imagegen",
+      "sourceGeneratedFile": "C:\\Users\\USER\\.codex\\generated_images\\01a13666-9ae6-7be0-ad70-c7955e51b712\\exec-048d0720-a9e1-4475-bbb2-d3216e4be7c5.png",
+      "prompt": null,
+      "promptRecord": "Current planned prompt plus documented archive-only corrections; original first-shot prompt retained from Git e5bfa89",
+      "references": [
+        "assets/keyframes/08.png (Archive rendering only)"
+      ],
+      "selectedFile": "assets/keyframes/12.png",
+      "selectedSHA256": "ee476bc7d56a95caa754b96c488931f4641bea98a070dfbe25ea30d2be116aa0"
+    },
+    {
+      "id": "13",
+      "version": "v2",
+      "tool": "image_gen.imagegen",
+      "sourceGeneratedFile": "C:\\Users\\USER\\.codex\\generated_images\\01a13666-9ae6-7be0-ad70-c7955e51b712\\exec-22343cf7-5065-46db-95b9-cf6ec4cf0de0.png",
+      "prompt": null,
+      "promptRecord": "Current planned prompt plus documented archive-only corrections; original first-shot prompt retained from Git e5bfa89",
+      "references": [
+        "assets/keyframes/08.png (Archive rendering only)"
+      ],
+      "selectedFile": "assets/keyframes/13.png",
+      "selectedSHA256": "ae610cc1b305614c28844f4fb81a1b823621aa7716853834350178ca97ca3843"
+    },
+    {
+      "id": "14",
+      "version": "v2",
+      "tool": "image_gen.imagegen",
+      "sourceGeneratedFile": "C:\\Users\\USER\\.codex\\generated_images\\01a13666-9ae6-7be0-ad70-c7955e51b712\\exec-4aeb16c7-5e4b-4a0f-91f4-814e5fcb8af5.png",
+      "prompt": null,
+      "promptRecord": "Current planned prompt plus documented archive-only corrections; original first-shot prompt retained from Git e5bfa89",
+      "references": [
+        "assets/keyframes/08.png (Archive rendering only)"
+      ],
+      "selectedFile": "assets/keyframes/14.png",
+      "selectedSHA256": "ce80fa8db3bf123b39e9d757b1f6b64e80cddf7ed65e7d64bf362f6d814a039b"
+    },
+    {
+      "id": "15",
+      "version": "v2",
+      "tool": "image_gen.imagegen",
+      "sourceGeneratedFile": "C:\\Users\\USER\\.codex\\generated_images\\01a13666-9ae6-7be0-ad70-c7955e51b712\\exec-27d45079-ab6b-4452-8cec-ae401466f071.png",
+      "prompt": null,
+      "promptRecord": "Current planned prompt plus documented archive-only corrections; original first-shot prompt retained from Git e5bfa89",
+      "references": [
+        "assets/keyframes/08.png (Archive rendering only)"
+      ],
+      "selectedFile": "assets/keyframes/15.png",
+      "selectedSHA256": "36602e941a30dfb0a99b468d3e3950a1442ed91b16c550575a0753bcb62d6dbd"
+    },
+    {
+      "id": "16",
+      "version": "v2",
+      "tool": "image_gen.imagegen",
+      "sourceGeneratedFile": "C:\\Users\\USER\\.codex\\generated_images\\01a13666-9ae6-7be0-ad70-c7955e51b712\\exec-9c9ec2e8-5ac7-409c-9609-78a20a759d90.png",
+      "prompt": null,
+      "promptRecord": "Current planned prompt plus documented archive-only corrections; original first-shot prompt retained from Git e5bfa89",
+      "references": [
+        "assets/keyframes/08.png (Archive rendering only)"
+      ],
+      "selectedFile": "assets/keyframes/16.png",
+      "selectedSHA256": "a4eaff162e21708c3118c48b6a3ce337e8985c799b5ec34d06679ca5d5280bd7"
+    },
+    {
+      "id": "17",
+      "version": "v2",
+      "tool": "image_gen.imagegen",
+      "sourceGeneratedFile": "C:\\Users\\USER\\.codex\\generated_images\\01a13666-9ae6-7be0-ad70-c7955e51b712\\exec-00381e2e-83d1-4326-a9e2-bed0f470f3d6.png",
+      "prompt": null,
+      "promptRecord": "Current planned prompt plus documented archive-only corrections; original first-shot prompt retained from Git e5bfa89",
+      "references": [
+        "assets/keyframes/08.png (Archive rendering only)"
+      ],
+      "selectedFile": "assets/keyframes/17.png",
+      "selectedSHA256": "f87019ea1d0782275a527375a76cb14f0c9eb2c16f2848797708954134ea5a56"
+    },
+    {
+      "id": "18",
+      "version": "v2",
+      "tool": "image_gen.imagegen",
+      "sourceGeneratedFile": "C:\\Users\\USER\\.codex\\generated_images\\01a13666-9ae6-7be0-ad70-c7955e51b712\\exec-9fd420a3-db7c-41a0-8d71-f49ad511adae.png",
+      "prompt": null,
+      "promptRecord": "Current planned prompt plus documented archive-only corrections; original first-shot prompt retained from Git e5bfa89",
+      "references": [
+        "assets/keyframes/08.png (Archive rendering only)"
+      ],
+      "selectedFile": "assets/keyframes/18.png",
+      "selectedSHA256": "c2cb3290c62faa4f7258af6c581b305152a901e2898854cd32811cefe83d6234"
+    },
+    {
+      "id": "19",
+      "version": "v3",
+      "tool": "image_gen.imagegen",
+      "sourceGeneratedFile": "C:\\Users\\USER\\.codex\\generated_images\\01a13666-9ae6-7be0-ad70-c7955e51b712\\exec-06b7fa6a-156f-4ef6-9079-4ca82583698d.png",
+      "prompt": "Edit only the supplied cartoon frame. Remove the round glowing counter/pedometer hanging on the longhorn's chest and reconstruct his ordinary vest and shirt underneath. Preserve EVERYTHING else exactly: character face, horns, white gloves, stride, backpack, camera, boots, wooden7000 milestone, path, period ink lines, sepia lighting and grain. The only readable number in the entire final image must be the existing7000 on the wooden milestone. No replacement necklace, badge, watch, numbers or glow on his clothes. One vertical9:16 frame.",
+      "promptRecord": "Exact prompt retained from generation request",
+      "references": [
+        "Earlier selected scene image; edit prompt preserved"
+      ],
+      "selectedFile": "assets/keyframes/19.png",
+      "selectedSHA256": "a3078692085df30f343f9ca9558cb3d375567c8e186cb811c140663409b7ca27"
+    },
+    {
+      "id": "20",
+      "version": "v3",
+      "tool": "image_gen.imagegen",
+      "sourceGeneratedFile": "C:\\Users\\USER\\.codex\\generated_images\\01a13666-9ae6-7be0-ad70-c7955e51b712\\exec-6c3e1334-cd10-4458-b76a-ce91d2d9e78f.png",
+      "prompt": "Edit only the supplied cartoon frame. Remove the round glowing counter/pedometer hanging on the central armadillo's chest and reconstruct his ordinary buttoned vest underneath. Preserve EVERYTHING else exactly: all three adult animal identities, clothing, white gloves, cane grip and grounded cane tip, stride, camera, path, sepia lighting, period ink lines and grain. No readable lettering, numerals, watch, replacement badge, medallion or glow anywhere in the final image. One vertical9:16 frame.",
+      "promptRecord": "Exact prompt retained from generation request",
+      "references": [
+        "Earlier selected scene image; edit prompt preserved"
+      ],
+      "selectedFile": "assets/keyframes/20.png",
+      "selectedSHA256": "db75dedc06f5f4a3e22902526684a834498039506a0ae4f2a33a45dd38ffd06e"
+    },
+    {
+      "id": "21",
+      "version": "v2",
+      "tool": "image_gen.imagegen",
+      "sourceGeneratedFile": "C:\\Users\\USER\\.codex\\generated_images\\01a13666-9ae6-7be0-ad70-c7955e51b712\\exec-bcb2d611-2ccf-4803-b423-dc92e6c484e6.png",
+      "prompt": "Create ONE vertical9:16 cinematic hand-inked2D cartoon film frame, not a contact sheet. Scene21,PRESENT. Reference image1 defines the exact recurring character identities; image2 defines the rendered look and brass watch. Full color. Texas frontier-town dusk: deep navy sky fading into a burnt-orange horizon, warm amber lantern and window glow, dusty main street with wooden boardwalks and storefronts, a saloon sign glow, distant windmill, mesa or oil-derrick silhouette, long soft shadows, golden rim light on the characters.\nVICTIM: a scrappy salt-and-pepper javelina with bristly fur, a round snout, small tusks, curious bright eyes, a flat-brimmed hat, a striped poncho, white cartoon gloves and scuffed boots. Charcoal flat-brimmed hat, rust-red and cream striped poncho, brown eyes, dark brown scuffed boots, two small ivory tusks. Upright cartoon proportions. Keep these choices once model-sheet art is approved.\nTRICKSTER: a hunched, bald-headed vulture in a long black tailcoat, a wing-collar shirt, a silver cravat, wire spectacles, a pocket watch chain and white cartoon gloves, with a polite, hungry smile. Pale dusty-rose bald head, ivory hooked beak, dark brown feathers, amber eyes, black tailcoat, off-white shirt, silver cravat, brass watch chain, round wire spectacles, black formal boots. Upright cartoon proportions. Keep these choices once model-sheet art is approved.\nHero prop pedometer-v1: antique round brass wrist case, round dark face with a single rectangular amber digital counter window, raised riveted bezel, tiny right-side brass button, plain dark-brown leather strap. On Javelina LEFT wrist above the white glove cuff. Match reference01 exactly. No reel or wooden jewelry box in this episode.\nEXACT STAGING: Wide Javelina alone sitting on the wooden boardwalk bench under amber lantern, shoulders slumped, head bowed toward his left-wrist brass8400 watch. Same hat, poncho, gloves, boots and deeper navy Texas dusk; long empty boardwalk beyond.\nOne strong focal subject, deliberate shot size, painted lightly textured background, thick black outlines, clean cel shading, dramatic light and depth separation. Show all mentioned hands as white cartoon gloves. Neutral relaxed resting mouths in the still; later dialogue animation articulates the selected speaker. Keep costume, face, proportions, palette and identity identical. No anime,3D,photorealism,extra limbs,distorted fingers,clutter,watermarks,logos,modern branded devices or captions. Never put sentences in the image. At most ONE readable numeral/symbol/short word, only the one explicitly specified in staging. Signs blank. Main duo only in Present; extras only in Archive.\n",
+      "promptRecord": "Exact prompt retained from generation request",
+      "references": [
+        "series/texas-casefiles/assets/duo-v1.png",
+        "assets/keyframes/01.png"
+      ],
+      "selectedFile": "assets/keyframes/21.png",
+      "selectedSHA256": "9aa9ad34e894a90b7586a2acdfed278e5b7f84f5a20b51bf8298c695aa673a3d"
+    },
+    {
+      "id": "22",
+      "version": "v2",
+      "tool": "image_gen.imagegen",
+      "sourceGeneratedFile": "C:\\Users\\USER\\.codex\\generated_images\\01a13666-9ae6-7be0-ad70-c7955e51b712\\exec-5b3fb330-eca0-45dc-9f1f-fc66e9106f41.png",
+      "prompt": "Create ONE vertical9:16 cinematic hand-inked2D cartoon film frame, not a contact sheet. Scene22,PRESENT. Reference image1 defines the exact recurring character identities; image2 defines the rendered look and brass watch. Full color. Texas frontier-town dusk: deep navy sky fading into a burnt-orange horizon, warm amber lantern and window glow, dusty main street with wooden boardwalks and storefronts, a saloon sign glow, distant windmill, mesa or oil-derrick silhouette, long soft shadows, golden rim light on the characters.\nVICTIM: a scrappy salt-and-pepper javelina with bristly fur, a round snout, small tusks, curious bright eyes, a flat-brimmed hat, a striped poncho, white cartoon gloves and scuffed boots. Charcoal flat-brimmed hat, rust-red and cream striped poncho, brown eyes, dark brown scuffed boots, two small ivory tusks. Upright cartoon proportions. Keep these choices once model-sheet art is approved.\nTRICKSTER: a hunched, bald-headed vulture in a long black tailcoat, a wing-collar shirt, a silver cravat, wire spectacles, a pocket watch chain and white cartoon gloves, with a polite, hungry smile. Pale dusty-rose bald head, ivory hooked beak, dark brown feathers, amber eyes, black tailcoat, off-white shirt, silver cravat, brass watch chain, round wire spectacles, black formal boots. Upright cartoon proportions. Keep these choices once model-sheet art is approved.\nHero prop pedometer-v1: antique round brass wrist case, round dark face with a single rectangular amber digital counter window, raised riveted bezel, tiny right-side brass button, plain dark-brown leather strap. On Javelina LEFT wrist above the white glove cuff. Match reference01 exactly. No reel or wooden jewelry box in this episode.\nEXACT STAGING: Extreme close-up Javelina worried eyes and bowed snout, hat brim shadow, one ivory tusk, rust poncho edge. Lower edge includes watch brass rim blurred and no readable digits. White-gloved hand rests on knee.\nOne strong focal subject, deliberate shot size, painted lightly textured background, thick black outlines, clean cel shading, dramatic light and depth separation. Show all mentioned hands as white cartoon gloves. Neutral relaxed resting mouths in the still; later dialogue animation articulates the selected speaker. Keep costume, face, proportions, palette and identity identical. No anime,3D,photorealism,extra limbs,distorted fingers,clutter,watermarks,logos,modern branded devices or captions. Never put sentences in the image. At most ONE readable numeral/symbol/short word, only the one explicitly specified in staging. Signs blank. Main duo only in Present; extras only in Archive.\n",
+      "promptRecord": "Exact prompt retained from generation request",
+      "references": [
+        "series/texas-casefiles/assets/duo-v1.png",
+        "assets/keyframes/01.png"
+      ],
+      "selectedFile": "assets/keyframes/22.png",
+      "selectedSHA256": "2ca727d1829e3bd64571dd4cd6cc7c668ade9e053d2597ed92a2b68ba691cd58"
+    },
+    {
+      "id": "23",
+      "version": "v3",
+      "tool": "image_gen.imagegen",
+      "sourceGeneratedFile": "C:\\Users\\USER\\.codex\\generated_images\\01a13666-9ae6-7be0-ad70-c7955e51b712\\exec-ac91062c-9c60-42db-adbf-349d90fa1074.png",
+      "prompt": "Edit the supplied vertical2D cartoon frame for precise shot continuity. Preserve exactly the Javelina's face, eyes, hat, tusks, rust-and-cream poncho, body proportions, the Vulture Banker's identity and outfit, the boardwalk, lamps, sky, framing and ink/paint rendering. Change ONLY Javelina's raised left forearm: lower the left forearm naturally below the bottom edge of the frame, with its white-gloved hand resting on his seated knee outside the crop. The wrist counter is therefore entirely out of frame, not removed from his outfit. Reconstruct the small exposed poncho area naturally. He is seated upright and beginning to straighten his back, calmly looking up; keep his face and eye direction. No raised fist, no watch display or numerals in frame, no new objects or characters, no changed pose for the Banker. One vertical9:16 frame.",
+      "promptRecord": "Exact prompt retained from generation request",
+      "references": [
+        "Earlier selected scene image; edit prompt preserved"
+      ],
+      "selectedFile": "assets/keyframes/23.png",
+      "selectedSHA256": "13ebd5a3dd73f4243da1db1325293a3d3a32ad7846b366f74c888fdf7f734a12"
+    },
+    {
+      "id": "24",
+      "version": "v2",
+      "tool": "image_gen.imagegen",
+      "sourceGeneratedFile": "C:\\Users\\USER\\.codex\\generated_images\\01a13666-9ae6-7be0-ad70-c7955e51b712\\exec-63aac122-1555-42c4-ab19-2da516e72cff.png",
+      "prompt": "Create ONE vertical9:16 cinematic hand-inked2D cartoon film frame, not a contact sheet. Scene24,PRESENT. Reference image1 defines the exact recurring character identities; image2 defines the rendered look and brass watch. Full color. Texas frontier-town dusk: deep navy sky fading into a burnt-orange horizon, warm amber lantern and window glow, dusty main street with wooden boardwalks and storefronts, a saloon sign glow, distant windmill, mesa or oil-derrick silhouette, long soft shadows, golden rim light on the characters.\nVICTIM: a scrappy salt-and-pepper javelina with bristly fur, a round snout, small tusks, curious bright eyes, a flat-brimmed hat, a striped poncho, white cartoon gloves and scuffed boots. Charcoal flat-brimmed hat, rust-red and cream striped poncho, brown eyes, dark brown scuffed boots, two small ivory tusks. Upright cartoon proportions. Keep these choices once model-sheet art is approved.\nTRICKSTER: a hunched, bald-headed vulture in a long black tailcoat, a wing-collar shirt, a silver cravat, wire spectacles, a pocket watch chain and white cartoon gloves, with a polite, hungry smile. Pale dusty-rose bald head, ivory hooked beak, dark brown feathers, amber eyes, black tailcoat, off-white shirt, silver cravat, brass watch chain, round wire spectacles, black formal boots. Upright cartoon proportions. Keep these choices once model-sheet art is approved.\nHero prop pedometer-v1: antique round brass wrist case, round dark face with a single rectangular amber digital counter window, raised riveted bezel, tiny right-side brass button, plain dark-brown leather strap. On Javelina LEFT wrist above the white glove cuff. Match reference01 exactly. No reel or wooden jewelry box in this episode.\nEXACT STAGING: Low medium full-body Javelina at the bench beginning to stand, boots planted, both white gloves pushing lightly on his knees, same rust-and-cream poncho and charcoal hat. The boardwalk path opens to screen right; watch face turned inward.\nOne strong focal subject, deliberate shot size, painted lightly textured background, thick black outlines, clean cel shading, dramatic light and depth separation. Show all mentioned hands as white cartoon gloves. Neutral relaxed resting mouths in the still; later dialogue animation articulates the selected speaker. Keep costume, face, proportions, palette and identity identical. No anime,3D,photorealism,extra limbs,distorted fingers,clutter,watermarks,logos,modern branded devices or captions. Never put sentences in the image. At most ONE readable numeral/symbol/short word, only the one explicitly specified in staging. Signs blank. Main duo only in Present; extras only in Archive.\n",
+      "promptRecord": "Exact prompt retained from generation request",
+      "references": [
+        "series/texas-casefiles/assets/duo-v1.png",
+        "assets/keyframes/01.png"
+      ],
+      "selectedFile": "assets/keyframes/24.png",
+      "selectedSHA256": "5764fa445acc8fa94b666d32525e95d1a0ae8959f2c2e8bf806dcc4eb661cc18"
+    },
+    {
+      "id": "25",
+      "version": "v2",
+      "tool": "image_gen.imagegen",
+      "sourceGeneratedFile": "C:\\Users\\USER\\.codex\\generated_images\\01a13666-9ae6-7be0-ad70-c7955e51b712\\exec-20d498d4-0d35-4e22-a129-db42252acad4.png",
+      "prompt": "Create ONE vertical9:16 cinematic hand-inked2D cartoon film frame, not a contact sheet. Scene25,PRESENT. Reference image1 defines the exact recurring character identities; image2 defines the rendered look and brass watch. Full color. Texas frontier-town dusk: deep navy sky fading into a burnt-orange horizon, warm amber lantern and window glow, dusty main street with wooden boardwalks and storefronts, a saloon sign glow, distant windmill, mesa or oil-derrick silhouette, long soft shadows, golden rim light on the characters.\nVICTIM: a scrappy salt-and-pepper javelina with bristly fur, a round snout, small tusks, curious bright eyes, a flat-brimmed hat, a striped poncho, white cartoon gloves and scuffed boots. Charcoal flat-brimmed hat, rust-red and cream striped poncho, brown eyes, dark brown scuffed boots, two small ivory tusks. Upright cartoon proportions. Keep these choices once model-sheet art is approved.\nTRICKSTER: a hunched, bald-headed vulture in a long black tailcoat, a wing-collar shirt, a silver cravat, wire spectacles, a pocket watch chain and white cartoon gloves, with a polite, hungry smile. Pale dusty-rose bald head, ivory hooked beak, dark brown feathers, amber eyes, black tailcoat, off-white shirt, silver cravat, brass watch chain, round wire spectacles, black formal boots. Upright cartoon proportions. Keep these choices once model-sheet art is approved.\nHero prop pedometer-v1: antique round brass wrist case, round dark face with a single rectangular amber digital counter window, raised riveted bezel, tiny right-side brass button, plain dark-brown leather strap. On Javelina LEFT wrist above the white glove cuff. Match reference01 exactly. No reel or wooden jewelry box in this episode.\nEXACT STAGING: Medium close-up Banker alone at lantern-lit wooden post, one white glove holding a plain rolled-up sales card with only10000, confident eyebrows beginning to falter as he looks offscreen left after departing Javelina. Silver cravat, wire glasses, tailcoat exact.\nOne strong focal subject, deliberate shot size, painted lightly textured background, thick black outlines, clean cel shading, dramatic light and depth separation. Show all mentioned hands as white cartoon gloves. Neutral relaxed resting mouths in the still; later dialogue animation articulates the selected speaker. Keep costume, face, proportions, palette and identity identical. No anime,3D,photorealism,extra limbs,distorted fingers,clutter,watermarks,logos,modern branded devices or captions. Never put sentences in the image. At most ONE readable numeral/symbol/short word, only the one explicitly specified in staging. Signs blank. Main duo only in Present; extras only in Archive.\n\nUse restrained deep navy and muted brown midtones, with localized amber illumination. Moody contrast rather than a uniformly bright golden wash.",
+      "promptRecord": "Exact prompt retained from generation request",
+      "references": [
+        "series/texas-casefiles/assets/duo-v1.png",
+        "assets/keyframes/01.png"
+      ],
+      "selectedFile": "assets/keyframes/25.png",
+      "selectedSHA256": "b1a7d924c0a6a9c09cb23d02eb96116ce153400fef66a5fa854e77e2bc0fbf79"
+    },
+    {
+      "id": "26",
+      "version": "v2",
+      "tool": "image_gen.imagegen",
+      "sourceGeneratedFile": "C:\\Users\\USER\\.codex\\generated_images\\01a13666-9ae6-7be0-ad70-c7955e51b712\\exec-f969b6bb-3cac-4de5-90e5-60e782eb0b55.png",
+      "prompt": "Create ONE vertical9:16 cinematic hand-inked2D cartoon film frame, not a contact sheet. Scene26,PRESENT. Reference image1 defines the exact recurring character identities; image2 defines the rendered look and brass watch. Full color. Texas frontier-town dusk: deep navy sky fading into a burnt-orange horizon, warm amber lantern and window glow, dusty main street with wooden boardwalks and storefronts, a saloon sign glow, distant windmill, mesa or oil-derrick silhouette, long soft shadows, golden rim light on the characters.\nVICTIM: a scrappy salt-and-pepper javelina with bristly fur, a round snout, small tusks, curious bright eyes, a flat-brimmed hat, a striped poncho, white cartoon gloves and scuffed boots. Charcoal flat-brimmed hat, rust-red and cream striped poncho, brown eyes, dark brown scuffed boots, two small ivory tusks. Upright cartoon proportions. Keep these choices once model-sheet art is approved.\nTRICKSTER: a hunched, bald-headed vulture in a long black tailcoat, a wing-collar shirt, a silver cravat, wire spectacles, a pocket watch chain and white cartoon gloves, with a polite, hungry smile. Pale dusty-rose bald head, ivory hooked beak, dark brown feathers, amber eyes, black tailcoat, off-white shirt, silver cravat, brass watch chain, round wire spectacles, black formal boots. Upright cartoon proportions. Keep these choices once model-sheet art is approved.\nHero prop pedometer-v1: antique round brass wrist case, round dark face with a single rectangular amber digital counter window, raised riveted bezel, tiny right-side brass button, plain dark-brown leather strap. On Javelina LEFT wrist above the white glove cuff. Match reference01 exactly. No reel or wooden jewelry box in this episode.\nEXACT STAGING: Full-body two-shot on boardwalk: Javelina in foreground walking confidently screen right away from the bench, Banker several paces behind now still. Same town geography and outfits; no visible watch digits, no sales card lettering.\nOne strong focal subject, deliberate shot size, painted lightly textured background, thick black outlines, clean cel shading, dramatic light and depth separation. Show all mentioned hands as white cartoon gloves. Neutral relaxed resting mouths in the still; later dialogue animation articulates the selected speaker. Keep costume, face, proportions, palette and identity identical. No anime,3D,photorealism,extra limbs,distorted fingers,clutter,watermarks,logos,modern branded devices or captions. Never put sentences in the image. At most ONE readable numeral/symbol/short word, only the one explicitly specified in staging. Signs blank. Main duo only in Present; extras only in Archive.\n\nUse restrained deep navy and muted brown midtones, with localized amber illumination. Moody contrast rather than a uniformly bright golden wash.",
+      "promptRecord": "Exact prompt retained from generation request",
+      "references": [
+        "series/texas-casefiles/assets/duo-v1.png",
+        "assets/keyframes/01.png"
+      ],
+      "selectedFile": "assets/keyframes/26.png",
+      "selectedSHA256": "4bb7bb3884ef5b6163110e9aa414cf854c4af24fc4af7ca10be962c41995885f"
+    },
+    {
+      "id": "27",
+      "version": "v2",
+      "tool": "image_gen.imagegen",
+      "sourceGeneratedFile": "C:\\Users\\USER\\.codex\\generated_images\\01a13666-9ae6-7be0-ad70-c7955e51b712\\exec-af6f267a-bebf-4a63-902d-2a42afa8e6a4.png",
+      "prompt": "Create ONE vertical9:16 cinematic hand-inked2D cartoon film frame, not a contact sheet. Scene27,PRESENT. Reference image1 defines the exact recurring character identities; image2 defines the rendered look and brass watch. Full color. Texas frontier-town dusk: deep navy sky fading into a burnt-orange horizon, warm amber lantern and window glow, dusty main street with wooden boardwalks and storefronts, a saloon sign glow, distant windmill, mesa or oil-derrick silhouette, long soft shadows, golden rim light on the characters.\nVICTIM: a scrappy salt-and-pepper javelina with bristly fur, a round snout, small tusks, curious bright eyes, a flat-brimmed hat, a striped poncho, white cartoon gloves and scuffed boots. Charcoal flat-brimmed hat, rust-red and cream striped poncho, brown eyes, dark brown scuffed boots, two small ivory tusks. Upright cartoon proportions. Keep these choices once model-sheet art is approved.\nTRICKSTER: a hunched, bald-headed vulture in a long black tailcoat, a wing-collar shirt, a silver cravat, wire spectacles, a pocket watch chain and white cartoon gloves, with a polite, hungry smile. Pale dusty-rose bald head, ivory hooked beak, dark brown feathers, amber eyes, black tailcoat, off-white shirt, silver cravat, brass watch chain, round wire spectacles, black formal boots. Upright cartoon proportions. Keep these choices once model-sheet art is approved.\nHero prop pedometer-v1: antique round brass wrist case, round dark face with a single rectangular amber digital counter window, raised riveted bezel, tiny right-side brass button, plain dark-brown leather strap. On Javelina LEFT wrist above the white glove cuff. Match reference01 exactly. No reel or wooden jewelry box in this episode.\nEXACT STAGING: Ground-level macro Javelina worn brown boots approaching an ordinary thin chalk line on wooden boardwalk, rust poncho fringe at top, white glove swinging near side. No gate, no magic effects, no numbers, uninterrupted path beyond.\nOne strong focal subject, deliberate shot size, painted lightly textured background, thick black outlines, clean cel shading, dramatic light and depth separation. Show all mentioned hands as white cartoon gloves. Neutral relaxed resting mouths in the still; later dialogue animation articulates the selected speaker. Keep costume, face, proportions, palette and identity identical. No anime,3D,photorealism,extra limbs,distorted fingers,clutter,watermarks,logos,modern branded devices or captions. Never put sentences in the image. At most ONE readable numeral/symbol/short word, only the one explicitly specified in staging. Signs blank. Main duo only in Present; extras only in Archive.\n\nUse restrained deep navy and muted brown midtones, with localized amber illumination. Moody contrast rather than a uniformly bright golden wash.",
+      "promptRecord": "Exact prompt retained from generation request",
+      "references": [
+        "series/texas-casefiles/assets/duo-v1.png",
+        "assets/keyframes/01.png"
+      ],
+      "selectedFile": "assets/keyframes/27.png",
+      "selectedSHA256": "7c67d60812185b64811218ac28f39b687c5d83864d89a7ca001f8d68aba5ce84"
+    },
+    {
+      "id": "28",
+      "version": "v2",
+      "tool": "image_gen.imagegen",
+      "sourceGeneratedFile": "C:\\Users\\USER\\.codex\\generated_images\\01a13666-9ae6-7be0-ad70-c7955e51b712\\exec-d9e1c0f1-1067-4dc9-a344-edcfc34a9b52.png",
+      "prompt": "Create ONE vertical9:16 cinematic hand-inked2D cartoon film frame, not a contact sheet. Scene28,PRESENT. Reference image1 defines the exact recurring character identities; image2 defines the rendered look and brass watch. Full color. Texas frontier-town dusk: deep navy sky fading into a burnt-orange horizon, warm amber lantern and window glow, dusty main street with wooden boardwalks and storefronts, a saloon sign glow, distant windmill, mesa or oil-derrick silhouette, long soft shadows, golden rim light on the characters.\nVICTIM: a scrappy salt-and-pepper javelina with bristly fur, a round snout, small tusks, curious bright eyes, a flat-brimmed hat, a striped poncho, white cartoon gloves and scuffed boots. Charcoal flat-brimmed hat, rust-red and cream striped poncho, brown eyes, dark brown scuffed boots, two small ivory tusks. Upright cartoon proportions. Keep these choices once model-sheet art is approved.\nTRICKSTER: a hunched, bald-headed vulture in a long black tailcoat, a wing-collar shirt, a silver cravat, wire spectacles, a pocket watch chain and white cartoon gloves, with a polite, hungry smile. Pale dusty-rose bald head, ivory hooked beak, dark brown feathers, amber eyes, black tailcoat, off-white shirt, silver cravat, brass watch chain, round wire spectacles, black formal boots. Upright cartoon proportions. Keep these choices once model-sheet art is approved.\nHero prop pedometer-v1: antique round brass wrist case, round dark face with a single rectangular amber digital counter window, raised riveted bezel, tiny right-side brass button, plain dark-brown leather strap. On Javelina LEFT wrist above the white glove cuff. Match reference01 exactly. No reel or wooden jewelry box in this episode.\nEXACT STAGING: Medium close-up Vulture Banker facing the viewer under a boardwalk lantern, serious half-lidded eyes behind wire spectacles, black tailcoat and silver cravat unchanged. One white glove open in a restrained questioning gesture. Javelina walking away softly blurred behind. The watch is absent from foreground.\nOne strong focal subject, deliberate shot size, painted lightly textured background, thick black outlines, clean cel shading, dramatic light and depth separation. Show all mentioned hands as white cartoon gloves. Neutral relaxed resting mouths in the still; later dialogue animation articulates the selected speaker. Keep costume, face, proportions, palette and identity identical. No anime,3D,photorealism,extra limbs,distorted fingers,clutter,watermarks,logos,modern branded devices or captions. Never put sentences in the image. At most ONE readable numeral/symbol/short word, only the one explicitly specified in staging. Signs blank. Main duo only in Present; extras only in Archive.\n\nUse restrained deep navy and muted brown midtones, with localized amber illumination. Moody contrast rather than a uniformly bright golden wash.",
+      "promptRecord": "Exact prompt retained from generation request",
+      "references": [
+        "series/texas-casefiles/assets/duo-v1.png",
+        "assets/keyframes/01.png"
+      ],
+      "selectedFile": "assets/keyframes/28.png",
+      "selectedSHA256": "1670f44fa417cee69fc1deaa0da1c01b7e6fb98ded5cba39c135fb35daa66f23"
+    }
+  ]
+}

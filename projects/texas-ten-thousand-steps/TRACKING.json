@@ -1,0 +1,96 @@
+{
+  "shots": [
+    {
+      "id": "01",
+      "kind": "watch",
+      "center": [
+        167,
+        425
+      ],
+      "axes": [
+        20,
+        11
+      ],
+      "angle": 0,
+      "featureAxes": [
+        42,
+        31
+      ],
+      "text": "8400",
+      "patchWidth": 38,
+      "patchHeight": 17,
+      "fontSize": 13,
+      "textWidth": 31
+    },
+    {
+      "id": "05",
+      "kind": "watch",
+      "center": [
+        175,
+        427
+      ],
+      "axes": [
+        17.5,
+        9
+      ],
+      "angle": 0,
+      "featureAxes": [
+        38,
+        29
+      ],
+      "text": "8400",
+      "patchWidth": 31,
+      "patchHeight": 14,
+      "fontSize": 11,
+      "textWidth": 25
+    },
+    {
+      "id": "21",
+      "kind": "watch",
+      "center": [
+        166,
+        379
+      ],
+      "axes": [
+        9,
+        5
+      ],
+      "angle": 5,
+      "featureAxes": [
+        15,
+        13
+      ],
+      "text": "8400",
+      "patchWidth": 16,
+      "patchHeight": 7,
+      "fontSize": 6,
+      "textWidth": 13,
+      "featureMaskPolygon": [
+        [
+          152,
+          369
+        ],
+        [
+          179,
+          368
+        ],
+        [
+          188,
+          381
+        ],
+        [
+          179,
+          404
+        ],
+        [
+          160,
+          400
+        ],
+        [
+          151,
+          389
+        ]
+      ]
+    }
+  ]
+}

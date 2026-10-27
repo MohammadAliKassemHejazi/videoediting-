@@ -71,3 +71,12 @@ Use the full90s Remotion composition, not only the four-second first-shot test.
 Keep incomplete keyframes labeled, and require real animation before final export.
 Prepare original sound, a designed cover, full decode/playback/phone/seam review
 and source hashes. No concurrent H3, enhancement or full rendering jobs.
+
+For the second Texas episode, read docs/TEXAS_EPISODE_2.md. The user explicitly
+requested moving lips, a serious bird voice and softer Javelina, superseding the
+earlier silent-animation restriction. Local speaking takes use the actual stock
+voice guide, audio VAE and MiniMaxH3AddGuide; only the selected dialogue speaker
+articulates, while offscreen narration leaves visible listeners silent. Preserve
+source intervals and guide timing through final retiming. Do not call general
+mouth motion perfect lip-sync or claim a listening review from metadata. The
+bounded-frame-pool enhancer avoids accumulation/deletion of job directories.

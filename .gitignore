@@ -39,5 +39,13 @@ projects/*/assets/score.wav
 projects/*/assets/sfx.wav
 # Keep voice timing/provenance, authored visuals, fonts references and licenses.
 story-projects/texas-cinema-myth/assets/*.wav
+story-projects/*/assets/narration.raw.wav
+story-projects/*/assets/narration.fitted.wav
+story-projects/*/assets/*.pending.wav
+story-projects/*/assets/speech-guides/*.wav
+story-projects/*/assets/versions/
+projects/*/assets/keyframes/*-rejected*.png
+projects/*/assets/keyframes/*-alternate.png
+projects/*/assets/keyframes/*-opening-insert.png
 **/.DS_Store
 **/Thumbs.db

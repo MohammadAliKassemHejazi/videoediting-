@@ -1,0 +1,17 @@
+{
+  "purpose": "Optional inspected 4x line/detail enhancement after H3 generation; not a claim of native 2K output",
+  "publisher": "xinntao/Real-ESRGAN",
+  "release": "v0.2.5.0",
+  "url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesrgan-ncnn-vulkan-20220424-windows.zip",
+  "archiveBytes": 45474481,
+  "archiveSha256": "abc02804e17982a3be33675e4d471e91ea374e65b70167abc09e31acb412802d",
+  "license": "NCNN executable MIT; Real-ESRGAN model project BSD-3-Clause. License texts retained under vendor/video-finishing.",
+  "files": {
+    "realesrgan-ncnn-vulkan.exe": "07e49f7cbb4ede01ae4dd4c399d3a7e5846e3d2085c3128eff881e55cb7b1a0c",
+    "models/realesr-animevideov3-x4.bin": "548a36f9c3f4ab8da56cd3b13badf23968bee207b396dad14d04b830e5f2ab2d",
+    "models/realesr-animevideov3-x4.param": "850a248e7c14c27e5bd8cf7265113a9441036a7db63963bb8aa5169d788a435e"
+  },
+  "settings": {"model":"realesr-animevideov3","scale":4,"tile":256,"workers":"1:1:1","gpu":1},
+  "sources": ["https://github.com/xinntao/Real-ESRGAN","https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan"],
+  "status": "Downloaded and hash-checked. Present/Archive three-frame comparison inspected: outlines clean, identities and vintage treatment preserved. Vulkan device0 is Intel; device1 is the RTX3060, selected for the finishing pass."
+}

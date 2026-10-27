@@ -38,11 +38,14 @@ research. Do not claim the Texas setting is actual Tokyo or genuine footage.
 No forged studies, quotations, statistics or report pages. Black ink wipes connect
 the worlds, with matching props/motion; sound and captions continue across cuts.
 
-Narrator: existing local am_michael. New original preset performances for the
-opening exchange: Banker am_fenrir, Javelina am_puck. These are stock synthetic
-presets, not clones of real people or of the reference video's voices. Animation
-prompts remain visible motion only; voices, word captions and original sound are
-added in editing. New voice identity choices are recorded for future episodes.
+Narrator and Vulture Banker: local Kokoro am_michael, measured and serious.
+Javelina: am_puck, softer. These are stock synthetic presets, not clones of real
+people or of the reference voices. The user's later request for speaking lips
+supersedes the earlier silent-animation restriction. Shots 01–06 and 28 use exact
+source-speech guides with H3's audio VAE and AddGuide. Only the dialogue speaker
+articulates; offscreen narration leaves visible listeners silent. Voice, captions
+and original sound are assembled later. Mouth movement is reviewed separately
+from listening and precise phoneme synchronization; no perfect lip-sync is claimed.
 
 Reference transcription is a local browser/WASM estimate, corrected against
 the actual imagery and primary sources. See reference/source.json,

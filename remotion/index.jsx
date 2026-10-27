@@ -1,3 +1,5 @@
+import {TexasStepsEpisode} from './TexasStepsEpisode.jsx';
+import studioPreservedSpec7 from './texas-steps-film.json';
 import {TexasEpisode} from './TexasEpisode.jsx';
 import studioPreservedSpec6 from './texas-film.json';
 import {TexasShotPreview} from './TexasShotPreview.jsx';
@@ -20,6 +22,8 @@ import {MidnightTransit} from '../projects/midnight-transit/scenes.jsx';
 import {PaperRiot} from '../projects/paper-riot/scenes.jsx';
 import {SignalNoise} from '../projects/signal-noise/scenes.jsx';
 registerRoot(()=> <>
+<Folder name="TEXAS-EPISODE-2"><Composition id="texas-ten-thousand-steps" component={TexasStepsEpisode} width={1440} height={2560} fps={60} durationInFrames={6600} defaultProps={{spec:studioPreservedSpec7,styleId:'texas-casefiles'}}/></Folder>
+
 <Folder name="TEXAS-FULL-EPISODE"><Composition id="texas-cinema-myth" component={TexasEpisode} width={1440} height={2560} fps={60} durationInFrames={5400} defaultProps={{spec:studioPreservedSpec6,styleId:'texas-casefiles'}}/></Folder>
 
 <Folder name="TEXAS-CASEFILES"><Composition id="texas-cinema-myth-workbench" component={TexasShotPreview} width={1440} height={2560} fps={60} durationInFrames={240} defaultProps={{spec:studioPreservedSpec5,styleId:'texas-casefiles'}}/></Folder>

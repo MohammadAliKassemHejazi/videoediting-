@@ -1,0 +1,25 @@
+{
+  "input": {
+    "imageHash": "ae610cc1b305614c28844f4fb81a1b823621aa7716853834350178ca97ca3843",
+    "promptHash": "a17e0c8ea31babe4bb114211bb7c3638f1fb825a2519918a86f93979cbfa0ca0",
+    "audioGuideHash": null,
+    "modelManifestHash": "dd2c61ba64a6ad55e64219cfdea54d38232743406928701d13b345d129ffc20b",
+    "generatorHash": "972e5c68af7507548f0809808e7a182216b830573afb1a661351a0b41b41c8da",
+    "adapterHash": "8d59d6718373a6a0d7371ef1b4b3680f7a054c14b643fc23f122ce9a8ebd756d",
+    "width": 352,
+    "height": 640,
+    "frames": 107,
+    "steps": 8,
+    "turbo": true,
+    "seed": 1966782
+  },
+  "metadata": {
+    "width": 352,
+    "height": 640,
+    "fps": 24,
+    "duration": 4.46,
+    "audio": false
+  },
+  "status": "Generated and full-decode checked; visual review separate",
+  "createdAt": "2026-10-26T21:31:28.698Z"
+}

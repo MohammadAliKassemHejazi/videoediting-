@@ -1,0 +1,25 @@
+{
+  "basis": "Actual native source contacts reviewed on 2026-10-27. Speech-guide shots are unchanged.",
+  "shots": {
+    "22": {
+      "sourceStart": 0.75,
+      "sourcePlaybackDuration": 2.9,
+      "reason": "Include the lowered wrist and subsequent upward attention in the short reaction cut."
+    },
+    "23": {
+      "sourceStart": 2.6,
+      "sourcePlaybackDuration": 1.35,
+      "reason": "Skip the generated repeated wrist raise; retain the settled low arm and turn toward the open path."
+    },
+    "24": {
+      "sourceStart": 0.6,
+      "sourcePlaybackDuration": 2.07,
+      "reason": "Complete the stand and begin the first step before cutting away; omit the initial seated hold."
+    },
+    "25": {
+      "sourceStart": 1.65,
+      "sourcePlaybackDuration": 2.65,
+      "reason": "Include the failed presentation, closing grin and lowered card; the default early excerpt missed the consequence."
+    }
+  }
+}

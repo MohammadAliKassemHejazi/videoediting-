@@ -1,15 +1,44 @@
 {
-  "title":"Who Chose10,000 Steps?",
-  "language":"en",
-  "targetDuration":110,
-  "segments":[
-    {"speaker":"banker","voice":"am_fenrir","text":"Keep walking. Sixteen hundred more."},
-    {"speaker":"javelina","voice":"am_puck","text":"More what?"},
-    {"speaker":"banker","voice":"am_fenrir","text":"Steps. Ten thousand a day. Everybody knows."},
-    {"speaker":"javelina","voice":"am_puck","text":"Did a doctor choose that number?"},
-    {"speaker":"banker","voice":"am_fenrir","text":"Your watch knows."},
-    {"speaker":"javelina","voice":"am_puck","text":"Then who told the watch?"},
-    {"speaker":"narrator","voice":"am_michael","text":"That glowing dial looks official. Follow it back to Japan. After the nineteen sixty-four Tokyo Olympics, a clockmaker has something to sell. In nineteen sixty-five, Yamasa names its pedometer the ten-thousand-step meter. Popular accounts credit a symbol shaped like a walker. Yamasa's own history points to earlier walking campaigns, promoted by doctors and journalists. Even the story behind the number needs checking. A campaign target is not a medical boundary. Advertisements. Walking clubs. Magazines. Then fitness trackers. Soon, the same number glows on wrists far beyond the shop that first printed it. Repeated long enough, a convenient target begins to sound compulsory. In twenty nineteen, a study of older women found lower mortality associated with counts below ten thousand. That evidence concerned older women, not everybody. A twenty twenty-five review of fifty-seven adult studies also found meaningful health benefits associated with lower counts. Seven thousand was a practical marker in that analysis. More could still help. These were adult studies, not a universal prescription for every age and ability. Back in town, Javelina sits down, defeated by a number. He thinks a missed target makes the whole walk worthless. Then he looks beyond the dial. He can keep walking without treating a missed goal as a failed day. The Banker's perfect finish line suddenly looks like a sales pitch. Walking was the useful part. The magic boundary was the story. Which other rules have you never questioned?"}
+  "title": "Who Chose 10,000 Steps?",
+  "language": "en",
+  "targetDuration": 110,
+  "dialogueTargetDuration": 28,
+  "segments": [
+    {
+      "speaker": "banker",
+      "voice": "am_michael",
+      "text": "Keep walking. You are only at eight thousand four hundred."
+    },
+    {
+      "speaker": "javelina",
+      "voice": "am_puck",
+      "text": "I've been walking all evening. What happens if I stop?"
+    },
+    {
+      "speaker": "banker",
+      "voice": "am_michael",
+      "text": "Sixteen hundred more. Ten thousand steps a day. Everybody knows the rule."
+    },
+    {
+      "speaker": "javelina",
+      "voice": "am_puck",
+      "text": "Everybody? Did a doctor choose that number? A scientist? Who actually checked?"
+    },
+    {
+      "speaker": "banker",
+      "voice": "am_michael",
+      "text": "Look at your watch. That little thing knows what you need."
+    },
+    {
+      "speaker": "javelina",
+      "voice": "am_puck",
+      "text": "Then who told the watch? Where did its rule come from?"
+    },
+    {
+      "speaker": "narrator",
+      "voice": "am_michael",
+      "text": "Tokyo. Nineteen sixty-four. Olympic fever fills the streets. A clock company has a little box to sell. In nineteen sixty-five, Yamasa calls it the ten-thousand-step meter. A neat number. A memorable symbol. An easy slogan. But the origin is messier. Yamasa credits an earlier walking campaign involving doctors and journalists. A campaign goal still isn't a biological boundary. Advertisements repeat it. Walking clubs. Magazines. Fitness trackers. Soon, the same target glows on wrists everywhere. Repeated long enough, a convenient target starts to sound compulsory. In twenty nineteen, researchers studying older women found benefits below ten thousand. That wasn't evidence for everybody. A twenty twenty-five review covered fifty-seven adult studies. Meaningful health benefits appeared at lower counts. Seven thousand was a practical marker, not a magic finish line. These were adult studies, not a universal rule for every age and ability. Back in town, Javelina thinks missing the target makes his whole walk worthless. He lowers the watch. Straightens his back. Stands up. Keeps walking. The Banker waits for a sale that isn't coming. Walking was useful. The universal rule was the story. Which other rules have you never questioned?"
+    }
   ],
-  "note":"Original retelling of the supplied reference's core story and pacing, with qualified history and adult evidence. Do not use or clone the supplied recording. Final word/cut timing follows actual local synthesis."
+  "note": "Version2 follows the measured reference rhythm:28s opening, history28?72s, evidence72?85s, return85?98s and final direct address. Bird uses a serious measured baritone and also narrates; Javelina is soft. User requested moving lips; audio-guided H3 speaking takes replace silent-only tests. Original255-word script; actual timestamps follow local synthesis."
 }

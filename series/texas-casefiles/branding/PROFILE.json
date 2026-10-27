@@ -1,0 +1,21 @@
+{
+  "series": "texas-casefiles",
+  "file": "series/texas-casefiles/branding/profile-v1.png",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "6347983dcb0d11c9c0b82fc8a925ab7c03ffc6fe769fc292ab3e72046560a100",
+  "generator": "Built-in image generation tool",
+  "referenceAssets": [
+    "series/texas-casefiles/assets/duo-v1.png",
+    "projects/texas-ten-thousand-steps/assets/keyframes/01.png"
+  ],
+  "platformCopies": [
+    "tiktok-profile.png",
+    "youtube-profile.png",
+    "instagram-profile.png"
+  ],
+  "copyMethod": "Byte-identical square PNG copies; no platform account changes",
+  "status": "Full-size artwork and320/160/96/48px circular crops visually inspected; both recurring faces remain recognizable. Not uploaded.",
+  "bytes": 2509949,
+  "checkedAt": "2026-10-27T09:26:36.494Z"
+}

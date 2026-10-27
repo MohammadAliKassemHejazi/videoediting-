@@ -1,5 +1,17 @@
 # Active H3 Texas series production — 2026-10-26
 
+LATEST2026-10-27: Episode2 is actively generating, NOT just a first still anymore.
+Read docs/TEXAS_EPISODE_2.md first. All28 selected keyframes, v2 original255-word
+local serious-bird/soft-Javelina voice, audio guides,110s live composition and
+source-specific finishing pipeline are ready. Native H3 sources01–24 completed
+at checkpoint; generation session3265 continues25 onward. Finisher session9351
+waits then serially runs units/audio/enhancement/reverse-check/full render. Do not
+duplicate those jobs. Preview http://localhost:3002/texas-ten-thousand-steps.
+Profile master/platform copies/ZIP are complete and circular-crop inspected.
+Designed YouTube cover is complete. Finish the actual movie and final review;
+do not stop at these notes. Earlier paragraphs below
+describe superseded Episode2 states. Episode1 remains completed and preserved.
+
 CURRENT: Episode 1 is rendered at `out/texas-cinema-myth/draft.mp4` (90.01s,
 1440x2560/60fps, audio, full decode passed). All23 actual H3 sources are complete,
 AI enhanced using Real-ESRGAN animevideov3 on Vulkan GPU1 (RTX3060), and assembled

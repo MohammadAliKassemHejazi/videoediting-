@@ -1,0 +1,288 @@
+{
+  "project": "texas-ten-thousand-steps",
+  "series": "texas-casefiles",
+  "duration": 110,
+  "sourceUnitDuration": 4,
+  "scenes": [
+    {
+      "id": "01",
+      "world": "PRESENT",
+      "voiceover": "Keep walking. Sixteen hundred more.",
+      "visual": "Worried Javelina foreground pointing at his8400 brass wrist pedometer, taller Banker behind with an urging open palm. Medium two-shot, same opening01 reference.",
+      "motion": "Javelina taps beside the display once, studies it, then lifts his worried eyes toward the Banker. The Banker gives one firm onward gesture. Gentle push toward the worried eyes.",
+      "keyframe": "assets/keyframes/01.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "02",
+      "world": "PRESENT",
+      "voiceover": "More what?",
+      "visual": "Extreme close-up of Javelina face under charcoal hat brim, looking up and to screen right at the offscreen Banker. Eyebrows form a baffled asymmetrical question, mouth closed. One white-gloved fingertip hovers by his chin; the watch is outside frame.",
+      "motion": "Javelina blinks once, draws his heavy eyebrows together and tilts his head toward screen right. The hovering finger lowers. Locked camera with a tiny attentive push.",
+      "keyframe": "assets/keyframes/02.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "03",
+      "world": "PRESENT",
+      "voiceover": "Steps. Ten thousand a day. Everybody knows.",
+      "visual": "Low-angle medium close-up of the Banker alone, large ivory hooked beak and spectacles catching amber rim light, chin high, one white glove holding up a single instructive index finger. Boardwalk lantern and deep navy sky behind.",
+      "motion": "The Banker straightens one index finger, raises his chin and settles into a smug half-lidded stare. His free glove smooths his silver cravat once. Slow low-angle push.",
+      "keyframe": "assets/keyframes/03.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "04",
+      "world": "PRESENT",
+      "voiceover": "Did a doctor choose that number?",
+      "visual": "Over the blurred black shoulder of the Banker, Javelina faces screen right and looks directly up at him, one white palm open in a sincere challenge. Same town and outfits, watch face turned away.",
+      "motion": "Javelina opens his right gloved palm, glances briefly down at his left wrist, then returns an insistent eyebrow-raised look to the Banker. Small shoulder-level arc keeping eyelines.",
+      "keyframe": "assets/keyframes/04.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "05",
+      "world": "PRESENT",
+      "voiceover": "Your watch knows.",
+      "visual": "Macro: the Banker white-gloved index points toward the brass8400 pedometer on Javelina left wrist. Rust striped poncho sleeve and a portion of Javelina other glove below. Finger stops beside the case, never through the screen.",
+      "motion": "The Banker fingertip approaches and stops beside the brass bezel; Javelina left wrist pulls back a little, keeping the glove and watch connected. Amber digits stay unchanged. Tiny lateral camera slide following the wrist.",
+      "keyframe": "assets/keyframes/05.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "06",
+      "world": "PRESENT",
+      "voiceover": "Then who told the watch?",
+      "visual": "Medium two-shot from waist up, Javelina screen left looks up skeptically at Banker screen right, wrist turned inward and other white-gloved palm open. Banker confidence momentarily paused. Both mouths closed.",
+      "motion": "Javelina rotates his left wrist inward and opens his other palm toward the Banker. The Banker raised hand hesitates and slowly lowers. A restrained pull-back reveals the awkward space between them.",
+      "keyframe": "assets/keyframes/06.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "07",
+      "world": "PRESENT",
+      "voiceover": "That glowing dial looks official. Follow it back to Japan.",
+      "visual": "POV macro Javelina brass8400 wrist counter above white cuff, dark wood railing behind. Black ink dust first gathering at the far right edge, no Archive imagery yet.",
+      "motion": "The brass counter glow pulses once; Javelina wrist turns toward the camera as black ink dust rolls from right edge and grows over the boardwalk. Camera approaches the rectangular amber window. End in near-black ink.",
+      "keyframe": "assets/keyframes/07.png",
+      "transitionIn": "cut",
+      "transitionOut": "ink-cover"
+    },
+    {
+      "id": "08",
+      "world": "ARCHIVE",
+      "voiceover": "After the nineteen sixty-four Tokyo Olympics, a clockmaker has something to sell.",
+      "visual": "Wide depth composition in a vintage clockmaking workshop: old short armadillo clockmaker, round glasses, rolled shirtsleeves, dark vest, apron and white gloves, bent over a compact plain brass counter on a bench. Behind him two clocks and a small paper drawing of an Olympic-style ceremonial flame WITHOUT logos or lettering. Period-inspired animal reenactment, no main duo.",
+      "motion": "The armadillo clockmaker leans into his work and carefully turns a tiny brass side button. A pendulum swings gently behind him; his eyebrows lift as the mechanism responds. Slow dolly from doorway to bench.",
+      "keyframe": "assets/keyframes/08.png",
+      "transitionIn": "ink-reveal",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "09",
+      "world": "ARCHIVE",
+      "voiceover": "In nineteen sixty-five, Yamasa names its pedometer the ten-thousand-step meter.",
+      "visual": "Macro white-gloved clockmaker hands place the original round brass counter onto a plain open paper product box on the same workshop bench. Counter window shows only10000 in dark ink with NO glow. Simple screwdriver and coiled brown leather strap.",
+      "motion": "The clockmaker right glove steadies the brass counter while the left slides its paper box forward. The left index then traces the plain strap attachment. Slow macro push ending on the dark10000 window.",
+      "keyframe": "assets/keyframes/09.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "10",
+      "world": "ARCHIVE",
+      "voiceover": "Popular accounts credit a symbol shaped like a walker.",
+      "visual": "Overhead ink artist desk, one plain cream card has the SINGLE large black glyph 万, with a tiny simple sketched walking figure on a separate unlettered scrap. White-gloved armadillo hand holds a pen suspended over the card, no pedometer visible. This is a visual comparison, not a historical document.",
+      "motion": "The pen moves from above the single glyph toward the little walking sketch, pauses doubtfully, then is set down. A white glove tilts the card toward the light. Gentle overhead lateral drift; no new marks or letters appear.",
+      "keyframe": "assets/keyframes/10.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "11",
+      "world": "ARCHIVE",
+      "voiceover": "Yamasa's own history points to earlier walking campaigns, promoted by doctors and journalists.",
+      "visual": "Medium three-quarter shot of a gentle longhorn doctor with white period coat, stethoscope and white gloves, holding an unlettered walking-route drawing toward an owl journalist with round spectacles, cardigan and white gloves. Vintage town community room; plain pinned map, desk lamp, wooden chair. No numbers or words.",
+      "motion": "The longhorn doctor traces the route with one gloved fingertip, the owl journalist follows it with a pencil and nods. The route paper lowers to reveal both thoughtful faces. A slow pan transfers focus from doctor to journalist.",
+      "keyframe": "assets/keyframes/11.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "12",
+      "world": "ARCHIVE",
+      "voiceover": "Even the story behind the number needs checking. A campaign target is not a medical boundary.",
+      "visual": "Tight desk comparison: owl journalist in round glasses frowns at an open empty folder beside a plain advertising card with the SINGLE number10000. A magnifying glass in one white glove; the counter is absent. One clear skeptical focal face, papers not cluttered.",
+      "motion": "The owl places the magnifier over the number card, then lifts the blank folder page and looks from it back to the card with narrowed eyebrows. Pull back just enough to show the missing supporting pages.",
+      "keyframe": "assets/keyframes/12.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "13",
+      "world": "ARCHIVE",
+      "voiceover": "Advertisements. Walking clubs. Magazines. Then fitness trackers.",
+      "visual": "Low-angle printing press scene: period jackrabbit printer in rolled sleeves, suspenders, small cap and white gloves pulls a large sheet from the press; sheet bears one simple round step-counter illustration and SINGLE10000 number. Stacks of unlettered magazines and a dark ink roller behind.",
+      "motion": "The printer pulls one sheet cleanly from the press; the next sheet advances behind it. He lays the first sheet onto a small stack. A purposeful camera pan follows the paper left to right; no extra text forms.",
+      "keyframe": "assets/keyframes/13.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "14",
+      "world": "ARCHIVE",
+      "voiceover": "Soon, the same number glows on wrists far beyond the shop that first printed it.",
+      "visual": "Wide crowd with depth: three adult Texas animals—a longhorn in period jacket, a jackrabbit woman in cardigan and a roadrunner in vest—walking together on a street. Each wears the SAME round brass counter on left wrist, screens turned away except foreground single10000. ONLY the counters carry tiny amber glow, all else sepia.",
+      "motion": "The three walkers advance in coordinated but distinct strides; one checks a wrist and the next raises theirs in response. Amber glows travel through the three counters in sequence. Sideways tracking camera keeps their spacing and clothing stable.",
+      "keyframe": "assets/keyframes/14.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "15",
+      "world": "ARCHIVE",
+      "voiceover": "Repeated long enough, a convenient target begins to sound compulsory.",
+      "visual": "Low viewpoint on a symbolic town walking track: heavy wooden finish-line gate with SINGLE10000 plaque, an adult jackrabbit woman in cardigan and white gloves stopped just before it, shoulders tense. An unlettered brass counter on her left wrist. Gate casts long ink shadows.",
+      "motion": "The jackrabbit woman takes one small step toward the gate, hesitates and grips the wrist strap. Her ears drop as she stares at the distant plaque. A slow pull-back reveals how imposing the arbitrary gate feels.",
+      "keyframe": "assets/keyframes/15.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "16",
+      "world": "ARCHIVE",
+      "voiceover": "In twenty nineteen, a study of older women found lower mortality associated with counts below ten thousand.",
+      "visual": "Medium researcher desk: adult female jackrabbit researcher with round glasses, neat cardigan and white gloves, studying an original simple unnumbered dot chart while pointing to its rising then flattening line. One desk lamp and plain closed folders. No printed study titles or invented statistics.",
+      "motion": "The researcher moves a ruler across the original dot chart, pauses at the bend and raises a thoughtful eyebrow. She turns the chart slightly toward camera without changing its marks. Slow over-the-shoulder push; restrained film-grain flicker.",
+      "keyframe": "assets/keyframes/16.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "17",
+      "world": "ARCHIVE",
+      "voiceover": "That evidence concerned older women, not everybody.",
+      "visual": "Wide calm park path: three clearly older adult female animal walkers—a silver-furred jackrabbit, older armadillo and grey coyote—in long cardigans, modest period skirts or trousers and white gloves. Their strides differ; no children or figures on charts. A bench and two bare trees. No watch digits visible.",
+      "motion": "The three older women walk a few natural steps at different cadences. One pauses briefly, another offers a steadying gloved hand and they resume together. Gentle lateral track respects their spacing; no running or new characters.",
+      "keyframe": "assets/keyframes/17.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "18",
+      "world": "ARCHIVE",
+      "voiceover": "A twenty twenty-five review of fifty-seven adult studies also found meaningful health benefits associated with lower counts.",
+      "visual": "Overhead archival research table: female jackrabbit researcher white gloves lay several small plain paper bundles into one larger open folder, each bundle has only unlettered simple original walking diagrams. One SINGLE57 on a central index tab. Magnifier, graphite pencil, soft lamp pool. No fake report titles.",
+      "motion": "The gloves gather two paper bundles into the central folder, align their edges with a careful tap and place the magnifying glass over the57 tab. Slow overhead pull-back reveals the separate bundles becoming one review, no papers multiplying.",
+      "keyframe": "assets/keyframes/18.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "19",
+      "world": "ARCHIVE",
+      "voiceover": "Seven thousand was a practical marker in that analysis. More could still help.",
+      "visual": "Low-angle park-path marker: a simple small wooden milestone with the SINGLE number7000, an adult longhorn in period walking clothes and white gloves approaching it from left. Open path continues beyond to the right; no finish gate and no other numbers.",
+      "motion": "The longhorn walks past the7000 milestone without stopping; one gloved hand swings naturally and the path continues ahead. Camera pans with the passing stride, allowing the milestone to leave frame. No celebratory finish or new numbers.",
+      "keyframe": "assets/keyframes/19.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "20",
+      "world": "ARCHIVE",
+      "voiceover": "These were adult studies, not a universal prescription for every age and ability.",
+      "visual": "Depth composition of adult Texas animal walkers with visibly different stride lengths: armadillo using a simple walking cane and white glove, tall longhorn in jacket and jackrabbit in cardigan. They approach a shaded path, with black ink dust gathering only at far edge. No children, clocks, signs or numerals.",
+      "motion": "Each adult takes a distinct comfortable step; the armadillo plants the cane securely before shifting weight. Camera glides gently backward. Black ink dust builds from the side and covers the path near the end, carrying into the Present reveal.",
+      "keyframe": "assets/keyframes/20.png",
+      "transitionIn": "cut",
+      "transitionOut": "ink-cover"
+    },
+    {
+      "id": "21",
+      "world": "PRESENT",
+      "voiceover": "Back in town, Javelina sits down, defeated by a number.",
+      "visual": "Wide Javelina alone sitting on the wooden boardwalk bench under amber lantern, shoulders slumped, head bowed toward his left-wrist brass8400 watch. Same hat, poncho, gloves, boots and deeper navy Texas dusk; long empty boardwalk beyond.",
+      "motion": "Javelina finishes lowering onto the bench, releases one tired breath and rests his left wrist on his knee. His free white glove falls open. Slow descending camera settles at his seated height, lantern flicker remains restrained.",
+      "keyframe": "assets/keyframes/21.png",
+      "transitionIn": "ink-reveal",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "22",
+      "world": "PRESENT",
+      "voiceover": "He thinks a missed target makes the whole walk worthless.",
+      "visual": "Extreme close-up Javelina worried eyes and bowed snout, hat brim shadow, one ivory tusk, rust poncho edge. Lower edge includes watch brass rim blurred and no readable digits. White-gloved hand rests on knee.",
+      "motion": "Javelina eyes track down to the wrist, brows sag and shoulders curl inward. His free glove grips then releases the poncho hem once. Very slow push into the quiet disappointed reaction, no grin.",
+      "keyframe": "assets/keyframes/22.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "23",
+      "world": "PRESENT",
+      "voiceover": "Then he looks beyond the dial.",
+      "visual": "Over Javelina shoulder toward the same empty boardwalk leading to a warm lamp and open street. Javelina left wrist low in foreground, same brass watch screen angled away. Face in profile begins to turn from wrist toward the open path.",
+      "motion": "Javelina lowers the wrist out of his sightline, turns his head toward the open boardwalk and lifts one eyebrow. His back begins to straighten. Gentle rack of focus from brass wrist rim to the clear path ahead.",
+      "keyframe": "assets/keyframes/23.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "24",
+      "world": "PRESENT",
+      "voiceover": "He can keep walking without treating a missed goal as a failed day.",
+      "visual": "Low medium full-body Javelina at the bench beginning to stand, boots planted, both white gloves pushing lightly on his knees, same rust-and-cream poncho and charcoal hat. The boardwalk path opens to screen right; watch face turned inward.",
+      "motion": "Javelina presses his boots into the boards, rises smoothly using one glove on his knee, straightens and takes a decisive first step to screen right. Camera rises with him and begins a short matching track; clothes and limbs remain stable.",
+      "keyframe": "assets/keyframes/24.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "25",
+      "world": "PRESENT",
+      "voiceover": "The Banker's perfect finish line suddenly looks like a sales pitch.",
+      "visual": "Medium close-up Banker alone at lantern-lit wooden post, one white glove holding a plain rolled-up sales card with only10000, confident eyebrows beginning to falter as he looks offscreen left after departing Javelina. Silver cravat, wire glasses, tailcoat exact.",
+      "motion": "The Banker begins a practiced open-palm presentation, notices Javelina has moved on and lets the gesture stop halfway. His grin closes, eyebrows pinch and the rolled card lowers. Small camera pull-back leaves him with empty space beside him.",
+      "keyframe": "assets/keyframes/25.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "26",
+      "world": "PRESENT",
+      "voiceover": "Walking was the useful part.",
+      "visual": "Full-body two-shot on boardwalk: Javelina in foreground walking confidently screen right away from the bench, Banker several paces behind now still. Same town geography and outfits; no visible watch digits, no sales card lettering.",
+      "motion": "Javelina takes several steady steps past the lamp with relaxed arm swing. Banker remains behind and turns his head to follow, lowering his hands. Side-tracking camera follows the walker while the stalled salesman drifts into background.",
+      "keyframe": "assets/keyframes/26.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "27",
+      "world": "PRESENT",
+      "voiceover": "The magic boundary was the story.",
+      "visual": "Ground-level macro Javelina worn brown boots approaching an ordinary thin chalk line on wooden boardwalk, rust poncho fringe at top, white glove swinging near side. No gate, no magic effects, no numbers, uninterrupted path beyond.",
+      "motion": "One boot steps cleanly across the ordinary chalk line, the other follows without hesitation. The white glove swings naturally above; camera tracks a short distance with the feet and leaves the line behind. No glow or special event occurs at the line.",
+      "keyframe": "assets/keyframes/27.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut"
+    },
+    {
+      "id": "28",
+      "world": "PRESENT",
+      "voiceover": "Which other rules have you never questioned?",
+      "visual": "Medium close-up Javelina calm and curious turning toward viewer at a boardwalk corner, one heavy eyebrow raised, one white-gloved palm slightly open. Brass watch kept on left wrist with face turned inward. Banker small and softly blurred far behind; deep navy and amber lights.",
+      "motion": "Javelina turns from the path toward the viewer, raises one curious eyebrow and opens one white palm, then holds the invitation with a small confident breath. Banker in background looks down at his lowered sales card. Slow clean push ends on Javelina eyes; no grin or lip movement.",
+      "keyframe": "assets/keyframes/28.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut"
+    }
+  ]
+}
