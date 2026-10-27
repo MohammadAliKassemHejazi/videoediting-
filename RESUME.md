@@ -1,5 +1,12 @@
 # Preview-only checkpoint — 2026-10-27
 
+LATEST PROCESS CLEANUP: At the user's request, stopped the idle H3 engine8189,
+both episode media-sync watchers, and gallery3001 with its npm/cmd wrappers.
+Only the Remotion preview service3002 is intentionally retained. Its static
+media still work without the GPU engine/watchers. Do not restart stopped
+services until needed for user-authorized work. No render/export is active.
+User browser, Docker3000 and unrelated applications were left alone.
+
 LATEST AUDIO FEEDBACK: the user dislikes the current voices and reports missing
 surrounding/action sound. Read the episode's REQUESTED_AUDIO_REVISION.md before
 changing voices. New clean voice auditions and a connected scene-specific sound
@@ -29,8 +36,8 @@ review or voice clone. Actual early/middle/late preview frames were inspected.
 
 The v3 MP4 export was stopped around 20%. Renderer PID29888 and its descendants
 were terminated; its supervisor exited, and its stale render lock was released.
-No export is active. Live Studio3002/gallery3001 and media-sync watchers remain
-available. H3 engine8189 is idle. Check actual process ownership if state changes.
+No export is active. Studio3002 remains available. Gallery3001, media-sync
+watchers and the idle H3 engine8189 were subsequently stopped at user request. Check actual process ownership if state changes.
 Do not remove user footage, models, source takes or older completed videos.
 
 The old **110-second v2** render completed and passed decode before the requested
