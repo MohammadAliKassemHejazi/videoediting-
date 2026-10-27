@@ -1,7 +1,8 @@
 import {chromium} from 'playwright';
-import {writeFileSync} from 'node:fs';
+import {writeFileSync,readFileSync} from 'node:fs';
 import {studioBrowserExecutable} from '../lib/studio-browser.mjs';
-const times=process.argv.slice(2).map(Number);if(!times.length||times.some(t=>!Number.isFinite(t)||t<0||t>=110))throw Error('Supply review times in seconds');
+const duration=JSON.parse(readFileSync('remotion/texas-steps-film.json','utf8')).duration;
+const times=process.argv.slice(2).map(Number);if(!times.length||times.some(t=>!Number.isFinite(t)||t<0||t>=duration))throw Error('Supply review times within the current film');
 const browser=await chromium.launch({headless:true,executablePath:studioBrowserExecutable(),args:['--disable-gpu']}),page=await browser.newPage({viewport:{width:1500,height:1000}}),errors=[],results=[];
 try{
  page.on('pageerror',e=>errors.push(e.message));

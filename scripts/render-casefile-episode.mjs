@@ -9,6 +9,7 @@ import {ffmpeg,probe} from '../lib/ffmpeg.mjs';
 import {replaceWorkspaceFile} from '../lib/replace-file.mjs';
 import {casefileDigest,casefileSources} from '../lib/casefile-film.mjs';
 const project=process.argv[2];if(project!=='texas-ten-thousand-steps')throw Error('Select prepared Episode2');
+if(!process.argv.includes('--approved-export'))throw Error('Preview-first policy: wait for the user to like the current preview and explicitly request export; then pass --approved-export.');
 const cache=join(ROOT,'.cache',project),out=join(ROOT,'out',project),pub=join(cache,'render-public'),spec=JSON.parse(readFileSync(join(ROOT,'remotion/texas-steps-film.json'),'utf8'));
 if(!spec.complete||!spec.audioMasterReady||spec.shots.some(s=>!s.available))throw Error('Generate every actual shot and audio master first');
 const disk=statfsSync(ROOT);if(Number(disk.bavail)*Number(disk.bsize)<3*1024**3)throw Error('Keep3GiB free for final render');

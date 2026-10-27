@@ -3,9 +3,10 @@ import {existsSync,readFileSync,writeFileSync,mkdirSync} from 'node:fs';
 import {join} from 'node:path';
 import {ROOT} from '../lib/project.mjs';
 const project=process.argv[2];if(project!=='texas-ten-thousand-steps')throw Error('Prepared Episode2 required');
+if(!process.argv.includes('--approved-export'))throw Error('Preview-first policy: automatic finishing requires approval of the current preview and an explicit export request.');
 const folder=join(ROOT,'projects',project),cache=join(ROOT,'.cache',project),stateFile=join(cache,'finishing-state.json');mkdirSync(cache,{recursive:true});
 const state=status=>{writeFileSync(stateFile,JSON.stringify({pid:process.pid,project,status,at:new Date().toISOString()},null,2)+'\n');console.log(status)};
-async function run(script,args=[]){state('Running '+script);await new Promise((resolve,reject)=>{const c=spawn(process.execPath,[join(ROOT,script),project,...args],{cwd:ROOT,stdio:'inherit',windowsHide:true});c.on('error',reject);c.on('exit',code=>code===0?resolve():reject(Error(script+' failed ('+code+')')))})}
+async function run(script,args=[]){state('Running '+script);await new Promise((resolve,reject)=>{const c=spawn(process.execPath,[join(ROOT,script),project,...args,...(script==='scripts/render-casefile-episode.mjs'?['--approved-export']:[])],{cwd:ROOT,stdio:'inherit',windowsHide:true});c.on('error',reject);c.on('exit',code=>code===0?resolve():reject(Error(script+' failed ('+code+')')))})}
 try{
  let last=-1;
  for(;;){const plan=JSON.parse(readFileSync(join(folder,'production-scenes.json'),'utf8')),count=plan.scenes.filter(s=>existsSync(join(folder,'assets/shots',s.id+'-h3.mp4'))&&existsSync(join(folder,'assets/shots',s.id+'-generation.json'))).length;

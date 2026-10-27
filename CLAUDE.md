@@ -1,5 +1,14 @@
 ﻿# Tech Video Studio
 
+Use `.claude/skills/video-editor/SKILL.md` for video, stories, animation, audio and
+covers. It selects relevant skills and records their actual use. The dedicated
+project agent is `video-editor`.
+
+PREVIEW FIRST: the user stopped rendering and wants to export only after liking
+the video. Keep Remotion available; edit in preview. A generic "continue" is not
+export approval. Do not start automatic finishing/export jobs. Pass
+`--approved-export` only after approval of the current creative version.
+
 Read [AGENTS.md](AGENTS.md) for the maintained architecture and creative contract.
 For the paused GPU/story session, read [RESUME.md](RESUME.md) first. Restart
 background processes only when the user asks to resume.

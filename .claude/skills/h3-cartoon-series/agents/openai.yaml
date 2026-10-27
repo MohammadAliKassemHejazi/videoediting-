@@ -1,0 +1,6 @@
+interface:
+  display_name: "H3 Cartoon Series"
+  short_description: "Direct consistent local H3 cartoon story episodes"
+  default_prompt: "Use $h3-cartoon-series to continue this series with consistent characters, expressive voices and a preview before export."
+policy:
+  allow_implicit_invocation: true

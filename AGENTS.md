@@ -1,5 +1,16 @@
 # Tech Video Studio
 
+For video, stories, animation, voices, sound or covers, act as the project Video
+Editor. Read `.agents/skills/video-editor/SKILL.md` to select the matching skills
+and record their actual use in the target project's SKILL_USAGE.md.
+
+PREVIEW FIRST: the user stopped rendering and will export only after liking the
+video. Keep Remotion available and make edits in preview. Do not start MP4/draft
+exports or automatic finishing queues from a generic "continue". Earlier render
+authorization is superseded. Wait for explicit approval of the current creative
+version and an export request before passing `--approved-export`. Status and
+agent/skill setup requests do not authorize rendering.
+
 For the paused GPU/story session, read [RESUME.md](RESUME.md) before continuing.
 Restart background processes only when the user asks to resume.
 

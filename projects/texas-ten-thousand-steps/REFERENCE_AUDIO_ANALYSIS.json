@@ -274,5 +274,31 @@
     }
   ],
   "method": "16kHz mono, FFT/YIN-style difference, 39\u2013229-sample lags, voiced threshold0.78; low-band45\u2013180Hz energy candidates. Voice-role windows inferred from estimated transcript and visual coverage.",
-  "limits": "Mixed recording: pitch may include music or octave errors. Candidates do not prove isolated footsteps. No listening review, exact speaker identification or voice cloning is claimed."
+  "limits": "Mixed recording: pitch may include music or octave errors. Candidates do not prove isolated footsteps. No listening review, exact speaker identification or voice cloning is claimed.",
+  "currentV3": {
+    "banker": {
+      "voicedFrames": 274,
+      "estimatedF0Hz": {
+        "p20": 103.9,
+        "median": 119.4,
+        "p80": 144.1
+      }
+    },
+    "javelina": {
+      "voicedFrames": 237,
+      "estimatedF0Hz": {
+        "p20": 149.5,
+        "median": 181.8,
+        "p80": 228.6
+      }
+    },
+    "narrator": {
+      "voicedFrames": 1268,
+      "estimatedF0Hz": {
+        "p20": 99.4,
+        "median": 115.9,
+        "p80": 140.4
+      }
+    }
+  }
 }

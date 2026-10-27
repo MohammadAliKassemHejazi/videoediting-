@@ -3,6 +3,7 @@ import {join} from 'node:path';
 import {ROOT} from '../lib/project.mjs';
 const project=process.argv[2];if(!/^[a-z0-9-]+$/.test(project||''))throw Error('Safe project ID required');
 const folder=join(ROOT,'projects',project),plan=JSON.parse(readFileSync(join(folder,'production-scenes.json'),'utf8'));
+if(existsSync(join(folder,'editorial.json'))&&JSON.parse(readFileSync(join(folder,'editorial.json'),'utf8')).performanceVersion>=3)throw Error('Preserve v3 performance mapping: use retime-casefile-performance.mjs, not base timing preparation.');
 const raw=JSON.parse(readFileSync(join(ROOT,'story-projects',project,'assets/narration.raw.json'),'utf8'));
 const duration=plan.duration,fps=60,voiceDuration=duration-.65;
 const sourceDialogueEnd=raw.segments.find(s=>s.speaker==='narrator').start,dialogueDuration=28;

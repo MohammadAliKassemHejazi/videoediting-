@@ -4,6 +4,7 @@ import {ROOT} from '../lib/project.mjs';
 import {ffmpeg,probe,duration as mediaDuration} from '../lib/ffmpeg.mjs';
 const project=process.argv[2];if(!/^[a-z0-9-]+$/.test(project||''))throw Error('Safe project ID required');
 const folder=join(ROOT,'story-projects',project,'assets'),spec=JSON.parse(readFileSync(join(ROOT,'projects',project,'editorial.json'),'utf8')),out=join(folder,'speech-guides');mkdirSync(out,{recursive:true});
+if(spec.performanceVersion>=3)throw Error('Preserve original H3 guide WAVs. V3 retimes the matching source intervals with the voice; do not overwrite guides.');
 const raw=join(folder,'narration.raw.wav'),voice=join(folder,'narration.wav');
 const graph=`[0:a]asplit=2[d][n];[d]atrim=end=${spec.sourceDialogueEnd},asetpts=PTS-STARTPTS,atempo=${spec.dialogueSpeed}[da];[n]atrim=start=${spec.sourceDialogueEnd},asetpts=PTS-STARTPTS,atempo=${spec.narratorSpeed}[na];[da][na]concat=n=2:v=0:a=1,highpass=f=65,apad,atrim=duration=${spec.duration}[a]`;
 await ffmpeg(['-threads','2','-i',raw,'-filter_complex_threads','1','-filter_complex',graph,'-map','[a]','-ar','48000','-ac','1','-c:a','pcm_s16le',voice]);

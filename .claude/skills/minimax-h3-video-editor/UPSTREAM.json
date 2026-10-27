@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/chiphoton/MiniMax-H3-Codex-Drama",
+  "revision": "4f16b7f12a27167f279a01456764d5b765338b08",
+  "path": "skills/minimax-h3-video-editor",
+  "license": "MIT",
+  "licenseSHA256": "5db559cb8d09853507ff894e9f5739ce0e87c1b938bd9b327b553e9f0af1d0ff",
+  "installedAt": "2026-10-27T16:51:56.168Z",
+  "integration": "Project-local instructions/assets only. Existing studio H3 runtime, media, project directories and user approvals take precedence; upstream setup/model defaults have not been executed."
+}

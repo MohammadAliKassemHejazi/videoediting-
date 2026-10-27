@@ -44,5 +44,8 @@ score=energy/np.maximum(.002,floor);peaks=[]
 for i in range(1,min(n-1,1400)):
     if score[i]>1.7 and energy[i]>.008 and score[i]>=score[i-1] and score[i]>score[i+1] and (not peaks or i*.02-peaks[-1]['time']>.2):peaks.append({'time':round(i*.02,2),'relativeEnergy':round(float(score[i]),2)})
 report={'reference':{k:stats(rf,v) for k,v in roles.items()},'currentV2':{k:stats(of,v) for k,v in ranges.items()},'openingLowBandImpactCandidates':peaks,'method':'16kHz mono, FFT/YIN-style difference, 39–229-sample lags, voiced threshold0.78; low-band45–180Hz energy candidates. Voice-role windows inferred from estimated transcript and visual coverage.','limits':'Mixed recording: pitch may include music or octave errors. Candidates do not prove isolated footsteps. No listening review, exact speaker identification or voice cloning is claimed.'}
+if (cache/'v3-voice-analysis.wav').exists():
+    current=json.loads((ROOT/'projects'/project/'editorial.json').read_text());new=features(load('v3-voice-analysis.wav'))
+    report['currentV3']={role:stats(new,[(s['startFrame']/60,(s['startFrame']+s['durationFrames'])/60) for s in current['shots'] if (s.get('speaker') or 'narrator')==role]) for role in ranges}
 out=ROOT/'projects'/project/'REFERENCE_AUDIO_ANALYSIS.json';out.write_text(json.dumps(report,indent=2)+'\n')
-print(json.dumps({k:v for k,v in report.items() if k in ('reference','currentV2')},indent=2))
+print(json.dumps({k:v for k,v in report.items() if k in ('reference','currentV2','currentV3')},indent=2))

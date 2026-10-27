@@ -17,9 +17,11 @@
       "voice": {
         "engine": "Kokoro ONNX",
         "preset": "am_puck",
-        "direction": "Softer questioning delivery",
+        "direction": "Higher/thinner, lightly scared and hurried; speaks faster than the Banker. Preserve intelligibility and avoid a comedic chipmunk effect.",
         "firstEpisode": "texas-ten-thousand-steps",
-        "listeningReview": "Pending"
+        "listeningReview": "Pending",
+        "status": "Current preview voice rejected by user; cleaner/more interesting voice auditions pending. Artistic low-serious versus thin-scared contrast remains requested.",
+        "performanceReference": "projects/texas-ten-thousand-steps/VOICE_DIRECTION.json"
       }
     },
     "vulture-banker": {
@@ -33,9 +35,11 @@
       "voice": {
         "engine": "Kokoro ONNX",
         "preset": "am_michael",
-        "direction": "Serious measured voice; also narrator",
+        "direction": "Low, serious, controlled and slightly brisk; also the narrator.",
         "firstEpisode": "texas-ten-thousand-steps",
-        "listeningReview": "Pending"
+        "listeningReview": "Pending",
+        "status": "Current preview voice rejected by user; cleaner/more interesting voice auditions pending. Artistic low-serious versus thin-scared contrast remains requested.",
+        "performanceReference": "projects/texas-ten-thousand-steps/VOICE_DIRECTION.json"
       }
     }
   },
@@ -91,7 +95,7 @@
     {
       "id": "texas-ten-thousand-steps",
       "title": "Who Chose 10,000 Steps?",
-      "status": "All 28 selected keyframes and original fitted voices ready; native audio-guided H3 generation and final production active.",
+      "status": "V3 preview unapproved; export stopped. User requests cleaner voices and connected surrounding/action sound; asked for ETA before that revision starts.",
       "heroProp": "pedometer-v1: round antique brass case, plain brown leather strap, dark face with a single amber numeric window; worn on Javelina left wrist above glove cuff",
       "continuity": "Same javelina-victim and vulture-banker identities/outfits. The old reel and wooden case do not reappear as the new hero prop.",
       "speakingShots": [
@@ -102,7 +106,9 @@
         "05",
         "06",
         "28"
-      ]
+      ],
+      "preview": "http://localhost:3002/texas-ten-thousand-steps",
+      "workingOutcome": "Javelina rejects a compulsory universal step boundary and keeps walking; the Banker fails to sell the rule. Preview narrative, not a user-approved final cut."
     }
   ],
   "narrator": {
