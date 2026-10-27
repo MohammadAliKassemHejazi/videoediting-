@@ -12,6 +12,9 @@ ROOT=Path(__file__).resolve().parents[1]
 project=sys.argv[1]
 if not re.fullmatch(r'[a-z0-9-]+',project): raise ValueError('Safe project ID required')
 folder=ROOT/'projects'/project
+editorial=folder/'editorial.json'
+if editorial.exists() and json.loads(editorial.read_text(encoding='utf-8')).get('performanceVersion',0)>=4:
+    raise RuntimeError('Selected reference cast is active. Use generate-casefile-selected-voices.py instead of the rejected Kokoro cast.')
 out=ROOT/'story-projects'/project/'assets'
 out.mkdir(parents=True,exist_ok=True)
 script=json.loads((folder/'NARRATION.json').read_text(encoding='utf-8'))

@@ -1,48 +1,48 @@
 {
-  "duration": 102.7,
+  "duration": 111.88333333333334,
   "originalScore": true,
-  "originalProceduralFoley": true,
-  "recordedSamplesUsed": false,
-  "performanceVersion": 3,
+  "originalProceduralFoley": false,
+  "recordedSamplesUsed": true,
+  "performanceVersion": 4,
   "voices": {
-    "banker": "Kokoro am_michael, serious; v3 tempo1.06",
-    "javelina": "Kokoro am_puck transformed: v3 tempo1.16, pitch+7semitones with formants preserved, bright/thin EQ and subtle tremble",
-    "narrator": "Kokoro am_michael, same Bird identity; v3 tempo1.06"
+    "banker": "User-selected audio.wav, local Qwen3-TTS cloning",
+    "javelina": "User-selected audio (1).wav, local Qwen3-TTS cloning",
+    "narrator": "Same selected Bird identity"
   },
-  "footsteps": "Original surface-specific synthesis, timed to sampled native source contacts through each editorial playback rate; reference recording not copied.",
+  "footsteps": "CC0 Kenney surface-specific samples at selected native source contacts; foreground contacts louder than archive crowds.",
   "voiceTargetLufs": -18.5,
   "masterTargetLufs": -16,
   "truePeakCeilingDb": -1.5,
   "measuredVoiceBeforeMaster": {
-    "input_i": "-30.03",
-    "input_tp": "-6.89",
-    "input_lra": "5.40",
-    "input_thresh": "-40.43",
-    "output_i": "-19.78",
+    "input_i": "-19.23",
+    "input_tp": "-0.16",
+    "input_lra": "4.20",
+    "input_thresh": "-29.87",
+    "output_i": "-18.92",
     "output_tp": "-1.50",
-    "output_lra": "4.00",
-    "output_thresh": "-30.20",
+    "output_lra": "3.70",
+    "output_thresh": "-29.56",
     "normalization_type": "dynamic",
-    "target_offset": "1.28"
+    "target_offset": "0.42"
   },
   "measuredMixBeforeMaster": {
-    "input_i": "-18.70",
-    "input_tp": "-4.31",
-    "input_lra": "3.90",
-    "input_thresh": "-29.26",
-    "output_i": "-16.19",
-    "output_tp": "-1.53",
-    "output_lra": "3.50",
-    "output_thresh": "-26.72",
+    "input_i": "-18.52",
+    "input_tp": "-4.37",
+    "input_lra": "3.60",
+    "input_thresh": "-29.47",
+    "output_i": "-16.11",
+    "output_tp": "-1.50",
+    "output_lra": "3.60",
+    "output_thresh": "-27.06",
     "normalization_type": "dynamic",
-    "target_offset": "0.19"
+    "target_offset": "0.11"
   },
   "files": {
-    "fitted": "ecd35b52ed93a4a8fd7773fd564197187ba29ef777137ad6cd1b321f23c61710",
-    "voice": "cad284d2fffa4119c21f62bc3ca004a14ceee581dbbf73b73b04b541584a546c",
-    "score": "28f38f1fdfdb5b7c24eff73318b1d30e63bfc5fa50bb40a8fa1cf86a7fdb5f49",
-    "foley": "33b915e38c1e462c5eb316a39eb42df7ca4161aa90cb1906d80d205a45879a67",
-    "mix": "b39a313a9252ef614dc2a9959345d717a63cedb1adbfbcdcfa652795091ae6fe"
+    "fitted": "9075363379537b64514d25732f1e0139122090cdfc596eda76dd9fb047c053b5",
+    "voice": "e86eb645b206a61a7241926c958ff551d69352c33c68e54a6e1c326b60ab5413",
+    "score": "f6f6be4abc0713045f734b21c412e8b77d6131840607a32f6483bdb318e613f8",
+    "foley": "d465e3c0dddad3540b179910f6c49151c9ab84f6b675d479c02369722d0773f2",
+    "mix": "b7b83bb4f823cd54d0f312aba1e79a46728afbc28baaf894729f1a10a5377309"
   },
   "events": [
     {
@@ -455,322 +455,802 @@
     },
     {
       "type": "original soft reed-like harmonic",
-      "at": 25.48333333333333,
+      "at": 25.966666666666665,
       "freq": 220,
       "length": 5,
       "gain": 0.0048
     },
     {
       "type": "original soft reed-like harmonic",
-      "at": 62.050000000000004,
+      "at": 66.53333333333333,
       "freq": 246.9417,
       "length": 5,
       "gain": 0.0045
     },
     {
       "type": "original synthesized guitar-like pluck",
-      "at": 91.3,
+      "at": 98.91666666666667,
       "freq": 164.8138,
       "gain": 0.013
     },
     {
       "type": "original synthesized guitar-like pluck",
-      "at": 91.355,
+      "at": 98.97166666666668,
       "freq": 195.9977,
       "gain": 0.013
     },
     {
       "type": "original synthesized guitar-like pluck",
-      "at": 91.41,
+      "at": 99.02666666666667,
       "freq": 246.9417,
       "gain": 0.013
     },
     {
       "type": "original synthesized guitar-like pluck",
-      "at": 99.51666666666667,
+      "at": 108.7,
       "freq": 146.8324,
       "gain": 0.016
     },
     {
       "type": "original synthesized guitar-like pluck",
-      "at": 101.2,
+      "at": 110.38333333333334,
       "freq": 293.6648,
       "gain": 0.009
     },
     {
-      "type": "paper / leather",
-      "at": 0.8,
-      "length": 0.12,
-      "gain": 0.035
+      "type": "wooden-boardwalk foot contact",
+      "at": 58.37864077669903,
+      "length": 0.27139583333333334,
+      "gain": 0.1,
+      "pan": -0.14,
+      "source": "assets/audio/kenney/impact/Audio/footstep_wood_000.ogg",
+      "license": "CC0-1.0",
+      "sha256": "5f1c252942a220d658121bd9417448cd19649ded9fff2ff15f6e50899373ce8e"
     },
     {
-      "type": "original brass watch bezel click",
-      "at": 18.633333333333333,
-      "gain": 0.045
+      "type": "wooden-boardwalk foot contact",
+      "at": 59.13592233009709,
+      "length": 0.24866666666666667,
+      "gain": 0.1,
+      "pan": 0.14,
+      "source": "assets/audio/kenney/impact/Audio/footstep_wood_001.ogg",
+      "license": "CC0-1.0",
+      "sha256": "e4f68e1c9fd55b4dc8ca89ed2bbab6f200171bc54bdc18aa96b80d8e7336f462"
     },
     {
-      "type": "ink wipe",
-      "at": 24.883333333333333,
-      "length": 0.65,
-      "gain": 0.042
+      "type": "wooden-boardwalk foot contact",
+      "at": 59.95145631067961,
+      "length": 0.2485,
+      "gain": 0.1,
+      "pan": -0.14,
+      "source": "assets/audio/kenney/impact/Audio/footstep_wood_002.ogg",
+      "license": "CC0-1.0",
+      "sha256": "9ff095b05cee5eec40b081defe3f0eef7232bb16d4865ce03b9f6dbab875cfdd"
     },
     {
-      "type": "ink wipe",
-      "at": 83.83333333333333,
-      "length": 0.7,
-      "gain": 0.043
+      "type": "wooden-boardwalk foot contact",
+      "at": 60.76699029126213,
+      "length": 0.248625,
+      "gain": 0.1,
+      "pan": 0.14,
+      "source": "assets/audio/kenney/impact/Audio/footstep_wood_003.ogg",
+      "license": "CC0-1.0",
+      "sha256": "2a68a083daa9eda08fed0ea5da5280dfbe0de226196c576be02f95259dd139d9"
     },
     {
-      "type": "paper / leather",
-      "at": 32.50333333333333,
-      "length": 0.3,
-      "gain": 0.022
+      "type": "wooden-boardwalk foot contact",
+      "at": 61.58252427184466,
+      "length": 0.24502083333333333,
+      "gain": 0.1,
+      "pan": -0.14,
+      "source": "assets/audio/kenney/impact/Audio/footstep_wood_004.ogg",
+      "license": "CC0-1.0",
+      "sha256": "b33e0854e2b3f6b6492e25c25ef8f90447a332f7c6bb25dd02edced9581d3441"
     },
     {
-      "type": "paper / leather",
-      "at": 36.53666666666667,
-      "length": 0.3,
-      "gain": 0.022
+      "type": "wooden-boardwalk foot contact",
+      "at": 62.56875,
+      "length": 0.27139583333333334,
+      "gain": 0.1,
+      "pan": -0.14,
+      "source": "assets/audio/kenney/impact/Audio/footstep_wood_000.ogg",
+      "license": "CC0-1.0",
+      "sha256": "5f1c252942a220d658121bd9417448cd19649ded9fff2ff15f6e50899373ce8e"
     },
     {
-      "type": "paper / leather",
-      "at": 40.35333333333333,
-      "length": 0.3,
-      "gain": 0.022
+      "type": "dirt-path foot contact",
+      "at": 72.22220670065889,
+      "length": 0.24885416666666665,
+      "gain": 0.105,
+      "pan": -0.12,
+      "source": "assets/audio/kenney/rpg/Audio/footstep00.ogg",
+      "license": "CC0-1.0",
+      "sha256": "6fe61ef1fc3bcf0e253bf2eb64759db6cb69e2fe452f4d88cc597ecf78a3d601"
     },
     {
-      "type": "paper / leather",
-      "at": 46.88666666666667,
-      "length": 0.3,
-      "gain": 0.022
+      "type": "dirt-path foot contact",
+      "at": 72.95420362738935,
+      "length": 0.28247916666666667,
+      "gain": 0.105,
+      "pan": 0.12,
+      "source": "assets/audio/kenney/rpg/Audio/footstep01.ogg",
+      "license": "CC0-1.0",
+      "sha256": "313472dba31fd0c855376069fa368bb5a198c27251cc8398ef464578b7047a4c"
     },
     {
-      "type": "paper / leather",
-      "at": 50.20333333333333,
-      "length": 0.3,
-      "gain": 0.022
+      "type": "dirt-path foot contact",
+      "at": 73.64045074619915,
+      "length": 0.24214583333333334,
+      "gain": 0.105,
+      "pan": -0.12,
+      "source": "assets/audio/kenney/rpg/Audio/footstep02.ogg",
+      "license": "CC0-1.0",
+      "sha256": "2d9575b7dead6e1217ca113991fc5229e9b6d998ea0726ebbb277e7398ab888f"
     },
     {
-      "type": "paper / leather",
-      "at": 62.17,
-      "length": 0.3,
-      "gain": 0.022
+      "type": "dirt-path foot contact",
+      "at": 81.50197916666667,
+      "length": 0.24885416666666665,
+      "gain": 0.105,
+      "pan": -0.12,
+      "source": "assets/audio/kenney/rpg/Audio/footstep00.ogg",
+      "license": "CC0-1.0",
+      "sha256": "6fe61ef1fc3bcf0e253bf2eb64759db6cb69e2fe452f4d88cc597ecf78a3d601"
     },
     {
-      "type": "paper / leather",
-      "at": 69.58666666666666,
-      "length": 0.3,
-      "gain": 0.022
+      "type": "dirt-path foot contact",
+      "at": 82.49197916666667,
+      "length": 0.28247916666666667,
+      "gain": 0.105,
+      "pan": 0.12,
+      "source": "assets/audio/kenney/rpg/Audio/footstep01.ogg",
+      "license": "CC0-1.0",
+      "sha256": "313472dba31fd0c855376069fa368bb5a198c27251cc8398ef464578b7047a4c"
     },
     {
-      "type": "boardwalk footstep",
-      "at": 54.748179611650485,
-      "length": 0.17,
-      "gain": 0.032
+      "type": "dirt-path foot contact",
+      "at": 83.48197916666668,
+      "length": 0.24214583333333334,
+      "gain": 0.105,
+      "pan": -0.12,
+      "source": "assets/audio/kenney/rpg/Audio/footstep02.ogg",
+      "license": "CC0-1.0",
+      "sha256": "2d9575b7dead6e1217ca113991fc5229e9b6d998ea0726ebbb277e7398ab888f"
     },
     {
-      "type": "boardwalk footstep",
-      "at": 55.34453883495146,
-      "length": 0.17,
-      "gain": 0.032
+      "type": "dirt-path foot contact",
+      "at": 84.47197916666667,
+      "length": 0.2690208333333333,
+      "gain": 0.105,
+      "pan": 0.12,
+      "source": "assets/audio/kenney/rpg/Audio/footstep03.ogg",
+      "license": "CC0-1.0",
+      "sha256": "a86756b9af9f370455ab47844239bb07fd1bee7a113068c91f0fcd9b72703fae"
     },
     {
-      "type": "boardwalk footstep",
-      "at": 55.9867718446602,
-      "length": 0.17,
-      "gain": 0.032
+      "type": "dirt-path foot contact",
+      "at": 85.95697916666666,
+      "length": 0.24885416666666665,
+      "gain": 0.105,
+      "pan": -0.12,
+      "source": "assets/audio/kenney/rpg/Audio/footstep00.ogg",
+      "license": "CC0-1.0",
+      "sha256": "6fe61ef1fc3bcf0e253bf2eb64759db6cb69e2fe452f4d88cc597ecf78a3d601"
     },
     {
-      "type": "boardwalk footstep",
-      "at": 56.62900485436894,
-      "length": 0.17,
-      "gain": 0.032
+      "type": "dirt-path foot contact",
+      "at": 86.63760416666666,
+      "length": 0.28247916666666667,
+      "gain": 0.105,
+      "pan": 0.12,
+      "source": "assets/audio/kenney/rpg/Audio/footstep01.ogg",
+      "license": "CC0-1.0",
+      "sha256": "313472dba31fd0c855376069fa368bb5a198c27251cc8398ef464578b7047a4c"
     },
     {
-      "type": "boardwalk footstep",
-      "at": 57.271237864077676,
-      "length": 0.17,
-      "gain": 0.032
+      "type": "dirt-path foot contact",
+      "at": 87.56572916666666,
+      "length": 0.24214583333333334,
+      "gain": 0.105,
+      "pan": -0.12,
+      "source": "assets/audio/kenney/rpg/Audio/footstep02.ogg",
+      "license": "CC0-1.0",
+      "sha256": "2d9575b7dead6e1217ca113991fc5229e9b6d998ea0726ebbb277e7398ab888f"
     },
     {
-      "type": "dirt footstep",
-      "at": 67.47220670065889,
-      "length": 0.17,
-      "gain": 0.032
+      "type": "dirt-path foot contact",
+      "at": 88.61760416666667,
+      "length": 0.2690208333333333,
+      "gain": 0.105,
+      "pan": 0.12,
+      "source": "assets/audio/kenney/rpg/Audio/footstep03.ogg",
+      "license": "CC0-1.0",
+      "sha256": "a86756b9af9f370455ab47844239bb07fd1bee7a113068c91f0fcd9b72703fae"
     },
     {
-      "type": "dirt footstep",
-      "at": 68.20420362738935,
-      "length": 0.17,
-      "gain": 0.032
+      "type": "dirt-path foot contact",
+      "at": 89.54572916666666,
+      "length": 0.32283333333333336,
+      "gain": 0.105,
+      "pan": -0.12,
+      "source": "assets/audio/kenney/rpg/Audio/footstep04.ogg",
+      "license": "CC0-1.0",
+      "sha256": "fd264d72a7cd622b82abde202f4ed09fa7de95d34c36473ee938ce66cdf39830"
     },
     {
-      "type": "dirt footstep",
-      "at": 68.89045074619915,
-      "length": 0.17,
-      "gain": 0.032
+      "type": "wooden-boardwalk foot contact",
+      "at": 100.16344605475041,
+      "length": 0.27139583333333334,
+      "gain": 0.18,
+      "pan": -0.14,
+      "source": "assets/audio/kenney/impact/Audio/footstep_wood_000.ogg",
+      "license": "CC0-1.0",
+      "sha256": "5f1c252942a220d658121bd9417448cd19649ded9fff2ff15f6e50899373ce8e"
     },
     {
-      "type": "dirt footstep",
-      "at": 76.55833333333334,
-      "length": 0.17,
-      "gain": 0.032
+      "type": "wooden-boardwalk foot contact",
+      "at": 101.30523349436393,
+      "length": 0.24866666666666667,
+      "gain": 0.18,
+      "pan": 0.14,
+      "source": "assets/audio/kenney/impact/Audio/footstep_wood_001.ogg",
+      "license": "CC0-1.0",
+      "sha256": "e4f68e1c9fd55b4dc8ca89ed2bbab6f200171bc54bdc18aa96b80d8e7336f462"
     },
     {
-      "type": "dirt footstep",
-      "at": 77.35833333333333,
-      "length": 0.17,
-      "gain": 0.032
+      "type": "wooden-boardwalk foot contact",
+      "at": 104.91024527337761,
+      "length": 0.27139583333333334,
+      "gain": 0.18,
+      "pan": -0.14,
+      "source": "assets/audio/kenney/impact/Audio/footstep_wood_000.ogg",
+      "license": "CC0-1.0",
+      "sha256": "5f1c252942a220d658121bd9417448cd19649ded9fff2ff15f6e50899373ce8e"
     },
     {
-      "type": "dirt footstep",
-      "at": 78.15833333333335,
-      "length": 0.17,
-      "gain": 0.032
+      "type": "wooden-boardwalk foot contact",
+      "at": 105.58270311701584,
+      "length": 0.24866666666666667,
+      "gain": 0.18,
+      "pan": 0.14,
+      "source": "assets/audio/kenney/impact/Audio/footstep_wood_001.ogg",
+      "license": "CC0-1.0",
+      "sha256": "e4f68e1c9fd55b4dc8ca89ed2bbab6f200171bc54bdc18aa96b80d8e7336f462"
     },
     {
-      "type": "dirt footstep",
-      "at": 78.95833333333334,
-      "length": 0.17,
-      "gain": 0.032
+      "type": "wooden-boardwalk foot contact",
+      "at": 106.78110841423947,
+      "length": 0.27139583333333334,
+      "gain": 0.18,
+      "pan": -0.14,
+      "source": "assets/audio/kenney/impact/Audio/footstep_wood_000.ogg",
+      "license": "CC0-1.0",
+      "sha256": "5f1c252942a220d658121bd9417448cd19649ded9fff2ff15f6e50899373ce8e"
     },
     {
-      "type": "dirt footstep",
-      "at": 80.18927083333334,
-      "length": 0.17,
-      "gain": 0.032
+      "type": "wooden-boardwalk foot contact",
+      "at": 107.61781283710894,
+      "length": 0.24866666666666667,
+      "gain": 0.18,
+      "pan": 0.14,
+      "source": "assets/audio/kenney/impact/Audio/footstep_wood_001.ogg",
+      "license": "CC0-1.0",
+      "sha256": "e4f68e1c9fd55b4dc8ca89ed2bbab6f200171bc54bdc18aa96b80d8e7336f462"
     },
     {
-      "type": "dirt footstep",
-      "at": 80.80114583333334,
-      "length": 0.17,
-      "gain": 0.032
+      "type": "wooden-boardwalk foot contact",
+      "at": 108.45451725997842,
+      "length": 0.2485,
+      "gain": 0.18,
+      "pan": -0.14,
+      "source": "assets/audio/kenney/impact/Audio/footstep_wood_002.ogg",
+      "license": "CC0-1.0",
+      "sha256": "9ff095b05cee5eec40b081defe3f0eef7232bb16d4865ce03b9f6dbab875cfdd"
     },
     {
-      "type": "dirt footstep",
-      "at": 81.63552083333335,
-      "length": 0.17,
-      "gain": 0.032
+      "type": "wooden-boardwalk foot contact",
+      "at": 109.44302069976186,
+      "length": 0.27139583333333334,
+      "gain": 0.1,
+      "pan": -0.14,
+      "source": "assets/audio/kenney/impact/Audio/footstep_wood_000.ogg",
+      "license": "CC0-1.0",
+      "sha256": "5f1c252942a220d658121bd9417448cd19649ded9fff2ff15f6e50899373ce8e"
     },
     {
-      "type": "dirt footstep",
-      "at": 82.58114583333334,
-      "length": 0.17,
-      "gain": 0.032
+      "type": "wooden-boardwalk foot contact",
+      "at": 110.31314343286316,
+      "length": 0.24866666666666667,
+      "gain": 0.1,
+      "pan": 0.14,
+      "source": "assets/audio/kenney/impact/Audio/footstep_wood_001.ogg",
+      "license": "CC0-1.0",
+      "sha256": "e4f68e1c9fd55b4dc8ca89ed2bbab6f200171bc54bdc18aa96b80d8e7336f462"
     },
     {
-      "type": "dirt footstep",
-      "at": 83.41552083333335,
-      "length": 0.17,
-      "gain": 0.032
+      "type": "wooden-boardwalk foot contact",
+      "at": 111.22906209928558,
+      "length": 0.2485,
+      "gain": 0.1,
+      "pan": -0.14,
+      "source": "assets/audio/kenney/impact/Audio/footstep_wood_002.ogg",
+      "license": "CC0-1.0",
+      "sha256": "9ff095b05cee5eec40b081defe3f0eef7232bb16d4865ce03b9f6dbab875cfdd"
     },
     {
-      "type": "boardwalk footstep",
-      "at": 92.1719806763285,
-      "length": 0.17,
-      "gain": 0.063
-    },
-    {
-      "type": "boardwalk footstep",
-      "at": 92.97053140096618,
-      "length": 0.17,
-      "gain": 0.063
-    },
-    {
-      "type": "boardwalk footstep",
-      "at": 95.94491568727643,
-      "length": 0.17,
-      "gain": 0.063
-    },
-    {
-      "type": "boardwalk footstep",
-      "at": 96.5887583035258,
-      "length": 0.17,
-      "gain": 0.063
-    },
-    {
-      "type": "boardwalk footstep",
-      "at": 98.2232470334412,
-      "length": 0.17,
-      "gain": 0.063
-    },
-    {
-      "type": "boardwalk footstep",
-      "at": 98.95679611650485,
-      "length": 0.17,
-      "gain": 0.063
-    },
-    {
-      "type": "boardwalk footstep",
+      "type": "wooden-boardwalk foot contact",
       "at": 0.7200000000000001,
-      "length": 0.17,
-      "gain": 0.026
+      "length": 0.27139583333333334,
+      "gain": 0.18,
+      "pan": -0.14,
+      "source": "assets/audio/kenney/impact/Audio/footstep_wood_000.ogg",
+      "license": "CC0-1.0",
+      "sha256": "5f1c252942a220d658121bd9417448cd19649ded9fff2ff15f6e50899373ce8e"
     },
     {
-      "type": "cane contact",
-      "at": 79.98902083333334,
-      "length": 0.12,
-      "gain": 0.029
+      "type": "wooden-boardwalk foot contact",
+      "at": 23.5998335864047,
+      "length": 0.27139583333333334,
+      "gain": 0.18,
+      "pan": -0.14,
+      "source": "assets/audio/kenney/impact/Audio/footstep_wood_000.ogg",
+      "license": "CC0-1.0",
+      "sha256": "5f1c252942a220d658121bd9417448cd19649ded9fff2ff15f6e50899373ce8e"
     },
     {
-      "type": "cane contact",
-      "at": 81.57989583333334,
-      "length": 0.12,
-      "gain": 0.029
+      "type": "wooden-boardwalk foot contact",
+      "at": 24.77224420619948,
+      "length": 0.24866666666666667,
+      "gain": 0.18,
+      "pan": 0.14,
+      "source": "assets/audio/kenney/impact/Audio/footstep_wood_001.ogg",
+      "license": "CC0-1.0",
+      "sha256": "e4f68e1c9fd55b4dc8ca89ed2bbab6f200171bc54bdc18aa96b80d8e7336f462"
     },
     {
-      "type": "cane contact",
-      "at": 83.08177083333334,
-      "length": 0.12,
-      "gain": 0.029
+      "type": "gloves / clothing movement",
+      "at": 0.4,
+      "length": 0.4150625,
+      "gain": 0.07,
+      "pan": -0.08,
+      "source": "assets/audio/kenney/rpg/Audio/cloth2.ogg",
+      "license": "CC0-1.0",
+      "sha256": "8a7451193c38bc05483aec25dd193e163a15d44cf7fff04ac7912573231b0201"
     },
     {
-      "type": "paper / leather",
-      "at": 91.68550724637682,
-      "length": 0.32,
-      "gain": 0.035
+      "type": "gloves / clothing movement",
+      "at": 9.1596875,
+      "length": 0.38433333333333336,
+      "gain": 0.055,
+      "pan": -0.08,
+      "source": "assets/audio/kenney/rpg/Audio/cloth4.ogg",
+      "license": "CC0-1.0",
+      "sha256": "e7ab9a6c4466dea874196c61f59bf1da05cfe58748f42fadd695d441a154a99b"
     },
     {
-      "type": "stamp contact",
-      "at": 50.596875,
-      "length": 0.18,
-      "gain": 0.026
+      "type": "gloves / clothing movement",
+      "at": 14.230520833333333,
+      "length": 0.6610416666666666,
+      "gain": 0.045,
+      "pan": -0.08,
+      "source": "assets/audio/kenney/rpg/Audio/cloth1.ogg",
+      "license": "CC0-1.0",
+      "sha256": "ddb93a3671233f95da0e0b10367f082f7eb42fa6caaddcf776410aa8833c747d"
     },
     {
-      "type": "nervous inhale",
-      "at": 4.136666666666667,
-      "length": 0.18,
-      "gain": 0.016
+      "type": "gloves / clothing movement",
+      "at": 23.851064433503584,
+      "length": 0.4765625,
+      "gain": 0.05,
+      "pan": -0.08,
+      "source": "assets/audio/kenney/rpg/Audio/cloth3.ogg",
+      "license": "CC0-1.0",
+      "sha256": "a48632d17a4f1416541d261a32a31612e01267144c407fa3ecab3ff410f0085b"
     },
     {
-      "type": "nervous inhale",
-      "at": 13.403333333333332,
-      "length": 0.18,
-      "gain": 0.016
+      "type": "gloves / clothing movement",
+      "at": 91.04947916666666,
+      "length": 0.4150625,
+      "gain": 0.075,
+      "pan": -0.08,
+      "source": "assets/audio/kenney/rpg/Audio/cloth2.ogg",
+      "license": "CC0-1.0",
+      "sha256": "8a7451193c38bc05483aec25dd193e163a15d44cf7fff04ac7912573231b0201"
     },
     {
-      "type": "nervous inhale",
-      "at": 22.17,
-      "length": 0.18,
-      "gain": 0.016
+      "type": "gloves / clothing movement",
+      "at": 95.7977011494253,
+      "length": 0.4765625,
+      "gain": 0.045,
+      "pan": -0.08,
+      "source": "assets/audio/kenney/rpg/Audio/cloth3.ogg",
+      "license": "CC0-1.0",
+      "sha256": "a48632d17a4f1416541d261a32a31612e01267144c407fa3ecab3ff410f0085b"
     },
     {
-      "type": "original quiet archive mechanism",
-      "at": 25.333333333333332,
-      "length": 59,
-      "gain": 0.005
+      "type": "gloves / clothing movement",
+      "at": 95.34753086419752,
+      "length": 0.38433333333333336,
+      "gain": 0.06,
+      "pan": -0.08,
+      "source": "assets/audio/kenney/rpg/Audio/cloth4.ogg",
+      "license": "CC0-1.0",
+      "sha256": "e7ab9a6c4466dea874196c61f59bf1da05cfe58748f42fadd695d441a154a99b"
     },
     {
-      "type": "original restrained frontier air",
+      "type": "gloves / clothing movement",
+      "at": 99.46787439613527,
+      "length": 0.6610416666666666,
+      "gain": 0.09,
+      "pan": -0.08,
+      "source": "assets/audio/kenney/rpg/Audio/cloth1.ogg",
+      "license": "CC0-1.0",
+      "sha256": "ddb93a3671233f95da0e0b10367f082f7eb42fa6caaddcf776410aa8833c747d"
+    },
+    {
+      "type": "gloves / clothing movement",
+      "at": 100.69779874213837,
+      "length": 0.4150625,
+      "gain": 0.045,
+      "pan": -0.08,
+      "source": "assets/audio/kenney/rpg/Audio/cloth2.ogg",
+      "license": "CC0-1.0",
+      "sha256": "8a7451193c38bc05483aec25dd193e163a15d44cf7fff04ac7912573231b0201"
+    },
+    {
+      "type": "gloves / clothing movement",
+      "at": 109.07665323319289,
+      "length": 0.6610416666666666,
+      "gain": 0.04,
+      "pan": -0.08,
+      "source": "assets/audio/kenney/rpg/Audio/cloth1.ogg",
+      "license": "CC0-1.0",
+      "sha256": "ddb93a3671233f95da0e0b10367f082f7eb42fa6caaddcf776410aa8833c747d"
+    },
+    {
+      "type": "watch tap",
+      "at": 1.1466666666666667,
+      "length": 0.44583333333333336,
+      "gain": 0.045,
+      "pan": -0.1,
+      "source": "assets/audio/kenney/rpg/Audio/metalClick.ogg",
+      "license": "CC0-1.0",
+      "sha256": "9851a69d0c613e13bceef08060ecc4148f098ef487927cbebe270d642398a3b3"
+    },
+    {
+      "type": "watch strap shifts",
+      "at": 18.960833333333333,
+      "length": 0.33820833333333333,
+      "gain": 0.065,
+      "pan": -0.1,
+      "source": "assets/audio/kenney/rpg/Audio/handleSmallLeather.ogg",
+      "license": "CC0-1.0",
+      "sha256": "ae3cbf695aa0a8b98b5a80a835be5a3ccbd5446a24db2235cd4c3cd6fc92ed96"
+    },
+    {
+      "type": "clockmaker turns mechanism",
+      "at": 31.632109627831714,
+      "length": 0.44583333333333336,
+      "gain": 0.07,
+      "pan": 0.1,
+      "source": "assets/audio/kenney/rpg/Audio/metalClick.ogg",
+      "license": "CC0-1.0",
+      "sha256": "9851a69d0c613e13bceef08060ecc4148f098ef487927cbebe270d642398a3b3"
+    },
+    {
+      "type": "quiet workshop clock tick",
+      "at": 31.08811690938511,
+      "length": 0.44583333333333336,
+      "gain": 0.022,
+      "pan": 0.2,
+      "source": "assets/audio/kenney/rpg/Audio/metalClick.ogg",
+      "license": "CC0-1.0",
+      "sha256": "9851a69d0c613e13bceef08060ecc4148f098ef487927cbebe270d642398a3b3"
+    },
+    {
+      "type": "quiet workshop clock tick",
+      "at": 32.077194579288026,
+      "length": 0.44583333333333336,
+      "gain": 0.022,
+      "pan": 0.2,
+      "source": "assets/audio/kenney/rpg/Audio/metalClick.ogg",
+      "license": "CC0-1.0",
+      "sha256": "9851a69d0c613e13bceef08060ecc4148f098ef487927cbebe270d642398a3b3"
+    },
+    {
+      "type": "quiet workshop clock tick",
+      "at": 33.06627224919094,
+      "length": 0.44583333333333336,
+      "gain": 0.022,
+      "pan": 0.2,
+      "source": "assets/audio/kenney/rpg/Audio/metalClick.ogg",
+      "license": "CC0-1.0",
+      "sha256": "9851a69d0c613e13bceef08060ecc4148f098ef487927cbebe270d642398a3b3"
+    },
+    {
+      "type": "quiet workshop clock tick",
+      "at": 34.05534991909385,
+      "length": 0.44583333333333336,
+      "gain": 0.022,
+      "pan": 0.2,
+      "source": "assets/audio/kenney/rpg/Audio/metalClick.ogg",
+      "license": "CC0-1.0",
+      "sha256": "9851a69d0c613e13bceef08060ecc4148f098ef487927cbebe270d642398a3b3"
+    },
+    {
+      "type": "pedometer box slides onto bench",
+      "at": 34.08052083333333,
+      "length": 0.27670833333333333,
+      "gain": 0.095,
+      "pan": -0.1,
+      "source": "assets/audio/kenney/rpg/Audio/bookPlace1.ogg",
+      "license": "CC0-1.0",
+      "sha256": "26f3ce60fbde85b678b0ad7f6624d80535fe540d88232ad1e38e47a96662d977"
+    },
+    {
+      "type": "pencil settles on desk",
+      "at": 39.79208333333333,
+      "length": 0.2627083333333333,
+      "gain": 0.045,
+      "pan": 0.06,
+      "source": "assets/audio/kenney/impact/Audio/impactWood_light_000.ogg",
+      "license": "CC0-1.0",
+      "sha256": "eb45e35b4bed784d3f120de4afec4b0d6ac09d9e143cce8cfcb7d739e1b1f3c3"
+    },
+    {
+      "type": "campaign map handling",
+      "at": 43.98916666666667,
+      "length": 0.7686458333333334,
+      "gain": 0.06,
+      "pan": 0.1,
+      "source": "assets/audio/kenney/rpg/Audio/bookFlip1.ogg",
+      "license": "CC0-1.0",
+      "sha256": "fa81ac2fedc8c641661b87e349630a36c9800e795e0c800e029214efdbe26a7d"
+    },
+    {
+      "type": "research folder page lifts",
+      "at": 49.934475988895535,
+      "length": 0.1510625,
+      "gain": 0.08,
+      "pan": -0.1,
+      "source": "assets/audio/kenney/rpg/Audio/bookOpen.ogg",
+      "license": "CC0-1.0",
+      "sha256": "953390534377222bee89ac8cd9e60a58fdc037c71a4d7c18c43cd647c7f34ba8"
+    },
+    {
+      "type": "press sheet pulled",
+      "at": 53.31729166666667,
+      "length": 0.4304375,
+      "gain": 0.11,
+      "pan": -0.1,
+      "source": "assets/audio/kenney/rpg/Audio/bookFlip2.ogg",
+      "license": "CC0-1.0",
+      "sha256": "3409042acbfaebc24c1a6327dc073e36f9250841712e96c5040da566a97df73c"
+    },
+    {
+      "type": "printed sheet laid on stack",
+      "at": 55.359375,
+      "length": 0.35358333333333336,
+      "gain": 0.1,
+      "pan": 0.1,
+      "source": "assets/audio/kenney/rpg/Audio/bookPlace2.ogg",
+      "license": "CC0-1.0",
+      "sha256": "831874e8fd142d4d0a03ff009f1f83966338a7878c0f6f38c613ae5b80dd731e"
+    },
+    {
+      "type": "worried grip on wrist strap",
+      "at": 63.38125,
+      "length": 0.3074791666666667,
+      "gain": 0.05,
+      "pan": -0.1,
+      "source": "assets/audio/kenney/rpg/Audio/handleSmallLeather2.ogg",
+      "license": "CC0-1.0",
+      "sha256": "a66f6db5918ad016c28a9f2768f127a7f39b5fa04481e5a3b4e78ebe2a1c282d"
+    },
+    {
+      "type": "research chart turns",
+      "at": 67.67395833333333,
+      "length": 0.23060416666666667,
+      "gain": 0.065,
+      "pan": 0.1,
+      "source": "assets/audio/kenney/rpg/Audio/bookFlip3.ogg",
+      "license": "CC0-1.0",
+      "sha256": "c85db5dceb3f1df073e960630277eaa88a5afda0477c1ddd68dad707621767be"
+    },
+    {
+      "type": "study bundle gathered",
+      "at": 74.72322916666667,
+      "length": 0.7686458333333334,
+      "gain": 0.085,
+      "pan": -0.12,
+      "source": "assets/audio/kenney/rpg/Audio/bookFlip1.ogg",
+      "license": "CC0-1.0",
+      "sha256": "fa81ac2fedc8c641661b87e349630a36c9800e795e0c800e029214efdbe26a7d"
+    },
+    {
+      "type": "paper edges aligned on desk",
+      "at": 76.80135416666667,
+      "length": 0.27670833333333333,
+      "gain": 0.105,
+      "pan": 0.12,
+      "source": "assets/audio/kenney/rpg/Audio/bookPlace1.ogg",
+      "license": "CC0-1.0",
+      "sha256": "26f3ce60fbde85b678b0ad7f6624d80535fe540d88232ad1e38e47a96662d977"
+    },
+    {
+      "type": "walking cane plants before weight shift",
+      "at": 85.95697916666666,
+      "length": 0.2627083333333333,
+      "gain": 0.09,
+      "pan": -0.15,
+      "source": "assets/audio/kenney/impact/Audio/impactWood_light_002.ogg",
+      "license": "CC0-1.0",
+      "sha256": "b183cf7a5bd783817e0e4b82af34ac6658fa1927049089dadc8b15c2ecc771dc"
+    },
+    {
+      "type": "walking cane plants before weight shift",
+      "at": 87.50385416666666,
+      "length": 0.2627083333333333,
+      "gain": 0.09,
+      "pan": -0.15,
+      "source": "assets/audio/kenney/impact/Audio/impactWood_light_002.ogg",
+      "license": "CC0-1.0",
+      "sha256": "b183cf7a5bd783817e0e4b82af34ac6658fa1927049089dadc8b15c2ecc771dc"
+    },
+    {
+      "type": "walking cane plants before weight shift",
+      "at": 89.17447916666666,
+      "length": 0.2627083333333333,
+      "gain": 0.09,
+      "pan": -0.15,
+      "source": "assets/audio/kenney/impact/Audio/impactWood_light_002.ogg",
+      "license": "CC0-1.0",
+      "sha256": "b183cf7a5bd783817e0e4b82af34ac6658fa1927049089dadc8b15c2ecc771dc"
+    },
+    {
+      "type": "bench takes seated weight",
+      "at": 91.43572916666666,
+      "length": 0.6610416666666666,
+      "gain": 0.1,
+      "pan": -0.08,
+      "source": "assets/audio/kenney/rpg/Audio/creak1.ogg",
+      "license": "CC0-1.0",
+      "sha256": "8a346186fd297254248cab8e8117060a52a5cf2a84f603153a762108550ea95e"
+    },
+    {
+      "type": "bench unloads as Javelina stands",
+      "at": 98.71980676328504,
+      "length": 0.8301458333333334,
+      "gain": 0.07,
+      "pan": -0.1,
+      "source": "assets/audio/kenney/rpg/Audio/creak2.ogg",
+      "license": "CC0-1.0",
+      "sha256": "8a990afdc03aebb91d528f5385e2f95582dbfa8e2c12c71098ab01be9142294a"
+    },
+    {
+      "type": "sales card lowers",
+      "at": 102.45880503144654,
+      "length": 0.23060416666666667,
+      "gain": 0.045,
+      "pan": 0.1,
+      "source": "assets/audio/kenney/rpg/Audio/bookFlip3.ogg",
+      "license": "CC0-1.0",
+      "sha256": "c85db5dceb3f1df073e960630277eaa88a5afda0477c1ddd68dad707621767be"
+    },
+    {
+      "type": "ink wipe",
+      "at": 25.396666666666665,
+      "length": 0.95,
+      "gain": 0.105
+    },
+    {
+      "type": "ink wipe",
+      "at": 90.14666666666666,
+      "length": 0.95,
+      "gain": 0.105
+    },
+    {
+      "type": "original continuous town / outdoor wind bed",
       "at": 0,
-      "length": 25.333333333333332,
-      "gain": 0.005
+      "length": 111.88333333333334,
+      "gain": 0.018,
+      "license": "Original studio synthesis"
     },
     {
-      "type": "original restrained frontier air",
-      "at": 84.33333333333333,
-      "length": 18.366666666666674,
-      "gain": 0.005
+      "type": "original distant dusk cricket chirps",
+      "at": 0.9,
+      "length": 0.75,
+      "gain": 0.0018
+    },
+    {
+      "type": "original distant dusk cricket chirps",
+      "at": 4.3,
+      "length": 0.75,
+      "gain": 0.0018
+    },
+    {
+      "type": "original distant dusk cricket chirps",
+      "at": 7.699999999999999,
+      "length": 0.75,
+      "gain": 0.0018
+    },
+    {
+      "type": "original distant dusk cricket chirps",
+      "at": 11.1,
+      "length": 0.75,
+      "gain": 0.0018
+    },
+    {
+      "type": "original distant dusk cricket chirps",
+      "at": 14.5,
+      "length": 0.75,
+      "gain": 0.0018
+    },
+    {
+      "type": "original distant dusk cricket chirps",
+      "at": 17.9,
+      "length": 0.75,
+      "gain": 0.0018
+    },
+    {
+      "type": "original distant dusk cricket chirps",
+      "at": 21.299999999999997,
+      "length": 0.75,
+      "gain": 0.0018
+    },
+    {
+      "type": "original distant dusk cricket chirps",
+      "at": 24.699999999999996,
+      "length": 0.75,
+      "gain": 0.0018
+    },
+    {
+      "type": "original distant dusk cricket chirps",
+      "at": 91.11666666666667,
+      "length": 0.75,
+      "gain": 0.0018
+    },
+    {
+      "type": "original distant dusk cricket chirps",
+      "at": 94.51666666666668,
+      "length": 0.75,
+      "gain": 0.0018
+    },
+    {
+      "type": "original distant dusk cricket chirps",
+      "at": 97.91666666666669,
+      "length": 0.75,
+      "gain": 0.0018
+    },
+    {
+      "type": "original distant dusk cricket chirps",
+      "at": 101.31666666666669,
+      "length": 0.75,
+      "gain": 0.0018
+    },
+    {
+      "type": "original distant dusk cricket chirps",
+      "at": 104.7166666666667,
+      "length": 0.75,
+      "gain": 0.0018
+    },
+    {
+      "type": "original distant dusk cricket chirps",
+      "at": 108.1166666666667,
+      "length": 0.75,
+      "gain": 0.0018
+    },
+    {
+      "type": "original distant dusk cricket chirps",
+      "at": 111.51666666666671,
+      "length": 0.75,
+      "gain": 0.0018
+    },
+    {
+      "type": "original archive projector mechanism bridge",
+      "at": 25.616666666666667,
+      "length": 65.19999999999999,
+      "gain": 0.012
     }
   ],
   "review": "Numerical mastering and original cue preparation; listening/subjective voice and mouth synchronization reviews remain separate."

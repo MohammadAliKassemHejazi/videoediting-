@@ -49,3 +49,13 @@ projects/*/assets/keyframes/*-alternate.png
 projects/*/assets/keyframes/*-opening-insert.png
 **/.DS_Store
 **/Thumbs.db
+# Generated selected-cast audio; keep original user voice references and JSON provenance.
+story-projects/*/assets/selected-voices/**/*.wav
+story-projects/*/assets/selected-voices/*.wav
+
+series/
+story-projects/
+
+projects/*
+projects/
+assets/ 

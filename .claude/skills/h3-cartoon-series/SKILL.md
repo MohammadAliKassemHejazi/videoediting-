@@ -55,12 +55,25 @@ overwrite the original guide WAVs or claim approximate mouth movement is perfect
 lip-sync. Inspect acting and perform/listen to audio when supported.
 
 Series voice direction is low/serious/brisk Bird versus higher/thinner, somewhat
-scared Javelina speaking faster. Episode 2's exact transform is documented in
+scared Javelina speaking faster. The user rejected the v3 pitch-processed cast.
+The user subsequently selected series/texas-casefiles/audio.wav for Bird and
+audio (1).wav for Javelina. Read voice-casting/SELECTED.json for hashes and the
+current role assignments; earlier AUDITIONS.json options were all rejected.
+Use the selected references for local Qwen3-TTS Base generation and keep source
+licensing evidence separate from the model's Apache-2.0 license. Avoid using
+large pitch shifts/tremolo as a substitute for a naturally suitable voice.
+Episode 2's historical transform is documented in
 VOICE_DIRECTION.json/PERFORMANCE_V3.json; those numerical settings describe that
 performance, not a universal requirement for every future script. Sound follows
 visible contacts and surfaces: steps, cloth, watch, paper, cane and transitions.
 Use original/cleared audio; the reference supplies concept, not copied voices or
 recordings. Research factual claims and population limits; do not invent studies.
+
+The selected-cast revision uses generate-casefile-selected-voices.py, then
+align-casefile-selected-voices.py, apply-casefile-selected-voices.mjs,
+make-casefile-audio.mjs and one-shot sync-casefile-episode.mjs. This is audio and
+preview work, not a video export. EDIT_V4.md documents the checkpoint, CC0 Kenney
+Foley, continuous ambient beds, dialogue ducking and mouth-sync limitations.
 
 ## Revise and review
 

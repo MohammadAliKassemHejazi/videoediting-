@@ -15,13 +15,14 @@
       ],
       "referenceStatus": "Working production reference generated and visually inspected; no separate user art approval claimed.",
       "voice": {
-        "engine": "Kokoro ONNX",
-        "preset": "am_puck",
+        "engine": "Qwen3-TTS-12Hz-1.7B-Base",
+        "preset": "texas-javelina-selected-v1",
         "direction": "Higher/thinner, lightly scared and hurried; speaks faster than the Banker. Preserve intelligibility and avoid a comedic chipmunk effect.",
         "firstEpisode": "texas-ten-thousand-steps",
-        "listeningReview": "Pending",
-        "status": "Current preview voice rejected by user; cleaner/more interesting voice auditions pending. Artistic low-serious versus thin-scared contrast remains requested.",
-        "performanceReference": "projects/texas-ten-thousand-steps/VOICE_DIRECTION.json"
+        "listeningReview": "User selected reference; full episode review pending",
+        "status": "Reference identity explicitly selected by user; V4 episode performance listening review pending.",
+        "performanceReference": "projects/texas-ten-thousand-steps/PERFORMANCE_V4.json",
+        "reference": "audio (1).wav"
       }
     },
     "vulture-banker": {
@@ -33,13 +34,14 @@
       ],
       "referenceStatus": "Working production reference generated and visually inspected; no separate user art approval claimed.",
       "voice": {
-        "engine": "Kokoro ONNX",
-        "preset": "am_michael",
+        "engine": "Qwen3-TTS-12Hz-1.7B-Base",
+        "preset": "texas-bird-selected-v1",
         "direction": "Low, serious, controlled and slightly brisk; also the narrator.",
         "firstEpisode": "texas-ten-thousand-steps",
-        "listeningReview": "Pending",
-        "status": "Current preview voice rejected by user; cleaner/more interesting voice auditions pending. Artistic low-serious versus thin-scared contrast remains requested.",
-        "performanceReference": "projects/texas-ten-thousand-steps/VOICE_DIRECTION.json"
+        "listeningReview": "User selected reference; full episode review pending",
+        "status": "Reference identity explicitly selected by user; V4 episode performance listening review pending.",
+        "performanceReference": "projects/texas-ten-thousand-steps/PERFORMANCE_V4.json",
+        "reference": "audio.wav"
       }
     }
   },
@@ -95,7 +97,7 @@
     {
       "id": "texas-ten-thousand-steps",
       "title": "Who Chose 10,000 Steps?",
-      "status": "V3 preview unapproved; export stopped. User requests cleaner voices and connected surrounding/action sound; asked for ETA before that revision starts.",
+      "status": "V4 111.883s preview with selected reference voices and connected CC0/original sound. Listening review pending; export stopped.",
       "heroProp": "pedometer-v1: round antique brass case, plain brown leather strap, dark face with a single amber numeric window; worn on Javelina left wrist above glove cuff",
       "continuity": "Same javelina-victim and vulture-banker identities/outfits. The old reel and wooden case do not reappear as the new hero prop.",
       "speakingShots": [
@@ -113,9 +115,10 @@
   ],
   "narrator": {
     "id": "texas-narrator-en-v1",
-    "engine": "Kokoro ONNX",
-    "voice": "am_michael",
-    "status": "Full local narration generated and aligned; working recurring preset am_michael, listening review pending"
+    "engine": "Qwen3-TTS-12Hz-1.7B-Base",
+    "voice": "texas-bird-selected-v1",
+    "reference": "audio.wav",
+    "status": "Uses the same selected Bird identity; episode performance review pending."
   },
   "branding": {
     "profile": "branding/profile-v1.png",
@@ -126,5 +129,14 @@
       "Instagram"
     ],
     "uploaded": false
+  },
+  "voiceCasting": {
+    "status": "User selected audio.wav for Bird and audio (1).wav for Javelina. V4 voice/sound preview ready; no new movie exported.",
+    "manifest": "voice-casting/SELECTED.json",
+    "research": "voice-casting/RESEARCH.md",
+    "page": "http://localhost:3002/static-d9d50e538c35/texas-ten-thousand-steps/sound-review/index.html",
+    "castApproved": true,
+    "episodePerformanceApproved": false,
+    "referenceLicenseEvidence": "Source tool requested from user; not independently documented."
   }
 }

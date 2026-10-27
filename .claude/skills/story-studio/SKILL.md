@@ -28,7 +28,11 @@ photorealistic or exact recreations of upstream demos.
 
 English and Arabic are selectable. For a requested offline workflow, use the
 installed local Kokoro ONNX narrator when it supports the chosen language; the
-Texas episode's stable English working preset is am_michael. Read the actual
+Texas episode's earlier Kokoro cast was rejected. The user now selected audio.wav
+for Bird and audio (1).wav for Javelina, under series/texas-casefiles. Read
+voice-casting/SELECTED.json and the bible before generating new recurring lines.
+The current local cloning engine is Qwen3-TTS Base; preserve each reference.
+Only commercially permitted voices/assets may enter this series. Read the actual
 engine/model provenance and keep listening separate from timing validation.
 Use the configured free neural voice client
 or supplied audio; it sends narration text to Microsoft's online speech service.

@@ -4,6 +4,7 @@ import {createHash} from 'node:crypto';
 import {ffmpeg,duration} from '../lib/ffmpeg.mjs';
 import {ROOT} from '../lib/project.mjs';
 const project=process.argv[2];if(project!=='texas-ten-thousand-steps')throw Error('Prepared Episode2 required');
+if(JSON.parse(readFileSync(join(ROOT,'projects',project,'editorial.json'),'utf8')).performanceVersion>=4)throw Error('Selected cast is active. Use the selected-voice workflow; do not overwrite it with rejected v3 voices.');
 const folder=join(ROOT,'projects',project),assets=join(ROOT,'story-projects',project,'assets'),base=JSON.parse(readFileSync(join(folder,'versions/v2/editorial.json'),'utf8')),direction=JSON.parse(readFileSync(join(folder,'VOICE_DIRECTION.json'),'utf8'));
 const source=join(assets,'versions/v2/narration.fitted.wav'),work=join(ROOT,'.cache',project,'voice-v3');mkdirSync(work,{recursive:true});
 const lock=join(ROOT,'.cache/render.lock'),fd=openSync(lock,'wx');writeFileSync(fd,String(process.pid));

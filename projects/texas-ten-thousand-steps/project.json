@@ -2,12 +2,12 @@
   "id": "texas-ten-thousand-steps",
   "kind": "casefile-story",
   "title": "WHO CHOSE 10,000 STEPS? — EPISODE2",
-  "duration": 102.7,
+  "duration": 111.88333333333334,
   "series": "texas-casefiles",
   "composition": "texas-ten-thousand-steps",
   "previewOrigin": "http://localhost:3002",
   "style": "Continuous Texas cartoon investigation: watch argument, sepia history, adult evidence and a character payoff; serious bird voice, softer Javelina and audio-guided speaking takes. Old-cinema matte grade, film grain/dust and gentle exposure variation.",
-  "status": "V3 preview ready (102.7s). Export stopped at user request; waiting for approval of this preview before rendering.",
+  "status": "V4 selected-voice and scene-sound preview. Export stopped pending user approval.",
   "thumbnail": {
     "file": "assets/thumbnail.png",
     "landscape": "assets/covers/youtube.png"

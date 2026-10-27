@@ -1,5 +1,49 @@
 # Preview-only checkpoint — 2026-10-27
 
+CURRENT V4 PREVIEW READY: User supplied series/texas-casefiles/audio.wav
+for Bird and audio (1).wav for Javelina. Short references transcribed locally in
+voice-casting/SELECTED.json. Qwen3-TTS 1.7B Base (Apache-2.0) downloaded into a new
+isolated .cache/qwen-voice-venv setup; existing H3 dependencies are untouched.
+All 28 selected-reference voice lines are generated and locally ASR-checked.
+V3 sources/audio are preserved under versions/v3-before-selected-cast. V4 is
+111.883333 seconds, 255 caption words, 28 actual animated shots. Kenney CC0 Foley
+packs are in assets/audio/kenney; the mix has 64 sample cues plus original score
+and continuous wind/insect/archive ambience, with dialogue-controlled ducking.
+AUDIO_V4_QC.json: full audio decode passed, -16.00 LUFS, -1.85 dBTP. All three
+sound-review WAVs play and seek in Chrome; five actual Studio frames inspected.
+Listen: http://localhost:3002/static-d9d50e538c35/texas-ten-thousand-steps/sound-review/index.html
+Watch: http://localhost:3002/texas-ten-thousand-steps
+User listening approval is pending. Existing H3 mouths are only retimed per shot;
+new phoneme-perfect synchronization is not claimed. A second Whisper model
+corroborated the disputed closing word rule; no listening review is claimed.
+Source-tool/license details for supplied voice references were requested via
+async question; awaiting reply. Model Apache-2.0 and SFX CC0 are documented.
+No new video export was made. All one-shot workers finished; GPU is idle. Only
+the existing Remotion preview3002 remains. Earlier status paragraphs below are
+historical; follow this V4 checkpoint and EDIT_V4.md for current work.
+
+COMMERCIAL-USE REQUIREMENT: User accepts only voices/assets licensed for commercial
+production. Exclude noncommercial-only models, voices and free-tier outputs from
+deliverables. Prefer free local commercially permitted models; verify model,
+voice/reference rights and any hosted-service terms separately. No paid calls
+or subscriptions authorized by this preference alone.
+
+LATEST VOICE FEEDBACK: User rejected all five native Kokoro auditions and pairs.
+No cast is approved. Research online audition libraries beyond Kokoro; do not
+re-offer the same samples or apply them to the film. Rendering remains stopped.
+
+PREVIOUS VOICE WORK: User authorized finding better clean voices. Five new native
+stock-voice auditions and3 pairs are complete at out/texas-casefiles-voices.
+Listen via http://localhost:3002/static-d9d50e538c35/texas-casefiles-voices/index.html.
+REQUEST/AUDITIONS/PAGE.json and research are in series/texas-casefiles/voice-casting.
+No pitch/tremolo/background effects; constant level gain only. Browser playback
+and peak checks passed, not listening approval. No cast is selected and the
+episode's current v3 soundtrack is unchanged. No new video export/GPU engine or
+background service was started. The one-shot CPU voice job finished.
+The attempted new browser-tab launch was blocked by automatic approval review;
+the link is provided instead. Await the user's voice choice, then build the new
+series performance and connected scene/action soundtrack in preview.
+
 LATEST PROCESS CLEANUP: At the user's request, stopped the idle H3 engine8189,
 both episode media-sync watchers, and gallery3001 with its npm/cmd wrappers.
 Only the Remotion preview service3002 is intentionally retained. Its static

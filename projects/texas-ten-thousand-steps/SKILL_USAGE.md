@@ -15,6 +15,19 @@ The other installed skills are available for matching requests: collage, brush
 animation, product motion, papercraft, furry stories and style auditions. Their
 availability is not a claim that each package generated this particular episode.
 
+Previous clean-voice casting follow-up: video-editor, h3-cartoon-series and story-studio
+were loaded. Existing local Kokoro produced5 native auditions and3 comparison
+pairs; no H3-native audio job or new voice-engine installation was run. See the
+series voice-casting ledger for exact presets, scripts, checks and limitations.
+
+Selected-reference revision: h3-cartoon-series and tech-video-editor were applied;
+HyperFrames and media-use entry instructions were consulted without installing
+or migrating frameworks. User-supplied Bird/Javelina WAVs now drive local
+Qwen3-TTS Base cloning in an isolated environment. All 28 lines have per-file
+generation evidence; local Whisper supplies transcript checks/caption estimates.
+Kenney CC0 samples, original ambient beds and dialogue ducking replace the earlier
+procedural-only Foley pass. See EDIT_V4.md and the selected voice ledger.
+
 Latest user instruction: stop rendering; approve the current preview before any
 export. The v3 102.7s voice/filter edit is preview-only. The 110s v2 movie is a
 preserved previous render. Listening/user creative approval is not claimed.
