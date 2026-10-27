@@ -1,0 +1,781 @@
+{
+  "duration": 110,
+  "originalScore": true,
+  "originalProceduralFoley": true,
+  "recordedSamplesUsed": false,
+  "voices": {
+    "banker": "Kokoro am_michael, serious measured delivery",
+    "javelina": "Kokoro am_puck, softer level",
+    "narrator": "Kokoro am_michael, same bird identity"
+  },
+  "voiceTargetLufs": -18.5,
+  "masterTargetLufs": -16,
+  "truePeakCeilingDb": -1.5,
+  "measuredVoiceBeforeMaster": {
+    "input_i": "-27.20",
+    "input_tp": "-1.18",
+    "input_lra": "6.10",
+    "input_thresh": "-37.62",
+    "output_i": "-20.10",
+    "output_tp": "-1.50",
+    "output_lra": "3.90",
+    "output_thresh": "-30.53",
+    "normalization_type": "dynamic",
+    "target_offset": "1.60"
+  },
+  "measuredMixBeforeMaster": {
+    "input_i": "-18.73",
+    "input_tp": "-4.30",
+    "input_lra": "3.70",
+    "input_thresh": "-29.34",
+    "output_i": "-16.26",
+    "output_tp": "-1.62",
+    "output_lra": "3.80",
+    "output_thresh": "-26.84",
+    "normalization_type": "dynamic",
+    "target_offset": "0.26"
+  },
+  "files": {
+    "fitted": "02b79bf212c52b6d55b551eb506425adc59db1d1475494441eefccbb14931a11",
+    "voice": "da1efa98e891494229652eb9a423d1cb0b5ccd702d01919412322b335d089128",
+    "score": "345728ee3e780d241a84e9061e0bbf8fb2f687dedad7aaef8692bad0e219849c",
+    "foley": "c282c974361987b8411d0701abaf76415319a1325a6975dad53212d4a89ecc23",
+    "mix": "707a18692dae19746ee0610f43b12ff4c0ff27f0a5e9c7e4cc2eed63a5be592a"
+  },
+  "events": [
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 0.18,
+      "freq": 73.4162,
+      "gain": 0.018
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 1.91,
+      "freq": 146.8324,
+      "gain": 0.011
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 3.6300000000000003,
+      "freq": 55,
+      "gain": 0.018
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 5.36,
+      "freq": 110,
+      "gain": 0.011
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 4.49,
+      "freq": 220,
+      "gain": 0.011
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 7.08,
+      "freq": 65.4064,
+      "gain": 0.018
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 8.81,
+      "freq": 130.8128,
+      "gain": 0.011
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 10.530000000000001,
+      "freq": 61.7354,
+      "gain": 0.018
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 12.260000000000002,
+      "freq": 123.4708,
+      "gain": 0.011
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 13.98,
+      "freq": 73.4162,
+      "gain": 0.018
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 15.71,
+      "freq": 146.8324,
+      "gain": 0.011
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 14.84,
+      "freq": 246.9417,
+      "gain": 0.011
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 17.43,
+      "freq": 55,
+      "gain": 0.018
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 19.16,
+      "freq": 110,
+      "gain": 0.011
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 20.880000000000003,
+      "freq": 65.4064,
+      "gain": 0.018
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 22.610000000000003,
+      "freq": 130.8128,
+      "gain": 0.011
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 24.330000000000002,
+      "freq": 61.7354,
+      "gain": 0.018
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 26.060000000000002,
+      "freq": 123.4708,
+      "gain": 0.011
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 25.19,
+      "freq": 293.6648,
+      "gain": 0.011
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 27.78,
+      "freq": 73.4162,
+      "gain": 0.018
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 29.51,
+      "freq": 146.8324,
+      "gain": 0.011
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 31.23,
+      "freq": 55,
+      "gain": 0.018
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 32.96,
+      "freq": 110,
+      "gain": 0.011
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 34.68,
+      "freq": 65.4064,
+      "gain": 0.018
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 36.41,
+      "freq": 130.8128,
+      "gain": 0.011
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 35.54,
+      "freq": 261.6256,
+      "gain": 0.011
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 38.13,
+      "freq": 61.7354,
+      "gain": 0.018
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 39.86,
+      "freq": 123.4708,
+      "gain": 0.011
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 41.580000000000005,
+      "freq": 73.4162,
+      "gain": 0.018
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 43.31,
+      "freq": 146.8324,
+      "gain": 0.011
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 45.03,
+      "freq": 55,
+      "gain": 0.018
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 46.76,
+      "freq": 110,
+      "gain": 0.011
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 45.89,
+      "freq": 220,
+      "gain": 0.011
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 48.480000000000004,
+      "freq": 65.4064,
+      "gain": 0.018
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 50.21,
+      "freq": 130.8128,
+      "gain": 0.011
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 51.93,
+      "freq": 61.7354,
+      "gain": 0.018
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 53.66,
+      "freq": 123.4708,
+      "gain": 0.011
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 55.38,
+      "freq": 73.4162,
+      "gain": 0.018
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 57.11,
+      "freq": 146.8324,
+      "gain": 0.011
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 56.24,
+      "freq": 246.9417,
+      "gain": 0.011
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 58.830000000000005,
+      "freq": 55,
+      "gain": 0.018
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 60.56,
+      "freq": 110,
+      "gain": 0.011
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 62.28,
+      "freq": 65.4064,
+      "gain": 0.018
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 64.01,
+      "freq": 130.8128,
+      "gain": 0.011
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 65.73,
+      "freq": 61.7354,
+      "gain": 0.018
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 67.46000000000001,
+      "freq": 123.4708,
+      "gain": 0.011
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 66.59,
+      "freq": 293.6648,
+      "gain": 0.011
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 69.18,
+      "freq": 73.4162,
+      "gain": 0.018
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 70.91000000000001,
+      "freq": 146.8324,
+      "gain": 0.011
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 72.63000000000001,
+      "freq": 55,
+      "gain": 0.018
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 74.36000000000001,
+      "freq": 110,
+      "gain": 0.011
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 76.08000000000001,
+      "freq": 65.4064,
+      "gain": 0.018
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 77.81000000000002,
+      "freq": 130.8128,
+      "gain": 0.011
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 76.94000000000001,
+      "freq": 261.6256,
+      "gain": 0.011
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 79.53000000000002,
+      "freq": 61.7354,
+      "gain": 0.018
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 81.26000000000002,
+      "freq": 123.4708,
+      "gain": 0.011
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 82.98000000000002,
+      "freq": 73.4162,
+      "gain": 0.018
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 84.71000000000002,
+      "freq": 146.8324,
+      "gain": 0.011
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 86.43,
+      "freq": 55,
+      "gain": 0.018
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 88.16000000000001,
+      "freq": 110,
+      "gain": 0.011
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 87.29,
+      "freq": 220,
+      "gain": 0.011
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 89.88000000000001,
+      "freq": 65.4064,
+      "gain": 0.018
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 91.61000000000001,
+      "freq": 130.8128,
+      "gain": 0.011
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 93.33000000000001,
+      "freq": 61.7354,
+      "gain": 0.018
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 95.06000000000002,
+      "freq": 123.4708,
+      "gain": 0.011
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 96.78000000000002,
+      "freq": 73.4162,
+      "gain": 0.018
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 98.51000000000002,
+      "freq": 146.8324,
+      "gain": 0.011
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 97.64000000000001,
+      "freq": 246.9417,
+      "gain": 0.011
+    },
+    {
+      "type": "original soft reed-like harmonic",
+      "at": 28.15,
+      "freq": 220,
+      "length": 5,
+      "gain": 0.0048
+    },
+    {
+      "type": "original soft reed-like harmonic",
+      "at": 66.91666666666667,
+      "freq": 246.9417,
+      "length": 5,
+      "gain": 0.0045
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 97.91666666666667,
+      "freq": 164.8138,
+      "gain": 0.013
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 97.97166666666668,
+      "freq": 195.9977,
+      "gain": 0.013
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 98.02666666666667,
+      "freq": 246.9417,
+      "gain": 0.013
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 106.61666666666667,
+      "freq": 146.8324,
+      "gain": 0.016
+    },
+    {
+      "type": "original synthesized guitar-like pluck",
+      "at": 108.5,
+      "freq": 293.6648,
+      "gain": 0.009
+    },
+    {
+      "type": "paper / leather",
+      "at": 0.8,
+      "length": 0.12,
+      "gain": 0.035
+    },
+    {
+      "type": "original brass watch bezel click",
+      "at": 20.583333333333332,
+      "gain": 0.045
+    },
+    {
+      "type": "ink wipe",
+      "at": 27.55,
+      "length": 0.65,
+      "gain": 0.042
+    },
+    {
+      "type": "ink wipe",
+      "at": 90.05,
+      "length": 0.7,
+      "gain": 0.043
+    },
+    {
+      "type": "paper / leather",
+      "at": 35.586666666666666,
+      "length": 0.3,
+      "gain": 0.022
+    },
+    {
+      "type": "paper / leather",
+      "at": 39.87,
+      "length": 0.3,
+      "gain": 0.022
+    },
+    {
+      "type": "paper / leather",
+      "at": 43.92,
+      "length": 0.3,
+      "gain": 0.022
+    },
+    {
+      "type": "paper / leather",
+      "at": 50.85333333333333,
+      "length": 0.3,
+      "gain": 0.022
+    },
+    {
+      "type": "paper / leather",
+      "at": 54.37,
+      "length": 0.3,
+      "gain": 0.022
+    },
+    {
+      "type": "paper / leather",
+      "at": 67.03666666666666,
+      "length": 0.3,
+      "gain": 0.022
+    },
+    {
+      "type": "paper / leather",
+      "at": 74.90333333333332,
+      "length": 0.3,
+      "gain": 0.022
+    },
+    {
+      "type": "boardwalk footstep",
+      "at": 59.03333333333333,
+      "length": 0.14,
+      "gain": 0.019
+    },
+    {
+      "type": "boardwalk footstep",
+      "at": 59.65333333333333,
+      "length": 0.14,
+      "gain": 0.019
+    },
+    {
+      "type": "boardwalk footstep",
+      "at": 60.27333333333333,
+      "length": 0.14,
+      "gain": 0.019
+    },
+    {
+      "type": "boardwalk footstep",
+      "at": 60.89333333333333,
+      "length": 0.14,
+      "gain": 0.019
+    },
+    {
+      "type": "boardwalk footstep",
+      "at": 61.51333333333333,
+      "length": 0.14,
+      "gain": 0.019
+    },
+    {
+      "type": "boardwalk footstep",
+      "at": 72.41666666666667,
+      "length": 0.14,
+      "gain": 0.019
+    },
+    {
+      "type": "boardwalk footstep",
+      "at": 73.03666666666668,
+      "length": 0.14,
+      "gain": 0.019
+    },
+    {
+      "type": "boardwalk footstep",
+      "at": 73.65666666666667,
+      "length": 0.14,
+      "gain": 0.019
+    },
+    {
+      "type": "boardwalk footstep",
+      "at": 81.75,
+      "length": 0.14,
+      "gain": 0.019
+    },
+    {
+      "type": "boardwalk footstep",
+      "at": 82.37,
+      "length": 0.14,
+      "gain": 0.019
+    },
+    {
+      "type": "boardwalk footstep",
+      "at": 82.99,
+      "length": 0.14,
+      "gain": 0.019
+    },
+    {
+      "type": "boardwalk footstep",
+      "at": 83.61,
+      "length": 0.14,
+      "gain": 0.019
+    },
+    {
+      "type": "boardwalk footstep",
+      "at": 84.23,
+      "length": 0.14,
+      "gain": 0.019
+    },
+    {
+      "type": "boardwalk footstep",
+      "at": 84.85,
+      "length": 0.14,
+      "gain": 0.019
+    },
+    {
+      "type": "boardwalk footstep",
+      "at": 85.98333333333333,
+      "length": 0.14,
+      "gain": 0.019
+    },
+    {
+      "type": "boardwalk footstep",
+      "at": 86.60333333333334,
+      "length": 0.14,
+      "gain": 0.019
+    },
+    {
+      "type": "boardwalk footstep",
+      "at": 87.22333333333333,
+      "length": 0.14,
+      "gain": 0.019
+    },
+    {
+      "type": "boardwalk footstep",
+      "at": 87.84333333333333,
+      "length": 0.14,
+      "gain": 0.019
+    },
+    {
+      "type": "boardwalk footstep",
+      "at": 88.46333333333334,
+      "length": 0.14,
+      "gain": 0.019
+    },
+    {
+      "type": "boardwalk footstep",
+      "at": 89.08333333333333,
+      "length": 0.14,
+      "gain": 0.019
+    },
+    {
+      "type": "boardwalk footstep",
+      "at": 89.70333333333333,
+      "length": 0.14,
+      "gain": 0.019
+    },
+    {
+      "type": "boardwalk footstep",
+      "at": 98.06666666666668,
+      "length": 0.16,
+      "gain": 0.035
+    },
+    {
+      "type": "boardwalk footstep",
+      "at": 98.61666666666667,
+      "length": 0.16,
+      "gain": 0.035
+    },
+    {
+      "type": "boardwalk footstep",
+      "at": 99.16666666666667,
+      "length": 0.16,
+      "gain": 0.035
+    },
+    {
+      "type": "boardwalk footstep",
+      "at": 99.71666666666667,
+      "length": 0.16,
+      "gain": 0.035
+    },
+    {
+      "type": "boardwalk footstep",
+      "at": 102.63333333333334,
+      "length": 0.16,
+      "gain": 0.035
+    },
+    {
+      "type": "boardwalk footstep",
+      "at": 103.18333333333334,
+      "length": 0.16,
+      "gain": 0.035
+    },
+    {
+      "type": "boardwalk footstep",
+      "at": 103.73333333333333,
+      "length": 0.16,
+      "gain": 0.035
+    },
+    {
+      "type": "boardwalk footstep",
+      "at": 104.21666666666667,
+      "length": 0.16,
+      "gain": 0.035
+    },
+    {
+      "type": "boardwalk footstep",
+      "at": 104.76666666666667,
+      "length": 0.16,
+      "gain": 0.035
+    },
+    {
+      "type": "boardwalk footstep",
+      "at": 105.31666666666666,
+      "length": 0.16,
+      "gain": 0.035
+    },
+    {
+      "type": "boardwalk footstep",
+      "at": 105.86666666666666,
+      "length": 0.16,
+      "gain": 0.035
+    },
+    {
+      "type": "boardwalk footstep",
+      "at": 106.41666666666666,
+      "length": 0.16,
+      "gain": 0.035
+    },
+    {
+      "type": "original quiet archive mechanism",
+      "at": 28,
+      "length": 62.55,
+      "gain": 0.005
+    },
+    {
+      "type": "original restrained frontier air",
+      "at": 0,
+      "length": 28,
+      "gain": 0.005
+    },
+    {
+      "type": "original restrained frontier air",
+      "at": 90.55,
+      "length": 19.450000000000003,
+      "gain": 0.005
+    }
+  ],
+  "review": "Numerical mastering and original cue preparation; listening/subjective voice and mouth synchronization reviews remain separate."
+}

@@ -13,6 +13,25 @@ approval is implied by visual inspection.
 |19–20|Longhorn walks beyond 7000 without a finish celebration; the path continues. Adults move at different paces, armadillo plants a cane, black ink develops at the exit. No extra neck watch or duplicate threshold remains.|
 |21–22|Javelina slumps on the bench, glove falls open, attention shifts toward the path. Same face/outfit retained; Bird remains a quiet background listener in close-up. Tiny native watch digits in 21 need a final-size decision. 22's reaction develops later than its short default excerpt; verify final action coverage.|
 
-Sources 23–28 and the enhanced/muxed movie still need inspection at this checkpoint,
-especially 24's stand, 27's line crossing and 28's speaking assignment. Do not mark
-unviewed sources as approved.
+23–26 reviewed: 23 repeats a wrist raise before settling/turning; the selected
+2.6–3.95s excerpt skips that reset. 24 stands, then steps; selecting from 0.6s
+includes the completed action. 25's presentation initially grins without the
+planned silent mouth, then closes/downturns and lowers the card. Its later excerpt
+includes the failed-sale consequence. 26 walks away while Bird remains behind.
+Actual Studio frames 96.2/97.4/99.3/102.2s confirm the selected reactions/actions.
+
+21's first broad optical-flow mask drifted toward the glove; it was rejected.
+A tighter casing/strap mask was retracked (one weak native frame). Actual 91/93/
+94.8s Studio frames show the tiny 8400 repair remaining inside the watch case.
+
+27–28 reviewed: Javelina steps across the ordinary chalk line and continues;
+the existing short excerpt contains the crossing. In 28 Bird addresses the viewer,
+opens/closes the lower beak and gestures while Javelina continues into depth.
+Additional quarter-second face-detail samples confirm articulation; this does not
+establish perfect phoneme alignment or replace a listening review.
+
+All 28 native sources have now been visually sampled. The first enhanced-source
+contact retains the main faces, fur/feather contours, gloves and watch geometry.
+Enhancement and the final muxed-film review are still in progress. The selected
+sources remain 352×640/24fps, with visible AI texture and some hand/prop variation;
+the enhanced delivery does not create 60 independently animated poses.

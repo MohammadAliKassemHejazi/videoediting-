@@ -25,7 +25,7 @@
       "wordFrom": 0,
       "wordTo": 10,
       "startFrame": 0,
-      "source": "texas-ten-thousand-steps/shots/01-h3.mp4",
+      "source": "texas-ten-thousand-steps/shots/01-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
       "durationFrames": 271,
@@ -34,10 +34,10 @@
       "imageAvailable": true,
       "imageVersion": "3e83407114fd9bdb",
       "available": true,
-      "sourceWidth": 352,
-      "sourceHeight": 640,
-      "enhanced": false,
-      "version": "d98bcaf34935897b"
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true,
+      "version": "9d189b6f14b4e52a"
     },
     {
       "id": "02",
@@ -52,7 +52,7 @@
       "wordFrom": 10,
       "wordTo": 20,
       "startFrame": 271,
-      "source": "texas-ten-thousand-steps/shots/02-h3.mp4",
+      "source": "texas-ten-thousand-steps/shots/02-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
       "durationFrames": 243,
@@ -61,10 +61,10 @@
       "imageAvailable": true,
       "imageVersion": "9998a1f5875c7c73",
       "available": true,
-      "sourceWidth": 352,
-      "sourceHeight": 640,
-      "enhanced": false,
-      "version": "2f98b198f765de56"
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true,
+      "version": "7ec0cdbe56c01dcd"
     },
     {
       "id": "03",
@@ -79,7 +79,7 @@
       "wordFrom": 20,
       "wordTo": 32,
       "startFrame": 514,
-      "source": "texas-ten-thousand-steps/shots/03-h3.mp4",
+      "source": "texas-ten-thousand-steps/shots/03-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
       "durationFrames": 368,
@@ -88,10 +88,10 @@
       "imageAvailable": true,
       "imageVersion": "adfe3cb6cd8bb851",
       "available": true,
-      "sourceWidth": 352,
-      "sourceHeight": 640,
-      "enhanced": false,
-      "version": "060f2cfcb9644831"
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true,
+      "version": "fde72732f53a3968"
     },
     {
       "id": "04",
@@ -106,7 +106,7 @@
       "wordFrom": 32,
       "wordTo": 44,
       "startFrame": 882,
-      "source": "texas-ten-thousand-steps/shots/04-h3.mp4",
+      "source": "texas-ten-thousand-steps/shots/04-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
       "durationFrames": 338,
@@ -115,10 +115,10 @@
       "imageAvailable": true,
       "imageVersion": "890bc41922b39eb7",
       "available": true,
-      "sourceWidth": 352,
-      "sourceHeight": 640,
-      "enhanced": false,
-      "version": "23c60cd8c9e4020c"
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true,
+      "version": "9da5e675ca5f7a9c"
     },
     {
       "id": "05",
@@ -133,7 +133,7 @@
       "wordFrom": 44,
       "wordTo": 55,
       "startFrame": 1220,
-      "source": "texas-ten-thousand-steps/shots/05-h3.mp4",
+      "source": "texas-ten-thousand-steps/shots/05-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
       "durationFrames": 249,
@@ -142,10 +142,10 @@
       "imageAvailable": true,
       "imageVersion": "df3bc01b6e8c5a79",
       "available": true,
-      "sourceWidth": 352,
-      "sourceHeight": 640,
-      "enhanced": false,
-      "version": "446ef69377a8965c"
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true,
+      "version": "61fcb5804ff5de8a"
     },
     {
       "id": "06",
@@ -160,7 +160,7 @@
       "wordFrom": 55,
       "wordTo": 66,
       "startFrame": 1469,
-      "source": "texas-ten-thousand-steps/shots/06-h3.mp4",
+      "source": "texas-ten-thousand-steps/shots/06-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
       "durationFrames": 211,
@@ -169,10 +169,10 @@
       "imageAvailable": true,
       "imageVersion": "d92ffc53c586a59c",
       "available": true,
-      "sourceWidth": 352,
-      "sourceHeight": 640,
-      "enhanced": false,
-      "version": "f3a72f77ec07b531"
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true,
+      "version": "af4fcefdf21defa6"
     },
     {
       "id": "07",
@@ -187,7 +187,7 @@
       "wordFrom": 66,
       "wordTo": 74,
       "startFrame": 1680,
-      "source": "texas-ten-thousand-steps/shots/07-h3.mp4",
+      "source": "texas-ten-thousand-steps/shots/07-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
       "durationFrames": 276,
@@ -196,10 +196,10 @@
       "imageAvailable": true,
       "imageVersion": "ef0e77ec63143350",
       "available": true,
-      "sourceWidth": 352,
-      "sourceHeight": 640,
-      "enhanced": false,
-      "version": "3d1684412537645a"
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true,
+      "version": "7396c77bf127209c"
     },
     {
       "id": "08",
@@ -214,7 +214,7 @@
       "wordFrom": 74,
       "wordTo": 83,
       "startFrame": 1956,
-      "source": "texas-ten-thousand-steps/shots/08-h3.mp4",
+      "source": "texas-ten-thousand-steps/shots/08-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
       "durationFrames": 160,
@@ -223,10 +223,10 @@
       "imageAvailable": true,
       "imageVersion": "5e988fa025f5185e",
       "available": true,
-      "sourceWidth": 352,
-      "sourceHeight": 640,
-      "enhanced": false,
-      "version": "576ca8cc48af336b"
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true,
+      "version": "f0273b13a4ae624e"
     },
     {
       "id": "09",
@@ -241,7 +241,7 @@
       "wordFrom": 83,
       "wordTo": 92,
       "startFrame": 2116,
-      "source": "texas-ten-thousand-steps/shots/09-h3.mp4",
+      "source": "texas-ten-thousand-steps/shots/09-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
       "durationFrames": 257,
@@ -250,10 +250,10 @@
       "imageAvailable": true,
       "imageVersion": "0ada7d7be0a79e4b",
       "available": true,
-      "sourceWidth": 352,
-      "sourceHeight": 640,
-      "enhanced": false,
-      "version": "3494944adb07347c"
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true,
+      "version": "9a52c98f7a85d316"
     },
     {
       "id": "10",
@@ -268,7 +268,7 @@
       "wordFrom": 92,
       "wordTo": 101,
       "startFrame": 2373,
-      "source": "texas-ten-thousand-steps/shots/10-h3.mp4",
+      "source": "texas-ten-thousand-steps/shots/10-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
       "durationFrames": 243,
@@ -277,10 +277,10 @@
       "imageAvailable": true,
       "imageVersion": "82ce9b3fa462ccf1",
       "available": true,
-      "sourceWidth": 352,
-      "sourceHeight": 640,
-      "enhanced": false,
-      "version": "7c36fefe5bd92918"
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true,
+      "version": "5f8fa7735a430418"
     },
     {
       "id": "11",
@@ -295,7 +295,7 @@
       "wordFrom": 101,
       "wordTo": 116,
       "startFrame": 2616,
-      "source": "texas-ten-thousand-steps/shots/11-h3.mp4",
+      "source": "texas-ten-thousand-steps/shots/11-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
       "durationFrames": 416,
@@ -304,10 +304,10 @@
       "imageAvailable": true,
       "imageVersion": "627f2a1dd485e8c4",
       "available": true,
-      "sourceWidth": 352,
-      "sourceHeight": 640,
-      "enhanced": false,
-      "version": "354c06ed7e749c84"
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true,
+      "version": "f6a5bfb3f47deaa2"
     },
     {
       "id": "12",
@@ -322,7 +322,7 @@
       "wordFrom": 116,
       "wordTo": 124,
       "startFrame": 3032,
-      "source": "texas-ten-thousand-steps/shots/12-h3.mp4",
+      "source": "texas-ten-thousand-steps/shots/12-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
       "durationFrames": 211,
@@ -331,10 +331,10 @@
       "imageAvailable": true,
       "imageVersion": "ee476bc7d56a95ca",
       "available": true,
-      "sourceWidth": 352,
-      "sourceHeight": 640,
-      "enhanced": false,
-      "version": "05304ebcbaddfd17"
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true,
+      "version": "4a3cb1272126ed8d"
     },
     {
       "id": "13",
@@ -349,7 +349,7 @@
       "wordFrom": 124,
       "wordTo": 132,
       "startFrame": 3243,
-      "source": "texas-ten-thousand-steps/shots/13-h3.mp4",
+      "source": "texas-ten-thousand-steps/shots/13-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
       "durationFrames": 290,
@@ -358,10 +358,10 @@
       "imageAvailable": true,
       "imageVersion": "ae610cc1b305614c",
       "available": true,
-      "sourceWidth": 352,
-      "sourceHeight": 640,
-      "enhanced": false,
-      "version": "a054a4ef4bd1c183"
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true,
+      "version": "984a91a689742bba"
     },
     {
       "id": "14",
@@ -376,7 +376,7 @@
       "wordFrom": 132,
       "wordTo": 140,
       "startFrame": 3533,
-      "source": "texas-ten-thousand-steps/shots/14-h3.mp4",
+      "source": "texas-ten-thousand-steps/shots/14-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
       "durationFrames": 200,
@@ -385,10 +385,10 @@
       "imageAvailable": true,
       "imageVersion": "ce80fa8db3bf123b",
       "available": true,
-      "sourceWidth": 352,
-      "sourceHeight": 640,
-      "enhanced": false,
-      "version": "bb563df837f52479"
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true,
+      "version": "9b75c84e3880e070"
     },
     {
       "id": "15",
@@ -403,7 +403,7 @@
       "wordFrom": 140,
       "wordTo": 150,
       "startFrame": 3733,
-      "source": "texas-ten-thousand-steps/shots/15-h3.mp4",
+      "source": "texas-ten-thousand-steps/shots/15-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
       "durationFrames": 270,
@@ -412,10 +412,10 @@
       "imageAvailable": true,
       "imageVersion": "36602e941a30dfb0",
       "available": true,
-      "sourceWidth": 352,
-      "sourceHeight": 640,
-      "enhanced": false,
-      "version": "08b72d4c9150c4e7"
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true,
+      "version": "f4f1125c5b103eba"
     },
     {
       "id": "16",
@@ -430,7 +430,7 @@
       "wordFrom": 150,
       "wordTo": 162,
       "startFrame": 4003,
-      "source": "texas-ten-thousand-steps/shots/16-h3.mp4",
+      "source": "texas-ten-thousand-steps/shots/16-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
       "durationFrames": 333,
@@ -439,10 +439,10 @@
       "imageAvailable": true,
       "imageVersion": "a4eaff162e21708c",
       "available": true,
-      "sourceWidth": 352,
-      "sourceHeight": 640,
-      "enhanced": false,
-      "version": "597c18b30ef3a7a1"
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true,
+      "version": "dae064b00a5a475a"
     },
     {
       "id": "17",
@@ -457,7 +457,7 @@
       "wordFrom": 162,
       "wordTo": 167,
       "startFrame": 4336,
-      "source": "texas-ten-thousand-steps/shots/17-h3.mp4",
+      "source": "texas-ten-thousand-steps/shots/17-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
       "durationFrames": 139,
@@ -466,10 +466,10 @@
       "imageAvailable": true,
       "imageVersion": "f87019ea1d078227",
       "available": true,
-      "sourceWidth": 352,
-      "sourceHeight": 640,
-      "enhanced": false,
-      "version": "bd59e52192a2df79"
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true,
+      "version": "a6e58939e45f80ed"
     },
     {
       "id": "18",
@@ -484,7 +484,7 @@
       "wordFrom": 167,
       "wordTo": 182,
       "startFrame": 4475,
-      "source": "texas-ten-thousand-steps/shots/18-h3.mp4",
+      "source": "texas-ten-thousand-steps/shots/18-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
       "durationFrames": 421,
@@ -493,10 +493,10 @@
       "imageAvailable": true,
       "imageVersion": "c2cb3290c62faa4f",
       "available": true,
-      "sourceWidth": 352,
-      "sourceHeight": 640,
-      "enhanced": false,
-      "version": "e4595212c7b5f8cb"
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true,
+      "version": "29ce2f5bb7f12ae5"
     },
     {
       "id": "19",
@@ -511,7 +511,7 @@
       "wordFrom": 182,
       "wordTo": 193,
       "startFrame": 4896,
-      "source": "texas-ten-thousand-steps/shots/19-h3.mp4",
+      "source": "texas-ten-thousand-steps/shots/19-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
       "durationFrames": 254,
@@ -520,10 +520,10 @@
       "imageAvailable": true,
       "imageVersion": "a3078692085df30f",
       "available": true,
-      "sourceWidth": 352,
-      "sourceHeight": 640,
-      "enhanced": false,
-      "version": "8d63bd3429abbeba"
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true,
+      "version": "053639797b7efb5a"
     },
     {
       "id": "20",
@@ -538,7 +538,7 @@
       "wordFrom": 193,
       "wordTo": 206,
       "startFrame": 5150,
-      "source": "texas-ten-thousand-steps/shots/20-h3.mp4",
+      "source": "texas-ten-thousand-steps/shots/20-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
       "durationFrames": 283,
@@ -547,10 +547,10 @@
       "imageAvailable": true,
       "imageVersion": "db75dedc06f5f4a3",
       "available": true,
-      "sourceWidth": 352,
-      "sourceHeight": 640,
-      "enhanced": false,
-      "version": "06295539ea9a4b10"
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true,
+      "version": "2ba360fe574d213e"
     },
     {
       "id": "21",
@@ -565,7 +565,7 @@
       "wordFrom": 206,
       "wordTo": 219,
       "startFrame": 5433,
-      "source": "texas-ten-thousand-steps/shots/21-h3.mp4",
+      "source": "texas-ten-thousand-steps/shots/21-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
       "durationFrames": 273,
@@ -574,10 +574,10 @@
       "imageAvailable": true,
       "imageVersion": "9aa9ad34e894a90b",
       "available": true,
-      "sourceWidth": 352,
-      "sourceHeight": 640,
-      "enhanced": false,
-      "version": "e5558f1a2a9a68bd"
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true,
+      "version": "bba65c66b5afedee"
     },
     {
       "id": "22",
@@ -592,7 +592,7 @@
       "wordFrom": 219,
       "wordTo": 223,
       "startFrame": 5706,
-      "source": "texas-ten-thousand-steps/shots/22-h3.mp4",
+      "source": "texas-ten-thousand-steps/shots/22-x4.mp4",
       "sourceStart": 0.75,
       "sourceUnitDuration": 4,
       "durationFrames": 92,
@@ -602,10 +602,10 @@
       "imageAvailable": true,
       "imageVersion": "2ca727d1829e3bd6",
       "available": true,
-      "sourceWidth": 352,
-      "sourceHeight": 640,
-      "enhanced": false,
-      "version": "c838b7118c18de10"
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true,
+      "version": "ce68a7d509d250cb"
     },
     {
       "id": "23",
@@ -620,7 +620,7 @@
       "wordFrom": 223,
       "wordTo": 226,
       "startFrame": 5798,
-      "source": "texas-ten-thousand-steps/shots/23-h3.mp4",
+      "source": "texas-ten-thousand-steps/shots/23-x4.mp4",
       "sourceStart": 2.6,
       "sourceUnitDuration": 4,
       "durationFrames": 77,
@@ -630,10 +630,10 @@
       "imageAvailable": true,
       "imageVersion": "13ebd5a3dd73f424",
       "available": true,
-      "sourceWidth": 352,
-      "sourceHeight": 640,
-      "enhanced": false,
-      "version": "9207b7ebd57098a1"
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true,
+      "version": "99f18cf432b35ad2"
     },
     {
       "id": "24",
@@ -648,7 +648,7 @@
       "wordFrom": 226,
       "wordTo": 230,
       "startFrame": 5875,
-      "source": "texas-ten-thousand-steps/shots/24-h3.mp4",
+      "source": "texas-ten-thousand-steps/shots/24-x4.mp4",
       "sourceStart": 0.6,
       "sourceUnitDuration": 4,
       "durationFrames": 121,
@@ -658,10 +658,10 @@
       "imageAvailable": true,
       "imageVersion": "5764fa445acc8fa9",
       "available": true,
-      "sourceWidth": 352,
-      "sourceHeight": 640,
-      "enhanced": false,
-      "version": "a0c647161ff985f5"
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true,
+      "version": "8b83ea8b12203f58"
     },
     {
       "id": "25",
@@ -676,7 +676,7 @@
       "wordFrom": 230,
       "wordTo": 239,
       "startFrame": 5996,
-      "source": "texas-ten-thousand-steps/shots/25-h3.mp4",
+      "source": "texas-ten-thousand-steps/shots/25-x4.mp4",
       "sourceStart": 1.65,
       "sourceUnitDuration": 4,
       "durationFrames": 153,
@@ -686,10 +686,10 @@
       "imageAvailable": true,
       "imageVersion": "b1a7d924c0a6a9c0",
       "available": true,
-      "sourceWidth": 352,
-      "sourceHeight": 640,
-      "enhanced": false,
-      "version": "041fb29ca7bf3506"
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true,
+      "version": "61237da4f96354a0"
     },
     {
       "id": "26",
@@ -704,7 +704,7 @@
       "wordFrom": 239,
       "wordTo": 242,
       "startFrame": 6149,
-      "source": "texas-ten-thousand-steps/shots/26-h3.mp4",
+      "source": "texas-ten-thousand-steps/shots/26-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
       "durationFrames": 95,
@@ -712,10 +712,11 @@
       "playbackRate": 1.03,
       "imageAvailable": true,
       "imageVersion": "4bb7bb3884ef5b61",
-      "available": false,
-      "sourceWidth": 352,
-      "sourceHeight": 640,
-      "enhanced": false
+      "available": true,
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true,
+      "version": "f936763dae6465b5"
     },
     {
       "id": "27",
@@ -730,7 +731,7 @@
       "wordFrom": 242,
       "wordTo": 248,
       "startFrame": 6244,
-      "source": "texas-ten-thousand-steps/shots/27-h3.mp4",
+      "source": "texas-ten-thousand-steps/shots/27-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
       "durationFrames": 144,
@@ -738,10 +739,11 @@
       "playbackRate": 1.03,
       "imageAvailable": true,
       "imageVersion": "7c67d60812185b64",
-      "available": false,
-      "sourceWidth": 352,
-      "sourceHeight": 640,
-      "enhanced": false
+      "available": true,
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true,
+      "version": "309cdd6988ec0619"
     },
     {
       "id": "28",
@@ -756,7 +758,7 @@
       "wordFrom": 248,
       "wordTo": 255,
       "startFrame": 6388,
-      "source": "texas-ten-thousand-steps/shots/28-h3.mp4",
+      "source": "texas-ten-thousand-steps/shots/28-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
       "durationFrames": 212,
@@ -764,10 +766,11 @@
       "playbackRate": 1.03,
       "imageAvailable": true,
       "imageVersion": "1670f44fa417cee6",
-      "available": false,
-      "sourceWidth": 352,
-      "sourceHeight": 640,
-      "enhanced": false
+      "available": true,
+      "sourceWidth": 1408,
+      "sourceHeight": 2560,
+      "enhanced": true,
+      "version": "4e9b4778be144ba1"
     }
   ],
   "words": [
@@ -2802,7 +2805,7 @@
       "speaker": "narrator"
     },
     {
-      "text": "ten-thousand-step",
+      "text": "10,000-step",
       "start": 37.70405068804383,
       "end": 38.73527133336728,
       "speaker": "narrator"
@@ -3772,10 +3775,10 @@
   "sourceNarrationHash": "41f5f7a41a578f187d498d412e26a0d9d7c5c04319369ac8aaae6e2b39edfa80",
   "timingMethod": "Model-predicted phoneme durations mapped to canonical words; listening review separate",
   "sourceDeliveryNote": "H3 native352x640/24fps; enhanced/upscaled2K60 delivery repeats source poses.",
-  "audioMasterReady": false,
-  "audio": "texas-ten-thousand-steps/audio/narration.wav",
+  "audioMasterReady": true,
+  "audio": "texas-ten-thousand-steps/audio/mix.wav",
   "audioPlaybackRate": 1,
-  "audioVersion": "02b79bf212c52b6d",
-  "readyCount": 25,
-  "complete": false
+  "audioVersion": "707a18692dae1974",
+  "readyCount": 28,
+  "complete": true
 }

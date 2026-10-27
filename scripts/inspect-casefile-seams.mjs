@@ -14,9 +14,10 @@ try{
   await page.locator('button.__remotion_input_dragger[aria-label="'+label+'"]').click();
   await page.locator('input:focus').fill(String(frame));await page.locator('input:focus').press('Enter');
   await page.waitForSelector('button.__remotion_input_dragger[aria-label="'+frame+'"]');
-  await page.waitForTimeout(350);
+  await page.waitForFunction(()=>[...document.querySelectorAll('video,img[src*="/texas-ten-thousand-steps/keyframes/"]')].some(el=>el.getBoundingClientRect().width>0),{},{timeout:30000});
+  await page.waitForTimeout(600);
   const video=page.locator('video:visible').first(),still=page.locator('img[src*="/texas-ten-thousand-steps/keyframes/"]:visible').first();
-  const element=await video.count()?video:still;await element.waitFor({state:'visible'});
+  const element=page.locator('video:visible,img[src*="/texas-ten-thousand-steps/keyframes/"]:visible').first();await element.waitFor({state:'visible'});
   if(await video.count())await page.waitForFunction(()=>[...document.querySelectorAll('video')].filter(v=>v.getBoundingClientRect().width>0).some(v=>v.readyState>=2),{},{timeout:15000});
   const bounds=await element.evaluate(el=>{for(let p=el.parentElement;p;p=p.parentElement){const r=p.getBoundingClientRect();if(r.width>100&&Math.abs(r.width/r.height-1440/2560)<.015&&r.x>=0&&r.y>=0&&r.bottom<=window.innerHeight)return{x:r.x,y:r.y,width:r.width,height:r.height}}const r=el.getBoundingClientRect();return{x:r.x,y:r.y,width:r.width,height:r.height}});
   await page.screenshot({path:'out/texas-ten-thousand-steps/preview-frame-'+frame+'.png',clip:bounds});

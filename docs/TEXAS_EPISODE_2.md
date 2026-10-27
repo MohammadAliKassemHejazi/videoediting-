@@ -111,3 +111,15 @@ being tracked. Final movie review/playback helpers are prepared.
 Ollama is not running and has no dependency in scripts/lib/remotion. User asked
 because they want to uninstall it; removal does not affect ComfyUI/H3 or Kokoro.
 No uninstall or Ollama startup was performed.
+
+Finishing update2026-10-27: all28 actual H3 sources are complete and have been
+visually sampled. All28 exact4s performance units passed. The110s voice/music/
+Foley master is generated. Real-ESRGAN enhancement is active serially on GPU1,
+using the bounded107-frame pool; first enhanced contact is inspected. Selected
+watch repairs01/05/21 and ending excerpt fixes are confirmed in Studio frames.
+Final full render/reverse check and muxed-film review are still outstanding.
+
+Source checkpoint: f33fb9a. Avatar/master/platform copies/ZIP and designed cover
+are complete; cover phone sizes336/168px inspected. Original production script
+is VOICEOVER.md/NARRATION.json. Current official monetization/disclosure/Shorts
+notes and sources are in YOUTUBE_NOTES.md, checked2026-10-27.

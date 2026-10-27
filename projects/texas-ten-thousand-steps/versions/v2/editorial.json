@@ -1,0 +1,3582 @@
+{
+  "project": "texas-ten-thousand-steps",
+  "series": "texas-casefiles",
+  "width": 1440,
+  "height": 2560,
+  "fps": 60,
+  "duration": 110,
+  "voiceDuration": 109.35,
+  "voiceSpeed": 0.9326467001981406,
+  "sourceDialogueEnd": 25.07,
+  "dialogueDuration": 28,
+  "dialogueSpeed": 0.8953571428571429,
+  "narratorSpeed": 0.945481458717476,
+  "shots": [
+    {
+      "id": "01",
+      "world": "PRESENT",
+      "voiceover": "Keep walking. You are only at eight thousand four hundred.",
+      "visual": "Worried Javelina foreground pointing at his8400 brass wrist pedometer, taller Banker behind with an urging open palm. Medium two-shot, same opening01 reference.",
+      "motion": "The pair take one small measured step forward together. Javelina taps beside the display once, studies it, then lifts his worried eyes toward the Banker. The Banker gives one firm onward gesture. Gentle push toward the worried eyes. The Banker lower beak articulates naturally in sync with the supplied speech audio; only this speaker moves the mouth, the other character listens with closed mouth. Small jaw movements, stable face and no exaggerated chewing.",
+      "speaker": "banker",
+      "keyframe": "texas-ten-thousand-steps/keyframes/01.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut",
+      "wordFrom": 0,
+      "wordTo": 10,
+      "startFrame": 0,
+      "source": "texas-ten-thousand-steps/shots/01-h3.mp4",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "durationFrames": 271,
+      "sourcePlaybackDuration": 4,
+      "playbackRate": 0.8856088560885609
+    },
+    {
+      "id": "02",
+      "world": "PRESENT",
+      "voiceover": "I've been walking all evening. What happens if I stop?",
+      "visual": "Extreme close-up of Javelina face under charcoal hat brim, looking up and to screen right at the offscreen Banker. Eyebrows form a baffled asymmetrical question, mouth closed. One white-gloved fingertip hovers by his chin; the watch is outside frame.",
+      "motion": "Javelina blinks once, draws his heavy eyebrows together and tilts his head toward screen right. The hovering finger lowers. Locked camera with a tiny attentive push. The Javelina mouth beneath the muzzle articulates naturally in sync with the supplied speech audio; only this speaker moves the mouth, the other character listens with closed mouth. Small jaw movements, stable face and no exaggerated chewing.",
+      "speaker": "javelina",
+      "keyframe": "texas-ten-thousand-steps/keyframes/02.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut",
+      "wordFrom": 10,
+      "wordTo": 20,
+      "startFrame": 271,
+      "source": "texas-ten-thousand-steps/shots/02-h3.mp4",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "durationFrames": 243,
+      "sourcePlaybackDuration": 4,
+      "playbackRate": 0.9876543209876544
+    },
+    {
+      "id": "03",
+      "world": "PRESENT",
+      "voiceover": "Sixteen hundred more. Ten thousand steps a day. Everybody knows the rule.",
+      "visual": "Low-angle medium close-up of the Banker alone, large ivory hooked beak and spectacles catching amber rim light, chin high, one white glove holding up a single instructive index finger. Boardwalk lantern and deep navy sky behind.",
+      "motion": "The Banker straightens one index finger, raises his chin and settles into a smug half-lidded stare. His free glove smooths his silver cravat once. Slow low-angle push. The Banker lower beak articulates naturally in sync with the supplied speech audio; only this speaker moves the mouth, the other character listens with closed mouth. Small jaw movements, stable face and no exaggerated chewing.",
+      "speaker": "banker",
+      "keyframe": "texas-ten-thousand-steps/keyframes/03.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut",
+      "wordFrom": 20,
+      "wordTo": 32,
+      "startFrame": 514,
+      "source": "texas-ten-thousand-steps/shots/03-h3.mp4",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "durationFrames": 368,
+      "sourcePlaybackDuration": 4,
+      "playbackRate": 0.6521739130434783
+    },
+    {
+      "id": "04",
+      "world": "PRESENT",
+      "voiceover": "Everybody? Did a doctor choose that number? A scientist? Who actually checked?",
+      "visual": "Over the blurred black shoulder of the Banker, Javelina faces screen right and looks directly up at him, one white palm open in a sincere challenge. Same town and outfits, watch face turned away.",
+      "motion": "Javelina opens his right gloved palm, glances briefly down at his left wrist, then returns an insistent eyebrow-raised look to the Banker. Small shoulder-level arc keeping eyelines. The Javelina mouth beneath the muzzle articulates naturally in sync with the supplied speech audio; only this speaker moves the mouth, the other character listens with closed mouth. Small jaw movements, stable face and no exaggerated chewing.",
+      "speaker": "javelina",
+      "keyframe": "texas-ten-thousand-steps/keyframes/04.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut",
+      "wordFrom": 32,
+      "wordTo": 44,
+      "startFrame": 882,
+      "source": "texas-ten-thousand-steps/shots/04-h3.mp4",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "durationFrames": 338,
+      "sourcePlaybackDuration": 4,
+      "playbackRate": 0.7100591715976331
+    },
+    {
+      "id": "05",
+      "world": "PRESENT",
+      "voiceover": "Look at your watch. That little thing knows what you need.",
+      "visual": "Macro: the Banker white-gloved index points toward the brass8400 pedometer on Javelina left wrist. Rust striped poncho sleeve and a portion of Javelina other glove below. Finger stops beside the case, never through the screen.",
+      "motion": "The Banker fingertip approaches and stops beside the brass bezel; Javelina left wrist pulls back a little, keeping the glove and watch connected. Amber digits stay unchanged. Tiny lateral camera slide following the wrist. The Banker lower beak articulates naturally in sync with the supplied speech audio; only this speaker moves the mouth, the other character listens with closed mouth. Small jaw movements, stable face and no exaggerated chewing.",
+      "speaker": "banker",
+      "keyframe": "texas-ten-thousand-steps/keyframes/05.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut",
+      "wordFrom": 44,
+      "wordTo": 55,
+      "startFrame": 1220,
+      "source": "texas-ten-thousand-steps/shots/05-h3.mp4",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "durationFrames": 249,
+      "sourcePlaybackDuration": 4,
+      "playbackRate": 0.9638554216867469
+    },
+    {
+      "id": "06",
+      "world": "PRESENT",
+      "voiceover": "Then who told the watch? Where did its rule come from?",
+      "visual": "Medium two-shot from waist up, Javelina screen left looks up skeptically at Banker screen right, wrist turned inward and other white-gloved palm open. Banker confidence momentarily paused. Both mouths closed.",
+      "motion": "Both take one slow natural step along the boardwalk. Javelina rotates his left wrist inward and opens his other palm toward the Banker. The Banker raised hand hesitates and slowly lowers. A restrained backwards track keeps their pace and reveals the awkward space between them. The Javelina mouth beneath the muzzle articulates naturally in sync with the supplied speech audio; only this speaker moves the mouth, the other character listens with closed mouth. Small jaw movements, stable face and no exaggerated chewing.",
+      "speaker": "javelina",
+      "keyframe": "texas-ten-thousand-steps/keyframes/06.png",
+      "transitionIn": "cut",
+      "transitionOut": "ink-cover",
+      "wordFrom": 55,
+      "wordTo": 66,
+      "startFrame": 1469,
+      "source": "texas-ten-thousand-steps/shots/06-h3.mp4",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "durationFrames": 211,
+      "sourcePlaybackDuration": 3.6221666666666668,
+      "playbackRate": 1.03
+    },
+    {
+      "id": "07",
+      "world": "ARCHIVE",
+      "voiceover": "Tokyo. Nineteen sixty-four. Olympic fever fills the streets.",
+      "visual": "Wide night skyline of a stylized1960s Japanese city, a simple ceremonial flame on a tall unlettered pedestal above low tiled roofs. No logos, words, animals or modern towers. Entire image sepia monochrome with a pale white flame, no orange.",
+      "motion": "The pale ceremonial flame bends in a light wind, smoke drifts above layered tiled roofs, and a slow downward camera move reveals the city waking into activity. Keep the entire shot sepia; no new objects or letters. Keep visible characters silent; the narrator is offscreen.",
+      "speaker": null,
+      "keyframe": "texas-ten-thousand-steps/keyframes/07.png",
+      "transitionIn": "ink-reveal",
+      "transitionOut": "cut",
+      "wordFrom": 66,
+      "wordTo": 74,
+      "startFrame": 1680,
+      "source": "texas-ten-thousand-steps/shots/07-h3.mp4",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "durationFrames": 276,
+      "sourcePlaybackDuration": 4,
+      "playbackRate": 0.8695652173913044
+    },
+    {
+      "id": "08",
+      "world": "ARCHIVE",
+      "voiceover": "A clock company has a little box to sell.",
+      "visual": "Wide depth composition in a vintage clockmaking workshop: old short armadillo clockmaker, round glasses, rolled shirtsleeves, dark vest, apron and white gloves, bent over a compact plain brass counter on a bench. Behind him two clocks and a small paper drawing of an Olympic-style ceremonial flame WITHOUT logos or lettering. Period-inspired animal reenactment, no main duo.",
+      "motion": "The armadillo clockmaker leans into his work and carefully turns a tiny brass side button. A pendulum swings gently behind him; his eyebrows lift as the mechanism responds. Slow dolly from doorway to bench. Keep visible characters silent; the narrator is offscreen.",
+      "speaker": null,
+      "keyframe": "texas-ten-thousand-steps/keyframes/08.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut",
+      "wordFrom": 74,
+      "wordTo": 83,
+      "startFrame": 1956,
+      "source": "texas-ten-thousand-steps/shots/08-h3.mp4",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "durationFrames": 160,
+      "sourcePlaybackDuration": 2.7466666666666666,
+      "playbackRate": 1.03
+    },
+    {
+      "id": "09",
+      "world": "ARCHIVE",
+      "voiceover": "In nineteen sixty-five, Yamasa calls it the ten-thousand-step meter.",
+      "visual": "Macro white-gloved clockmaker hands place the original round brass counter onto a plain open paper product box on the same workshop bench. Counter window shows only10000 in dark ink with NO glow. Simple screwdriver and coiled brown leather strap.",
+      "motion": "The clockmaker right glove steadies the brass counter while the left slides its paper box forward. The left index then traces the plain strap attachment. Slow macro push ending on the dark10000 window. Keep visible characters silent; the narrator is offscreen.",
+      "speaker": null,
+      "keyframe": "texas-ten-thousand-steps/keyframes/09.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut",
+      "wordFrom": 83,
+      "wordTo": 92,
+      "startFrame": 2116,
+      "source": "texas-ten-thousand-steps/shots/09-h3.mp4",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "durationFrames": 257,
+      "sourcePlaybackDuration": 4,
+      "playbackRate": 0.933852140077821
+    },
+    {
+      "id": "10",
+      "world": "ARCHIVE",
+      "voiceover": "A neat number. A memorable symbol. An easy slogan.",
+      "visual": "Overhead ink artist desk, one plain cream card has the SINGLE large black glyph 万, with a tiny simple sketched walking figure on a separate unlettered scrap. White-gloved armadillo hand holds a pen suspended over the card, no pedometer visible. This is a visual comparison, not a historical document.",
+      "motion": "The pen moves from above the single glyph toward the little walking sketch, pauses doubtfully, then is set down. A white glove tilts the card toward the light. Gentle overhead lateral drift; no new marks or letters appear. Keep visible characters silent; the narrator is offscreen.",
+      "speaker": null,
+      "keyframe": "texas-ten-thousand-steps/keyframes/10.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut",
+      "wordFrom": 92,
+      "wordTo": 101,
+      "startFrame": 2373,
+      "source": "texas-ten-thousand-steps/shots/10-h3.mp4",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "durationFrames": 243,
+      "sourcePlaybackDuration": 4,
+      "playbackRate": 0.9876543209876544
+    },
+    {
+      "id": "11",
+      "world": "ARCHIVE",
+      "voiceover": "But the origin is messier. Yamasa credits an earlier walking campaign involving doctors and journalists.",
+      "visual": "Medium three-quarter shot of a gentle longhorn doctor with white period coat, stethoscope and white gloves, holding an unlettered walking-route drawing toward an owl journalist with round spectacles, cardigan and white gloves. Vintage town community room; plain pinned map, desk lamp, wooden chair. No numbers or words.",
+      "motion": "The longhorn doctor traces the route with one gloved fingertip, the owl journalist follows it with a pencil and nods. The route paper lowers to reveal both thoughtful faces. A slow pan transfers focus from doctor to journalist. Keep visible characters silent; the narrator is offscreen.",
+      "speaker": null,
+      "keyframe": "texas-ten-thousand-steps/keyframes/11.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut",
+      "wordFrom": 101,
+      "wordTo": 116,
+      "startFrame": 2616,
+      "source": "texas-ten-thousand-steps/shots/11-h3.mp4",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "durationFrames": 416,
+      "sourcePlaybackDuration": 4,
+      "playbackRate": 0.5769230769230769
+    },
+    {
+      "id": "12",
+      "world": "ARCHIVE",
+      "voiceover": "A campaign goal still isn't a biological boundary.",
+      "visual": "Tight desk comparison: owl journalist in round glasses frowns at an open empty folder beside a plain advertising card with the SINGLE number10000. A magnifying glass in one white glove; the counter is absent. One clear skeptical focal face, papers not cluttered.",
+      "motion": "The owl places the magnifier over the number card, then lifts the blank folder page and looks from it back to the card with narrowed eyebrows. Pull back just enough to show the missing supporting pages. Keep visible characters silent; the narrator is offscreen.",
+      "speaker": null,
+      "keyframe": "texas-ten-thousand-steps/keyframes/12.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut",
+      "wordFrom": 116,
+      "wordTo": 124,
+      "startFrame": 3032,
+      "source": "texas-ten-thousand-steps/shots/12-h3.mp4",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "durationFrames": 211,
+      "sourcePlaybackDuration": 3.6221666666666668,
+      "playbackRate": 1.03
+    },
+    {
+      "id": "13",
+      "world": "ARCHIVE",
+      "voiceover": "Advertisements repeat it. Walking clubs. Magazines. Fitness trackers.",
+      "visual": "Low-angle printing press scene: period jackrabbit printer in rolled sleeves, suspenders, small cap and white gloves pulls a large sheet from the press; sheet bears one simple round step-counter illustration and SINGLE10000 number. Stacks of unlettered magazines and a dark ink roller behind.",
+      "motion": "The printer pulls one sheet cleanly from the press; the next sheet advances behind it. He lays the first sheet onto a small stack. A purposeful camera pan follows the paper left to right; no extra text forms. Keep visible characters silent; the narrator is offscreen.",
+      "speaker": null,
+      "keyframe": "texas-ten-thousand-steps/keyframes/13.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut",
+      "wordFrom": 124,
+      "wordTo": 132,
+      "startFrame": 3243,
+      "source": "texas-ten-thousand-steps/shots/13-h3.mp4",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "durationFrames": 290,
+      "sourcePlaybackDuration": 4,
+      "playbackRate": 0.8275862068965518
+    },
+    {
+      "id": "14",
+      "world": "ARCHIVE",
+      "voiceover": "Soon, the same target glows on wrists everywhere.",
+      "visual": "Wide crowd with depth: three adult Texas animals—a longhorn in period jacket, a jackrabbit woman in cardigan and a roadrunner in vest—walking together on a street. Each wears the SAME round brass counter on left wrist, screens turned away except foreground single10000. ONLY the counters carry tiny amber glow, all else sepia.",
+      "motion": "The three walkers advance in coordinated but distinct strides; one checks a wrist and the next raises theirs in response. Amber glows travel through the three counters in sequence. Sideways tracking camera keeps their spacing and clothing stable. Keep visible characters silent; the narrator is offscreen.",
+      "speaker": null,
+      "keyframe": "texas-ten-thousand-steps/keyframes/14.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut",
+      "wordFrom": 132,
+      "wordTo": 140,
+      "startFrame": 3533,
+      "source": "texas-ten-thousand-steps/shots/14-h3.mp4",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "durationFrames": 200,
+      "sourcePlaybackDuration": 3.4333333333333336,
+      "playbackRate": 1.03
+    },
+    {
+      "id": "15",
+      "world": "ARCHIVE",
+      "voiceover": "Repeated long enough, a convenient target starts to sound compulsory.",
+      "visual": "Low viewpoint on a symbolic town walking track: heavy wooden finish-line gate with SINGLE10000 plaque, an adult jackrabbit woman in cardigan and white gloves stopped just before it, shoulders tense. An unlettered brass counter on her left wrist. Gate casts long ink shadows.",
+      "motion": "The jackrabbit woman takes one small step toward the gate, hesitates and grips the wrist strap. Her ears drop as she stares at the distant plaque. A slow pull-back reveals how imposing the arbitrary gate feels. Keep visible characters silent; the narrator is offscreen.",
+      "speaker": null,
+      "keyframe": "texas-ten-thousand-steps/keyframes/15.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut",
+      "wordFrom": 140,
+      "wordTo": 150,
+      "startFrame": 3733,
+      "source": "texas-ten-thousand-steps/shots/15-h3.mp4",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "durationFrames": 270,
+      "sourcePlaybackDuration": 4,
+      "playbackRate": 0.8888888888888888
+    },
+    {
+      "id": "16",
+      "world": "ARCHIVE",
+      "voiceover": "In twenty nineteen, researchers studying older women found benefits below ten thousand.",
+      "visual": "Medium researcher desk: adult female jackrabbit researcher with round glasses, neat cardigan and white gloves, studying an original simple unnumbered dot chart while pointing to its rising then flattening line. One desk lamp and plain closed folders. No printed study titles or invented statistics.",
+      "motion": "The researcher moves a ruler across the original dot chart, pauses at the bend and raises a thoughtful eyebrow. She turns the chart slightly toward camera without changing its marks. Slow over-the-shoulder push; restrained film-grain flicker. Keep visible characters silent; the narrator is offscreen.",
+      "speaker": null,
+      "keyframe": "texas-ten-thousand-steps/keyframes/16.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut",
+      "wordFrom": 150,
+      "wordTo": 162,
+      "startFrame": 4003,
+      "source": "texas-ten-thousand-steps/shots/16-h3.mp4",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "durationFrames": 333,
+      "sourcePlaybackDuration": 4,
+      "playbackRate": 0.7207207207207208
+    },
+    {
+      "id": "17",
+      "world": "ARCHIVE",
+      "voiceover": "That wasn't evidence for everybody.",
+      "visual": "Wide calm park path: three clearly older adult female animal walkers—a silver-furred jackrabbit, older armadillo and grey coyote—in long cardigans, modest period skirts or trousers and white gloves. Their strides differ; no children or figures on charts. A bench and two bare trees. No watch digits visible.",
+      "motion": "The three older women walk a few natural steps at different cadences. One pauses briefly, another offers a steadying gloved hand and they resume together. Gentle lateral track respects their spacing; no running or new characters. Keep visible characters silent; the narrator is offscreen.",
+      "speaker": null,
+      "keyframe": "texas-ten-thousand-steps/keyframes/17.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut",
+      "wordFrom": 162,
+      "wordTo": 167,
+      "startFrame": 4336,
+      "source": "texas-ten-thousand-steps/shots/17-h3.mp4",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "durationFrames": 139,
+      "sourcePlaybackDuration": 2.386166666666667,
+      "playbackRate": 1.03
+    },
+    {
+      "id": "18",
+      "world": "ARCHIVE",
+      "voiceover": "A twenty twenty-five review covered fifty-seven adult studies. Meaningful health benefits appeared at lower counts.",
+      "visual": "Overhead archival research table: female jackrabbit researcher white gloves lay several small plain paper bundles into one larger open folder, each bundle has only unlettered simple original walking diagrams. One SINGLE57 on a central index tab. Magnifier, graphite pencil, soft lamp pool. No fake report titles.",
+      "motion": "The gloves gather two paper bundles into the central folder, align their edges with a careful tap and place the magnifying glass over the57 tab. Slow overhead pull-back reveals the separate bundles becoming one review, no papers multiplying. Keep visible characters silent; the narrator is offscreen.",
+      "speaker": null,
+      "keyframe": "texas-ten-thousand-steps/keyframes/18.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut",
+      "wordFrom": 167,
+      "wordTo": 182,
+      "startFrame": 4475,
+      "source": "texas-ten-thousand-steps/shots/18-h3.mp4",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "durationFrames": 421,
+      "sourcePlaybackDuration": 4,
+      "playbackRate": 0.5700712589073634
+    },
+    {
+      "id": "19",
+      "world": "ARCHIVE",
+      "voiceover": "Seven thousand was a practical marker, not a magic finish line.",
+      "visual": "Low-angle park-path marker: a simple small wooden milestone with the SINGLE number7000, an adult longhorn in period walking clothes and white gloves approaching it from left. Open path continues beyond to the right; no finish gate and no other numbers.",
+      "motion": "The longhorn walks past the7000 milestone without stopping; one gloved hand swings naturally and the path continues ahead. Camera pans with the passing stride, allowing the milestone to leave frame. No celebratory finish or new numbers. Keep visible characters silent; the narrator is offscreen.",
+      "speaker": null,
+      "keyframe": "texas-ten-thousand-steps/keyframes/19.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut",
+      "wordFrom": 182,
+      "wordTo": 193,
+      "startFrame": 4896,
+      "source": "texas-ten-thousand-steps/shots/19-h3.mp4",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "durationFrames": 254,
+      "sourcePlaybackDuration": 4,
+      "playbackRate": 0.9448818897637795
+    },
+    {
+      "id": "20",
+      "world": "ARCHIVE",
+      "voiceover": "These were adult studies, not a universal rule for every age and ability.",
+      "visual": "Depth composition of adult Texas animal walkers with visibly different stride lengths: armadillo using a simple walking cane and white glove, tall longhorn in jacket and jackrabbit in cardigan. They approach a shaded path, with black ink dust gathering only at far edge. No children, clocks, signs or numerals.",
+      "motion": "Each adult takes a distinct comfortable step; the armadillo plants the cane securely before shifting weight. Camera glides gently backward. Black ink dust builds from the side and covers the path near the end, carrying into the Present reveal. Keep visible characters silent; the narrator is offscreen.",
+      "speaker": null,
+      "keyframe": "texas-ten-thousand-steps/keyframes/20.png",
+      "transitionIn": "cut",
+      "transitionOut": "ink-cover",
+      "wordFrom": 193,
+      "wordTo": 206,
+      "startFrame": 5150,
+      "source": "texas-ten-thousand-steps/shots/20-h3.mp4",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "durationFrames": 283,
+      "sourcePlaybackDuration": 4,
+      "playbackRate": 0.8480565371024735
+    },
+    {
+      "id": "21",
+      "world": "PRESENT",
+      "voiceover": "Back in town, Javelina thinks missing the target makes his whole walk worthless.",
+      "visual": "Wide Javelina alone sitting on the wooden boardwalk bench under amber lantern, shoulders slumped, head bowed toward his left-wrist brass8400 watch. Same hat, poncho, gloves, boots and deeper navy Texas dusk; long empty boardwalk beyond.",
+      "motion": "Javelina finishes lowering onto the bench, releases one tired breath and rests his left wrist on his knee. His free white glove falls open. Slow descending camera settles at his seated height, lantern flicker remains restrained. Keep visible characters silent; the narrator is offscreen.",
+      "speaker": null,
+      "keyframe": "texas-ten-thousand-steps/keyframes/21.png",
+      "transitionIn": "ink-reveal",
+      "transitionOut": "cut",
+      "wordFrom": 206,
+      "wordTo": 219,
+      "startFrame": 5433,
+      "source": "texas-ten-thousand-steps/shots/21-h3.mp4",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "durationFrames": 273,
+      "sourcePlaybackDuration": 4,
+      "playbackRate": 0.8791208791208791
+    },
+    {
+      "id": "22",
+      "world": "PRESENT",
+      "voiceover": "He lowers the watch.",
+      "visual": "Extreme close-up Javelina worried eyes and bowed snout, hat brim shadow, one ivory tusk, rust poncho edge. Lower edge includes watch brass rim blurred and no readable digits. White-gloved hand rests on knee.",
+      "motion": "In the first1.4seconds, Javelina lowers his left wrist from chest height toward his knee so the brass watch moves below the close-up. His brows relax slightly and he lifts his gaze beyond the dial. Continue with a quiet thoughtful breath; no grin or mouth articulation. Very slow attentive push. Keep visible characters silent; the narrator is offscreen.",
+      "speaker": null,
+      "keyframe": "texas-ten-thousand-steps/keyframes/22.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut",
+      "wordFrom": 219,
+      "wordTo": 223,
+      "startFrame": 5706,
+      "source": "texas-ten-thousand-steps/shots/22-h3.mp4",
+      "sourceStart": 0.75,
+      "sourceUnitDuration": 4,
+      "durationFrames": 92,
+      "sourcePlaybackDuration": 2.9,
+      "playbackRate": 1.8913043478260867,
+      "editorialReason": "Include the lowered wrist and subsequent upward attention in the short reaction cut."
+    },
+    {
+      "id": "23",
+      "world": "PRESENT",
+      "voiceover": "Straightens his back.",
+      "visual": "Over Javelina shoulder toward the same empty boardwalk leading to a warm lamp and open street. Javelina left wrist low in foreground, same brass watch screen angled away. Face in profile begins to turn from wrist toward the open path.",
+      "motion": "Javelina lowers the wrist out of his sightline, turns his head toward the open boardwalk and lifts one eyebrow. His back begins to straighten. Gentle rack of focus from brass wrist rim to the clear path ahead. Keep visible characters silent; the narrator is offscreen.",
+      "speaker": null,
+      "keyframe": "texas-ten-thousand-steps/keyframes/23.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut",
+      "wordFrom": 223,
+      "wordTo": 226,
+      "startFrame": 5798,
+      "source": "texas-ten-thousand-steps/shots/23-h3.mp4",
+      "sourceStart": 2.6,
+      "sourceUnitDuration": 4,
+      "durationFrames": 77,
+      "sourcePlaybackDuration": 1.35,
+      "playbackRate": 1.051948051948052,
+      "editorialReason": "Skip the generated repeated wrist raise; retain the settled low arm and turn toward the open path."
+    },
+    {
+      "id": "24",
+      "world": "PRESENT",
+      "voiceover": "Stands up. Keeps walking.",
+      "visual": "Low medium full-body Javelina at the bench beginning to stand, boots planted, both white gloves pushing lightly on his knees, same rust-and-cream poncho and charcoal hat. The boardwalk path opens to screen right; watch face turned inward.",
+      "motion": "Javelina presses his boots into the boards and completes a smooth stand in the first1.7seconds using one glove on his knee, then takes a decisive first step to screen right. The remaining movement carries that walking stride. Camera rises with him and begins a short matching track; clothes and limbs remain stable. Keep visible characters silent; the narrator is offscreen.",
+      "speaker": null,
+      "keyframe": "texas-ten-thousand-steps/keyframes/24.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut",
+      "wordFrom": 226,
+      "wordTo": 230,
+      "startFrame": 5875,
+      "source": "texas-ten-thousand-steps/shots/24-h3.mp4",
+      "sourceStart": 0.6,
+      "sourceUnitDuration": 4,
+      "durationFrames": 121,
+      "sourcePlaybackDuration": 2.07,
+      "playbackRate": 1.0264462809917354,
+      "editorialReason": "Complete the stand and begin the first step before cutting away; omit the initial seated hold."
+    },
+    {
+      "id": "25",
+      "world": "PRESENT",
+      "voiceover": "The Banker waits for a sale that isn't coming.",
+      "visual": "Medium close-up Banker alone at lantern-lit wooden post, one white glove holding a plain rolled-up sales card with only10000, confident eyebrows beginning to falter as he looks offscreen left after departing Javelina. Silver cravat, wire glasses, tailcoat exact.",
+      "motion": "The Banker begins a practiced open-palm presentation, notices Javelina has moved on and lets the gesture stop halfway. His grin closes, eyebrows pinch and the rolled card lowers. Small camera pull-back leaves him with empty space beside him. Keep visible characters silent; the narrator is offscreen.",
+      "speaker": null,
+      "keyframe": "texas-ten-thousand-steps/keyframes/25.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut",
+      "wordFrom": 230,
+      "wordTo": 239,
+      "startFrame": 5996,
+      "source": "texas-ten-thousand-steps/shots/25-h3.mp4",
+      "sourceStart": 1.65,
+      "sourceUnitDuration": 4,
+      "durationFrames": 153,
+      "sourcePlaybackDuration": 2.65,
+      "playbackRate": 1.0392156862745099,
+      "editorialReason": "Include the failed presentation, closing grin and lowered card; the default early excerpt missed the consequence."
+    },
+    {
+      "id": "26",
+      "world": "PRESENT",
+      "voiceover": "Walking was useful.",
+      "visual": "Full-body two-shot on boardwalk: Javelina in foreground walking confidently screen right away from the bench, Banker several paces behind now still. Same town geography and outfits; no visible watch digits, no sales card lettering.",
+      "motion": "Javelina takes several steady steps past the lamp with relaxed arm swing. Banker remains behind and turns his head to follow, lowering his hands. Side-tracking camera follows the walker while the stalled salesman drifts into background. Keep visible characters silent; the narrator is offscreen.",
+      "speaker": null,
+      "keyframe": "texas-ten-thousand-steps/keyframes/26.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut",
+      "wordFrom": 239,
+      "wordTo": 242,
+      "startFrame": 6149,
+      "source": "texas-ten-thousand-steps/shots/26-h3.mp4",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "durationFrames": 95,
+      "sourcePlaybackDuration": 1.6308333333333334,
+      "playbackRate": 1.03
+    },
+    {
+      "id": "27",
+      "world": "PRESENT",
+      "voiceover": "The universal rule was the story.",
+      "visual": "Ground-level macro Javelina worn brown boots approaching an ordinary thin chalk line on wooden boardwalk, rust poncho fringe at top, white glove swinging near side. No gate, no magic effects, no numbers, uninterrupted path beyond.",
+      "motion": "One boot steps across the ordinary chalk line during the first second, the other follows by1.8seconds without hesitation. The white glove swings naturally above; the camera tracks with the next steps and leaves the line behind. No glow or special event occurs at the line. Keep visible characters silent; the narrator is offscreen.",
+      "speaker": null,
+      "keyframe": "texas-ten-thousand-steps/keyframes/27.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut",
+      "wordFrom": 242,
+      "wordTo": 248,
+      "startFrame": 6244,
+      "source": "texas-ten-thousand-steps/shots/27-h3.mp4",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "durationFrames": 144,
+      "sourcePlaybackDuration": 2.472,
+      "playbackRate": 1.03
+    },
+    {
+      "id": "28",
+      "world": "PRESENT",
+      "voiceover": "Which other rules have you never questioned?",
+      "visual": "Medium close-up Vulture Banker facing the viewer under a boardwalk lantern, serious half-lidded eyes behind wire spectacles, black tailcoat and silver cravat unchanged. One white glove open in a restrained questioning gesture. Javelina walking away softly blurred behind. The watch is absent from foreground.",
+      "motion": "The Banker turns his serious gaze toward the viewer and opens one white-gloved palm. His lower beak articulates the final question with controlled natural jaw movement synchronized to the supplied voice guide, then closes firmly. Javelina continues walking behind him. The camera pushes slowly toward the bird eyes. The Banker lower beak articulates naturally in sync with the supplied speech audio; only this speaker moves the mouth, the other character listens with closed mouth. Small jaw movements, stable face and no exaggerated chewing.",
+      "speaker": "banker",
+      "keyframe": "texas-ten-thousand-steps/keyframes/28.png",
+      "transitionIn": "cut",
+      "transitionOut": "cut",
+      "wordFrom": 248,
+      "wordTo": 255,
+      "startFrame": 6388,
+      "source": "texas-ten-thousand-steps/shots/28-h3.mp4",
+      "sourceStart": 0.125,
+      "sourceUnitDuration": 4,
+      "durationFrames": 212,
+      "sourcePlaybackDuration": 3.639333333333333,
+      "playbackRate": 1.03
+    }
+  ],
+  "words": [
+    {
+      "text": "Keep",
+      "start": 0,
+      "end": 0.2792181890706023,
+      "speaker": "banker"
+    },
+    {
+      "text": "walking.",
+      "start": 0.36298364579178305,
+      "end": 1.20063821300359,
+      "speaker": "banker"
+    },
+    {
+      "text": "You",
+      "start": 1.3960909453530115,
+      "end": 1.4798564020741922,
+      "speaker": "banker"
+    },
+    {
+      "text": "are",
+      "start": 1.5357000398883127,
+      "end": 1.6473873155165537,
+      "speaker": "banker"
+    },
+    {
+      "text": "only",
+      "start": 1.7311527722377344,
+      "end": 2.0662145991224574,
+      "speaker": "banker"
+    },
+    {
+      "text": "at",
+      "start": 2.149980055843638,
+      "end": 2.2616673314718785,
+      "speaker": "banker"
+    },
+    {
+      "text": "eight",
+      "start": 2.3454327881930594,
+      "end": 2.568807339449541,
+      "speaker": "banker"
+    },
+    {
+      "text": "thousand",
+      "start": 2.624650977263662,
+      "end": 2.9876346230554445,
+      "speaker": "banker"
+    },
+    {
+      "text": "four",
+      "start": 3.0714000797766254,
+      "end": 3.266852812126047,
+      "speaker": "banker"
+    },
+    {
+      "text": "hundred.",
+      "start": 3.3226964499401674,
+      "end": 4.160351017151974,
+      "speaker": "banker"
+    },
+    {
+      "text": "I've",
+      "start": 4.512165935380933,
+      "end": 4.623853211009174,
+      "speaker": "javelina"
+    },
+    {
+      "text": "been",
+      "start": 4.651775029916235,
+      "end": 4.763462305544476,
+      "speaker": "javelina"
+    },
+    {
+      "text": "walking",
+      "start": 4.8193059433585965,
+      "end": 5.182289589150378,
+      "speaker": "javelina"
+    },
+    {
+      "text": "all",
+      "start": 5.2381332269645,
+      "end": 5.4335859593139215,
+      "speaker": "javelina"
+    },
+    {
+      "text": "evening.",
+      "start": 5.489429597128042,
+      "end": 6.019944156362187,
+      "speaker": "javelina"
+    },
+    {
+      "text": "What",
+      "start": 6.394096529716792,
+      "end": 6.533705624252094,
+      "speaker": "javelina"
+    },
+    {
+      "text": "happens",
+      "start": 6.589549262066215,
+      "end": 6.952532907857997,
+      "speaker": "javelina"
+    },
+    {
+      "text": "if",
+      "start": 6.980454726765058,
+      "end": 7.064220183486238,
+      "speaker": "javelina"
+    },
+    {
+      "text": "I",
+      "start": 7.120063821300359,
+      "end": 7.231751096928599,
+      "speaker": "javelina"
+    },
+    {
+      "text": "stop?",
+      "start": 7.287594734742721,
+      "end": 8.153171120861588,
+      "speaker": "javelina"
+    },
+    {
+      "text": "Sixteen",
+      "start": 8.560829676904667,
+      "end": 9.03550059832469,
+      "speaker": "banker"
+    },
+    {
+      "text": "hundred",
+      "start": 9.091344236138813,
+      "end": 9.482249700837654,
+      "speaker": "banker"
+    },
+    {
+      "text": "more.",
+      "start": 9.538093338651775,
+      "end": 10.18029517351416,
+      "speaker": "banker"
+    },
+    {
+      "text": "Ten",
+      "start": 10.37574790586358,
+      "end": 10.599122457120064,
+      "speaker": "banker"
+    },
+    {
+      "text": "thousand",
+      "start": 10.654966094934183,
+      "end": 11.073793378540087,
+      "speaker": "banker"
+    },
+    {
+      "text": "steps",
+      "start": 11.157558835261268,
+      "end": 11.52054248105305,
+      "speaker": "banker"
+    },
+    {
+      "text": "a",
+      "start": 11.576386118867172,
+      "end": 11.63222975668129,
+      "speaker": "banker"
+    },
+    {
+      "text": "day.",
+      "start": 11.688073394495413,
+      "end": 12.218587953729557,
+      "speaker": "banker"
+    },
+    {
+      "text": "Everybody",
+      "start": 12.414040686078978,
+      "end": 13.000398883127245,
+      "speaker": "banker"
+    },
+    {
+      "text": "knows",
+      "start": 13.056242520941366,
+      "end": 13.335460710011969,
+      "speaker": "banker"
+    },
+    {
+      "text": "the",
+      "start": 13.391304347826088,
+      "end": 13.47506980454727,
+      "speaker": "banker"
+    },
+    {
+      "text": "rule.",
+      "start": 13.558835261268449,
+      "end": 14.340646190666135,
+      "speaker": "banker"
+    },
+    {
+      "text": "Everybody?",
+      "start": 14.692461108895095,
+      "end": 15.36258476266454,
+      "speaker": "javelina"
+    },
+    {
+      "text": "Did",
+      "start": 15.446350219385723,
+      "end": 15.558037495013963,
+      "speaker": "javelina"
+    },
+    {
+      "text": "a",
+      "start": 15.585959313921023,
+      "end": 15.613881132828082,
+      "speaker": "javelina"
+    },
+    {
+      "text": "doctor",
+      "start": 15.669724770642203,
+      "end": 16.060630235341048,
+      "speaker": "javelina"
+    },
+    {
+      "text": "choose",
+      "start": 16.11647387315517,
+      "end": 16.36777024331871,
+      "speaker": "javelina"
+    },
+    {
+      "text": "that",
+      "start": 16.42361388113283,
+      "end": 16.59114479457519,
+      "speaker": "javelina"
+    },
+    {
+      "text": "number?",
+      "start": 16.64698843238931,
+      "end": 17.065815715995214,
+      "speaker": "javelina"
+    },
+    {
+      "text": "A",
+      "start": 17.233346629437577,
+      "end": 17.289190267251694,
+      "speaker": "javelina"
+    },
+    {
+      "text": "scientist?",
+      "start": 17.37295572397288,
+      "end": 18.07100119664938,
+      "speaker": "javelina"
+    },
+    {
+      "text": "Who",
+      "start": 18.389309932189867,
+      "end": 18.50099720781811,
+      "speaker": "javelina"
+    },
+    {
+      "text": "actually",
+      "start": 18.556840845632234,
+      "end": 18.947746310331073,
+      "speaker": "javelina"
+    },
+    {
+      "text": "checked?",
+      "start": 19.003589948145194,
+      "end": 19.952931790985243,
+      "speaker": "javelina"
+    },
+    {
+      "text": "Look",
+      "start": 20.332668528121264,
+      "end": 20.472277622656563,
+      "speaker": "banker"
+    },
+    {
+      "text": "at",
+      "start": 20.500199441563623,
+      "end": 20.556043079377744,
+      "speaker": "banker"
+    },
+    {
+      "text": "your",
+      "start": 20.611886717191865,
+      "end": 20.751495811727168,
+      "speaker": "banker"
+    },
+    {
+      "text": "watch.",
+      "start": 20.835261268448345,
+      "end": 21.589150378938974,
+      "speaker": "banker"
+    },
+    {
+      "text": "That",
+      "start": 21.756681292381334,
+      "end": 21.924212205823697,
+      "speaker": "banker"
+    },
+    {
+      "text": "little",
+      "start": 21.980055843637818,
+      "end": 22.203430394894298,
+      "speaker": "banker"
+    },
+    {
+      "text": "thing",
+      "start": 22.315117670522536,
+      "end": 22.56641404068608,
+      "speaker": "banker"
+    },
+    {
+      "text": "knows",
+      "start": 22.65017949740726,
+      "end": 22.957319505384927,
+      "speaker": "banker"
+    },
+    {
+      "text": "what",
+      "start": 23.013163143199044,
+      "end": 23.152772237734343,
+      "speaker": "banker"
+    },
+    {
+      "text": "you",
+      "start": 23.208615875548464,
+      "end": 23.292381332269645,
+      "speaker": "banker"
+    },
+    {
+      "text": "need.",
+      "start": 23.348224970083766,
+      "end": 24.130035899481452,
+      "speaker": "banker"
+    },
+    {
+      "text": "Then",
+      "start": 24.481850817710413,
+      "end": 24.649381731152772,
+      "speaker": "javelina"
+    },
+    {
+      "text": "who",
+      "start": 24.677303550059836,
+      "end": 24.788990825688074,
+      "speaker": "javelina"
+    },
+    {
+      "text": "told",
+      "start": 24.844834463502195,
+      "end": 25.012365376944558,
+      "speaker": "javelina"
+    },
+    {
+      "text": "the",
+      "start": 25.04028719585162,
+      "end": 25.09613083366574,
+      "speaker": "javelina"
+    },
+    {
+      "text": "watch?",
+      "start": 25.15197447147986,
+      "end": 25.5428799361787,
+      "speaker": "javelina"
+    },
+    {
+      "text": "Where",
+      "start": 25.861188671719187,
+      "end": 25.97287594734743,
+      "speaker": "javelina"
+    },
+    {
+      "text": "did",
+      "start": 26.00079776625449,
+      "end": 26.11248504188273,
+      "speaker": "javelina"
+    },
+    {
+      "text": "its",
+      "start": 26.14040686078979,
+      "end": 26.252094136418034,
+      "speaker": "javelina"
+    },
+    {
+      "text": "rule",
+      "start": 26.307937774232155,
+      "end": 26.559234144395692,
+      "speaker": "javelina"
+    },
+    {
+      "text": "come",
+      "start": 26.615077782209816,
+      "end": 26.838452333466297,
+      "speaker": "javelina"
+    },
+    {
+      "text": "from?",
+      "start": 26.894295971280417,
+      "end": 27.648185081771043,
+      "speaker": "javelina"
+    },
+    {
+      "text": "Tokyo.",
+      "start": 28,
+      "end": 28.608155765190755,
+      "speaker": "narrator"
+    },
+    {
+      "text": "Nineteen",
+      "start": 28.687480430215636,
+      "end": 29.136986865356633,
+      "speaker": "narrator"
+    },
+    {
+      "text": "sixty-four.",
+      "start": 29.216311530381514,
+      "end": 30.22109062069668,
+      "speaker": "narrator"
+    },
+    {
+      "text": "Olympic",
+      "start": 30.37973995074644,
+      "end": 30.749921720862556,
+      "speaker": "narrator"
+    },
+    {
+      "text": "fever",
+      "start": 30.829246385887437,
+      "end": 31.120103490978668,
+      "speaker": "narrator"
+    },
+    {
+      "text": "fills",
+      "start": 31.19942815600355,
+      "end": 31.490285261094783,
+      "speaker": "narrator"
+    },
+    {
+      "text": "the",
+      "start": 31.54316837111137,
+      "end": 31.596051481127954,
+      "speaker": "narrator"
+    },
+    {
+      "text": "streets.",
+      "start": 31.67537614615284,
+      "end": 32.44218124139336,
+      "speaker": "narrator"
+    },
+    {
+      "text": "A",
+      "start": 32.60083057144312,
+      "end": 32.653713681459706,
+      "speaker": "narrator"
+    },
+    {
+      "text": "clock",
+      "start": 32.706596791476294,
+      "end": 33.02389545157582,
+      "speaker": "narrator"
+    },
+    {
+      "text": "company",
+      "start": 33.076778561592405,
+      "end": 33.42051877670023,
+      "speaker": "narrator"
+    },
+    {
+      "text": "has",
+      "start": 33.473401886716815,
+      "end": 33.60560966175829,
+      "speaker": "narrator"
+    },
+    {
+      "text": "a",
+      "start": 33.63205121676658,
+      "end": 33.658492771774874,
+      "speaker": "narrator"
+    },
+    {
+      "text": "little",
+      "start": 33.711375881791454,
+      "end": 33.896466766849514,
+      "speaker": "narrator"
+    },
+    {
+      "text": "box",
+      "start": 33.9493498768661,
+      "end": 34.29309009197392,
+      "speaker": "narrator"
+    },
+    {
+      "text": "to",
+      "start": 34.34597320199051,
+      "end": 34.42529786701539,
+      "speaker": "narrator"
+    },
+    {
+      "text": "sell.",
+      "start": 34.50462253204027,
+      "end": 35.11277829723103,
+      "speaker": "narrator"
+    },
+    {
+      "text": "In",
+      "start": 35.271427627280794,
+      "end": 35.32431073729738,
+      "speaker": "narrator"
+    },
+    {
+      "text": "nineteen",
+      "start": 35.37719384731397,
+      "end": 35.77381717243838,
+      "speaker": "narrator"
+    },
+    {
+      "text": "sixty-five,",
+      "start": 35.853141837463255,
+      "end": 36.56706382268719,
+      "speaker": "narrator"
+    },
+    {
+      "text": "Yamasa",
+      "start": 36.64638848771207,
+      "end": 37.12233647786136,
+      "speaker": "narrator"
+    },
+    {
+      "text": "calls",
+      "start": 37.17521958787795,
+      "end": 37.43963513796089,
+      "speaker": "narrator"
+    },
+    {
+      "text": "it",
+      "start": 37.466076692969175,
+      "end": 37.51895980298576,
+      "speaker": "narrator"
+    },
+    {
+      "text": "the",
+      "start": 37.57184291300236,
+      "end": 37.624726023018944,
+      "speaker": "narrator"
+    },
+    {
+      "text": "ten-thousand-step",
+      "start": 37.70405068804383,
+      "end": 38.73527133336728,
+      "speaker": "narrator"
+    },
+    {
+      "text": "meter.",
+      "start": 38.78815444338386,
+      "end": 39.36986865356633,
+      "speaker": "narrator"
+    },
+    {
+      "text": "A",
+      "start": 39.554959538624395,
+      "end": 39.607842648640975,
+      "speaker": "narrator"
+    },
+    {
+      "text": "neat",
+      "start": 39.66072575865756,
+      "end": 39.89869975373221,
+      "speaker": "narrator"
+    },
+    {
+      "text": "number.",
+      "start": 39.9515828637488,
+      "end": 40.48041396391467,
+      "speaker": "narrator"
+    },
+    {
+      "text": "A",
+      "start": 40.639063293964426,
+      "end": 40.69194640398102,
+      "speaker": "narrator"
+    },
+    {
+      "text": "memorable",
+      "start": 40.744829513997615,
+      "end": 41.194335949138605,
+      "speaker": "narrator"
+    },
+    {
+      "text": "symbol.",
+      "start": 41.30010216917177,
+      "end": 41.90825793436254,
+      "speaker": "narrator"
+    },
+    {
+      "text": "An",
+      "start": 42.040465709404,
+      "end": 42.17267348444547,
+      "speaker": "narrator"
+    },
+    {
+      "text": "easy",
+      "start": 42.27843970447865,
+      "end": 42.64862147459476,
+      "speaker": "narrator"
+    },
+    {
+      "text": "slogan.",
+      "start": 42.75438769462794,
+      "end": 43.49475123486016,
+      "speaker": "narrator"
+    },
+    {
+      "text": "But",
+      "start": 43.600517454893335,
+      "end": 43.70628367492652,
+      "speaker": "narrator"
+    },
+    {
+      "text": "the",
+      "start": 43.73272522993481,
+      "end": 43.83849144996798,
+      "speaker": "narrator"
+    },
+    {
+      "text": "origin",
+      "start": 43.91781611499287,
+      "end": 44.473088770167024,
+      "speaker": "narrator"
+    },
+    {
+      "text": "is",
+      "start": 44.52597188018362,
+      "end": 44.63173810021679,
+      "speaker": "narrator"
+    },
+    {
+      "text": "messier.",
+      "start": 44.71106276524168,
+      "end": 45.53075097049878,
+      "speaker": "narrator"
+    },
+    {
+      "text": "Yamasa",
+      "start": 45.68940030054855,
+      "end": 46.16534829069784,
+      "speaker": "narrator"
+    },
+    {
+      "text": "credits",
+      "start": 46.21823140071443,
+      "end": 46.53553006081395,
+      "speaker": "narrator"
+    },
+    {
+      "text": "an",
+      "start": 46.561971615822245,
+      "end": 46.64129628084713,
+      "speaker": "narrator"
+    },
+    {
+      "text": "earlier",
+      "start": 46.747062500880304,
+      "end": 47.14368582600471,
+      "speaker": "narrator"
+    },
+    {
+      "text": "walking",
+      "start": 47.19656893602129,
+      "end": 47.540309151129115,
+      "speaker": "narrator"
+    },
+    {
+      "text": "campaign",
+      "start": 47.5931922611457,
+      "end": 48.12202336131158,
+      "speaker": "narrator"
+    },
+    {
+      "text": "involving",
+      "start": 48.17490647132816,
+      "end": 48.70373757149403,
+      "speaker": "narrator"
+    },
+    {
+      "text": "doctors",
+      "start": 48.756620681510626,
+      "end": 49.25901022666821,
+      "speaker": "narrator"
+    },
+    {
+      "text": "and",
+      "start": 49.3118933366848,
+      "end": 49.39121800170968,
+      "speaker": "narrator"
+    },
+    {
+      "text": "journalists.",
+      "start": 49.44410111172627,
+      "end": 50.39599709202485,
+      "speaker": "narrator"
+    },
+    {
+      "text": "A",
+      "start": 50.52820486706632,
+      "end": 50.5810879770829,
+      "speaker": "narrator"
+    },
+    {
+      "text": "campaign",
+      "start": 50.63397108709948,
+      "end": 51.18924374227366,
+      "speaker": "narrator"
+    },
+    {
+      "text": "goal",
+      "start": 51.24212685229025,
+      "end": 51.506542402373185,
+      "speaker": "narrator"
+    },
+    {
+      "text": "still",
+      "start": 51.559425512389765,
+      "end": 51.79739950746442,
+      "speaker": "narrator"
+    },
+    {
+      "text": "isn't",
+      "start": 51.85028261748101,
+      "end": 52.06181505754735,
+      "speaker": "narrator"
+    },
+    {
+      "text": "a",
+      "start": 52.08825661255564,
+      "end": 52.141139722572234,
+      "speaker": "narrator"
+    },
+    {
+      "text": "biological",
+      "start": 52.22046438759712,
+      "end": 53.04015259285423,
+      "speaker": "narrator"
+    },
+    {
+      "text": "boundary.",
+      "start": 53.09303570287081,
+      "end": 53.85984079811132,
+      "speaker": "narrator"
+    },
+    {
+      "text": "Advertisements",
+      "start": 54.04493168316939,
+      "end": 54.86461988842649,
+      "speaker": "narrator"
+    },
+    {
+      "text": "repeat",
+      "start": 54.91750299844308,
+      "end": 55.2612432135509,
+      "speaker": "narrator"
+    },
+    {
+      "text": "it.",
+      "start": 55.314126323567486,
+      "end": 55.57854187365042,
+      "speaker": "narrator"
+    },
+    {
+      "text": "Walking",
+      "start": 55.71074964869189,
+      "end": 56.054489863799716,
+      "speaker": "narrator"
+    },
+    {
+      "text": "clubs.",
+      "start": 56.1338145288246,
+      "end": 56.58332096396559,
+      "speaker": "narrator"
+    },
+    {
+      "text": "Magazines.",
+      "start": 56.662645628990475,
+      "end": 57.455892279239286,
+      "speaker": "narrator"
+    },
+    {
+      "text": "Fitness",
+      "start": 57.561658499272454,
+      "end": 57.878957159371986,
+      "speaker": "narrator"
+    },
+    {
+      "text": "trackers.",
+      "start": 57.93184026938858,
+      "end": 58.698645364629094,
+      "speaker": "narrator"
+    },
+    {
+      "text": "Soon,",
+      "start": 58.883736249687146,
+      "end": 59.22747646479497,
+      "speaker": "narrator"
+    },
+    {
+      "text": "the",
+      "start": 59.280359574811555,
+      "end": 59.35968423983644,
+      "speaker": "narrator"
+    },
+    {
+      "text": "same",
+      "start": 59.439008904861325,
+      "end": 59.72986600995255,
+      "speaker": "narrator"
+    },
+    {
+      "text": "target",
+      "start": 59.78274911996915,
+      "end": 60.17937244509355,
+      "speaker": "narrator"
+    },
+    {
+      "text": "glows",
+      "start": 60.232255555110136,
+      "end": 60.54955421520966,
+      "speaker": "narrator"
+    },
+    {
+      "text": "on",
+      "start": 60.57599577021796,
+      "end": 60.73464510026771,
+      "speaker": "narrator"
+    },
+    {
+      "text": "wrists",
+      "start": 60.8139697652926,
+      "end": 61.10482687038383,
+      "speaker": "narrator"
+    },
+    {
+      "text": "everywhere.",
+      "start": 61.15770998040042,
+      "end": 62.03028129567411,
+      "speaker": "narrator"
+    },
+    {
+      "text": "Repeated",
+      "start": 62.21537218073217,
+      "end": 62.664878615873164,
+      "speaker": "narrator"
+    },
+    {
+      "text": "long",
+      "start": 62.71776172588975,
+      "end": 62.95573572096439,
+      "speaker": "narrator"
+    },
+    {
+      "text": "enough,",
+      "start": 62.982177275972695,
+      "end": 63.29947593607221,
+      "speaker": "narrator"
+    },
+    {
+      "text": "a",
+      "start": 63.40524215610538,
+      "end": 63.431683711113685,
+      "speaker": "narrator"
+    },
+    {
+      "text": "convenient",
+      "start": 63.484566821130265,
+      "end": 64.03983947630444,
+      "speaker": "narrator"
+    },
+    {
+      "text": "target",
+      "start": 64.09272258632103,
+      "end": 64.51578746645373,
+      "speaker": "narrator"
+    },
+    {
+      "text": "starts",
+      "start": 64.56867057647031,
+      "end": 64.91241079157814,
+      "speaker": "narrator"
+    },
+    {
+      "text": "to",
+      "start": 64.96529390159472,
+      "end": 65.0446185666196,
+      "speaker": "narrator"
+    },
+    {
+      "text": "sound",
+      "start": 65.12394323164449,
+      "end": 65.44124189174401,
+      "speaker": "narrator"
+    },
+    {
+      "text": "compulsory.",
+      "start": 65.4941250017606,
+      "end": 66.55178720209236,
+      "speaker": "narrator"
+    },
+    {
+      "text": "In",
+      "start": 66.71043653214211,
+      "end": 66.789761197167,
+      "speaker": "narrator"
+    },
+    {
+      "text": "twenty",
+      "start": 66.84264430718358,
+      "end": 67.1070598572665,
+      "speaker": "narrator"
+    },
+    {
+      "text": "nineteen,",
+      "start": 67.15994296728311,
+      "end": 67.79454028748216,
+      "speaker": "narrator"
+    },
+    {
+      "text": "researchers",
+      "start": 67.92674806252363,
+      "end": 68.4555791626895,
+      "speaker": "narrator"
+    },
+    {
+      "text": "studying",
+      "start": 68.50846227270608,
+      "end": 68.90508559783049,
+      "speaker": "narrator"
+    },
+    {
+      "text": "older",
+      "start": 68.98441026285538,
+      "end": 69.3017089229549,
+      "speaker": "narrator"
+    },
+    {
+      "text": "women",
+      "start": 69.35459203297148,
+      "end": 69.64544913806272,
+      "speaker": "narrator"
+    },
+    {
+      "text": "found",
+      "start": 69.7247738030876,
+      "end": 70.01563090817882,
+      "speaker": "narrator"
+    },
+    {
+      "text": "benefits",
+      "start": 70.06851401819543,
+      "end": 70.570903563353,
+      "speaker": "narrator"
+    },
+    {
+      "text": "below",
+      "start": 70.62378667336961,
+      "end": 70.88820222345254,
+      "speaker": "narrator"
+    },
+    {
+      "text": "ten",
+      "start": 70.96752688847741,
+      "end": 71.20550088355205,
+      "speaker": "narrator"
+    },
+    {
+      "text": "thousand.",
+      "start": 71.28482554857695,
+      "end": 72.13095530884233,
+      "speaker": "narrator"
+    },
+    {
+      "text": "That",
+      "start": 72.2631630838838,
+      "end": 72.42181241393357,
+      "speaker": "narrator"
+    },
+    {
+      "text": "wasn't",
+      "start": 72.47469552395017,
+      "end": 72.71266951902481,
+      "speaker": "narrator"
+    },
+    {
+      "text": "evidence",
+      "start": 72.79199418404967,
+      "end": 73.21505906418238,
+      "speaker": "narrator"
+    },
+    {
+      "text": "for",
+      "start": 73.26794217419898,
+      "end": 73.40014994924044,
+      "speaker": "narrator"
+    },
+    {
+      "text": "everybody.",
+      "start": 73.45303305925702,
+      "end": 74.40492903955561,
+      "speaker": "narrator"
+    },
+    {
+      "text": "A",
+      "start": 74.59001992461367,
+      "end": 74.61646147962196,
+      "speaker": "narrator"
+    },
+    {
+      "text": "twenty",
+      "start": 74.66934458963854,
+      "end": 74.93376013972147,
+      "speaker": "narrator"
+    },
+    {
+      "text": "twenty-five",
+      "start": 74.98664324973808,
+      "end": 75.59479901492882,
+      "speaker": "narrator"
+    },
+    {
+      "text": "review",
+      "start": 75.64768212494542,
+      "end": 75.99142234005322,
+      "speaker": "narrator"
+    },
+    {
+      "text": "covered",
+      "start": 76.04430545006983,
+      "end": 76.30872100015276,
+      "speaker": "narrator"
+    },
+    {
+      "text": "fifty-seven",
+      "start": 76.41448722018593,
+      "end": 77.07552609539329,
+      "speaker": "narrator"
+    },
+    {
+      "text": "adult",
+      "start": 77.12840920540987,
+      "end": 77.44570786550938,
+      "speaker": "narrator"
+    },
+    {
+      "text": "studies.",
+      "start": 77.49859097552599,
+      "end": 78.3182791807831,
+      "speaker": "narrator"
+    },
+    {
+      "text": "Meaningful",
+      "start": 78.47692851083283,
+      "end": 78.95287650098214,
+      "speaker": "narrator"
+    },
+    {
+      "text": "health",
+      "start": 79.00575961099872,
+      "end": 79.24373360607336,
+      "speaker": "narrator"
+    },
+    {
+      "text": "benefits",
+      "start": 79.29661671608994,
+      "end": 79.77256470623925,
+      "speaker": "narrator"
+    },
+    {
+      "text": "appeared",
+      "start": 79.82544781625583,
+      "end": 80.14274647635537,
+      "speaker": "narrator"
+    },
+    {
+      "text": "at",
+      "start": 80.16918803136366,
+      "end": 80.22207114138024,
+      "speaker": "narrator"
+    },
+    {
+      "text": "lower",
+      "start": 80.27495425139684,
+      "end": 80.53936980147978,
+      "speaker": "narrator"
+    },
+    {
+      "text": "counts.",
+      "start": 80.61869446650465,
+      "end": 81.41194111675345,
+      "speaker": "narrator"
+    },
+    {
+      "text": "Seven",
+      "start": 81.59703200181153,
+      "end": 81.91433066191104,
+      "speaker": "narrator"
+    },
+    {
+      "text": "thousand",
+      "start": 81.99365532693594,
+      "end": 82.4431617620769,
+      "speaker": "narrator"
+    },
+    {
+      "text": "was",
+      "start": 82.46960331708522,
+      "end": 82.57536953711838,
+      "speaker": "narrator"
+    },
+    {
+      "text": "a",
+      "start": 82.57536953711838,
+      "end": 82.62825264713499,
+      "speaker": "narrator"
+    },
+    {
+      "text": "practical",
+      "start": 82.68113575715157,
+      "end": 83.20996685731744,
+      "speaker": "narrator"
+    },
+    {
+      "text": "marker,",
+      "start": 83.26284996733402,
+      "end": 83.71235640247502,
+      "speaker": "narrator"
+    },
+    {
+      "text": "not",
+      "start": 83.8181226225082,
+      "end": 84.02965506257453,
+      "speaker": "narrator"
+    },
+    {
+      "text": "a",
+      "start": 83.97677195255797,
+      "end": 84.08253817259114,
+      "speaker": "narrator"
+    },
+    {
+      "text": "magic",
+      "start": 84.16186283761601,
+      "end": 84.58492771774871,
+      "speaker": "narrator"
+    },
+    {
+      "text": "finish",
+      "start": 84.6642523827736,
+      "end": 84.90222637784825,
+      "speaker": "narrator"
+    },
+    {
+      "text": "line.",
+      "start": 84.95510948786482,
+      "end": 85.66903147308876,
+      "speaker": "narrator"
+    },
+    {
+      "text": "These",
+      "start": 85.82768080313853,
+      "end": 86.06565479821316,
+      "speaker": "narrator"
+    },
+    {
+      "text": "were",
+      "start": 86.09209635322148,
+      "end": 86.17142101824635,
+      "speaker": "narrator"
+    },
+    {
+      "text": "adult",
+      "start": 86.27718723827951,
+      "end": 86.62092745338734,
+      "speaker": "narrator"
+    },
+    {
+      "text": "studies,",
+      "start": 86.67381056340392,
+      "end": 87.09687544353662,
+      "speaker": "narrator"
+    },
+    {
+      "text": "not",
+      "start": 87.23965984058141,
+      "end": 87.39830917063117,
+      "speaker": "narrator"
+    },
+    {
+      "text": "a",
+      "start": 87.37186761562288,
+      "end": 87.45119228064777,
+      "speaker": "narrator"
+    },
+    {
+      "text": "universal",
+      "start": 87.50407539066435,
+      "end": 88.08578960084681,
+      "speaker": "narrator"
+    },
+    {
+      "text": "rule",
+      "start": 88.1651142658717,
+      "end": 88.42952981595464,
+      "speaker": "narrator"
+    },
+    {
+      "text": "for",
+      "start": 88.48241292597122,
+      "end": 88.61462070101268,
+      "speaker": "narrator"
+    },
+    {
+      "text": "every",
+      "start": 88.66750381102929,
+      "end": 88.95836091612051,
+      "speaker": "narrator"
+    },
+    {
+      "text": "age",
+      "start": 89.0376855811454,
+      "end": 89.35498424124492,
+      "speaker": "narrator"
+    },
+    {
+      "text": "and",
+      "start": 89.38142579625321,
+      "end": 89.46075046127811,
+      "speaker": "narrator"
+    },
+    {
+      "text": "ability.",
+      "start": 89.48719201628639,
+      "end": 90.35976333156009,
+      "speaker": "narrator"
+    },
+    {
+      "text": "Back",
+      "start": 90.54485421661815,
+      "end": 90.78282821169279,
+      "speaker": "narrator"
+    },
+    {
+      "text": "in",
+      "start": 90.80926976670108,
+      "end": 90.91503598673427,
+      "speaker": "narrator"
+    },
+    {
+      "text": "town,",
+      "start": 90.96791909675082,
+      "end": 91.31165931185868,
+      "speaker": "narrator"
+    },
+    {
+      "text": "Javelina",
+      "start": 91.39098397688355,
+      "end": 91.81404885701625,
+      "speaker": "narrator"
+    },
+    {
+      "text": "thinks",
+      "start": 91.89337352204112,
+      "end": 92.13134751711577,
+      "speaker": "narrator"
+    },
+    {
+      "text": "missing",
+      "start": 92.18423062713235,
+      "end": 92.4486461772153,
+      "speaker": "narrator"
+    },
+    {
+      "text": "the",
+      "start": 92.47508773222359,
+      "end": 92.52797084224017,
+      "speaker": "narrator"
+    },
+    {
+      "text": "target",
+      "start": 92.60729550726505,
+      "end": 93.00391883238946,
+      "speaker": "narrator"
+    },
+    {
+      "text": "makes",
+      "start": 93.05680194240605,
+      "end": 93.2683343824724,
+      "speaker": "narrator"
+    },
+    {
+      "text": "his",
+      "start": 93.29477593748071,
+      "end": 93.42698371252217,
+      "speaker": "narrator"
+    },
+    {
+      "text": "whole",
+      "start": 93.50630837754704,
+      "end": 93.77072392762997,
+      "speaker": "narrator"
+    },
+    {
+      "text": "walk",
+      "start": 93.85004859265486,
+      "end": 94.1144641427378,
+      "speaker": "narrator"
+    },
+    {
+      "text": "worthless.",
+      "start": 94.19378880776269,
+      "end": 94.9870354580115,
+      "speaker": "narrator"
+    },
+    {
+      "text": "He",
+      "start": 95.09280167804467,
+      "end": 95.19856789807784,
+      "speaker": "narrator"
+    },
+    {
+      "text": "lowers",
+      "start": 95.25145100809443,
+      "end": 95.59519122320225,
+      "speaker": "narrator"
+    },
+    {
+      "text": "the",
+      "start": 95.64807433321884,
+      "end": 95.72739899824371,
+      "speaker": "narrator"
+    },
+    {
+      "text": "watch.",
+      "start": 95.80672366326861,
+      "end": 96.46776253847597,
+      "speaker": "narrator"
+    },
+    {
+      "text": "Straightens",
+      "start": 96.62641186852574,
+      "end": 97.07591830366671,
+      "speaker": "narrator"
+    },
+    {
+      "text": "his",
+      "start": 97.10235985867502,
+      "end": 97.23456763371648,
+      "speaker": "narrator"
+    },
+    {
+      "text": "back.",
+      "start": 97.31389229874135,
+      "end": 97.63119095884089,
+      "speaker": "narrator"
+    },
+    {
+      "text": "Stands",
+      "start": 97.91675975293047,
+      "end": 98.28694152304658,
+      "speaker": "narrator"
+    },
+    {
+      "text": "up.",
+      "start": 98.33982463306315,
+      "end": 98.52491551812122,
+      "speaker": "narrator"
+    },
+    {
+      "text": "Keeps",
+      "start": 98.69414147017429,
+      "end": 98.95855702025723,
+      "speaker": "narrator"
+    },
+    {
+      "text": "walking.",
+      "start": 99.03788168528213,
+      "end": 99.80468678052264,
+      "speaker": "narrator"
+    },
+    {
+      "text": "The",
+      "start": 99.93689455556411,
+      "end": 99.98977766558068,
+      "speaker": "narrator"
+    },
+    {
+      "text": "Banker",
+      "start": 100.04266077559728,
+      "end": 100.33351788068852,
+      "speaker": "narrator"
+    },
+    {
+      "text": "waits",
+      "start": 100.38640099070508,
+      "end": 100.67725809579632,
+      "speaker": "narrator"
+    },
+    {
+      "text": "for",
+      "start": 100.73014120581293,
+      "end": 100.8887905358627,
+      "speaker": "narrator"
+    },
+    {
+      "text": "a",
+      "start": 100.8887905358627,
+      "end": 100.94167364587926,
+      "speaker": "narrator"
+    },
+    {
+      "text": "sale",
+      "start": 101.04743986591244,
+      "end": 101.39118008102027,
+      "speaker": "narrator"
+    },
+    {
+      "text": "that",
+      "start": 101.41762163602857,
+      "end": 101.49694630105344,
+      "speaker": "narrator"
+    },
+    {
+      "text": "isn't",
+      "start": 101.52338785606175,
+      "end": 101.76136185113637,
+      "speaker": "narrator"
+    },
+    {
+      "text": "coming.",
+      "start": 101.84068651616124,
+      "end": 102.29019295130226,
+      "speaker": "narrator"
+    },
+    {
+      "text": "Walking",
+      "start": 102.47528383636032,
+      "end": 102.9512318265096,
+      "speaker": "narrator"
+    },
+    {
+      "text": "was",
+      "start": 103.0041149365262,
+      "end": 103.13632271156767,
+      "speaker": "narrator"
+    },
+    {
+      "text": "useful.",
+      "start": 103.21564737659254,
+      "end": 103.90312780680819,
+      "speaker": "narrator"
+    },
+    {
+      "text": "The",
+      "start": 104.06177713685796,
+      "end": 104.11466024687452,
+      "speaker": "narrator"
+    },
+    {
+      "text": "universal",
+      "start": 104.16754335689112,
+      "end": 104.82858223209847,
+      "speaker": "narrator"
+    },
+    {
+      "text": "rule",
+      "start": 104.90790689712333,
+      "end": 105.22520555722286,
+      "speaker": "narrator"
+    },
+    {
+      "text": "was",
+      "start": 105.27808866723944,
+      "end": 105.4631795522975,
+      "speaker": "narrator"
+    },
+    {
+      "text": "the",
+      "start": 105.4631795522975,
+      "end": 105.51606266231411,
+      "speaker": "narrator"
+    },
+    {
+      "text": "story.",
+      "start": 105.59538732733898,
+      "end": 106.3621924225795,
+      "speaker": "narrator"
+    },
+    {
+      "text": "Which",
+      "start": 106.46795864261266,
+      "end": 106.65304952767073,
+      "speaker": "narrator"
+    },
+    {
+      "text": "other",
+      "start": 106.7323741926956,
+      "end": 106.99678974277853,
+      "speaker": "narrator"
+    },
+    {
+      "text": "rules",
+      "start": 107.07611440780343,
+      "end": 107.5256208429444,
+      "speaker": "narrator"
+    },
+    {
+      "text": "have",
+      "start": 107.57850395296101,
+      "end": 107.71071172800248,
+      "speaker": "narrator"
+    },
+    {
+      "text": "you",
+      "start": 107.76359483801907,
+      "end": 107.84291950304394,
+      "speaker": "narrator"
+    },
+    {
+      "text": "never",
+      "start": 107.89580261306055,
+      "end": 108.1337766081352,
+      "speaker": "narrator"
+    },
+    {
+      "text": "questioned?",
+      "start": 108.18665971815176,
+      "end": 109.16499725345864,
+      "speaker": "narrator"
+    }
+  ],
+  "captionWords": [
+    {
+      "text": "Keep",
+      "start": 0,
+      "end": 0.2792181890706023,
+      "speaker": "banker"
+    },
+    {
+      "text": "walking.",
+      "start": 0.36298364579178305,
+      "end": 1.20063821300359,
+      "speaker": "banker"
+    },
+    {
+      "text": "You",
+      "start": 1.3960909453530115,
+      "end": 1.4798564020741922,
+      "speaker": "banker"
+    },
+    {
+      "text": "are",
+      "start": 1.5357000398883127,
+      "end": 1.6473873155165537,
+      "speaker": "banker"
+    },
+    {
+      "text": "only",
+      "start": 1.7311527722377344,
+      "end": 2.0662145991224574,
+      "speaker": "banker"
+    },
+    {
+      "text": "at",
+      "start": 2.149980055843638,
+      "end": 2.2616673314718785,
+      "speaker": "banker"
+    },
+    {
+      "text": "8,400.",
+      "start": 2.3454327881930594,
+      "end": 4.160351017151974,
+      "speaker": "banker"
+    },
+    {
+      "text": "I've",
+      "start": 4.512165935380933,
+      "end": 4.623853211009174,
+      "speaker": "javelina"
+    },
+    {
+      "text": "been",
+      "start": 4.651775029916235,
+      "end": 4.763462305544476,
+      "speaker": "javelina"
+    },
+    {
+      "text": "walking",
+      "start": 4.8193059433585965,
+      "end": 5.182289589150378,
+      "speaker": "javelina"
+    },
+    {
+      "text": "all",
+      "start": 5.2381332269645,
+      "end": 5.4335859593139215,
+      "speaker": "javelina"
+    },
+    {
+      "text": "evening.",
+      "start": 5.489429597128042,
+      "end": 6.019944156362187,
+      "speaker": "javelina"
+    },
+    {
+      "text": "What",
+      "start": 6.394096529716792,
+      "end": 6.533705624252094,
+      "speaker": "javelina"
+    },
+    {
+      "text": "happens",
+      "start": 6.589549262066215,
+      "end": 6.952532907857997,
+      "speaker": "javelina"
+    },
+    {
+      "text": "if",
+      "start": 6.980454726765058,
+      "end": 7.064220183486238,
+      "speaker": "javelina"
+    },
+    {
+      "text": "I",
+      "start": 7.120063821300359,
+      "end": 7.231751096928599,
+      "speaker": "javelina"
+    },
+    {
+      "text": "stop?",
+      "start": 7.287594734742721,
+      "end": 8.153171120861588,
+      "speaker": "javelina"
+    },
+    {
+      "text": "1,600",
+      "start": 8.560829676904667,
+      "end": 9.482249700837654,
+      "speaker": "banker"
+    },
+    {
+      "text": "more.",
+      "start": 9.538093338651775,
+      "end": 10.18029517351416,
+      "speaker": "banker"
+    },
+    {
+      "text": "10,000",
+      "start": 10.37574790586358,
+      "end": 11.073793378540087,
+      "speaker": "banker"
+    },
+    {
+      "text": "steps",
+      "start": 11.157558835261268,
+      "end": 11.52054248105305,
+      "speaker": "banker"
+    },
+    {
+      "text": "a",
+      "start": 11.576386118867172,
+      "end": 11.63222975668129,
+      "speaker": "banker"
+    },
+    {
+      "text": "day.",
+      "start": 11.688073394495413,
+      "end": 12.218587953729557,
+      "speaker": "banker"
+    },
+    {
+      "text": "Everybody",
+      "start": 12.414040686078978,
+      "end": 13.000398883127245,
+      "speaker": "banker"
+    },
+    {
+      "text": "knows",
+      "start": 13.056242520941366,
+      "end": 13.335460710011969,
+      "speaker": "banker"
+    },
+    {
+      "text": "the",
+      "start": 13.391304347826088,
+      "end": 13.47506980454727,
+      "speaker": "banker"
+    },
+    {
+      "text": "rule.",
+      "start": 13.558835261268449,
+      "end": 14.340646190666135,
+      "speaker": "banker"
+    },
+    {
+      "text": "Everybody?",
+      "start": 14.692461108895095,
+      "end": 15.36258476266454,
+      "speaker": "javelina"
+    },
+    {
+      "text": "Did",
+      "start": 15.446350219385723,
+      "end": 15.558037495013963,
+      "speaker": "javelina"
+    },
+    {
+      "text": "a",
+      "start": 15.585959313921023,
+      "end": 15.613881132828082,
+      "speaker": "javelina"
+    },
+    {
+      "text": "doctor",
+      "start": 15.669724770642203,
+      "end": 16.060630235341048,
+      "speaker": "javelina"
+    },
+    {
+      "text": "choose",
+      "start": 16.11647387315517,
+      "end": 16.36777024331871,
+      "speaker": "javelina"
+    },
+    {
+      "text": "that",
+      "start": 16.42361388113283,
+      "end": 16.59114479457519,
+      "speaker": "javelina"
+    },
+    {
+      "text": "number?",
+      "start": 16.64698843238931,
+      "end": 17.065815715995214,
+      "speaker": "javelina"
+    },
+    {
+      "text": "A",
+      "start": 17.233346629437577,
+      "end": 17.289190267251694,
+      "speaker": "javelina"
+    },
+    {
+      "text": "scientist?",
+      "start": 17.37295572397288,
+      "end": 18.07100119664938,
+      "speaker": "javelina"
+    },
+    {
+      "text": "Who",
+      "start": 18.389309932189867,
+      "end": 18.50099720781811,
+      "speaker": "javelina"
+    },
+    {
+      "text": "actually",
+      "start": 18.556840845632234,
+      "end": 18.947746310331073,
+      "speaker": "javelina"
+    },
+    {
+      "text": "checked?",
+      "start": 19.003589948145194,
+      "end": 19.952931790985243,
+      "speaker": "javelina"
+    },
+    {
+      "text": "Look",
+      "start": 20.332668528121264,
+      "end": 20.472277622656563,
+      "speaker": "banker"
+    },
+    {
+      "text": "at",
+      "start": 20.500199441563623,
+      "end": 20.556043079377744,
+      "speaker": "banker"
+    },
+    {
+      "text": "your",
+      "start": 20.611886717191865,
+      "end": 20.751495811727168,
+      "speaker": "banker"
+    },
+    {
+      "text": "watch.",
+      "start": 20.835261268448345,
+      "end": 21.589150378938974,
+      "speaker": "banker"
+    },
+    {
+      "text": "That",
+      "start": 21.756681292381334,
+      "end": 21.924212205823697,
+      "speaker": "banker"
+    },
+    {
+      "text": "little",
+      "start": 21.980055843637818,
+      "end": 22.203430394894298,
+      "speaker": "banker"
+    },
+    {
+      "text": "thing",
+      "start": 22.315117670522536,
+      "end": 22.56641404068608,
+      "speaker": "banker"
+    },
+    {
+      "text": "knows",
+      "start": 22.65017949740726,
+      "end": 22.957319505384927,
+      "speaker": "banker"
+    },
+    {
+      "text": "what",
+      "start": 23.013163143199044,
+      "end": 23.152772237734343,
+      "speaker": "banker"
+    },
+    {
+      "text": "you",
+      "start": 23.208615875548464,
+      "end": 23.292381332269645,
+      "speaker": "banker"
+    },
+    {
+      "text": "need.",
+      "start": 23.348224970083766,
+      "end": 24.130035899481452,
+      "speaker": "banker"
+    },
+    {
+      "text": "Then",
+      "start": 24.481850817710413,
+      "end": 24.649381731152772,
+      "speaker": "javelina"
+    },
+    {
+      "text": "who",
+      "start": 24.677303550059836,
+      "end": 24.788990825688074,
+      "speaker": "javelina"
+    },
+    {
+      "text": "told",
+      "start": 24.844834463502195,
+      "end": 25.012365376944558,
+      "speaker": "javelina"
+    },
+    {
+      "text": "the",
+      "start": 25.04028719585162,
+      "end": 25.09613083366574,
+      "speaker": "javelina"
+    },
+    {
+      "text": "watch?",
+      "start": 25.15197447147986,
+      "end": 25.5428799361787,
+      "speaker": "javelina"
+    },
+    {
+      "text": "Where",
+      "start": 25.861188671719187,
+      "end": 25.97287594734743,
+      "speaker": "javelina"
+    },
+    {
+      "text": "did",
+      "start": 26.00079776625449,
+      "end": 26.11248504188273,
+      "speaker": "javelina"
+    },
+    {
+      "text": "its",
+      "start": 26.14040686078979,
+      "end": 26.252094136418034,
+      "speaker": "javelina"
+    },
+    {
+      "text": "rule",
+      "start": 26.307937774232155,
+      "end": 26.559234144395692,
+      "speaker": "javelina"
+    },
+    {
+      "text": "come",
+      "start": 26.615077782209816,
+      "end": 26.838452333466297,
+      "speaker": "javelina"
+    },
+    {
+      "text": "from?",
+      "start": 26.894295971280417,
+      "end": 27.648185081771043,
+      "speaker": "javelina"
+    },
+    {
+      "text": "Tokyo.",
+      "start": 28,
+      "end": 28.608155765190755,
+      "speaker": "narrator"
+    },
+    {
+      "text": "1964.",
+      "start": 28.687480430215636,
+      "end": 30.22109062069668,
+      "speaker": "narrator"
+    },
+    {
+      "text": "Olympic",
+      "start": 30.37973995074644,
+      "end": 30.749921720862556,
+      "speaker": "narrator"
+    },
+    {
+      "text": "fever",
+      "start": 30.829246385887437,
+      "end": 31.120103490978668,
+      "speaker": "narrator"
+    },
+    {
+      "text": "fills",
+      "start": 31.19942815600355,
+      "end": 31.490285261094783,
+      "speaker": "narrator"
+    },
+    {
+      "text": "the",
+      "start": 31.54316837111137,
+      "end": 31.596051481127954,
+      "speaker": "narrator"
+    },
+    {
+      "text": "streets.",
+      "start": 31.67537614615284,
+      "end": 32.44218124139336,
+      "speaker": "narrator"
+    },
+    {
+      "text": "A",
+      "start": 32.60083057144312,
+      "end": 32.653713681459706,
+      "speaker": "narrator"
+    },
+    {
+      "text": "clock",
+      "start": 32.706596791476294,
+      "end": 33.02389545157582,
+      "speaker": "narrator"
+    },
+    {
+      "text": "company",
+      "start": 33.076778561592405,
+      "end": 33.42051877670023,
+      "speaker": "narrator"
+    },
+    {
+      "text": "has",
+      "start": 33.473401886716815,
+      "end": 33.60560966175829,
+      "speaker": "narrator"
+    },
+    {
+      "text": "a",
+      "start": 33.63205121676658,
+      "end": 33.658492771774874,
+      "speaker": "narrator"
+    },
+    {
+      "text": "little",
+      "start": 33.711375881791454,
+      "end": 33.896466766849514,
+      "speaker": "narrator"
+    },
+    {
+      "text": "box",
+      "start": 33.9493498768661,
+      "end": 34.29309009197392,
+      "speaker": "narrator"
+    },
+    {
+      "text": "to",
+      "start": 34.34597320199051,
+      "end": 34.42529786701539,
+      "speaker": "narrator"
+    },
+    {
+      "text": "sell.",
+      "start": 34.50462253204027,
+      "end": 35.11277829723103,
+      "speaker": "narrator"
+    },
+    {
+      "text": "In",
+      "start": 35.271427627280794,
+      "end": 35.32431073729738,
+      "speaker": "narrator"
+    },
+    {
+      "text": "1965,",
+      "start": 35.37719384731397,
+      "end": 36.56706382268719,
+      "speaker": "narrator"
+    },
+    {
+      "text": "Yamasa",
+      "start": 36.64638848771207,
+      "end": 37.12233647786136,
+      "speaker": "narrator"
+    },
+    {
+      "text": "calls",
+      "start": 37.17521958787795,
+      "end": 37.43963513796089,
+      "speaker": "narrator"
+    },
+    {
+      "text": "it",
+      "start": 37.466076692969175,
+      "end": 37.51895980298576,
+      "speaker": "narrator"
+    },
+    {
+      "text": "the",
+      "start": 37.57184291300236,
+      "end": 37.624726023018944,
+      "speaker": "narrator"
+    },
+    {
+      "text": "10,000-step",
+      "start": 37.70405068804383,
+      "end": 38.73527133336728,
+      "speaker": "narrator"
+    },
+    {
+      "text": "meter.",
+      "start": 38.78815444338386,
+      "end": 39.36986865356633,
+      "speaker": "narrator"
+    },
+    {
+      "text": "A",
+      "start": 39.554959538624395,
+      "end": 39.607842648640975,
+      "speaker": "narrator"
+    },
+    {
+      "text": "neat",
+      "start": 39.66072575865756,
+      "end": 39.89869975373221,
+      "speaker": "narrator"
+    },
+    {
+      "text": "number.",
+      "start": 39.9515828637488,
+      "end": 40.48041396391467,
+      "speaker": "narrator"
+    },
+    {
+      "text": "A",
+      "start": 40.639063293964426,
+      "end": 40.69194640398102,
+      "speaker": "narrator"
+    },
+    {
+      "text": "memorable",
+      "start": 40.744829513997615,
+      "end": 41.194335949138605,
+      "speaker": "narrator"
+    },
+    {
+      "text": "symbol.",
+      "start": 41.30010216917177,
+      "end": 41.90825793436254,
+      "speaker": "narrator"
+    },
+    {
+      "text": "An",
+      "start": 42.040465709404,
+      "end": 42.17267348444547,
+      "speaker": "narrator"
+    },
+    {
+      "text": "easy",
+      "start": 42.27843970447865,
+      "end": 42.64862147459476,
+      "speaker": "narrator"
+    },
+    {
+      "text": "slogan.",
+      "start": 42.75438769462794,
+      "end": 43.49475123486016,
+      "speaker": "narrator"
+    },
+    {
+      "text": "But",
+      "start": 43.600517454893335,
+      "end": 43.70628367492652,
+      "speaker": "narrator"
+    },
+    {
+      "text": "the",
+      "start": 43.73272522993481,
+      "end": 43.83849144996798,
+      "speaker": "narrator"
+    },
+    {
+      "text": "origin",
+      "start": 43.91781611499287,
+      "end": 44.473088770167024,
+      "speaker": "narrator"
+    },
+    {
+      "text": "is",
+      "start": 44.52597188018362,
+      "end": 44.63173810021679,
+      "speaker": "narrator"
+    },
+    {
+      "text": "messier.",
+      "start": 44.71106276524168,
+      "end": 45.53075097049878,
+      "speaker": "narrator"
+    },
+    {
+      "text": "Yamasa",
+      "start": 45.68940030054855,
+      "end": 46.16534829069784,
+      "speaker": "narrator"
+    },
+    {
+      "text": "credits",
+      "start": 46.21823140071443,
+      "end": 46.53553006081395,
+      "speaker": "narrator"
+    },
+    {
+      "text": "an",
+      "start": 46.561971615822245,
+      "end": 46.64129628084713,
+      "speaker": "narrator"
+    },
+    {
+      "text": "earlier",
+      "start": 46.747062500880304,
+      "end": 47.14368582600471,
+      "speaker": "narrator"
+    },
+    {
+      "text": "walking",
+      "start": 47.19656893602129,
+      "end": 47.540309151129115,
+      "speaker": "narrator"
+    },
+    {
+      "text": "campaign",
+      "start": 47.5931922611457,
+      "end": 48.12202336131158,
+      "speaker": "narrator"
+    },
+    {
+      "text": "involving",
+      "start": 48.17490647132816,
+      "end": 48.70373757149403,
+      "speaker": "narrator"
+    },
+    {
+      "text": "doctors",
+      "start": 48.756620681510626,
+      "end": 49.25901022666821,
+      "speaker": "narrator"
+    },
+    {
+      "text": "and",
+      "start": 49.3118933366848,
+      "end": 49.39121800170968,
+      "speaker": "narrator"
+    },
+    {
+      "text": "journalists.",
+      "start": 49.44410111172627,
+      "end": 50.39599709202485,
+      "speaker": "narrator"
+    },
+    {
+      "text": "A",
+      "start": 50.52820486706632,
+      "end": 50.5810879770829,
+      "speaker": "narrator"
+    },
+    {
+      "text": "campaign",
+      "start": 50.63397108709948,
+      "end": 51.18924374227366,
+      "speaker": "narrator"
+    },
+    {
+      "text": "goal",
+      "start": 51.24212685229025,
+      "end": 51.506542402373185,
+      "speaker": "narrator"
+    },
+    {
+      "text": "still",
+      "start": 51.559425512389765,
+      "end": 51.79739950746442,
+      "speaker": "narrator"
+    },
+    {
+      "text": "isn't",
+      "start": 51.85028261748101,
+      "end": 52.06181505754735,
+      "speaker": "narrator"
+    },
+    {
+      "text": "a",
+      "start": 52.08825661255564,
+      "end": 52.141139722572234,
+      "speaker": "narrator"
+    },
+    {
+      "text": "biological",
+      "start": 52.22046438759712,
+      "end": 53.04015259285423,
+      "speaker": "narrator"
+    },
+    {
+      "text": "boundary.",
+      "start": 53.09303570287081,
+      "end": 53.85984079811132,
+      "speaker": "narrator"
+    },
+    {
+      "text": "Advertisements",
+      "start": 54.04493168316939,
+      "end": 54.86461988842649,
+      "speaker": "narrator"
+    },
+    {
+      "text": "repeat",
+      "start": 54.91750299844308,
+      "end": 55.2612432135509,
+      "speaker": "narrator"
+    },
+    {
+      "text": "it.",
+      "start": 55.314126323567486,
+      "end": 55.57854187365042,
+      "speaker": "narrator"
+    },
+    {
+      "text": "Walking",
+      "start": 55.71074964869189,
+      "end": 56.054489863799716,
+      "speaker": "narrator"
+    },
+    {
+      "text": "clubs.",
+      "start": 56.1338145288246,
+      "end": 56.58332096396559,
+      "speaker": "narrator"
+    },
+    {
+      "text": "Magazines.",
+      "start": 56.662645628990475,
+      "end": 57.455892279239286,
+      "speaker": "narrator"
+    },
+    {
+      "text": "Fitness",
+      "start": 57.561658499272454,
+      "end": 57.878957159371986,
+      "speaker": "narrator"
+    },
+    {
+      "text": "trackers.",
+      "start": 57.93184026938858,
+      "end": 58.698645364629094,
+      "speaker": "narrator"
+    },
+    {
+      "text": "Soon,",
+      "start": 58.883736249687146,
+      "end": 59.22747646479497,
+      "speaker": "narrator"
+    },
+    {
+      "text": "the",
+      "start": 59.280359574811555,
+      "end": 59.35968423983644,
+      "speaker": "narrator"
+    },
+    {
+      "text": "same",
+      "start": 59.439008904861325,
+      "end": 59.72986600995255,
+      "speaker": "narrator"
+    },
+    {
+      "text": "target",
+      "start": 59.78274911996915,
+      "end": 60.17937244509355,
+      "speaker": "narrator"
+    },
+    {
+      "text": "glows",
+      "start": 60.232255555110136,
+      "end": 60.54955421520966,
+      "speaker": "narrator"
+    },
+    {
+      "text": "on",
+      "start": 60.57599577021796,
+      "end": 60.73464510026771,
+      "speaker": "narrator"
+    },
+    {
+      "text": "wrists",
+      "start": 60.8139697652926,
+      "end": 61.10482687038383,
+      "speaker": "narrator"
+    },
+    {
+      "text": "everywhere.",
+      "start": 61.15770998040042,
+      "end": 62.03028129567411,
+      "speaker": "narrator"
+    },
+    {
+      "text": "Repeated",
+      "start": 62.21537218073217,
+      "end": 62.664878615873164,
+      "speaker": "narrator"
+    },
+    {
+      "text": "long",
+      "start": 62.71776172588975,
+      "end": 62.95573572096439,
+      "speaker": "narrator"
+    },
+    {
+      "text": "enough,",
+      "start": 62.982177275972695,
+      "end": 63.29947593607221,
+      "speaker": "narrator"
+    },
+    {
+      "text": "a",
+      "start": 63.40524215610538,
+      "end": 63.431683711113685,
+      "speaker": "narrator"
+    },
+    {
+      "text": "convenient",
+      "start": 63.484566821130265,
+      "end": 64.03983947630444,
+      "speaker": "narrator"
+    },
+    {
+      "text": "target",
+      "start": 64.09272258632103,
+      "end": 64.51578746645373,
+      "speaker": "narrator"
+    },
+    {
+      "text": "starts",
+      "start": 64.56867057647031,
+      "end": 64.91241079157814,
+      "speaker": "narrator"
+    },
+    {
+      "text": "to",
+      "start": 64.96529390159472,
+      "end": 65.0446185666196,
+      "speaker": "narrator"
+    },
+    {
+      "text": "sound",
+      "start": 65.12394323164449,
+      "end": 65.44124189174401,
+      "speaker": "narrator"
+    },
+    {
+      "text": "compulsory.",
+      "start": 65.4941250017606,
+      "end": 66.55178720209236,
+      "speaker": "narrator"
+    },
+    {
+      "text": "In",
+      "start": 66.71043653214211,
+      "end": 66.789761197167,
+      "speaker": "narrator"
+    },
+    {
+      "text": "2019,",
+      "start": 66.84264430718358,
+      "end": 67.79454028748216,
+      "speaker": "narrator"
+    },
+    {
+      "text": "researchers",
+      "start": 67.92674806252363,
+      "end": 68.4555791626895,
+      "speaker": "narrator"
+    },
+    {
+      "text": "studying",
+      "start": 68.50846227270608,
+      "end": 68.90508559783049,
+      "speaker": "narrator"
+    },
+    {
+      "text": "older",
+      "start": 68.98441026285538,
+      "end": 69.3017089229549,
+      "speaker": "narrator"
+    },
+    {
+      "text": "women",
+      "start": 69.35459203297148,
+      "end": 69.64544913806272,
+      "speaker": "narrator"
+    },
+    {
+      "text": "found",
+      "start": 69.7247738030876,
+      "end": 70.01563090817882,
+      "speaker": "narrator"
+    },
+    {
+      "text": "benefits",
+      "start": 70.06851401819543,
+      "end": 70.570903563353,
+      "speaker": "narrator"
+    },
+    {
+      "text": "below",
+      "start": 70.62378667336961,
+      "end": 70.88820222345254,
+      "speaker": "narrator"
+    },
+    {
+      "text": "10,000.",
+      "start": 70.96752688847741,
+      "end": 72.13095530884233,
+      "speaker": "narrator"
+    },
+    {
+      "text": "That",
+      "start": 72.2631630838838,
+      "end": 72.42181241393357,
+      "speaker": "narrator"
+    },
+    {
+      "text": "wasn't",
+      "start": 72.47469552395017,
+      "end": 72.71266951902481,
+      "speaker": "narrator"
+    },
+    {
+      "text": "evidence",
+      "start": 72.79199418404967,
+      "end": 73.21505906418238,
+      "speaker": "narrator"
+    },
+    {
+      "text": "for",
+      "start": 73.26794217419898,
+      "end": 73.40014994924044,
+      "speaker": "narrator"
+    },
+    {
+      "text": "everybody.",
+      "start": 73.45303305925702,
+      "end": 74.40492903955561,
+      "speaker": "narrator"
+    },
+    {
+      "text": "A",
+      "start": 74.59001992461367,
+      "end": 74.61646147962196,
+      "speaker": "narrator"
+    },
+    {
+      "text": "2025",
+      "start": 74.66934458963854,
+      "end": 75.59479901492882,
+      "speaker": "narrator"
+    },
+    {
+      "text": "review",
+      "start": 75.64768212494542,
+      "end": 75.99142234005322,
+      "speaker": "narrator"
+    },
+    {
+      "text": "covered",
+      "start": 76.04430545006983,
+      "end": 76.30872100015276,
+      "speaker": "narrator"
+    },
+    {
+      "text": "57",
+      "start": 76.41448722018593,
+      "end": 77.07552609539329,
+      "speaker": "narrator"
+    },
+    {
+      "text": "adult",
+      "start": 77.12840920540987,
+      "end": 77.44570786550938,
+      "speaker": "narrator"
+    },
+    {
+      "text": "studies.",
+      "start": 77.49859097552599,
+      "end": 78.3182791807831,
+      "speaker": "narrator"
+    },
+    {
+      "text": "Meaningful",
+      "start": 78.47692851083283,
+      "end": 78.95287650098214,
+      "speaker": "narrator"
+    },
+    {
+      "text": "health",
+      "start": 79.00575961099872,
+      "end": 79.24373360607336,
+      "speaker": "narrator"
+    },
+    {
+      "text": "benefits",
+      "start": 79.29661671608994,
+      "end": 79.77256470623925,
+      "speaker": "narrator"
+    },
+    {
+      "text": "appeared",
+      "start": 79.82544781625583,
+      "end": 80.14274647635537,
+      "speaker": "narrator"
+    },
+    {
+      "text": "at",
+      "start": 80.16918803136366,
+      "end": 80.22207114138024,
+      "speaker": "narrator"
+    },
+    {
+      "text": "lower",
+      "start": 80.27495425139684,
+      "end": 80.53936980147978,
+      "speaker": "narrator"
+    },
+    {
+      "text": "counts.",
+      "start": 80.61869446650465,
+      "end": 81.41194111675345,
+      "speaker": "narrator"
+    },
+    {
+      "text": "7,000",
+      "start": 81.59703200181153,
+      "end": 82.4431617620769,
+      "speaker": "narrator"
+    },
+    {
+      "text": "was",
+      "start": 82.46960331708522,
+      "end": 82.57536953711838,
+      "speaker": "narrator"
+    },
+    {
+      "text": "a",
+      "start": 82.57536953711838,
+      "end": 82.62825264713499,
+      "speaker": "narrator"
+    },
+    {
+      "text": "practical",
+      "start": 82.68113575715157,
+      "end": 83.20996685731744,
+      "speaker": "narrator"
+    },
+    {
+      "text": "marker,",
+      "start": 83.26284996733402,
+      "end": 83.71235640247502,
+      "speaker": "narrator"
+    },
+    {
+      "text": "not",
+      "start": 83.8181226225082,
+      "end": 84.02965506257453,
+      "speaker": "narrator"
+    },
+    {
+      "text": "a",
+      "start": 83.97677195255797,
+      "end": 84.08253817259114,
+      "speaker": "narrator"
+    },
+    {
+      "text": "magic",
+      "start": 84.16186283761601,
+      "end": 84.58492771774871,
+      "speaker": "narrator"
+    },
+    {
+      "text": "finish",
+      "start": 84.6642523827736,
+      "end": 84.90222637784825,
+      "speaker": "narrator"
+    },
+    {
+      "text": "line.",
+      "start": 84.95510948786482,
+      "end": 85.66903147308876,
+      "speaker": "narrator"
+    },
+    {
+      "text": "These",
+      "start": 85.82768080313853,
+      "end": 86.06565479821316,
+      "speaker": "narrator"
+    },
+    {
+      "text": "were",
+      "start": 86.09209635322148,
+      "end": 86.17142101824635,
+      "speaker": "narrator"
+    },
+    {
+      "text": "adult",
+      "start": 86.27718723827951,
+      "end": 86.62092745338734,
+      "speaker": "narrator"
+    },
+    {
+      "text": "studies,",
+      "start": 86.67381056340392,
+      "end": 87.09687544353662,
+      "speaker": "narrator"
+    },
+    {
+      "text": "not",
+      "start": 87.23965984058141,
+      "end": 87.39830917063117,
+      "speaker": "narrator"
+    },
+    {
+      "text": "a",
+      "start": 87.37186761562288,
+      "end": 87.45119228064777,
+      "speaker": "narrator"
+    },
+    {
+      "text": "universal",
+      "start": 87.50407539066435,
+      "end": 88.08578960084681,
+      "speaker": "narrator"
+    },
+    {
+      "text": "rule",
+      "start": 88.1651142658717,
+      "end": 88.42952981595464,
+      "speaker": "narrator"
+    },
+    {
+      "text": "for",
+      "start": 88.48241292597122,
+      "end": 88.61462070101268,
+      "speaker": "narrator"
+    },
+    {
+      "text": "every",
+      "start": 88.66750381102929,
+      "end": 88.95836091612051,
+      "speaker": "narrator"
+    },
+    {
+      "text": "age",
+      "start": 89.0376855811454,
+      "end": 89.35498424124492,
+      "speaker": "narrator"
+    },
+    {
+      "text": "and",
+      "start": 89.38142579625321,
+      "end": 89.46075046127811,
+      "speaker": "narrator"
+    },
+    {
+      "text": "ability.",
+      "start": 89.48719201628639,
+      "end": 90.35976333156009,
+      "speaker": "narrator"
+    },
+    {
+      "text": "Back",
+      "start": 90.54485421661815,
+      "end": 90.78282821169279,
+      "speaker": "narrator"
+    },
+    {
+      "text": "in",
+      "start": 90.80926976670108,
+      "end": 90.91503598673427,
+      "speaker": "narrator"
+    },
+    {
+      "text": "town,",
+      "start": 90.96791909675082,
+      "end": 91.31165931185868,
+      "speaker": "narrator"
+    },
+    {
+      "text": "Javelina",
+      "start": 91.39098397688355,
+      "end": 91.81404885701625,
+      "speaker": "narrator"
+    },
+    {
+      "text": "thinks",
+      "start": 91.89337352204112,
+      "end": 92.13134751711577,
+      "speaker": "narrator"
+    },
+    {
+      "text": "missing",
+      "start": 92.18423062713235,
+      "end": 92.4486461772153,
+      "speaker": "narrator"
+    },
+    {
+      "text": "the",
+      "start": 92.47508773222359,
+      "end": 92.52797084224017,
+      "speaker": "narrator"
+    },
+    {
+      "text": "target",
+      "start": 92.60729550726505,
+      "end": 93.00391883238946,
+      "speaker": "narrator"
+    },
+    {
+      "text": "makes",
+      "start": 93.05680194240605,
+      "end": 93.2683343824724,
+      "speaker": "narrator"
+    },
+    {
+      "text": "his",
+      "start": 93.29477593748071,
+      "end": 93.42698371252217,
+      "speaker": "narrator"
+    },
+    {
+      "text": "whole",
+      "start": 93.50630837754704,
+      "end": 93.77072392762997,
+      "speaker": "narrator"
+    },
+    {
+      "text": "walk",
+      "start": 93.85004859265486,
+      "end": 94.1144641427378,
+      "speaker": "narrator"
+    },
+    {
+      "text": "worthless.",
+      "start": 94.19378880776269,
+      "end": 94.9870354580115,
+      "speaker": "narrator"
+    },
+    {
+      "text": "He",
+      "start": 95.09280167804467,
+      "end": 95.19856789807784,
+      "speaker": "narrator"
+    },
+    {
+      "text": "lowers",
+      "start": 95.25145100809443,
+      "end": 95.59519122320225,
+      "speaker": "narrator"
+    },
+    {
+      "text": "the",
+      "start": 95.64807433321884,
+      "end": 95.72739899824371,
+      "speaker": "narrator"
+    },
+    {
+      "text": "watch.",
+      "start": 95.80672366326861,
+      "end": 96.46776253847597,
+      "speaker": "narrator"
+    },
+    {
+      "text": "Straightens",
+      "start": 96.62641186852574,
+      "end": 97.07591830366671,
+      "speaker": "narrator"
+    },
+    {
+      "text": "his",
+      "start": 97.10235985867502,
+      "end": 97.23456763371648,
+      "speaker": "narrator"
+    },
+    {
+      "text": "back.",
+      "start": 97.31389229874135,
+      "end": 97.63119095884089,
+      "speaker": "narrator"
+    },
+    {
+      "text": "Stands",
+      "start": 97.91675975293047,
+      "end": 98.28694152304658,
+      "speaker": "narrator"
+    },
+    {
+      "text": "up.",
+      "start": 98.33982463306315,
+      "end": 98.52491551812122,
+      "speaker": "narrator"
+    },
+    {
+      "text": "Keeps",
+      "start": 98.69414147017429,
+      "end": 98.95855702025723,
+      "speaker": "narrator"
+    },
+    {
+      "text": "walking.",
+      "start": 99.03788168528213,
+      "end": 99.80468678052264,
+      "speaker": "narrator"
+    },
+    {
+      "text": "The",
+      "start": 99.93689455556411,
+      "end": 99.98977766558068,
+      "speaker": "narrator"
+    },
+    {
+      "text": "Banker",
+      "start": 100.04266077559728,
+      "end": 100.33351788068852,
+      "speaker": "narrator"
+    },
+    {
+      "text": "waits",
+      "start": 100.38640099070508,
+      "end": 100.67725809579632,
+      "speaker": "narrator"
+    },
+    {
+      "text": "for",
+      "start": 100.73014120581293,
+      "end": 100.8887905358627,
+      "speaker": "narrator"
+    },
+    {
+      "text": "a",
+      "start": 100.8887905358627,
+      "end": 100.94167364587926,
+      "speaker": "narrator"
+    },
+    {
+      "text": "sale",
+      "start": 101.04743986591244,
+      "end": 101.39118008102027,
+      "speaker": "narrator"
+    },
+    {
+      "text": "that",
+      "start": 101.41762163602857,
+      "end": 101.49694630105344,
+      "speaker": "narrator"
+    },
+    {
+      "text": "isn't",
+      "start": 101.52338785606175,
+      "end": 101.76136185113637,
+      "speaker": "narrator"
+    },
+    {
+      "text": "coming.",
+      "start": 101.84068651616124,
+      "end": 102.29019295130226,
+      "speaker": "narrator"
+    },
+    {
+      "text": "Walking",
+      "start": 102.47528383636032,
+      "end": 102.9512318265096,
+      "speaker": "narrator"
+    },
+    {
+      "text": "was",
+      "start": 103.0041149365262,
+      "end": 103.13632271156767,
+      "speaker": "narrator"
+    },
+    {
+      "text": "useful.",
+      "start": 103.21564737659254,
+      "end": 103.90312780680819,
+      "speaker": "narrator"
+    },
+    {
+      "text": "The",
+      "start": 104.06177713685796,
+      "end": 104.11466024687452,
+      "speaker": "narrator"
+    },
+    {
+      "text": "universal",
+      "start": 104.16754335689112,
+      "end": 104.82858223209847,
+      "speaker": "narrator"
+    },
+    {
+      "text": "rule",
+      "start": 104.90790689712333,
+      "end": 105.22520555722286,
+      "speaker": "narrator"
+    },
+    {
+      "text": "was",
+      "start": 105.27808866723944,
+      "end": 105.4631795522975,
+      "speaker": "narrator"
+    },
+    {
+      "text": "the",
+      "start": 105.4631795522975,
+      "end": 105.51606266231411,
+      "speaker": "narrator"
+    },
+    {
+      "text": "story.",
+      "start": 105.59538732733898,
+      "end": 106.3621924225795,
+      "speaker": "narrator"
+    },
+    {
+      "text": "Which",
+      "start": 106.46795864261266,
+      "end": 106.65304952767073,
+      "speaker": "narrator"
+    },
+    {
+      "text": "other",
+      "start": 106.7323741926956,
+      "end": 106.99678974277853,
+      "speaker": "narrator"
+    },
+    {
+      "text": "rules",
+      "start": 107.07611440780343,
+      "end": 107.5256208429444,
+      "speaker": "narrator"
+    },
+    {
+      "text": "have",
+      "start": 107.57850395296101,
+      "end": 107.71071172800248,
+      "speaker": "narrator"
+    },
+    {
+      "text": "you",
+      "start": 107.76359483801907,
+      "end": 107.84291950304394,
+      "speaker": "narrator"
+    },
+    {
+      "text": "never",
+      "start": 107.89580261306055,
+      "end": 108.1337766081352,
+      "speaker": "narrator"
+    },
+    {
+      "text": "questioned?",
+      "start": 108.18665971815176,
+      "end": 109.16499725345864,
+      "speaker": "narrator"
+    }
+  ],
+  "font": "texas-ten-thousand-steps/fonts/source-serif-4-latin-600-normal.woff2",
+  "sourceNarrationHash": "41f5f7a41a578f187d498d412e26a0d9d7c5c04319369ac8aaae6e2b39edfa80",
+  "timingMethod": "Model-predicted phoneme durations mapped to canonical words; listening review separate",
+  "sourceDeliveryNote": "H3 native352x640/24fps; enhanced/upscaled2K60 delivery repeats source poses."
+}
