@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "authorizedBy": "User requested a thinner, slightly scared, faster other voice; slightly faster serious first voice; reference sound concept without imitation; old-cinema image treatment.",
+  "baseVersion": "v2",
+  "banker": {"tempo": 1.06, "pitchSemitones": 0, "direction": "Serious and controlled, slightly faster; keep the existing deep identity."},
+  "javelina": {"tempo": 1.16, "pitchSemitones": 7, "direction": "Higher/thinner, lightly trembling and apprehensive; faster than the Banker. Preserve vocal formants to avoid a chipmunk effect."},
+  "narrator": {"tempo": 1.06, "pitchSemitones": 0, "direction": "Same serious Bird identity, slightly faster explanation."},
+  "method": "High-quality Rubber Band transformation of the original stock performances. Retiming the matching H3 intervals preserves their speech-guide relationship; no reference voice or audio is copied.",
+  "listeningReview": "Pending; numerical analysis and visual mouth checks are separate."
+}

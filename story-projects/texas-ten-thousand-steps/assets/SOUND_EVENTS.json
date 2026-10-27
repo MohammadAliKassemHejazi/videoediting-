@@ -1,46 +1,48 @@
 {
-  "duration": 110,
+  "duration": 102.7,
   "originalScore": true,
   "originalProceduralFoley": true,
   "recordedSamplesUsed": false,
+  "performanceVersion": 3,
   "voices": {
-    "banker": "Kokoro am_michael, serious measured delivery",
-    "javelina": "Kokoro am_puck, softer level",
-    "narrator": "Kokoro am_michael, same bird identity"
+    "banker": "Kokoro am_michael, serious; v3 tempo1.06",
+    "javelina": "Kokoro am_puck transformed: v3 tempo1.16, pitch+7semitones with formants preserved, bright/thin EQ and subtle tremble",
+    "narrator": "Kokoro am_michael, same Bird identity; v3 tempo1.06"
   },
+  "footsteps": "Original surface-specific synthesis, timed to sampled native source contacts through each editorial playback rate; reference recording not copied.",
   "voiceTargetLufs": -18.5,
   "masterTargetLufs": -16,
   "truePeakCeilingDb": -1.5,
   "measuredVoiceBeforeMaster": {
-    "input_i": "-27.20",
-    "input_tp": "-1.18",
-    "input_lra": "6.10",
-    "input_thresh": "-37.62",
-    "output_i": "-20.10",
+    "input_i": "-30.03",
+    "input_tp": "-6.89",
+    "input_lra": "5.40",
+    "input_thresh": "-40.43",
+    "output_i": "-19.78",
     "output_tp": "-1.50",
-    "output_lra": "3.90",
-    "output_thresh": "-30.53",
+    "output_lra": "4.00",
+    "output_thresh": "-30.20",
     "normalization_type": "dynamic",
-    "target_offset": "1.60"
+    "target_offset": "1.28"
   },
   "measuredMixBeforeMaster": {
-    "input_i": "-18.73",
-    "input_tp": "-4.30",
-    "input_lra": "3.70",
-    "input_thresh": "-29.34",
-    "output_i": "-16.26",
-    "output_tp": "-1.62",
-    "output_lra": "3.80",
-    "output_thresh": "-26.84",
+    "input_i": "-18.70",
+    "input_tp": "-4.31",
+    "input_lra": "3.90",
+    "input_thresh": "-29.26",
+    "output_i": "-16.19",
+    "output_tp": "-1.53",
+    "output_lra": "3.50",
+    "output_thresh": "-26.72",
     "normalization_type": "dynamic",
-    "target_offset": "0.26"
+    "target_offset": "0.19"
   },
   "files": {
-    "fitted": "02b79bf212c52b6d55b551eb506425adc59db1d1475494441eefccbb14931a11",
-    "voice": "da1efa98e891494229652eb9a423d1cb0b5ccd702d01919412322b335d089128",
-    "score": "345728ee3e780d241a84e9061e0bbf8fb2f687dedad7aaef8692bad0e219849c",
-    "foley": "c282c974361987b8411d0701abaf76415319a1325a6975dad53212d4a89ecc23",
-    "mix": "707a18692dae19746ee0610f43b12ff4c0ff27f0a5e9c7e4cc2eed63a5be592a"
+    "fitted": "ecd35b52ed93a4a8fd7773fd564197187ba29ef777137ad6cd1b321f23c61710",
+    "voice": "cad284d2fffa4119c21f62bc3ca004a14ceee581dbbf73b73b04b541584a546c",
+    "score": "28f38f1fdfdb5b7c24eff73318b1d30e63bfc5fa50bb40a8fa1cf86a7fdb5f49",
+    "foley": "33b915e38c1e462c5eb316a39eb42df7ca4161aa90cb1906d80d205a45879a67",
+    "mix": "b39a313a9252ef614dc2a9959345d717a63cedb1adbfbcdcfa652795091ae6fe"
   },
   "events": [
     {
@@ -453,45 +455,45 @@
     },
     {
       "type": "original soft reed-like harmonic",
-      "at": 28.15,
+      "at": 25.48333333333333,
       "freq": 220,
       "length": 5,
       "gain": 0.0048
     },
     {
       "type": "original soft reed-like harmonic",
-      "at": 66.91666666666667,
+      "at": 62.050000000000004,
       "freq": 246.9417,
       "length": 5,
       "gain": 0.0045
     },
     {
       "type": "original synthesized guitar-like pluck",
-      "at": 97.91666666666667,
+      "at": 91.3,
       "freq": 164.8138,
       "gain": 0.013
     },
     {
       "type": "original synthesized guitar-like pluck",
-      "at": 97.97166666666668,
+      "at": 91.355,
       "freq": 195.9977,
       "gain": 0.013
     },
     {
       "type": "original synthesized guitar-like pluck",
-      "at": 98.02666666666667,
+      "at": 91.41,
       "freq": 246.9417,
       "gain": 0.013
     },
     {
       "type": "original synthesized guitar-like pluck",
-      "at": 106.61666666666667,
+      "at": 99.51666666666667,
       "freq": 146.8324,
       "gain": 0.016
     },
     {
       "type": "original synthesized guitar-like pluck",
-      "at": 108.5,
+      "at": 101.2,
       "freq": 293.6648,
       "gain": 0.009
     },
@@ -503,277 +505,271 @@
     },
     {
       "type": "original brass watch bezel click",
-      "at": 20.583333333333332,
+      "at": 18.633333333333333,
       "gain": 0.045
     },
     {
       "type": "ink wipe",
-      "at": 27.55,
+      "at": 24.883333333333333,
       "length": 0.65,
       "gain": 0.042
     },
     {
       "type": "ink wipe",
-      "at": 90.05,
+      "at": 83.83333333333333,
       "length": 0.7,
       "gain": 0.043
     },
     {
       "type": "paper / leather",
-      "at": 35.586666666666666,
+      "at": 32.50333333333333,
       "length": 0.3,
       "gain": 0.022
     },
     {
       "type": "paper / leather",
-      "at": 39.87,
+      "at": 36.53666666666667,
       "length": 0.3,
       "gain": 0.022
     },
     {
       "type": "paper / leather",
-      "at": 43.92,
+      "at": 40.35333333333333,
       "length": 0.3,
       "gain": 0.022
     },
     {
       "type": "paper / leather",
-      "at": 50.85333333333333,
+      "at": 46.88666666666667,
       "length": 0.3,
       "gain": 0.022
     },
     {
       "type": "paper / leather",
-      "at": 54.37,
+      "at": 50.20333333333333,
       "length": 0.3,
       "gain": 0.022
     },
     {
       "type": "paper / leather",
-      "at": 67.03666666666666,
+      "at": 62.17,
       "length": 0.3,
       "gain": 0.022
     },
     {
       "type": "paper / leather",
-      "at": 74.90333333333332,
+      "at": 69.58666666666666,
       "length": 0.3,
       "gain": 0.022
     },
     {
       "type": "boardwalk footstep",
-      "at": 59.03333333333333,
-      "length": 0.14,
-      "gain": 0.019
+      "at": 54.748179611650485,
+      "length": 0.17,
+      "gain": 0.032
     },
     {
       "type": "boardwalk footstep",
-      "at": 59.65333333333333,
-      "length": 0.14,
-      "gain": 0.019
+      "at": 55.34453883495146,
+      "length": 0.17,
+      "gain": 0.032
     },
     {
       "type": "boardwalk footstep",
-      "at": 60.27333333333333,
-      "length": 0.14,
-      "gain": 0.019
+      "at": 55.9867718446602,
+      "length": 0.17,
+      "gain": 0.032
     },
     {
       "type": "boardwalk footstep",
-      "at": 60.89333333333333,
-      "length": 0.14,
-      "gain": 0.019
+      "at": 56.62900485436894,
+      "length": 0.17,
+      "gain": 0.032
     },
     {
       "type": "boardwalk footstep",
-      "at": 61.51333333333333,
-      "length": 0.14,
-      "gain": 0.019
+      "at": 57.271237864077676,
+      "length": 0.17,
+      "gain": 0.032
+    },
+    {
+      "type": "dirt footstep",
+      "at": 67.47220670065889,
+      "length": 0.17,
+      "gain": 0.032
+    },
+    {
+      "type": "dirt footstep",
+      "at": 68.20420362738935,
+      "length": 0.17,
+      "gain": 0.032
+    },
+    {
+      "type": "dirt footstep",
+      "at": 68.89045074619915,
+      "length": 0.17,
+      "gain": 0.032
+    },
+    {
+      "type": "dirt footstep",
+      "at": 76.55833333333334,
+      "length": 0.17,
+      "gain": 0.032
+    },
+    {
+      "type": "dirt footstep",
+      "at": 77.35833333333333,
+      "length": 0.17,
+      "gain": 0.032
+    },
+    {
+      "type": "dirt footstep",
+      "at": 78.15833333333335,
+      "length": 0.17,
+      "gain": 0.032
+    },
+    {
+      "type": "dirt footstep",
+      "at": 78.95833333333334,
+      "length": 0.17,
+      "gain": 0.032
+    },
+    {
+      "type": "dirt footstep",
+      "at": 80.18927083333334,
+      "length": 0.17,
+      "gain": 0.032
+    },
+    {
+      "type": "dirt footstep",
+      "at": 80.80114583333334,
+      "length": 0.17,
+      "gain": 0.032
+    },
+    {
+      "type": "dirt footstep",
+      "at": 81.63552083333335,
+      "length": 0.17,
+      "gain": 0.032
+    },
+    {
+      "type": "dirt footstep",
+      "at": 82.58114583333334,
+      "length": 0.17,
+      "gain": 0.032
+    },
+    {
+      "type": "dirt footstep",
+      "at": 83.41552083333335,
+      "length": 0.17,
+      "gain": 0.032
     },
     {
       "type": "boardwalk footstep",
-      "at": 72.41666666666667,
-      "length": 0.14,
-      "gain": 0.019
+      "at": 92.1719806763285,
+      "length": 0.17,
+      "gain": 0.063
     },
     {
       "type": "boardwalk footstep",
-      "at": 73.03666666666668,
-      "length": 0.14,
-      "gain": 0.019
+      "at": 92.97053140096618,
+      "length": 0.17,
+      "gain": 0.063
     },
     {
       "type": "boardwalk footstep",
-      "at": 73.65666666666667,
-      "length": 0.14,
-      "gain": 0.019
+      "at": 95.94491568727643,
+      "length": 0.17,
+      "gain": 0.063
     },
     {
       "type": "boardwalk footstep",
-      "at": 81.75,
-      "length": 0.14,
-      "gain": 0.019
+      "at": 96.5887583035258,
+      "length": 0.17,
+      "gain": 0.063
     },
     {
       "type": "boardwalk footstep",
-      "at": 82.37,
-      "length": 0.14,
-      "gain": 0.019
+      "at": 98.2232470334412,
+      "length": 0.17,
+      "gain": 0.063
     },
     {
       "type": "boardwalk footstep",
-      "at": 82.99,
-      "length": 0.14,
-      "gain": 0.019
+      "at": 98.95679611650485,
+      "length": 0.17,
+      "gain": 0.063
     },
     {
       "type": "boardwalk footstep",
-      "at": 83.61,
-      "length": 0.14,
-      "gain": 0.019
+      "at": 0.7200000000000001,
+      "length": 0.17,
+      "gain": 0.026
     },
     {
-      "type": "boardwalk footstep",
-      "at": 84.23,
-      "length": 0.14,
-      "gain": 0.019
+      "type": "cane contact",
+      "at": 79.98902083333334,
+      "length": 0.12,
+      "gain": 0.029
     },
     {
-      "type": "boardwalk footstep",
-      "at": 84.85,
-      "length": 0.14,
-      "gain": 0.019
+      "type": "cane contact",
+      "at": 81.57989583333334,
+      "length": 0.12,
+      "gain": 0.029
     },
     {
-      "type": "boardwalk footstep",
-      "at": 85.98333333333333,
-      "length": 0.14,
-      "gain": 0.019
+      "type": "cane contact",
+      "at": 83.08177083333334,
+      "length": 0.12,
+      "gain": 0.029
     },
     {
-      "type": "boardwalk footstep",
-      "at": 86.60333333333334,
-      "length": 0.14,
-      "gain": 0.019
-    },
-    {
-      "type": "boardwalk footstep",
-      "at": 87.22333333333333,
-      "length": 0.14,
-      "gain": 0.019
-    },
-    {
-      "type": "boardwalk footstep",
-      "at": 87.84333333333333,
-      "length": 0.14,
-      "gain": 0.019
-    },
-    {
-      "type": "boardwalk footstep",
-      "at": 88.46333333333334,
-      "length": 0.14,
-      "gain": 0.019
-    },
-    {
-      "type": "boardwalk footstep",
-      "at": 89.08333333333333,
-      "length": 0.14,
-      "gain": 0.019
-    },
-    {
-      "type": "boardwalk footstep",
-      "at": 89.70333333333333,
-      "length": 0.14,
-      "gain": 0.019
-    },
-    {
-      "type": "boardwalk footstep",
-      "at": 98.06666666666668,
-      "length": 0.16,
+      "type": "paper / leather",
+      "at": 91.68550724637682,
+      "length": 0.32,
       "gain": 0.035
     },
     {
-      "type": "boardwalk footstep",
-      "at": 98.61666666666667,
-      "length": 0.16,
-      "gain": 0.035
+      "type": "stamp contact",
+      "at": 50.596875,
+      "length": 0.18,
+      "gain": 0.026
     },
     {
-      "type": "boardwalk footstep",
-      "at": 99.16666666666667,
-      "length": 0.16,
-      "gain": 0.035
+      "type": "nervous inhale",
+      "at": 4.136666666666667,
+      "length": 0.18,
+      "gain": 0.016
     },
     {
-      "type": "boardwalk footstep",
-      "at": 99.71666666666667,
-      "length": 0.16,
-      "gain": 0.035
+      "type": "nervous inhale",
+      "at": 13.403333333333332,
+      "length": 0.18,
+      "gain": 0.016
     },
     {
-      "type": "boardwalk footstep",
-      "at": 102.63333333333334,
-      "length": 0.16,
-      "gain": 0.035
-    },
-    {
-      "type": "boardwalk footstep",
-      "at": 103.18333333333334,
-      "length": 0.16,
-      "gain": 0.035
-    },
-    {
-      "type": "boardwalk footstep",
-      "at": 103.73333333333333,
-      "length": 0.16,
-      "gain": 0.035
-    },
-    {
-      "type": "boardwalk footstep",
-      "at": 104.21666666666667,
-      "length": 0.16,
-      "gain": 0.035
-    },
-    {
-      "type": "boardwalk footstep",
-      "at": 104.76666666666667,
-      "length": 0.16,
-      "gain": 0.035
-    },
-    {
-      "type": "boardwalk footstep",
-      "at": 105.31666666666666,
-      "length": 0.16,
-      "gain": 0.035
-    },
-    {
-      "type": "boardwalk footstep",
-      "at": 105.86666666666666,
-      "length": 0.16,
-      "gain": 0.035
-    },
-    {
-      "type": "boardwalk footstep",
-      "at": 106.41666666666666,
-      "length": 0.16,
-      "gain": 0.035
+      "type": "nervous inhale",
+      "at": 22.17,
+      "length": 0.18,
+      "gain": 0.016
     },
     {
       "type": "original quiet archive mechanism",
-      "at": 28,
-      "length": 62.55,
+      "at": 25.333333333333332,
+      "length": 59,
       "gain": 0.005
     },
     {
       "type": "original restrained frontier air",
       "at": 0,
-      "length": 28,
+      "length": 25.333333333333332,
       "gain": 0.005
     },
     {
       "type": "original restrained frontier air",
-      "at": 90.55,
-      "length": 19.450000000000003,
+      "at": 84.33333333333333,
+      "length": 18.366666666666674,
       "gain": 0.005
     }
   ],

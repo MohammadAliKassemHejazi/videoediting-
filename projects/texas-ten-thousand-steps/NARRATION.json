@@ -1,8 +1,8 @@
 {
   "title": "Who Chose 10,000 Steps?",
   "language": "en",
-  "targetDuration": 110,
-  "dialogueTargetDuration": 28,
+  "targetDuration": 102.7,
+  "dialogueTargetDuration": 25.333333333333332,
   "segments": [
     {
       "speaker": "banker",
@@ -40,5 +40,6 @@
       "text": "Tokyo. Nineteen sixty-four. Olympic fever fills the streets. A clock company has a little box to sell. In nineteen sixty-five, Yamasa calls it the ten-thousand-step meter. A neat number. A memorable symbol. An easy slogan. But the origin is messier. Yamasa credits an earlier walking campaign involving doctors and journalists. A campaign goal still isn't a biological boundary. Advertisements repeat it. Walking clubs. Magazines. Fitness trackers. Soon, the same target glows on wrists everywhere. Repeated long enough, a convenient target starts to sound compulsory. In twenty nineteen, researchers studying older women found benefits below ten thousand. That wasn't evidence for everybody. A twenty twenty-five review covered fifty-seven adult studies. Meaningful health benefits appeared at lower counts. Seven thousand was a practical marker, not a magic finish line. These were adult studies, not a universal rule for every age and ability. Back in town, Javelina thinks missing the target makes his whole walk worthless. He lowers the watch. Straightens his back. Stands up. Keeps walking. The Banker waits for a sale that isn't coming. Walking was useful. The universal rule was the story. Which other rules have you never questioned?"
     }
   ],
-  "note": "Version2 follows the measured reference rhythm:28s opening, history28?72s, evidence72?85s, return85?98s and final direct address. Bird uses a serious measured baritone and also narrates; Javelina is soft. User requested moving lips; audio-guided H3 speaking takes replace silent-only tests. Original255-word script; actual timestamps follow local synthesis."
+  "note": "Version3 keeps the original255-word script and paired H3 performances, retimed with faster voices. Serious Bird/narrator +6%; thinner/scared Javelina +16%, higher register with preserved formants and subtle tremble. Earlier v2 is preserved.",
+  "performanceDirection": "VOICE_DIRECTION.json"
 }

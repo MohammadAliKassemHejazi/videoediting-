@@ -22,12 +22,12 @@ try{
  const serveUrl=await bundle({entryPoint:join(ROOT,'remotion/TexasStepsExport.jsx'),publicDir:pub,outDir:join(cache,'episode-bundle')}),browserExecutable=studioBrowserExecutable();
  const composition=await selectComposition({serveUrl,id:project,browserExecutable});
  if(process.argv.includes('--reverse-check')){
-  const frames=[90,6430,2581,90],hashes=[];
+  const frames=[90,spec.shots.at(-1).startFrame+54,spec.shots[9].startFrame+36,90],hashes=[];
   for(const [i,frame]of frames.entries()){const path=join(out,'seek-'+i+'.png');await renderStill({serveUrl,composition,browserExecutable,frame,scale:.25,output:path,imageFormat:'png'});hashes.push(createHash('sha256').update(readFileSync(path)).digest('hex'))}
   if(hashes[0]!==hashes[3])throw Error('Repeated reverse seek changed pixels');writeFileSync(join(out,'determinism.json'),JSON.stringify({sourceDigest:frozen,frames,hashes,passed:true},null,2)+'\n');
  }else{
   const pending=join(out,randomUUID()+'.pending.mp4');let last=-1;
-  await renderMedia({serveUrl,composition,browserExecutable,outputLocation:pending,codec:'h264',pixelFormat:'yuv420p',hardwareAcceleration:'if-possible',videoBitrate:'16M',audioBitrate:'192k',concurrency:3,offthreadVideoThreads:2,onProgress:p=>{const value=Math.floor(p.progress*20)*5;if(value!==last){last=value;console.log('Episode2 '+value+'% / '+p.renderedFrames+' of6600frames')}}});
+  await renderMedia({serveUrl,composition,browserExecutable,outputLocation:pending,codec:'h264',pixelFormat:'yuv420p',hardwareAcceleration:'if-possible',videoBitrate:'16M',audioBitrate:'192k',concurrency:3,offthreadVideoThreads:2,onProgress:p=>{const value=Math.floor(p.progress*20)*5;if(value!==last){last=value;console.log('Episode2 '+value+'% / '+p.renderedFrames+' of '+composition.durationInFrames+' frames')}}});
   if(casefileDigest(ROOT,project)!==frozen)throw Error('Sources changed during export; pending movie retained');
   const metadata=probe(pending);if(metadata.width!==1440||metadata.height!==2560||metadata.fps!==60||!metadata.audio||Math.abs(metadata.duration-spec.duration)>.05)throw Error('Delivery metadata failed');
   await ffmpeg(['-threads','2','-i',pending,'-f','null','-']);replaceWorkspaceFile(pending,join(out,'draft.mp4'));

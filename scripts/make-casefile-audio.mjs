@@ -39,7 +39,10 @@ function noise(stereo,when,length,gain,kind,pan=0){
   if(kind==='ink wipe')return (low*.8+(white-low)*.12)*Math.sin(Math.PI*p)**1.6*gain;
   if(kind==='paper / leather')return (white-low)*gain*Math.sin(Math.PI*p)**2*(.6+.4*Math.sin(t*47));
   if(kind==='stamp contact')return gain*((white-low)*.24*Math.exp(-t*70)+Math.sin(2*Math.PI*115*t)*Math.exp(-t*33));
-  if(kind==='boardwalk footstep')return gain*(low*.5+Math.sin(2*Math.PI*94*t)*.23)*Math.exp(-t*28);
+  if(kind==='boardwalk footstep')return gain*((low*.45+Math.sin(2*Math.PI*94*t)*.23)*Math.exp(-t*28)+(white-low)*.11*Math.exp(-t*95));
+  if(kind==='dirt footstep')return gain*((white-low)*.22+low*.35)*Math.exp(-t*16);
+  if(kind==='nervous inhale')return gain*(white-low)*Math.sin(Math.PI*p)**1.5*(.7+.3*Math.sin(t*43));
+  if(kind==='cane contact')return gain*(Math.sin(2*Math.PI*370*t)*.28+low*.25)*Math.exp(-t*36);
   return gain*low*Math.sin(Math.PI*p)**2;
  });
 }
@@ -90,13 +93,19 @@ try{
  noise(foley,at('07')-.45,.65,.042,'ink wipe',.12);
  noise(foley,at('21')-.5,.7,.043,'ink wipe',-.12);
  for(const id of ['09','10','11','12','13','16','18'])noise(foley,at(id)+.32,.3,.022,'paper / leather',Number(id)%2?.12:-.12);
- for(const id of ['14','17','19','20']){
-  const shot=spec.shots.find(s=>s.id===id),length=shot.durationFrames/60;
-  for(let i=0;i<Math.floor(length/.62);i++)noise(foley,at(id)+.15+i*.62,.14,.019,'boardwalk footstep',i%2?.15:-.15);
+ const native=(id,time)=>{const s=spec.shots.find(s=>s.id===id);return at(id)+(time-s.sourceStart)/s.playbackRate};
+ const contacts={
+  '01':[.8], '14':[.45,1.1,1.8,2.5,3.2,3.85], '17':[.55,1.35,2.1,3],
+  '19':[.8,1.6,2.4,3.2], '20':[.4,.95,1.7,2.55,3.3],
+  '24':[1.55,2.42], '26':[.5,1.2], '27':[1.35,2.15]
+ };
+ for(const [id,times]of Object.entries(contacts)){
+  const s=spec.shots.find(s=>s.id===id);for(const [i,time]of times.entries())if(time>=s.sourceStart&&time<s.sourceStart+s.sourcePlaybackDuration)noise(foley,native(id,time),.17,id==='01'?.026:id==='24'||id==='26'||id==='27'?.063:.032,['17','19','20'].includes(id)?'dirt footstep':'boardwalk footstep',i%2?.14:-.14);
  }
- for(const id of ['24','26','27']){
-  const shot=spec.shots.find(s=>s.id===id);for(let t=.15;t<shot.durationFrames/60;t+=.55)noise(foley,at(id)+t,.16,.035,'boardwalk footstep',t%1>.5?.12:-.12);
- }
+ for(const t of [.22,1.65,3])noise(foley,native('20',t),.12,.029,'cane contact',-.14);
+ noise(foley,native('24',1.02),.32,.035,'paper / leather',-.1);
+ noise(foley,native('13',.75),.18,.026,'stamp contact',.12);
+ for(const s of spec.shots.filter(s=>s.speaker==='javelina'))noise(foley,Math.max(0,s.startFrame/60-.13),.18,.016,'nervous inhale',-.08);
  const archiveStart=at('07'),archiveEnd=at('21');
  events.push({type:'original quiet archive mechanism',at:archiveStart,length:archiveEnd-archiveStart,gain:.005});
  add(foley,archiveStart,archiveEnd-archiveStart,-.16,t=>.005*(Math.sin(2*Math.PI*60*t)*.13+random()*.2)*(.6+.4*Math.max(0,Math.sin(2*Math.PI*24*t))));
@@ -111,6 +120,6 @@ try{
  if(Math.abs(mediaDuration(pendingMix)-total)>.02)throw Error('Master duration failed');
  await ffmpeg(['-threads','2','-i',pendingMix,'-f','null','-']);replaceWorkspaceFile(pendingMix,join(folder,'mix.wav'));
  const sha=file=>createHash('sha256').update(readFileSync(file)).digest('hex');
- writeFileSync(join(folder,'SOUND_EVENTS.json'),JSON.stringify({duration:total,originalScore:true,originalProceduralFoley:true,recordedSamplesUsed:false,voices:{banker:'Kokoro am_michael, serious measured delivery',javelina:'Kokoro am_puck, softer level',narrator:'Kokoro am_michael, same bird identity'},voiceTargetLufs:-18.5,masterTargetLufs:-16,truePeakCeilingDb:-1.5,measuredVoiceBeforeMaster:measuredVoice,measuredMixBeforeMaster:measuredMix,files:{fitted:sha(fitted),voice:sha(voice),score:sha(scorePath),foley:sha(foleyPath),mix:sha(join(folder,'mix.wav'))},events,review:'Numerical mastering and original cue preparation; listening/subjective voice and mouth synchronization reviews remain separate.'},null,2)+'\n');
+ writeFileSync(join(folder,'SOUND_EVENTS.json'),JSON.stringify({duration:total,originalScore:true,originalProceduralFoley:true,recordedSamplesUsed:false,performanceVersion:spec.performanceVersion||2,voices:{banker:'Kokoro am_michael, serious; v3 tempo1.06',javelina:'Kokoro am_puck transformed: v3 tempo1.16, pitch+7semitones with formants preserved, bright/thin EQ and subtle tremble',narrator:'Kokoro am_michael, same Bird identity; v3 tempo1.06'},footsteps:'Original surface-specific synthesis, timed to sampled native source contacts through each editorial playback rate; reference recording not copied.',voiceTargetLufs:-18.5,masterTargetLufs:-16,truePeakCeilingDb:-1.5,measuredVoiceBeforeMaster:measuredVoice,measuredMixBeforeMaster:measuredMix,files:{fitted:sha(fitted),voice:sha(voice),score:sha(scorePath),foley:sha(foleyPath),mix:sha(join(folder,'mix.wav'))},events,review:'Numerical mastering and original cue preparation; listening/subjective voice and mouth synchronization reviews remain separate.'},null,2)+'\n');
  console.log('Prepared'+total+'s original voice/music/Foley mix; listening remains separate.');
 }finally{closeSync(fd);unlinkSync(lock)}

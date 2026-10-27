@@ -22,7 +22,7 @@ import {MidnightTransit} from '../projects/midnight-transit/scenes.jsx';
 import {PaperRiot} from '../projects/paper-riot/scenes.jsx';
 import {SignalNoise} from '../projects/signal-noise/scenes.jsx';
 registerRoot(()=> <>
-<Folder name="TEXAS-EPISODE-2"><Composition id="texas-ten-thousand-steps" component={TexasStepsEpisode} width={1440} height={2560} fps={60} durationInFrames={6600} defaultProps={{spec:studioPreservedSpec7,styleId:'texas-casefiles'}}/></Folder>
+<Folder name="TEXAS-EPISODE-2"><Composition id="texas-ten-thousand-steps" component={TexasStepsEpisode} width={1440} height={2560} fps={60} durationInFrames={Math.round(studioPreservedSpec7.duration*60)} defaultProps={{spec:studioPreservedSpec7,styleId:'texas-casefiles'}}/></Folder>
 
 <Folder name="TEXAS-FULL-EPISODE"><Composition id="texas-cinema-myth" component={TexasEpisode} width={1440} height={2560} fps={60} durationInFrames={5400} defaultProps={{spec:studioPreservedSpec6,styleId:'texas-casefiles'}}/></Folder>
 

@@ -4,11 +4,11 @@
   "width": 1440,
   "height": 2560,
   "fps": 60,
-  "duration": 110,
-  "voiceDuration": 109.35,
+  "duration": 102.7,
+  "voiceDuration": 102.08679245283018,
   "voiceSpeed": 0.9326467001981406,
   "sourceDialogueEnd": 25.07,
-  "dialogueDuration": 28,
+  "dialogueDuration": 25.333333333333332,
   "dialogueSpeed": 0.8953571428571429,
   "narratorSpeed": 0.945481458717476,
   "shots": [
@@ -28,9 +28,9 @@
       "source": "texas-ten-thousand-steps/shots/01-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
-      "durationFrames": 271,
+      "durationFrames": 256,
       "sourcePlaybackDuration": 4,
-      "playbackRate": 0.8856088560885609,
+      "playbackRate": 0.9375,
       "imageAvailable": true,
       "imageVersion": "3e83407114fd9bdb",
       "available": true,
@@ -51,13 +51,13 @@
       "transitionOut": "cut",
       "wordFrom": 10,
       "wordTo": 20,
-      "startFrame": 271,
+      "startFrame": 256,
       "source": "texas-ten-thousand-steps/shots/02-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
-      "durationFrames": 243,
+      "durationFrames": 209,
       "sourcePlaybackDuration": 4,
-      "playbackRate": 0.9876543209876544,
+      "playbackRate": 1.1483253588516746,
       "imageAvailable": true,
       "imageVersion": "9998a1f5875c7c73",
       "available": true,
@@ -78,13 +78,13 @@
       "transitionOut": "cut",
       "wordFrom": 20,
       "wordTo": 32,
-      "startFrame": 514,
+      "startFrame": 465,
       "source": "texas-ten-thousand-steps/shots/03-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
-      "durationFrames": 368,
+      "durationFrames": 347,
       "sourcePlaybackDuration": 4,
-      "playbackRate": 0.6521739130434783,
+      "playbackRate": 0.69164265129683,
       "imageAvailable": true,
       "imageVersion": "adfe3cb6cd8bb851",
       "available": true,
@@ -105,13 +105,13 @@
       "transitionOut": "cut",
       "wordFrom": 32,
       "wordTo": 44,
-      "startFrame": 882,
+      "startFrame": 812,
       "source": "texas-ten-thousand-steps/shots/04-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
-      "durationFrames": 338,
+      "durationFrames": 291,
       "sourcePlaybackDuration": 4,
-      "playbackRate": 0.7100591715976331,
+      "playbackRate": 0.8247422680412372,
       "imageAvailable": true,
       "imageVersion": "890bc41922b39eb7",
       "available": true,
@@ -132,13 +132,13 @@
       "transitionOut": "cut",
       "wordFrom": 44,
       "wordTo": 55,
-      "startFrame": 1220,
+      "startFrame": 1103,
       "source": "texas-ten-thousand-steps/shots/05-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
-      "durationFrames": 249,
+      "durationFrames": 235,
       "sourcePlaybackDuration": 4,
-      "playbackRate": 0.9638554216867469,
+      "playbackRate": 1.021276595744681,
       "imageAvailable": true,
       "imageVersion": "df3bc01b6e8c5a79",
       "available": true,
@@ -159,13 +159,13 @@
       "transitionOut": "ink-cover",
       "wordFrom": 55,
       "wordTo": 66,
-      "startFrame": 1469,
+      "startFrame": 1338,
       "source": "texas-ten-thousand-steps/shots/06-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
-      "durationFrames": 211,
+      "durationFrames": 182,
       "sourcePlaybackDuration": 3.6221666666666668,
-      "playbackRate": 1.03,
+      "playbackRate": 1.1941208791208793,
       "imageAvailable": true,
       "imageVersion": "d92ffc53c586a59c",
       "available": true,
@@ -186,13 +186,13 @@
       "transitionOut": "cut",
       "wordFrom": 66,
       "wordTo": 74,
-      "startFrame": 1680,
+      "startFrame": 1520,
       "source": "texas-ten-thousand-steps/shots/07-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
-      "durationFrames": 276,
+      "durationFrames": 260,
       "sourcePlaybackDuration": 4,
-      "playbackRate": 0.8695652173913044,
+      "playbackRate": 0.9230769230769231,
       "imageAvailable": true,
       "imageVersion": "ef0e77ec63143350",
       "available": true,
@@ -213,13 +213,13 @@
       "transitionOut": "cut",
       "wordFrom": 74,
       "wordTo": 83,
-      "startFrame": 1956,
+      "startFrame": 1780,
       "source": "texas-ten-thousand-steps/shots/08-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
-      "durationFrames": 160,
+      "durationFrames": 151,
       "sourcePlaybackDuration": 2.7466666666666666,
-      "playbackRate": 1.03,
+      "playbackRate": 1.0913907284768212,
       "imageAvailable": true,
       "imageVersion": "5e988fa025f5185e",
       "available": true,
@@ -240,13 +240,13 @@
       "transitionOut": "cut",
       "wordFrom": 83,
       "wordTo": 92,
-      "startFrame": 2116,
+      "startFrame": 1931,
       "source": "texas-ten-thousand-steps/shots/09-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
-      "durationFrames": 257,
+      "durationFrames": 242,
       "sourcePlaybackDuration": 4,
-      "playbackRate": 0.933852140077821,
+      "playbackRate": 0.9917355371900827,
       "imageAvailable": true,
       "imageVersion": "0ada7d7be0a79e4b",
       "available": true,
@@ -267,13 +267,13 @@
       "transitionOut": "cut",
       "wordFrom": 92,
       "wordTo": 101,
-      "startFrame": 2373,
+      "startFrame": 2173,
       "source": "texas-ten-thousand-steps/shots/10-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
-      "durationFrames": 243,
+      "durationFrames": 229,
       "sourcePlaybackDuration": 4,
-      "playbackRate": 0.9876543209876544,
+      "playbackRate": 1.0480349344978166,
       "imageAvailable": true,
       "imageVersion": "82ce9b3fa462ccf1",
       "available": true,
@@ -294,13 +294,13 @@
       "transitionOut": "cut",
       "wordFrom": 101,
       "wordTo": 116,
-      "startFrame": 2616,
+      "startFrame": 2402,
       "source": "texas-ten-thousand-steps/shots/11-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
-      "durationFrames": 416,
+      "durationFrames": 392,
       "sourcePlaybackDuration": 4,
-      "playbackRate": 0.5769230769230769,
+      "playbackRate": 0.6122448979591837,
       "imageAvailable": true,
       "imageVersion": "627f2a1dd485e8c4",
       "available": true,
@@ -321,13 +321,13 @@
       "transitionOut": "cut",
       "wordFrom": 116,
       "wordTo": 124,
-      "startFrame": 3032,
+      "startFrame": 2794,
       "source": "texas-ten-thousand-steps/shots/12-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
-      "durationFrames": 211,
+      "durationFrames": 199,
       "sourcePlaybackDuration": 3.6221666666666668,
-      "playbackRate": 1.03,
+      "playbackRate": 1.092110552763819,
       "imageAvailable": true,
       "imageVersion": "ee476bc7d56a95ca",
       "available": true,
@@ -348,13 +348,13 @@
       "transitionOut": "cut",
       "wordFrom": 124,
       "wordTo": 132,
-      "startFrame": 3243,
+      "startFrame": 2993,
       "source": "texas-ten-thousand-steps/shots/13-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
-      "durationFrames": 290,
+      "durationFrames": 274,
       "sourcePlaybackDuration": 4,
-      "playbackRate": 0.8275862068965518,
+      "playbackRate": 0.8759124087591241,
       "imageAvailable": true,
       "imageVersion": "ae610cc1b305614c",
       "available": true,
@@ -375,13 +375,13 @@
       "transitionOut": "cut",
       "wordFrom": 132,
       "wordTo": 140,
-      "startFrame": 3533,
+      "startFrame": 3267,
       "source": "texas-ten-thousand-steps/shots/14-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
-      "durationFrames": 200,
+      "durationFrames": 189,
       "sourcePlaybackDuration": 3.4333333333333336,
-      "playbackRate": 1.03,
+      "playbackRate": 1.08994708994709,
       "imageAvailable": true,
       "imageVersion": "ce80fa8db3bf123b",
       "available": true,
@@ -402,13 +402,13 @@
       "transitionOut": "cut",
       "wordFrom": 140,
       "wordTo": 150,
-      "startFrame": 3733,
+      "startFrame": 3456,
       "source": "texas-ten-thousand-steps/shots/15-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
-      "durationFrames": 270,
+      "durationFrames": 255,
       "sourcePlaybackDuration": 4,
-      "playbackRate": 0.8888888888888888,
+      "playbackRate": 0.9411764705882353,
       "imageAvailable": true,
       "imageVersion": "36602e941a30dfb0",
       "available": true,
@@ -429,13 +429,13 @@
       "transitionOut": "cut",
       "wordFrom": 150,
       "wordTo": 162,
-      "startFrame": 4003,
+      "startFrame": 3711,
       "source": "texas-ten-thousand-steps/shots/16-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
-      "durationFrames": 333,
+      "durationFrames": 314,
       "sourcePlaybackDuration": 4,
-      "playbackRate": 0.7207207207207208,
+      "playbackRate": 0.7643312101910827,
       "imageAvailable": true,
       "imageVersion": "a4eaff162e21708c",
       "available": true,
@@ -456,13 +456,13 @@
       "transitionOut": "cut",
       "wordFrom": 162,
       "wordTo": 167,
-      "startFrame": 4336,
+      "startFrame": 4025,
       "source": "texas-ten-thousand-steps/shots/17-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
-      "durationFrames": 139,
+      "durationFrames": 131,
       "sourcePlaybackDuration": 2.386166666666667,
-      "playbackRate": 1.03,
+      "playbackRate": 1.0929007633587788,
       "imageAvailable": true,
       "imageVersion": "f87019ea1d078227",
       "available": true,
@@ -483,13 +483,13 @@
       "transitionOut": "cut",
       "wordFrom": 167,
       "wordTo": 182,
-      "startFrame": 4475,
+      "startFrame": 4156,
       "source": "texas-ten-thousand-steps/shots/18-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
-      "durationFrames": 421,
+      "durationFrames": 397,
       "sourcePlaybackDuration": 4,
-      "playbackRate": 0.5700712589073634,
+      "playbackRate": 0.6045340050377834,
       "imageAvailable": true,
       "imageVersion": "c2cb3290c62faa4f",
       "available": true,
@@ -510,13 +510,13 @@
       "transitionOut": "cut",
       "wordFrom": 182,
       "wordTo": 193,
-      "startFrame": 4896,
+      "startFrame": 4553,
       "source": "texas-ten-thousand-steps/shots/19-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
-      "durationFrames": 254,
+      "durationFrames": 240,
       "sourcePlaybackDuration": 4,
-      "playbackRate": 0.9448818897637795,
+      "playbackRate": 1,
       "imageAvailable": true,
       "imageVersion": "a3078692085df30f",
       "available": true,
@@ -537,13 +537,13 @@
       "transitionOut": "ink-cover",
       "wordFrom": 193,
       "wordTo": 206,
-      "startFrame": 5150,
+      "startFrame": 4793,
       "source": "texas-ten-thousand-steps/shots/20-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
-      "durationFrames": 283,
+      "durationFrames": 267,
       "sourcePlaybackDuration": 4,
-      "playbackRate": 0.8480565371024735,
+      "playbackRate": 0.898876404494382,
       "imageAvailable": true,
       "imageVersion": "db75dedc06f5f4a3",
       "available": true,
@@ -564,13 +564,13 @@
       "transitionOut": "cut",
       "wordFrom": 206,
       "wordTo": 219,
-      "startFrame": 5433,
+      "startFrame": 5060,
       "source": "texas-ten-thousand-steps/shots/21-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
-      "durationFrames": 273,
+      "durationFrames": 258,
       "sourcePlaybackDuration": 4,
-      "playbackRate": 0.8791208791208791,
+      "playbackRate": 0.9302325581395349,
       "imageAvailable": true,
       "imageVersion": "9aa9ad34e894a90b",
       "available": true,
@@ -591,13 +591,13 @@
       "transitionOut": "cut",
       "wordFrom": 219,
       "wordTo": 223,
-      "startFrame": 5706,
+      "startFrame": 5318,
       "source": "texas-ten-thousand-steps/shots/22-x4.mp4",
       "sourceStart": 0.75,
       "sourceUnitDuration": 4,
-      "durationFrames": 92,
+      "durationFrames": 87,
       "sourcePlaybackDuration": 2.9,
-      "playbackRate": 1.8913043478260867,
+      "playbackRate": 2,
       "editorialReason": "Include the lowered wrist and subsequent upward attention in the short reaction cut.",
       "imageAvailable": true,
       "imageVersion": "2ca727d1829e3bd6",
@@ -619,13 +619,13 @@
       "transitionOut": "cut",
       "wordFrom": 223,
       "wordTo": 226,
-      "startFrame": 5798,
+      "startFrame": 5405,
       "source": "texas-ten-thousand-steps/shots/23-x4.mp4",
       "sourceStart": 2.6,
       "sourceUnitDuration": 4,
-      "durationFrames": 77,
+      "durationFrames": 73,
       "sourcePlaybackDuration": 1.35,
-      "playbackRate": 1.051948051948052,
+      "playbackRate": 1.1095890410958906,
       "editorialReason": "Skip the generated repeated wrist raise; retain the settled low arm and turn toward the open path.",
       "imageAvailable": true,
       "imageVersion": "13ebd5a3dd73f424",
@@ -647,13 +647,13 @@
       "transitionOut": "cut",
       "wordFrom": 226,
       "wordTo": 230,
-      "startFrame": 5875,
+      "startFrame": 5478,
       "source": "texas-ten-thousand-steps/shots/24-x4.mp4",
       "sourceStart": 0.6,
       "sourceUnitDuration": 4,
-      "durationFrames": 121,
+      "durationFrames": 114,
       "sourcePlaybackDuration": 2.07,
-      "playbackRate": 1.0264462809917354,
+      "playbackRate": 1.0894736842105264,
       "editorialReason": "Complete the stand and begin the first step before cutting away; omit the initial seated hold.",
       "imageAvailable": true,
       "imageVersion": "5764fa445acc8fa9",
@@ -675,13 +675,13 @@
       "transitionOut": "cut",
       "wordFrom": 230,
       "wordTo": 239,
-      "startFrame": 5996,
+      "startFrame": 5592,
       "source": "texas-ten-thousand-steps/shots/25-x4.mp4",
       "sourceStart": 1.65,
       "sourceUnitDuration": 4,
-      "durationFrames": 153,
+      "durationFrames": 144,
       "sourcePlaybackDuration": 2.65,
-      "playbackRate": 1.0392156862745099,
+      "playbackRate": 1.1041666666666667,
       "editorialReason": "Include the failed presentation, closing grin and lowered card; the default early excerpt missed the consequence.",
       "imageAvailable": true,
       "imageVersion": "b1a7d924c0a6a9c0",
@@ -703,13 +703,13 @@
       "transitionOut": "cut",
       "wordFrom": 239,
       "wordTo": 242,
-      "startFrame": 6149,
+      "startFrame": 5736,
       "source": "texas-ten-thousand-steps/shots/26-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
-      "durationFrames": 95,
+      "durationFrames": 90,
       "sourcePlaybackDuration": 1.6308333333333334,
-      "playbackRate": 1.03,
+      "playbackRate": 1.0872222222222223,
       "imageAvailable": true,
       "imageVersion": "4bb7bb3884ef5b61",
       "available": true,
@@ -730,13 +730,13 @@
       "transitionOut": "cut",
       "wordFrom": 242,
       "wordTo": 248,
-      "startFrame": 6244,
+      "startFrame": 5826,
       "source": "texas-ten-thousand-steps/shots/27-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
-      "durationFrames": 144,
+      "durationFrames": 136,
       "sourcePlaybackDuration": 2.472,
-      "playbackRate": 1.03,
+      "playbackRate": 1.0905882352941176,
       "imageAvailable": true,
       "imageVersion": "7c67d60812185b64",
       "available": true,
@@ -757,13 +757,13 @@
       "transitionOut": "cut",
       "wordFrom": 248,
       "wordTo": 255,
-      "startFrame": 6388,
+      "startFrame": 5962,
       "source": "texas-ten-thousand-steps/shots/28-x4.mp4",
       "sourceStart": 0.125,
       "sourceUnitDuration": 4,
-      "durationFrames": 212,
+      "durationFrames": 200,
       "sourcePlaybackDuration": 3.639333333333333,
-      "playbackRate": 1.03,
+      "playbackRate": 1.0917999999999999,
       "imageAvailable": true,
       "imageVersion": "1670f44fa417cee6",
       "available": true,
@@ -777,1531 +777,1531 @@
     {
       "text": "Keep",
       "start": 0,
-      "end": 0.2792181890706023,
+      "end": 0.26376330775673135,
       "speaker": "banker"
     },
     {
       "text": "walking.",
-      "start": 0.36298364579178305,
-      "end": 1.20063821300359,
+      "start": 0.34289230008375077,
+      "end": 1.1341822233539447,
       "speaker": "banker"
     },
     {
       "text": "You",
-      "start": 1.3960909453530115,
-      "end": 1.4798564020741922,
+      "start": 1.3188165387836566,
+      "end": 1.397945531110676,
       "speaker": "banker"
     },
     {
       "text": "are",
-      "start": 1.5357000398883127,
-      "end": 1.6473873155165537,
+      "start": 1.4506981926620224,
+      "end": 1.556203515764715,
       "speaker": "banker"
     },
     {
       "text": "only",
-      "start": 1.7311527722377344,
-      "end": 2.0662145991224574,
+      "start": 1.6353325080917345,
+      "end": 1.9518484773998122,
       "speaker": "banker"
     },
     {
       "text": "at",
-      "start": 2.149980055843638,
-      "end": 2.2616673314718785,
+      "start": 2.0309774697268312,
+      "end": 2.136482792829524,
       "speaker": "banker"
     },
     {
       "text": "eight",
-      "start": 2.3454327881930594,
-      "end": 2.568807339449541,
+      "start": 2.2156117851565433,
+      "end": 2.426622431361928,
       "speaker": "banker"
     },
     {
       "text": "thousand",
-      "start": 2.624650977263662,
-      "end": 2.9876346230554445,
+      "start": 2.4793750929132745,
+      "end": 2.8222673929970252,
       "speaker": "banker"
     },
     {
       "text": "four",
-      "start": 3.0714000797766254,
-      "end": 3.266852812126047,
+      "start": 2.9013963853240448,
+      "end": 3.0860307007537564,
       "speaker": "banker"
     },
     {
       "text": "hundred.",
-      "start": 3.3226964499401674,
-      "end": 4.160351017151974,
+      "start": 3.138783362305103,
+      "end": 3.930073285575297,
       "speaker": "banker"
     },
     {
       "text": "I've",
-      "start": 4.512165935380933,
-      "end": 4.623853211009174,
+      "start": 4.262415053348779,
+      "end": 4.358855916739029,
       "speaker": "javelina"
     },
     {
       "text": "been",
-      "start": 4.651775029916235,
-      "end": 4.763462305544476,
+      "start": 4.382870979091193,
+      "end": 4.478931228499844,
       "speaker": "javelina"
     },
     {
       "text": "walking",
-      "start": 4.8193059433585965,
-      "end": 5.182289589150378,
+      "start": 4.52696135320417,
+      "end": 4.8391571637822866,
       "speaker": "javelina"
     },
     {
       "text": "all",
-      "start": 5.2381332269645,
-      "end": 5.4335859593139215,
+      "start": 4.887187288486614,
+      "end": 5.055292724951754,
       "speaker": "javelina"
     },
     {
       "text": "evening.",
-      "start": 5.489429597128042,
-      "end": 6.019944156362187,
+      "start": 5.103322849656079,
+      "end": 5.559609034347176,
       "speaker": "javelina"
     },
     {
       "text": "What",
-      "start": 6.394096529716792,
-      "end": 6.533705624252094,
+      "start": 5.881410869866158,
+      "end": 6.001486181626973,
       "speaker": "javelina"
     },
     {
       "text": "happens",
-      "start": 6.589549262066215,
-      "end": 6.952532907857997,
+      "start": 6.049516306331299,
+      "end": 6.361712116909416,
       "speaker": "javelina"
     },
     {
       "text": "if",
-      "start": 6.980454726765058,
-      "end": 7.064220183486238,
+      "start": 6.385727179261579,
+      "end": 6.457772366318068,
       "speaker": "javelina"
     },
     {
       "text": "I",
-      "start": 7.120063821300359,
-      "end": 7.231751096928599,
+      "start": 6.5058024910223935,
+      "end": 6.601862740431045,
       "speaker": "javelina"
     },
     {
       "text": "stop?",
-      "start": 7.287594734742721,
-      "end": 8.153171120861588,
+      "start": 6.649892865135373,
+      "end": 7.394359798052422,
       "speaker": "javelina"
     },
     {
       "text": "Sixteen",
-      "start": 8.560829676904667,
-      "end": 9.03550059832469,
+      "start": 7.744979708394,
+      "end": 8.192079821427539,
       "speaker": "banker"
     },
     {
       "text": "hundred",
-      "start": 9.091344236138813,
-      "end": 9.482249700837654,
+      "start": 8.244736729909878,
+      "end": 8.61333508928623,
       "speaker": "banker"
     },
     {
       "text": "more.",
-      "start": 9.538093338651775,
-      "end": 10.18029517351416,
+      "start": 8.665991997768566,
+      "end": 9.271546445315435,
       "speaker": "banker"
     },
     {
       "text": "Ten",
-      "start": 10.37574790586358,
-      "end": 10.599122457120064,
+      "start": 9.455845625003612,
+      "end": 9.666473258932959,
       "speaker": "banker"
     },
     {
       "text": "thousand",
-      "start": 10.654966094934183,
-      "end": 11.073793378540087,
+      "start": 9.719130167415294,
+      "end": 10.114056981032817,
       "speaker": "banker"
     },
     {
       "text": "steps",
-      "start": 11.157558835261268,
-      "end": 11.52054248105305,
+      "start": 10.193042343756321,
+      "end": 10.535312248891508,
       "speaker": "banker"
     },
     {
       "text": "a",
-      "start": 11.576386118867172,
-      "end": 11.63222975668129,
+      "start": 10.587969157373845,
+      "end": 10.64062606585618,
       "speaker": "banker"
     },
     {
       "text": "day.",
-      "start": 11.688073394495413,
-      "end": 12.218587953729557,
+      "start": 10.69328297433852,
+      "end": 11.193523604920713,
       "speaker": "banker"
     },
     {
       "text": "Everybody",
-      "start": 12.414040686078978,
-      "end": 13.000398883127245,
+      "start": 11.377822784608892,
+      "end": 11.930720323673425,
       "speaker": "banker"
     },
     {
       "text": "knows",
-      "start": 13.056242520941366,
-      "end": 13.335460710011969,
+      "start": 11.983377232155762,
+      "end": 12.246661774567444,
       "speaker": "banker"
     },
     {
       "text": "the",
-      "start": 13.391304347826088,
-      "end": 13.47506980454727,
+      "start": 12.29931868304978,
+      "end": 12.378304045773284,
       "speaker": "banker"
     },
     {
       "text": "rule.",
-      "start": 13.558835261268449,
-      "end": 14.340646190666135,
+      "start": 12.457289408496788,
+      "end": 13.194486127249498,
       "speaker": "banker"
     },
     {
       "text": "Everybody?",
-      "start": 14.692461108895095,
-      "end": 15.36258476266454,
+      "start": 13.526224650688219,
+      "end": 14.103783528408426,
       "speaker": "javelina"
     },
     {
       "text": "Did",
-      "start": 15.446350219385723,
-      "end": 15.558037495013963,
+      "start": 14.175901125763053,
+      "end": 14.272057922235888,
       "speaker": "javelina"
     },
     {
       "text": "a",
-      "start": 15.585959313921023,
-      "end": 15.613881132828082,
+      "start": 14.296097121354096,
+      "end": 14.320136320472304,
       "speaker": "javelina"
     },
     {
       "text": "doctor",
-      "start": 15.669724770642203,
-      "end": 16.060630235341048,
+      "start": 14.368214718708721,
+      "end": 14.704763506363644,
       "speaker": "javelina"
     },
     {
       "text": "choose",
-      "start": 16.11647387315517,
-      "end": 16.36777024331871,
+      "start": 14.752841904600063,
+      "end": 14.969194696663939,
       "speaker": "javelina"
     },
     {
       "text": "that",
-      "start": 16.42361388113283,
-      "end": 16.59114479457519,
+      "start": 15.017273094900355,
+      "end": 15.161508289609607,
       "speaker": "javelina"
     },
     {
       "text": "number?",
-      "start": 16.64698843238931,
-      "end": 17.065815715995214,
+      "start": 15.209586687846024,
+      "end": 15.570174674619153,
       "speaker": "javelina"
     },
     {
       "text": "A",
-      "start": 17.233346629437577,
-      "end": 17.289190267251694,
+      "start": 15.714409869328406,
+      "end": 15.762488267564821,
       "speaker": "javelina"
     },
     {
       "text": "scientist?",
-      "start": 17.37295572397288,
-      "end": 18.07100119664938,
+      "start": 15.834605864919451,
+      "end": 16.435585842874666,
       "speaker": "javelina"
     },
     {
       "text": "Who",
-      "start": 18.389309932189867,
-      "end": 18.50099720781811,
+      "start": 16.70963271282224,
+      "end": 16.805789509295078,
       "speaker": "javelina"
     },
     {
       "text": "actually",
-      "start": 18.556840845632234,
-      "end": 18.947746310331073,
+      "start": 16.853867907531498,
+      "end": 17.190416695186418,
       "speaker": "javelina"
     },
     {
       "text": "checked?",
-      "start": 19.003589948145194,
-      "end": 19.952931790985243,
+      "start": 17.238495093422834,
+      "end": 18.05582786344193,
       "speaker": "javelina"
     },
     {
       "text": "Look",
-      "start": 20.332668528121264,
-      "end": 20.472277622656563,
+      "start": 18.38276097144957,
+      "end": 18.514465493939596,
       "speaker": "banker"
     },
     {
       "text": "at",
-      "start": 20.500199441563623,
-      "end": 20.556043079377744,
+      "start": 18.540817411382,
+      "end": 18.593521246266814,
       "speaker": "banker"
     },
     {
       "text": "your",
-      "start": 20.611886717191865,
-      "end": 20.751495811727168,
+      "start": 18.646225081151627,
+      "end": 18.777984668363658,
       "speaker": "banker"
     },
     {
       "text": "watch.",
-      "start": 20.835261268448345,
-      "end": 21.589150378938974,
+      "start": 18.857040420690875,
+      "end": 19.568542191635846,
       "speaker": "banker"
     },
     {
       "text": "That",
-      "start": 21.756681292381334,
-      "end": 21.924212205823697,
+      "start": 19.72665369629028,
+      "end": 19.88476520094472,
       "speaker": "banker"
     },
     {
       "text": "little",
-      "start": 21.980055843637818,
-      "end": 22.203430394894298,
+      "start": 19.937469035829533,
+      "end": 20.14828437536878,
       "speaker": "banker"
     },
     {
       "text": "thing",
-      "start": 22.315117670522536,
-      "end": 22.56641404068608,
+      "start": 20.253692045138404,
+      "end": 20.490859302120064,
       "speaker": "banker"
     },
     {
       "text": "knows",
-      "start": 22.65017949740726,
-      "end": 22.957319505384927,
+      "start": 20.569915054447282,
+      "end": 20.859786146313752,
       "speaker": "banker"
     },
     {
       "text": "what",
-      "start": 23.013163143199044,
-      "end": 23.152772237734343,
+      "start": 20.91248998119856,
+      "end": 21.044249568410592,
       "speaker": "banker"
     },
     {
       "text": "you",
-      "start": 23.208615875548464,
-      "end": 23.292381332269645,
+      "start": 21.096953403295405,
+      "end": 21.176009155622623,
       "speaker": "banker"
     },
     {
       "text": "need.",
-      "start": 23.348224970083766,
-      "end": 24.130035899481452,
+      "start": 21.228712990507436,
+      "end": 21.96656667889481,
       "speaker": "banker"
     },
     {
       "text": "Then",
-      "start": 24.481850817710413,
-      "end": 24.649381731152772,
+      "start": 22.29860083866913,
+      "end": 22.44322658010966,
       "speaker": "javelina"
     },
     {
       "text": "who",
-      "start": 24.677303550059836,
-      "end": 24.788990825688074,
+      "start": 22.46731080305319,
+      "end": 22.563647694827313,
       "speaker": "javelina"
     },
     {
       "text": "told",
-      "start": 24.844834463502195,
-      "end": 25.012365376944558,
+      "start": 22.611816140714375,
+      "end": 22.756321478375558,
       "speaker": "javelina"
     },
     {
       "text": "the",
-      "start": 25.04028719585162,
-      "end": 25.09613083366574,
+      "start": 22.78040570131909,
+      "end": 22.82857414720615,
       "speaker": "javelina"
     },
     {
       "text": "watch?",
-      "start": 25.15197447147986,
-      "end": 25.5428799361787,
+      "start": 22.876742593093212,
+      "end": 23.21392171430264,
       "speaker": "javelina"
     },
     {
       "text": "Where",
-      "start": 25.861188671719187,
-      "end": 25.97287594734743,
+      "start": 23.488481855858886,
+      "end": 23.584818747633012,
       "speaker": "javelina"
     },
     {
       "text": "did",
-      "start": 26.00079776625449,
-      "end": 26.11248504188273,
+      "start": 23.60890297057654,
+      "end": 23.705239862350666,
       "speaker": "javelina"
     },
     {
       "text": "its",
-      "start": 26.14040686078979,
-      "end": 26.252094136418034,
+      "start": 23.729324085294195,
+      "end": 23.82566097706832,
       "speaker": "javelina"
     },
     {
       "text": "rule",
-      "start": 26.307937774232155,
-      "end": 26.559234144395692,
+      "start": 23.87382942295538,
+      "end": 24.09058742944715,
       "speaker": "javelina"
     },
     {
       "text": "come",
-      "start": 26.615077782209816,
-      "end": 26.838452333466297,
+      "start": 24.13875587533422,
+      "end": 24.33142965888246,
       "speaker": "javelina"
     },
     {
       "text": "from?",
-      "start": 26.894295971280417,
-      "end": 27.648185081771043,
+      "start": 24.37959810476952,
+      "end": 25.02987212424485,
       "speaker": "javelina"
     },
     {
       "text": "Tokyo.",
-      "start": 28,
-      "end": 28.608155765190755,
+      "start": 25.333333333333332,
+      "end": 25.906233691846364,
       "speaker": "narrator"
     },
     {
       "text": "Nineteen",
-      "start": 28.687480430215636,
-      "end": 29.136986865356633,
+      "start": 25.980959825565453,
+      "end": 26.404407916640306,
       "speaker": "narrator"
     },
     {
       "text": "sixty-four.",
-      "start": 29.216311530381514,
-      "end": 30.22109062069668,
+      "start": 26.479134050359395,
+      "end": 27.425665077467883,
       "speaker": "narrator"
     },
     {
       "text": "Olympic",
-      "start": 30.37973995074644,
-      "end": 30.749921720862556,
+      "start": 27.575117344906065,
+      "end": 27.923839302261825,
       "speaker": "narrator"
     },
     {
       "text": "fever",
-      "start": 30.829246385887437,
-      "end": 31.120103490978668,
+      "start": 27.998565435980918,
+      "end": 28.272561259617586,
       "speaker": "narrator"
     },
     {
       "text": "fills",
-      "start": 31.19942815600355,
-      "end": 31.490285261094783,
+      "start": 28.347287393336675,
+      "end": 28.621283216973346,
       "speaker": "narrator"
     },
     {
       "text": "the",
-      "start": 31.54316837111137,
-      "end": 31.596051481127954,
+      "start": 28.67110063945274,
+      "end": 28.72091806193213,
       "speaker": "narrator"
     },
     {
       "text": "streets.",
-      "start": 31.67537614615284,
-      "end": 32.44218124139336,
+      "start": 28.795644195651224,
+      "end": 29.517996821602438,
       "speaker": "narrator"
     },
     {
       "text": "A",
-      "start": 32.60083057144312,
-      "end": 32.653713681459706,
+      "start": 29.66745051846611,
+      "end": 29.717358953544263,
       "speaker": "narrator"
     },
     {
       "text": "clock",
-      "start": 32.706596791476294,
-      "end": 33.02389545157582,
+      "start": 29.767267388622418,
+      "end": 30.066717999091345,
       "speaker": "narrator"
     },
     {
       "text": "company",
-      "start": 33.076778561592405,
-      "end": 33.42051877670023,
+      "start": 30.1166264341695,
+      "end": 30.441031262177507,
       "speaker": "narrator"
     },
     {
       "text": "has",
-      "start": 33.473401886716815,
-      "end": 33.60560966175829,
+      "start": 30.490939697255662,
+      "end": 30.615710784951048,
       "speaker": "narrator"
     },
     {
       "text": "a",
-      "start": 33.63205121676658,
-      "end": 33.658492771774874,
+      "start": 30.640665002490124,
+      "end": 30.665619220029203,
       "speaker": "narrator"
     },
     {
       "text": "little",
-      "start": 33.711375881791454,
-      "end": 33.896466766849514,
+      "start": 30.71552765510735,
+      "end": 30.890207177880896,
       "speaker": "narrator"
     },
     {
       "text": "box",
-      "start": 33.9493498768661,
-      "end": 34.29309009197392,
+      "start": 30.94011561295905,
+      "end": 31.264520440967058,
       "speaker": "narrator"
     },
     {
       "text": "to",
-      "start": 34.34597320199051,
-      "end": 34.42529786701539,
+      "start": 31.314428876045213,
+      "end": 31.38929152866244,
       "speaker": "narrator"
     },
     {
       "text": "sell.",
-      "start": 34.50462253204027,
-      "end": 35.11277829723103,
+      "start": 31.464154181279675,
+      "end": 32.03810118467845,
       "speaker": "narrator"
     },
     {
       "text": "In",
-      "start": 35.271427627280794,
-      "end": 35.32431073729738,
+      "start": 32.18781641686881,
+      "end": 32.23761296404396,
       "speaker": "narrator"
     },
     {
       "text": "nineteen",
-      "start": 35.37719384731397,
-      "end": 35.77381717243838,
+      "start": 32.28740951121912,
+      "end": 32.660883615032766,
       "speaker": "narrator"
     },
     {
       "text": "sixty-five,",
-      "start": 35.853141837463255,
-      "end": 36.56706382268719,
+      "start": 32.73557843579549,
+      "end": 33.40783182266005,
       "speaker": "narrator"
     },
     {
       "text": "Yamasa",
-      "start": 36.64638848771207,
-      "end": 37.12233647786136,
+      "start": 33.48252664342278,
+      "end": 33.93069556799915,
       "speaker": "narrator"
     },
     {
       "text": "calls",
-      "start": 37.17521958787795,
-      "end": 37.43963513796089,
+      "start": 33.9804921151743,
+      "end": 34.22947485105007,
       "speaker": "narrator"
     },
     {
       "text": "it",
-      "start": 37.466076692969175,
-      "end": 37.51895980298576,
+      "start": 34.25437312463764,
+      "end": 34.304169671812794,
       "speaker": "narrator"
     },
     {
       "text": "the",
-      "start": 37.57184291300236,
-      "end": 37.624726023018944,
+      "start": 34.35396621898795,
+      "end": 34.403762766163105,
       "speaker": "narrator"
     },
     {
       "text": "ten-thousand-step",
-      "start": 37.70405068804383,
-      "end": 38.73527133336728,
+      "start": 34.478457586925835,
+      "end": 35.4494902568413,
       "speaker": "narrator"
     },
     {
       "text": "meter.",
-      "start": 38.78815444338386,
-      "end": 39.36986865356633,
+      "start": 35.49928680401645,
+      "end": 36.04704882294313,
       "speaker": "narrator"
     },
     {
       "text": "A",
-      "start": 39.554959538624395,
-      "end": 39.607842648640975,
+      "start": 36.2213404705555,
+      "end": 36.271176817032035,
       "speaker": "narrator"
     },
     {
       "text": "neat",
-      "start": 39.66072575865756,
-      "end": 39.89869975373221,
+      "start": 36.321013163508574,
+      "end": 36.54527672265299,
       "speaker": "narrator"
     },
     {
       "text": "number.",
-      "start": 39.9515828637488,
-      "end": 40.48041396391467,
+      "start": 36.59511306912953,
+      "end": 37.0934765338949,
       "speaker": "narrator"
     },
     {
       "text": "A",
-      "start": 40.639063293964426,
-      "end": 40.69194640398102,
+      "start": 37.2429855733245,
+      "end": 37.29282191980105,
       "speaker": "narrator"
     },
     {
       "text": "memorable",
-      "start": 40.744829513997615,
-      "end": 41.194335949138605,
+      "start": 37.342658266277596,
+      "end": 37.766267211328156,
       "speaker": "narrator"
     },
     {
       "text": "symbol.",
-      "start": 41.30010216917177,
-      "end": 41.90825793436254,
+      "start": 37.86593990428122,
+      "end": 38.43905788876141,
       "speaker": "narrator"
     },
     {
       "text": "An",
-      "start": 42.040465709404,
-      "end": 42.17267348444547,
+      "start": 38.56364875495275,
+      "end": 38.688239621144085,
       "speaker": "narrator"
     },
     {
       "text": "easy",
-      "start": 42.27843970447865,
-      "end": 42.64862147459476,
+      "start": 38.78791231409717,
+      "end": 39.13676673943293,
       "speaker": "narrator"
     },
     {
       "text": "slogan.",
-      "start": 42.75438769462794,
-      "end": 43.49475123486016,
+      "start": 39.236439432386,
+      "end": 39.934148283057525,
       "speaker": "narrator"
     },
     {
       "text": "But",
-      "start": 43.600517454893335,
-      "end": 43.70628367492652,
+      "start": 40.033820935059744,
+      "end": 40.13348525778332,
       "speaker": "narrator"
     },
     {
       "text": "the",
-      "start": 43.73272522993481,
-      "end": 43.83849144996798,
+      "start": 40.15840133846421,
+      "end": 40.25806566118777,
       "speaker": "narrator"
     },
     {
       "text": "origin",
-      "start": 43.91781611499287,
-      "end": 44.473088770167024,
+      "start": 40.33281390323045,
+      "end": 40.85605159752918,
       "speaker": "narrator"
     },
     {
       "text": "is",
-      "start": 44.52597188018362,
-      "end": 44.63173810021679,
+      "start": 40.90588375889097,
+      "end": 41.00554808161454,
       "speaker": "narrator"
     },
     {
       "text": "messier.",
-      "start": 44.71106276524168,
-      "end": 45.53075097049878,
+      "start": 41.08029632365722,
+      "end": 41.852694824764875,
       "speaker": "narrator"
     },
     {
       "text": "Yamasa",
-      "start": 45.68940030054855,
-      "end": 46.16534829069784,
+      "start": 42.00219130885023,
+      "end": 42.4506807611063,
       "speaker": "narrator"
     },
     {
       "text": "credits",
-      "start": 46.21823140071443,
-      "end": 46.53553006081395,
+      "start": 42.50051292246808,
+      "end": 42.799505890638784,
       "speaker": "narrator"
     },
     {
       "text": "an",
-      "start": 46.561971615822245,
-      "end": 46.64129628084713,
+      "start": 42.82442197131967,
+      "end": 42.89917021336235,
       "speaker": "narrator"
     },
     {
       "text": "earlier",
-      "start": 46.747062500880304,
-      "end": 47.14368582600471,
+      "start": 42.99883453608592,
+      "end": 43.37257574629931,
       "speaker": "narrator"
     },
     {
       "text": "walking",
-      "start": 47.19656893602129,
-      "end": 47.540309151129115,
+      "start": 43.42240790766109,
+      "end": 43.746316956512686,
       "speaker": "narrator"
     },
     {
       "text": "campaign",
-      "start": 47.5931922611457,
-      "end": 48.12202336131158,
+      "start": 43.79614911787447,
+      "end": 44.29447073149232,
       "speaker": "narrator"
     },
     {
       "text": "involving",
-      "start": 48.17490647132816,
-      "end": 48.70373757149403,
+      "start": 44.344302892854095,
+      "end": 44.842624506471935,
       "speaker": "narrator"
     },
     {
       "text": "doctors",
-      "start": 48.756620681510626,
-      "end": 49.25901022666821,
+      "start": 44.89245666783373,
+      "end": 45.36586220077068,
       "speaker": "narrator"
     },
     {
       "text": "and",
-      "start": 49.3118933366848,
-      "end": 49.39121800170968,
+      "start": 45.41569436213246,
+      "end": 45.49044260417514,
       "speaker": "narrator"
     },
     {
       "text": "journalists.",
-      "start": 49.44410111172627,
-      "end": 50.39599709202485,
+      "start": 45.54027476553693,
+      "end": 46.43725367004905,
       "speaker": "narrator"
     },
     {
       "text": "A",
-      "start": 50.52820486706632,
-      "end": 50.5810879770829,
+      "start": 46.56183407345352,
+      "end": 46.61170540650631,
       "speaker": "narrator"
     },
     {
       "text": "campaign",
-      "start": 50.63397108709948,
-      "end": 51.18924374227366,
+      "start": 46.661580946284985,
+      "end": 47.18527411396111,
       "speaker": "narrator"
     },
     {
       "text": "goal",
-      "start": 51.24212685229025,
-      "end": 51.506542402373185,
+      "start": 47.23514965373978,
+      "end": 47.484527352633165,
       "speaker": "narrator"
     },
     {
       "text": "still",
-      "start": 51.559425512389765,
-      "end": 51.79739950746442,
+      "start": 47.53440289241184,
+      "end": 47.7588428214159,
       "speaker": "narrator"
     },
     {
       "text": "isn't",
-      "start": 51.85028261748101,
-      "end": 52.06181505754735,
+      "start": 47.80871836119457,
+      "end": 48.00822052030927,
       "speaker": "narrator"
     },
     {
       "text": "a",
-      "start": 52.08825661255564,
-      "end": 52.141139722572234,
+      "start": 48.03315829019861,
+      "end": 48.083033829977296,
       "speaker": "narrator"
     },
     {
       "text": "biological",
-      "start": 52.22046438759712,
-      "end": 53.04015259285423,
+      "start": 48.15784713964531,
+      "end": 48.93091800621481,
       "speaker": "narrator"
     },
     {
       "text": "boundary.",
-      "start": 53.09303570287081,
-      "end": 53.85984079811132,
+      "start": 48.980793545993485,
+      "end": 49.7039888727843,
       "speaker": "narrator"
     },
     {
       "text": "Advertisements",
-      "start": 54.04493168316939,
-      "end": 54.86461988842649,
+      "start": 49.87855326200968,
+      "end": 50.65300867619147,
       "speaker": "narrator"
     },
     {
       "text": "repeat",
-      "start": 54.91750299844308,
-      "end": 55.2612432135509,
+      "start": 50.70297409737955,
+      "end": 51.027749335102115,
       "speaker": "narrator"
     },
     {
       "text": "it.",
-      "start": 55.314126323567486,
-      "end": 55.57854187365042,
+      "start": 51.0777147562902,
+      "end": 51.32754186223063,
       "speaker": "narrator"
     },
     {
       "text": "Walking",
-      "start": 55.71074964869189,
-      "end": 56.054489863799716,
+      "start": 51.452455415200845,
+      "end": 51.777230652923414,
       "speaker": "narrator"
     },
     {
       "text": "clubs.",
-      "start": 56.1338145288246,
-      "end": 56.58332096396559,
+      "start": 51.85217878470554,
+      "end": 52.27688486480427,
       "speaker": "narrator"
     },
     {
       "text": "Magazines.",
-      "start": 56.662645628990475,
-      "end": 57.455892279239286,
+      "start": 52.3518329965864,
+      "end": 53.101314314407695,
       "speaker": "narrator"
     },
     {
       "text": "Fitness",
-      "start": 57.561658499272454,
-      "end": 57.878957159371986,
+      "start": 53.20124515678386,
+      "end": 53.50103768391239,
       "speaker": "narrator"
     },
     {
       "text": "trackers.",
-      "start": 57.93184026938858,
-      "end": 58.698645364629094,
+      "start": 53.55100310510048,
+      "end": 54.275501712327724,
       "speaker": "narrator"
     },
     {
       "text": "Soon,",
-      "start": 58.883736249687146,
-      "end": 59.22747646479497,
+      "start": 54.450380755954356,
+      "end": 54.775215259231246,
       "speaker": "narrator"
     },
     {
       "text": "the",
-      "start": 59.280359574811555,
-      "end": 59.35968423983644,
+      "start": 54.825189798196924,
+      "end": 54.90015160664544,
       "speaker": "narrator"
     },
     {
       "text": "same",
-      "start": 59.439008904861325,
-      "end": 59.72986600995255,
+      "start": 54.97511341509396,
+      "end": 55.24997337940516,
       "speaker": "narrator"
     },
     {
       "text": "target",
-      "start": 59.78274911996915,
-      "end": 60.17937244509355,
+      "start": 55.29994791837085,
+      "end": 55.67475696061341,
       "speaker": "narrator"
     },
     {
       "text": "glows",
-      "start": 60.232255555110136,
-      "end": 60.54955421520966,
+      "start": 55.72473149957908,
+      "end": 56.02457873337313,
       "speaker": "narrator"
     },
     {
       "text": "on",
-      "start": 60.57599577021796,
-      "end": 60.73464510026771,
+      "start": 56.049566002855975,
+      "end": 56.19948961975299,
       "speaker": "narrator"
     },
     {
       "text": "wrists",
-      "start": 60.8139697652926,
-      "end": 61.10482687038383,
+      "start": 56.27445142820151,
+      "end": 56.54931139251272,
       "speaker": "narrator"
     },
     {
       "text": "everywhere.",
-      "start": 61.15770998040042,
-      "end": 62.03028129567411,
+      "start": 56.5992859314784,
+      "end": 57.42386582441203,
       "speaker": "narrator"
     },
     {
       "text": "Repeated",
-      "start": 62.21537218073217,
-      "end": 62.664878615873164,
+      "start": 57.5987767107919,
+      "end": 58.02331128536169,
       "speaker": "narrator"
     },
     {
       "text": "long",
-      "start": 62.71776172588975,
-      "end": 62.95573572096439,
+      "start": 58.0732564448218,
+      "end": 58.298009662392296,
       "speaker": "narrator"
     },
     {
       "text": "enough,",
-      "start": 62.982177275972695,
-      "end": 63.29947593607221,
+      "start": 58.32298224212236,
+      "end": 58.622653198883015,
       "speaker": "narrator"
     },
     {
       "text": "a",
-      "start": 63.40524215610538,
-      "end": 63.431683711113685,
+      "start": 58.72254351780323,
+      "end": 58.74751609753329,
       "speaker": "narrator"
     },
     {
       "text": "convenient",
-      "start": 63.484566821130265,
-      "end": 64.03983947630444,
+      "start": 58.7974612569934,
+      "end": 59.32188543132456,
       "speaker": "narrator"
     },
     {
       "text": "target",
-      "start": 64.09272258632103,
-      "end": 64.51578746645373,
+      "start": 59.371830590784676,
+      "end": 59.77139186646556,
       "speaker": "narrator"
     },
     {
       "text": "starts",
-      "start": 64.56867057647031,
-      "end": 64.91241079157814,
+      "start": 59.821337025925665,
+      "end": 60.14598056241639,
       "speaker": "narrator"
     },
     {
       "text": "to",
-      "start": 64.96529390159472,
-      "end": 65.0446185666196,
+      "start": 60.19592572187649,
+      "end": 60.27084346106666,
       "speaker": "narrator"
     },
     {
       "text": "sound",
-      "start": 65.12394323164449,
-      "end": 65.44124189174401,
+      "start": 60.34576120025683,
+      "end": 60.645432157017495,
       "speaker": "narrator"
     },
     {
       "text": "compulsory.",
-      "start": 65.4941250017606,
-      "end": 66.55178720209236,
+      "start": 60.6953773164776,
+      "end": 61.694280505679814,
       "speaker": "narrator"
     },
     {
       "text": "In",
-      "start": 66.71043653214211,
-      "end": 66.789761197167,
+      "start": 61.84411598406014,
+      "end": 61.918923971703016,
       "speaker": "narrator"
     },
     {
       "text": "twenty",
-      "start": 66.84264430718358,
-      "end": 67.1070598572665,
+      "start": 61.96878972709402,
+      "end": 62.218118504049094,
       "speaker": "narrator"
     },
     {
       "text": "nineteen,",
-      "start": 67.15994296728311,
-      "end": 67.79454028748216,
+      "start": 62.267984259440134,
+      "end": 62.86637332413233,
       "speaker": "narrator"
     },
     {
       "text": "researchers",
-      "start": 67.92674806252363,
-      "end": 68.4555791626895,
+      "start": 62.99103771260987,
+      "end": 63.48969526652003,
       "speaker": "narrator"
     },
     {
       "text": "studying",
-      "start": 68.50846227270608,
-      "end": 68.90508559783049,
+      "start": 63.53956102191104,
+      "end": 63.913554187343664,
       "speaker": "narrator"
     },
     {
       "text": "older",
-      "start": 68.98441026285538,
-      "end": 69.3017089229549,
+      "start": 63.988352820430194,
+      "end": 64.2875473527763,
       "speaker": "narrator"
     },
     {
       "text": "women",
-      "start": 69.35459203297148,
-      "end": 69.64544913806272,
+      "start": 64.3374131081673,
+      "end": 64.6116747628179,
       "speaker": "narrator"
     },
     {
       "text": "found",
-      "start": 69.7247738030876,
-      "end": 70.01563090817882,
+      "start": 64.68647339590443,
+      "end": 64.960735050555,
       "speaker": "narrator"
     },
     {
       "text": "benefits",
-      "start": 70.06851401819543,
-      "end": 70.570903563353,
+      "start": 65.01060080594604,
+      "end": 65.48432548216068,
       "speaker": "narrator"
     },
     {
       "text": "below",
-      "start": 70.62378667336961,
-      "end": 70.88820222345254,
+      "start": 65.53419123755172,
+      "end": 65.78352001450679,
       "speaker": "narrator"
     },
     {
       "text": "ten",
-      "start": 70.96752688847741,
-      "end": 71.20550088355205,
+      "start": 65.85831864759331,
+      "end": 66.08271454685288,
       "speaker": "narrator"
     },
     {
       "text": "thousand.",
-      "start": 71.28482554857695,
-      "end": 72.13095530884233,
+      "start": 66.15751317993943,
+      "end": 66.95536526619567,
       "speaker": "narrator"
     },
     {
       "text": "That",
-      "start": 72.2631630838838,
-      "end": 72.42181241393357,
+      "start": 67.08002965467321,
+      "end": 67.22954982895897,
       "speaker": "narrator"
     },
     {
       "text": "wasn't",
-      "start": 72.47469552395017,
-      "end": 72.71266951902481,
+      "start": 67.2793893067444,
+      "end": 67.50366695677877,
       "speaker": "narrator"
     },
     {
       "text": "evidence",
-      "start": 72.79199418404967,
-      "end": 73.21505906418238,
+      "start": 67.57842617345688,
+      "end": 67.97714199574023,
       "speaker": "narrator"
     },
     {
       "text": "for",
-      "start": 73.26794217419898,
-      "end": 73.40014994924044,
+      "start": 68.02698147352565,
+      "end": 68.1515801679892,
       "speaker": "narrator"
     },
     {
       "text": "everybody.",
-      "start": 73.45303305925702,
-      "end": 74.40492903955561,
+      "start": 68.2014196457746,
+      "end": 69.09853024591212,
       "speaker": "narrator"
     },
     {
       "text": "A",
-      "start": 74.59001992461367,
-      "end": 74.61646147962196,
+      "start": 69.27297207459611,
+      "end": 69.2979062725493,
       "speaker": "narrator"
     },
     {
       "text": "twenty",
-      "start": 74.66934458963854,
-      "end": 74.93376013972147,
+      "start": 69.34777466845567,
+      "end": 69.59711664798755,
       "speaker": "narrator"
     },
     {
       "text": "twenty-five",
-      "start": 74.98664324973808,
-      "end": 75.59479901492882,
+      "start": 69.64698504389395,
+      "end": 70.22047159681729,
       "speaker": "narrator"
     },
     {
       "text": "review",
-      "start": 75.64768212494542,
-      "end": 75.99142234005322,
+      "start": 70.27033999272368,
+      "end": 70.59448456611511,
       "speaker": "narrator"
     },
     {
       "text": "covered",
-      "start": 76.04430545006983,
-      "end": 76.30872100015276,
+      "start": 70.64435296202151,
+      "end": 70.89369494155339,
       "speaker": "narrator"
     },
     {
       "text": "fifty-seven",
-      "start": 76.41448722018593,
-      "end": 77.07552609539329,
+      "start": 70.99343173336615,
+      "end": 71.6167866821959,
       "speaker": "narrator"
     },
     {
       "text": "adult",
-      "start": 77.12840920540987,
-      "end": 77.44570786550938,
+      "start": 71.66665507810227,
+      "end": 71.96586545354052,
       "speaker": "narrator"
     },
     {
       "text": "studies.",
-      "start": 77.49859097552599,
-      "end": 78.3182791807831,
+      "start": 72.01573384944692,
+      "end": 72.78869398599578,
       "speaker": "narrator"
     },
     {
       "text": "Meaningful",
-      "start": 78.47692851083283,
-      "end": 78.95287650098214,
+      "start": 72.9382991737149,
+      "end": 73.38711473687232,
       "speaker": "narrator"
     },
     {
       "text": "health",
-      "start": 79.00575961099872,
-      "end": 79.24373360607336,
+      "start": 73.43698313277869,
+      "end": 73.66139091435738,
       "speaker": "narrator"
     },
     {
       "text": "benefits",
-      "start": 79.29661671608994,
-      "end": 79.77256470623925,
+      "start": 73.71125931026376,
+      "end": 74.16007487342118,
       "speaker": "narrator"
     },
     {
       "text": "appeared",
-      "start": 79.82544781625583,
-      "end": 80.14274647635537,
+      "start": 74.20994326932755,
+      "end": 74.50915364476583,
       "speaker": "narrator"
     },
     {
       "text": "at",
-      "start": 80.16918803136366,
-      "end": 80.22207114138024,
+      "start": 74.53408784271902,
+      "end": 74.58395623862539,
       "speaker": "narrator"
     },
     {
       "text": "lower",
-      "start": 80.27495425139684,
-      "end": 80.53936980147978,
+      "start": 74.63382463453178,
+      "end": 74.88316661406367,
       "speaker": "narrator"
     },
     {
       "text": "counts.",
-      "start": 80.61869446650465,
-      "end": 81.41194111675345,
+      "start": 74.95796920792323,
+      "end": 75.7059951465189,
       "speaker": "narrator"
     },
     {
       "text": "Seven",
-      "start": 81.59703200181153,
-      "end": 81.91433066191104,
+      "start": 75.88053453219123,
+      "end": 76.18033868317055,
       "speaker": "narrator"
     },
     {
       "text": "thousand",
-      "start": 81.99365532693594,
-      "end": 82.4431617620769,
+      "start": 76.25529112256415,
+      "end": 76.68002161246112,
       "speaker": "narrator"
     },
     {
       "text": "was",
-      "start": 82.46960331708522,
-      "end": 82.57536953711838,
+      "start": 76.70500575892568,
+      "end": 76.80494234478378,
       "speaker": "narrator"
     },
     {
       "text": "a",
-      "start": 82.57536953711838,
-      "end": 82.62825264713499,
+      "start": 76.80494234478378,
+      "end": 76.85491063771286,
       "speaker": "narrator"
     },
     {
       "text": "practical",
-      "start": 82.68113575715157,
-      "end": 83.20996685731744,
+      "start": 76.90487893064191,
+      "end": 77.4045618599325,
       "speaker": "narrator"
     },
     {
       "text": "marker,",
-      "start": 83.26284996733402,
-      "end": 83.71235640247502,
+      "start": 77.45453015286155,
+      "end": 77.87926064275857,
       "speaker": "narrator"
     },
     {
       "text": "not",
-      "start": 83.8181226225082,
-      "end": 84.02965506257453,
+      "start": 77.97919722861668,
+      "end": 78.1790704003329,
       "speaker": "narrator"
     },
     {
       "text": "a",
-      "start": 83.97677195255797,
-      "end": 84.08253817259114,
+      "start": 78.12910210740387,
+      "end": 78.22903869326198,
       "speaker": "narrator"
     },
     {
       "text": "magic",
-      "start": 84.16186283761601,
-      "end": 84.58492771774871,
+      "start": 78.30399113265557,
+      "end": 78.70373747608804,
       "speaker": "narrator"
     },
     {
       "text": "finish",
-      "start": 84.6642523827736,
-      "end": 84.90222637784825,
+      "start": 78.77868991548162,
+      "end": 79.0035472336624,
       "speaker": "narrator"
     },
     {
       "text": "line.",
-      "start": 84.95510948786482,
-      "end": 85.66903147308876,
+      "start": 79.05351552659144,
+      "end": 79.72808748113376,
       "speaker": "narrator"
     },
     {
       "text": "These",
-      "start": 85.82768080313853,
-      "end": 86.06565479821316,
+      "start": 79.87799235992094,
+      "end": 80.10252001574646,
       "speaker": "narrator"
     },
     {
       "text": "were",
-      "start": 86.09209635322148,
-      "end": 86.17142101824635,
+      "start": 80.12746664184972,
+      "end": 80.20230652015941,
       "speaker": "narrator"
     },
     {
       "text": "adult",
-      "start": 86.27718723827951,
-      "end": 86.62092745338734,
+      "start": 80.30209302457232,
+      "end": 80.62639916391433,
       "speaker": "narrator"
     },
     {
       "text": "studies,",
-      "start": 86.67381056340392,
-      "end": 87.09687544353662,
+      "start": 80.67629241612079,
+      "end": 81.07543843377249,
       "speaker": "narrator"
     },
     {
       "text": "not",
-      "start": 87.23965984058141,
-      "end": 87.39830917063117,
+      "start": 81.21015021472994,
+      "end": 81.35982997134931,
       "speaker": "narrator"
     },
     {
       "text": "a",
-      "start": 87.37186761562288,
-      "end": 87.45119228064777,
+      "start": 81.3348833452461,
+      "end": 81.4097232235558,
       "speaker": "narrator"
     },
     {
       "text": "universal",
-      "start": 87.50407539066435,
-      "end": 88.08578960084681,
+      "start": 81.45961647576226,
+      "end": 82.00844225003334,
       "speaker": "narrator"
     },
     {
       "text": "rule",
-      "start": 88.1651142658717,
-      "end": 88.42952981595464,
+      "start": 82.08328212834303,
+      "end": 82.33274838937535,
       "speaker": "narrator"
     },
     {
       "text": "for",
-      "start": 88.48241292597122,
-      "end": 88.61462070101268,
+      "start": 82.38264164158181,
+      "end": 82.50737477209796,
       "speaker": "narrator"
     },
     {
       "text": "every",
-      "start": 88.66750381102929,
-      "end": 88.95836091612051,
+      "start": 82.55726802430445,
+      "end": 82.83168091143997,
       "speaker": "narrator"
     },
     {
       "text": "age",
-      "start": 89.0376855811454,
-      "end": 89.35498424124492,
+      "start": 82.90652078974968,
+      "end": 83.20588030298845,
       "speaker": "narrator"
     },
     {
       "text": "and",
-      "start": 89.38142579625321,
-      "end": 89.46075046127811,
+      "start": 83.23082692909168,
+      "end": 83.30566680740138,
       "speaker": "narrator"
     },
     {
       "text": "ability.",
-      "start": 89.48719201628639,
-      "end": 90.35976333156009,
+      "start": 83.3306134335046,
+      "end": 84.15385209491124,
       "speaker": "narrator"
     },
     {
       "text": "Back",
-      "start": 90.54485421661815,
-      "end": 90.78282821169279,
+      "start": 84.32847847763387,
+      "end": 84.5533687861419,
       "speaker": "narrator"
     },
     {
       "text": "in",
-      "start": 90.80926976670108,
-      "end": 90.91503598673427,
+      "start": 84.57835750845743,
+      "end": 84.67831239771957,
       "speaker": "narrator"
     },
     {
       "text": "town,",
-      "start": 90.96791909675082,
-      "end": 91.31165931185868,
+      "start": 84.72828984235059,
+      "end": 85.05314323245253,
       "speaker": "narrator"
     },
     {
       "text": "Javelina",
-      "start": 91.39098397688355,
-      "end": 91.81404885701625,
+      "start": 85.12810939939911,
+      "end": 85.52792895644758,
       "speaker": "narrator"
     },
     {
       "text": "thinks",
-      "start": 91.89337352204112,
-      "end": 92.13134751711577,
+      "start": 85.60289512339416,
+      "end": 85.82779362423395,
       "speaker": "narrator"
     },
     {
       "text": "missing",
-      "start": 92.18423062713235,
-      "end": 92.4486461772153,
+      "start": 85.877771068865,
+      "end": 86.12765829202031,
       "speaker": "narrator"
     },
     {
       "text": "the",
-      "start": 92.47508773222359,
-      "end": 92.52797084224017,
+      "start": 86.15264701433584,
+      "end": 86.2026244589669,
       "speaker": "narrator"
     },
     {
       "text": "target",
-      "start": 92.60729550726505,
-      "end": 93.00391883238946,
+      "start": 86.27759062591349,
+      "end": 86.65242146064645,
       "speaker": "narrator"
     },
     {
       "text": "makes",
-      "start": 93.05680194240605,
-      "end": 93.2683343824724,
+      "start": 86.70239890527752,
+      "end": 86.90230868380175,
       "speaker": "narrator"
     },
     {
       "text": "his",
-      "start": 93.29477593748071,
-      "end": 93.42698371252217,
+      "start": 86.92729740611729,
+      "end": 87.05224101769494,
       "speaker": "narrator"
     },
     {
       "text": "whole",
-      "start": 93.50630837754704,
-      "end": 93.77072392762997,
+      "start": 87.12720718464152,
+      "end": 87.37709440779682,
       "speaker": "narrator"
     },
     {
       "text": "walk",
-      "start": 93.85004859265486,
-      "end": 94.1144641427378,
+      "start": 87.45206057474341,
+      "end": 87.70194779789873,
       "speaker": "narrator"
     },
     {
       "text": "worthless.",
-      "start": 94.19378880776269,
-      "end": 94.9870354580115,
+      "start": 87.77691396484532,
+      "end": 88.52657563431124,
       "speaker": "narrator"
     },
     {
       "text": "He",
-      "start": 95.09280167804467,
-      "end": 95.19856789807784,
+      "start": 88.62653052357335,
+      "end": 88.7265442804287,
       "speaker": "narrator"
     },
     {
       "text": "lowers",
-      "start": 95.25145100809443,
-      "end": 95.59519122320225,
+      "start": 88.77655330837916,
+      "end": 89.10161199005721,
       "speaker": "narrator"
     },
     {
       "text": "the",
-      "start": 95.64807433321884,
-      "end": 95.72739899824371,
+      "start": 89.15162101800769,
+      "end": 89.22663455993337,
       "speaker": "narrator"
     },
     {
       "text": "watch.",
-      "start": 95.80672366326861,
-      "end": 96.46776253847597,
+      "start": 89.3016481018591,
+      "end": 89.92676095123997,
       "speaker": "narrator"
     },
     {
       "text": "Straightens",
-      "start": 96.62641186852574,
-      "end": 97.07591830366671,
+      "start": 90.07678803509138,
+      "end": 90.5029268766364,
       "speaker": "narrator"
     },
     {
       "text": "his",
-      "start": 97.10235985867502,
-      "end": 97.23456763371648,
+      "start": 90.52799484437153,
+      "end": 90.65333468304722,
       "speaker": "narrator"
     },
     {
       "text": "back.",
-      "start": 97.31389229874135,
-      "end": 97.63119095884089,
+      "start": 90.72853858625261,
+      "end": 91.02935419907425,
       "speaker": "narrator"
     },
     {
       "text": "Stands",
-      "start": 97.91675975293047,
-      "end": 98.28694152304658,
+      "start": 91.30008770110804,
+      "end": 91.64885399691991,
       "speaker": "narrator"
     },
     {
       "text": "up.",
-      "start": 98.33982463306315,
-      "end": 98.52491551812122,
+      "start": 91.69867775346444,
+      "end": 91.8730609013704,
       "speaker": "narrator"
     },
     {
       "text": "Keeps",
-      "start": 98.69414147017429,
-      "end": 98.95855702025723,
+      "start": 92.03249692231296,
+      "end": 92.28161570503573,
       "speaker": "narrator"
     },
     {
       "text": "walking.",
-      "start": 99.03788168528213,
-      "end": 99.80468678052264,
+      "start": 92.35635133985258,
+      "end": 93.0787958097486,
       "speaker": "narrator"
     },
     {
       "text": "The",
-      "start": 99.93689455556411,
-      "end": 99.98977766558068,
+      "start": 93.20335173857013,
+      "end": 93.25312407740927,
       "speaker": "narrator"
     },
     {
       "text": "Banker",
-      "start": 100.04266077559728,
-      "end": 100.33351788068852,
+      "start": 93.30289641624843,
+      "end": 93.5766442798637,
       "speaker": "narrator"
     },
     {
       "text": "waits",
-      "start": 100.38640099070508,
-      "end": 100.67725809579632,
+      "start": 93.62641661870282,
+      "end": 93.9001644823181,
       "speaker": "narrator"
     },
     {
       "text": "for",
-      "start": 100.73014120581293,
-      "end": 100.8887905358627,
+      "start": 93.94993682115727,
+      "end": 94.0992538376747,
       "speaker": "narrator"
     },
     {
       "text": "a",
-      "start": 100.8887905358627,
-      "end": 100.94167364587926,
+      "start": 94.0992538376747,
+      "end": 94.14902617651381,
       "speaker": "narrator"
     },
     {
       "text": "sale",
-      "start": 101.04743986591244,
-      "end": 101.39118008102027,
+      "start": 94.2485708541921,
+      "end": 94.57209105664653,
       "speaker": "narrator"
     },
     {
       "text": "that",
-      "start": 101.41762163602857,
-      "end": 101.49694630105344,
+      "start": 94.5969772260661,
+      "end": 94.67163573432481,
       "speaker": "narrator"
     },
     {
       "text": "isn't",
-      "start": 101.52338785606175,
-      "end": 101.76136185113637,
+      "start": 94.69652190374438,
+      "end": 94.9204974285205,
       "speaker": "narrator"
     },
     {
       "text": "coming.",
-      "start": 101.84068651616124,
-      "end": 102.29019295130226,
+      "start": 94.99515593677921,
+      "end": 95.41822081691193,
       "speaker": "narrator"
     },
     {
       "text": "Walking",
-      "start": 102.47528383636032,
-      "end": 102.9512318265096,
+      "start": 95.59242400284893,
+      "end": 96.0432722566933,
       "speaker": "narrator"
     },
     {
       "text": "was",
-      "start": 103.0041149365262,
-      "end": 103.13632271156767,
+      "start": 96.09337204513007,
+      "end": 96.218621516222,
       "speaker": "narrator"
     },
     {
       "text": "useful.",
-      "start": 103.21564737659254,
-      "end": 103.90312780680819,
+      "start": 96.29377119887714,
+      "end": 96.94506844855512,
       "speaker": "narrator"
     },
     {
       "text": "The",
-      "start": 104.06177713685796,
-      "end": 104.11466024687452,
+      "start": 97.09536781386542,
+      "end": 97.1453272701963,
       "speaker": "narrator"
     },
     {
       "text": "universal",
-      "start": 104.16754335689112,
-      "end": 104.82858223209847,
+      "start": 97.19527242965643,
+      "end": 97.81958692290782,
       "speaker": "narrator"
     },
     {
       "text": "rule",
-      "start": 104.90790689712333,
-      "end": 105.22520555722286,
+      "start": 97.89450466209796,
+      "end": 98.19417561885862,
       "speaker": "narrator"
     },
     {
       "text": "was",
-      "start": 105.27808866723944,
-      "end": 105.4631795522975,
+      "start": 98.24412077831873,
+      "end": 98.41892883642912,
       "speaker": "narrator"
     },
     {
       "text": "the",
-      "start": 105.4631795522975,
-      "end": 105.51606266231411,
+      "start": 98.41892883642912,
+      "end": 98.46887399588925,
       "speaker": "narrator"
     },
     {
       "text": "story.",
-      "start": 105.59538732733898,
-      "end": 106.3621924225795,
+      "start": 98.54379173507941,
+      "end": 99.267996547251,
       "speaker": "narrator"
     },
     {
       "text": "Which",
-      "start": 106.46795864261266,
-      "end": 106.65304952767073,
+      "start": 99.36788551189872,
+      "end": 99.54249955440635,
       "speaker": "narrator"
     },
     {
       "text": "other",
-      "start": 106.7323741926956,
-      "end": 106.99678974277853,
+      "start": 99.61733414405245,
+      "end": 99.86678277620615,
       "speaker": "narrator"
     },
     {
       "text": "rules",
-      "start": 107.07611440780343,
-      "end": 107.5256208429444,
+      "start": 99.94161736585228,
+      "end": 100.36568004051358,
       "speaker": "narrator"
     },
     {
       "text": "have",
-      "start": 107.57850395296101,
-      "end": 107.71071172800248,
+      "start": 100.41556976694434,
+      "end": 100.5402940830212,
       "speaker": "narrator"
     },
     {
       "text": "you",
-      "start": 107.76359483801907,
-      "end": 107.84291950304394,
+      "start": 100.59018380945194,
+      "end": 100.66501839909806,
       "speaker": "narrator"
     },
     {
       "text": "never",
-      "start": 107.89580261306055,
-      "end": 108.1337766081352,
+      "start": 100.71490812552882,
+      "end": 100.93941189446716,
       "speaker": "narrator"
     },
     {
       "text": "questioned?",
-      "start": 108.18665971815176,
-      "end": 109.16499725345864,
+      "start": 100.98930162089788,
+      "end": 101.91226155986664,
       "speaker": "narrator"
     }
   ],
@@ -2309,1465 +2309,1465 @@
     {
       "text": "Keep",
       "start": 0,
-      "end": 0.2792181890706023,
+      "end": 0.26376330775673135,
       "speaker": "banker"
     },
     {
       "text": "walking.",
-      "start": 0.36298364579178305,
-      "end": 1.20063821300359,
+      "start": 0.34289230008375077,
+      "end": 1.1341822233539447,
       "speaker": "banker"
     },
     {
       "text": "You",
-      "start": 1.3960909453530115,
-      "end": 1.4798564020741922,
+      "start": 1.3188165387836566,
+      "end": 1.397945531110676,
       "speaker": "banker"
     },
     {
       "text": "are",
-      "start": 1.5357000398883127,
-      "end": 1.6473873155165537,
+      "start": 1.4506981926620224,
+      "end": 1.556203515764715,
       "speaker": "banker"
     },
     {
       "text": "only",
-      "start": 1.7311527722377344,
-      "end": 2.0662145991224574,
+      "start": 1.6353325080917345,
+      "end": 1.9518484773998122,
       "speaker": "banker"
     },
     {
       "text": "at",
-      "start": 2.149980055843638,
-      "end": 2.2616673314718785,
+      "start": 2.0309774697268312,
+      "end": 2.136482792829524,
       "speaker": "banker"
     },
     {
       "text": "8,400.",
-      "start": 2.3454327881930594,
-      "end": 4.160351017151974,
+      "start": 2.2156117851565433,
+      "end": 3.930073285575297,
       "speaker": "banker"
     },
     {
       "text": "I've",
-      "start": 4.512165935380933,
-      "end": 4.623853211009174,
+      "start": 4.262415053348779,
+      "end": 4.358855916739029,
       "speaker": "javelina"
     },
     {
       "text": "been",
-      "start": 4.651775029916235,
-      "end": 4.763462305544476,
+      "start": 4.382870979091193,
+      "end": 4.478931228499844,
       "speaker": "javelina"
     },
     {
       "text": "walking",
-      "start": 4.8193059433585965,
-      "end": 5.182289589150378,
+      "start": 4.52696135320417,
+      "end": 4.8391571637822866,
       "speaker": "javelina"
     },
     {
       "text": "all",
-      "start": 5.2381332269645,
-      "end": 5.4335859593139215,
+      "start": 4.887187288486614,
+      "end": 5.055292724951754,
       "speaker": "javelina"
     },
     {
       "text": "evening.",
-      "start": 5.489429597128042,
-      "end": 6.019944156362187,
+      "start": 5.103322849656079,
+      "end": 5.559609034347176,
       "speaker": "javelina"
     },
     {
       "text": "What",
-      "start": 6.394096529716792,
-      "end": 6.533705624252094,
+      "start": 5.881410869866158,
+      "end": 6.001486181626973,
       "speaker": "javelina"
     },
     {
       "text": "happens",
-      "start": 6.589549262066215,
-      "end": 6.952532907857997,
+      "start": 6.049516306331299,
+      "end": 6.361712116909416,
       "speaker": "javelina"
     },
     {
       "text": "if",
-      "start": 6.980454726765058,
-      "end": 7.064220183486238,
+      "start": 6.385727179261579,
+      "end": 6.457772366318068,
       "speaker": "javelina"
     },
     {
       "text": "I",
-      "start": 7.120063821300359,
-      "end": 7.231751096928599,
+      "start": 6.5058024910223935,
+      "end": 6.601862740431045,
       "speaker": "javelina"
     },
     {
       "text": "stop?",
-      "start": 7.287594734742721,
-      "end": 8.153171120861588,
+      "start": 6.649892865135373,
+      "end": 7.394359798052422,
       "speaker": "javelina"
     },
     {
       "text": "1,600",
-      "start": 8.560829676904667,
-      "end": 9.482249700837654,
+      "start": 7.744979708394,
+      "end": 8.61333508928623,
       "speaker": "banker"
     },
     {
       "text": "more.",
-      "start": 9.538093338651775,
-      "end": 10.18029517351416,
+      "start": 8.665991997768566,
+      "end": 9.271546445315435,
       "speaker": "banker"
     },
     {
       "text": "10,000",
-      "start": 10.37574790586358,
-      "end": 11.073793378540087,
+      "start": 9.455845625003612,
+      "end": 10.114056981032817,
       "speaker": "banker"
     },
     {
       "text": "steps",
-      "start": 11.157558835261268,
-      "end": 11.52054248105305,
+      "start": 10.193042343756321,
+      "end": 10.535312248891508,
       "speaker": "banker"
     },
     {
       "text": "a",
-      "start": 11.576386118867172,
-      "end": 11.63222975668129,
+      "start": 10.587969157373845,
+      "end": 10.64062606585618,
       "speaker": "banker"
     },
     {
       "text": "day.",
-      "start": 11.688073394495413,
-      "end": 12.218587953729557,
+      "start": 10.69328297433852,
+      "end": 11.193523604920713,
       "speaker": "banker"
     },
     {
       "text": "Everybody",
-      "start": 12.414040686078978,
-      "end": 13.000398883127245,
+      "start": 11.377822784608892,
+      "end": 11.930720323673425,
       "speaker": "banker"
     },
     {
       "text": "knows",
-      "start": 13.056242520941366,
-      "end": 13.335460710011969,
+      "start": 11.983377232155762,
+      "end": 12.246661774567444,
       "speaker": "banker"
     },
     {
       "text": "the",
-      "start": 13.391304347826088,
-      "end": 13.47506980454727,
+      "start": 12.29931868304978,
+      "end": 12.378304045773284,
       "speaker": "banker"
     },
     {
       "text": "rule.",
-      "start": 13.558835261268449,
-      "end": 14.340646190666135,
+      "start": 12.457289408496788,
+      "end": 13.194486127249498,
       "speaker": "banker"
     },
     {
       "text": "Everybody?",
-      "start": 14.692461108895095,
-      "end": 15.36258476266454,
+      "start": 13.526224650688219,
+      "end": 14.103783528408426,
       "speaker": "javelina"
     },
     {
       "text": "Did",
-      "start": 15.446350219385723,
-      "end": 15.558037495013963,
+      "start": 14.175901125763053,
+      "end": 14.272057922235888,
       "speaker": "javelina"
     },
     {
       "text": "a",
-      "start": 15.585959313921023,
-      "end": 15.613881132828082,
+      "start": 14.296097121354096,
+      "end": 14.320136320472304,
       "speaker": "javelina"
     },
     {
       "text": "doctor",
-      "start": 15.669724770642203,
-      "end": 16.060630235341048,
+      "start": 14.368214718708721,
+      "end": 14.704763506363644,
       "speaker": "javelina"
     },
     {
       "text": "choose",
-      "start": 16.11647387315517,
-      "end": 16.36777024331871,
+      "start": 14.752841904600063,
+      "end": 14.969194696663939,
       "speaker": "javelina"
     },
     {
       "text": "that",
-      "start": 16.42361388113283,
-      "end": 16.59114479457519,
+      "start": 15.017273094900355,
+      "end": 15.161508289609607,
       "speaker": "javelina"
     },
     {
       "text": "number?",
-      "start": 16.64698843238931,
-      "end": 17.065815715995214,
+      "start": 15.209586687846024,
+      "end": 15.570174674619153,
       "speaker": "javelina"
     },
     {
       "text": "A",
-      "start": 17.233346629437577,
-      "end": 17.289190267251694,
+      "start": 15.714409869328406,
+      "end": 15.762488267564821,
       "speaker": "javelina"
     },
     {
       "text": "scientist?",
-      "start": 17.37295572397288,
-      "end": 18.07100119664938,
+      "start": 15.834605864919451,
+      "end": 16.435585842874666,
       "speaker": "javelina"
     },
     {
       "text": "Who",
-      "start": 18.389309932189867,
-      "end": 18.50099720781811,
+      "start": 16.70963271282224,
+      "end": 16.805789509295078,
       "speaker": "javelina"
     },
     {
       "text": "actually",
-      "start": 18.556840845632234,
-      "end": 18.947746310331073,
+      "start": 16.853867907531498,
+      "end": 17.190416695186418,
       "speaker": "javelina"
     },
     {
       "text": "checked?",
-      "start": 19.003589948145194,
-      "end": 19.952931790985243,
+      "start": 17.238495093422834,
+      "end": 18.05582786344193,
       "speaker": "javelina"
     },
     {
       "text": "Look",
-      "start": 20.332668528121264,
-      "end": 20.472277622656563,
+      "start": 18.38276097144957,
+      "end": 18.514465493939596,
       "speaker": "banker"
     },
     {
       "text": "at",
-      "start": 20.500199441563623,
-      "end": 20.556043079377744,
+      "start": 18.540817411382,
+      "end": 18.593521246266814,
       "speaker": "banker"
     },
     {
       "text": "your",
-      "start": 20.611886717191865,
-      "end": 20.751495811727168,
+      "start": 18.646225081151627,
+      "end": 18.777984668363658,
       "speaker": "banker"
     },
     {
       "text": "watch.",
-      "start": 20.835261268448345,
-      "end": 21.589150378938974,
+      "start": 18.857040420690875,
+      "end": 19.568542191635846,
       "speaker": "banker"
     },
     {
       "text": "That",
-      "start": 21.756681292381334,
-      "end": 21.924212205823697,
+      "start": 19.72665369629028,
+      "end": 19.88476520094472,
       "speaker": "banker"
     },
     {
       "text": "little",
-      "start": 21.980055843637818,
-      "end": 22.203430394894298,
+      "start": 19.937469035829533,
+      "end": 20.14828437536878,
       "speaker": "banker"
     },
     {
       "text": "thing",
-      "start": 22.315117670522536,
-      "end": 22.56641404068608,
+      "start": 20.253692045138404,
+      "end": 20.490859302120064,
       "speaker": "banker"
     },
     {
       "text": "knows",
-      "start": 22.65017949740726,
-      "end": 22.957319505384927,
+      "start": 20.569915054447282,
+      "end": 20.859786146313752,
       "speaker": "banker"
     },
     {
       "text": "what",
-      "start": 23.013163143199044,
-      "end": 23.152772237734343,
+      "start": 20.91248998119856,
+      "end": 21.044249568410592,
       "speaker": "banker"
     },
     {
       "text": "you",
-      "start": 23.208615875548464,
-      "end": 23.292381332269645,
+      "start": 21.096953403295405,
+      "end": 21.176009155622623,
       "speaker": "banker"
     },
     {
       "text": "need.",
-      "start": 23.348224970083766,
-      "end": 24.130035899481452,
+      "start": 21.228712990507436,
+      "end": 21.96656667889481,
       "speaker": "banker"
     },
     {
       "text": "Then",
-      "start": 24.481850817710413,
-      "end": 24.649381731152772,
+      "start": 22.29860083866913,
+      "end": 22.44322658010966,
       "speaker": "javelina"
     },
     {
       "text": "who",
-      "start": 24.677303550059836,
-      "end": 24.788990825688074,
+      "start": 22.46731080305319,
+      "end": 22.563647694827313,
       "speaker": "javelina"
     },
     {
       "text": "told",
-      "start": 24.844834463502195,
-      "end": 25.012365376944558,
+      "start": 22.611816140714375,
+      "end": 22.756321478375558,
       "speaker": "javelina"
     },
     {
       "text": "the",
-      "start": 25.04028719585162,
-      "end": 25.09613083366574,
+      "start": 22.78040570131909,
+      "end": 22.82857414720615,
       "speaker": "javelina"
     },
     {
       "text": "watch?",
-      "start": 25.15197447147986,
-      "end": 25.5428799361787,
+      "start": 22.876742593093212,
+      "end": 23.21392171430264,
       "speaker": "javelina"
     },
     {
       "text": "Where",
-      "start": 25.861188671719187,
-      "end": 25.97287594734743,
+      "start": 23.488481855858886,
+      "end": 23.584818747633012,
       "speaker": "javelina"
     },
     {
       "text": "did",
-      "start": 26.00079776625449,
-      "end": 26.11248504188273,
+      "start": 23.60890297057654,
+      "end": 23.705239862350666,
       "speaker": "javelina"
     },
     {
       "text": "its",
-      "start": 26.14040686078979,
-      "end": 26.252094136418034,
+      "start": 23.729324085294195,
+      "end": 23.82566097706832,
       "speaker": "javelina"
     },
     {
       "text": "rule",
-      "start": 26.307937774232155,
-      "end": 26.559234144395692,
+      "start": 23.87382942295538,
+      "end": 24.09058742944715,
       "speaker": "javelina"
     },
     {
       "text": "come",
-      "start": 26.615077782209816,
-      "end": 26.838452333466297,
+      "start": 24.13875587533422,
+      "end": 24.33142965888246,
       "speaker": "javelina"
     },
     {
       "text": "from?",
-      "start": 26.894295971280417,
-      "end": 27.648185081771043,
+      "start": 24.37959810476952,
+      "end": 25.02987212424485,
       "speaker": "javelina"
     },
     {
       "text": "Tokyo.",
-      "start": 28,
-      "end": 28.608155765190755,
+      "start": 25.333333333333332,
+      "end": 25.906233691846364,
       "speaker": "narrator"
     },
     {
       "text": "1964.",
-      "start": 28.687480430215636,
-      "end": 30.22109062069668,
+      "start": 25.980959825565453,
+      "end": 27.425665077467883,
       "speaker": "narrator"
     },
     {
       "text": "Olympic",
-      "start": 30.37973995074644,
-      "end": 30.749921720862556,
+      "start": 27.575117344906065,
+      "end": 27.923839302261825,
       "speaker": "narrator"
     },
     {
       "text": "fever",
-      "start": 30.829246385887437,
-      "end": 31.120103490978668,
+      "start": 27.998565435980918,
+      "end": 28.272561259617586,
       "speaker": "narrator"
     },
     {
       "text": "fills",
-      "start": 31.19942815600355,
-      "end": 31.490285261094783,
+      "start": 28.347287393336675,
+      "end": 28.621283216973346,
       "speaker": "narrator"
     },
     {
       "text": "the",
-      "start": 31.54316837111137,
-      "end": 31.596051481127954,
+      "start": 28.67110063945274,
+      "end": 28.72091806193213,
       "speaker": "narrator"
     },
     {
       "text": "streets.",
-      "start": 31.67537614615284,
-      "end": 32.44218124139336,
+      "start": 28.795644195651224,
+      "end": 29.517996821602438,
       "speaker": "narrator"
     },
     {
       "text": "A",
-      "start": 32.60083057144312,
-      "end": 32.653713681459706,
+      "start": 29.66745051846611,
+      "end": 29.717358953544263,
       "speaker": "narrator"
     },
     {
       "text": "clock",
-      "start": 32.706596791476294,
-      "end": 33.02389545157582,
+      "start": 29.767267388622418,
+      "end": 30.066717999091345,
       "speaker": "narrator"
     },
     {
       "text": "company",
-      "start": 33.076778561592405,
-      "end": 33.42051877670023,
+      "start": 30.1166264341695,
+      "end": 30.441031262177507,
       "speaker": "narrator"
     },
     {
       "text": "has",
-      "start": 33.473401886716815,
-      "end": 33.60560966175829,
+      "start": 30.490939697255662,
+      "end": 30.615710784951048,
       "speaker": "narrator"
     },
     {
       "text": "a",
-      "start": 33.63205121676658,
-      "end": 33.658492771774874,
+      "start": 30.640665002490124,
+      "end": 30.665619220029203,
       "speaker": "narrator"
     },
     {
       "text": "little",
-      "start": 33.711375881791454,
-      "end": 33.896466766849514,
+      "start": 30.71552765510735,
+      "end": 30.890207177880896,
       "speaker": "narrator"
     },
     {
       "text": "box",
-      "start": 33.9493498768661,
-      "end": 34.29309009197392,
+      "start": 30.94011561295905,
+      "end": 31.264520440967058,
       "speaker": "narrator"
     },
     {
       "text": "to",
-      "start": 34.34597320199051,
-      "end": 34.42529786701539,
+      "start": 31.314428876045213,
+      "end": 31.38929152866244,
       "speaker": "narrator"
     },
     {
       "text": "sell.",
-      "start": 34.50462253204027,
-      "end": 35.11277829723103,
+      "start": 31.464154181279675,
+      "end": 32.03810118467845,
       "speaker": "narrator"
     },
     {
       "text": "In",
-      "start": 35.271427627280794,
-      "end": 35.32431073729738,
+      "start": 32.18781641686881,
+      "end": 32.23761296404396,
       "speaker": "narrator"
     },
     {
       "text": "1965,",
-      "start": 35.37719384731397,
-      "end": 36.56706382268719,
+      "start": 32.28740951121912,
+      "end": 33.40783182266005,
       "speaker": "narrator"
     },
     {
       "text": "Yamasa",
-      "start": 36.64638848771207,
-      "end": 37.12233647786136,
+      "start": 33.48252664342278,
+      "end": 33.93069556799915,
       "speaker": "narrator"
     },
     {
       "text": "calls",
-      "start": 37.17521958787795,
-      "end": 37.43963513796089,
+      "start": 33.9804921151743,
+      "end": 34.22947485105007,
       "speaker": "narrator"
     },
     {
       "text": "it",
-      "start": 37.466076692969175,
-      "end": 37.51895980298576,
+      "start": 34.25437312463764,
+      "end": 34.304169671812794,
       "speaker": "narrator"
     },
     {
       "text": "the",
-      "start": 37.57184291300236,
-      "end": 37.624726023018944,
+      "start": 34.35396621898795,
+      "end": 34.403762766163105,
       "speaker": "narrator"
     },
     {
       "text": "10,000-step",
-      "start": 37.70405068804383,
-      "end": 38.73527133336728,
+      "start": 34.478457586925835,
+      "end": 35.4494902568413,
       "speaker": "narrator"
     },
     {
       "text": "meter.",
-      "start": 38.78815444338386,
-      "end": 39.36986865356633,
+      "start": 35.49928680401645,
+      "end": 36.04704882294313,
       "speaker": "narrator"
     },
     {
       "text": "A",
-      "start": 39.554959538624395,
-      "end": 39.607842648640975,
+      "start": 36.2213404705555,
+      "end": 36.271176817032035,
       "speaker": "narrator"
     },
     {
       "text": "neat",
-      "start": 39.66072575865756,
-      "end": 39.89869975373221,
+      "start": 36.321013163508574,
+      "end": 36.54527672265299,
       "speaker": "narrator"
     },
     {
       "text": "number.",
-      "start": 39.9515828637488,
-      "end": 40.48041396391467,
+      "start": 36.59511306912953,
+      "end": 37.0934765338949,
       "speaker": "narrator"
     },
     {
       "text": "A",
-      "start": 40.639063293964426,
-      "end": 40.69194640398102,
+      "start": 37.2429855733245,
+      "end": 37.29282191980105,
       "speaker": "narrator"
     },
     {
       "text": "memorable",
-      "start": 40.744829513997615,
-      "end": 41.194335949138605,
+      "start": 37.342658266277596,
+      "end": 37.766267211328156,
       "speaker": "narrator"
     },
     {
       "text": "symbol.",
-      "start": 41.30010216917177,
-      "end": 41.90825793436254,
+      "start": 37.86593990428122,
+      "end": 38.43905788876141,
       "speaker": "narrator"
     },
     {
       "text": "An",
-      "start": 42.040465709404,
-      "end": 42.17267348444547,
+      "start": 38.56364875495275,
+      "end": 38.688239621144085,
       "speaker": "narrator"
     },
     {
       "text": "easy",
-      "start": 42.27843970447865,
-      "end": 42.64862147459476,
+      "start": 38.78791231409717,
+      "end": 39.13676673943293,
       "speaker": "narrator"
     },
     {
       "text": "slogan.",
-      "start": 42.75438769462794,
-      "end": 43.49475123486016,
+      "start": 39.236439432386,
+      "end": 39.934148283057525,
       "speaker": "narrator"
     },
     {
       "text": "But",
-      "start": 43.600517454893335,
-      "end": 43.70628367492652,
+      "start": 40.033820935059744,
+      "end": 40.13348525778332,
       "speaker": "narrator"
     },
     {
       "text": "the",
-      "start": 43.73272522993481,
-      "end": 43.83849144996798,
+      "start": 40.15840133846421,
+      "end": 40.25806566118777,
       "speaker": "narrator"
     },
     {
       "text": "origin",
-      "start": 43.91781611499287,
-      "end": 44.473088770167024,
+      "start": 40.33281390323045,
+      "end": 40.85605159752918,
       "speaker": "narrator"
     },
     {
       "text": "is",
-      "start": 44.52597188018362,
-      "end": 44.63173810021679,
+      "start": 40.90588375889097,
+      "end": 41.00554808161454,
       "speaker": "narrator"
     },
     {
       "text": "messier.",
-      "start": 44.71106276524168,
-      "end": 45.53075097049878,
+      "start": 41.08029632365722,
+      "end": 41.852694824764875,
       "speaker": "narrator"
     },
     {
       "text": "Yamasa",
-      "start": 45.68940030054855,
-      "end": 46.16534829069784,
+      "start": 42.00219130885023,
+      "end": 42.4506807611063,
       "speaker": "narrator"
     },
     {
       "text": "credits",
-      "start": 46.21823140071443,
-      "end": 46.53553006081395,
+      "start": 42.50051292246808,
+      "end": 42.799505890638784,
       "speaker": "narrator"
     },
     {
       "text": "an",
-      "start": 46.561971615822245,
-      "end": 46.64129628084713,
+      "start": 42.82442197131967,
+      "end": 42.89917021336235,
       "speaker": "narrator"
     },
     {
       "text": "earlier",
-      "start": 46.747062500880304,
-      "end": 47.14368582600471,
+      "start": 42.99883453608592,
+      "end": 43.37257574629931,
       "speaker": "narrator"
     },
     {
       "text": "walking",
-      "start": 47.19656893602129,
-      "end": 47.540309151129115,
+      "start": 43.42240790766109,
+      "end": 43.746316956512686,
       "speaker": "narrator"
     },
     {
       "text": "campaign",
-      "start": 47.5931922611457,
-      "end": 48.12202336131158,
+      "start": 43.79614911787447,
+      "end": 44.29447073149232,
       "speaker": "narrator"
     },
     {
       "text": "involving",
-      "start": 48.17490647132816,
-      "end": 48.70373757149403,
+      "start": 44.344302892854095,
+      "end": 44.842624506471935,
       "speaker": "narrator"
     },
     {
       "text": "doctors",
-      "start": 48.756620681510626,
-      "end": 49.25901022666821,
+      "start": 44.89245666783373,
+      "end": 45.36586220077068,
       "speaker": "narrator"
     },
     {
       "text": "and",
-      "start": 49.3118933366848,
-      "end": 49.39121800170968,
+      "start": 45.41569436213246,
+      "end": 45.49044260417514,
       "speaker": "narrator"
     },
     {
       "text": "journalists.",
-      "start": 49.44410111172627,
-      "end": 50.39599709202485,
+      "start": 45.54027476553693,
+      "end": 46.43725367004905,
       "speaker": "narrator"
     },
     {
       "text": "A",
-      "start": 50.52820486706632,
-      "end": 50.5810879770829,
+      "start": 46.56183407345352,
+      "end": 46.61170540650631,
       "speaker": "narrator"
     },
     {
       "text": "campaign",
-      "start": 50.63397108709948,
-      "end": 51.18924374227366,
+      "start": 46.661580946284985,
+      "end": 47.18527411396111,
       "speaker": "narrator"
     },
     {
       "text": "goal",
-      "start": 51.24212685229025,
-      "end": 51.506542402373185,
+      "start": 47.23514965373978,
+      "end": 47.484527352633165,
       "speaker": "narrator"
     },
     {
       "text": "still",
-      "start": 51.559425512389765,
-      "end": 51.79739950746442,
+      "start": 47.53440289241184,
+      "end": 47.7588428214159,
       "speaker": "narrator"
     },
     {
       "text": "isn't",
-      "start": 51.85028261748101,
-      "end": 52.06181505754735,
+      "start": 47.80871836119457,
+      "end": 48.00822052030927,
       "speaker": "narrator"
     },
     {
       "text": "a",
-      "start": 52.08825661255564,
-      "end": 52.141139722572234,
+      "start": 48.03315829019861,
+      "end": 48.083033829977296,
       "speaker": "narrator"
     },
     {
       "text": "biological",
-      "start": 52.22046438759712,
-      "end": 53.04015259285423,
+      "start": 48.15784713964531,
+      "end": 48.93091800621481,
       "speaker": "narrator"
     },
     {
       "text": "boundary.",
-      "start": 53.09303570287081,
-      "end": 53.85984079811132,
+      "start": 48.980793545993485,
+      "end": 49.7039888727843,
       "speaker": "narrator"
     },
     {
       "text": "Advertisements",
-      "start": 54.04493168316939,
-      "end": 54.86461988842649,
+      "start": 49.87855326200968,
+      "end": 50.65300867619147,
       "speaker": "narrator"
     },
     {
       "text": "repeat",
-      "start": 54.91750299844308,
-      "end": 55.2612432135509,
+      "start": 50.70297409737955,
+      "end": 51.027749335102115,
       "speaker": "narrator"
     },
     {
       "text": "it.",
-      "start": 55.314126323567486,
-      "end": 55.57854187365042,
+      "start": 51.0777147562902,
+      "end": 51.32754186223063,
       "speaker": "narrator"
     },
     {
       "text": "Walking",
-      "start": 55.71074964869189,
-      "end": 56.054489863799716,
+      "start": 51.452455415200845,
+      "end": 51.777230652923414,
       "speaker": "narrator"
     },
     {
       "text": "clubs.",
-      "start": 56.1338145288246,
-      "end": 56.58332096396559,
+      "start": 51.85217878470554,
+      "end": 52.27688486480427,
       "speaker": "narrator"
     },
     {
       "text": "Magazines.",
-      "start": 56.662645628990475,
-      "end": 57.455892279239286,
+      "start": 52.3518329965864,
+      "end": 53.101314314407695,
       "speaker": "narrator"
     },
     {
       "text": "Fitness",
-      "start": 57.561658499272454,
-      "end": 57.878957159371986,
+      "start": 53.20124515678386,
+      "end": 53.50103768391239,
       "speaker": "narrator"
     },
     {
       "text": "trackers.",
-      "start": 57.93184026938858,
-      "end": 58.698645364629094,
+      "start": 53.55100310510048,
+      "end": 54.275501712327724,
       "speaker": "narrator"
     },
     {
       "text": "Soon,",
-      "start": 58.883736249687146,
-      "end": 59.22747646479497,
+      "start": 54.450380755954356,
+      "end": 54.775215259231246,
       "speaker": "narrator"
     },
     {
       "text": "the",
-      "start": 59.280359574811555,
-      "end": 59.35968423983644,
+      "start": 54.825189798196924,
+      "end": 54.90015160664544,
       "speaker": "narrator"
     },
     {
       "text": "same",
-      "start": 59.439008904861325,
-      "end": 59.72986600995255,
+      "start": 54.97511341509396,
+      "end": 55.24997337940516,
       "speaker": "narrator"
     },
     {
       "text": "target",
-      "start": 59.78274911996915,
-      "end": 60.17937244509355,
+      "start": 55.29994791837085,
+      "end": 55.67475696061341,
       "speaker": "narrator"
     },
     {
       "text": "glows",
-      "start": 60.232255555110136,
-      "end": 60.54955421520966,
+      "start": 55.72473149957908,
+      "end": 56.02457873337313,
       "speaker": "narrator"
     },
     {
       "text": "on",
-      "start": 60.57599577021796,
-      "end": 60.73464510026771,
+      "start": 56.049566002855975,
+      "end": 56.19948961975299,
       "speaker": "narrator"
     },
     {
       "text": "wrists",
-      "start": 60.8139697652926,
-      "end": 61.10482687038383,
+      "start": 56.27445142820151,
+      "end": 56.54931139251272,
       "speaker": "narrator"
     },
     {
       "text": "everywhere.",
-      "start": 61.15770998040042,
-      "end": 62.03028129567411,
+      "start": 56.5992859314784,
+      "end": 57.42386582441203,
       "speaker": "narrator"
     },
     {
       "text": "Repeated",
-      "start": 62.21537218073217,
-      "end": 62.664878615873164,
+      "start": 57.5987767107919,
+      "end": 58.02331128536169,
       "speaker": "narrator"
     },
     {
       "text": "long",
-      "start": 62.71776172588975,
-      "end": 62.95573572096439,
+      "start": 58.0732564448218,
+      "end": 58.298009662392296,
       "speaker": "narrator"
     },
     {
       "text": "enough,",
-      "start": 62.982177275972695,
-      "end": 63.29947593607221,
+      "start": 58.32298224212236,
+      "end": 58.622653198883015,
       "speaker": "narrator"
     },
     {
       "text": "a",
-      "start": 63.40524215610538,
-      "end": 63.431683711113685,
+      "start": 58.72254351780323,
+      "end": 58.74751609753329,
       "speaker": "narrator"
     },
     {
       "text": "convenient",
-      "start": 63.484566821130265,
-      "end": 64.03983947630444,
+      "start": 58.7974612569934,
+      "end": 59.32188543132456,
       "speaker": "narrator"
     },
     {
       "text": "target",
-      "start": 64.09272258632103,
-      "end": 64.51578746645373,
+      "start": 59.371830590784676,
+      "end": 59.77139186646556,
       "speaker": "narrator"
     },
     {
       "text": "starts",
-      "start": 64.56867057647031,
-      "end": 64.91241079157814,
+      "start": 59.821337025925665,
+      "end": 60.14598056241639,
       "speaker": "narrator"
     },
     {
       "text": "to",
-      "start": 64.96529390159472,
-      "end": 65.0446185666196,
+      "start": 60.19592572187649,
+      "end": 60.27084346106666,
       "speaker": "narrator"
     },
     {
       "text": "sound",
-      "start": 65.12394323164449,
-      "end": 65.44124189174401,
+      "start": 60.34576120025683,
+      "end": 60.645432157017495,
       "speaker": "narrator"
     },
     {
       "text": "compulsory.",
-      "start": 65.4941250017606,
-      "end": 66.55178720209236,
+      "start": 60.6953773164776,
+      "end": 61.694280505679814,
       "speaker": "narrator"
     },
     {
       "text": "In",
-      "start": 66.71043653214211,
-      "end": 66.789761197167,
+      "start": 61.84411598406014,
+      "end": 61.918923971703016,
       "speaker": "narrator"
     },
     {
       "text": "2019,",
-      "start": 66.84264430718358,
-      "end": 67.79454028748216,
+      "start": 61.96878972709402,
+      "end": 62.86637332413233,
       "speaker": "narrator"
     },
     {
       "text": "researchers",
-      "start": 67.92674806252363,
-      "end": 68.4555791626895,
+      "start": 62.99103771260987,
+      "end": 63.48969526652003,
       "speaker": "narrator"
     },
     {
       "text": "studying",
-      "start": 68.50846227270608,
-      "end": 68.90508559783049,
+      "start": 63.53956102191104,
+      "end": 63.913554187343664,
       "speaker": "narrator"
     },
     {
       "text": "older",
-      "start": 68.98441026285538,
-      "end": 69.3017089229549,
+      "start": 63.988352820430194,
+      "end": 64.2875473527763,
       "speaker": "narrator"
     },
     {
       "text": "women",
-      "start": 69.35459203297148,
-      "end": 69.64544913806272,
+      "start": 64.3374131081673,
+      "end": 64.6116747628179,
       "speaker": "narrator"
     },
     {
       "text": "found",
-      "start": 69.7247738030876,
-      "end": 70.01563090817882,
+      "start": 64.68647339590443,
+      "end": 64.960735050555,
       "speaker": "narrator"
     },
     {
       "text": "benefits",
-      "start": 70.06851401819543,
-      "end": 70.570903563353,
+      "start": 65.01060080594604,
+      "end": 65.48432548216068,
       "speaker": "narrator"
     },
     {
       "text": "below",
-      "start": 70.62378667336961,
-      "end": 70.88820222345254,
+      "start": 65.53419123755172,
+      "end": 65.78352001450679,
       "speaker": "narrator"
     },
     {
       "text": "10,000.",
-      "start": 70.96752688847741,
-      "end": 72.13095530884233,
+      "start": 65.85831864759331,
+      "end": 66.95536526619567,
       "speaker": "narrator"
     },
     {
       "text": "That",
-      "start": 72.2631630838838,
-      "end": 72.42181241393357,
+      "start": 67.08002965467321,
+      "end": 67.22954982895897,
       "speaker": "narrator"
     },
     {
       "text": "wasn't",
-      "start": 72.47469552395017,
-      "end": 72.71266951902481,
+      "start": 67.2793893067444,
+      "end": 67.50366695677877,
       "speaker": "narrator"
     },
     {
       "text": "evidence",
-      "start": 72.79199418404967,
-      "end": 73.21505906418238,
+      "start": 67.57842617345688,
+      "end": 67.97714199574023,
       "speaker": "narrator"
     },
     {
       "text": "for",
-      "start": 73.26794217419898,
-      "end": 73.40014994924044,
+      "start": 68.02698147352565,
+      "end": 68.1515801679892,
       "speaker": "narrator"
     },
     {
       "text": "everybody.",
-      "start": 73.45303305925702,
-      "end": 74.40492903955561,
+      "start": 68.2014196457746,
+      "end": 69.09853024591212,
       "speaker": "narrator"
     },
     {
       "text": "A",
-      "start": 74.59001992461367,
-      "end": 74.61646147962196,
+      "start": 69.27297207459611,
+      "end": 69.2979062725493,
       "speaker": "narrator"
     },
     {
       "text": "2025",
-      "start": 74.66934458963854,
-      "end": 75.59479901492882,
+      "start": 69.34777466845567,
+      "end": 70.22047159681729,
       "speaker": "narrator"
     },
     {
       "text": "review",
-      "start": 75.64768212494542,
-      "end": 75.99142234005322,
+      "start": 70.27033999272368,
+      "end": 70.59448456611511,
       "speaker": "narrator"
     },
     {
       "text": "covered",
-      "start": 76.04430545006983,
-      "end": 76.30872100015276,
+      "start": 70.64435296202151,
+      "end": 70.89369494155339,
       "speaker": "narrator"
     },
     {
       "text": "57",
-      "start": 76.41448722018593,
-      "end": 77.07552609539329,
+      "start": 70.99343173336615,
+      "end": 71.6167866821959,
       "speaker": "narrator"
     },
     {
       "text": "adult",
-      "start": 77.12840920540987,
-      "end": 77.44570786550938,
+      "start": 71.66665507810227,
+      "end": 71.96586545354052,
       "speaker": "narrator"
     },
     {
       "text": "studies.",
-      "start": 77.49859097552599,
-      "end": 78.3182791807831,
+      "start": 72.01573384944692,
+      "end": 72.78869398599578,
       "speaker": "narrator"
     },
     {
       "text": "Meaningful",
-      "start": 78.47692851083283,
-      "end": 78.95287650098214,
+      "start": 72.9382991737149,
+      "end": 73.38711473687232,
       "speaker": "narrator"
     },
     {
       "text": "health",
-      "start": 79.00575961099872,
-      "end": 79.24373360607336,
+      "start": 73.43698313277869,
+      "end": 73.66139091435738,
       "speaker": "narrator"
     },
     {
       "text": "benefits",
-      "start": 79.29661671608994,
-      "end": 79.77256470623925,
+      "start": 73.71125931026376,
+      "end": 74.16007487342118,
       "speaker": "narrator"
     },
     {
       "text": "appeared",
-      "start": 79.82544781625583,
-      "end": 80.14274647635537,
+      "start": 74.20994326932755,
+      "end": 74.50915364476583,
       "speaker": "narrator"
     },
     {
       "text": "at",
-      "start": 80.16918803136366,
-      "end": 80.22207114138024,
+      "start": 74.53408784271902,
+      "end": 74.58395623862539,
       "speaker": "narrator"
     },
     {
       "text": "lower",
-      "start": 80.27495425139684,
-      "end": 80.53936980147978,
+      "start": 74.63382463453178,
+      "end": 74.88316661406367,
       "speaker": "narrator"
     },
     {
       "text": "counts.",
-      "start": 80.61869446650465,
-      "end": 81.41194111675345,
+      "start": 74.95796920792323,
+      "end": 75.7059951465189,
       "speaker": "narrator"
     },
     {
       "text": "7,000",
-      "start": 81.59703200181153,
-      "end": 82.4431617620769,
+      "start": 75.88053453219123,
+      "end": 76.68002161246112,
       "speaker": "narrator"
     },
     {
       "text": "was",
-      "start": 82.46960331708522,
-      "end": 82.57536953711838,
+      "start": 76.70500575892568,
+      "end": 76.80494234478378,
       "speaker": "narrator"
     },
     {
       "text": "a",
-      "start": 82.57536953711838,
-      "end": 82.62825264713499,
+      "start": 76.80494234478378,
+      "end": 76.85491063771286,
       "speaker": "narrator"
     },
     {
       "text": "practical",
-      "start": 82.68113575715157,
-      "end": 83.20996685731744,
+      "start": 76.90487893064191,
+      "end": 77.4045618599325,
       "speaker": "narrator"
     },
     {
       "text": "marker,",
-      "start": 83.26284996733402,
-      "end": 83.71235640247502,
+      "start": 77.45453015286155,
+      "end": 77.87926064275857,
       "speaker": "narrator"
     },
     {
       "text": "not",
-      "start": 83.8181226225082,
-      "end": 84.02965506257453,
+      "start": 77.97919722861668,
+      "end": 78.1790704003329,
       "speaker": "narrator"
     },
     {
       "text": "a",
-      "start": 83.97677195255797,
-      "end": 84.08253817259114,
+      "start": 78.12910210740387,
+      "end": 78.22903869326198,
       "speaker": "narrator"
     },
     {
       "text": "magic",
-      "start": 84.16186283761601,
-      "end": 84.58492771774871,
+      "start": 78.30399113265557,
+      "end": 78.70373747608804,
       "speaker": "narrator"
     },
     {
       "text": "finish",
-      "start": 84.6642523827736,
-      "end": 84.90222637784825,
+      "start": 78.77868991548162,
+      "end": 79.0035472336624,
       "speaker": "narrator"
     },
     {
       "text": "line.",
-      "start": 84.95510948786482,
-      "end": 85.66903147308876,
+      "start": 79.05351552659144,
+      "end": 79.72808748113376,
       "speaker": "narrator"
     },
     {
       "text": "These",
-      "start": 85.82768080313853,
-      "end": 86.06565479821316,
+      "start": 79.87799235992094,
+      "end": 80.10252001574646,
       "speaker": "narrator"
     },
     {
       "text": "were",
-      "start": 86.09209635322148,
-      "end": 86.17142101824635,
+      "start": 80.12746664184972,
+      "end": 80.20230652015941,
       "speaker": "narrator"
     },
     {
       "text": "adult",
-      "start": 86.27718723827951,
-      "end": 86.62092745338734,
+      "start": 80.30209302457232,
+      "end": 80.62639916391433,
       "speaker": "narrator"
     },
     {
       "text": "studies,",
-      "start": 86.67381056340392,
-      "end": 87.09687544353662,
+      "start": 80.67629241612079,
+      "end": 81.07543843377249,
       "speaker": "narrator"
     },
     {
       "text": "not",
-      "start": 87.23965984058141,
-      "end": 87.39830917063117,
+      "start": 81.21015021472994,
+      "end": 81.35982997134931,
       "speaker": "narrator"
     },
     {
       "text": "a",
-      "start": 87.37186761562288,
-      "end": 87.45119228064777,
+      "start": 81.3348833452461,
+      "end": 81.4097232235558,
       "speaker": "narrator"
     },
     {
       "text": "universal",
-      "start": 87.50407539066435,
-      "end": 88.08578960084681,
+      "start": 81.45961647576226,
+      "end": 82.00844225003334,
       "speaker": "narrator"
     },
     {
       "text": "rule",
-      "start": 88.1651142658717,
-      "end": 88.42952981595464,
+      "start": 82.08328212834303,
+      "end": 82.33274838937535,
       "speaker": "narrator"
     },
     {
       "text": "for",
-      "start": 88.48241292597122,
-      "end": 88.61462070101268,
+      "start": 82.38264164158181,
+      "end": 82.50737477209796,
       "speaker": "narrator"
     },
     {
       "text": "every",
-      "start": 88.66750381102929,
-      "end": 88.95836091612051,
+      "start": 82.55726802430445,
+      "end": 82.83168091143997,
       "speaker": "narrator"
     },
     {
       "text": "age",
-      "start": 89.0376855811454,
-      "end": 89.35498424124492,
+      "start": 82.90652078974968,
+      "end": 83.20588030298845,
       "speaker": "narrator"
     },
     {
       "text": "and",
-      "start": 89.38142579625321,
-      "end": 89.46075046127811,
+      "start": 83.23082692909168,
+      "end": 83.30566680740138,
       "speaker": "narrator"
     },
     {
       "text": "ability.",
-      "start": 89.48719201628639,
-      "end": 90.35976333156009,
+      "start": 83.3306134335046,
+      "end": 84.15385209491124,
       "speaker": "narrator"
     },
     {
       "text": "Back",
-      "start": 90.54485421661815,
-      "end": 90.78282821169279,
+      "start": 84.32847847763387,
+      "end": 84.5533687861419,
       "speaker": "narrator"
     },
     {
       "text": "in",
-      "start": 90.80926976670108,
-      "end": 90.91503598673427,
+      "start": 84.57835750845743,
+      "end": 84.67831239771957,
       "speaker": "narrator"
     },
     {
       "text": "town,",
-      "start": 90.96791909675082,
-      "end": 91.31165931185868,
+      "start": 84.72828984235059,
+      "end": 85.05314323245253,
       "speaker": "narrator"
     },
     {
       "text": "Javelina",
-      "start": 91.39098397688355,
-      "end": 91.81404885701625,
+      "start": 85.12810939939911,
+      "end": 85.52792895644758,
       "speaker": "narrator"
     },
     {
       "text": "thinks",
-      "start": 91.89337352204112,
-      "end": 92.13134751711577,
+      "start": 85.60289512339416,
+      "end": 85.82779362423395,
       "speaker": "narrator"
     },
     {
       "text": "missing",
-      "start": 92.18423062713235,
-      "end": 92.4486461772153,
+      "start": 85.877771068865,
+      "end": 86.12765829202031,
       "speaker": "narrator"
     },
     {
       "text": "the",
-      "start": 92.47508773222359,
-      "end": 92.52797084224017,
+      "start": 86.15264701433584,
+      "end": 86.2026244589669,
       "speaker": "narrator"
     },
     {
       "text": "target",
-      "start": 92.60729550726505,
-      "end": 93.00391883238946,
+      "start": 86.27759062591349,
+      "end": 86.65242146064645,
       "speaker": "narrator"
     },
     {
       "text": "makes",
-      "start": 93.05680194240605,
-      "end": 93.2683343824724,
+      "start": 86.70239890527752,
+      "end": 86.90230868380175,
       "speaker": "narrator"
     },
     {
       "text": "his",
-      "start": 93.29477593748071,
-      "end": 93.42698371252217,
+      "start": 86.92729740611729,
+      "end": 87.05224101769494,
       "speaker": "narrator"
     },
     {
       "text": "whole",
-      "start": 93.50630837754704,
-      "end": 93.77072392762997,
+      "start": 87.12720718464152,
+      "end": 87.37709440779682,
       "speaker": "narrator"
     },
     {
       "text": "walk",
-      "start": 93.85004859265486,
-      "end": 94.1144641427378,
+      "start": 87.45206057474341,
+      "end": 87.70194779789873,
       "speaker": "narrator"
     },
     {
       "text": "worthless.",
-      "start": 94.19378880776269,
-      "end": 94.9870354580115,
+      "start": 87.77691396484532,
+      "end": 88.52657563431124,
       "speaker": "narrator"
     },
     {
       "text": "He",
-      "start": 95.09280167804467,
-      "end": 95.19856789807784,
+      "start": 88.62653052357335,
+      "end": 88.7265442804287,
       "speaker": "narrator"
     },
     {
       "text": "lowers",
-      "start": 95.25145100809443,
-      "end": 95.59519122320225,
+      "start": 88.77655330837916,
+      "end": 89.10161199005721,
       "speaker": "narrator"
     },
     {
       "text": "the",
-      "start": 95.64807433321884,
-      "end": 95.72739899824371,
+      "start": 89.15162101800769,
+      "end": 89.22663455993337,
       "speaker": "narrator"
     },
     {
       "text": "watch.",
-      "start": 95.80672366326861,
-      "end": 96.46776253847597,
+      "start": 89.3016481018591,
+      "end": 89.92676095123997,
       "speaker": "narrator"
     },
     {
       "text": "Straightens",
-      "start": 96.62641186852574,
-      "end": 97.07591830366671,
+      "start": 90.07678803509138,
+      "end": 90.5029268766364,
       "speaker": "narrator"
     },
     {
       "text": "his",
-      "start": 97.10235985867502,
-      "end": 97.23456763371648,
+      "start": 90.52799484437153,
+      "end": 90.65333468304722,
       "speaker": "narrator"
     },
     {
       "text": "back.",
-      "start": 97.31389229874135,
-      "end": 97.63119095884089,
+      "start": 90.72853858625261,
+      "end": 91.02935419907425,
       "speaker": "narrator"
     },
     {
       "text": "Stands",
-      "start": 97.91675975293047,
-      "end": 98.28694152304658,
+      "start": 91.30008770110804,
+      "end": 91.64885399691991,
       "speaker": "narrator"
     },
     {
       "text": "up.",
-      "start": 98.33982463306315,
-      "end": 98.52491551812122,
+      "start": 91.69867775346444,
+      "end": 91.8730609013704,
       "speaker": "narrator"
     },
     {
       "text": "Keeps",
-      "start": 98.69414147017429,
-      "end": 98.95855702025723,
+      "start": 92.03249692231296,
+      "end": 92.28161570503573,
       "speaker": "narrator"
     },
     {
       "text": "walking.",
-      "start": 99.03788168528213,
-      "end": 99.80468678052264,
+      "start": 92.35635133985258,
+      "end": 93.0787958097486,
       "speaker": "narrator"
     },
     {
       "text": "The",
-      "start": 99.93689455556411,
-      "end": 99.98977766558068,
+      "start": 93.20335173857013,
+      "end": 93.25312407740927,
       "speaker": "narrator"
     },
     {
       "text": "Banker",
-      "start": 100.04266077559728,
-      "end": 100.33351788068852,
+      "start": 93.30289641624843,
+      "end": 93.5766442798637,
       "speaker": "narrator"
     },
     {
       "text": "waits",
-      "start": 100.38640099070508,
-      "end": 100.67725809579632,
+      "start": 93.62641661870282,
+      "end": 93.9001644823181,
       "speaker": "narrator"
     },
     {
       "text": "for",
-      "start": 100.73014120581293,
-      "end": 100.8887905358627,
+      "start": 93.94993682115727,
+      "end": 94.0992538376747,
       "speaker": "narrator"
     },
     {
       "text": "a",
-      "start": 100.8887905358627,
-      "end": 100.94167364587926,
+      "start": 94.0992538376747,
+      "end": 94.14902617651381,
       "speaker": "narrator"
     },
     {
       "text": "sale",
-      "start": 101.04743986591244,
-      "end": 101.39118008102027,
+      "start": 94.2485708541921,
+      "end": 94.57209105664653,
       "speaker": "narrator"
     },
     {
       "text": "that",
-      "start": 101.41762163602857,
-      "end": 101.49694630105344,
+      "start": 94.5969772260661,
+      "end": 94.67163573432481,
       "speaker": "narrator"
     },
     {
       "text": "isn't",
-      "start": 101.52338785606175,
-      "end": 101.76136185113637,
+      "start": 94.69652190374438,
+      "end": 94.9204974285205,
       "speaker": "narrator"
     },
     {
       "text": "coming.",
-      "start": 101.84068651616124,
-      "end": 102.29019295130226,
+      "start": 94.99515593677921,
+      "end": 95.41822081691193,
       "speaker": "narrator"
     },
     {
       "text": "Walking",
-      "start": 102.47528383636032,
-      "end": 102.9512318265096,
+      "start": 95.59242400284893,
+      "end": 96.0432722566933,
       "speaker": "narrator"
     },
     {
       "text": "was",
-      "start": 103.0041149365262,
-      "end": 103.13632271156767,
+      "start": 96.09337204513007,
+      "end": 96.218621516222,
       "speaker": "narrator"
     },
     {
       "text": "useful.",
-      "start": 103.21564737659254,
-      "end": 103.90312780680819,
+      "start": 96.29377119887714,
+      "end": 96.94506844855512,
       "speaker": "narrator"
     },
     {
       "text": "The",
-      "start": 104.06177713685796,
-      "end": 104.11466024687452,
+      "start": 97.09536781386542,
+      "end": 97.1453272701963,
       "speaker": "narrator"
     },
     {
       "text": "universal",
-      "start": 104.16754335689112,
-      "end": 104.82858223209847,
+      "start": 97.19527242965643,
+      "end": 97.81958692290782,
       "speaker": "narrator"
     },
     {
       "text": "rule",
-      "start": 104.90790689712333,
-      "end": 105.22520555722286,
+      "start": 97.89450466209796,
+      "end": 98.19417561885862,
       "speaker": "narrator"
     },
     {
       "text": "was",
-      "start": 105.27808866723944,
-      "end": 105.4631795522975,
+      "start": 98.24412077831873,
+      "end": 98.41892883642912,
       "speaker": "narrator"
     },
     {
       "text": "the",
-      "start": 105.4631795522975,
-      "end": 105.51606266231411,
+      "start": 98.41892883642912,
+      "end": 98.46887399588925,
       "speaker": "narrator"
     },
     {
       "text": "story.",
-      "start": 105.59538732733898,
-      "end": 106.3621924225795,
+      "start": 98.54379173507941,
+      "end": 99.267996547251,
       "speaker": "narrator"
     },
     {
       "text": "Which",
-      "start": 106.46795864261266,
-      "end": 106.65304952767073,
+      "start": 99.36788551189872,
+      "end": 99.54249955440635,
       "speaker": "narrator"
     },
     {
       "text": "other",
-      "start": 106.7323741926956,
-      "end": 106.99678974277853,
+      "start": 99.61733414405245,
+      "end": 99.86678277620615,
       "speaker": "narrator"
     },
     {
       "text": "rules",
-      "start": 107.07611440780343,
-      "end": 107.5256208429444,
+      "start": 99.94161736585228,
+      "end": 100.36568004051358,
       "speaker": "narrator"
     },
     {
       "text": "have",
-      "start": 107.57850395296101,
-      "end": 107.71071172800248,
+      "start": 100.41556976694434,
+      "end": 100.5402940830212,
       "speaker": "narrator"
     },
     {
       "text": "you",
-      "start": 107.76359483801907,
-      "end": 107.84291950304394,
+      "start": 100.59018380945194,
+      "end": 100.66501839909806,
       "speaker": "narrator"
     },
     {
       "text": "never",
-      "start": 107.89580261306055,
-      "end": 108.1337766081352,
+      "start": 100.71490812552882,
+      "end": 100.93941189446716,
       "speaker": "narrator"
     },
     {
       "text": "questioned?",
-      "start": 108.18665971815176,
-      "end": 109.16499725345864,
+      "start": 100.98930162089788,
+      "end": 101.91226155986664,
       "speaker": "narrator"
     }
   ],
@@ -3775,10 +3775,294 @@
   "sourceNarrationHash": "41f5f7a41a578f187d498d412e26a0d9d7c5c04319369ac8aaae6e2b39edfa80",
   "timingMethod": "Model-predicted phoneme durations mapped to canonical words; listening review separate",
   "sourceDeliveryNote": "H3 native352x640/24fps; enhanced/upscaled2K60 delivery repeats source poses.",
+  "performanceVersion": 3,
+  "performanceMap": [
+    {
+      "id": "01",
+      "role": "banker",
+      "oldStart": 0,
+      "oldEnd": 4.516666666666667,
+      "newStart": 0,
+      "newEnd": 4.266666666666667,
+      "tempo": 1.05859375,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "02",
+      "role": "javelina",
+      "oldStart": 4.516666666666667,
+      "oldEnd": 8.566666666666666,
+      "newStart": 4.266666666666667,
+      "newEnd": 7.75,
+      "tempo": 1.1626794258373205,
+      "pitchSemitones": 7
+    },
+    {
+      "id": "03",
+      "role": "banker",
+      "oldStart": 8.566666666666666,
+      "oldEnd": 14.7,
+      "newStart": 7.75,
+      "newEnd": 13.533333333333333,
+      "tempo": 1.0605187319884728,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "04",
+      "role": "javelina",
+      "oldStart": 14.7,
+      "oldEnd": 20.333333333333332,
+      "newStart": 13.533333333333333,
+      "newEnd": 18.383333333333333,
+      "tempo": 1.161512027491409,
+      "pitchSemitones": 7
+    },
+    {
+      "id": "05",
+      "role": "banker",
+      "oldStart": 20.333333333333332,
+      "oldEnd": 24.483333333333334,
+      "newStart": 18.383333333333333,
+      "newEnd": 22.3,
+      "tempo": 1.0595744680851065,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "06",
+      "role": "javelina",
+      "oldStart": 24.483333333333334,
+      "oldEnd": 28,
+      "newStart": 22.3,
+      "newEnd": 25.333333333333332,
+      "tempo": 1.1593406593406594,
+      "pitchSemitones": 7
+    },
+    {
+      "id": "07",
+      "role": "narrator",
+      "oldStart": 28,
+      "oldEnd": 32.6,
+      "newStart": 25.333333333333332,
+      "newEnd": 29.666666666666668,
+      "tempo": 1.0615384615384615,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "08",
+      "role": "narrator",
+      "oldStart": 32.6,
+      "oldEnd": 35.266666666666666,
+      "newStart": 29.666666666666668,
+      "newEnd": 32.18333333333333,
+      "tempo": 1.0596026490066224,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "09",
+      "role": "narrator",
+      "oldStart": 35.266666666666666,
+      "oldEnd": 39.55,
+      "newStart": 32.18333333333333,
+      "newEnd": 36.21666666666667,
+      "tempo": 1.06198347107438,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "10",
+      "role": "narrator",
+      "oldStart": 39.55,
+      "oldEnd": 43.6,
+      "newStart": 36.21666666666667,
+      "newEnd": 40.03333333333333,
+      "tempo": 1.0611353711790392,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "11",
+      "role": "narrator",
+      "oldStart": 43.6,
+      "oldEnd": 50.53333333333333,
+      "newStart": 40.03333333333333,
+      "newEnd": 46.56666666666667,
+      "tempo": 1.0612244897959184,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "12",
+      "role": "narrator",
+      "oldStart": 50.53333333333333,
+      "oldEnd": 54.05,
+      "newStart": 46.56666666666667,
+      "newEnd": 49.88333333333333,
+      "tempo": 1.0603015075376883,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "13",
+      "role": "narrator",
+      "oldStart": 54.05,
+      "oldEnd": 58.88333333333333,
+      "newStart": 49.88333333333333,
+      "newEnd": 54.45,
+      "tempo": 1.0583941605839415,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "14",
+      "role": "narrator",
+      "oldStart": 58.88333333333333,
+      "oldEnd": 62.21666666666667,
+      "newStart": 54.45,
+      "newEnd": 57.6,
+      "tempo": 1.0582010582010584,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "15",
+      "role": "narrator",
+      "oldStart": 62.21666666666667,
+      "oldEnd": 66.71666666666667,
+      "newStart": 57.6,
+      "newEnd": 61.85,
+      "tempo": 1.0588235294117647,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "16",
+      "role": "narrator",
+      "oldStart": 66.71666666666667,
+      "oldEnd": 72.26666666666667,
+      "newStart": 61.85,
+      "newEnd": 67.08333333333333,
+      "tempo": 1.0605095541401273,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "17",
+      "role": "narrator",
+      "oldStart": 72.26666666666667,
+      "oldEnd": 74.58333333333333,
+      "newStart": 67.08333333333333,
+      "newEnd": 69.26666666666667,
+      "tempo": 1.0610687022900764,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "18",
+      "role": "narrator",
+      "oldStart": 74.58333333333333,
+      "oldEnd": 81.6,
+      "newStart": 69.26666666666667,
+      "newEnd": 75.88333333333334,
+      "tempo": 1.0604534005037785,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "19",
+      "role": "narrator",
+      "oldStart": 81.6,
+      "oldEnd": 85.83333333333333,
+      "newStart": 75.88333333333334,
+      "newEnd": 79.88333333333334,
+      "tempo": 1.0583333333333333,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "20",
+      "role": "narrator",
+      "oldStart": 85.83333333333333,
+      "oldEnd": 90.55,
+      "newStart": 79.88333333333334,
+      "newEnd": 84.33333333333333,
+      "tempo": 1.0599250936329587,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "21",
+      "role": "narrator",
+      "oldStart": 90.55,
+      "oldEnd": 95.1,
+      "newStart": 84.33333333333333,
+      "newEnd": 88.63333333333334,
+      "tempo": 1.058139534883721,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "22",
+      "role": "narrator",
+      "oldStart": 95.1,
+      "oldEnd": 96.63333333333334,
+      "newStart": 88.63333333333334,
+      "newEnd": 90.08333333333333,
+      "tempo": 1.0574712643678161,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "23",
+      "role": "narrator",
+      "oldStart": 96.63333333333334,
+      "oldEnd": 97.91666666666667,
+      "newStart": 90.08333333333333,
+      "newEnd": 91.3,
+      "tempo": 1.0547945205479454,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "24",
+      "role": "narrator",
+      "oldStart": 97.91666666666667,
+      "oldEnd": 99.93333333333334,
+      "newStart": 91.3,
+      "newEnd": 93.2,
+      "tempo": 1.0614035087719298,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "25",
+      "role": "narrator",
+      "oldStart": 99.93333333333334,
+      "oldEnd": 102.48333333333333,
+      "newStart": 93.2,
+      "newEnd": 95.6,
+      "tempo": 1.0625,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "26",
+      "role": "narrator",
+      "oldStart": 102.48333333333333,
+      "oldEnd": 104.06666666666666,
+      "newStart": 95.6,
+      "newEnd": 97.1,
+      "tempo": 1.0555555555555556,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "27",
+      "role": "narrator",
+      "oldStart": 104.06666666666666,
+      "oldEnd": 106.46666666666667,
+      "newStart": 97.1,
+      "newEnd": 99.36666666666666,
+      "tempo": 1.0588235294117647,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "28",
+      "role": "banker",
+      "oldStart": 106.46666666666667,
+      "oldEnd": 110,
+      "newStart": 99.36666666666666,
+      "newEnd": 102.7,
+      "tempo": 1.0599999999999998,
+      "pitchSemitones": 0
+    }
+  ],
+  "performanceNote": "Original guided performances retimed together: Bird/narration +6%, Javelina +16% and +7semitones with vocal formants preserved, brighter EQ and subtle tremble. Source guide WAVs and H3 takes remain unchanged.",
   "audioMasterReady": true,
   "audio": "texas-ten-thousand-steps/audio/mix.wav",
   "audioPlaybackRate": 1,
-  "audioVersion": "707a18692dae1974",
+  "audioVersion": "b39a313a9252ef61",
   "readyCount": 28,
   "complete": true
 }

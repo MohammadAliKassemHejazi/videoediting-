@@ -1,14 +1,21 @@
 {
-  "id":"texas-ten-thousand-steps",
-  "kind":"casefile-story",
-  "title":"WHO CHOSE 10,000 STEPS? — EPISODE2",
-  "duration":110,
-  "series":"texas-casefiles",
-  "composition":"texas-ten-thousand-steps",
-  "previewOrigin":"http://localhost:3002",
-  "style":"Continuous Texas cartoon investigation: watch argument, sepia history, adult evidence and a character payoff; serious bird voice, softer Javelina and audio-guided speaking takes.",
-  "status":"Episode2 in production. The live110s composition shows completed H3 shots and honestly labeled artwork. Full export and final review pending.",
-  "thumbnail":{"file":"assets/thumbnail.png","landscape":"assets/covers/youtube.png"},
-  "export":{"width":1440,"height":2560,"fps":60},
-  "sourceLimit":"352x640/24fps native local H3; enhanced/upscaled2K60 delivery repeats source poses."
+  "id": "texas-ten-thousand-steps",
+  "kind": "casefile-story",
+  "title": "WHO CHOSE 10,000 STEPS? — EPISODE2",
+  "duration": 102.7,
+  "series": "texas-casefiles",
+  "composition": "texas-ten-thousand-steps",
+  "previewOrigin": "http://localhost:3002",
+  "style": "Continuous Texas cartoon investigation: watch argument, sepia history, adult evidence and a character payoff; serious bird voice, softer Javelina and audio-guided speaking takes. Old-cinema matte grade, film grain/dust and gentle exposure variation.",
+  "status": "Version3 in production: faster contrasting character voices, contact-timed footsteps and old-cinema finish; earlier110s render preserved.",
+  "thumbnail": {
+    "file": "assets/thumbnail.png",
+    "landscape": "assets/covers/youtube.png"
+  },
+  "export": {
+    "width": 1440,
+    "height": 2560,
+    "fps": 60
+  },
+  "sourceLimit": "352x640/24fps native local H3; enhanced/upscaled2K60 delivery repeats source poses."
 }

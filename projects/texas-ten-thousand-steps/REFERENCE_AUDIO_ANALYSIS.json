@@ -1,0 +1,278 @@
+{
+  "reference": {
+    "anxious dialogue": {
+      "voicedFrames": 208,
+      "estimatedF0Hz": {
+        "p20": 217.4,
+        "median": 258.1,
+        "p80": 285.7
+      }
+    },
+    "confident dialogue": {
+      "voicedFrames": 143,
+      "estimatedF0Hz": {
+        "p20": 100.9,
+        "median": 119.4,
+        "p80": 166.0
+      }
+    },
+    "main narration": {
+      "voicedFrames": 112,
+      "estimatedF0Hz": {
+        "p20": 109.6,
+        "median": 118.1,
+        "p80": 136.5
+      }
+    }
+  },
+  "currentV2": {
+    "banker": {
+      "voicedFrames": 328,
+      "estimatedF0Hz": {
+        "p20": 103.9,
+        "median": 119.4,
+        "p80": 139.1
+      }
+    },
+    "javelina": {
+      "voicedFrames": 268,
+      "estimatedF0Hz": {
+        "p20": 101.9,
+        "median": 121.2,
+        "p80": 150.9
+      }
+    },
+    "narrator": {
+      "voicedFrames": 1515,
+      "estimatedF0Hz": {
+        "p20": 99.3,
+        "median": 115.1,
+        "p80": 139.1
+      }
+    }
+  },
+  "openingLowBandImpactCandidates": [
+    {
+      "time": 0.12,
+      "relativeEnergy": 1.88
+    },
+    {
+      "time": 0.64,
+      "relativeEnergy": 6.43
+    },
+    {
+      "time": 1.18,
+      "relativeEnergy": 4.81
+    },
+    {
+      "time": 1.56,
+      "relativeEnergy": 2.15
+    },
+    {
+      "time": 1.96,
+      "relativeEnergy": 6.16
+    },
+    {
+      "time": 2.36,
+      "relativeEnergy": 2.32
+    },
+    {
+      "time": 2.58,
+      "relativeEnergy": 4.88
+    },
+    {
+      "time": 2.96,
+      "relativeEnergy": 1.99
+    },
+    {
+      "time": 3.44,
+      "relativeEnergy": 6.15
+    },
+    {
+      "time": 3.92,
+      "relativeEnergy": 4.96
+    },
+    {
+      "time": 4.22,
+      "relativeEnergy": 4.66
+    },
+    {
+      "time": 4.72,
+      "relativeEnergy": 15.83
+    },
+    {
+      "time": 5.14,
+      "relativeEnergy": 2.32
+    },
+    {
+      "time": 5.6,
+      "relativeEnergy": 2.02
+    },
+    {
+      "time": 5.92,
+      "relativeEnergy": 2.45
+    },
+    {
+      "time": 6.34,
+      "relativeEnergy": 1.99
+    },
+    {
+      "time": 6.54,
+      "relativeEnergy": 2.89
+    },
+    {
+      "time": 7.1,
+      "relativeEnergy": 2.76
+    },
+    {
+      "time": 7.86,
+      "relativeEnergy": 2.09
+    },
+    {
+      "time": 8.12,
+      "relativeEnergy": 11.3
+    },
+    {
+      "time": 8.36,
+      "relativeEnergy": 4.66
+    },
+    {
+      "time": 9.0,
+      "relativeEnergy": 7.69
+    },
+    {
+      "time": 9.36,
+      "relativeEnergy": 2.29
+    },
+    {
+      "time": 10.08,
+      "relativeEnergy": 4.16
+    },
+    {
+      "time": 10.6,
+      "relativeEnergy": 8.11
+    },
+    {
+      "time": 11.06,
+      "relativeEnergy": 16.17
+    },
+    {
+      "time": 11.48,
+      "relativeEnergy": 2.08
+    },
+    {
+      "time": 12.2,
+      "relativeEnergy": 1.84
+    },
+    {
+      "time": 12.9,
+      "relativeEnergy": 3.94
+    },
+    {
+      "time": 13.3,
+      "relativeEnergy": 3.03
+    },
+    {
+      "time": 13.96,
+      "relativeEnergy": 2.11
+    },
+    {
+      "time": 14.18,
+      "relativeEnergy": 1.91
+    },
+    {
+      "time": 14.68,
+      "relativeEnergy": 7.71
+    },
+    {
+      "time": 15.66,
+      "relativeEnergy": 2.08
+    },
+    {
+      "time": 15.92,
+      "relativeEnergy": 4.5
+    },
+    {
+      "time": 16.62,
+      "relativeEnergy": 1.92
+    },
+    {
+      "time": 17.04,
+      "relativeEnergy": 4.23
+    },
+    {
+      "time": 17.4,
+      "relativeEnergy": 6.8
+    },
+    {
+      "time": 17.78,
+      "relativeEnergy": 3.06
+    },
+    {
+      "time": 18.34,
+      "relativeEnergy": 2.1
+    },
+    {
+      "time": 18.78,
+      "relativeEnergy": 2.07
+    },
+    {
+      "time": 19.02,
+      "relativeEnergy": 2.01
+    },
+    {
+      "time": 19.68,
+      "relativeEnergy": 2.02
+    },
+    {
+      "time": 20.06,
+      "relativeEnergy": 1.88
+    },
+    {
+      "time": 20.26,
+      "relativeEnergy": 4.92
+    },
+    {
+      "time": 21.02,
+      "relativeEnergy": 2.34
+    },
+    {
+      "time": 21.38,
+      "relativeEnergy": 2.14
+    },
+    {
+      "time": 23.48,
+      "relativeEnergy": 1.71
+    },
+    {
+      "time": 24.34,
+      "relativeEnergy": 2.38
+    },
+    {
+      "time": 24.56,
+      "relativeEnergy": 1.84
+    },
+    {
+      "time": 24.98,
+      "relativeEnergy": 1.74
+    },
+    {
+      "time": 25.8,
+      "relativeEnergy": 5.26
+    },
+    {
+      "time": 26.78,
+      "relativeEnergy": 2.35
+    },
+    {
+      "time": 27.4,
+      "relativeEnergy": 12.19
+    },
+    {
+      "time": 27.76,
+      "relativeEnergy": 4.97
+    }
+  ],
+  "method": "16kHz mono, FFT/YIN-style difference, 39\u2013229-sample lags, voiced threshold0.78; low-band45\u2013180Hz energy candidates. Voice-role windows inferred from estimated transcript and visual coverage.",
+  "limits": "Mixed recording: pitch may include music or octave errors. Candidates do not prove isolated footsteps. No listening review, exact speaker identification or voice cloning is claimed."
+}

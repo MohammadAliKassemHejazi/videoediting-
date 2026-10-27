@@ -1,0 +1,312 @@
+{
+  "version": 3,
+  "duration": 102.7,
+  "baseDuration": 110,
+  "sourceVoiceSHA256": "02b79bf212c52b6d55b551eb506425adc59db1d1475494441eefccbb14931a11",
+  "fittedVoiceSHA256": "ecd35b52ed93a4a8fd7773fd564197187ba29ef777137ad6cd1b321f23c61710",
+  "direction": {
+    "version": 3,
+    "authorizedBy": "User requested a thinner, slightly scared, faster other voice; slightly faster serious first voice; reference sound concept without imitation; old-cinema image treatment.",
+    "baseVersion": "v2",
+    "banker": {
+      "tempo": 1.06,
+      "pitchSemitones": 0,
+      "direction": "Serious and controlled, slightly faster; keep the existing deep identity."
+    },
+    "javelina": {
+      "tempo": 1.16,
+      "pitchSemitones": 7,
+      "direction": "Higher/thinner, lightly trembling and apprehensive; faster than the Banker. Preserve vocal formants to avoid a chipmunk effect."
+    },
+    "narrator": {
+      "tempo": 1.06,
+      "pitchSemitones": 0,
+      "direction": "Same serious Bird identity, slightly faster explanation."
+    },
+    "method": "High-quality Rubber Band transformation of the original stock performances. Retiming the matching H3 intervals preserves their speech-guide relationship; no reference voice or audio is copied.",
+    "listeningReview": "Pending; numerical analysis and visual mouth checks are separate."
+  },
+  "map": [
+    {
+      "id": "01",
+      "role": "banker",
+      "oldStart": 0,
+      "oldEnd": 4.516666666666667,
+      "newStart": 0,
+      "newEnd": 4.266666666666667,
+      "tempo": 1.05859375,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "02",
+      "role": "javelina",
+      "oldStart": 4.516666666666667,
+      "oldEnd": 8.566666666666666,
+      "newStart": 4.266666666666667,
+      "newEnd": 7.75,
+      "tempo": 1.1626794258373205,
+      "pitchSemitones": 7
+    },
+    {
+      "id": "03",
+      "role": "banker",
+      "oldStart": 8.566666666666666,
+      "oldEnd": 14.7,
+      "newStart": 7.75,
+      "newEnd": 13.533333333333333,
+      "tempo": 1.0605187319884728,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "04",
+      "role": "javelina",
+      "oldStart": 14.7,
+      "oldEnd": 20.333333333333332,
+      "newStart": 13.533333333333333,
+      "newEnd": 18.383333333333333,
+      "tempo": 1.161512027491409,
+      "pitchSemitones": 7
+    },
+    {
+      "id": "05",
+      "role": "banker",
+      "oldStart": 20.333333333333332,
+      "oldEnd": 24.483333333333334,
+      "newStart": 18.383333333333333,
+      "newEnd": 22.3,
+      "tempo": 1.0595744680851065,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "06",
+      "role": "javelina",
+      "oldStart": 24.483333333333334,
+      "oldEnd": 28,
+      "newStart": 22.3,
+      "newEnd": 25.333333333333332,
+      "tempo": 1.1593406593406594,
+      "pitchSemitones": 7
+    },
+    {
+      "id": "07",
+      "role": "narrator",
+      "oldStart": 28,
+      "oldEnd": 32.6,
+      "newStart": 25.333333333333332,
+      "newEnd": 29.666666666666668,
+      "tempo": 1.0615384615384615,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "08",
+      "role": "narrator",
+      "oldStart": 32.6,
+      "oldEnd": 35.266666666666666,
+      "newStart": 29.666666666666668,
+      "newEnd": 32.18333333333333,
+      "tempo": 1.0596026490066224,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "09",
+      "role": "narrator",
+      "oldStart": 35.266666666666666,
+      "oldEnd": 39.55,
+      "newStart": 32.18333333333333,
+      "newEnd": 36.21666666666667,
+      "tempo": 1.06198347107438,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "10",
+      "role": "narrator",
+      "oldStart": 39.55,
+      "oldEnd": 43.6,
+      "newStart": 36.21666666666667,
+      "newEnd": 40.03333333333333,
+      "tempo": 1.0611353711790392,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "11",
+      "role": "narrator",
+      "oldStart": 43.6,
+      "oldEnd": 50.53333333333333,
+      "newStart": 40.03333333333333,
+      "newEnd": 46.56666666666667,
+      "tempo": 1.0612244897959184,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "12",
+      "role": "narrator",
+      "oldStart": 50.53333333333333,
+      "oldEnd": 54.05,
+      "newStart": 46.56666666666667,
+      "newEnd": 49.88333333333333,
+      "tempo": 1.0603015075376883,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "13",
+      "role": "narrator",
+      "oldStart": 54.05,
+      "oldEnd": 58.88333333333333,
+      "newStart": 49.88333333333333,
+      "newEnd": 54.45,
+      "tempo": 1.0583941605839415,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "14",
+      "role": "narrator",
+      "oldStart": 58.88333333333333,
+      "oldEnd": 62.21666666666667,
+      "newStart": 54.45,
+      "newEnd": 57.6,
+      "tempo": 1.0582010582010584,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "15",
+      "role": "narrator",
+      "oldStart": 62.21666666666667,
+      "oldEnd": 66.71666666666667,
+      "newStart": 57.6,
+      "newEnd": 61.85,
+      "tempo": 1.0588235294117647,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "16",
+      "role": "narrator",
+      "oldStart": 66.71666666666667,
+      "oldEnd": 72.26666666666667,
+      "newStart": 61.85,
+      "newEnd": 67.08333333333333,
+      "tempo": 1.0605095541401273,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "17",
+      "role": "narrator",
+      "oldStart": 72.26666666666667,
+      "oldEnd": 74.58333333333333,
+      "newStart": 67.08333333333333,
+      "newEnd": 69.26666666666667,
+      "tempo": 1.0610687022900764,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "18",
+      "role": "narrator",
+      "oldStart": 74.58333333333333,
+      "oldEnd": 81.6,
+      "newStart": 69.26666666666667,
+      "newEnd": 75.88333333333334,
+      "tempo": 1.0604534005037785,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "19",
+      "role": "narrator",
+      "oldStart": 81.6,
+      "oldEnd": 85.83333333333333,
+      "newStart": 75.88333333333334,
+      "newEnd": 79.88333333333334,
+      "tempo": 1.0583333333333333,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "20",
+      "role": "narrator",
+      "oldStart": 85.83333333333333,
+      "oldEnd": 90.55,
+      "newStart": 79.88333333333334,
+      "newEnd": 84.33333333333333,
+      "tempo": 1.0599250936329587,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "21",
+      "role": "narrator",
+      "oldStart": 90.55,
+      "oldEnd": 95.1,
+      "newStart": 84.33333333333333,
+      "newEnd": 88.63333333333334,
+      "tempo": 1.058139534883721,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "22",
+      "role": "narrator",
+      "oldStart": 95.1,
+      "oldEnd": 96.63333333333334,
+      "newStart": 88.63333333333334,
+      "newEnd": 90.08333333333333,
+      "tempo": 1.0574712643678161,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "23",
+      "role": "narrator",
+      "oldStart": 96.63333333333334,
+      "oldEnd": 97.91666666666667,
+      "newStart": 90.08333333333333,
+      "newEnd": 91.3,
+      "tempo": 1.0547945205479454,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "24",
+      "role": "narrator",
+      "oldStart": 97.91666666666667,
+      "oldEnd": 99.93333333333334,
+      "newStart": 91.3,
+      "newEnd": 93.2,
+      "tempo": 1.0614035087719298,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "25",
+      "role": "narrator",
+      "oldStart": 99.93333333333334,
+      "oldEnd": 102.48333333333333,
+      "newStart": 93.2,
+      "newEnd": 95.6,
+      "tempo": 1.0625,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "26",
+      "role": "narrator",
+      "oldStart": 102.48333333333333,
+      "oldEnd": 104.06666666666666,
+      "newStart": 95.6,
+      "newEnd": 97.1,
+      "tempo": 1.0555555555555556,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "27",
+      "role": "narrator",
+      "oldStart": 104.06666666666666,
+      "oldEnd": 106.46666666666667,
+      "newStart": 97.1,
+      "newEnd": 99.36666666666666,
+      "tempo": 1.0588235294117647,
+      "pitchSemitones": 0
+    },
+    {
+      "id": "28",
+      "role": "banker",
+      "oldStart": 106.46666666666667,
+      "oldEnd": 110,
+      "newStart": 99.36666666666666,
+      "newEnd": 102.7,
+      "tempo": 1.0599999999999998,
+      "pitchSemitones": 0
+    }
+  ],
+  "note": "Replaces the old sound master after make-casefile-audio; model-guide intervals stay paired with the same transformed speech. Listening approval is separate."
+}

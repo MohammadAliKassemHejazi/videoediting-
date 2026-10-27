@@ -4,6 +4,16 @@ import propTracks from '../../remotion/texas-steps-tracks.json';
 const clamp=x=>Math.max(0,Math.min(1,x));
 const file=(path,version)=>staticFile(path)+(version?'?v='+version:'');
 const mediaStyle={width:'100%',height:'100%',objectFit:'cover'};
+const filmGrains=Array.from({length:8},(_,i)=>'data:image/svg+xml,'+encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128"><filter id="n" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".82" numOctaves="2" seed="${i+13}"/><feColorMatrix type="saturate" values="0"/></filter><rect width="128" height="128" filter="url(#n)" opacity=".95"/></svg>`));
+function FilmTexture({frame,archive}){
+ const phase=Math.floor(frame*24/60),grain=filmGrains[phase%filmGrains.length],noise=n=>{const v=Math.sin(n*127.1+31.7)*43758.5453;return v-Math.floor(v)};
+ return <AbsoluteFill style={{pointerEvents:'none'}}>
+  <AbsoluteFill style={{inset:-10,backgroundImage:`url("${grain}")`,backgroundSize:'320px 320px',backgroundPosition:`${phase*79%320}px ${phase*131%320}px`,mixBlendMode:'soft-light',opacity:archive?.2:.145}}/>
+  <AbsoluteFill style={{background:'#100c08',opacity:.006+noise(phase)*.008}}/>
+  {phase%67<3?<svg viewBox="0 0 1440 2560" style={{position:'absolute',inset:0,width:'100%',height:'100%',opacity:archive?.15:.07}}><path d={`M ${90+noise(Math.floor(phase/67))*1250} -10 l -3 2580`} stroke="#e3d5b7" strokeWidth="1.5"/></svg>:null}
+  <svg viewBox="0 0 1440 2560" style={{position:'absolute',inset:0,width:'100%',height:'100%',opacity:archive?.2:.1}}>{[0,1,2].map(i=><ellipse key={i} cx={noise(phase*5+i)*1440} cy={noise(phase*9+i+5)*2560} rx={i?1.6:2.7} ry={i?3:1.5} fill="#dfcfad"/>)}</svg>
+ </AbsoluteFill>;
+}
 function WatchPatch({shot,frame}){
  const track=propTracks[shot.id];if(!track)return null;
  const t=(Math.round(shot.sourceStart*60)/60+frame/60*shot.playbackRate)*24,index=Math.max(0,Math.min(track.frames.length-1,t));
@@ -21,7 +31,7 @@ function Picture({shot}){
  let camera={};if(shot.id==='01'){const p=clamp((frame/60-.25)/1.45),e=1-(1-p)**3,scale=2.7-1.7*e,x=167/352*1440*(1-e)+720*e,y=425/640*2560*(1-e)+1280*e;camera={transformOrigin:'0 0',transform:`translate(${720-x*scale}px,${1280-y*scale}px) scale(${scale})`}}
  if(shot.id==='28'){const p=clamp((frame/60-.25)/2.75),e=p*p*(3-2*p),scale=1+1.7*e,x=720*(1-e)+190/352*1440*e,y=1280*(1-e)+165/640*2560*e;camera={transformOrigin:'0 0',transform:`translate(${720-x*scale}px,${1280-y*scale}px) scale(${scale})`}}
  return <AbsoluteFill style={{background:'#07090d'}}>
-  <AbsoluteFill style={camera}><AbsoluteFill style={{filter:shot.world==='PRESENT'?'saturate(.72) brightness(.9) contrast(1.05)':shot.id==='14'?'saturate(.65) brightness(.94) contrast(1.04)':'grayscale(1) sepia(.22) brightness(.95) contrast(1.04)'}}>{shot.available?<OffthreadVideo name={shot.id+' actual H3 animation'} src={file(shot.source,shot.version)} muted trimBefore={Math.round(shot.sourceStart*60)} playbackRate={shot.playbackRate} style={mediaStyle}/>:shot.imageAvailable?<Img src={file(shot.keyframe,shot.imageVersion)} style={mediaStyle}/>:<AbsoluteFill style={{justifyContent:'center',alignItems:'center',padding:100,color:'#e6d3b4',font:'500 48px Arial',textAlign:'center'}}>Scene{shot.id} · {shot.world}<br/>Artwork in production</AbsoluteFill>}{shot.available?<WatchPatch shot={shot} frame={frame}/>:null}</AbsoluteFill></AbsoluteFill>
+  <AbsoluteFill style={camera}><AbsoluteFill style={{filter:shot.world==='PRESENT'?'saturate(.58) sepia(.16) contrast(.95) brightness(.98)':shot.id==='14'?'saturate(.55) sepia(.12) contrast(.95) brightness(.96)':'grayscale(1) sepia(.28) contrast(.95) brightness(.96)'}}>{shot.available?<OffthreadVideo name={shot.id+' actual H3 animation'} src={file(shot.source,shot.version)} muted trimBefore={Math.round(shot.sourceStart*60)} playbackRate={shot.playbackRate} style={mediaStyle}/>:shot.imageAvailable?<Img src={file(shot.keyframe,shot.imageVersion)} style={mediaStyle}/>:<AbsoluteFill style={{justifyContent:'center',alignItems:'center',padding:100,color:'#e6d3b4',font:'500 48px Arial',textAlign:'center'}}>Scene{shot.id} · {shot.world}<br/>Artwork in production</AbsoluteFill>}{shot.available?<WatchPatch shot={shot} frame={frame}/>:null}</AbsoluteFill></AbsoluteFill>
   {shot.transitionIn==='ink-reveal'&&frame<18?<Ink amount={clamp(frame/16)} incoming/>:null}
   {shot.transitionOut==='ink-cover'&&frame>shot.durationFrames-20?<Ink amount={clamp((frame-shot.durationFrames+20)/17)}/>:null}
  </AbsoluteFill>;
@@ -35,11 +45,12 @@ function Word({spec,time}){
 export function TexasStepsEpisode({spec}){
  const frame=useCurrentFrame(),{fps}=useVideoConfig(),time=frame/fps;
  const [fontHandle]=useState(()=>delayRender('Casefile serif'));
- useEffect(()=>{document.fonts.load('600 92px CasefileSerif').then(()=>continueRender(fontHandle)).catch(cancelRender)},[fontHandle]);
+ useEffect(()=>{Promise.all([document.fonts.load('600 92px CasefileSerif'),...filmGrains.map(src=>{const img=new globalThis.Image();img.src=src;return img.decode()})]).then(()=>continueRender(fontHandle)).catch(cancelRender)},[fontHandle]);
  return <AbsoluteFill style={{background:'#07090d'}}>
   <style>{`@font-face{font-family:CasefileSerif;src:url('${staticFile(spec.font)}');font-weight:600;font-style:normal}`}</style>
   <Shot spec={spec} index={0}/><Shot spec={spec} index={1}/><Shot spec={spec} index={2}/><Shot spec={spec} index={3}/><Shot spec={spec} index={4}/><Shot spec={spec} index={5}/><Shot spec={spec} index={6}/><Shot spec={spec} index={7}/><Shot spec={spec} index={8}/><Shot spec={spec} index={9}/><Shot spec={spec} index={10}/><Shot spec={spec} index={11}/><Shot spec={spec} index={12}/><Shot spec={spec} index={13}/><Shot spec={spec} index={14}/><Shot spec={spec} index={15}/><Shot spec={spec} index={16}/><Shot spec={spec} index={17}/><Shot spec={spec} index={18}/><Shot spec={spec} index={19}/><Shot spec={spec} index={20}/><Shot spec={spec} index={21}/><Shot spec={spec} index={22}/><Shot spec={spec} index={23}/><Shot spec={spec} index={24}/><Shot spec={spec} index={25}/><Shot spec={spec} index={26}/><Shot spec={spec} index={27}/>
-  <AbsoluteFill style={{background:'radial-gradient(ellipse at 50% 46%,transparent 48%,rgba(5,8,16,.15) 100%)',pointerEvents:'none'}}/>
+  <AbsoluteFill style={{background:'radial-gradient(ellipse at 50% 46%,transparent 40%,rgba(5,8,16,.27) 100%)',pointerEvents:'none'}}/>
+  <FilmTexture frame={frame} archive={spec.shots.some(s=>s.world==='ARCHIVE'&&frame>=s.startFrame&&frame<s.startFrame+s.durationFrames)}/>
   {spec.audio?<Audio name="Continuous original performances and score" src={file(spec.audio,spec.audioVersion)} playbackRate={spec.audioPlaybackRate||1}/>:null}
   <Word spec={spec} time={time}/>
   {!spec.complete?<div style={{position:'absolute',top:38,left:45,right:45,padding:'15px 22px',background:'#0b1521dd',borderRadius:10,color:'#fff3dc',font:'500 30px Arial'}}>Episode2 production · {spec.readyCount}/28 animated · other scenes are labeled artwork</div>:null}
