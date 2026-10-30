@@ -1,48 +1,48 @@
 {
-  "duration": 111.88333333333334,
+  "duration": 112.38333333333334,
   "originalScore": true,
   "originalProceduralFoley": false,
   "recordedSamplesUsed": true,
-  "performanceVersion": 4,
+  "performanceVersion": 5,
   "voices": {
-    "banker": "User-selected audio.wav, local Qwen3-TTS cloning",
+    "banker": "User-selected audio.wav, local Qwen3-TTS cloning; subtle time-limited low-mid warmth and reduced upper presence for a more mysterious, serious tone. No pitch shift, modulation or added noise.",
     "javelina": "User-selected audio (1).wav, local Qwen3-TTS cloning",
-    "narrator": "Same selected Bird identity"
+    "narrator": "Same selected Bird identity and restrained mystery EQ"
   },
-  "footsteps": "CC0 Kenney surface-specific samples at selected native source contacts; foreground contacts louder than archive crowds.",
+  "footsteps": "CC0 Kenney surface-specific samples at selected native source contacts; foreground contacts louder than archive walkers.",
   "voiceTargetLufs": -18.5,
   "masterTargetLufs": -16,
   "truePeakCeilingDb": -1.5,
   "measuredVoiceBeforeMaster": {
-    "input_i": "-19.23",
-    "input_tp": "-0.16",
-    "input_lra": "4.20",
-    "input_thresh": "-29.87",
-    "output_i": "-18.92",
+    "input_i": "-18.76",
+    "input_tp": "-0.15",
+    "input_lra": "4.10",
+    "input_thresh": "-29.43",
+    "output_i": "-18.81",
     "output_tp": "-1.50",
-    "output_lra": "3.70",
-    "output_thresh": "-29.56",
+    "output_lra": "3.80",
+    "output_thresh": "-29.48",
     "normalization_type": "dynamic",
-    "target_offset": "0.42"
+    "target_offset": "0.31"
   },
   "measuredMixBeforeMaster": {
-    "input_i": "-18.52",
+    "input_i": "-18.53",
     "input_tp": "-4.37",
-    "input_lra": "3.60",
-    "input_thresh": "-29.47",
-    "output_i": "-16.11",
+    "input_lra": "3.70",
+    "input_thresh": "-29.50",
+    "output_i": "-16.05",
     "output_tp": "-1.50",
-    "output_lra": "3.60",
-    "output_thresh": "-27.06",
+    "output_lra": "3.70",
+    "output_thresh": "-27.03",
     "normalization_type": "dynamic",
-    "target_offset": "0.11"
+    "target_offset": "0.05"
   },
   "files": {
-    "fitted": "9075363379537b64514d25732f1e0139122090cdfc596eda76dd9fb047c053b5",
-    "voice": "e86eb645b206a61a7241926c958ff551d69352c33c68e54a6e1c326b60ab5413",
-    "score": "f6f6be4abc0713045f734b21c412e8b77d6131840607a32f6483bdb318e613f8",
-    "foley": "d465e3c0dddad3540b179910f6c49151c9ab84f6b675d479c02369722d0773f2",
-    "mix": "b7b83bb4f823cd54d0f312aba1e79a46728afbc28baaf894729f1a10a5377309"
+    "fitted": "e792d74330e191c3d3059a1af3e513ca3740ecde8b098f02a240085c3e9c8f3a",
+    "voice": "9b5789b15186225d0af542787ccba54f607cf901c01ea5ecf382dcdabc16139d",
+    "score": "dac6d725abc133efa4ce402876c8f3b29352d12d394ee4b5509b483d34107055",
+    "foley": "110f405ceb4e6225a76cd7f14dbbea81eaebad59257d32a1dd22ae6d1429e202",
+    "mix": "370460011ed736ffc3cf3bce548de491bd94094dc9fd336d9e97e0caa21aa069"
   },
   "events": [
     {
@@ -493,7 +493,7 @@
     },
     {
       "type": "original synthesized guitar-like pluck",
-      "at": 110.38333333333334,
+      "at": 110.88333333333334,
       "freq": 293.6648,
       "gain": 0.009
     },
@@ -749,7 +749,7 @@
     },
     {
       "type": "wooden-boardwalk foot contact",
-      "at": 109.44302069976186,
+      "at": 109.57697380472614,
       "length": 0.27139583333333334,
       "gain": 0.1,
       "pan": -0.14,
@@ -759,7 +759,7 @@
     },
     {
       "type": "wooden-boardwalk foot contact",
-      "at": 110.31314343286316,
+      "at": 110.57761494779264,
       "length": 0.24866666666666667,
       "gain": 0.1,
       "pan": 0.14,
@@ -769,7 +769,7 @@
     },
     {
       "type": "wooden-boardwalk foot contact",
-      "at": 111.22906209928558,
+      "at": 111.63092141417842,
       "length": 0.2485,
       "gain": 0.1,
       "pan": -0.14,
@@ -899,7 +899,7 @@
     },
     {
       "type": "gloves / clothing movement",
-      "at": 109.07665323319289,
+      "at": 109.15565121817183,
       "length": 0.6610416666666666,
       "gain": 0.04,
       "pan": -0.08,
@@ -1152,7 +1152,7 @@
     {
       "type": "original continuous town / outdoor wind bed",
       "at": 0,
-      "length": 111.88333333333334,
+      "length": 112.38333333333334,
       "gain": 0.018,
       "license": "Original studio synthesis"
     },
@@ -1253,5 +1253,5 @@
       "gain": 0.012
     }
   ],
-  "review": "Numerical mastering and original cue preparation; listening/subjective voice and mouth synchronization reviews remain separate."
+  "review": "Numerical mastering and original cue preparation; subjective voice and mouth synchronization review remains separate."
 }

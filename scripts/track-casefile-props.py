@@ -16,11 +16,16 @@ project = sys.argv[1]
 if not __import__('re').fullmatch(r'[a-z0-9-]+',project): raise ValueError('Safe project ID required')
 FOLDER = ROOT / 'projects' / project
 settings = json.loads((FOLDER / 'TRACKING.json').read_text(encoding='utf-8'))
-selected = set(sys.argv[2:])
+args = sys.argv[2:]
+selected = {a for a in args if not a.startswith('--')}
+suffix = next((a.split('=',1)[1] for a in args if a.startswith('--source-suffix=')), '')
+out_name = next((a.split('=',1)[1] for a in args if a.startswith('--output-folder=')), 'assets/tracking')
+out = FOLDER / out_name
+out.mkdir(parents=True, exist_ok=True)
 for cfg in settings['shots']:
     if selected and cfg['id'] not in selected:
         continue
-    source = FOLDER / 'assets/shots' / (cfg['id'] + '-h3.mp4')
+    source = FOLDER / 'assets/shots' / (cfg['id'] + suffix + '.mp4')
     if not source.exists():
         print('Not generated yet:', cfg['id'])
         continue
@@ -88,6 +93,5 @@ for cfg in settings['shots']:
             break
     capture.release()
     record={'id':cfg['id'],'kind':cfg['kind'],'width':width,'height':height,'fps':24,'sourceHash':hashlib.sha256(source.read_bytes()).hexdigest(),'configuration':cfg,'method':'CPU pyramidal Lucas-Kanade optical flow, forward/backward rejection and affine RANSAC; native-frame numeric metadata only','frames':frames,'review':'Tracking estimated; graphic alignment must be visually inspected before delivery'}
-    out=FOLDER/'assets/tracking';out.mkdir(parents=True,exist_ok=True)
     (out/(cfg['id']+'.json')).write_text(json.dumps(record,indent=2)+'\n',encoding='utf-8')
     print(f"Tracked {cfg['id']}: {count} frames, {sum(f['confidence']<.5 for f in frames)} weak frames, end {moved_center[:2]}",flush=True)

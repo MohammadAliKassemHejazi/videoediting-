@@ -11,23 +11,25 @@ const copy=(source,target)=>{const version=hash(source);if(!existsSync(target)||
 function sync(){
  const spec=JSON.parse(readFileSync(join(folder,'editorial.json'),'utf8')),tracks={};
  for(const shot of spec.shots){
-  const image=join(folder,'assets/keyframes',shot.id+'.png'),video=join(folder,'assets/shots',shot.id+'-h3.mp4'),record=join(folder,'assets/shots',shot.id+'-generation.json');
+  const take=shot.previewTake||shot.id,videoName=shot.previewTake?take+'.mp4':take+'-h3.mp4';
+  const image=join(folder,'assets/keyframes',shot.id+'.png'),video=join(folder,'assets/shots',videoName),record=join(folder,'assets/shots',take+'-generation.json');
   shot.imageAvailable=existsSync(image);if(shot.imageAvailable)shot.imageVersion=copy(image,join(pub,shot.keyframe));
   shot.available=existsSync(video)&&existsSync(record);shot.sourceWidth=352;shot.sourceHeight=640;shot.enhanced=false;
-  if(shot.available)shot.version=copy(video,join(pub,shot.source));
-  const trackFile=join(folder,'assets/tracking',shot.id+'.json');if(shot.available&&existsSync(trackFile)){const track=JSON.parse(readFileSync(trackFile,'utf8'));if(track.sourceHash!==hash(video))throw Error('Stale prop track '+shot.id);if(track.configuration.enabled!==false)tracks[shot.id]=track}
-  const dir=join(ROOT,'.cache',project,'enhancement'),infoFile=join(dir,shot.id+'-enhancement.json'),enhanced=join(dir,shot.id+'-x4.mp4');
+  if(shot.available){shot.source=project+'/shots/'+videoName;shot.version=copy(video,join(pub,shot.source))}
+  const trackFile=shot.previewTrack===false?null:join(folder,'assets/tracking',shot.previewTrack||`${shot.id}.json`);if(shot.available&&trackFile&&existsSync(trackFile)){const track=JSON.parse(readFileSync(trackFile,'utf8'));if(track.sourceHash!==hash(video))throw Error('Stale prop track '+shot.id);if(track.configuration.enabled!==false)tracks[shot.id]=track}
+  const dir=join(ROOT,'.cache',project,'enhancement'),enhancementId=shot.previewTake?take:shot.id,infoFile=join(dir,enhancementId+'-enhancement.json'),enhanced=join(dir,enhancementId+'-x4.mp4');
   if(shot.available&&existsSync(infoFile)&&existsSync(enhanced)){
    const info=JSON.parse(readFileSync(infoFile,'utf8'));if(info.input.sourceHash!==hash(video)||info.outputHash!==hash(enhanced))throw Error('Stale enhancement '+shot.id);
-   shot.source=project+'/shots/'+shot.id+'-x4.mp4';shot.version=copy(enhanced,join(pub,shot.source));shot.enhanced=true;shot.sourceWidth=info.metadata.width;shot.sourceHeight=info.metadata.height;
+   shot.source=project+'/shots/'+enhancementId+'-x4.mp4';shot.version=copy(enhanced,join(pub,shot.source));shot.enhanced=true;shot.sourceWidth=info.metadata.width;shot.sourceHeight=info.metadata.height;
   }
  }
  copy(join(ROOT,'node_modules/@fontsource/source-serif-4/files/source-serif-4-latin-600-normal.woff2'),join(pub,spec.font));
  const audio=join(ROOT,'story-projects',project,'assets'),mix=join(audio,'mix.wav'),raw=join(audio,'narration.raw.wav'),fitted=join(audio,'narration.wav');
  spec.audioMasterReady=existsSync(mix);
- if(spec.audioMasterReady){spec.audio=project+'/audio/mix.wav';spec.audioPlaybackRate=1;spec.audioVersion=copy(mix,join(pub,spec.audio))}
- else if(existsSync(fitted)){spec.audio=project+'/audio/narration.wav';spec.audioPlaybackRate=1;spec.audioVersion=copy(fitted,join(pub,spec.audio))}
- else if(existsSync(raw)){spec.audio=project+'/audio/narration.raw.wav';spec.audioPlaybackRate=spec.voiceSpeed;spec.audioVersion=copy(raw,join(pub,spec.audio))}
+ const globalRate=spec.globalPlaybackRate||1;
+ if(spec.audioMasterReady){spec.audio=project+'/audio/mix.wav';spec.audioPlaybackRate=globalRate;spec.audioVersion=copy(mix,join(pub,spec.audio))}
+ else if(existsSync(fitted)){spec.audio=project+'/audio/narration.wav';spec.audioPlaybackRate=globalRate;spec.audioVersion=copy(fitted,join(pub,spec.audio))}
+ else if(existsSync(raw)){spec.audio=project+'/audio/narration.raw.wav';spec.audioPlaybackRate=(spec.voiceSpeed||1)*globalRate;spec.audioVersion=copy(raw,join(pub,spec.audio))}
  spec.readyCount=spec.shots.filter(s=>s.available).length;spec.complete=spec.readyCount===spec.shots.length;
  const next=JSON.stringify(spec,null,2)+'\n';if(!existsSync(manifest)||readFileSync(manifest,'utf8')!==next){writeFileSync(manifest,next);console.log('Episode2 preview updated: '+spec.readyCount+'/'+spec.shots.length+' actual animated shots')}
  const trackPath=join(ROOT,'remotion/texas-steps-tracks.json'),serialized=JSON.stringify(tracks,null,2)+'\n';if(!existsSync(trackPath)||readFileSync(trackPath,'utf8')!==serialized)writeFileSync(trackPath,serialized);

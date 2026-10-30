@@ -1,4 +1,40 @@
-# Preview-only checkpoint — 2026-10-27
+# Latest preview checkpoint — 2026-10-28
+
+CURRENT V9 READY: first15seconds and final15seconds are each one continuous
+362-frame H3 scene, regenerated with actual final-speed dialogue as audio guides.
+The opening has explicit Bird/Javelina speaker turns. The ending now uses the
+same clear front-facing Javelina image as the opening, replacing the old distant
+rear-view reference. Native contact frames and actual Studio frames were checked
+for identity and visible articulation; no phoneme-perfect/listening claim.
+V8's connected action-sound master with53 cues, FHD1080×1920,1.1× speech,
+102.167s duration, captions and middle shots are retained. Read EDIT_V9.md and
+PREVIEW_V9_STATUS.json. User preview/listening approval remains pending.
+The GPU engine8189 has been stopped; Remotion3002 remains live. No export is
+authorized. Older notes below are historical, including the abandoned earlier
+short lip-sync experiment and V7 four-second-only bookends.
+
+CURRENT: Episode2 V7 live at `http://localhost:3002/texas-ten-thousand-steps`.
+Portrait FHD1080×1920,60fps,102.167s, complete soundtrack at1.1x;28/28 actual
+animated shots. V7 replaced only opening shot01 and ending shot28 with one
+continuous H3-generated scene apiece, both including the recurring Bird and
+Javelina. The middle shots02–27 and current audio mix match the V6 baseline.
+The user asked to inspect the updated opening and ending personally; no final
+V7 visual check or MP4 export was performed. Wait for feedback and do not render
+unless the user approves this current version and explicitly requests export.
+V6 files are preserved under `projects/texas-ten-thousand-steps/versions/v6-before-v7-bookends`.
+The local H3 GPU engine has been stopped; only the user's Remotion preview3002 is
+running. The interrupted lip-sync experiment is abandoned; do not resume it.
+
+# Prior preview checkpoint — 2026-10-27
+
+LATEST POLISH — 2026-10-28: Opening shot01 watch display is intentionally blank;
+later numbered watch shots and spoken script remain. Fixed an ASR timestamp-scale
+bug by explicitly resampling inputs to16kHz. All255 canonical caption words now
+stay within their shots; QC rejects invalid intervals. Added0.5s final hold so
+the question completes before the fade. Current duration112.383333s. Read
+projects/texas-ten-thousand-steps/OPENING_POLISH.md. Prior V4 notes below describe
+the earlier111.883s checkpoint. User preview/listening approval and export request
+are still required; no MP4 export has run. Live preview remains port3002.
 
 CURRENT V4 PREVIEW READY: User supplied series/texas-casefiles/audio.wav
 for Bird and audio (1).wav for Javelina. Short references transcribed locally in

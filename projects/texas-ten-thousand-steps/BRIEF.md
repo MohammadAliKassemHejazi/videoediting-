@@ -1,5 +1,18 @@
 # Episode2 — Who Chose10,000 Steps?
 
+CURRENT V9: first15seconds and final15seconds are each one continuous H3 scene
+with both characters, actual final-speed dialogue guides and visible mouth/beak
+articulation. Both scenes use the same clear front-facing Javelina reference;
+the ending's older distant back-view source is superseded. Preserve the middle,
+V8 action-sound master, FHD1080×1920,60fps and1.1× speech timing. User reinstated
+mouth movement after the earlier request to stop lip-sync work. No export yet.
+
+Latest direction, 2026-10-28: remove the number from the opening watch display
+(shot01 only), keeping its case, strap and acting. The spoken number and later
+watch shots remain. Current voices are the user's selected WAV references via
+Qwen3-TTS Base; the original stock-voice notes below are historical. Preview first:
+no video export until the user likes the creative version and requests export.
+
 The user supplied the110.27s vertical reference video whose filename begins
 “Ten thousand steps a day” and requested the same continuous investigative story
 with this channel's Javelina and Vulture Banker. This is authorized production,
@@ -38,14 +51,13 @@ research. Do not claim the Texas setting is actual Tokyo or genuine footage.
 No forged studies, quotations, statistics or report pages. Black ink wipes connect
 the worlds, with matching props/motion; sound and captions continue across cuts.
 
-Narrator and Vulture Banker: local Kokoro am_michael, measured and serious.
-Javelina: am_puck, softer. These are stock synthetic presets, not clones of real
-people or of the reference voices. The user's later request for speaking lips
-supersedes the earlier silent-animation restriction. Shots 01–06 and 28 use exact
-source-speech guides with H3's audio VAE and AddGuide. Only the dialogue speaker
-articulates; offscreen narration leaves visible listeners silent. Voice, captions
-and original sound are assembled later. Mouth movement is reviewed separately
-from listening and precise phoneme synchronization; no perfect lip-sync is claimed.
+Bird and Javelina use the user's selected voice references, generated locally
+through Qwen3-TTS Base; the selected dialogue and sound mix are assembled in the
+master edit. The user has requested new single-shot bookends and said to stop
+lip-sync work. V7 shots01 and28 are fresh silent H3 I2V animation takes with both
+characters present; the existing final voice/audio mix is laid over them in
+Remotion. Do not describe those bookends as lip-synced. User will review the new
+bookends in the live preview.
 
 Reference transcription is a local browser/WASM estimate, corrected against
 the actual imagery and primary sources. See reference/source.json,

@@ -2,20 +2,23 @@
   "id": "texas-ten-thousand-steps",
   "kind": "casefile-story",
   "title": "WHO CHOSE 10,000 STEPS? — EPISODE2",
-  "duration": 111.88333333333334,
+  "duration": 102.16666666666667,
   "series": "texas-casefiles",
   "composition": "texas-ten-thousand-steps",
   "previewOrigin": "http://localhost:3002",
-  "style": "Continuous Texas cartoon investigation: watch argument, sepia history, adult evidence and a character payoff; serious bird voice, softer Javelina and audio-guided speaking takes. Old-cinema matte grade, film grain/dust and gentle exposure variation.",
-  "status": "V4 selected-voice and scene-sound preview. Export stopped pending user approval.",
+  "style": "Full-color PRESENT world, sepia ARCHIVE story world, original motion and caption rhythm at 1.1x, portrait Full HD 1080x1920. New single-shot two-character opening and ending; middle edit preserved.",
+  "status": "V9: continuous15-second speaking bookends and matching Javelina reference; user review pending.",
   "thumbnail": {
     "file": "assets/thumbnail.png",
     "landscape": "assets/covers/youtube.png"
   },
   "export": {
-    "width": 1440,
-    "height": 2560,
+    "width": 1080,
+    "height": 1920,
     "fps": 60
   },
-  "sourceLimit": "352x640/24fps native local H3; enhanced/upscaled2K60 delivery repeats source poses."
+  "sourceLimit": "352x640/24fps native local H3; preview takes are spatially enhanced. Final FHD 1080x1920/60fps export requires explicit user request.",
+  "width": 1080,
+  "height": 1920,
+  "fps": 60
 }

@@ -1,12 +1,13 @@
 """Local word timing and transcript sanity checks for selected-voice lines."""
 from pathlib import Path
 from difflib import SequenceMatcher
-import json, re, os
+import json, re, os, math, shutil
 ROOT = Path(__file__).resolve().parents[1]
 os.environ['HF_HOME'] = str(ROOT/'.cache/huggingface-voices')
 os.environ['HF_HUB_OFFLINE'] = '1'
 import torch
 import soundfile as sf
+from scipy.signal import resample_poly
 from transformers import pipeline
 torch.set_num_threads(3)
 folder = ROOT/'story-projects/texas-ten-thousand-steps/assets/selected-voices'
@@ -20,13 +21,19 @@ results = []
 for wav in sorted(folder.glob('*.wav')):
     meta = json.loads(wav.with_suffix('.json').read_text(encoding='utf-8'))
     dest = wav.with_suffix('.alignment.json')
-    if dest.exists() and json.loads(dest.read_text())['sourceSHA256'] == meta['sha256']:
+    if dest.exists() and json.loads(dest.read_text()).get('alignmentVersion') == 2 and json.loads(dest.read_text())['sourceSHA256'] == meta['sha256']:
         cached = json.loads(dest.read_text())
         cached['characterAgreement'] = SequenceMatcher(None,normal(cached['expected']),normal(cached['recognized']),autojunk=False).ratio()
         dest.write_text(json.dumps(cached,indent=2)+'\n',encoding='utf-8')
         results.append(cached); continue
     audio, sr = sf.read(wav, dtype='float32')
-    result = asr({'raw':audio,'sampling_rate':sr}, return_timestamps='word')
+    # Explicit 16 kHz input avoids the pipeline's original-rate timestamp scale.
+    divisor = math.gcd(sr,16000)
+    input_audio = resample_poly(audio,16000//divisor,sr//divisor).astype('float32')
+    result = asr({'raw':input_audio,'sampling_rate':16000}, return_timestamps='word')
+    if dest.exists():
+        backup=folder/'alignment-before-16khz';backup.mkdir(exist_ok=True)
+        if not (backup/dest.name).exists(): shutil.copy2(dest,backup/dest.name)
     expected, actual = meta['text'].split(), result['chunks']
     norm_expected, norm_actual = [normal(w) for w in expected], [normal(w['text']) for w in actual]
     sequence = SequenceMatcher(None,norm_expected,norm_actual,autojunk=False)
@@ -52,7 +59,9 @@ for wav in sorted(folder.glob('*.wav')):
         start = float(start or 0); end = float(end if end is not None else len(audio)/sr)
         words.append({'text':word,'start':start,'end':max(start+.02,end)})
     ratio = SequenceMatcher(None,normal(meta['text']),normal(result['text']),autojunk=False).ratio()
-    record = {'id':wav.stem,'sourceSHA256':meta['sha256'],'expected':meta['text'],'recognized':result['text'].strip(),'characterAgreement':ratio,'words':words,'method':'Local Whisper word estimates mapped to canonical script, including interpolation for ASR differences. Not a phoneme alignment or listening review.'}
+    if any(w['start'] >= len(audio)/sr+.04 or w['end'] > len(audio)/sr+.12 for w in words):
+        raise RuntimeError('ASR timestamps exceed source audio: '+wav.stem)
+    record = {'id':wav.stem,'alignmentVersion':2,'sourceSHA256':meta['sha256'],'expected':meta['text'],'recognized':result['text'].strip(),'characterAgreement':ratio,'words':words,'method':'Local Whisper on explicitly resampled 16kHz input, mapped to canonical words with interpolation for ASR differences. Not a phoneme alignment or listening review.'}
     dest.write_text(json.dumps(record,indent=2)+'\n',encoding='utf-8');results.append(record)
     print(wav.stem+' / '+str(round(ratio,3))+' / '+result['text'].strip(),flush=True)
 (folder/'ALIGNMENT_SUMMARY.json').write_text(json.dumps({'lines':results,'minimumAgreement':min(r['characterAgreement'] for r in results),'listeningReview':'Pending'},indent=2)+'\n',encoding='utf-8')

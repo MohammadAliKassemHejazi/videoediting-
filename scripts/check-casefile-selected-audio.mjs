@@ -5,7 +5,8 @@ import {FFMPEG,duration} from '../lib/ffmpeg.mjs';
 const project='texas-ten-thousand-steps',folder='story-projects/'+project+'/assets/',spec=JSON.parse(readFileSync('projects/'+project+'/editorial.json','utf8')),sound=JSON.parse(readFileSync(folder+'SOUND_EVENTS.json','utf8'));
 if(spec.performanceVersion!==4||sound.performanceVersion!==4)throw Error('Wrong performance version');
 let end=0;for(const shot of spec.shots){if(shot.startFrame!==end)throw Error('Timeline gap');end+=shot.durationFrames}
-if(Math.abs(end/60-spec.duration)>.001||spec.words.length!==255||spec.words.some(w=>!Number.isFinite(w.start)||w.start<0||w.end>w.start+10||w.end>spec.duration+.02))throw Error('Word/timeline validation failed');
+if(Math.abs(end/60-spec.duration)>.001||spec.words.length!==255||spec.words.some((w,i)=>!Number.isFinite(w.start)||!Number.isFinite(w.end)||w.start<0||w.end<=w.start||w.end>w.start+10||w.end>spec.duration+.02||(i>0&&w.start<spec.words[i-1].start-.001)))throw Error('Word/timeline validation failed');
+for(const shot of spec.shots)for(const w of spec.words.slice(shot.wordFrom,shot.wordTo))if(w.start<shot.startFrame/60-.001||w.end>(shot.startFrame+shot.durationFrames)/60+.001)throw Error('Caption crosses its shot: '+shot.id);
 for(const cue of sound.events){
  if(cue.at<0||cue.at>=spec.duration)throw Error('Out-of-film cue '+cue.type);
  if(cue.source&&(!existsSync(cue.source)||createHash('sha256').update(readFileSync(cue.source)).digest('hex')!==cue.sha256||cue.license!=='CC0-1.0'))throw Error('Sample provenance failed');

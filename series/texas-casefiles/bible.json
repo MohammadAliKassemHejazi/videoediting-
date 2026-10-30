@@ -1,5 +1,16 @@
 {
   "id": "texas-casefiles",
+  "futureEpisodeStructure": {
+    "effectiveFrom": "Episodes created after texas-ten-thousand-steps; do not revise that episode under this rule",
+    "openingSeconds": 15,
+    "endingSeconds": 15,
+    "timingBasis": "Exactly 15 seconds each on the finished playback timeline, after speed changes",
+    "characterAppearance": "Javelina and Bird appear together only in the opening and ending; neither recurring character appears visually in the middle",
+    "openingAndEnding": "One continuous scene each with purposeful camera movement and acting; no internal cuts, split screens or loops",
+    "middle": "Topic-specific storytelling, evidence, demonstrations and other relevant visuals; recurring narration voices may continue",
+    "continuity": "Preserve approved character designs and voices; create fresh staging and action per episode rather than reusing identical footage",
+    "details": "series/texas-casefiles/FORMAT_RULES.md"
+  },
   "workingTitle": "Texas Casefiles",
   "channelNameApproved": false,
   "purpose": "Recurring original YouTube mystery and myth-investigation cartoon series",

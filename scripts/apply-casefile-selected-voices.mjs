@@ -21,13 +21,24 @@ for(const shot of spec.shots){
  // Preserve room for physical reactions; extend a shot rather than over-speed
  // the selected voice. No pitch or tremolo transform is applied.
  const raw=duration(wav),oldLength=shot.durationFrames/60,role=shot.speaker||'narrator';
- const frames=Math.max(shot.durationFrames,Math.ceil((raw/1.18+.06)*60));
+ const frames=Math.max(shot.durationFrames,Math.ceil((raw/1.18+.06)*60))+(shot.id==='28'?30:0);
  const length=frames/60,tempo=Math.max(.96,Math.min(1.18,raw/Math.max(.2,length-.07)));
  shot.startFrame=frame;shot.durationFrames=frames;shot.playbackRate=shot.sourcePlaybackDuration/length;frame+=frames;
  const filter=`atempo=${tempo},afade=t=in:d=0.004,afade=t=out:st=${Math.max(0,raw/tempo-.008)}:d=0.008,apad,atrim=duration=${length}`;
  await ffmpeg(['-threads','2','-i',wav,'-filter_threads','1','-af',filter,'-ar','48000','-ac','1','-c:a','pcm_s16le',join(work,shot.id+'.wav')]);
  const wordFrom=words.length;
- for(const w of align.words)words.push({...w,start:shot.startFrame/60+w.start/tempo,end:Math.min(frame/60,shot.startFrame/60+w.end/tempo),speaker:role});
+ if(align.alignmentVersion!==2)throw Error('Explicit 16kHz alignment required for '+shot.id);
+ for(const w of align.words){
+  const start=shot.startFrame/60+w.start/tempo,end=Math.min(frame/60,shot.startFrame/60+w.end/tempo);
+  if(!Number.isFinite(start)||!Number.isFinite(end)||end<=start||start<shot.startFrame/60)throw Error('Invalid word timing in '+shot.id+': '+w.text);
+  words.push({...w,start,end,speaker:role});
+ }
+ // ASR can assign two adjacent words the same onset. Give the short first
+ // word a readable interval when the following word has enough room.
+ for(let j=wordFrom;j<words.length-1;j++){
+  const current=words[j],next=words[j+1];
+  if(next.start-current.start<.06&&next.end-current.start>=.14){current.end=current.start+.07;next.start=current.end}
+ }
  shot.wordFrom=wordFrom;shot.wordTo=words.length;
  map.push({id:shot.id,role,oldStart,newStart:shot.startFrame/60,duration:length,rawVoiceDuration:raw,tempo,pitchSemitones:0,sourceSHA256:hash});
 }

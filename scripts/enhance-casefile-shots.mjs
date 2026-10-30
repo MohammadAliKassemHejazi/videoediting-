@@ -10,7 +10,7 @@ const folder=join(ROOT,'projects',project),cache=join(ROOT,'.cache',project,'enh
 const manifest=JSON.parse(readFileSync(join(folder,'FINISHING_TOOLS.json'),'utf8')),plan=JSON.parse(readFileSync(join(folder,'production-scenes.json'),'utf8'));
 const hash=file=>createHash('sha256').update(readFileSync(file)).digest('hex');
 for(const [file,expected]of Object.entries(manifest.files))if(hash(join(bin,file))!==expected)throw Error('Enhancer hash mismatch '+file);
-const selected=process.argv.slice(3).filter(x=>/^\d{2}$/.test(x)),ids=selected.length?selected:plan.scenes.map(s=>s.id);
+const selected=process.argv.slice(3).filter(x=>/^[a-z0-9-]+$/i.test(x)),ids=selected.length?selected:plan.scenes.map(s=>s.id);
 mkdirSync(cache,{recursive:true});const lock=join(ROOT,'.cache/render.lock'),fd=openSync(lock,'wx');writeFileSync(fd,String(process.pid));
 try{
  const q=await(await fetch('http://127.0.0.1:8189/queue')).json();if(q.queue_running.length||q.queue_pending.length)throw Error('H3 queue still active');
@@ -21,7 +21,7 @@ try{
  for(const dir of [input,images])for(const f of readdirSync(dir,{withFileTypes:true}))if(!f.isFile()||!/^\d{8}\.png$/.test(f.name))throw Error('Unexpected file in rebuildable frame pool');
  for(const id of ids){
   const disk=statfsSync(ROOT);if(Number(disk.bavail)*Number(disk.bsize)<3*1024**3)throw Error('Keep3GiB free before enhancement; originals preserved');
-  const source=join(folder,'assets/shots',id+'-h3.mp4'),record=join(cache,id+'-enhancement.json'),output=join(cache,id+'-x4.mp4');
+  const source=join(folder,'assets/shots',/^\d{2}-v[0-9]/.test(id)?id+'.mp4':id+'-h3.mp4'),record=join(cache,id+'-enhancement.json'),output=join(cache,id+'-x4.mp4');
   const signature={sourceHash:hash(source),toolsHash:hash(join(folder,'FINISHING_TOOLS.json')),generatorHash:hash(new URL(import.meta.url)),settings:manifest.settings};
   if(existsSync(output)){
    if(existsSync(record)&&JSON.stringify(JSON.parse(readFileSync(record,'utf8')).input)===JSON.stringify(signature)){console.log('Already enhanced '+id);continue}

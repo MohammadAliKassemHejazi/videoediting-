@@ -1,5 +1,11 @@
 ﻿# Tech Video Studio
 
+For Texas Casefiles episodes after `texas-ten-thousand-steps`, follow
+`series/texas-casefiles/FORMAT_RULES.md`: Javelina and Bird appear together only
+in one continuous15-second opening and one continuous15-second ending, measured
+on the finished playback timeline. Neither appears visually in the middle.
+This is a future-episode rule; do not revise the current episode under it.
+
 Use `.claude/skills/video-editor/SKILL.md` for video, stories, animation, audio and
 covers. It selects relevant skills and records their actual use. The dedicated
 project agent is `video-editor`.
